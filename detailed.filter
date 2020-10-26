@@ -4,7 +4,7 @@
 // |     Made By: @WolfieeifloW#6431                                            |
 // |     Thanks to @Sawyer#5623 for reference material                          |
 // |                                                                            |
-// |     Last Modified: October 23, 2020                                        |
+// |     Last Modified: October 26, 2020                                        |
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 //
@@ -4330,15 +4330,15 @@ ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) amc]: %GRA
 // You can also use these lines to completely hide items. Just put "//" in between "]:" and "{%" (eg "...]: //{%")
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 TABSK2>2 ZON SPEAR]: {%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 TABSK2>2 ZON SPEAR]: {%ORANGE%Stength, Wind} // 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 TABSK2>2 ZON SPEAR]: {%ORANGE%Plague, Venom%NL%Fury, Malice,} // 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 TABSK2>2 ZON SPEAR]: {%ORANGE%Passion, Phoenix%NL%Fortitude, HoJ,} // 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 TABSK2>2 ZON SPEAR]: {%ORANGE%Call to Arms, Eternity, Honor} // 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 TABSK2>2 ZON SPEAR]: {%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,} // 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 TABSK2>2 ZON SPEAR]: {%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,} // 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 TABSK2>2 ZON SPEAR]: {%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,} // 5os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 TABSK2>2 ZON SPEAR]: {%ORANGE%Breath of the Dying, Silence} // 6os
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 TABSK2>2 ZON SPEAR]: {%TAN%Larzuk for sockets} // Superior, 0os
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 TABSK2>2 ZON SPEAR]: {%ORANGE%Stength, Wind} // Superior, 2os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 TABSK2>2 ZON SPEAR]: {%ORANGE%Plague, Venom%NL%Fury, Malice,} // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 TABSK2>2 ZON SPEAR]: {%ORANGE%Passion, Phoenix%NL%Fortitude, HoJ,} // Superior, 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 TABSK2>2 ZON SPEAR]: {%ORANGE%Call to Arms, Eternity, Honor} // Superior, 5os
+ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 TABSK2>2 ZON SPEAR]: {%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,} // Superior, 3os
+ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 TABSK2>2 ZON SPEAR]: {%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,} // Superior, 4os
+ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 TABSK2>2 ZON SPEAR]: {%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,} // Superior, 5os
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 TABSK2>2 ZON SPEAR]: {%ORANGE%Breath of the Dying, Silence} // Superior, 6os
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 TABSK2>2 ZON SPEAR]: {%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Eth, 0os
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 TABSK2>2 ZON SPEAR]: {%ORANGE%Eternity} // Eth, 5os
