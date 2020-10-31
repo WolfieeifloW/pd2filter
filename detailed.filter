@@ -4,7 +4,7 @@
 // |     Made By: @WolfieeifloW#6431                                            |
 // |     Thanks to @Sawyer#5623 for reference material                          |
 // |                                                                            |
-// |     Last Modified: October 26, 2020                                        |
+// |     Last Modified: October 31, 2020                                        |
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 //
@@ -42,8 +42,7 @@
 // |     TO-DO LIST                                                             |
 // |                                                                            |
 // +----------------------------------------------------------------------------+
-// - PD2 item ID's
-// - Check QTY lines for runes work
+// - Item code for "Imbue Random Rarity (Demonic Cube)"?
 //
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -66,24 +65,24 @@
 // |      [QIOR] Pandemonium Organs          |         [UCAS] Assassin                 |         [SICB] Cleglaw's Brace          |         [RCAM] Amazon                   |
 // |   [PD2N] Corruption & Map Items         |         [UCBA] Barbarian                |         [SIDD] Death's Disguise         |         [RCAS] Assassin                 |
 // |      [CORR] Corruption Items            |         [UCDR] Druid                    |         [SIHD] Hsarus' Defense          |         [RCBA] Barbarian                |
-// |      [MAPS] Map Items                   |         [UCNE] Necromancer              |         [SIIT] Infernal Tools           |         [RCDR] Druid                    |
-// |   [GEMS] Gems                           |         [UCPA] Paladin                  |         [SIIF] Iratha's Finery          |         [RCNE] Necromancer              |
-// |      [GEMA] Gems Master                 |         [UCSO] Sorceress                |         [SIIA] Isenhart's Armory        |         [RCPA] Paladin                  |
-// |      [GEAM] Amethyst                    |      [UIUA] Unique Armor                |         [SIMR] Milabrega's Regalia      |         [RCSO] Sorceress                |
-// |      [GEDI] Diamond                     |         [UAAR] Armor                    |         [SISC] Sigon's Complete Steel   |      [RIUA] Rare Armor                  |
-// |      [GEEM] Emerald                     |         [UABE] Belts                    |         [SITB] Tancred's Battlegear     |         [RAAR] Armor                    |
-// |      [GERU] Ruby                        |         [UABO] Boots                    |         [SIVR] Vidala's Rig             |         [RABE] Belts                    |
-// |      [GESA] Sapphire                    |         [UAGL] Gloves                   |      [SIES] Exceptional/Elite Sets      |         [RABO] Boots                    |
-// |      [GESK] Skull                       |         [UAHE] Helms                    |         [SIAW] Aldur's Watchtower       |         [RAGL] Gloves                   |
-// |      [GETO] Topaz                       |         [UASH] Shields                  |         [SIBK] Bul-Kathos' Children     |         [RAHE] Helms                    |
-// |   [RUNS] Runes                          |      [UIUW] Unique Weapons              |         [SICK] Cow King's Leathers      |         [RASH] Shields                  |
-// |      [RUMA] Rune Map Icons              |         [UWAX] Axes                     |         [SITD] The Disciple             |      [RIUW] Rare Weapons                |
-// |      [RUDE] Rune Descriptions           |         [UWBO] Bows                     |         [SIGL] Griswold's Legacy        |         [RWAX] Axes                     |
-// |         [RULO] Low Runes                |         [UWCR] Crossbows                |         [SIHB] Heaven's Brethren        |         [RWBO] Bows                     |
-// |         [RUMI] Mid Runes                |         [UWDA] Daggers                  |         [SIHM] Hwanin's Majesty         |         [RWCR] Crossbows                |
-// |         [RUHI] High Runes               |         [UWJA] Javelins                 |         [SIIK] Immortal King            |         [RWDA] Daggers                  |
-// |   [BASI] Item Basics                    |         [UWMA] Maces                    |         [SIMB] M'avina's Battle Hymn    |         [RWJA] Javelins                 |
-// |                                         |         [UWPO] Polearms                 |         [SINO] Natalya's Odium          |         [RWMA] Maces                    |
+// |      [MAPI] Map Items                   |         [UCNE] Necromancer              |         [SIIT] Infernal Tools           |         [RCDR] Druid                    |
+// |      [MAPS] Maps                        |         [UCPA] Paladin                  |         [SIIF] Iratha's Finery          |         [RCNE] Necromancer              |
+// |   [GEMS] Gems                           |         [UCSO] Sorceress                |         [SIIA] Isenhart's Armory        |         [RCPA] Paladin                  |
+// |      [GEMA] Gems Master                 |      [UIUA] Unique Armor                |         [SIMR] Milabrega's Regalia      |         [RCSO] Sorceress                |
+// |      [GEAM] Amethyst                    |         [UAAR] Armor                    |         [SISC] Sigon's Complete Steel   |      [RIUA] Rare Armor                  |
+// |      [GEDI] Diamond                     |         [UABE] Belts                    |         [SITB] Tancred's Battlegear     |         [RAAR] Armor                    |
+// |      [GEEM] Emerald                     |         [UABO] Boots                    |         [SIVR] Vidala's Rig             |         [RABE] Belts                    |
+// |      [GERU] Ruby                        |         [UAGL] Gloves                   |      [SIES] Exceptional/Elite Sets      |         [RABO] Boots                    |
+// |      [GESA] Sapphire                    |         [UAHE] Helms                    |         [SIAW] Aldur's Watchtower       |         [RAGL] Gloves                   |
+// |      [GESK] Skull                       |         [UASH] Shields                  |         [SIBK] Bul-Kathos' Children     |         [RAHE] Helms                    |
+// |      [GETO] Topaz                       |      [UIUW] Unique Weapons              |         [SICK] Cow King's Leathers      |         [RASH] Shields                  |
+// |   [RUNS] Runes                          |         [UWAX] Axes                     |         [SITD] The Disciple             |      [RIUW] Rare Weapons                |
+// |      [RUMA] Rune Map Icons              |         [UWBO] Bows                     |         [SIGL] Griswold's Legacy        |         [RWAX] Axes                     |
+// |      [RUDE] Rune Descriptions           |         [UWCR] Crossbows                |         [SIHB] Heaven's Brethren        |         [RWBO] Bows                     |
+// |         [RULO] Low Runes                |         [UWDA] Daggers                  |         [SIHM] Hwanin's Majesty         |         [RWCR] Crossbows                |
+// |         [RUMI] Mid Runes                |         [UWJA] Javelins                 |         [SIIK] Immortal King            |         [RWDA] Daggers                  |
+// |         [RUHI] High Runes               |         [UWMA] Maces                    |         [SIMB] M'avina's Battle Hymn    |         [RWJA] Javelins                 |
+// |   [BASI] Item Basics                    |         [UWPO] Polearms                 |         [SINO] Natalya's Odium          |         [RWMA] Maces                    |
 // |                                         |         [UWSC] Scepters                 |         [SINA] Naj's Ancient Vestige    |         [RWPO] Polearms                 |
 // |                                         |         [UWSP] Spears                   |         [SIOC] Orphan's Call            |         [RWSC] Scepters                 |
 // |                                         |         [UWST] Staves                   |         [SISF] Sander's Folly           |         [RWSP] Spears                   |
@@ -228,19 +227,19 @@ ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube any 3 organs in Act 5 to open
 // ------------------------------------------------------------------------------
 // [CORR] Corruption Items
 // ------------------------------------------------------------------------------
-//ItemDisplay[???]: %PURPLE%+%RED%%NAME%%MAP-62% // Worldstone Shard
-//ItemDisplay[???]: %PURPLE%+%RED%%NAME%%MAP-62% // Larzuk's Box
+ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%MAP-62% // Worldstone Shard
+ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%MAP-62% // Larzuk's Box
 
 // ------------------------------------------------------------------------------
-// [MAPS] Map Items
+// [MAPI] Map Items
 // ------------------------------------------------------------------------------
 // Actual names
-//ItemDisplay[???]: %NAME%{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map}%DOT-80% // Reroll Rare Map (Horadrim Orb)
-//ItemDisplay[???]: %NAME%{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map}%DOT-80% // Imbue Rare Map (Zakarum Orb)
-//ItemDisplay[???]: %NAME%{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map}%DOT-80% // Upgrade Magic Map to Rare Map (Angelic Orb)
-//ItemDisplay[???]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map}%DOT-80% // Imbue Magic Map (Arcane Orb)
+ItemDisplay[rera]: %NAME%{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map}%DOT-80% // Reroll Rare Map (Horadrim Orb)
+ItemDisplay[imra]: %NAME%{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map}%DOT-80% // Imbue Rare Map (Zakarum Orb)
+ItemDisplay[upma]: %NAME%{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map}%DOT-80% // Upgrade Magic Map to Rare Map (Angelic Orb)
+ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map}%DOT-80% // Imbue Magic Map (Arcane Orb)
 //ItemDisplay[???]: %NAME%{%TAN%Cube w/ Jewel & White Map}%DOT-80% // Imbue Random Rarity (Demonic Cube)
-//ItemDisplay[???]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
+ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 // Explanation in name
 //ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Reroll %YELLOW%Rare %GRAY%Map{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map}%DOT-80% // Reroll Rare Map
 //ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Imbue %YELLOW%Rare %GRAY%Map{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map}%DOT-80% // Imbue Rare Map
@@ -248,6 +247,18 @@ ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube any 3 organs in Act 5 to open
 //ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Imbue %BLUE%Magic %GRAY%Map{%TAN%Cube w/ Jewel, Any Rune, & White Map}%DOT-80% // Imbue Magic Map
 //ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Imbue Random Rarity{%TAN%Cube w/ Jewel & White Map}%DOT-80% // Imbue Random Rarity
 //ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Purge Map (Removes Mods and Turns Map White){%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map)
+
+// ------------------------------------------------------------------------------
+// [MAPI] Maps
+// ------------------------------------------------------------------------------
+ItemDisplay[t11]: %NAME%%MAP-87% // Map
+ItemDisplay[t12]: %NAME%%MAP-87% // Map
+ItemDisplay[t13]: %NAME%%MAP-87% // Map
+ItemDisplay[t14]: %NAME%%MAP-87% // Map
+ItemDisplay[t15]: %NAME%%MAP-87% // Map
+ItemDisplay[t16]: %NAME%%MAP-87% // Ruins of Viz-jun
+ItemDisplay[t17]: %NAME%%MAP-87% // River of Blood
+ItemDisplay[t18]: %NAME%%MAP-87% // Lava Map
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -341,8 +352,8 @@ ItemDisplay[GEM=5 GEMTYPE=6]: %NAME%%DOT-20% // Perfect Topaz
 ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
 ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
 ItemDisplay[RUNE>23]: %RED%%RUNENAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
-//ItemDisplay[RUNE QTY>1]: x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
-//ItemDisplay[RUNE QTY<2]: (%RUNENUM%)%CONTINUE% // Is this line even needed anymore????? If runes are not in a stack (ie single runes) this just adds the rune number to the name
+//ItemDisplay[RUNE>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
+//ItemDisplay[RUNE>0 QTY<2]: %NAME% (%RUNENUM%)%CONTINUE% // Is this line even needed anymore????? If runes are not in a stack (ie single runes) this just adds the rune number to the name
 
 // ------------------------------------------------------------------------------
 // [RUDE] Rune descriptions
@@ -352,47 +363,47 @@ ItemDisplay[RUNE>23]: %RED%%RUNENAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zo
 // ------------------------------------------------------------------------------
 //    [RULO] Low Runes
 // ------------------------------------------------------------------------------
-ItemDisplay[r01]: {%TAN%3 El = Eld%NL%} // El Rune
-ItemDisplay[r02]: {%TAN%3 Eld = Tir%NL%} // Eld Rune
-ItemDisplay[r03]: {%TAN%3 Tir = Nef%NL%} // Tir Rune
-ItemDisplay[r04]: {%TAN%3 Nef = Eth%NL%} // Nef Rune
-ItemDisplay[r05]: {%TAN%3 Eth = Ith%NL%} // Eth Rune
-ItemDisplay[r06]: {%TAN%3 Ith = Tal%NL%} // Ith Rune
-ItemDisplay[r07]: {%TAN%3 Tal = Ral%NL%} // Tal Rune
-ItemDisplay[r08]: {%TAN%3 Ral = Ort%NL%} // Ral Rune
-ItemDisplay[r09]: {%TAN%3 Ort = Thul%NL%} // Ort Rune
-ItemDisplay[r10]: {%TAN%3 Thul + Key = Amn%NL%} // Thul Rune
+ItemDisplay[RUNE=1]: %NAME%{%TAN%3 El = Eld%NL%} // El Rune
+ItemDisplay[RUNE=2]: %NAME%{%TAN%3 Eld = Tir%NL%} // Eld Rune
+ItemDisplay[RUNE=3]: %NAME%{%TAN%3 Tir = Nef%NL%} // Tir Rune
+ItemDisplay[RUNE=4]: %NAME%{%TAN%3 Nef = Eth%NL%} // Nef Rune
+ItemDisplay[RUNE=5]: %NAME%{%TAN%3 Eth = Ith%NL%} // Eth Rune
+ItemDisplay[RUNE=6]: %NAME%{%TAN%3 Ith = Tal%NL%} // Ith Rune
+ItemDisplay[RUNE=7]: %NAME%{%TAN%3 Tal = Ral%NL%} // Tal Rune
+ItemDisplay[RUNE=8]: %NAME%{%TAN%3 Ral = Ort%NL%} // Ral Rune
+ItemDisplay[RUNE=9]: %NAME%{%TAN%3 Ort = Thul%NL%} // Ort Rune
+ItemDisplay[RUNE=10]: %NAME%{%TAN%3 Thul + Key = Amn%NL%} // Thul Rune
 
 // ------------------------------------------------------------------------------
 //    [RUMI] Mid Runes
 // ------------------------------------------------------------------------------
-ItemDisplay[r11]: {%TAN%3 Amn + Key = Sol%NL%} // Amn Rune
-ItemDisplay[r12]: {%TAN%3 Sol + Key = Shael%NL%} // Sol Rune
-ItemDisplay[r13]: {%TAN%3 Shael + Key = Dol%NL%} // Shael Rune
-ItemDisplay[r14]: {%TAN%3 Dol + Key = Hel%NL%} // Dol Rune
-ItemDisplay[r15]: {%TAN%3 Hel + Key = Io%NL%} // Hel Rune
-ItemDisplay[r16]: {%TAN%3 Io + Key = Lum%NL%} // Io Rune
-ItemDisplay[r17]: {%TAN%3 Lum + Key = Ko%NL%} // Lum Rune
-ItemDisplay[r18]: {%TAN%3 Ko + Key = Fal%NL%} // Ko Rune
-ItemDisplay[r19]: {%TAN%3 Fal + Key = Lem%NL%} // Fal Rune
-ItemDisplay[r20]: {%TAN%3 Lem + Key = Pul%NL%} // Lem Rune
-ItemDisplay[r21]: {%TAN%2 Pul + Key = Pul%NL%} // Pul Rune
-ItemDisplay[r22]: {%TAN%2 Um + Key = Mal%NL%} // Um Rune
-ItemDisplay[r23]: {%TAN%2 Mal + Key = Ist%NL%} // Mal Rune
+ItemDisplay[RUNE=11]: %NAME%{%TAN%3 Amn + Key = Sol%NL%} // Amn Rune
+ItemDisplay[RUNE=12]: %NAME%{%TAN%3 Sol + Key = Shael%NL%} // Sol Rune
+ItemDisplay[RUNE=13]: %NAME%{%TAN%3 Shael + Key = Dol%NL%} // Shael Rune
+ItemDisplay[RUNE=14]: %NAME%{%TAN%3 Dol + Key = Hel%NL%} // Dol Rune
+ItemDisplay[RUNE=15]: %NAME%{%TAN%3 Hel + Key = Io%NL%} // Hel Rune
+ItemDisplay[RUNE=16]: %NAME%{%TAN%3 Io + Key = Lum%NL%} // Io Rune
+ItemDisplay[RUNE=17]: %NAME%{%TAN%3 Lum + Key = Ko%NL%} // Lum Rune
+ItemDisplay[RUNE=18]: %NAME%{%TAN%3 Ko + Key = Fal%NL%} // Ko Rune
+ItemDisplay[RUNE=19]: %NAME%{%TAN%3 Fal + Key = Lem%NL%} // Fal Rune
+ItemDisplay[RUNE=20]: %NAME%{%TAN%3 Lem + Key = Pul%NL%} // Lem Rune
+ItemDisplay[RUNE=21]: %NAME%{%TAN%2 Pul + Key = Pul%NL%} // Pul Rune
+ItemDisplay[RUNE=22]: %NAME%{%TAN%2 Um + Key = Mal%NL%} // Um Rune
+ItemDisplay[RUNE=23]: %NAME%{%TAN%2 Mal + Key = Ist%NL%} // Mal Rune
 
 // ------------------------------------------------------------------------------
 //    [RUHI] High Runes
 // ------------------------------------------------------------------------------
-ItemDisplay[r24]: {%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
-ItemDisplay[r25]: {%TAN%2 Gul + Key = Vex%NL%} // Gul Rune
-ItemDisplay[r26]: {%TAN%2 Vex + Key = Ohm%NL%} // Vex Rune
-ItemDisplay[r27]: {%TAN%2 Ohm + Key = Lo%NL%} // Ohm Rune
-ItemDisplay[r28]: {%TAN%2 Lo + Key = Sur%NL%} // Lo Rune
-ItemDisplay[r29]: {%TAN%2 Sur + Key = Ber%NL%} // Sur Rune
-ItemDisplay[r30]: {%TAN%2 Ber + Key= Jah%NL%} // Ber Rune
-ItemDisplay[r31]: {%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
-ItemDisplay[r32]: {%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
-ItemDisplay[r33]: // Zod Rune
+ItemDisplay[RUNE=24]: %NAME%{%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
+ItemDisplay[RUNE=25]: %NAME%{%TAN%2 Gul + Key = Vex%NL%} // Gul Rune
+ItemDisplay[RUNE=26]: %NAME%{%TAN%2 Vex + Key = Ohm%NL%} // Vex Rune
+ItemDisplay[RUNE=27]: %NAME%{%TAN%2 Ohm + Key = Lo%NL%} // Ohm Rune
+ItemDisplay[RUNE=28]: %NAME%{%TAN%2 Lo + Key = Sur%NL%} // Lo Rune
+ItemDisplay[RUNE=29]: %NAME%{%TAN%2 Sur + Key = Ber%NL%} // Sur Rune
+ItemDisplay[RUNE=30]: %NAME%{%TAN%2 Ber + Key= Jah%NL%} // Ber Rune
+ItemDisplay[RUNE=31]: %NAME%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
+ItemDisplay[RUNE=32]: %NAME%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
+ItemDisplay[RUNE=33]: %NAME% // Zod Rune
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -4241,12 +4252,12 @@ ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 CIRC]: {%ORANGE%Delirium, Dream, R
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%ORANGE%Zephyr} // 2os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%ORANGE%Plague, Venom%NL%Edge, Melody,} // 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, HoJ, Ice,%NL%Brand, Faith, Fortitude,} // 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice, Ice,%NL%Brand, Faith, Fortitude,} // 4os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%ORANGE%Call to Arms} // 5os
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%TAN%Larzuk for sockets} // Superior, 0os
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%ORANGE%Zephyr} // Superior, 2os
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%ORANGE%Plague, Venom%NL%Edge, Melody,} // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, HoJ, Ice,%NL%Brand, Faith, Fortitude,} // Superior, 4os
+ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice, Ice,%NL%Brand, Faith, Fortitude,} // Superior, 4os
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) ZON BOW]: {%ORANGE%Call to Arms} // Superior, 5os
 
 //      Normal tier
