@@ -43,6 +43,7 @@
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 // - Item code for "Imbue Random Rarity (Demonic Cube)"?
+// - Do I need to add %CONTINUE% to the $ line for "[RIVE] Rare Items Vendor"?
 //
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -233,32 +234,24 @@ ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%MAP-62% // Larzuk's Box
 // ------------------------------------------------------------------------------
 // [MAPI] Map Items
 // ------------------------------------------------------------------------------
-// Actual names
 ItemDisplay[rera]: %NAME%{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map}%DOT-80% // Reroll Rare Map (Horadrim Orb)
 ItemDisplay[imra]: %NAME%{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map}%DOT-80% // Imbue Rare Map (Zakarum Orb)
 ItemDisplay[upma]: %NAME%{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map}%DOT-80% // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map}%DOT-80% // Imbue Magic Map (Arcane Orb)
 //ItemDisplay[???]: %NAME%{%TAN%Cube w/ Jewel & White Map}%DOT-80% // Imbue Random Rarity (Demonic Cube)
 ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
-// Explanation in name
-//ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Reroll %YELLOW%Rare %GRAY%Map{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map}%DOT-80% // Reroll Rare Map
-//ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Imbue %YELLOW%Rare %GRAY%Map{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map}%DOT-80% // Imbue Rare Map
-//ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Upgrade %BLUE%Magic %GRAY%Map to %YELLOW%Rare %GRAY%Map{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map}%DOT-80% // Upgrade Magic Map to Rare Map
-//ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Imbue %BLUE%Magic %GRAY%Map{%TAN%Cube w/ Jewel, Any Rune, & White Map}%DOT-80% // Imbue Magic Map
-//ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Imbue Random Rarity{%TAN%Cube w/ Jewel & White Map}%DOT-80% // Imbue Random Rarity
-//ItemDisplay[???]: %DARK_GREEN%Orb: %GRAY%Purge Map (Removes Mods and Turns Map White){%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map)
 
 // ------------------------------------------------------------------------------
 // [MAPI] Maps
 // ------------------------------------------------------------------------------
-ItemDisplay[t11]: %NAME%%MAP-87% // Map
-ItemDisplay[t12]: %NAME%%MAP-87% // Map
-ItemDisplay[t13]: %NAME%%MAP-87% // Map
-ItemDisplay[t14]: %NAME%%MAP-87% // Map
-ItemDisplay[t15]: %NAME%%MAP-87% // Map
-ItemDisplay[t16]: %NAME%%MAP-87% // Ruins of Viz-jun
-ItemDisplay[t17]: %NAME%%MAP-87% // River of Blood
-ItemDisplay[t18]: %NAME%%MAP-87% // Lava Map
+ItemDisplay[t11]: %NAME% [T1]%MAP-87% // Map
+ItemDisplay[t12]: %NAME% [T2]%MAP-87% // Map
+ItemDisplay[t13]: %NAME% [T3]%MAP-87% // Map
+ItemDisplay[t14]: %NAME% [T4]%MAP-87% // Map
+ItemDisplay[t15]: %NAME% [T5]%MAP-87% // Map
+ItemDisplay[t16]: %NAME% [T6]%MAP-87% // Ruins of Viz-jun
+ItemDisplay[t17]: %NAME% [T7]%MAP-87% // River of Blood
+ItemDisplay[t18]: %NAME% [T8]%MAP-87% // Lava Map
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -352,8 +345,8 @@ ItemDisplay[GEM=5 GEMTYPE=6]: %NAME%%DOT-20% // Perfect Topaz
 ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
 ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
 ItemDisplay[RUNE>23]: %RED%%RUNENAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
-//ItemDisplay[RUNE>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
-//ItemDisplay[RUNE>0 QTY<2]: %NAME% (%RUNENUM%)%CONTINUE% // Is this line even needed anymore????? If runes are not in a stack (ie single runes) this just adds the rune number to the name
+ItemDisplay[RUNE>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
+ItemDisplay[RUNE>0 QTY<2]: %NAME% (%RUNENUM%)%CONTINUE% // If runes are not in a stack (ie single runes) this just adds the rune number to the name
 
 // ------------------------------------------------------------------------------
 // [RUDE] Rune descriptions
@@ -1586,7 +1579,7 @@ ItemDisplay[SET CLVL>59 !ID]: %NAME% // At level 60, stop notifying for all sets
 // [RIVE] Rare Items Vendor
 // ------------------------------------------------------------------------------
 // This line adds a "$" to the start of an item name if it's worth 35k gold
-ItemDisplay[RARE !ID !RW PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%
+//ItemDisplay[RARE !ID !RW PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8% // Hidden for now because PRICE is broken
 
 // ------------------------------------------------------------------------------
 // [RIMI] Rare Miscellaneous
@@ -2564,7 +2557,7 @@ ItemDisplay[RARE !ID ELT THROWING]: %NAME%%MAP-A8% // All Elite tier Throwing We
 // [RIMA] Rare Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Notify for all rares until level 39
-ItemDisplay[RARE !ID CLVL>39]: //%NAME% // At level 40+, stop notifying for all rares, and only notify for the ones uncommented above. Uncomment %NAME% in this line to show all rares
+ItemDisplay[RARE !ID CLVL>39]: //%NAME% // At level 40+, stop notifying and showing all rares, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all rares
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -3060,7 +3053,7 @@ ItemDisplay[MAG rin ILVL>94 CLVL>73]: %NAME%%DOT-97%{%TAN%Craft at char level 74
 // [MIVE] Magic Items Vendor
 // ------------------------------------------------------------------------------
 // This line adds a "$" to the start of an item name if it's worth 35k gold
-ItemDisplay[MAG !ID !RW PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %BLUE%%NAME%
+//ItemDisplay[MAG !ID !RW PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %BLUE%%NAME% // Hidden for now because PRICE is broken
 
 // ------------------------------------------------------------------------------
 // [MIMI] Magic Miscellaneous
@@ -3469,7 +3462,7 @@ ItemDisplay[MAG !ID ILVL>49 (ulc OR uvc OR umc)]: %NAME%%MAP-97% // Possible Wha
 //     [MAGL] Gloves
 // ------------------------------------------------------------------------------
 // All gloves
-//ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97% // All gloves
+ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97% // All gloves
 //ItemDisplay[MAG !ID NORM GLOVES]: %NAME%%MAP-97% // All Normal tier Gloves
 //ItemDisplay[MAG !ID EXC GLOVES]: %NAME%%MAP-97% // All Exceptional tier Gloves
 //ItemDisplay[MAG !ID ELT GLOVES]: %NAME%%MAP-97% // All Elite tier Gloves
@@ -4042,7 +4035,7 @@ ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 // [MIMA] Magic Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG !ID CLVL<40]: %NAME%%MAP-97% // Notify for all magics until level 39
-ItemDisplay[MAG !ID CLVL>39]: //%NAME% // At level 40+, stop notifying for all magics, and only notify for the ones uncommented above. Uncomment %NAME% in this line to show all magics
+ItemDisplay[MAG !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifying for all magics, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all magics
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -4053,6 +4046,7 @@ ItemDisplay[MAG !ID CLVL>39]: //%NAME% // At level 40+, stop notifying for all m
 // [BIVE] Base Items Vendor
 // ------------------------------------------------------------------------------
 // These two lines add a "$" to the start of an item name if it's worth 35k gold
+// Hidden for now because PRICE is broken
 //ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
 //ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
 //ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
@@ -4107,17 +4101,17 @@ ItemDisplay[rvs]: %PURPLE%+%WHITE%35% // Rejuv Potion
 ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+ // Full Rejuv Potion
 
 // Drinkable Potions - to hide add "//" before the potion name (eg ": //Stamina")
-ItemDisplay[vps]: Stamina // Stamina Potion
-ItemDisplay[yps]: Antidote // Antidote Potion
-ItemDisplay[wms]: Thawing // Thawing Potion
+ItemDisplay[vps]: %WHITE%+%WHITE%Stamina // Stamina Potion
+ItemDisplay[yps]: %GREEN%+%WHITE%Antidote // Antidote Potion
+ItemDisplay[wms]: %BLUE%+%WHITE%Thawing // Thawing Potion
 
 // Throwing Potions - to hide add "//" before the potion name (eg ": //Strangling")
-ItemDisplay[gpl]: Strangling // Strangling Potion
-ItemDisplay[gpm]: Choking // Choking Potion
-ItemDisplay[gps]: Rancid // Rancid Potion
-ItemDisplay[opl]: Fulminating // Fulminating Potion
-ItemDisplay[opm]: Exploding // Exploding Potion
-ItemDisplay[ops]: Oil // Oil Potion
+ItemDisplay[gpl]: %GREEN%+%WHITE%Strangling // Strangling Potion
+ItemDisplay[gpm]: %GREEN%+%WHITE%Choking // Choking Potion
+ItemDisplay[gps]: %GREEN%+%WHITE%Rancid // Rancid Potion
+ItemDisplay[opl]: %ORANGE%+%WHITE%Fulminating // Fulminating Potion
+ItemDisplay[opm]: %ORANGE%+%WHITE%Exploding // Exploding Potion
+ItemDisplay[ops]: %ORANGE%+%WHITE%Oil // Oil Potion
 
 // ------------------------------------------------------------------------------
 //    [BCTO] Scrolls & Tomes
