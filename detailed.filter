@@ -44,6 +44,14 @@
 // +----------------------------------------------------------------------------+
 // - Item code for "Imbue Random Rarity (Demonic Cube)"?
 // - Do I need to add %CONTINUE% to the $ line for "[RIVE] Rare Items Vendor"?
+// - Check QTY for:
+// 		Gems
+// 		Runes
+// 		Map reagents
+// 		Worldstone Shards
+// 		Keys
+// 		Token essences
+// 		Organs
 //
 // +----------------------------------------------------------------------------+
 // |                                                                            |
