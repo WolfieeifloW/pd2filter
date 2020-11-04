@@ -275,8 +275,7 @@ ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when below X character level
 ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when below X character level
 //ItemDisplay[GEM=4]: // Hide all Flawless gems
 //ItemDisplay[GEM=5]: // Hide all Perfect gems
-ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
-ItemDisplay[GEM>0 QTY<2]: %NAME% %CONTINUE% // If runes are not in a stack (ie single runes) this just adds the rune number to the name
+ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems for stacking purposes
 
 // Below is to show the cube recipes at the bottom of the gem info
 // ------------------------------------------------------------------------------

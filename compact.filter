@@ -51,8 +51,7 @@ ItemDisplay[t18]: %NAME% [T8]%MAP-87% // Lava Map
 ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when below X character level
 ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when below X character level
 ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when below X character level
-ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
-ItemDisplay[GEM>0 QTY<2]: %NAME% %CONTINUE% // If runes are not in a stack (ie single runes) this just adds the rune number to the name
+ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems for stacking purposes
 ItemDisplay[GEM=1 GEMTYPE=1]: %NAME%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
 ItemDisplay[GEM=2 GEMTYPE=1]: %NAME%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
 ItemDisplay[GEM=3 GEMTYPE=1]: %NAME%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
