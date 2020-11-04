@@ -50,6 +50,7 @@
 // 		Token essences
 // 		Organs
 // - Fix "WAITING ON CURSE MASTERY SKILL ID (??)" lines
+// - Need Lightning Sentry skill ID
 //
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -418,9 +419,9 @@ ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %GREEN%(+3 Jav 20IAS) %BLUE%%NAME
 ItemDisplay[MAG TABSK2>5 ZON]: %GREEN%(+6 Jav) %BLUE%%NAME% // +6 Javelin Skills Javelin
 
 // Assassin Claws
-ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %GREEN%(+5 LS) %BLUE%%NAME% // +2 Assassin, +3 Lightning Sentry claw
+//ItemDisplay[MAG (CLSK6>1 AND SK???>2) SIN]: %GREEN%(+5 LS) %BLUE%%NAME% // +2 Assassin, +3 Lightning Sentry claw
 ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %GREEN%(+5 CLS) %BLUE%%NAME% // +2 Assassin, +3 Chain Lightning Sentry claw
-ItemDisplay[MAG (TABSK48>2 AND SK271>2) SIN]: %GREEN%(+6 LS) %BLUE%%NAME% // +3 Trap, +3 Lightning Sentry claw
+//ItemDisplay[MAG (TABSK48>2 AND SK???>2) SIN]: %GREEN%(+6 LS) %BLUE%%NAME% // +3 Trap, +3 Lightning Sentry claw
 ItemDisplay[MAG (TABSK48>2 AND SK271>2) SIN]: %GREEN%(+6 CLS) %BLUE%%NAME% // +3 Trap, +3 Chain Lightning Sentry claw
 
 // Barbarian Helmets
@@ -4561,17 +4562,17 @@ ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all 
 // These katars also HAVE skill requirements
 // All tiers
 //      +3 Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Venom
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Fade
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Chain Lightning Sentry
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK278>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Venom
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK273>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK275>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK279>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK263>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Weapon Block
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK277>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Blade Shield
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK267>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Fade
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK258>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Burst of Speed
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK260>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK271>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Chain Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK276>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Death Sentry
 
 //      +3 Chain Lightning Sentry variants
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Venom
@@ -4583,7 +4584,7 @@ ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all 
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Fade
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Burst of Speed
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK???>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Lightning Sentry
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Death Sentry
 
 //      +3 Dragon Strike variants
@@ -4596,22 +4597,22 @@ ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Fade
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Burst of Speed
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK???>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Lightning Sentry
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Chain Lightning Sentry
 
 // Normal tiers
 //      +3 Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Venom
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Fade
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Chain Lightning Sentry
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK278>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Venom
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK273>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK275>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK279>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK263>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Weapon Block
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK277>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Blade Shield
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK267>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Fade
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK258>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Burst of Speed
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK260>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK271>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Chain Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK276>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Death Sentry
 
 //      +3 Chain Lightning Sentry variants
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Venom
@@ -4623,7 +4624,7 @@ ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all 
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Fade
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Burst of Speed
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK???>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Lightning Sentry
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Death Sentry
 
 //      +3 Dragon Strike variants
@@ -4636,22 +4637,22 @@ ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Fade
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Burst of Speed
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK???>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Lightning Sentry
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Chain Lightning Sentry
 
 // Exceptional tiers
 //      +3 Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Venom
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Fade
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Chain Lightning Sentry
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK278>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Venom
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK273>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK275>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK279>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK263>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Weapon Block
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK277>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Blade Shield
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK267>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Fade
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK258>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Burst of Speed
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK260>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK271>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Chain Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK276>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Death Sentry
 
 //      +3 Chain Lightning Sentry variants
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Venom
@@ -4663,7 +4664,7 @@ ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all 
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Fade
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Burst of Speed
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK???>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Lightning Sentry
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Death Sentry
 
 //      +3 Dragon Strike variants
@@ -4676,22 +4677,22 @@ ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Fade
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Burst of Speed
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK???>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Lightning Sentry
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Chain Lightning Sentry
 
 // Elite tiers
 //      +3 Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Venom
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Fade
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Chain Lightning Sentry
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK278>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Venom
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK273>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK275>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK279>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK263>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Weapon Block
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK277>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Blade Shield
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK267>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Fade
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK258>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Burst of Speed
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK260>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK271>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Chain Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK276>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Death Sentry
 
 //      +3 Chain Lightning Sentry variants
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Venom
@@ -4703,7 +4704,7 @@ ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all 
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Fade
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Burst of Speed
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK???>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Lightning Sentry
 //ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Death Sentry
 
 //      +3 Dragon Strike variants
@@ -4716,36 +4717,36 @@ ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Fade
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Burst of Speed
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK???>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Lightning Sentry
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Chain Lightning Sentry
 
 // Good katars only
 // Greater Claws (9lw), Greater Talons (9hw), Suwayyah (7ar), Wrist Sword (7wb), Battle Cestus (7cs), Feral Claws (7lw), Runic Talons (7hw), Scissors Suwayyah (7qr)
 //      +3 Lightning Sentry variants
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Venom
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Mind Blast
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Dragon Flight
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Shadow Master
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Weapon Block
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Blade Shield
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Fade
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Burst of Speed
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Dragon Claw
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Chain Lightning Sentry
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Venom
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK279>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK263>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Weapon Block
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK277>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Blade Shield
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Fade
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Burst of Speed
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Chain Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK276>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Death Sentry
 
 //      +3 Chain Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Venom
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Fade
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Lightning Sentry
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Death Sentry
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Venom
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Mind Blast
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Dragon Flight
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Shadow Master
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Weapon Block
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Fade
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK???>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Death Sentry
 
 //      +3 Dragon Strike variants
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Venom
@@ -4757,7 +4758,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN (9lw OR 9hw OR 7
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Fade
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Burst of Speed
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Dragon Claw
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK???>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Lightning Sentry
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Chain Lightning Sentry
 
 // These lines add descriptions to all Assassin Katars, leave these alone if you want to display possible runewords on base Assassin Katars

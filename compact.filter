@@ -127,9 +127,7 @@ ItemDisplay[RUNE=33]: %NAME% // Zod Rune
 ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %GREEN%(+5 Jav) %BLUE%%NAME% // +2 Amazon, +3 Javelin Skills Javelin
 ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %GREEN%(+3 Jav 20IAS) %BLUE%%NAME% // 3 Javelin Skills, 20 IAS glove
 ItemDisplay[MAG TABSK2>5 ZON]: %GREEN%(+6 Jav) %BLUE%%NAME% // +6 Javelin Skills Javelin
-ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %GREEN%(+5 LS) %BLUE%%NAME% // +2 Assassin, +3 Lightning Sentry claw
 ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %GREEN%(+5 CLS) %BLUE%%NAME% // +2 Assassin, +3 Chain Lightning Sentry claw
-ItemDisplay[MAG (TABSK48>2 AND SK271>2) SIN]: %GREEN%(+6 LS) %BLUE%%NAME% // +3 Trap, +3 Lightning Sentry claw
 ItemDisplay[MAG (TABSK48>2 AND SK271>2) SIN]: %GREEN%(+6 CLS) %BLUE%%NAME% // +3 Trap, +3 Chain Lightning Sentry claw
 ItemDisplay[MAG TABSK34>2 WEAPON]: %GREEN%(+3 BO) %BLUE%%NAME% // +3 Battle Order weapon
 ItemDisplay[MAG CHSK54>0 STAFF]: %GREEN%(Teleport) %BLUE%%NAME% // Teleport charges
@@ -699,17 +697,6 @@ ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 TABSK2>2 ZON SPEAR]: %NAME%{%TAN%L
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 TABSK2>2 ZON SPEAR]: %GRAY%%NAME%{%ORANGE%Eternity} // Superior, Eth, 5os
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 TABSK2>2 ZON SPEAR]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // Superior, Eth, 6os
 ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Venom
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Mind Blast
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Dragon Flight
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Shadow Master
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Weapon Block
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Blade Shield
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Fade
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Burst of Speed
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Dragon Claw
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Chain Lightning Sentry
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Death Sentry
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Venom
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Mind Blast
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Dragon Flight
@@ -719,7 +706,6 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN (9lw OR 9hw OR 7
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Fade
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Burst of Speed
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Dragon Claw
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Lightning Sentry
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Chain Lightning Sentry
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SIN]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SIN]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // 2os
