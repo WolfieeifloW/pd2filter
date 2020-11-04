@@ -546,7 +546,7 @@ ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97% // Large Charms
 ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Grand Charms
 ItemDisplay[MAG !ID CIRC]: %NAME%%MAP-97% // All unidentified Circlets
 ItemDisplay[MAG !ID jew]: %NAME%%MAP-97% // All unidentified jewels
-ItemDisplay[MAG !ID rin]: %NAME%%MAP-97% // All unidentified rings
+ItemDisplay[MAG !ID rin]: %NAME% // All unidentified rings
 ItemDisplay[MAG !ID ZON JAV]: %NAME%%MAP-97% // Javelins for 6/40
 ItemDisplay[MAG !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr)]: %NAME%%MAP-97% // Assassin Katars, best Katars
 ItemDisplay[MAG !ID BAR]: %NAME%%MAP-97% // All Barbarian helmets

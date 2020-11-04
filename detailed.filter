@@ -3098,7 +3098,7 @@ ItemDisplay[MAG !ID jew]: %NAME%%MAP-97% // All unidentified jewels
 // ------------------------------------------------------------------------------
 //       [MMRI] Rings
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID rin]: %NAME%%MAP-97% // All unidentified rings
+ItemDisplay[MAG !ID rin]: %NAME% // All unidentified rings
 
 // ------------------------------------------------------------------------------
 // [MICS] Magic Items Class Specific

@@ -129,6 +129,8 @@ ItemDisplay[MAG amu ILVL=99 CLVL>81]: %NAME%%DOT-97%{%TAN%Craft at char level 82
 // Magic Items
 // Amulets
 ItemDisplay[MAG !ID amu]: %NAME%%MAP-97% // All unidentified amulets
+
+// Charms
 ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
 ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97% // Large Charms
 ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Grand Charms
