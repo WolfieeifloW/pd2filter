@@ -363,15 +363,15 @@ ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of rune
 // ------------------------------------------------------------------------------
 //    [RULO] Low Runes
 // ------------------------------------------------------------------------------
-ItemDisplay[RUNE=1]: %NAME%{%TAN%3 El = Eld%NL%} // El Rune
-ItemDisplay[RUNE=2]: %NAME%{%TAN%3 Eld = Tir%NL%} // Eld Rune
-ItemDisplay[RUNE=3]: %NAME%{%TAN%3 Tir = Nef%NL%} // Tir Rune
-ItemDisplay[RUNE=4]: %NAME%{%TAN%3 Nef = Eth%NL%} // Nef Rune
-ItemDisplay[RUNE=5]: %NAME%{%TAN%3 Eth = Ith%NL%} // Eth Rune
-ItemDisplay[RUNE=6]: %NAME%{%TAN%3 Ith = Tal%NL%} // Ith Rune
-ItemDisplay[RUNE=7]: %NAME%{%TAN%3 Tal = Ral%NL%} // Tal Rune
-ItemDisplay[RUNE=8]: %NAME%{%TAN%3 Ral = Ort%NL%} // Ral Rune
-ItemDisplay[RUNE=9]: %NAME%{%TAN%3 Ort = Thul%NL%} // Ort Rune
+ItemDisplay[RUNE=1]: %NAME%{%TAN%3 El + Key = Eld%NL%} // El Rune
+ItemDisplay[RUNE=2]: %NAME%{%TAN%3 Eld + Key = Tir%NL%} // Eld Rune
+ItemDisplay[RUNE=3]: %NAME%{%TAN%3 Tir + Key = Nef%NL%} // Tir Rune
+ItemDisplay[RUNE=4]: %NAME%{%TAN%3 Nef + Key = Eth%NL%} // Nef Rune
+ItemDisplay[RUNE=5]: %NAME%{%TAN%3 Eth + Key = Ith%NL%} // Eth Rune
+ItemDisplay[RUNE=6]: %NAME%{%TAN%3 Ith + Key = Tal%NL%} // Ith Rune
+ItemDisplay[RUNE=7]: %NAME%{%TAN%3 Tal + Key = Ral%NL%} // Tal Rune
+ItemDisplay[RUNE=8]: %NAME%{%TAN%3 Ral + Key = Ort%NL%} // Ral Rune
+ItemDisplay[RUNE=9]: %NAME%{%TAN%3 Ort + Key = Thul%NL%} // Ort Rune
 ItemDisplay[RUNE=10]: %NAME%{%TAN%3 Thul + Key = Amn%NL%} // Thul Rune
 
 // ------------------------------------------------------------------------------
