@@ -1,7 +1,7 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
 # Installation
-Select which filter you want to use from below and click the link which will take you to the raw code for that version. Copy all of the code and then navigate to your Project Diablo 2 folder (...\Diablo II\ProjectD2). Open **default.filter**, paste the code you copied, overwriting everything in there, and save the file. In-game press **CTRL+Numpad 0** to reload your filter.
+Select which filter you want to use from below and click the link which will take you to the raw code for that version. Copy all of the code and then navigate to your Project Diablo 2 folder (...\Diablo II\ProjectD2). Open **default.filter**, paste the code you copied, overwriting everything in there, and save the file. In-game press **CTRL+Numpad 0** to reload your filter. In-game I use these settings: ![In-Game Settings](https://i.imgur.com/etdutvd.png)
 
 # [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
 A version of the filter that has lines for every single item in the game. This is for ease-of-use and very quick editing as you should ideally only ever have to comment or uncomment a line. This version will show and notify a lot of items by default with the idea that you can slowly start to comment out things you don't need. The flip side is that since this filter contains lines for every item you can easily just uncomment a line for things you want to show that aren't currently showing.
