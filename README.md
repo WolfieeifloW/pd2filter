@@ -12,6 +12,15 @@ This version will contain only the lines that are already uncommented in the Det
 # Wolfie
 N/A yet. This version is basically a copy of my own personal filter. Will most likely contain things you don't think are worth it and not contain things you think are worth it. No support will be given for this version.
 
+# Informative Links
+* **Info for Filter:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display>
+* **Color Chart:** <https://raw.githubusercontent.com/planqi/slashdiablo-maphack/master/readme_gfx/color_palette.png>
+* **Info for Notify:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display#marking-items-on-the-map>
+* **More Notify Info:** <https://github.com/planqi/slashdiablo-maphack#release-notes-for-bh-maphack-v18>
+* **Item Codes:** <http://www.gmstemple.com/Diablo2/itemcodes.html>
+* **Automods Info:** <https://www.diabloii.net/forums/threads/the-staffmod-grail.740340/>
+* **Skill Codes:** <https://user.xmission.com/~trevin/DiabloIIv1.09_Skills.html>
+
 # Completely Hidden Items
 I have completely hidden very few items. The only items fully hidden are:
 * Horadric Scroll (completely useless item)
