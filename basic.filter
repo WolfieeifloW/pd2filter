@@ -1,0 +1,194 @@
+// +----------------------------------------------------------------------------+
+// |                                                                            |
+// |     WOLFIE'S PROJECT DIABLO 2 BH FILTER (BASIC) v1.0                       |
+// |     Made By: @WolfieeifloW#6431                                            |
+// |     Thanks to @Sawyer#5623 for reference material                          |
+// |                                                                            |
+// +----------------------------------------------------------------------------+
+//
+// Welcome to Wolfie's Project Diablo 2 Loot Filter, Basic version.
+// This filter will only have a very basic starting point which people can use to build their own filter.
+//
+// If there is anything missing please throw me a DM on Discord or ask for help in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2) - @WolfieeifloW#6431
+
+// Filter lines start here
+// Quest items
+ItemDisplay[hdm]: %NAME%%MAP-00% // Horadric Malus
+ItemDisplay[bks]: %NAME%%MAP-00% // Scroll of Inifuss
+ItemDisplay[bkd]: %NAME%%MAP-00% // Scroll of Inifuss, deciphered
+ItemDisplay[leg]: %GOLD%%NAME%%MAP-00% // Wirt's Leg
+ItemDisplay[ass]: %NAME%%MAP-00% // Book of Skill
+ItemDisplay[tr1]: // Horadric Scroll (useless item so we hide it)
+ItemDisplay[box]: %NAME%%MAP-00% // Horadric Cube
+ItemDisplay[hst]: %NAME%%MAP-00% // Horadric Staff
+ItemDisplay[msf]: %NAME%%MAP-00% // Staff of Kings
+ItemDisplay[vip]: %NAME%%MAP-00% // Amulet of the Viper
+ItemDisplay[j34]: %NAME%%MAP-00% // A Jade Figurine
+ItemDisplay[g33]: %NAME%%MAP-00% // Gidbinn
+ItemDisplay[qbr]: %NAME%%MAP-00% // Khalim's Brain
+ItemDisplay[qey]: %NAME%%MAP-00% // Khalim's Eye
+ItemDisplay[qf1]: %NAME%%MAP-00% // Khalim's Flail
+ItemDisplay[qhr]: %NAME%%MAP-00% // Khalim's Heart
+ItemDisplay[qf2]: %NAME%%MAP-00% // Khalim's Will
+ItemDisplay[bbb]: %NAME%%MAP-00% // Lam Esen's Tome
+ItemDisplay[mss]: %NAME%%MAP-00% // Mephisto's Soulstone
+ItemDisplay[xyz]: %NAME%%MAP-00% // Potion of Life
+ItemDisplay[g34]: %NAME%%MAP-00% // The Golden Bird
+ItemDisplay[hfh]: %NAME%%MAP-00% // Hellforge Hammer
+ItemDisplay[ice]: %NAME%%MAP-00% // Malah's Potion
+ItemDisplay[tr2]: %NAME%%MAP-00% // Scroll of Resistance
+
+// Essences
+ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00% // Burning Essence of Terror
+ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-00% // Charged Essence of Hatred
+ItemDisplay[fed]: %ORANGE%%NAME%%MAP-00% // Festering Essence of Destruction
+ItemDisplay[tes]: %ORANGE%%NAME%%MAP-00% // Twisted Essence of Suffering
+
+// Tokens
+ItemDisplay[toa]: %ORANGE%%NAME%%MAP-68% // Token of Absolution
+
+// Pandemonium Keys
+ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68% // Key of Destruction
+ItemDisplay[pk2]: %ORANGE%%NAME%%MAP-68% // Key of Hate
+ItemDisplay[pk1]: %ORANGE%%NAME%%MAP-68% // Key of Terror
+
+// Pandemonium Organs
+ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68% // Baal's Eye
+ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68% // Diablo's Horn
+ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68% // Mephisto's Brain
+
+// Corruption Items
+ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%MAP-62% // Worldstone Shard
+ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%MAP-62% // Larzuk's Box
+
+// Map Items
+ItemDisplay[rera]: %NAME%%DOT-80% // Reroll Rare Map (Horadrim Orb)
+ItemDisplay[imra]: %NAME%%DOT-80% // Imbue Rare Map (Zakarum Orb)
+ItemDisplay[upma]: %NAME%%DOT-80% // Upgrade Magic Map to Rare Map (Angelic Orb)
+ItemDisplay[imma]: %NAME%%DOT-80% // Imbue Magic Map (Arcane Orb)
+ItemDisplay[scou]: %NAME%%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
+
+// Maps
+ItemDisplay[t11]: %NAME% [T1]%MAP-87% // Map
+ItemDisplay[t12]: %NAME% [T2]%MAP-87% // Map
+ItemDisplay[t13]: %NAME% [T3]%MAP-87% // Map
+ItemDisplay[t14]: %NAME% [T4]%MAP-87% // Map
+ItemDisplay[t15]: %NAME% [T5]%MAP-87% // Map
+ItemDisplay[t16]: %NAME% [T6]%MAP-87% // Ruins of Viz-jun
+ItemDisplay[t17]: %NAME% [T7]%MAP-87% // River of Blood
+ItemDisplay[t18]: %NAME% [T8]%MAP-87% // Lava Map
+
+// Gems
+ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when below X character level
+ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when below X character level
+ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when below X character level
+ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems for stacking purposes
+ItemDisplay[GEM<5]: %NAME% // Everything except Perfect gems
+ItemDisplay[GEM<5]: %NAME%%DOT-20% // Perfect gems
+
+// Runes
+ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
+ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
+ItemDisplay[RUNE>23]: %RED%%RUNENAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
+ItemDisplay[RUNE>0]: %NAME%
+
+// Other Items
+ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
+ItemDisplay[INF]: // Hide all Low Quality, Cracked, Crude, & Damaged items
+
+ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
+ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
+ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
+
+// Unique Items
+ItemDisplay[UNI !ID]: %NAME%%MAP-84% // This will show and notify for ALL unique items
+
+// Set Items
+ItemDisplay[SET !ID]: %NAME%%MAP-84% // This will show and notify for ALL set items
+
+// Rare Items
+ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
+ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
+
+// Crafted Items
+// Crafted Amulets
+ItemDisplay[MAG amu ILVL=88 CLVL>91]: %NAME%%DOT-97%{%TAN%Craft at char level 92+}
+ItemDisplay[MAG amu ILVL=89 CLVL>91]: %NAME%%DOT-97%{%TAN%Craft at char level 92+}
+ItemDisplay[MAG amu ILVL=90 CLVL>89]: %NAME%%DOT-97%{%TAN%Craft at char level 90+}
+ItemDisplay[MAG amu ILVL=91 CLVL>89]: %NAME%%DOT-97%{%TAN%Craft at char level 90+}
+ItemDisplay[MAG amu ILVL=92 CLVL>71]: %NAME%%DOT-97%{%TAN%Craft at char level 88+}
+ItemDisplay[MAG amu ILVL=93 CLVL>71]: %NAME%%DOT-97%{%TAN%Craft at char level 88+}
+ItemDisplay[MAG amu ILVL=94 CLVL>85]: %NAME%%DOT-97%{%TAN%Craft at char level 86+}
+ItemDisplay[MAG amu ILVL=95 CLVL>85]: %NAME%%DOT-97%{%TAN%Craft at char level 86+}
+ItemDisplay[MAG amu ILVL=96 CLVL>83]: %NAME%%DOT-97%{%TAN%Craft at char level 84+}
+ItemDisplay[MAG amu ILVL=97 CLVL>83]: %NAME%%DOT-97%{%TAN%Craft at char level 84+}
+ItemDisplay[MAG amu ILVL=98 CLVL>81]: %NAME%%DOT-97%{%TAN%Craft at char level 82+}
+ItemDisplay[MAG amu ILVL=99 CLVL>81]: %NAME%%DOT-97%{%TAN%Craft at char level 82+}
+
+// Magic Items
+// Amulets
+ItemDisplay[MAG !ID amu]: %NAME%%MAP-97% // All unidentified amulets
+ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
+ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97% // Large Charms
+ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Grand Charms
+
+// Base Items
+// Gold
+ItemDisplay[GOLD<50 CLVL>14]: // Hide 50 gold and less if level 14+
+ItemDisplay[GOLD<100 CLVL>21]: // Hide 100 gold and less if level 21+
+ItemDisplay[GOLD<200 CLVL>28]: // Hide 200 gold and less if level 28+
+ItemDisplay[GOLD<300 CLVL>35]: // Hide 300 gold and less if level 35+
+ItemDisplay[GOLD<500 CLVL>40]: // Hide 500 gold and less if level 40+
+ItemDisplay[GOLD<1000 CLVL>60]: // Hide 1000 gold and less if level 60+
+
+// Keys
+//ItemDisplay[key]: %NAME%%MAP-97% // Consider uncommenting for Lower Kurast Runs
+
+// Potions
+// Health Potions
+ItemDisplay[hp1 CLVL<25]: %RED%+%WHITE%HP1 // Minor Healing Potion
+ItemDisplay[hp1 CLVL>24]: // Hides Minor Healing Potions after level 24
+ItemDisplay[hp2 CLVL<25]: %RED%+%WHITE%HP2 // Light Healing Potion
+ItemDisplay[hp2 CLVL>24]: // Hides Light Healing Potions after level 24
+ItemDisplay[hp3 CLVL<40]: %RED%+%WHITE%HP3 // Healing Potion
+ItemDisplay[hp3 CLVL>39]: // Hides Healing Potions after level 39
+ItemDisplay[hp4]: %RED%+%WHITE%HP4 // Greater Healing Potion
+ItemDisplay[hp5]: %RED%+%WHITE%HP5 // Super Healing Potion
+
+// Mana Potions
+ItemDisplay[mp1 CLVL<25]: %BLUE%+%WHITE%MP1 // Minor Mana Potion
+ItemDisplay[mp1 CLVL>24]: // Hides Minor Mana Potions after level 24
+ItemDisplay[mp2 CLVL<25]: %BLUE%+%WHITE%MP2 // Light Mana Potion
+ItemDisplay[mp2 CLVL>24]: // Hides Light Mana Potions after level 24
+ItemDisplay[mp3 CLVL<40]: %BLUE%+%WHITE%MP3 // Mana Potion
+ItemDisplay[mp3 CLVL>39]: // Hides Mana Potions after level 39
+ItemDisplay[mp4]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
+ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
+
+// Rejuv Potions
+ItemDisplay[rvs]: %PURPLE%+%WHITE%35% // Rejuv Potion
+ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+ // Full Rejuv Potion
+
+// Drinkable Potions - to hide add "//" after the colon  (eg ": //%...")
+ItemDisplay[vps]: %WHITE%+%WHITE%Stamina // Stamina Potion
+ItemDisplay[yps]: %GREEN%+%WHITE%Antidote // Antidote Potion
+ItemDisplay[wms]: %BLUE%+%WHITE%Thawing // Thawing Potion
+
+// Throwing Potions - to hide add "//" after the colon  (eg ": //%...")
+ItemDisplay[gpl]: %GREEN%+%WHITE%Strangling // Strangling Potion
+ItemDisplay[gpm]: %GREEN%+%WHITE%Choking // Choking Potion
+ItemDisplay[gps]: %GREEN%+%WHITE%Rancid // Rancid Potion
+ItemDisplay[opl]: %ORANGE%+%WHITE%Fulminating // Fulminating Potion
+ItemDisplay[opm]: %ORANGE%+%WHITE%Exploding // Exploding Potion
+ItemDisplay[ops]: %ORANGE%+%WHITE%Oil // Oil Potion
+
+// Scrolls & Tomes
+ItemDisplay[isc]: ID%RED%+%WHITE% // Scroll of Identify
+ItemDisplay[tsc]: TP%BLUE%+%WHITE% // Scroll of Town Portal
+ItemDisplay[ibk]: %RED%+%WHITE%ID%RED%+%WHITE% // Tome of Identify
+ItemDisplay[tbk]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
+
+// Base Items
+// I've given just one example here to get you started
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SHIELD]: %GRAY%%NAME% // Spirit Shields
