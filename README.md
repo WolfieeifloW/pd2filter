@@ -12,6 +12,9 @@ This version will contain only the lines that are already uncommented in the Det
 # Wolfie
 N/A yet. This version is basically a copy of my own personal filter. Will most likely contain things you don't think are worth it and not contain things you think are worth it. No support will be given for this version.
 
+# [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)
+This filter has only a few basic lines. It's purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
+
 # Informative Links
 * **Info for Filter:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display>
 * **Color Chart:** <https://raw.githubusercontent.com/planqi/slashdiablo-maphack/master/readme_gfx/color_palette.png>
