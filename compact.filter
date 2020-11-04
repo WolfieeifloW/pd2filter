@@ -517,7 +517,7 @@ ItemDisplay[RARE !ID ELT AXE]: %NAME%%MAP-A8% // All Elite tier Axes
 ItemDisplay[RARE !ID ELT JAV]: %NAME%%MAP-A8% // All Elite tier Javelins
 ItemDisplay[RARE !ID ELT SWORD]: %NAME%%MAP-A8% // All Elite tier Swords
 ItemDisplay[RARE !ID ELT THROWING]: %NAME%%MAP-A8% // All Elite tier Throwing Weapons
-ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Notify for all rares until level 39
+ItemDisplay[RARE !ID CLVL<40]: %NAME% // Notify for all rares until level 39
 ItemDisplay[RARE !ID CLVL>39]: //%NAME% // At level 40+, stop notifying and showing all rares, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all rares
 ItemDisplay[MAG amu ILVL=88 CLVL>91]: %NAME%%DOT-97%{%TAN%Craft at char level 92+}
 ItemDisplay[MAG amu ILVL=89 CLVL>91]: %NAME%%DOT-97%{%TAN%Craft at char level 92+}
@@ -559,7 +559,7 @@ ItemDisplay[MAG !ID ILVL>49 (uui OR uea OR ula OR utu OR utp)]: %NAME%%MAP-97% /
 ItemDisplay[MAG !ID ILVL>49 (ulc OR uvc OR umc)]: %NAME%%MAP-97% // Possible Whale Belt, Elite tier, lower strength
 ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97% // All gloves
 ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
-ItemDisplay[MAG !ID CLVL<40]: %NAME%%MAP-97% // Notify for all magics until level 39
+ItemDisplay[MAG !ID CLVL<40]: %NAME% // Notify for all magics until level 39
 ItemDisplay[MAG !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifying for all magics, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all magics
 ItemDisplay[GOLD<50 CLVL>14]: // Hide 50 gold and less if level 14+
 ItemDisplay[GOLD<100 CLVL>21]: // Hide 100 gold and less if level 21+
