@@ -23,6 +23,7 @@ This filter has only a few basic lines. It's purpose is to help people get a sta
 * **Item Codes:** <http://www.gmstemple.com/Diablo2/itemcodes.html>
 * **Automods Info:** <https://www.diabloii.net/forums/threads/the-staffmod-grail.740340/>
 * **Skill Codes:** <https://user.xmission.com/~trevin/DiabloIIv1.09_Skills.html>
+* **PD2 Item & Skill Codes:** <https://docs.google.com/spreadsheets/d/15_JIFA5Wkx3sGQr_scLZz3l6Q8Ig687yUiz8DttaxtI/edit?usp=sharing>
 
 # Completely Hidden Items
 I have completely hidden very few items. The only items fully hidden are:
