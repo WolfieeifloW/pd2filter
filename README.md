@@ -14,16 +14,16 @@
 Select which filter you want to use from below and click the link which will take you to the raw code for that version. Copy all of the code and then navigate to your Project Diablo 2 folder (...\Diablo II\ProjectD2). Open **default.filter**, paste the code you copied, overwriting everything in there, and save the file. In-game press **CTRL+Numpad 0** to reload your filter. In-game I use these settings: ![In-Game Settings](https://i.imgur.com/etdutvd.png)
 
 # Loot Filters
-## [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
+### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
 A version of the filter that has lines for every single item in the game. This is for ease-of-use and very quick editing as you should ideally only ever have to comment or uncomment a line. This version will show and notify a lot of items by default with the idea that you can slowly start to comment out things you don't need. The flip side is that since this filter contains lines for every item you can easily just uncomment a line for things you want to show that aren't currently showing.
 
-## [Compact](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter)
+### [Compact](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter)
 This version will contain only the lines that are already uncommented in the Detailed version. This version will still show and notify a lot of items that you can slowly start to comment out but you have to have knowledge of filters to add your own lines for items that are not already in the filter.
 
-## Wolfie
+### Wolfie
 N/A yet. This version is basically a copy of my own personal filter. Will most likely contain things you don't think are worth it and not contain things you think are worth it. No support will be given for this version.
 
-## [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)
+### [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)
 This filter has only a few basic lines. It's purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
 
 # Informative Links
