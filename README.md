@@ -11,7 +11,8 @@
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
 
 # Installation
-Select which filter you want to use from below and click the link which will take you to the raw code for that version. Copy all of the code and then navigate to your Project Diablo 2 folder (...\Diablo II\ProjectD2). Open **default.filter**, paste the code you copied, overwriting everything in there, and save the file. Close the file and then open Project Diablo 2. CTRL+click the "Settings" button in-game (bottom-left corner) and make sure your settings match these: ![In-Game Settings](https://i.imgur.com/etdutvd.png) Press **CTRL+Numpad 0** to reload your filter.
+Select which filter you want to use from below and click the link which will take you to the raw code for that version. Copy all of the code and then navigate to your Project Diablo 2 folder (...\Diablo II\ProjectD2). Open **default.filter**, paste the code you copied, overwriting everything in there, and save the file. Close the file and then open Project Diablo 2. CTRL+click the "Settings" button in-game (bottom-left corner) and make sure your settings match these: ![In-Game Settings](https://i.imgur.com/etdutvd.png)
+Press **CTRL+Numpad 0** to reload your filter.
 
 # Loot Filters
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
