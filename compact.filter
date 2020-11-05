@@ -1,3 +1,4 @@
+// Quest Items
 ItemDisplay[hdm]: %NAME%%MAP-00%{%TAN%Give to Charsi in Act 1} // Horadric Malus
 ItemDisplay[bks]: %NAME%%MAP-00%{%TAN%Talk to Akara in Act 1%NL%} // Scroll of Inifuss
 ItemDisplay[bkd]: %NAME%%MAP-00%{%TAN%Go to Act 1: Stony Field%NL%} // Scroll of Inifuss, deciphered
@@ -22,17 +23,23 @@ ItemDisplay[g34]: %NAME%%MAP-00%{%TAN%Give to Alkor in Act 3%NL%} // The Golden 
 ItemDisplay[hfh]: %NAME%%MAP-00%{%TAN%Hit Hellforge in Act 4: River of Flame} // Hellforge Hammer
 ItemDisplay[ice]: %NAME%%MAP-00%{%TAN%Touch Anya in Act 5: Frozen River%NL%} // Malah's Potion
 ItemDisplay[tr2]: %NAME%%MAP-00%{%TAN%Right click for a permanent All Resistances +10%NL%} // Scroll of Resistance
+
+// Essences & Tokens
 ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror
 ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Burning, Festering, & Twisted essences%NL%} // Charged Essence of Hatred
 ItemDisplay[fed]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Burning, Charged, & Twisted essences%NL%} // Festering Essence of Destruction
 ItemDisplay[tes]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Burning, Charged, & Festering essences%NL%} // Twisted Essence of Suffering
 ItemDisplay[toa]: %ORANGE%%NAME%%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
+
+// Keys & Organs
 ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube w/ Hate + Terror keys in Act 5%NL%} // Key of Destruction
 ItemDisplay[pk2]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube w/ Destruction + Terror keys in Act 5%NL%} // Key of Hate
 ItemDisplay[pk1]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube w/ Destruction + Hate keys in Act 5%NL%} // Key of Terror
 ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube any 3 organs in Act 5 to open Uber Trist%NL%} // Baal's Eye
 ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube any 3 organs in Act 5 to open Uber Trist%NL%} // Diablo's Horn
 ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube any 3 organs in Act 5 to open Uber Trist%NL%} // Mephisto's Brain
+
+// PD2 Items
 ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%MAP-62% // Worldstone Shard
 ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%MAP-62% // Larzuk's Box
 ItemDisplay[rera]: %NAME%{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map}%DOT-80% // Reroll Rare Map (Horadrim Orb)
@@ -48,6 +55,8 @@ ItemDisplay[t15]: %NAME% [T5]%MAP-87% // Map
 ItemDisplay[t16]: %NAME% [T6]%MAP-87% // Ruins of Viz-jun
 ItemDisplay[t17]: %NAME% [T7]%MAP-87% // River of Blood
 ItemDisplay[t18]: %NAME% [T8]%MAP-87% // Lava Map
+
+// Gems
 ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when below X character level
 ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when below X character level
 ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when below X character level
@@ -87,6 +96,8 @@ ItemDisplay[GEM=2 GEMTYPE=6]: %NAME%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topa
 ItemDisplay[GEM=3 GEMTYPE=6]: %NAME%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
 ItemDisplay[GEM=4 GEMTYPE=6]: %NAME%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
 ItemDisplay[GEM=5 GEMTYPE=6]: %NAME%%DOT-20% // Perfect Topaz
+
+// Runes
 ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
 ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
 ItemDisplay[RUNE>23]: %RED%%RUNENAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
@@ -124,6 +135,8 @@ ItemDisplay[RUNE=30]: %NAME%{%TAN%2 Ber + Key= Jah%NL%} // Ber Rune
 ItemDisplay[RUNE=31]: %NAME%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
 ItemDisplay[RUNE=32]: %NAME%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
 ItemDisplay[RUNE=33]: %NAME% // Zod Rune
+
+// Vendor Items
 ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %GREEN%(+5 Jav) %BLUE%%NAME% // +2 Amazon, +3 Javelin Skills Javelin
 ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %GREEN%(+3 Jav 20IAS) %BLUE%%NAME% // 3 Javelin Skills, 20 IAS glove
 ItemDisplay[MAG TABSK2>5 ZON]: %GREEN%(+6 Jav) %BLUE%%NAME% // +6 Javelin Skills Javelin
@@ -140,11 +153,17 @@ ItemDisplay[MAG CHSK91>0 WAND]: %GREEN%(Lower Res) %BLUE%%NAME% // Lower Resist 
 ItemDisplay[MAG CHSK72>0 WAND]: %GREEN%(Weaken) %BLUE%%NAME% // Weaken charges
 ItemDisplay[MAG (SOCK>3 AND LIFE>89) CHEST]: %GREEN%(Whale) %BLUE%%NAME% // 4 sockets, 90+ Health Armor
 ItemDisplay[MAG (SOCK>3 AND FBR>1) uit]: %GREEN%(JMoD) %BLUE%%NAME% // JMoD Monarch
+
+// Hide Useless Items
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
 ItemDisplay[INF]: // Hide all Low Quality, Cracked, Crude, & Damaged items
+
+// Eth & Sockets in Item Name
 ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
 ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
 ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
+
+// Unique Items
 ItemDisplay[UNI !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL unique items
 ItemDisplay[UNI !ID amu]: %NAME%%MAP-A5% // All unique amulets
 ItemDisplay[UNI !ID cm1]: %NAME%%MAP-A5% // Annihilus Small Charm
@@ -494,9 +513,13 @@ ItemDisplay[UNI !ID 7bw]: %NAME%%MAP-A5% // Boneshade Lich Wand
 ItemDisplay[UNI !ID 7gw]: %NAME%%MAP-A5% // Deaths's Web Unearthed Wand
 ItemDisplay[UNI CLVL<60 !ID]: %NAME%%MAP-A5% // Notification and map ping for all uniques until level 59
 ItemDisplay[UNI CLVL>59 !ID]: %NAME% // At level 60+, stop notifying for all uniques, and only notify for the ones uncommented above - comment out %NAME% (change to "//%NAME%"") in this line to completely hide unwanted uniques
+
+// Set Items
 ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 ItemDisplay[SET CLVL<60 !ID]: %NAME%%MAP-84% // Notification and map ping for all sets until level 59
 ItemDisplay[SET CLVL>59 !ID]: %NAME% // At level 60, stop notifying for all sets, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted sets
+
+// Rare Items
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
 ItemDisplay[RARE !ID CIRC]: %NAME%%MAP-A8% // All unidentified Circlets
 ItemDisplay[RARE !ID jew]: %NAME%%MAP-A8% // All unidentified jewels
@@ -517,6 +540,8 @@ ItemDisplay[RARE !ID ELT SWORD]: %NAME%%MAP-A8% // All Elite tier Swords
 ItemDisplay[RARE !ID ELT THROWING]: %NAME%%MAP-A8% // All Elite tier Throwing Weapons
 ItemDisplay[RARE !ID CLVL<40]: %NAME% // Notify for all rares until level 39
 ItemDisplay[RARE !ID CLVL>39]: //%NAME% // At level 40+, stop notifying and showing all rares, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all rares
+
+// Magic Items
 ItemDisplay[MAG amu ILVL=88 CLVL>91]: %NAME%%DOT-97%{%TAN%Craft at char level 92+}
 ItemDisplay[MAG amu ILVL=89 CLVL>91]: %NAME%%DOT-97%{%TAN%Craft at char level 92+}
 ItemDisplay[MAG amu ILVL=90 CLVL>89]: %NAME%%DOT-97%{%TAN%Craft at char level 90+}
@@ -559,12 +584,16 @@ ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97% // All gloves
 ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 ItemDisplay[MAG !ID CLVL<40]: %NAME% // Notify for all magics until level 39
 ItemDisplay[MAG !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifying for all magics, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all magics
+
+// Gold
 ItemDisplay[GOLD<50 CLVL>14]: // Hide 50 gold and less if level 14+
 ItemDisplay[GOLD<100 CLVL>21]: // Hide 100 gold and less if level 21+
 ItemDisplay[GOLD<200 CLVL>28]: // Hide 200 gold and less if level 28+
 ItemDisplay[GOLD<300 CLVL>35]: // Hide 300 gold and less if level 35+
 ItemDisplay[GOLD<500 CLVL>40]: // Hide 500 gold and less if level 40+
 ItemDisplay[GOLD<1000 CLVL>60]: // Hide 1000 gold and less if level 60+
+
+// Potions
 ItemDisplay[hp1 CLVL<25]: %RED%+%WHITE%HP1 // Minor Healing Potion
 ItemDisplay[hp1 CLVL>24]: // Hides Minor Healing Potions after level 24
 ItemDisplay[hp2 CLVL<25]: %RED%+%WHITE%HP2 // Light Healing Potion
@@ -592,10 +621,14 @@ ItemDisplay[gps]: %GREEN%+%WHITE%Rancid // Rancid Potion
 ItemDisplay[opl]: %ORANGE%+%WHITE%Fulminating // Fulminating Potion
 ItemDisplay[opm]: %ORANGE%+%WHITE%Exploding // Exploding Potion
 ItemDisplay[ops]: %ORANGE%+%WHITE%Oil // Oil Potion
+
+// Scrolls & Tomes
 ItemDisplay[isc]: ID%RED%+%WHITE% // Scroll of Identify
 ItemDisplay[tsc]: TP%BLUE%+%WHITE% // Scroll of Town Portal
 ItemDisplay[ibk]: %RED%+%WHITE%ID%RED%+%WHITE% // Tome of Identify
 ItemDisplay[tbk]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
+
+// Base Items (white/gray)
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 CIRC]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os
