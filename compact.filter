@@ -156,7 +156,7 @@ ItemDisplay[MAG (SOCK>3 AND FBR>1) uit]: %GREEN%(JMoD) %BLUE%%NAME% // JMoD Mona
 
 // Hide Useless Items
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
-ItemDisplay[INF CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items
+ItemDisplay[INF CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 
 // Eth & Sockets in Item Name
 ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
@@ -729,7 +729,7 @@ ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // Superior, Eth, 0os
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity} // Superior, Eth, 5os
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // Superior, Eth, 6os
-ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins
+ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins past character level 10
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Venom
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Mind Blast
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Dragon Flight
@@ -837,9 +837,9 @@ ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 CHEST]: %NAME%{%TAN%Larzuk for soc
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth} // All tiers, 2os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,} // All tiers, 3os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,} // All tiers, 4os, Superior, Eth
-ItemDisplay[NMAG BELT CLVL>10]: // This will completely hide all white belts
-ItemDisplay[NMAG BOOTS CLVL>10]: // This will completely hide all white belts
-ItemDisplay[NMAG GLOVES CLVL>10]: // This will completely hide all white belts
+ItemDisplay[NMAG BELT CLVL>10]: // This will completely hide all white belts past character level 10
+ItemDisplay[NMAG BOOTS CLVL>10]: // This will completely hide all white boots past character level 10
+ItemDisplay[NMAG GLOVES CLVL>10]: // This will completely hide all white gloves past character level 10
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 HELM]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os
@@ -852,8 +852,8 @@ ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, 
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 HELM]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Superior, Eth
-ItemDisplay[NMAG CLVL>10 buc]: // This will completely hide all white Bucklers
-ItemDisplay[NMAG CLVL>10 xuc]: // This will completely hide all white Defenders
+ItemDisplay[NMAG CLVL>10 buc]: // This will completely hide all white Bucklers past character level 10
+ItemDisplay[NMAG CLVL>10 xuc]: // This will completely hide all white Defenders past character level 10
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SHIELD]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SHIELD]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SHIELD]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,} // All tiers, 3os
@@ -922,19 +922,19 @@ ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 XBOW]: %NAME%{%TAN%& Perfect Amethyst 
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 XBOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Eth
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 XBOW]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 XBOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Superior, Eth
-ItemDisplay[NMAG CLVL>10 dgr]: // This will completely hide all white Daggers
-ItemDisplay[NMAG CLVL>10 dir]: // This will completely hide all white Dirks
-ItemDisplay[NMAG CLVL>10 9dg]: // This will completely hide all white Poignards
-ItemDisplay[NMAG CLVL>10 9di]: // This will completely hide all white Rondels
-ItemDisplay[NMAG CLVL>10 7dg]: // This will completely hide all white Bone Knifes
-ItemDisplay[NMAG CLVL>10 7di]: // This will completely hide all white Mithril Points
+ItemDisplay[NMAG CLVL>10 dgr]: // This will completely hide all white Daggers past character level 10
+ItemDisplay[NMAG CLVL>10 dir]: // This will completely hide all white Dirks past character level 10
+ItemDisplay[NMAG CLVL>10 9dg]: // This will completely hide all white Poignards past character level 10
+ItemDisplay[NMAG CLVL>10 9di]: // This will completely hide all white Rondels past character level 10
+ItemDisplay[NMAG CLVL>10 7dg]: // This will completely hide all white Bone Knifes past character level 10
+ItemDisplay[NMAG CLVL>10 7di]: // This will completely hide all white Mithril Points past character level 10
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 DAGGER !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice,} // All tiers, 3os
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 DAGGER !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os, Superior
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice,} // All tiers, 3os, Superior
-ItemDisplay[NMAG CLVL>10 JAV]: // This will completely hide all white javelins
+ItemDisplay[NMAG CLVL>10 JAV]: // This will completely hide all white javelins past character level 10
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,} // All tiers, 3os
@@ -1099,7 +1099,7 @@ ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 7cr]: %GRAY%%NAME%{%ORANGE%Steel, Stre
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 7cr]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,} // All tiers, 3os, Eth
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 7cr]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind} // All tiers, 2os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 7cr]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,} // All tiers, 3os, Superior, Eth
-ItemDisplay[NMAG CLVL>10 THROWING]: // This will completely hide all white throwing weapons
+ItemDisplay[NMAG CLVL>10 THROWING]: // This will completely hide all white throwing weapons past character level 10
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
