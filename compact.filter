@@ -156,7 +156,7 @@ ItemDisplay[MAG (SOCK>3 AND FBR>1) uit]: %GREEN%(JMoD) %BLUE%%NAME% // JMoD Mona
 
 // Hide Useless Items
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
-ItemDisplay[INF]: // Hide all Low Quality, Cracked, Crude, & Damaged items
+ItemDisplay[INF CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items
 
 // Eth & Sockets in Item Name
 ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
