@@ -84,8 +84,7 @@ ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when after X character level
 ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when after X character level
 ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems for stacking purposes
 ItemDisplay[GEM<5]: %NAME% // Everything except Perfect gems
-ItemDisplay[GEM<5]: %NAME%%DOT-20% // Perfect gems
-
+ItemDisplay[GEM=5]: %NAME%%DOT-20% // Perfect gems
 // Runes
 ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
 ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
