@@ -41,15 +41,15 @@ I have completely hidden very few items. The only items fully hidden are:
 * Horadric Scroll (completely useless item)
 * Chipped, Flawed, and normal quality gems past character level 29
 * All ears
-* All inferior (Broken, Crude, etc) items
+* All inferior (Broken, Crude, etc) items past level 10
 * Low piles of gold past certain character levels
 * Minor, Light, and normal quality Health and Mana Potions past certain character levels
-* White Amazon Javelins (no sockets so no Runewords possible)
-* White Belts, Boots, and Gloves
-* White Bucklers (and Exceptional version) as they can only have 1 socket (no Runewords)
-* White Daggers and Dirks (and Exceptional & Elite versions) as they can only have 1 socket (no Runewords)
-* White Javelins (no sockets = no possible Runewords)
-* Throwing weapons (no sockets = no possible Runewords)
+* White Amazon Javelins past level 10 (no sockets so no Runewords possible)
+* White Belts, Boots, and Gloves past level 10
+* White Bucklers (and Exceptional version) past level 10 as they can only have 1 socket (no Runewords)
+* White Daggers and Dirks (and Exceptional & Elite versions) past level 10 as they can only have 1 socket (no Runewords)
+* White Javelins past level 10 (no sockets = no possible Runewords)
+* Throwing weapons past level 10 (no sockets = no possible Runewords)
 
 # Disclaimer
 For all versions of the filter I take no responsibility for any items that are accidentally hidden and/or do not notify. I do try my best to test these filters and ensure they are working properly but there's always room for error.
