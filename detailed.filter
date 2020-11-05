@@ -4488,8 +4488,8 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%N
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // Superior, Eth, 6os
 
 // Amazon Javelins
-// Nothing for Amazon Javelins as they cannot have sockets
-ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins past character level 10
+ItemDisplay[NMAG (am5 OR ama OR amf) TABSK2>2]: %NAME% // Show +3 Jav javelins
+ItemDisplay[NMAG CLVL>30 (am5 OR ama OR amf) TABSK2<3]: // This will completely hide all white Amazon Javelins that are +0-2 Jav skills past character level 30
 
 // ------------------------------------------------------------------------------
 //    [BCAS] Assassin
@@ -8210,7 +8210,7 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANG
 //    [BWJA] Javelins
 // ------------------------------------------------------------------------------
 // No need for white throwing weapons as they cannot have sockets
-ItemDisplay[NMAG CLVL>10 JAV]: // This will completely hide all white javelins past character level 10
+ItemDisplay[NMAG CLVL>10 JAV !ZON]: // This will completely hide all white javelins past character level 10
 
 // ------------------------------------------------------------------------------
 //    [BWMA] Maces
