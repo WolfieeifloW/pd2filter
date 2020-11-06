@@ -79,12 +79,46 @@ ItemDisplay[t17]: %NAME% [T7]%MAP-87% // River of Blood
 ItemDisplay[t18]: %NAME% [T8]%MAP-87% // Lava Map
 
 // Gems
-ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when after X character level
-ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when after X character level
-ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when after X character level
+ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when above X character level
+ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when above X character level
+ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when above X character level
 ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems for stacking purposes
-ItemDisplay[GEM<5]: %NAME% // Everything except Perfect gems
-ItemDisplay[GEM=5]: %NAME%%DOT-20% // Perfect gems
+ItemDisplay[gcv OR gcvs]: %NAME% // Chipped Amethyst
+ItemDisplay[gfv OR gfvs]: %NAME% // Flawed Amethyst
+ItemDisplay[gsv OR gsvs]: %NAME% // Amethyst ("Normal")
+ItemDisplay[gzv OR gzvs]: %NAME% // Flawless Amethyst
+ItemDisplay[gpv OR gpvs]: %NAME%%DOT-20% // Perfect Amethyst
+ItemDisplay[gcw OR gcws]: %NAME% // Chipped Diamond
+ItemDisplay[gfw OR gfws]: %NAME% // Flawed Diamond
+ItemDisplay[gsw OR gsws]: %NAME% // Diamond ("Normal")
+ItemDisplay[glw OR glws]: %NAME% // Flawless Diamond
+ItemDisplay[gpw OR gpws]: %NAME%%DOT-20% // Perfect Diamond
+ItemDisplay[gcg OR gcgs]: %NAME% // Chipped Emerald
+ItemDisplay[gfg OR gfgs]: %NAME% // Flawed Emerald
+ItemDisplay[gsg OR gsgs]: %NAME% // Emerald ("Normal")
+ItemDisplay[glg OR glgs]: %NAME% // Flawless Emerald
+ItemDisplay[gpg OR gpgs]: %NAME%%DOT-20% // Perfect Emerald
+ItemDisplay[gcr OR gcrs]: %NAME% // Chipped Ruby
+ItemDisplay[gfr OR gfrs]: %NAME% // Flawed Ruby
+ItemDisplay[gsr OR gsrs]: %NAME% // Ruby ("Normal")
+ItemDisplay[glr OR glrs]: %NAME% // Flawless Ruby
+ItemDisplay[gpr OR gprs]: %NAME%%DOT-20% // Perfect Ruby
+ItemDisplay[gcb OR gcbs]: %NAME% // Chipped Sapphire
+ItemDisplay[gfb OR gfbs]: %NAME% // Flawed Sapphire
+ItemDisplay[gsb OR gsbs]: %NAME% // Sapphire ("Normal")
+ItemDisplay[glb OR glbs]: %NAME% // Flawless Sapphire
+ItemDisplay[gpb OR gpbs]: %NAME%%DOT-20% // Perfect Sapphire
+ItemDisplay[skc OR skcs]: %NAME% // Chipped Skull
+ItemDisplay[skf OR skfs]: %NAME% // Flawed Skull
+ItemDisplay[sku OR skus]: %NAME% // Skull ("Normal")
+ItemDisplay[skl OR skls]: %NAME% // Flawless Skull
+ItemDisplay[skz OR skzs]: %NAME%%DOT-20% // Perfect Skull
+ItemDisplay[gcy OR gcys]: %NAME% // Chipped Topaz
+ItemDisplay[gfy OR gfys]: %NAME% // Flawed Topaz
+ItemDisplay[gsy OR gsys]: %NAME% // Topaz ("Normal")
+ItemDisplay[gly OR glys]: %NAME% // Flawless Topaz
+ItemDisplay[gpy OR gpys]: %NAME%%DOT-20% // Perfect Topaz
+
 // Runes
 ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
 ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
@@ -95,6 +129,8 @@ ItemDisplay[RUNE>0]: %NAME%
 // Other Items
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
 ItemDisplay[INF CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
+ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
+ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
 
 ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
 ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")

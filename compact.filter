@@ -57,45 +57,45 @@ ItemDisplay[t17]: %NAME% [T7]%MAP-87% // River of Blood
 ItemDisplay[t18]: %NAME% [T8]%MAP-87% // Lava Map
 
 // Gems
-ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when below X character level
-ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when below X character level
-ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when below X character level
+ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when above X character level
+ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when above X character level
+ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when above X character level
 ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems for stacking purposes
-ItemDisplay[GEM=1 GEMTYPE=1]: %NAME%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
-ItemDisplay[GEM=2 GEMTYPE=1]: %NAME%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
-ItemDisplay[GEM=3 GEMTYPE=1]: %NAME%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=1]: %NAME%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
-ItemDisplay[GEM=5 GEMTYPE=1]: %NAME%%DOT-20%{%TAN%Used in Caster crafting} // Perfect Amethyst
-ItemDisplay[GEM=1 GEMTYPE=2]: %NAME%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
-ItemDisplay[GEM=2 GEMTYPE=2]: %NAME%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
-ItemDisplay[GEM=3 GEMTYPE=2]: %NAME%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=2]: %NAME%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
-ItemDisplay[GEM=5 GEMTYPE=2]: %NAME%%DOT-20% // Perfect Diamond
-ItemDisplay[GEM=1 GEMTYPE=3]: %NAME%{%TAN%3 Chipped Emerald = Flawed Emerald} // Chipped Emerald
-ItemDisplay[GEM=2 GEMTYPE=3]: %NAME%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
-ItemDisplay[GEM=3 GEMTYPE=3]: %NAME%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=3]: %NAME%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
-ItemDisplay[GEM=5 GEMTYPE=3]: %NAME%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
-ItemDisplay[GEM=1 GEMTYPE=4]: %NAME%{%TAN%3 Chipped Ruby = Flawed Ruby} // Chipped Ruby
-ItemDisplay[GEM=2 GEMTYPE=4]: %NAME%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
-ItemDisplay[GEM=3 GEMTYPE=4]: %NAME%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=4]: %NAME%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
-ItemDisplay[GEM=5 GEMTYPE=4]: %NAME%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
-ItemDisplay[GEM=1 GEMTYPE=5]: %NAME%{%TAN%3 Chipped Sapphire = Flawed Sapphire} // Chipped Sapphire
-ItemDisplay[GEM=2 GEMTYPE=5]: %NAME%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
-ItemDisplay[GEM=3 GEMTYPE=5]: %NAME%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=5]: %NAME%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
-ItemDisplay[GEM=5 GEMTYPE=5]: %NAME%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
-ItemDisplay[GEM=1 GEMTYPE=7]: %NAME%{%TAN%3 Chipped Skull = Flawed Skull} // Chipped Skull
-ItemDisplay[GEM=2 GEMTYPE=7]: %NAME%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
-ItemDisplay[GEM=3 GEMTYPE=7]: %NAME%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=7]: %NAME%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
-ItemDisplay[GEM=5 GEMTYPE=7]: %NAME%%DOT-20% // Perfect Skull
-ItemDisplay[GEM=1 GEMTYPE=6]: %NAME%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
-ItemDisplay[GEM=2 GEMTYPE=6]: %NAME%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
-ItemDisplay[GEM=3 GEMTYPE=6]: %NAME%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=6]: %NAME%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
-ItemDisplay[GEM=5 GEMTYPE=6]: %NAME%%DOT-20% // Perfect Topaz
+ItemDisplay[gcv OR gcvs]: %NAME%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
+ItemDisplay[gfv OR gfvs]: %NAME%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
+ItemDisplay[gsv OR gsvs]: %NAME%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
+ItemDisplay[gzv OR gzvs]: %NAME%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
+ItemDisplay[gpv OR gpvs]: %NAME%%DOT-20%{%TAN%Used in Caster crafting} // Perfect Amethyst
+ItemDisplay[gcw OR gcws]: %NAME%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
+ItemDisplay[gfw OR gfws]: %NAME%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
+ItemDisplay[gsw OR gsws]: %NAME%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
+ItemDisplay[glw OR glws]: %NAME%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
+ItemDisplay[gpw OR gpws]: %NAME%%DOT-20% // Perfect Diamond
+ItemDisplay[gcg OR gcgs]: %NAME%{%TAN%3 Chipped Emerald = Flawed Emerald} // Chipped Emerald
+ItemDisplay[gfg OR gfgs]: %NAME%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
+ItemDisplay[gsg OR gsgs]: %NAME%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
+ItemDisplay[glg OR glgs]: %NAME%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
+ItemDisplay[gpg OR gpgs]: %NAME%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
+ItemDisplay[gcr OR gcrs]: %NAME%{%TAN%3 Chipped Ruby = Flawed Ruby} // Chipped Ruby
+ItemDisplay[gfr OR gfrs]: %NAME%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
+ItemDisplay[gsr OR gsrs]: %NAME%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
+ItemDisplay[glr OR glrs]: %NAME%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
+ItemDisplay[gpr OR gprs]: %NAME%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
+ItemDisplay[gcb OR gcbs]: %NAME%{%TAN%3 Chipped Sapphire = Flawed Sapphire} // Chipped Sapphire
+ItemDisplay[gfb OR gfbs]: %NAME%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
+ItemDisplay[gsb OR gsbs]: %NAME%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
+ItemDisplay[glb OR glbs]: %NAME%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
+ItemDisplay[gpb OR gpbs]: %NAME%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
+ItemDisplay[skc OR skcs]: %NAME%{%TAN%3 Chipped Skull = Flawed Skull} // Chipped Skull
+ItemDisplay[skf OR skfs]: %NAME%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
+ItemDisplay[sku OR skus]: %NAME%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
+ItemDisplay[skl OR skls]: %NAME%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
+ItemDisplay[skz OR skzs]: %NAME%%DOT-20% // Perfect Skull
+ItemDisplay[gcy OR gcys]: %NAME%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
+ItemDisplay[gfy OR gfys]: %NAME%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
+ItemDisplay[gsy OR gsys]: %NAME%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
+ItemDisplay[gly OR glys]: %NAME%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
+ItemDisplay[gpy OR gpys]: %NAME%%DOT-20% // Perfect Topaz
 
 // Runes
 ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
@@ -122,7 +122,7 @@ ItemDisplay[RUNE=17]: %NAME%{%TAN%3 Lum + Key = Ko%NL%} // Lum Rune
 ItemDisplay[RUNE=18]: %NAME%{%TAN%3 Ko + Key = Fal%NL%} // Ko Rune
 ItemDisplay[RUNE=19]: %NAME%{%TAN%3 Fal + Key = Lem%NL%} // Fal Rune
 ItemDisplay[RUNE=20]: %NAME%{%TAN%3 Lem + Key = Pul%NL%} // Lem Rune
-ItemDisplay[RUNE=21]: %NAME%{%TAN%2 Pul + Key = Pul%NL%} // Pul Rune
+ItemDisplay[RUNE=21]: %NAME%{%TAN%2 Pul + Key = Um%NL%} // Pul Rune
 ItemDisplay[RUNE=22]: %NAME%{%TAN%2 Um + Key = Mal%NL%} // Um Rune
 ItemDisplay[RUNE=23]: %NAME%{%TAN%2 Mal + Key = Ist%NL%} // Mal Rune
 ItemDisplay[RUNE=24]: %NAME%{%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
@@ -157,8 +157,10 @@ ItemDisplay[MAG (SOCK>3 AND FBR>1) uit]: %GREEN%(JMoD) %BLUE%%NAME% // JMoD Mona
 // Hide Useless Items
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
 ItemDisplay[INF CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
+ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
+ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
 
-// Eth & Sockets in Item Name
+// Eth & Socket in Item Name
 ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
 ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
 ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
@@ -520,51 +522,105 @@ ItemDisplay[SET CLVL<60 !ID]: %NAME%%MAP-84% // Notification and map ping for al
 ItemDisplay[SET CLVL>59 !ID]: %NAME% // At level 60, stop notifying for all sets, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted sets
 
 // Rare Items
+ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Normal difficulty
+ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Nightmare difficulty
+ItemDisplay[RARE !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Hell difficulty
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
 ItemDisplay[RARE !ID CIRC]: %NAME%%MAP-A8% // All unidentified Circlets
 ItemDisplay[RARE !ID jew]: %NAME%%MAP-A8% // All unidentified jewels
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
+ItemDisplay[RARE !ID CLVL<20 ZON]: %NAME%%MAP-A8% // Show all Amazon weapons before level 20
 ItemDisplay[RARE !ID ELT ZON]: %NAME%%MAP-A8% // All Elite tier Amazon weapons
+ItemDisplay[RARE !ID CLVL<20 SIN]: %NAME%%MAP-A8% // Show all Assassin Katars before level 20
 ItemDisplay[RARE !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr)]: %NAME%%MAP-A8% // Assassin Katars, best Katars
+ItemDisplay[RARE !ID CLVL<20 BAR]: %NAME%%MAP-A8% // Show all Barbarian helmets before level 20
 ItemDisplay[RARE !ID BAR]: %NAME%%MAP-A8% // All Barbarian helmets
+ItemDisplay[RARE !ID CLVL<20 DRU]: %NAME%%MAP-A8% // Show all Druid Pelts before level 20
 ItemDisplay[RARE !ID DRU]: %NAME%%MAP-A8% // All Pelts
+ItemDisplay[RARE !ID CLVL<20 NEC]: %NAME%%MAP-A8% // Show all Necromancer Heads before level 20
+ItemDisplay[RARE !ID NEC]: %NAME%%MAP-A8% // All Heads
+ItemDisplay[RARE !ID CLVL<20 DIN]: %NAME%%MAP-A8% // Show all Paladin Shields before level 20
+ItemDisplay[RARE !ID ELT DIN]: %NAME%%MAP-A8% // All Elite tier Paladin Shields
+ItemDisplay[RARE !ID CLVL<20 SOR]: %NAME%%MAP-A8% // Show all Sorceress Orbs before level 20
 ItemDisplay[RARE !ID SOR]: %NAME% // %MAP-A8% // All sorceress Orbs
+ItemDisplay[RARE !ID CLVL<20 CHEST]: %NAME%%MAP-A8% // Show all Armors before level 20
 ItemDisplay[RARE !ID ELT CHEST]: %NAME%%MAP-A8% // All Elite tier Armors
+ItemDisplay[RARE !ID CLVL<20 BELT]: %NAME%%MAP-A8% // Show all Belts before level 20
 ItemDisplay[RARE !ID BELT]: %NAME%%MAP-A8% // All belts
+ItemDisplay[RARE !ID CLVL<20 BOOTS]: %NAME%%MAP-A8% // Show all Boots before level 20
 ItemDisplay[RARE !ID BOOTS]: %NAME%%MAP-A8% // All boots
+ItemDisplay[RARE !ID CLVL<20 GLOVES]: %NAME%%MAP-A8% // Show all Gloves before level 20
 ItemDisplay[RARE !ID GLOVES]: %NAME%%MAP-A8% // All gloves
+ItemDisplay[RARE !ID CLVL<20 HELM]: %NAME%%MAP-A8% // Show all Helmets before level 20
 ItemDisplay[RARE !ID ELT HELM]: %NAME%%MAP-A8% // All Elite tier Helmets
+ItemDisplay[RARE !ID CLVL<20 SHIELD]: %NAME%%MAP-A8% // Show all Shields before level 20
+ItemDisplay[RARE !ID CLVL<20 AXE !THROWING]: %NAME%%MAP-A8% // Show all Axes before level 20
 ItemDisplay[RARE !ID ELT AXE !THROWING]: %NAME%%MAP-A8% // All Elite tier Axes
+ItemDisplay[RARE !ID CLVL<20 BOW]: %NAME%%MAP-A8% // Show all Bows before level 20
+ItemDisplay[RARE !ID ELT BOW]: %NAME%%MAP-A8% // All Elite tier Bows
+ItemDisplay[RARE !ID CLVL<20 DAGGER !THROWING]: %NAME%%MAP-A8% // Show all Daggers before level 20
+ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME%%MAP-A8% // All Elite tier Daggers
+ItemDisplay[RARE !ID CLVL<20 JAV]: %NAME%%MAP-A8% // Show all Javelins before level 20
 ItemDisplay[RARE !ID ELT JAV]: %NAME%%MAP-A8% // All Elite tier Javelins
+ItemDisplay[RARE !ID CLVL<20 MACE]: %NAME%%MAP-A8% // Show all Maces before level 20
+ItemDisplay[RARE !ID CLVL<20 POLEARMS]: %NAME%%MAP-A8% // Show all Polearms before level 20
+ItemDisplay[RARE !ID CLVL<20 SCEPTER]: %NAME%%MAP-A8% // Show all Scepters before level 20
+ItemDisplay[RARE !ID ELT SCEPTER]: %NAME%%MAP-A8% // All Elite tier Scepters
+ItemDisplay[RARE !ID CLVL<20 SPEAR !THROWING]: %NAME%%MAP-A8% // Show all Spears before level 20
+ItemDisplay[RARE !ID CLVL<20 STAFF]: %NAME%%MAP-A8% // Show all Staves before level 20
+ItemDisplay[RARE !ID ELT STAFF]: %NAME%%MAP-A8% // All Elite tier Staves
+ItemDisplay[RARE !ID CLVL<20 SWORD]: %NAME%%MAP-A8% // Show all Swords before level 20
 ItemDisplay[RARE !ID ELT SWORD]: %NAME%%MAP-A8% // All Elite tier Swords
+ItemDisplay[RARE !ID CLVL<20 THROWING]: %NAME%%MAP-A8% // Show all Throwing Weapons before level 20
 ItemDisplay[RARE !ID ELT THROWING]: %NAME%%MAP-A8% // All Elite tier Throwing Weapons
+ItemDisplay[RARE !ID CLVL<20 WAND]: %NAME%%MAP-A8% // Show all Wands before level 20
 ItemDisplay[RARE !ID CLVL<40]: %NAME% // Notify for all rares until level 39
 ItemDisplay[RARE !ID CLVL>39]: //%NAME% // At level 40+, stop notifying and showing all rares, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all rares
 
+// Crafted Items
+ItemDisplay[MAG amu ILVL=88 CLVL>91]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 92+}
+ItemDisplay[MAG amu ILVL=89 CLVL>91]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 92+}
+ItemDisplay[MAG amu ILVL=90 CLVL>89]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 90+}
+ItemDisplay[MAG amu ILVL=91 CLVL>89]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 90+}
+ItemDisplay[MAG amu ILVL=92 CLVL>71]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 88+}
+ItemDisplay[MAG amu ILVL=93 CLVL>71]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 88+}
+ItemDisplay[MAG amu ILVL=94 CLVL>85]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 86+}
+ItemDisplay[MAG amu ILVL=95 CLVL>85]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 86+}
+ItemDisplay[MAG amu ILVL=96 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 84+}
+ItemDisplay[MAG amu ILVL=97 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 84+}
+ItemDisplay[MAG amu ILVL=98 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 82+}
+ItemDisplay[MAG amu ILVL=99 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 82+}
+ItemDisplay[MAG !ID ILVL>93 cm3]: %NAME%%ORANGE%[REROLL]%MAP-68% // iLvl 94 or higher grand charms for cube rerolling
+ItemDisplay[MAG rin ILVL=86 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 84+}
+ItemDisplay[MAG rin ILVL=87 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 84+}
+ItemDisplay[MAG rin ILVL=88 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 82+}
+ItemDisplay[MAG rin ILVL=89 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 82+}
+ItemDisplay[MAG rin ILVL=90 CLVL>79]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 80+}
+ItemDisplay[MAG rin ILVL=91 CLVL>77]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 78+}
+ItemDisplay[MAG rin ILVL=92 CLVL>77]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 78+}
+ItemDisplay[MAG rin ILVL=93 CLVL>75]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 76+}
+ItemDisplay[MAG rin ILVL=94 CLVL>75]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 76+}
+ItemDisplay[MAG rin ILVL>94 CLVL>73]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 74+}
+ItemDisplay[MAG ILVL>71 tbt]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Eth Rune, Perfect Ruby, + Any Jewel} // Light Plated Boots
+ItemDisplay[MAG ILVL>71 xtb]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Eth Rune, Perfect Ruby, + Any Jewel} // Battle Boots
+ItemDisplay[MAG ILVL>71 utb]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Eth Rune, Perfect Ruby, + Any Jewel} // Mirrored Boots
+ItemDisplay[MAG ILVL>71 vgl]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Heavy Gloves
+ItemDisplay[MAG ILVL>71 xvg]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Sharkskin Gloves
+ItemDisplay[MAG ILVL>71 uvg]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Vampirebone Gloves
+ItemDisplay[MAG ILVL>71 vbl]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Light Belt
+ItemDisplay[MAG ILVL>71 zvb]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Sharkskin Belt
+ItemDisplay[MAG ILVL>71 uvc]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Vampirefang Belt
+ItemDisplay[MAG ILVL>71 lbt]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Thul Rune, Perfect Amethyst, + Any Jewel} // Boots
+ItemDisplay[MAG ILVL>71 xlb]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Thul Rune, Perfect Amethyst, + Any Jewel} // Demonhide Boots
+ItemDisplay[MAG ILVL>71 ulb]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Thul Rune, Perfect Amethyst, + Any Jewel} // Wyrmhide Boots
+ItemDisplay[MAG ILVL>71 mgl]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ort Rune, Perfect Sapphire, + Any Jewel} // Chain Gloves
+ItemDisplay[MAG ILVL>71 xmg]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ort Rune, Perfect Sapphire, + Any Jewel} // Heavy Bracers
+ItemDisplay[MAG ILVL>71 umg]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ort Rune, Perfect Sapphire, + Any Jewel} // Vambraces
+
 // Magic Items
-ItemDisplay[MAG amu ILVL=88 CLVL>91]: %NAME%%DOT-97%{%TAN%Craft at char level 92+}
-ItemDisplay[MAG amu ILVL=89 CLVL>91]: %NAME%%DOT-97%{%TAN%Craft at char level 92+}
-ItemDisplay[MAG amu ILVL=90 CLVL>89]: %NAME%%DOT-97%{%TAN%Craft at char level 90+}
-ItemDisplay[MAG amu ILVL=91 CLVL>89]: %NAME%%DOT-97%{%TAN%Craft at char level 90+}
-ItemDisplay[MAG amu ILVL=92 CLVL>71]: %NAME%%DOT-97%{%TAN%Craft at char level 88+}
-ItemDisplay[MAG amu ILVL=93 CLVL>71]: %NAME%%DOT-97%{%TAN%Craft at char level 88+}
-ItemDisplay[MAG amu ILVL=94 CLVL>85]: %NAME%%DOT-97%{%TAN%Craft at char level 86+}
-ItemDisplay[MAG amu ILVL=95 CLVL>85]: %NAME%%DOT-97%{%TAN%Craft at char level 86+}
-ItemDisplay[MAG amu ILVL=96 CLVL>83]: %NAME%%DOT-97%{%TAN%Craft at char level 84+}
-ItemDisplay[MAG amu ILVL=97 CLVL>83]: %NAME%%DOT-97%{%TAN%Craft at char level 84+}
-ItemDisplay[MAG amu ILVL=98 CLVL>81]: %NAME%%DOT-97%{%TAN%Craft at char level 82+}
-ItemDisplay[MAG amu ILVL=99 CLVL>81]: %NAME%%DOT-97%{%TAN%Craft at char level 82+}
-ItemDisplay[MAG !ID ILVL>93 cm3]: %NAME%%ORANGE%[REROLL]%MAP-97% // iLvl 94 or higher grand charms for cube rerolling
-ItemDisplay[MAG rin ILVL=86 CLVL>83]: %NAME%%DOT-97%{%TAN%Craft at char level 84+}
-ItemDisplay[MAG rin ILVL=87 CLVL>83]: %NAME%%DOT-97%{%TAN%Craft at char level 84+}
-ItemDisplay[MAG rin ILVL=88 CLVL>81]: %NAME%%DOT-97%{%TAN%Craft at char level 82+}
-ItemDisplay[MAG rin ILVL=89 CLVL>81]: %NAME%%DOT-97%{%TAN%Craft at char level 82+}
-ItemDisplay[MAG rin ILVL=90 CLVL>79]: %NAME%%DOT-97%{%TAN%Craft at char level 80+}
-ItemDisplay[MAG rin ILVL=91 CLVL>77]: %NAME%%DOT-97%{%TAN%Craft at char level 78+}
-ItemDisplay[MAG rin ILVL=92 CLVL>77]: %NAME%%DOT-97%{%TAN%Craft at char level 78+}
-ItemDisplay[MAG rin ILVL=93 CLVL>75]: %NAME%%DOT-97%{%TAN%Craft at char level 76+}
-ItemDisplay[MAG rin ILVL=94 CLVL>75]: %NAME%%DOT-97%{%TAN%Craft at char level 76+}
-ItemDisplay[MAG rin ILVL>94 CLVL>73]: %NAME%%DOT-97%{%TAN%Craft at char level 74+}
+ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Normal difficulty
+ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Nightmare difficulty
+ItemDisplay[MAG !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Hell difficulty
 ItemDisplay[MAG !ID amu]: %NAME%%MAP-97% // All unidentified amulets
 ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
 ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97% // Large Charms
@@ -584,6 +640,14 @@ ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97% // All gloves
 ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 ItemDisplay[MAG !ID CLVL<40]: %NAME% // Notify for all magics until level 39
 ItemDisplay[MAG !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifying for all magics, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all magics
+
+// Base Items Vendor
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
 
 // Gold
 ItemDisplay[GOLD<50 CLVL>14]: // Hide 50 gold and less if level 14+
@@ -628,108 +692,147 @@ ItemDisplay[tsc]: TP%BLUE%+%WHITE% // Scroll of Town Portal
 ItemDisplay[ibk]: %RED%+%WHITE%ID%RED%+%WHITE% // Tome of Identify
 ItemDisplay[tbk]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
 
-// Base Items (white/gray)
+// Base Items
+ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 CIRC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 CIRC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 CIRC]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 CIRC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 CIRC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 CIRC]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 CIRC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 CIRC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 4os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 4os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 4os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 4os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) amb]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) amb]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) amb]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) amb]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 4os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) amc]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) amc]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) amc]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) amc]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 4os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ZON BOW]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Zephyr} // 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,} // 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice, Ice,%NL%Brand, Faith, Fortitude,} // 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Call to Arms} // 5os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ZON BOW]: %NAME%{%TAN%Larzuk for sockets} // Superior, 0os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Zephyr} // Superior, 2os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,} // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice, Ice,%NL%Brand, Faith, Fortitude,} // Superior, 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Call to Arms} // Superior, 5os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:} // 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice, Ice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ZON BOW]: %NAME%{%TAN%Larzuk for sockets} // Superior, 0os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Superior, 2os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:} // Superior, 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice, Ice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // Superior, 4os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) ZON BOW]: %GRAY%%NAME%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // Superior, 5os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 5os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=6 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 5os
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 5os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 5os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 am3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 6os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 5os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=6 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 5os
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 6os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 5os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 am4]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 6os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 5os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=6 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 5os
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 5os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 5os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 am8]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 6os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 5os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=6 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 5os
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 6os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 5os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 am9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 6os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 5os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=6 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 5os
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 5os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 5os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 amd]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 6os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 5os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=6 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 6os
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 5os
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 6os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 5os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 6os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Stength, Wind} // 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,} // 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,} // 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,} // 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // Superior, 0os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Stength, Wind} // Superior, 2os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,} // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,} // Superior, 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,} // Superior, 5os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // Superior, 6os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Stength, Wind%NL%%TAN%Possible RWs:} // 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // Superior, 0os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Stength, Wind%NL%%TAN%Possible RWs:} // Superior, 2os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // Superior, 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,%NL%%TAN%Possible RWs:} // Superior, 4os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Superior, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Superior, 6os
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Eth, 0os
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity} // Eth, 5os
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // Eth, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // Superior, Eth, 0os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity} // Superior, Eth, 5os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // Superior, Eth, 6os
-ItemDisplay[NMAG CLVL>10 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins past character level 10
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // Eth, 5os
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // Eth, 6os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // Superior, Eth, 0os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // Superior, Eth, 5os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // Superior, Eth, 6os
+ItemDisplay[NMAG (am5 OR ama OR amf) TABSK2>2]: %NAME% // Show +3 Jav javelins
+ItemDisplay[NMAG CLVL>30 (am5 OR ama OR amf) TABSK2<3]: // This will completely hide all white Amazon Javelins that are +0-2 Jav skills past character level 30
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Death Sentry
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Venom
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Dragon Flight
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Blade Shield
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Death Sentry
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Venom
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Dragon Flight
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Blade Shield
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Death Sentry
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Venom
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Dragon Flight
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Blade Shield
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Death Sentry
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Venom
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Dragon Flight
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Blade Shield
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Venom
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Mind Blast
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Dragon Flight
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Shadow Master
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Weapon Block
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Fade
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Dragon Claw
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Death Sentry
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Venom
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Mind Blast
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Dragon Flight
@@ -741,30 +844,30 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN (9lw OR 9hw OR 7
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Dragon Claw
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Chain Lightning Sentry
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SIN]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SIN]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SIN]: %GRAY%%NAME%{%ORANGE%Pattern, Plague, Venom%NL%Chaos, Fury, Malice,} // 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 SIN]: %NAME%{%TAN%Larzuk for sockets} // Superior, 0os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 SIN]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // Superior, 2os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 SIN]: %GRAY%%NAME%{%ORANGE%Pattern, Plague, Venom%NL%Chaos, Fury, Malice,} // Superior, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SIN]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SIN]: %GRAY%%NAME%{%ORANGE%Pattern, Plague, Venom%NL%Chaos, Fury, Malice,%NL%%TAN%Possible RWs:} // 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SIN]: %NAME%{%TAN%Larzuk for sockets} // Superior, 0os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SIN]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // Superior, 2os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SIN]: %GRAY%%NAME%{%ORANGE%Pattern, Plague, Venom%NL%Chaos, Fury, Malice,%NL%%TAN%Possible RWs:} // Superior, 3os
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SIN]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Eth, 0os
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 SIN]: %GRAY%%NAME%{%ORANGE%Pattern, Plague, Venom%NL%Chaos, Fury, Malice,} // Eth, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 SIN]: %NAME%{%TAN%Larzuk for sockets} // Superior, Eth, 0os
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 SIN]: %GRAY%%NAME%{%ORANGE%Pattern, Plague, Venom%NL%Chaos, Fury, Malice,} // Superior, Eth, 3os
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 SIN]: %GRAY%%NAME%{%ORANGE%Pattern, Plague, Venom%NL%Chaos, Fury, Malice,%NL%%TAN%Possible RWs:} // Eth, 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SIN]: %NAME%{%TAN%Larzuk for sockets} // Superior, Eth, 0os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 SIN]: %GRAY%%NAME%{%ORANGE%Pattern, Plague, Venom%NL%Chaos, Fury, Malice,%NL%%TAN%Possible RWs:} // Superior, Eth, 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 (SK149>2 OR SK154>2 OR SK151>2) BAR]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK234>2 OR SK240>2 OR SK245>2) DRU]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK234>2 OR SK240>2 OR SK245>2) DRU]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (SK234>2 OR SK240>2 OR SK245>2) DRU]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
@@ -772,17 +875,17 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK237>2 OR SK247>2) DRU]: %NAME%%DOT-20%%
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 (SK234>2 OR SK240>2 OR SK245>2 OR SK237>2 OR SK247>2) DRU]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK87>2 SK82>2 OR SK91>2 OR SK72>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, all types, good skills only (my opinion)
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK87>2 SK82>2 OR SK91>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, all types, good skills only (my opinion)
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK84>2 OR SK93>2 OR SK74>2 OR SK83>2 OR SK92>2 OR SK67>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, all types, good skills only (my opinion)
@@ -790,322 +893,377 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK84>2 OR SK93>2 OR SK74>2 OR SK83>2 OR S
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK85>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, all types, good skills only (my opinion)
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK85>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, all types, good skills only (my opinion)
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 CLVL<40 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, show while under character level 40
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 ELT PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit} // All tiers, 4os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,} // All tiers, 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (ob5 OR oba OR obf) SORC]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SORC]: %GRAY%%NAME%{%ORANGE%Plague, Venom} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (ob5 OR oba OR obf) SORC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 SORC]: %GRAY%%NAME%{%ORANGE%Plague, Venom} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SORC]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (ob5 OR oba OR obf) SORC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SORC]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<30 CHEST]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Show all 2 and 3 socket armors until character level 30
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 xtp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 xtp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uui]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uui]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uea]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uea]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ula]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 ula]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 4os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 CHEST]: %NAME%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 CHEST]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 CHEST]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 CHEST]: %NAME%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,} // All tiers, 4os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 CHEST]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,} // All tiers, 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 CHEST]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
 ItemDisplay[NMAG BELT CLVL>10]: // This will completely hide all white belts past character level 10
 ItemDisplay[NMAG BOOTS CLVL>10]: // This will completely hide all white boots past character level 10
 ItemDisplay[NMAG GLOVES CLVL>10]: // This will completely hide all white gloves past character level 10
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 HELM]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 HELM]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 HELM]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 HELM]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 HELM]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 HELM]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK>1 CLVL<30 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Shows all 2+ socket shields until character level 30
 ItemDisplay[NMAG CLVL>10 buc]: // This will completely hide all white Bucklers past character level 10
 ItemDisplay[NMAG CLVL>10 xuc]: // This will completely hide all white Defenders past character level 10
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SHIELD]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SHIELD]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SHIELD]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SHIELD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 SHIELD]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 SHIELD]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 SHIELD]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 SHIELD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SHIELD]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SHIELD]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SHIELD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SHIELD]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SHIELD]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SHIELD]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SHIELD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SHIELD]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 SHIELD]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 SHIELD]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 SHIELD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit} // All tiers, 4os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 SHIELD]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 SHIELD]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 SHIELD]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,} // All tiers, 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=4 SHIELD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 SHIELD]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 SHIELD]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 SHIELD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SHIELD]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SHIELD]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 SHIELD]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SHIELD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 AXE !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Kingslayer, Oath, Passion, Phoenix%NL%Famine, Fortitude, Hand of Justice,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Beast, Call to Arms, Death,} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,} // All tiers, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 AXE !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Kingslayer, Oath, Passion, Phoenix%NL%Famine, Fortitude, Hand of Justice,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Beast, Call to Arms, Death,} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,} // All tiers, 6os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Kingslayer, Oath, Passion, Phoenix%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Beast, Call to Arms, Death,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 AXE !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Kingslayer, Oath, Passion, Phoenix%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Beast, Call to Arms, Death,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 AXE !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Oath} // All tiers, 4os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Death, Eternity} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 AXE !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=4 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Oath} // All tiers, 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Death, Eternity} // All tiers, 5os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Kingslayer, Oath, Passion, Phoenix%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Beast, Call to Arms, Death,%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 AXE !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Kingslayer, Oath, Passion, Phoenix%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Beast, Call to Arms, Death,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 BOW]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 BOW]: %GRAY%%NAME%{%ORANGE%Zephyr} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 BOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 BOW]: %GRAY%%NAME%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 BOW]: %GRAY%%NAME%{%ORANGE%Call to Arms} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 BOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 BOW]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 BOW]: %GRAY%%NAME%{%ORANGE%Zephyr} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 BOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 BOW]: %GRAY%%NAME%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 BOW]: %GRAY%%NAME%{%ORANGE%Call to Arms} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 BOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os, Superior
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 BOW]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 BOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 BOW]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 BOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 BOW]: %GRAY%%NAME%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 BOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 BOW]: %GRAY%%NAME%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 BOW]: %GRAY%%NAME%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 BOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 BOW]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 BOW]: %GRAY%%NAME%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 BOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 BOW]: %GRAY%%NAME%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 BOW]: %GRAY%%NAME%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 BOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 XBOW]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 XBOW]: %GRAY%%NAME%{%ORANGE%Zephyr} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 XBOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 XBOW]: %GRAY%%NAME%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 XBOW]: %GRAY%%NAME%{%ORANGE%Call to Arms} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 XBOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 XBOW]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 XBOW]: %GRAY%%NAME%{%ORANGE%Zephyr} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 XBOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 XBOW]: %GRAY%%NAME%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 XBOW]: %GRAY%%NAME%{%ORANGE%Call to Arms} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 XBOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os, Superior
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 XBOW]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 XBOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 XBOW]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 XBOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Superior, Eth
-ItemDisplay[NMAG CLVL>10 dgr]: // This will completely hide all white Daggers past character level 10
-ItemDisplay[NMAG CLVL>10 dir]: // This will completely hide all white Dirks past character level 10
-ItemDisplay[NMAG CLVL>10 9dg]: // This will completely hide all white Poignards past character level 10
-ItemDisplay[NMAG CLVL>10 9di]: // This will completely hide all white Rondels past character level 10
-ItemDisplay[NMAG CLVL>10 7dg]: // This will completely hide all white Bone Knifes past character level 10
-ItemDisplay[NMAG CLVL>10 7di]: // This will completely hide all white Mithril Points past character level 10
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 XBOW]: %GRAY%%NAME%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 XBOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 XBOW]: %GRAY%%NAME%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 XBOW]: %GRAY%%NAME%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 XBOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 XBOW]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 XBOW]: %GRAY%%NAME%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 XBOW]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 XBOW]: %GRAY%%NAME%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 XBOW]: %GRAY%%NAME%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 XBOW]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
+ItemDisplay[NMAG CLVL>20 dgr]: // This will completely hide all white Daggers past character level 20
+ItemDisplay[NMAG CLVL>20 dir]: // This will completely hide all white Dirks past character level 20
+ItemDisplay[NMAG CLVL>20 9dg]: // This will completely hide all white Poignards past character level 20
+ItemDisplay[NMAG CLVL>20 9di]: // This will completely hide all white Rondels past character level 20
+ItemDisplay[NMAG CLVL>20 7dg]: // This will completely hide all white Bone Knifes past character level 20
+ItemDisplay[NMAG CLVL>20 7di]: // This will completely hide all white Mithril Points past character level 20
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 DAGGER !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 DAGGER !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice,} // All tiers, 3os, Superior
-ItemDisplay[NMAG CLVL>10 JAV]: // This will completely hide all white javelins past character level 10
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 DAGGER !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 DAGGER !THROWING]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 DAGGER !THROWING]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG CLVL>20 JAV !ZON]: // This will completely hide all white javelins past character level 20
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 (9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Black, Fury, Lawbringer,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix%NL%Hand of Justice,%NL%Famine, Fortitude,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Honor%NL%Beast, Call to Arms,} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,} // All tiers, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Black, Fury, Lawbringer,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix%NL%Hand of Justice,%NL%Famine, Fortitude,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Honor%NL%Beast, Call to Arms,} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,} // All tiers, 6os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Black, Fury, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix%NL%Hand of Justice,%NL%Famine, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Black, Fury, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix%NL%Hand of Justice,%NL%Famine, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Black, Fury, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix%NL%Hand of Justice,%NL%Famine, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Black, Fury, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix%NL%Hand of Justice,%NL%Famine, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (fla OR 9fl OR 7fl)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Oath} // All tiers, 4os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 (fla OR 9fl OR 7fl)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=4 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Oath} // All tiers, 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 (mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 (mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 (mst OR 9mt OR 7mf OR fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 POLEARM]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 POLEARM]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 POLEARM]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 POLEARM]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 POLEARM]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 POLEARM]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 POLEARM]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 POLEARM]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 POLEARM]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 POLEARM]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 POLEARM]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 POLEARM]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os, Superior
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 POLEARM]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 POLEARM]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 POLEARM]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 POLEARM]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 POLEARM]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 POLEARM]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 POLEARM]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 POLEARM]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 POLEARM]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 POLEARM]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 POLEARM]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 POLEARM]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 POLEARM]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 POLEARM]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 POLEARM]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 POLEARM]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 POLEARM]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 POLEARM]: %GRAY%%NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 POLEARM]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 POLEARM]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 POLEARM]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 POLEARM]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 POLEARM]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 POLEARM]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 POLEARM]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 POLEARM]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 POLEARM]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 POLEARM]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 POLEARM]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 (SK112>2 OR SK109>2 OR SK113>2 OR SK123>2 OR SK122>2 OR SK121>2 OR SK101>2 OR SK117>2 OR SK120>2 OR SK103>2 OR SK111>2 OR SK106>2) SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SCEPTER]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SCEPTER]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SCEPTER]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 SCEPTER]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 SCEPTER]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 SCEPTER]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SCEPTER]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 SCEPTER]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SCEPTER]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SCEPTER]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SCEPTER]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SCEPTER]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SCEPTER]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SCEPTER]: %GRAY%%NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 SCEPTER]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 SCEPTER]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SCEPTER]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 SCEPTER]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SCEPTER]: %GRAY%%NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SPEAR !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os, Superior
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SPEAR !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SPEAR !THROWING]: %GRAY%%NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SPEAR !THROWING]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Leaf, Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Leaf, Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Leaf, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Leaf, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 (SK59>2 OR SK64>2 OR SK40>2 OR SK48>2 OR SK49>2 OR SK58>2 OR SK37>2 OR SK47>2 OR SK52>2 OR SK56>2 OR SK383>2 OR SK62>2) STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 STAFF]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 STAFF]: %GRAY%%NAME%{%ORANGE%Leaf, Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 STAFF]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 STAFF]: %GRAY%%NAME%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 STAFF]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 STAFF]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 STAFF]: %GRAY%%NAME%{%ORANGE%Leaf, Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 STAFF]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 STAFF]: %GRAY%%NAME%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 STAFF]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence} // All tiers, 6os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 STAFF]: %GRAY%%NAME%{%ORANGE%Leaf, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 STAFF]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 STAFF]: %GRAY%%NAME%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 STAFF]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 STAFF]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 STAFF]: %GRAY%%NAME%{%ORANGE%Leaf, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 STAFF]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 STAFF]: %GRAY%%NAME%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 STAFF]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 STAFF]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 STAFF]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 STAFF]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 STAFF]: %GRAY%%NAME%{%ORANGE%Eternity} // All tiers, 5os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 STAFF]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 STAFF]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 STAFF]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SWORD]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SWORD]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SWORD]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Fortitude, Hand of Justice,} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,} // All tiers, 6os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 SWORD]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 SWORD]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=3 SWORD]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Fortitude, Hand of Justice,} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,} // All tiers, 6os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SWORD]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SWORD]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SWORD]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SWORD]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SWORD]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SWORD]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Oath} // All tiers, 4os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Death, Eternity} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=0 SWORD]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Oath} // All tiers, 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Death, Eternity} // All tiers, 5os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Breath of the Dying} // All tiers, 6os, Superior, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 7cr]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 7cr]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=2 7cr]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 ETH SOCK=3 7cr]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,} // All tiers, 3os, Superior, Eth
-ItemDisplay[NMAG CLVL>10 THROWING]: // This will completely hide all white throwing weapons past character level 10
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 SWORD]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 SWORD]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SWORD]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SWORD]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 SWORD]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
+ItemDisplay[NMAG CLVL>50 THROWING]: // This will completely hide all white throwing weapons past character level 50
+ItemDisplay[NMAG SUP !ETH CLVL>50 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior throwing weapons until character level 50
+ItemDisplay[NMAG !SUP ETH CLVL>50 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Ethereal throwing weapons until character level 50
+ItemDisplay[NMAG SUP ETH CLVL>50 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior Ethereal throwing weapons until character level 50
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 WAND]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=0 WAND]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP ED>0 !ETH SOCK=2 WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 WAND]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 WAND]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 WAND]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
 ItemDisplay[NMAG !RW CLVL>29]: %NAME% // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted base items
