@@ -4143,7 +4143,7 @@ ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 
 // Rejuv Potions
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35% // Rejuv Potion
-ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+ // Full Rejuv Potion
+ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+%WHITE% // Full Rejuv Potion
 
 // Drinkable Potions - to hide add "//" after the colon  (eg ": //%...")
 ItemDisplay[vps]: %WHITE%+%WHITE%Stamina // Stamina Potion
