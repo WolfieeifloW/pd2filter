@@ -22,7 +22,7 @@
 1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
 1. Change your settings to match the image below, then reload your filter using **Numpad 0** (by default)
 
-![In-Game Settings](https://i.imgur.com/etdutvd.png)
+![In-Game Settings](https://i.imgur.com/y7vCGmq.png)
 
 If you don't have a numpad change `Reload Config:          VK_NUMPAD0` in ProjectDiablo.cfg (in your PD2 folder) to one of these [Virtual Key Codes](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes).
 
