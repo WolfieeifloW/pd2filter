@@ -42,13 +42,13 @@
 // +----------------------------------------------------------------------------+
 // - Item code for "Imbue Random Rarity (Demonic Cube)"?
 // - Check QTY for:
-// 		Gems
-// 		Runes
-// 		Map reagents
-// 		Worldstone Shards
-// 		Keys
-// 		Token essences
-// 		Organs
+// 		[✓] Gems
+// 		[✓] Runes
+// 		[] Map reagents
+// 		[] Worldstone Shards
+// 		[] Uber Keys
+// 		[] Token essences
+// 		[] Organs
 // - Fix "WAITING ON CURSE MASTERY SKILL ID (??)" lines
 // - Need Lightning Sentry skill ID
 // - Uncomment some base items
@@ -59,7 +59,6 @@
 //		maybe also blood boots but theres already enough good boots for a melee role
 //		caster belt maybe actually goes up in value with tele using lit FCR frames
 // - Test "ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=1 CLVL>30]:"
-// - Test PRICE a bit more (lower PRICE amount to test)
 //
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -1597,8 +1596,10 @@ ItemDisplay[SET CLVL>59 !ID]: %NAME% // At level 60, stop notifying for all sets
 // ------------------------------------------------------------------------------
 // [RIVE] Rare Items Vendor
 // ------------------------------------------------------------------------------
-// This line adds a "$" to the start of an item name if it's worth 35k gold
-//ItemDisplay[RARE !ID !RW PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8% // Hidden for now because PRICE is broken
+// These lines adds a "$" to the start of an item name if it's worth a lot
+ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Normal difficulty
+ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Nightmare difficulty
+ItemDisplay[RARE !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Hell difficulty
 
 // ------------------------------------------------------------------------------
 // [RIMI] Rare Miscellaneous
@@ -3071,8 +3072,10 @@ ItemDisplay[MAG rin ILVL>94 CLVL>73]: %NAME%%DOT-68%{%TAN%Craft at char level 74
 // ------------------------------------------------------------------------------
 // [MIVE] Magic Items Vendor
 // ------------------------------------------------------------------------------
-// This line adds a "$" to the start of an item name if it's worth 35k gold
-//ItemDisplay[MAG !ID !RW PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %BLUE%%NAME% // Hidden for now because PRICE is broken
+// These lines add a "$" to the start of an item name if it's worth a lot of gold
+ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Normal difficulty
+ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Nightmare difficulty
+ItemDisplay[MAG !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Hell difficulty
 
 // ------------------------------------------------------------------------------
 // [MIMI] Magic Miscellaneous
@@ -4064,14 +4067,18 @@ ItemDisplay[MAG !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifyi
 // ------------------------------------------------------------------------------
 // [BIVE] Base Items Vendor
 // ------------------------------------------------------------------------------
-// These two lines add a "$" to the start of an item name if it's worth a lot of gold
-//ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
-//ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
-//ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
-//ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
-//ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
-//ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
-//ItemDisplay[MAG !ID !RW PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %BLUE%%NAME%
+// These lines add a "$" to the start of an item name if it's worth a lot of gold
+// Normal difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
+
+// Nightmare difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
+
+// Hell difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
 
 // ------------------------------------------------------------------------------
 // [BICO] Consumables
@@ -4144,8 +4151,8 @@ ItemDisplay[tbk]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous
 // ------------------------------------------------------------------------------
+ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
 // Please note that all Helmets, Armors, and Shields have Ethereal filter lines as you can corrupt Indestructible on these slots.
-//ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
 
 // ------------------------------------------------------------------------------
 //    [BMCI] Circlets
