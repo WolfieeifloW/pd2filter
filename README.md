@@ -47,14 +47,19 @@
 * **PD2 Item & Skill Codes:** <https://docs.google.com/spreadsheets/d/15_JIFA5Wkx3sGQr_scLZz3l6Q8Ig687yUiz8DttaxtI/edit?usp=sharing>
 
 # Completely Hidden Items
-I have completely hidden very few items. The only items fully hidden are:
+The only items fully hidden in my filters (Detailed and Compact, at least) are:
 * Horadric Scroll (completely useless item)
 * Chipped, Flawed, and normal quality gems past certain character levels
 * All ears
 * All inferior (Broken, Crude, etc) items past certain character levels
+* All quivers past a certain character level
 * Low piles of gold past certain character levels
 * Minor, Light, and normal quality Health and Mana Potions past certain character levels
+* Rare items you don't specify past a certain character level
+* Magic items you don't specify past a certain character level
+* White items with 1 socket past a certain character level
 * White Amazon Javelins past certain character levels (no sockets so no Runewords possible)
+* White Amazon Javelins that are only +0-2 Jav skills past a certain character level
 * White Belts, Boots, and Gloves past certain character levels
 * White Bucklers (and Exceptional version) past certain character levels as they can only have 1 socket (no Runewords)
 * White Daggers and Dirks (and Exceptional & Elite versions) pastcertain character levels as they can only have 1 socket (no Runewords)
