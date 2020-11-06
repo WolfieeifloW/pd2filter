@@ -2,7 +2,7 @@
 
 # Table of Contents
 1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
-1. Loot Filters
+1. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
    1. [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
    1. [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
    1. [Basic](https://github.com/WolfieeifloW/pd2filter#basic)
