@@ -4065,12 +4065,12 @@ ItemDisplay[MAG !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifyi
 // [BIVE] Base Items Vendor
 // ------------------------------------------------------------------------------
 // These two lines add a "$" to the start of an item name if it's worth a lot of gold
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
+//ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+//ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
+//ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+//ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
+//ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+//ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
 //ItemDisplay[MAG !ID !RW PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %BLUE%%NAME%
 
 // ------------------------------------------------------------------------------
