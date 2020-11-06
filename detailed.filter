@@ -5895,19 +5895,19 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTI
 // You can also use these lines to completely hide items. Just put "//" in between "]:" and "{%" (eg "...]: //{%")
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 CHEST]: %NAME%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // All tiers, 4os
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 CHEST]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 CHEST]: %NAME%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // All tiers, 0os, Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 CHEST]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 CHEST]: %GRAY%%NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treachery, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlightenment, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 CHEST]: %GRAY%%NAME%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 CHEST]: %GRAY%%NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
 
 // ------------------------------------------------------------------------------
