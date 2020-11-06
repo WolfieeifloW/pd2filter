@@ -24,7 +24,7 @@
 
 ![In-Game Settings](https://i.imgur.com/etdutvd.png)
 
-If you don't have a numpad change `Reload Config:          VK_NUMPAD0` in ProjectDiablo.cfg to one of these [Virtual Key Codes](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
+If you don't have a numpad change `Reload Config:          VK_NUMPAD0` in ProjectDiablo.cfg (in your PD2 folder) to one of these [Virtual Key Codes](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes).
 
 # Loot Filters
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
