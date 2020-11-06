@@ -4122,23 +4122,25 @@ ItemDisplay[GOLD<1000 CLVL>60]: // Hide 1000 gold and less if level 60+
 //    [BCPO] Potions
 // ------------------------------------------------------------------------------
 // Health Potions
-ItemDisplay[hp1 CLVL<25]: %RED%+%WHITE%HP1 // Minor Healing Potion
-ItemDisplay[hp1 CLVL>24]: // Hides Minor Healing Potions after level 24
-ItemDisplay[hp2 CLVL<25]: %RED%+%WHITE%HP2 // Light Healing Potion
-ItemDisplay[hp2 CLVL>24]: // Hides Light Healing Potions after level 24
-ItemDisplay[hp3 CLVL<40]: %RED%+%WHITE%HP3 // Healing Potion
-ItemDisplay[hp3 CLVL>39]: // Hides Healing Potions after level 39
-ItemDisplay[hp4]: %RED%+%WHITE%HP4 // Greater Healing Potion
+ItemDisplay[hp1 DIFF<1]: %RED%+%WHITE%HP1 // Minor Healing Potion
+ItemDisplay[hp1 DIFF>0]: // Hides Minor Healing Potions after Normal difficulty
+ItemDisplay[hp2 DIFF<1]: %RED%+%WHITE%HP2 // Light Healing Potion
+ItemDisplay[hp2 DIFF>0]: // Hides Light Healing Potions after Normal difficulty
+ItemDisplay[hp3 DIFF<2]: %RED%+%WHITE%HP3 // Healing Potion
+ItemDisplay[hp3 DIFF>1]: // Hides Healing Potions after after Nightmare difficulty
+ItemDisplay[hp4 DIFF<2]: %RED%+%WHITE%HP4 // Greater Healing Potion
+ItemDisplay[hp4 DIFF>1]: // Hides Greater Healing Potion after Nightmare difficulty
 ItemDisplay[hp5]: %RED%+%WHITE%HP5 // Super Healing Potion
 
 // Mana Potions
-ItemDisplay[mp1 CLVL<25]: %BLUE%+%WHITE%MP1 // Minor Mana Potion
-ItemDisplay[mp1 CLVL>24]: // Hides Minor Mana Potions after level 24
-ItemDisplay[mp2 CLVL<25]: %BLUE%+%WHITE%MP2 // Light Mana Potion
-ItemDisplay[mp2 CLVL>24]: // Hides Light Mana Potions after level 24
-ItemDisplay[mp3 CLVL<40]: %BLUE%+%WHITE%MP3 // Mana Potion
-ItemDisplay[mp3 CLVL>39]: // Hides Mana Potions after level 39
-ItemDisplay[mp4]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
+ItemDisplay[mp1 DIFF<1]: %BLUE%+%WHITE%MP1 // Minor Mana Potion
+ItemDisplay[mp1 DIFF>0]: // Hides Minor Mana Potions after Normal difficulty
+ItemDisplay[mp2 DIFF<1]: %BLUE%+%WHITE%MP2 // Light Mana Potion
+ItemDisplay[mp2 DIFF>0]: // Hides Light Mana Potions after Normal difficulty
+ItemDisplay[mp3 DIFF<2]: %BLUE%+%WHITE%MP3 // Mana Potion
+ItemDisplay[mp3 DIFF>1]: // Hides Mana Potions after after Nightmare difficulty
+ItemDisplay[mp4 DIFF<2]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
+ItemDisplay[mp4 DIFF>1]: // Hides Greater Mana Potion after Nightmare difficulty
 ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 
 // Rejuv Potions
@@ -4146,17 +4148,26 @@ ItemDisplay[rvs]: %PURPLE%+%WHITE%35% // Rejuv Potion
 ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+%WHITE% // Full Rejuv Potion
 
 // Drinkable Potions - to hide add "//" after the colon  (eg ": //%...")
-ItemDisplay[vps]: %WHITE%+%WHITE%Stamina // Stamina Potion
-ItemDisplay[yps]: %GREEN%+%WHITE%Antidote // Antidote Potion
-ItemDisplay[wms]: %BLUE%+%WHITE%Thawing // Thawing Potion
+ItemDisplay[vps DIFF<2]: %WHITE%+%WHITE%Stamina // Stamina Potion
+ItemDisplay[vps DIFF>1]: // Hides Stamina Potion after Nightmare difficulty
+ItemDisplay[yps DIFF<2]: %GREEN%+%WHITE%Antidote // Antidote Potion
+ItemDisplay[yps DIFF>1]: // Antidote Potion after Nightmare difficulty
+ItemDisplay[wms DIFF<2]: %BLUE%+%WHITE%Thawing // Thawing Potion
+ItemDisplay[wms DIFF>1]: // Thawing Potion after Nightmare difficulty
 
 // Throwing Potions - to hide add "//" after the colon  (eg ": //%...")
-ItemDisplay[gpl]: %GREEN%+%WHITE%Strangling // Strangling Potion
-ItemDisplay[gpm]: %GREEN%+%WHITE%Choking // Choking Potion
-ItemDisplay[gps]: %GREEN%+%WHITE%Rancid // Rancid Potion
-ItemDisplay[opl]: %ORANGE%+%WHITE%Fulminating // Fulminating Potion
-ItemDisplay[opm]: %ORANGE%+%WHITE%Exploding // Exploding Potion
-ItemDisplay[ops]: %ORANGE%+%WHITE%Oil // Oil Potion
+ItemDisplay[gpl DIFF<1]: %GREEN%+%WHITE%Strangling // Strangling Potion
+ItemDisplay[gpl DIFF>0]: // Strangling Potion after Normal difficulty
+ItemDisplay[gpm DIFF<1]: %GREEN%+%WHITE%Choking // Choking Potion
+ItemDisplay[gpm DIFF>0]: // Choking Potion after Normal difficulty
+ItemDisplay[gps DIFF<1]: %GREEN%+%WHITE%Rancid // Rancid Potion
+ItemDisplay[gps DIFF>0]: // Rancid Potion after Normal difficulty
+ItemDisplay[opl DIFF<1]: %ORANGE%+%WHITE%Fulminating // Fulminating Potion
+ItemDisplay[opl DIFF>0]: // Fulminating Potion after Normal difficulty
+ItemDisplay[opm DIFF<1]: %ORANGE%+%WHITE%Exploding // Exploding Potion
+ItemDisplay[opm DIFF>0]: // Exploding Potion after Normal difficulty
+ItemDisplay[ops DIFF<1]: %ORANGE%+%WHITE%Oil // Oil Potion
+ItemDisplay[ops DIFF>0]: // Oil Potion after Normal difficulty
 
 // ------------------------------------------------------------------------------
 //    [BCTO] Scrolls & Tomes
