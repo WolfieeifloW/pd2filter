@@ -638,8 +638,8 @@ ItemDisplay[MAG !ID ILVL>49 (uui OR uea OR ula OR utu OR utp)]: %NAME%%MAP-97% /
 ItemDisplay[MAG !ID ILVL>49 (ulc OR uvc OR umc)]: %NAME%%MAP-97% // Possible Whale Belt, Elite tier, lower strength
 ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97% // All gloves
 ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
-ItemDisplay[MAG !ID CLVL<40]: %NAME% // Show for all magics until level 39
-ItemDisplay[MAG !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifying for all magics, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all magics
+ItemDisplay[MAG !ID CLVL<30]: %NAME% // Show for all magics until level 29
+ItemDisplay[MAG !ID CLVL>29]: //%NAME% // At level 30+, stop showing and notifying for all magics, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all magics
 
 // Base Items Vendor
 ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
