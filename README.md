@@ -2,7 +2,7 @@
 
 # Table of Contents
 1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
-1. Loot Filters
+1. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
    1. [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
    1. [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
    1. [Basic](https://github.com/WolfieeifloW/pd2filter#basic)
@@ -23,7 +23,7 @@
 1. Make sure your settings match the image below, then reload your filter using **CTRL+Numpad 0**.
 ![In-Game Settings](https://i.imgur.com/etdutvd.png)
 
-# [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
+# Loot Filters
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
 **Select this version if you are uncomfortable with needing to write your own filter lines.** This version has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking. This is for ease-of-use and very quick editing as you should ideally only ever have to comment or uncomment a line (add or remove //). This version will show and notify a lot of items by default with the idea that you can slowly start to comment out things you don't need. The flip side is that since this filter contains lines for every item you can easily just uncomment a line for things you want to show that aren't currently showing.
 
