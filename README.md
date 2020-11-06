@@ -11,7 +11,17 @@
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
 
 # Installation
-Select which filter you want to use from below and click the link which will take you to the raw code for that version. Copy all of the code and then navigate to your Project Diablo 2 folder (...\Diablo II\ProjectD2). Open **default.filter**, paste the code you copied, overwriting everything in there, and save the file. Close the file and then open Project Diablo 2. CTRL+click the "Settings" button in-game (bottom-left corner) and make sure your settings match these and after press **CTRL+Numpad 0** to reload your filter: ![In-Game Settings](https://i.imgur.com/etdutvd.png)
+1. Select which filter you want to use from below
+1. Click the link on that filter which will take you to the raw code for that version
+1. Copy all of the code
+1. Open your Project Diablo 2 folder (...\Diablo II\ProjectD2)
+1. Open **default.filter**
+1. Paste the code you copied, overwriting everything in there
+1. Save and close the file
+1. Open Project Diablo 2
+1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
+1. Make sure your settings match the image below, then reload your filter using **CTRL+Numpad 0**.
+![In-Game Settings](https://i.imgur.com/etdutvd.png)
 
 # Loot Filters
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
@@ -39,17 +49,17 @@ Select which filter you want to use from below and click the link which will tak
 # Completely Hidden Items
 I have completely hidden very few items. The only items fully hidden are:
 * Horadric Scroll (completely useless item)
-* Chipped, Flawed, and normal quality gems past character level 29
+* Chipped, Flawed, and normal quality gems past certain character levels
 * All ears
-* All inferior (Broken, Crude, etc) items past level 10
+* All inferior (Broken, Crude, etc) items past certain character levels
 * Low piles of gold past certain character levels
 * Minor, Light, and normal quality Health and Mana Potions past certain character levels
-* White Amazon Javelins past level 10 (no sockets so no Runewords possible)
-* White Belts, Boots, and Gloves past level 10
-* White Bucklers (and Exceptional version) past level 10 as they can only have 1 socket (no Runewords)
-* White Daggers and Dirks (and Exceptional & Elite versions) past level 10 as they can only have 1 socket (no Runewords)
-* White Javelins past level 10 (no sockets = no possible Runewords)
-* Throwing weapons past level 10 (no sockets = no possible Runewords)
+* White Amazon Javelins past certain character levels (no sockets so no Runewords possible)
+* White Belts, Boots, and Gloves past certain character levels
+* White Bucklers (and Exceptional version) past certain character levels as they can only have 1 socket (no Runewords)
+* White Daggers and Dirks (and Exceptional & Elite versions) pastcertain character levels as they can only have 1 socket (no Runewords)
+* White Javelins past certain character levels (no sockets = no possible Runewords)
+* White throwing weapons past certain character levels (no sockets = no possible Runewords)
 
 # Disclaimer
 For all versions of the filter I take no responsibility for any items that are accidentally hidden and/or do not notify. I do try my best to test these filters and ensure they are working properly but there's always room for error.
