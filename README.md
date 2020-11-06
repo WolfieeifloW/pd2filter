@@ -13,7 +13,7 @@
 # Installation
 1. Select which filter you want to use from below
 1. CTRL+Click (will open in a new tab) the link on that filter which will take you to the raw code for that version
-1. Copy all of the code
+1. Copy all of the code (press CTRL+A to select all than CTRL+C to copy)
 1. Open your Project Diablo 2 folder (...\Diablo II\ProjectD2)
 1. Open **default.filter** as Administrator
 1. Paste the code you copied, overwriting everything in there
