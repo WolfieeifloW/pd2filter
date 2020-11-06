@@ -12,7 +12,7 @@
 
 # Installation
 1. Select which filter you want to use from below
-1. Click the link on that filter which will take you to the raw code for that version
+1. CTRL+Click (will open in a new tab) the link on that filter which will take you to the raw code for that version
 1. Copy all of the code
 1. Open your Project Diablo 2 folder (...\Diablo II\ProjectD2)
 1. Open **default.filter**
@@ -25,12 +25,15 @@
 
 # Loot Filters
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
+CTRL+click the above link for the raw code
 **Select this version if you are uncomfortable with needing to write your own filter lines.** This version has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking. This is for ease-of-use and very quick editing as you should ideally only ever have to comment or uncomment a line (add or remove //). This version will show and notify a lot of items by default with the idea that you can slowly start to comment out things you don't need. The flip side is that since this filter contains lines for every item you can easily just uncomment a line for things you want to show that aren't currently showing.
 
 ### [Compact](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter)
+CTRL+click the above link for the raw code
 **Select this version if you just want to copy/paste and go.** This version will contain only the lines that are already uncommented in the Detailed version. This version will still show and notify a lot of items that you can slowly start to comment out but you have to have knowledge of filters to add your own lines for items that are not already in the filter.
 
 ### [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)
+CTRL+click the above link for the raw code
 **Select this version if you want a template/base to start from for creating your own filter.** This filters purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
 
 ### Wolfie
