@@ -61,12 +61,6 @@
 // - Test "ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=1 CLVL>30]:"
 // - Test PRICE a bit more (lower PRICE amount to test)
 // - Change gems to actual item codes (to accomodate stacked and unstacked)
-// - Add eth variants for all possible merc weapons:
-//		a1: bow, crossbow, zon bow
-//		a2: spear, polearm
-//		a3: sword, shield, dagger, wand, scepter (never 2h)
-//		a5: sword, hammer, mace, axe (can be 2h)
-//		COMPLETE: axe, dagger, hammer, mace, polearm, scepter
 //
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -12752,10 +12746,14 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
@@ -12771,8 +12769,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 bsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 bsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 bsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 bsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 bsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 bsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 bsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 bsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 bsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 bsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Long Sword
@@ -12786,8 +12788,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 lsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 lsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 lsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 lsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 lsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 lsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 lsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 lsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 lsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 lsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          War Sword
@@ -12798,6 +12804,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 wsd]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 wsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 wsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 wsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 wsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 wsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 wsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 wsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 wsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 
 //      2-Handed Swords
 //          Two-Handed Sword
@@ -12808,6 +12820,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 2hs]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 2hs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 2hs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 2hs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 2hs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 2hs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 2hs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 2hs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 2hs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 
 //          Claymore
 //ItemDisplay[NMAG !INF !RW clm]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Claymore
@@ -12820,8 +12838,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 clm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 clm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 clm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 clm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 clm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 clm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 clm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 clm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 clm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 clm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Giant Sword
@@ -12835,8 +12857,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 gis]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 gis]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 gis]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 gis]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 gis]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 gis]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 gis]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 gis]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 gis]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 gis]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Bastard Sword
@@ -12850,8 +12876,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 bsw]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 bsw]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 bsw]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 bsw]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 bsw]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 bsw]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 bsw]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 bsw]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 bsw]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 bsw]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Flamberge
@@ -12867,9 +12897,13 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 flb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 
@@ -12888,10 +12922,14 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 gsd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
@@ -12904,6 +12942,10 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 9ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 9ss]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 9ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 9ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 
 //          Cutlass
 //ItemDisplay[NMAG !INF !RW 9sm]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Cutlass'
@@ -12911,6 +12953,10 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 9sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 9sm]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 9sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 9sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 
 //          Shamshir
 //ItemDisplay[NMAG !INF !RW 9sb]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Shamshirs
@@ -12918,6 +12964,10 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 9sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 9sb]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 9sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 9sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 
 //          Tulwar
 //ItemDisplay[NMAG !INF !RW 9fc]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Tulwars
@@ -12925,6 +12975,10 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 9fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 9fc]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 9fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 9fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 
 //          Dimensional Blade
 //ItemDisplay[NMAG !INF !RW 9cr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Dimensional Blades
@@ -12941,10 +12995,14 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 9cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
@@ -12960,8 +13018,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 9bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 9bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 9bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 9bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 9bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 9bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 9bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Rune Sword
@@ -12975,8 +13037,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 9ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 9ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 9ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 9ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 9ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 9ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 9ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Ancient Sword
@@ -12987,6 +13053,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 9wd]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 9wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 9wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 9wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 9wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 9wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 
 //      2-Handed Swords
 //          Espandon
@@ -12997,6 +13069,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 92h]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 92h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 92h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 92h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 92h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 92h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 92h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 92h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 92h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 
 //          Dalcian Falx
 //ItemDisplay[NMAG !INF !RW 9cm]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Dalcian Falx
@@ -13009,8 +13087,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 9cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 9cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 9cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 9cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 9cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 9cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 9cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Tusk Sword
@@ -13024,8 +13106,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 9gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 9gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 9gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 9gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 9gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 9gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 9gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Gothic Sword
@@ -13039,8 +13125,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 9b9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 9b9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 9b9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9b9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 9b9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 9b9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9b9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9b9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 9b9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 9b9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Zweihander
@@ -13056,9 +13146,13 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 9fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 
@@ -13077,10 +13171,14 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 9gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
@@ -13093,6 +13191,10 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 7ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7ss]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7ss]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 
 //          Ataghan
 //ItemDisplay[NMAG !INF !RW 7sm]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Ataghans
@@ -13100,6 +13202,10 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 7sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7sm]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7sm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 
 //          Elegant Blade
 //ItemDisplay[NMAG !INF !RW 7sb]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elegant Blades
@@ -13107,6 +13213,10 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 7sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7sb]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7sb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 
 //          Hydra Edge
 //ItemDisplay[NMAG !INF !RW 7fc]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Hydra Edges
@@ -13114,6 +13224,10 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 7fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7fc]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7fc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 
 //          Phase Blade
 //ItemDisplay[NMAG !INF !RW 7cr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Phase Blades
@@ -13153,8 +13267,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7bs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Cryptic Sword
@@ -13168,8 +13286,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7ls]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Mythical Sword
@@ -13180,6 +13302,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7wd]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7wd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 
 //      2-Handed Swords
 //          Legend Sword
@@ -13190,6 +13318,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 72h]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 
 //          Highland Blade
 //ItemDisplay[NMAG !INF !RW 7cm]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Highland Blades
@@ -13202,8 +13336,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7cm]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Balrog Blade
@@ -13217,8 +13355,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7gs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Champion Sword
@@ -13232,8 +13374,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7b7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7b7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7b7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7b7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7b7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7b7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7b7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7b7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7b7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7b7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //          Colossus Sword
@@ -13249,9 +13395,13 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 
@@ -13270,10 +13420,14 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
@@ -13294,19 +13448,17 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Phoenix, 
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SWORD]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Oath%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Death, Eternity%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 SWORD]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 SWORD]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SWORD]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Oath%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Death, Eternity%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
-
-// Special lines for Phase Blades
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 7cr]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 7cr]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7cr]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7cr]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SWORD]: %GRAY%%NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 SWORD]: %GRAY%%NAME%{%ORANGE%Lawbringer, Malice, Plague, Venom%NL%Crescent Moon, Fury, Kings Grace,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
 
 // ------------------------------------------------------------------------------
 //    [BWTH] Throwing Weapons
@@ -13564,6 +13716,10 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior, Eth
 
 // These lines add descriptions to all Wands, leave these alone if you want to display possible runewords on base Wands
 // Please note you still have to uncomment specific base items lines to get a drop notification
@@ -13572,6 +13728,10 @@ ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 WAND]: %NAME%{%TAN%& Perfect Amethyst
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 WAND]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 WAND]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 WAND]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
 
 // ------------------------------------------------------------------------------
 // [BIMA] Base Items Master
