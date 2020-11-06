@@ -560,8 +560,8 @@ ItemDisplay[RARE !ID CLVL<20 BOW]: %NAME%%MAP-A8% // Show all Bows before level 
 ItemDisplay[RARE !ID ELT BOW]: %NAME%%MAP-A8% // All Elite tier Bows
 ItemDisplay[RARE !ID CLVL<20 DAGGER !THROWING]: %NAME%%MAP-A8% // Show all Daggers before level 20
 ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME%%MAP-A8% // All Elite tier Daggers
-ItemDisplay[RARE !ID CLVL<20 JAV]: %NAME%%MAP-A8% // Show all Javelins before level 20
-ItemDisplay[RARE !ID ELT JAV]: %NAME%%MAP-A8% // All Elite tier Javelins
+ItemDisplay[RARE !ID CLVL<20 JAV !ZON]: %NAME%%MAP-A8% // Show all Javelins before level 20
+ItemDisplay[RARE !ID ELT JAV !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
 ItemDisplay[RARE !ID CLVL<20 MACE]: %NAME%%MAP-A8% // Show all Maces before level 20
 ItemDisplay[RARE !ID CLVL<20 POLEARMS]: %NAME%%MAP-A8% // Show all Polearms before level 20
 ItemDisplay[RARE !ID CLVL<20 SCEPTER]: %NAME%%MAP-A8% // Show all Scepters before level 20
@@ -632,8 +632,6 @@ ItemDisplay[MAG !ID ZON JAV]: %NAME%%MAP-97% // Javelins for 6/40
 ItemDisplay[MAG !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr)]: %NAME%%MAP-97% // Assassin Katars, best Katars
 ItemDisplay[MAG !ID BAR]: %NAME%%MAP-97% // All Barbarian helmets
 ItemDisplay[MAG !ID DRU]: %NAME%%MAP-97% // All Pelts
-ItemDisplay[MAG !ID NEC]: %NAME%%MAP-97% // All Heads
-ItemDisplay[MAG !ID SOR]: %NAME% // %MAP-97% // All sorceress Orbs
 ItemDisplay[MAG !ID ILVL>49 (uui OR uea OR ula OR utu OR utp)]: %NAME%%MAP-97% // Possible Whale Armor, Elite tier, lower strength
 ItemDisplay[MAG !ID ILVL>49 (ulc OR uvc OR umc)]: %NAME%%MAP-97% // Possible Whale Belt, Elite tier, lower strength
 ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97% // All gloves

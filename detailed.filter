@@ -2271,11 +2271,11 @@ ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME%%MAP-A8% // All Elite tier Dag
 //     [RWJA] Javelins
 // ------------------------------------------------------------------------------
 // All Javelins
-ItemDisplay[RARE !ID CLVL<20 JAV]: %NAME%%MAP-A8% // Show all Javelins before level 20
-//ItemDisplay[RARE !ID JAV]: %NAME%%MAP-A8% // All Javelins
-//ItemDisplay[RARE !ID NORM JAV]: %NAME%%MAP-A8% // All Normal tier Javelins
-//ItemDisplay[RARE !ID EXC JAV]: %NAME%%MAP-A8% // All Exceptional tier Javelins
-ItemDisplay[RARE !ID ELT JAV]: %NAME%%MAP-A8% // All Elite tier Javelins
+ItemDisplay[RARE !ID CLVL<20 JAV !ZON]: %NAME%%MAP-A8% // Show all Javelins before level 20
+//ItemDisplay[RARE !ID JAV !ZON]: %NAME%%MAP-A8% // All Javelins
+//ItemDisplay[RARE !ID NORM JAV !ZON]: %NAME%%MAP-A8% // All Normal tier Javelins
+//ItemDisplay[RARE !ID EXC JAV !ZON]: %NAME%%MAP-A8% // All Exceptional tier Javelins
+ItemDisplay[RARE !ID ELT JAV !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
 
 // Normal tier Javelins
 //ItemDisplay[RARE !ID jav]: %NAME%%MAP-A8% // Javelin
@@ -3284,7 +3284,7 @@ ItemDisplay[MAG !ID DRU]: %NAME%%MAP-97% // All Pelts
 //     [MCNE] Necromancer
 // ------------------------------------------------------------------------------
 // All Heads
-ItemDisplay[MAG !ID NEC]: %NAME%%MAP-97% // All Heads
+//ItemDisplay[MAG !ID NEC]: %NAME%%MAP-97% // All Heads
 //ItemDisplay[MAG !ID NORM NEC]: %NAME%%MAP-97% // All Normal tier Heads
 //ItemDisplay[MAG !ID EXC NEC]: %NAME%%MAP-97% // All Exceptional tier Heads
 //ItemDisplay[MAG !ID ELT NEC]: %NAME%%MAP-97% // All Elite tier Heads
@@ -3344,7 +3344,7 @@ ItemDisplay[MAG !ID NEC]: %NAME%%MAP-97% // All Heads
 //     [MCSO] Sorceress
 // ------------------------------------------------------------------------------
 // All Sorceress Orbs
-ItemDisplay[MAG !ID SOR]: %NAME% // %MAP-97% // All sorceress Orbs
+//ItemDisplay[MAG !ID SOR]: %NAME% // %MAP-97% // All sorceress Orbs
 //ItemDisplay[MAG !ID NORM SOR]: %NAME%%MAP-97% // All Normal tier Sorceress Orbs
 //ItemDisplay[MAG !ID EXC SOR]: %NAME%%MAP-97% // All Exceptional tier Sorceress Orbs
 //ItemDisplay[MAG !ID ELT SOR]: %NAME%%MAP-97% // All Elite tier Sorceress Orbs
@@ -3760,10 +3760,10 @@ ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 //     [MWJA] Javelins
 // ------------------------------------------------------------------------------
 // All Javelins
-//ItemDisplay[MAG !ID JAV]: %NAME%%MAP-97% // All Javelins
-//ItemDisplay[MAG !ID NORM JAV]: %NAME%%MAP-97% // All Normal tier Javelins
-//ItemDisplay[MAG !ID EXC JAV]: %NAME%%MAP-97% // All Exceptional tier Javelins
-//ItemDisplay[MAG !ID ELT JAV]: %NAME%%MAP-97% // All Elite tier Javelins
+//ItemDisplay[MAG !ID JAV !ZON]: %NAME%%MAP-97% // All Javelins
+//ItemDisplay[MAG !ID NORM JAV !ZON]: %NAME%%MAP-97% // All Normal tier Javelins
+//ItemDisplay[MAG !ID EXC JAV !ZON]: %NAME%%MAP-97% // All Exceptional tier Javelins
+//ItemDisplay[MAG !ID ELT JAV !ZON]: %NAME%%MAP-97% // All Elite tier Javelins
 
 // Normal tier Javelins
 //ItemDisplay[MAG !ID jav]: %NAME%%MAP-97% // Javelin
