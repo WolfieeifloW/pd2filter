@@ -29,7 +29,7 @@ ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Charged, Festering, & Twis
 ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Burning, Festering, & Twisted essences%NL%} // Charged Essence of Hatred
 ItemDisplay[fed]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Burning, Charged, & Twisted essences%NL%} // Festering Essence of Destruction
 ItemDisplay[tes]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Burning, Charged, & Festering essences%NL%} // Twisted Essence of Suffering
-ItemDisplay[toa]: %ORANGE%%NAME%%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
+ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
 
 // Keys & Organs
 ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube w/ Hate + Terror keys in Act 5%NL%} // Key of Destruction
@@ -98,9 +98,9 @@ ItemDisplay[gly OR glys]: %NAME%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} //
 ItemDisplay[gpy OR gpys]: %NAME%%DOT-20% // Perfect Topaz
 
 // Runes
-ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
-ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
-ItemDisplay[RUNE>23]: %RED%%RUNENAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE<11]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
+ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
+ItemDisplay[RUNE>23]: %RED%%NAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
 ItemDisplay[RUNE=1]: %NAME%{%TAN%3 El + Key = Eld%NL%} // El Rune
 ItemDisplay[RUNE=2]: %NAME%{%TAN%3 Eld + Key = Tir%NL%} // Eld Rune

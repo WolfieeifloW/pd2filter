@@ -45,7 +45,7 @@ ItemDisplay[fed]: %ORANGE%%NAME%%MAP-00% // Festering Essence of Destruction
 ItemDisplay[tes]: %ORANGE%%NAME%%MAP-00% // Twisted Essence of Suffering
 
 // Tokens
-ItemDisplay[toa]: %ORANGE%%NAME%%MAP-68% // Token of Absolution
+ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68% // Token of Absolution
 
 // Pandemonium Keys
 ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68% // Key of Destruction
@@ -120,9 +120,9 @@ ItemDisplay[gly OR glys]: %NAME% // Flawless Topaz
 ItemDisplay[gpy OR gpys]: %NAME%%DOT-20% // Perfect Topaz
 
 // Runes
-ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
-ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
-ItemDisplay[RUNE>23]: %RED%%RUNENAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE<11]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
+ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
+ItemDisplay[RUNE>23]: %RED%%NAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
 ItemDisplay[RUNE>0]: %NAME%
 

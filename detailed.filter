@@ -150,7 +150,7 @@
 // |                                         |                                         |                                         |                                         |
 // +-----------------------------------------+-----------------------------------------+-----------------------------------------+-----------------------------------------+
 //
-ItemDisplay[!INF CLVL<10]: %NAME% // Super generic line to show EVERYTHING prior to level 10
+//
 //
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -212,7 +212,7 @@ ItemDisplay[tes]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Burning, Charged, & Fester
 // ------------------------------------------------------------------------------
 // [QITO] Tokens
 // ------------------------------------------------------------------------------
-ItemDisplay[toa]: %ORANGE%%NAME%%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
+ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
 
 // ------------------------------------------------------------------------------
 // [QIKE] Pandemonium Keys
@@ -352,9 +352,9 @@ ItemDisplay[gpy OR gpys]: %NAME%%DOT-20% // Perfect Topaz
 // ------------------------------------------------------------------------------
 // [RUMA] Rune map icons
 // ------------------------------------------------------------------------------
-ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
-ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
-ItemDisplay[RUNE>23]: %RED%%RUNENAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE<11]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
+ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
+ItemDisplay[RUNE>23]: %RED%%NAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
 
 // ------------------------------------------------------------------------------
