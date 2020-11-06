@@ -673,7 +673,7 @@ ItemDisplay[mp3 CLVL>39]: // Hides Mana Potions after level 39
 ItemDisplay[mp4]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
 ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35% // Rejuv Potion
-ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+ // Full Rejuv Potion
+ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+%WHITE% // Full Rejuv Potion
 ItemDisplay[vps]: %WHITE%+%WHITE%Stamina // Stamina Potion
 ItemDisplay[yps]: %GREEN%+%WHITE%Antidote // Antidote Potion
 ItemDisplay[wms]: %BLUE%+%WHITE%Thawing // Thawing Potion
