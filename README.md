@@ -30,11 +30,11 @@
 ### [Compact](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter)
 **Select this version if you just want to copy/paste and go.** This version will contain only the lines that are already uncommented in the Detailed version. This version will still show and notify a lot of items that you can slowly start to comment out but you have to have knowledge of filters to add your own lines for items that are not already in the filter.
 
-### Wolfie
-**N/A yet.** This version is basically a copy of my own personal filter. Will most likely contain things you don't think are worth it and not contain things you think are worth it. No support will be given for this version.
-
 ### [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)
 **Select this version if you want a template/base to start from for creating your own filter.** This filters purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
+
+### Wolfie
+**N/A yet.** This version is basically a copy of my own personal filter. Will most likely contain things you don't think are worth it and not contain things you think are worth it. No support will be given for this version.
 
 # Informative Links
 * **Info for Filter:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display>
