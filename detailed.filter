@@ -60,7 +60,6 @@
 //		caster belt maybe actually goes up in value with tele using lit FCR frames
 // - Test "ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=1 CLVL>30]:"
 // - Test PRICE a bit more (lower PRICE amount to test)
-// - Change gems to actual item codes (to accomodate stacked and unstacked)
 //
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -293,65 +292,65 @@ ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems 
 // ------------------------------------------------------------------------------
 // [GEAM] Amethyst
 // ------------------------------------------------------------------------------
-ItemDisplay[GEM=1 GEMTYPE=1]: %NAME%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
-ItemDisplay[GEM=2 GEMTYPE=1]: %NAME%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
-ItemDisplay[GEM=3 GEMTYPE=1]: %NAME%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=1]: %NAME%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
-ItemDisplay[GEM=5 GEMTYPE=1]: %NAME%%DOT-20%{%TAN%Used in Caster crafting} // Perfect Amethyst
+ItemDisplay[gcv OR gcvs]: %NAME%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
+ItemDisplay[gfv OR gfvs]: %NAME%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
+ItemDisplay[gsv OR gsvs]: %NAME%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
+ItemDisplay[gzv OR gzvs]: %NAME%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
+ItemDisplay[gpv OR gpvs]: %NAME%%DOT-20%{%TAN%Used in Caster crafting} // Perfect Amethyst
 
 // ------------------------------------------------------------------------------
 // [GEDI] Diamond
 // ------------------------------------------------------------------------------
-ItemDisplay[GEM=1 GEMTYPE=2]: %NAME%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
-ItemDisplay[GEM=2 GEMTYPE=2]: %NAME%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
-ItemDisplay[GEM=3 GEMTYPE=2]: %NAME%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=2]: %NAME%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
-ItemDisplay[GEM=5 GEMTYPE=2]: %NAME%%DOT-20% // Perfect Diamond
+ItemDisplay[gcw OR gcws]: %NAME%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
+ItemDisplay[gfw OR gfws]: %NAME%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
+ItemDisplay[gsw OR gsws]: %NAME%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
+ItemDisplay[glw OR glws]: %NAME%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
+ItemDisplay[gpw OR gpws]: %NAME%%DOT-20% // Perfect Diamond
 
 // ------------------------------------------------------------------------------
 // [GEEM] Emerald
 // ------------------------------------------------------------------------------
-ItemDisplay[GEM=1 GEMTYPE=3]: %NAME%{%TAN%3 Chipped Emerald = Flawed Emerald} // Chipped Emerald
-ItemDisplay[GEM=2 GEMTYPE=3]: %NAME%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
-ItemDisplay[GEM=3 GEMTYPE=3]: %NAME%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=3]: %NAME%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
-ItemDisplay[GEM=5 GEMTYPE=3]: %NAME%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
+ItemDisplay[gcg OR gcgs]: %NAME%{%TAN%3 Chipped Emerald = Flawed Emerald} // Chipped Emerald
+ItemDisplay[gfg OR gfgs]: %NAME%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
+ItemDisplay[gsg OR gsgs]: %NAME%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
+ItemDisplay[glg OR glgs]: %NAME%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
+ItemDisplay[gpg OR gpgs]: %NAME%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
 
 // ------------------------------------------------------------------------------
 // [GERU] Ruby
 // ------------------------------------------------------------------------------
-ItemDisplay[GEM=1 GEMTYPE=4]: %NAME%{%TAN%3 Chipped Ruby = Flawed Ruby} // Chipped Ruby
-ItemDisplay[GEM=2 GEMTYPE=4]: %NAME%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
-ItemDisplay[GEM=3 GEMTYPE=4]: %NAME%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=4]: %NAME%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
-ItemDisplay[GEM=5 GEMTYPE=4]: %NAME%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
+ItemDisplay[gcr OR gcrs]: %NAME%{%TAN%3 Chipped Ruby = Flawed Ruby} // Chipped Ruby
+ItemDisplay[gfr OR gfrs]: %NAME%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
+ItemDisplay[gsr OR gsrs]: %NAME%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
+ItemDisplay[glr OR glrs]: %NAME%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
+ItemDisplay[gpr OR gprs]: %NAME%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
 
 // ------------------------------------------------------------------------------
 // [GESA] Sapphire
 // ------------------------------------------------------------------------------
-ItemDisplay[GEM=1 GEMTYPE=5]: %NAME%{%TAN%3 Chipped Sapphire = Flawed Sapphire} // Chipped Sapphire
-ItemDisplay[GEM=2 GEMTYPE=5]: %NAME%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
-ItemDisplay[GEM=3 GEMTYPE=5]: %NAME%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=5]: %NAME%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
-ItemDisplay[GEM=5 GEMTYPE=5]: %NAME%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
+ItemDisplay[gcb OR gcbs]: %NAME%{%TAN%3 Chipped Sapphire = Flawed Sapphire} // Chipped Sapphire
+ItemDisplay[gfb OR gfbs]: %NAME%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
+ItemDisplay[gsb OR gsbs]: %NAME%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
+ItemDisplay[glb OR glbs]: %NAME%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
+ItemDisplay[gpb OR gpbs]: %NAME%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
 
 // ------------------------------------------------------------------------------
 // [GESK] Skull
 // ------------------------------------------------------------------------------
-ItemDisplay[GEM=1 GEMTYPE=7]: %NAME%{%TAN%3 Chipped Skull = Flawed Skull} // Chipped Skull
-ItemDisplay[GEM=2 GEMTYPE=7]: %NAME%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
-ItemDisplay[GEM=3 GEMTYPE=7]: %NAME%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=7]: %NAME%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
-ItemDisplay[GEM=5 GEMTYPE=7]: %NAME%%DOT-20% // Perfect Skull
+ItemDisplay[skc OR skcs]: %NAME%{%TAN%3 Chipped Skull = Flawed Skull} // Chipped Skull
+ItemDisplay[skf OR skfs]: %NAME%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
+ItemDisplay[sku OR skus]: %NAME%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
+ItemDisplay[skl OR skls]: %NAME%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
+ItemDisplay[skz OR skzs]: %NAME%%DOT-20% // Perfect Skull
 
 // ------------------------------------------------------------------------------
 // [GETO] Topaz
 // ------------------------------------------------------------------------------
-ItemDisplay[GEM=1 GEMTYPE=6]: %NAME%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
-ItemDisplay[GEM=2 GEMTYPE=6]: %NAME%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
-ItemDisplay[GEM=3 GEMTYPE=6]: %NAME%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
-ItemDisplay[GEM=4 GEMTYPE=6]: %NAME%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
-ItemDisplay[GEM=5 GEMTYPE=6]: %NAME%%DOT-20% // Perfect Topaz
+ItemDisplay[gcy OR gcys]: %NAME%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
+ItemDisplay[gfy OR gfys]: %NAME%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
+ItemDisplay[gsy OR gsys]: %NAME%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
+ItemDisplay[gly OR glys]: %NAME%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
+ItemDisplay[gpy OR gpys]: %NAME%%DOT-20% // Perfect Topaz
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -4065,12 +4064,13 @@ ItemDisplay[MAG !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifyi
 // ------------------------------------------------------------------------------
 // [BIVE] Base Items Vendor
 // ------------------------------------------------------------------------------
-// These two lines add a "$" to the start of an item name if it's worth 35k gold
-// Hidden for now because PRICE is broken
-//ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
-//ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
-//ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
-//ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
+// These two lines add a "$" to the start of an item name if it's worth a lot of gold
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
 //ItemDisplay[MAG !ID !RW PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %BLUE%%NAME%
 
 // ------------------------------------------------------------------------------
