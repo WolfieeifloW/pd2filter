@@ -4129,7 +4129,7 @@ ItemDisplay[hp2 CLVL>24]: // Hides Light Healing Potions after level 24
 ItemDisplay[hp3 CLVL<40]: %RED%+%WHITE%HP3 // Healing Potion
 ItemDisplay[hp3 CLVL>39]: // Hides Healing Potions after level 39
 ItemDisplay[hp4 CLVL<60]: %RED%+%WHITE%HP4 // Greater Healing Potion
-ItemDisplay[hp4 CLVL>59]: %RED%+%WHITE%HP4 // Hides Greater Healing Potions after level 59
+ItemDisplay[hp4 CLVL>59]: // Hides Greater Healing Potions after level 59
 ItemDisplay[hp5]: %RED%+%WHITE%HP5 // Super Healing Potion
 
 // Mana Potions
@@ -4140,7 +4140,7 @@ ItemDisplay[mp2 CLVL>24]: // Hides Light Mana Potions after level 24
 ItemDisplay[mp3 CLVL<40]: %BLUE%+%WHITE%MP3 // Mana Potion
 ItemDisplay[mp3 CLVL>39]: // Hides Mana Potions after level 39
 ItemDisplay[mp4 CLVL<60]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
-ItemDisplay[mp4 CLVL>59]: %BLUE%+%WHITE%MP4 // Hides Greater Mana Potions after level 59
+ItemDisplay[mp4 CLVL>59]: // Hides Greater Mana Potions after level 59
 ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 
 // Rejuv Potions
