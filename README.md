@@ -20,7 +20,8 @@
 1. Save and close the file
 1. Open Project Diablo 2
 1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
-1. Make sure your settings match the image below, then reload your filter using **CTRL+Numpad 0**.
+1. Make sure your settings match the image below, then reload your filter using **Numpad 0** (by default)
+
 ![In-Game Settings](https://i.imgur.com/etdutvd.png)
 
 # Loot Filters
