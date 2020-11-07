@@ -211,23 +211,23 @@ ItemDisplay[rvs]: %PURPLE%+%WHITE%35% // Rejuv Potion
 ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+%WHITE% // Full Rejuv Potion
 
 // Drinkable Potions - to hide add "//" after the colon  (eg ": //%...")
-ItemDisplay[vps DIFF<2]: %WHITE%+%WHITE%Stamina // Stamina Potion
+ItemDisplay[vps DIFF<2]: %WHITE%+%WHITE%Stam // Stamina Potion
 ItemDisplay[vps DIFF>1]: // Hides Stamina Potion after Nightmare difficulty
-ItemDisplay[yps DIFF<2]: %GREEN%+%WHITE%Antidote // Antidote Potion
+ItemDisplay[yps DIFF<2]: %GREEN%+%WHITE%Anti // Antidote Potion
 ItemDisplay[yps DIFF>1]: // Antidote Potion after Nightmare difficulty
-ItemDisplay[wms DIFF<2]: %BLUE%+%WHITE%Thawing // Thawing Potion
+ItemDisplay[wms DIFF<2]: %BLUE%+%WHITE%Thaw // Thawing Potion
 ItemDisplay[wms DIFF>1]: // Thawing Potion after Nightmare difficulty
 
 // Throwing Potions - to hide add "//" after the colon  (eg ": //%...")
-ItemDisplay[gpl DIFF<1]: %GREEN%+%WHITE%Strangling // Strangling Potion
+ItemDisplay[gpl DIFF<1]: %GREEN%+%WHITE%Strang // Strangling Potion
 ItemDisplay[gpl DIFF>0]: // Strangling Potion after Normal difficulty
-ItemDisplay[gpm DIFF<1]: %GREEN%+%WHITE%Choking // Choking Potion
+ItemDisplay[gpm DIFF<1]: %GREEN%+%WHITE%Chok // Choking Potion
 ItemDisplay[gpm DIFF>0]: // Choking Potion after Normal difficulty
-ItemDisplay[gps DIFF<1]: %GREEN%+%WHITE%Rancid // Rancid Potion
+ItemDisplay[gps DIFF<1]: %GREEN%+%WHITE%Ranc // Rancid Potion
 ItemDisplay[gps DIFF>0]: // Rancid Potion after Normal difficulty
-ItemDisplay[opl DIFF<1]: %ORANGE%+%WHITE%Fulminating // Fulminating Potion
+ItemDisplay[opl DIFF<1]: %ORANGE%+%WHITE%Fulm // Fulminating Potion
 ItemDisplay[opl DIFF>0]: // Fulminating Potion after Normal difficulty
-ItemDisplay[opm DIFF<1]: %ORANGE%+%WHITE%Exploding // Exploding Potion
+ItemDisplay[opm DIFF<1]: %ORANGE%+%WHITE%Explo // Exploding Potion
 ItemDisplay[opm DIFF>0]: // Exploding Potion after Normal difficulty
 ItemDisplay[ops DIFF<1]: %ORANGE%+%WHITE%Oil // Oil Potion
 ItemDisplay[ops DIFF>0]: // Oil Potion after Normal difficulty
