@@ -172,6 +172,7 @@ ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Grand Charms
 
 // Base Items
 // Gold
+ItemDisplay[GOLD<25]: // Always hide gold in piles of less than 25
 ItemDisplay[GOLD<50 CLVL>9]: // Hide 50 gold and less if level 10+
 ItemDisplay[GOLD<100 CLVL>19]: // Hide 100 gold and less if level 20+
 ItemDisplay[GOLD<200 CLVL>29]: // Hide 200 gold and less if level 30+

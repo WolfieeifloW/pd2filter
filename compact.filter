@@ -648,6 +648,7 @@ ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK
 ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items
 
 // Gold
+ItemDisplay[GOLD<25]: // Always hide gold in piles of less than 25
 ItemDisplay[GOLD<50 CLVL>9]: // Hide 50 gold and less if level 10+
 ItemDisplay[GOLD<100 CLVL>19]: // Hide 100 gold and less if level 20+
 ItemDisplay[GOLD<200 CLVL>29]: // Hide 200 gold and less if level 30+
