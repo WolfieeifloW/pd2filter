@@ -11,7 +11,7 @@
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
 
 # Installation
-1. Select which filter you want to use from below
+1. Select which filter you want to use from [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters) section
 1. CTRL+Click (will open in a new tab) the link on that filter which will take you to the raw code for that version
 1. Copy all of the code (press CTRL+A to select all than CTRL+C to copy)
 1. Open your Project Diablo 2 folder (...\Diablo II\ProjectD2)
