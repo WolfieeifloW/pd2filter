@@ -283,65 +283,65 @@ ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems 
 // ------------------------------------------------------------------------------
 // [GEAM] Amethyst
 // ------------------------------------------------------------------------------
-ItemDisplay[gcv OR gcvs]: %NAME%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
-ItemDisplay[gfv OR gfvs]: %NAME%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
-ItemDisplay[gsv OR gsvs]: %NAME%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
-ItemDisplay[gzv OR gzvs]: %NAME%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
-ItemDisplay[gpv OR gpvs]: %NAME%%DOT-20%{%TAN%Used in Caster crafting} // Perfect Amethyst
+ItemDisplay[gcv OR gcvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
+ItemDisplay[gfv OR gfvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
+ItemDisplay[gsv OR gsvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
+ItemDisplay[gzv OR gzvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
+ItemDisplay[gpv OR gpvs]: %PURPLE%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Caster crafting} // Perfect Amethyst
 
 // ------------------------------------------------------------------------------
 // [GEDI] Diamond
 // ------------------------------------------------------------------------------
-ItemDisplay[gcw OR gcws]: %NAME%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
-ItemDisplay[gfw OR gfws]: %NAME%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
-ItemDisplay[gsw OR gsws]: %NAME%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
-ItemDisplay[glw OR glws]: %NAME%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
-ItemDisplay[gpw OR gpws]: %NAME%%DOT-20% // Perfect Diamond
+ItemDisplay[gcw OR gcws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
+ItemDisplay[gfw OR gfws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
+ItemDisplay[gsw OR gsws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
+ItemDisplay[glw OR glws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
+ItemDisplay[gpw OR gpws]: %WHITE%+%WHITE%%NAME%%DOT-20% // Perfect Diamond
 
 // ------------------------------------------------------------------------------
 // [GEEM] Emerald
 // ------------------------------------------------------------------------------
-ItemDisplay[gcg OR gcgs]: %NAME%{%TAN%3 Chipped Emerald = Flawed Emerald} // Chipped Emerald
-ItemDisplay[gfg OR gfgs]: %NAME%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
-ItemDisplay[gsg OR gsgs]: %NAME%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
-ItemDisplay[glg OR glgs]: %NAME%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
-ItemDisplay[gpg OR gpgs]: %NAME%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
+ItemDisplay[gcg OR gcgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Chipped Emerald = Flawed Emerald} // Chipped Emerald
+ItemDisplay[gfg OR gfgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
+ItemDisplay[gsg OR gsgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
+ItemDisplay[glg OR glgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
+ItemDisplay[gpg OR gpgs]: %GREEN%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
 
 // ------------------------------------------------------------------------------
 // [GERU] Ruby
 // ------------------------------------------------------------------------------
-ItemDisplay[gcr OR gcrs]: %NAME%{%TAN%3 Chipped Ruby = Flawed Ruby} // Chipped Ruby
-ItemDisplay[gfr OR gfrs]: %NAME%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
-ItemDisplay[gsr OR gsrs]: %NAME%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
-ItemDisplay[glr OR glrs]: %NAME%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
-ItemDisplay[gpr OR gprs]: %NAME%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
+ItemDisplay[gcr OR gcrs]: %RED%+%WHITE%%NAME%{%TAN%3 Chipped Ruby = Flawed Ruby} // Chipped Ruby
+ItemDisplay[gfr OR gfrs]: %RED%+%WHITE%%NAME%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
+ItemDisplay[gsr OR gsrs]: %RED%+%WHITE%%NAME%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
+ItemDisplay[glr OR glrs]: %RED%+%WHITE%%NAME%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
+ItemDisplay[gpr OR gprs]: %RED%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
 
 // ------------------------------------------------------------------------------
 // [GESA] Sapphire
 // ------------------------------------------------------------------------------
-ItemDisplay[gcb OR gcbs]: %NAME%{%TAN%3 Chipped Sapphire = Flawed Sapphire} // Chipped Sapphire
-ItemDisplay[gfb OR gfbs]: %NAME%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
-ItemDisplay[gsb OR gsbs]: %NAME%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
-ItemDisplay[glb OR glbs]: %NAME%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
-ItemDisplay[gpb OR gpbs]: %NAME%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
+ItemDisplay[gcb OR gcbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Chipped Sapphire = Flawed Sapphire} // Chipped Sapphire
+ItemDisplay[gfb OR gfbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
+ItemDisplay[gsb OR gsbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
+ItemDisplay[glb OR glbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
+ItemDisplay[gpb OR gpbs]: %BLUE%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
 
 // ------------------------------------------------------------------------------
 // [GESK] Skull
 // ------------------------------------------------------------------------------
-ItemDisplay[skc OR skcs]: %NAME%{%TAN%3 Chipped Skull = Flawed Skull} // Chipped Skull
-ItemDisplay[skf OR skfs]: %NAME%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
-ItemDisplay[sku OR skus]: %NAME%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
-ItemDisplay[skl OR skls]: %NAME%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
-ItemDisplay[skz OR skzs]: %NAME%%DOT-20% // Perfect Skull
+ItemDisplay[skc OR skcs]: %GRAY%+%WHITE%%NAME%{%TAN%3 Chipped Skull = Flawed Skull} // Chipped Skull
+ItemDisplay[skf OR skfs]: %GRAY%+%WHITE%%NAME%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
+ItemDisplay[sku OR skus]: %GRAY%+%WHITE%%NAME%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
+ItemDisplay[skl OR skls]: %GRAY%+%WHITE%%NAME%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
+ItemDisplay[skz OR skzs]: %GRAY%+%WHITE%%NAME%%DOT-20% // Perfect Skull
 
 // ------------------------------------------------------------------------------
 // [GETO] Topaz
 // ------------------------------------------------------------------------------
-ItemDisplay[gcy OR gcys]: %NAME%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
-ItemDisplay[gfy OR gfys]: %NAME%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
-ItemDisplay[gsy OR gsys]: %NAME%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
-ItemDisplay[gly OR glys]: %NAME%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
-ItemDisplay[gpy OR gpys]: %NAME%%DOT-20% // Perfect Topaz
+ItemDisplay[gcy OR gcys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
+ItemDisplay[gfy OR gfys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
+ItemDisplay[gsy OR gsys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
+ItemDisplay[gly OR glys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
+ItemDisplay[gpy OR gpys]: %YELLOW%+%WHITE%%NAME%%DOT-20% // Perfect Topaz
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -471,7 +471,7 @@ ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth
 // [UIMI] Unique Miscellaneous
 // ------------------------------------------------------------------------------
 // This line shows all unique unid items and will override the Master section at the end
-// If you only want to see all unique items but not be notified than comment out this line and take a look at the [UIMA] section
+// If you only want to see all unique items but not be notified than comment out this line and take a look at the Unique Items Master section
 ItemDisplay[UNI !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL unique items
 
 // Issue with Amulets, Rings, & Jewels is there's no way to tell what they are until they are identified.
@@ -1295,7 +1295,7 @@ ItemDisplay[UNI CLVL>59 !ID]: %NAME% // At level 60+, stop notifying for all uni
 // [SIMU] Set Multiple
 // ------------------------------------------------------------------------------
 // This line shows all set unid items and will override the Master section at the end
-// If you only want to see all set items but not be notified than comment out this line and take a look at the [SIMA] section
+// If you only want to see all set items but not be notified than comment out this line and take a look at the Set Items Master section
 ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 
 // These item bases belong to multiple sets, so you cannot know what one they are until identified
@@ -1574,7 +1574,7 @@ ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notif
 // [SIMA] Set Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[SET CLVL<60 !ID]: %NAME%%MAP-84% // Notification and map ping for all sets until level 59
-ItemDisplay[SET CLVL>59 !ID]: %NAME% // At level 60, stop notifying for all sets, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted sets
+ItemDisplay[SET CLVL>59 !ID]: %NAME% // At level 60+, stop notifying for all sets, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted sets
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -2593,8 +2593,8 @@ ItemDisplay[RARE !ID CLVL<20 WAND]: %NAME%%MAP-A8% // Show all Wands before leve
 // ------------------------------------------------------------------------------
 // [RIMA] Rare Items Master
 // ------------------------------------------------------------------------------
-ItemDisplay[RARE !ID CLVL<40]: %NAME% // Show for all rares until level 39
-ItemDisplay[RARE !ID CLVL>39]: //%NAME% // At level 40+, stop notifying and showing all rares, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all rares
+ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Show and notify for all rares until level 39
+ItemDisplay[RARE !ID CLVL>39]: %NAME% // At level 40+, stop notifying for all rares, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted rares
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -4073,8 +4073,8 @@ ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 // ------------------------------------------------------------------------------
 // [MIMA] Magic Items Master
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID CLVL<30]: %NAME% // Show for all magics until level 29
-ItemDisplay[MAG !ID CLVL>29]: //%NAME% // At level 30+, stop showing and notifying for all magics, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show all magics
+ItemDisplay[MAG !ID CLVL<30]: %NAME%%MAP-97% // Show and notify for all magics until level 29
+ItemDisplay[MAG !ID CLVL>29]: %NAME% // At level 30+, stop notifying for all magics, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted magics
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
