@@ -83,41 +83,41 @@ ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when above X character leve
 ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when above X character level
 ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when above X character level
 ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems for stacking purposes
-ItemDisplay[gcv OR gcvs]: %NAME% // Chipped Amethyst
-ItemDisplay[gfv OR gfvs]: %NAME% // Flawed Amethyst
-ItemDisplay[gsv OR gsvs]: %NAME% // Amethyst ("Normal")
-ItemDisplay[gzv OR gzvs]: %NAME% // Flawless Amethyst
-ItemDisplay[gpv OR gpvs]: %NAME%%DOT-20% // Perfect Amethyst
-ItemDisplay[gcw OR gcws]: %NAME% // Chipped Diamond
-ItemDisplay[gfw OR gfws]: %NAME% // Flawed Diamond
-ItemDisplay[gsw OR gsws]: %NAME% // Diamond ("Normal")
-ItemDisplay[glw OR glws]: %NAME% // Flawless Diamond
-ItemDisplay[gpw OR gpws]: %NAME%%DOT-20% // Perfect Diamond
-ItemDisplay[gcg OR gcgs]: %NAME% // Chipped Emerald
-ItemDisplay[gfg OR gfgs]: %NAME% // Flawed Emerald
-ItemDisplay[gsg OR gsgs]: %NAME% // Emerald ("Normal")
-ItemDisplay[glg OR glgs]: %NAME% // Flawless Emerald
-ItemDisplay[gpg OR gpgs]: %NAME%%DOT-20% // Perfect Emerald
-ItemDisplay[gcr OR gcrs]: %NAME% // Chipped Ruby
-ItemDisplay[gfr OR gfrs]: %NAME% // Flawed Ruby
-ItemDisplay[gsr OR gsrs]: %NAME% // Ruby ("Normal")
-ItemDisplay[glr OR glrs]: %NAME% // Flawless Ruby
-ItemDisplay[gpr OR gprs]: %NAME%%DOT-20% // Perfect Ruby
-ItemDisplay[gcb OR gcbs]: %NAME% // Chipped Sapphire
-ItemDisplay[gfb OR gfbs]: %NAME% // Flawed Sapphire
-ItemDisplay[gsb OR gsbs]: %NAME% // Sapphire ("Normal")
-ItemDisplay[glb OR glbs]: %NAME% // Flawless Sapphire
-ItemDisplay[gpb OR gpbs]: %NAME%%DOT-20% // Perfect Sapphire
-ItemDisplay[skc OR skcs]: %NAME% // Chipped Skull
-ItemDisplay[skf OR skfs]: %NAME% // Flawed Skull
-ItemDisplay[sku OR skus]: %NAME% // Skull ("Normal")
-ItemDisplay[skl OR skls]: %NAME% // Flawless Skull
-ItemDisplay[skz OR skzs]: %NAME%%DOT-20% // Perfect Skull
-ItemDisplay[gcy OR gcys]: %NAME% // Chipped Topaz
-ItemDisplay[gfy OR gfys]: %NAME% // Flawed Topaz
-ItemDisplay[gsy OR gsys]: %NAME% // Topaz ("Normal")
-ItemDisplay[gly OR glys]: %NAME% // Flawless Topaz
-ItemDisplay[gpy OR gpys]: %NAME%%DOT-20% // Perfect Topaz
+ItemDisplay[gcv OR gcvs]: %PURPLE%+%WHITE%%NAME% // Chipped Amethyst
+ItemDisplay[gfv OR gfvs]: %PURPLE%+%WHITE%%NAME% // Flawed Amethyst
+ItemDisplay[gsv OR gsvs]: %PURPLE%+%WHITE%%NAME% // Amethyst ("Normal")
+ItemDisplay[gzv OR gzvs]: %PURPLE%+%WHITE%%NAME% // Flawless Amethyst
+ItemDisplay[gpv OR gpvs]: %PURPLE%+%WHITE%%NAME%%DOT-20% // Perfect Amethyst
+ItemDisplay[gcw OR gcws]: %WHITE%+%WHITE%%NAME% // Chipped Diamond
+ItemDisplay[gfw OR gfws]: %WHITE%+%WHITE%%NAME% // Flawed Diamond
+ItemDisplay[gsw OR gsws]: %WHITE%+%WHITE%%NAME% // Diamond ("Normal")
+ItemDisplay[glw OR glws]: %WHITE%+%WHITE%%NAME% // Flawless Diamond
+ItemDisplay[gpw OR gpws]: %WHITE%+%WHITE%%NAME%%DOT-20% // Perfect Diamond
+ItemDisplay[gcg OR gcgs]: %GREEN%+%WHITE%%NAME% // Chipped Emerald
+ItemDisplay[gfg OR gfgs]: %GREEN%+%WHITE%%NAME% // Flawed Emerald
+ItemDisplay[gsg OR gsgs]: %GREEN%+%WHITE%%NAME% // Emerald ("Normal")
+ItemDisplay[glg OR glgs]: %GREEN%+%WHITE%%NAME% // Flawless Emerald
+ItemDisplay[gpg OR gpgs]: %GREEN%+%WHITE%%NAME%%DOT-20% // Perfect Emerald
+ItemDisplay[gcr OR gcrs]: %RED%+%WHITE%%NAME% // Chipped Ruby
+ItemDisplay[gfr OR gfrs]: %RED%+%WHITE%%NAME% // Flawed Ruby
+ItemDisplay[gsr OR gsrs]: %RED%+%WHITE%%NAME% // Ruby ("Normal")
+ItemDisplay[glr OR glrs]: %RED%+%WHITE%%NAME% // Flawless Ruby
+ItemDisplay[gpr OR gprs]: %RED%+%WHITE%%NAME%%DOT-20% // Perfect Ruby
+ItemDisplay[gcb OR gcbs]: %BLUE%+%WHITE%%NAME% // Chipped Sapphire
+ItemDisplay[gfb OR gfbs]: %BLUE%+%WHITE%%NAME% // Flawed Sapphire
+ItemDisplay[gsb OR gsbs]: %BLUE%+%WHITE%%NAME% // Sapphire ("Normal")
+ItemDisplay[glb OR glbs]: %BLUE%+%WHITE%%NAME% // Flawless Sapphire
+ItemDisplay[gpb OR gpbs]: %BLUE%+%WHITE%%NAME%%DOT-20% // Perfect Sapphire
+ItemDisplay[skc OR skcs]: %GRAY%+%WHITE%%NAME% // Chipped Skull
+ItemDisplay[skf OR skfs]: %GRAY%+%WHITE%%NAME% // Flawed Skull
+ItemDisplay[sku OR skus]: %GRAY%+%WHITE%%NAME% // Skull ("Normal")
+ItemDisplay[skl OR skls]: %GRAY%+%WHITE%%NAME% // Flawless Skull
+ItemDisplay[skz OR skzs]: %GRAY%+%WHITE%%NAME%%DOT-20% // Perfect Skull
+ItemDisplay[gcy OR gcys]: %YELLOW%+%WHITE%%NAME% // Chipped Topaz
+ItemDisplay[gfy OR gfys]: %YELLOW%+%WHITE%%NAME% // Flawed Topaz
+ItemDisplay[gsy OR gsys]: %YELLOW%+%WHITE%%NAME% // Topaz ("Normal")
+ItemDisplay[gly OR glys]: %YELLOW%+%WHITE%%NAME% // Flawless Topaz
+ItemDisplay[gpy OR gpys]: %YELLOW%+%WHITE%%NAME%%DOT-20% // Perfect Topaz
 
 // Runes
 ItemDisplay[RUNE<11]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
