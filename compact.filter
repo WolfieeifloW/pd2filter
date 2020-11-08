@@ -910,7 +910,7 @@ ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 CLVL<40 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, show while under character level 40
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 CLVL<40 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, show and notify while under character level 40
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 ELT PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os
@@ -935,7 +935,7 @@ ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (ob5 OR oba OR obf) SORC]: %NAME%{%TA
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SORC]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%%TAN%Possible RWs:} // All tiers, 3os
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (ob5 OR oba OR obf) SORC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SORC]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<30 CHEST]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Show all 2 and 3 socket armors until character level 30
+ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<30 CHEST]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Show and notify all 2 and 3 socket armors until character level 30
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 xtp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 xtp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uui]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
@@ -980,7 +980,7 @@ ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, 
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 HELM]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 HELM]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK>1 CLVL<30 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Shows all 2+ socket shields until character level 30
+ItemDisplay[NMAG !INF !RW !ETH SOCK>1 CLVL<30 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Shows and notify all 2+ socket shields until character level 30
 ItemDisplay[NMAG CLVL>10 buc]: // This will completely hide all white Bucklers past character level 10
 ItemDisplay[NMAG CLVL>10 xuc]: // This will completely hide all white Defenders past character level 10
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
