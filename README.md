@@ -38,7 +38,7 @@ CTRL+click the above link for the raw code.
 ### [Compact](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter)
 CTRL+click the above link for the raw code.
 
-**Select this version if you just want to copy/paste and go.** This version will contain only the lines that are already uncommented in the Detailed version. This version will still show and notify a lot of items that you can slowly start to comment out but you have to have knowledge of filters to add your own lines for items that are not already in the filter.
+**Select this version if you are comfortable with writing your own filter lines.** This version will contain only the lines that are already uncommented in the Detailed version. This version will still show and notify a lot of items that you can slowly start to comment out but you have to have knowledge of filters to add your own lines for items that are not already in the filter.
 
 ### [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)
 CTRL+click the above link for the raw code.
