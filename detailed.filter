@@ -6627,7 +6627,7 @@ ItemDisplay[NMAG CLVL>10 xuc]: // This will completely hide all white Defenders 
 
 //      Monarch
 //ItemDisplay[NMAG !INF !RW uit]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Monarchs
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uit]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uit]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
