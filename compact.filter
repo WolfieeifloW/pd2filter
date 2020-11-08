@@ -987,6 +987,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 HELM]: %GRAY%%NAME%{%ORANGE%Delirium, D
 ItemDisplay[NMAG !INF !RW !ETH SOCK>1 CLVL<30 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Shows and notify all 2+ socket shields until character level 30
 ItemDisplay[NMAG CLVL>10 buc]: // This will completely hide all white Bucklers past character level 10
 ItemDisplay[NMAG CLVL>10 xuc]: // This will completely hide all white Defenders past character level 10
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uit]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SHIELD]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
