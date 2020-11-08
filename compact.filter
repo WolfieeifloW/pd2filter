@@ -1261,9 +1261,9 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SWORD]: %GRAY%%NAME%{%ORANGE%Phoenix, S
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SWORD]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
 ItemDisplay[NMAG CLVL>50 THROWING]: // This will completely hide all white throwing weapons past character level 50
-ItemDisplay[NMAG SUP !ETH CLVL>50 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior throwing weapons until character level 50
-ItemDisplay[NMAG !SUP ETH CLVL>50 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Ethereal throwing weapons until character level 50
-ItemDisplay[NMAG SUP ETH CLVL>50 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior Ethereal throwing weapons until character level 50
+ItemDisplay[NMAG SUP !ETH CLVL<51 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior throwing weapons until character level 50
+ItemDisplay[NMAG !SUP ETH CLVL<51 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Ethereal throwing weapons until character level 50
+ItemDisplay[NMAG SUP ETH CLVL<51 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior Ethereal throwing weapons until character level 50
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %GRAY%%NAME%{%ORANGE%Strength, White, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior

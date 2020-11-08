@@ -3103,7 +3103,7 @@ ItemDisplay[MAG !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% //
 // ------------------------------------------------------------------------------
 //      [MMAM] Amulets
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID amu]: %NAME%%MAP-97% // All unidentified amulets
+ItemDisplay[MAG !ID amu]: %NAME%%DOT-97% // All unidentified amulets
 
 // ------------------------------------------------------------------------------
 //      [MMCH] Charms
@@ -3126,7 +3126,7 @@ ItemDisplay[MAG !ID CIRC]: %NAME%%MAP-97% // All unidentified Circlets
 //      [MMJE] Jewels
 // ------------------------------------------------------------------------------
 // Reminder that jewels are needed for crafting - you can turn off notifications (comment out MAP portion) but I would leave these shown, at least
-ItemDisplay[MAG !ID jew]: %NAME%%MAP-97% // All unidentified jewels
+ItemDisplay[MAG !ID jew]: %NAME%%DOT-97% // All unidentified jewels
 
 // ------------------------------------------------------------------------------
 //       [MMRI] Rings
@@ -13509,9 +13509,9 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish,
 // No need for white throwing weapons as they cannot have sockets
 // This character level is high as throw barbs can use white throwing weapons for a while while leveling
 ItemDisplay[NMAG CLVL>50 THROWING]: // This will completely hide all white throwing weapons past character level 50
-ItemDisplay[NMAG SUP !ETH CLVL>50 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior throwing weapons until character level 50
-ItemDisplay[NMAG !SUP ETH CLVL>50 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Ethereal throwing weapons until character level 50
-ItemDisplay[NMAG SUP ETH CLVL>50 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior Ethereal throwing weapons until character level 50
+ItemDisplay[NMAG SUP !ETH CLVL<51 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior throwing weapons until character level 50
+ItemDisplay[NMAG !SUP ETH CLVL<51 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Ethereal throwing weapons until character level 50
+ItemDisplay[NMAG SUP ETH CLVL<51 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior Ethereal throwing weapons until character level 50
 
 // ------------------------------------------------------------------------------
 //    [BWWA] Wands
