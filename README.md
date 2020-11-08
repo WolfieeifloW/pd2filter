@@ -20,7 +20,8 @@
 1. Save and close the file
 1. Open Project Diablo 2
 1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
-1. Change your settings to match the image below then close the Settings window by right-clicking in the title bar
+1. Change your settings to match the image below
+1. Close the Settings window by right-clicking in the title bar (anywhere along the bar that says "Settings")
 1. Reload your filter using **Numpad 0** (by default)
 
 ![In-Game Settings](https://i.imgur.com/y7vCGmq.png)
