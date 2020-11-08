@@ -4986,18 +4986,18 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 CLVL<40 PAL]: %GRAY%%NAME%%DOT-20%%
 // These are generic lines for showing all Paladin shields of a certain tier and certain conditions (sockets, superior, and/or ethereal)
 // Please note all shields must have 35%+ to all res
 // All tiers, 35%+ res
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior, Eth
@@ -5040,10 +5040,10 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 CLVL<40 PAL]: %GRAY%%NAME%%DOT-20%%
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 4os, Superior, Eth
 
 // Elite tiers, 35%+ res
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 ELT PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 ELT PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 ELT PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os, Superior
