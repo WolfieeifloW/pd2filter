@@ -91,10 +91,10 @@
 // |         [RULO] Low Runes                |         [UWDA] Daggers                  |         [SIHM] Hwanin's Majesty         |         [RWCR] Crossbows                |
 // |         [RUMI] Mid Runes                |         [UWJA] Javelins                 |         [SIIK] Immortal King            |         [RWDA] Daggers                  |
 // |         [RUHI] High Runes               |         [UWMA] Maces                    |         [SIMB] M'avina's Battle Hymn    |         [RWJA] Javelins                 |
-// |   [BASI] Item Basics                    |         [UWPO] Polearms                 |         [SINO] Natalya's Odium          |         [RWMA] Maces                    |
-// |                                         |         [UWSC] Scepters                 |         [SINA] Naj's Ancient Vestige    |         [RWPO] Polearms                 |
-// |                                         |         [UWSP] Spears                   |         [SIOC] Orphan's Call            |         [RWSC] Scepters                 |
-// |                                         |         [UWST] Staves                   |         [SISF] Sander's Folly           |         [RWSP] Spears                   |
+// |   [ITEM] Item Basics                    |         [UWPO] Polearms                 |         [SINO] Natalya's Odium          |         [RWMA] Maces                    |
+// |      [IBVE] Vendor Items                |         [UWSC] Scepters                 |         [SINA] Naj's Ancient Vestige    |         [RWPO] Polearms                 |
+// |      [IBOT] Other Items                 |         [UWSP] Spears                   |         [SIOC] Orphan's Call            |         [RWSC] Scepters                 |
+// |      [IBAD] Eth/Sockets to Names        |         [UWST] Staves                   |         [SISF] Sander's Folly           |         [RWSP] Spears                   |
 // |                                         |         [UWSW] Swords                   |         [SISG] Sazabi's Grand Tribute   |         [RWST] Staves                   |
 // |                                         |         [UWTH] Throwing Weapons         |         [SITR] Tal Rasha's Wrappings    |         [RWSW] Swords                   |
 // |                                         |         [UWWA] Wands                    |         [SITO] Trang-Oul's Avatar       |         [RWTH] Throwing Weapons         |
@@ -409,11 +409,11 @@ ItemDisplay[RUNE=33]: %NAME% // Zod Rune
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
-// |     [BASI] Item Basics                                                     |
+// |     [ITEM] Item Basics                                                     |
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 // ------------------------------------------------------------------------------
-// Vendor Items
+// [IBVE] Vendor Items
 // ------------------------------------------------------------------------------
 // Amazon Javelins
 ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %GREEN%(+5 Jav) %BLUE%%NAME% // +2 Amazon, +3 Javelin Skills Javelin
@@ -452,16 +452,22 @@ ItemDisplay[MAG (SOCK>3 AND LIFE>89) CHEST]: %GREEN%(Whale) %BLUE%%NAME% // 4 so
 ItemDisplay[MAG (SOCK>3 AND FBR>1) uit]: %GREEN%(JMoD) %BLUE%%NAME% // JMoD Monarch
 
 // ------------------------------------------------------------------------------
-// Other Items
+// [IBOT] Other Items
 // ------------------------------------------------------------------------------
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
 ItemDisplay[INF CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
 ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
 
+// ------------------------------------------------------------------------------
+// [IBAD] Eth/Sockets to Names
+// ------------------------------------------------------------------------------
 ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
 ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
 ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
+// Uncomment (remove // at the start of the line) to display item level on items
+//ItemDisplay[!ETH SOCK=0 (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME% [i%ILVL%]%CONTINUE% // Add ilvl to the end of items' names (eg "Quilted Armor [i99]")
+//ItemDisplay[!RW (ETH OR SOCK>0) (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME%[i%ILVL%]%CONTINUE% // No space between ilvl and other displays if item is eth (eg "Quilted Armor [Eth][2][i99]")
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -2272,11 +2278,11 @@ ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME%%MAP-A8% // All Elite tier Dag
 //     [RWJA] Javelins
 // ------------------------------------------------------------------------------
 // All Javelins
-ItemDisplay[RARE !ID CLVL<20 JAV !ZON]: %NAME%%MAP-A8% // Show all Javelins before level 20
-//ItemDisplay[RARE !ID JAV !ZON]: %NAME%%MAP-A8% // All Javelins
-//ItemDisplay[RARE !ID NORM JAV !ZON]: %NAME%%MAP-A8% // All Normal tier Javelins
-//ItemDisplay[RARE !ID EXC JAV !ZON]: %NAME%%MAP-A8% // All Exceptional tier Javelins
-ItemDisplay[RARE !ID ELT JAV !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
+ItemDisplay[RARE !ID CLVL<20 JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // Show all Javelins before level 20
+//ItemDisplay[RARE !ID JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // All Javelins
+//ItemDisplay[RARE !ID NORM JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // All Normal tier Javelins
+//ItemDisplay[RARE !ID EXC JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // All Exceptional tier Javelins
+ItemDisplay[RARE !ID ELT JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
 
 // Normal tier Javelins
 //ItemDisplay[RARE !ID jav]: %NAME%%MAP-A8% // Javelin
@@ -3142,7 +3148,7 @@ ItemDisplay[MAG !ID rin]: %NAME% // All unidentified rings
 // ------------------------------------------------------------------------------
 // All Amazon weapons
 //ItemDisplay[MAG !ID ZON]: %NAME%%MAP-97% // All Amazon weapons
-ItemDisplay[MAG !ID ZON JAV]: %NAME%%MAP-97% // Javelins for 6/40
+ItemDisplay[MAG !ID ZON JAV !SPEAR !POLEARM]: %NAME%%MAP-97% // Javelins for 6/40
 //ItemDisplay[MAG !ID NORM ZON]: %NAME%%MAP-97% // All Normal tier Amazon weapons
 //ItemDisplay[MAG !ID EXC ZON]: %NAME%%MAP-97% // All Exceptional tier Amazon weapons
 //ItemDisplay[MAG !ID ELT ZON]: %NAME%%MAP-97% // All Elite tier Amazon weapons
@@ -3761,10 +3767,10 @@ ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 //     [MWJA] Javelins
 // ------------------------------------------------------------------------------
 // All Javelins
-//ItemDisplay[MAG !ID JAV !ZON]: %NAME%%MAP-97% // All Javelins
-//ItemDisplay[MAG !ID NORM JAV !ZON]: %NAME%%MAP-97% // All Normal tier Javelins
-//ItemDisplay[MAG !ID EXC JAV !ZON]: %NAME%%MAP-97% // All Exceptional tier Javelins
-//ItemDisplay[MAG !ID ELT JAV !ZON]: %NAME%%MAP-97% // All Elite tier Javelins
+//ItemDisplay[MAG !ID JAV !SPEAR !POLERARM !ZON]: %NAME%%MAP-97% // All Javelins
+//ItemDisplay[MAG !ID NORM JAV !SPEAR !POLERARM !ZON]: %NAME%%MAP-97% // All Normal tier Javelins
+//ItemDisplay[MAG !ID EXC JAV !SPEAR !POLERARM !ZON]: %NAME%%MAP-97% // All Exceptional tier Javelins
+//ItemDisplay[MAG !ID ELT JAV !SPEAR !POLERARM !ZON]: %NAME%%MAP-97% // All Elite tier Javelins
 
 // Normal tier Javelins
 //ItemDisplay[MAG !ID jav]: %NAME%%MAP-97% // Javelin
@@ -8480,8 +8486,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE
 // ------------------------------------------------------------------------------
 //    [BWJA] Javelins
 // ------------------------------------------------------------------------------
-// No need for white throwing weapons as they cannot have sockets
-ItemDisplay[NMAG CLVL>20 JAV !ZON]: // This will completely hide all white javelins past character level 20
+ItemDisplay[NMAG CLVL>20 JAV !SPEAR !POLEARM !ZON]: // This will completely hide all white javelins past character level 20
 
 // ------------------------------------------------------------------------------
 //    [BWMA] Maces

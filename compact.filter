@@ -560,8 +560,8 @@ ItemDisplay[RARE !ID CLVL<20 BOW]: %NAME%%MAP-A8% // Show all Bows before level 
 ItemDisplay[RARE !ID ELT BOW]: %NAME%%MAP-A8% // All Elite tier Bows
 ItemDisplay[RARE !ID CLVL<20 DAGGER !THROWING]: %NAME%%MAP-A8% // Show all Daggers before level 20
 ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME%%MAP-A8% // All Elite tier Daggers
-ItemDisplay[RARE !ID CLVL<20 JAV !ZON]: %NAME%%MAP-A8% // Show all Javelins before level 20
-ItemDisplay[RARE !ID ELT JAV !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
+ItemDisplay[RARE !ID CLVL<20 JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // Show all Javelins before level 20
+ItemDisplay[RARE !ID ELT JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
 ItemDisplay[RARE !ID CLVL<20 MACE]: %NAME%%MAP-A8% // Show all Maces before level 20
 ItemDisplay[RARE !ID CLVL<20 POLEARMS]: %NAME%%MAP-A8% // Show all Polearms before level 20
 ItemDisplay[RARE !ID CLVL<20 SCEPTER]: %NAME%%MAP-A8% // Show all Scepters before level 20
@@ -628,7 +628,7 @@ ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Grand Charms
 ItemDisplay[MAG !ID CIRC]: %NAME%%MAP-97% // All unidentified Circlets
 ItemDisplay[MAG !ID jew]: %NAME%%MAP-97% // All unidentified jewels
 ItemDisplay[MAG !ID rin]: %NAME% // All unidentified rings
-ItemDisplay[MAG !ID ZON JAV]: %NAME%%MAP-97% // Javelins for 6/40
+ItemDisplay[MAG !ID ZON JAV !SPEAR !POLEARM]: %NAME%%MAP-97% // Javelins for 6/40
 ItemDisplay[MAG !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr)]: %NAME%%MAP-97% // Assassin Katars, best Katars
 ItemDisplay[MAG !ID BAR]: %NAME%%MAP-97% // All Barbarian helmets
 ItemDisplay[MAG !ID DRU]: %NAME%%MAP-97% // All Pelts
@@ -1074,7 +1074,7 @@ ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANG
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 DAGGER !THROWING]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE%Plague, Venom, Wind%NL%Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
-ItemDisplay[NMAG CLVL>20 JAV !ZON]: // This will completely hide all white javelins past character level 20
+ItemDisplay[NMAG CLVL>20 JAV !SPEAR !POLEARM !ZON]: // This will completely hide all white javelins past character level 20
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 (9sp OR 7sp)]: %GRAY%%NAME%{%ORANGE%Plague, Venom, Wind%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os
