@@ -47,14 +47,14 @@ ItemDisplay[imra]: %NAME%{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map}
 ItemDisplay[upma]: %NAME%{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map}%DOT-80% // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map}%DOT-80% // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
-ItemDisplay[t11]: %RED%%NAME%%MAP-87% // Map
-ItemDisplay[t12]: %RED%%NAME%%MAP-87% // Map
-ItemDisplay[t13]: %RED%%NAME%%MAP-87% // Map
-ItemDisplay[t14]: %RED%%NAME%%MAP-87% // Map
-ItemDisplay[t15]: %RED%%NAME%%MAP-87% // Map
-ItemDisplay[t16]: %RED%%NAME%%MAP-87% // Ruins of Viz-jun
-ItemDisplay[t17]: %RED%%NAME%%MAP-87% // River of Blood
-ItemDisplay[t18]: %RED%%NAME%%MAP-87% // Lava Map
+ItemDisplay[t11]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t12]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t13]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t14]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t15]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t16]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Ruins of Viz-jun
+ItemDisplay[t17]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // River of Blood
+ItemDisplay[t18]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Lava Map
 
 // Gems
 ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when above X character level

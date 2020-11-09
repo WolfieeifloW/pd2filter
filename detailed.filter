@@ -1,6 +1,7 @@
 // +----------------------------------------------------------------------------+
 // |                                                                            |
 // |     WOLFIE'S PROJECT DIABLO 2 BH FILTER (DETAILED)                         |
+// |     https://github.com/WolfieeifloW/pd2filter                              |
 // |     Made By: @WolfieeifloW#6431                                            |
 // |     Thanks to @Sawyer#5623 for reference material                          |
 // |                                                                            |
@@ -42,13 +43,13 @@
 // +----------------------------------------------------------------------------+
 // - Item code for "Imbue Random Rarity (Demonic Cube)"?
 // - Check QTY for:
-// 		[✓] Gems
-// 		[✓] Runes
-// 		[] Map reagents
-// 		[] Worldstone Shards
-// 		[] Uber Keys
-// 		[] Token essences
-// 		[] Organs
+//      [✓] Gems
+//      [✓] Runes
+//      [] Map reagents
+//      [] Worldstone Shards
+//      [] Uber Keys
+//      [] Token essences
+//      [] Organs
 // - Fix "WAITING ON CURSE MASTERY SKILL ID (??)" lines
 // - Need Lightning Sentry skill ID
 //
@@ -249,16 +250,16 @@ ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map}%DOT-80% // 
 ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 
 // ------------------------------------------------------------------------------
-// [MAPI] Maps
+// [MAPS] Maps
 // ------------------------------------------------------------------------------
-ItemDisplay[t11]: %RED%%NAME%%MAP-87% // Map
-ItemDisplay[t12]: %RED%%NAME%%MAP-87% // Map
-ItemDisplay[t13]: %RED%%NAME%%MAP-87% // Map
-ItemDisplay[t14]: %RED%%NAME%%MAP-87% // Map
-ItemDisplay[t15]: %RED%%NAME%%MAP-87% // Map
-ItemDisplay[t16]: %RED%%NAME%%MAP-87% // Ruins of Viz-jun
-ItemDisplay[t17]: %RED%%NAME%%MAP-87% // River of Blood
-ItemDisplay[t18]: %RED%%NAME%%MAP-87% // Lava Map
+ItemDisplay[t11]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t12]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t13]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t14]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t15]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t16]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Ruins of Viz-jun
+ItemDisplay[t17]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // River of Blood
+ItemDisplay[t18]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Lava Map
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
