@@ -14,9 +14,8 @@
 1. Select which filter you want to use from [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters) section
 1. CTRL+Click (will open in a new tab) the link on that filter which will take you to the raw code for that version
 1. Copy all of the code (press CTRL+A to select all than CTRL+C to copy)
-1. Open your Project Diablo 2 folder (...\Diablo II\ProjectD2)
 1. Open your text editor (Notepad, Notepad++, etc) as Administrator
-1. Browse to **default.filter** in your ProjectD2 folder and open it
+1. With your text editor open **default.filter** from your ProjectD2 folder
 1. Paste the code you copied, overwriting everything in there
 1. Save and close the file
 1. Open Project Diablo 2
