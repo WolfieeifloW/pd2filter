@@ -69,14 +69,14 @@ ItemDisplay[imma]: %NAME%%DOT-80% // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]: %NAME%%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 
 // Maps
-ItemDisplay[t11]: %NAME% [T1]%MAP-87% // Map
-ItemDisplay[t12]: %NAME% [T2]%MAP-87% // Map
-ItemDisplay[t13]: %NAME% [T3]%MAP-87% // Map
-ItemDisplay[t14]: %NAME% [T4]%MAP-87% // Map
-ItemDisplay[t15]: %NAME% [T5]%MAP-87% // Map
-ItemDisplay[t16]: %NAME% [T6]%MAP-87% // Ruins of Viz-jun
-ItemDisplay[t17]: %NAME% [T7]%MAP-87% // River of Blood
-ItemDisplay[t18]: %NAME% [T8]%MAP-87% // Lava Map
+ItemDisplay[t11]: %RED%%NAME%%MAP-87% // Map
+ItemDisplay[t12]: %RED%%NAME%%MAP-87% // Map
+ItemDisplay[t13]: %RED%%NAME%%MAP-87% // Map
+ItemDisplay[t14]: %RED%%NAME%%MAP-87% // Map
+ItemDisplay[t15]: %RED%%NAME%%MAP-87% // Map
+ItemDisplay[t16]: %RED%%NAME%%MAP-87% // Ruins of Viz-jun
+ItemDisplay[t17]: %RED%%NAME%%MAP-87% // River of Blood
+ItemDisplay[t18]: %RED%%NAME%%MAP-87% // Lava Map
 
 // Gems
 ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when above X character level
