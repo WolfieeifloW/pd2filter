@@ -4176,10 +4176,8 @@ ItemDisplay[isc DIFF<1]: ID%RED%+%WHITE% // Scroll of Identify
 ItemDisplay[isc DIFF>0]: // Hides Scroll of Identify after Normal difficulty
 ItemDisplay[tsc DIFF<1]: TP%BLUE%+%WHITE% // Scroll of Town Portal
 ItemDisplay[tsc DIFF>0]: // Hides Scroll of Town Portal after Normal difficulty
-ItemDisplay[ibk DIFF<1]: %RED%+%WHITE%ID%RED%+%WHITE% // Tome of Identify
-ItemDisplay[ibk DIFF>0]: // Hides Tome of Identify after Normal difficulty
-ItemDisplay[tbk DIFF<1]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
-ItemDisplay[tbk DIFF>0]: // Hides Tome of Town Portal after Normal difficulty
+ItemDisplay[ibk]: %RED%+%WHITE%ID%RED%+%WHITE% // Tome of Identify
+ItemDisplay[tbk]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
 
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous

@@ -233,8 +233,10 @@ ItemDisplay[ops DIFF<1]: %ORANGE%+%WHITE%Oil // Oil Potion
 ItemDisplay[ops DIFF>0]: // Oil Potion after Normal difficulty
 
 // Scrolls & Tomes
-ItemDisplay[isc]: ID%RED%+%WHITE% // Scroll of Identify
-ItemDisplay[tsc]: TP%BLUE%+%WHITE% // Scroll of Town Portal
+ItemDisplay[isc DIFF<1]: ID%RED%+%WHITE% // Scroll of Identify
+ItemDisplay[isc DIFF>0]: // Hides Scroll of Identify after Normal difficulty
+ItemDisplay[tsc DIFF<1]: TP%BLUE%+%WHITE% // Scroll of Town Portal
+ItemDisplay[tsc DIFF>0]: // Hides Scroll of Town Portal after Normal difficulty
 ItemDisplay[ibk]: %RED%+%WHITE%ID%RED%+%WHITE% // Tome of Identify
 ItemDisplay[tbk]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
 
