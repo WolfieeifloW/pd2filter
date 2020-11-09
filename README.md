@@ -66,11 +66,9 @@ The only items fully hidden in my filters (Detailed and Compact, at least) are:
 * All inferior (Broken, Crude, etc) items past certain character levels
 * All quivers past a certain character level
 * Low piles of gold past certain character levels
-* Minor, Light, and normal quality Health and Mana Potions past certain character levels
-* Rare items you don't specify past a certain character level
-* Magic items you don't specify past a certain character level
+* All potions except Super quality and Rejuvs past certain difficulties
+* Scrolls past certain difficulties
 * White items with 1 socket past a certain character level
-* White Amazon Javelins past certain character levels (no sockets so no Runewords possible)
 * White Amazon Javelins that are only +0-2 Jav skills past a certain character level
 * White Belts, Boots, and Gloves past certain character levels
 * White Bucklers (and Exceptional version) past certain character levels as they can only have 1 socket (no Runewords)
