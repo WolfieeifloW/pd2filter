@@ -23,6 +23,7 @@
 1. Change your settings to match the image below
 1. Close the Settings window by right-clicking in the title bar (anywhere along the bar that says "Settings")
 1. Reload your filter using **Numpad 0** (by default - check below image for instructions if you don't have a numpad)
+If it worked a Minor Health Potion should now say *HP1*.
 
 ![In-Game Settings](https://i.imgur.com/y7vCGmq.png)
 
