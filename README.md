@@ -22,13 +22,12 @@
 1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
 1. Change your settings to match the image below
 1. Close the Settings window by right-clicking in the title bar (anywhere along the bar that says "Settings")
-1. Reload your filter using **Numpad 0** (by default - check below image for instructions if you don't have a numpad)
+1. Reload your filter using **Numpad 0**
+   1. If you don't have a numpad change `Reload Config:          VK_NUMPAD0` in ProjectDiablo.cfg (in your PD2 folder) to one of these [Virtual Key Codes](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
 
 If it worked a Minor Health Potion should now say *HP1*.
 
 ![In-Game Settings](https://i.imgur.com/y7vCGmq.png)
-
-If you don't have a numpad change `Reload Config:          VK_NUMPAD0` in ProjectDiablo.cfg (in your PD2 folder) to one of these [Virtual Key Codes](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes).
 
 # Loot Filters
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
