@@ -1582,7 +1582,8 @@ ItemDisplay[SET CLVL>59 !ID]: %NAME% // At level 60+, stop notifying for all set
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 // Almost none of the rare item lines have an ETH condition on them.
-// If you wish to only have ETH versions of a certain item drop just add the word "ETH" after "!ID".
+// ETH items will still drop but you'll also see non-eth versions.
+// If you wish to *only* have ETH versions of a certain item drop just add the word "ETH" after "!ID".
 // For example, change "ItemDisplay[RARE !ID AXE !THROWING]:" to "ItemDisplay[RARE !ID ETH AXE !THROWING]:" to only see Ethereal Rare Axes and no longer see non-Ethereal.
 
 // ------------------------------------------------------------------------------
