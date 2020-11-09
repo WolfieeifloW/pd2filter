@@ -203,10 +203,10 @@ ItemDisplay[tr2]: %NAME%%MAP-00%{%TAN%Right click for a permanent All Resistance
 // ------------------------------------------------------------------------------
 // [QIES] Essences
 // ------------------------------------------------------------------------------
-ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror
-ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Burning, Festering, & Twisted essences%NL%} // Charged Essence of Hatred
-ItemDisplay[fed]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Burning, Charged, & Twisted essences%NL%} // Festering Essence of Destruction
-ItemDisplay[tes]: %ORANGE%%NAME%%MAP-00%{%TAN%Cube w/ Burning, Charged, & Festering essences%NL%} // Twisted Essence of Suffering
+ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Diablo%NL%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror
+ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Mephisto%NL%Cube w/ Burning, Festering, & Twisted essences%NL%} // Charged Essence of Hatred
+ItemDisplay[fed]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Baal%NL%Cube w/ Burning, Charged, & Twisted essences%NL%} // Festering Essence of Destruction
+ItemDisplay[tes]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Andarial & Duriel%NL%Cube w/ Burning, Charged, & Festering essences%NL%} // Twisted Essence of Suffering
 
 // ------------------------------------------------------------------------------
 // [QITO] Tokens
@@ -216,9 +216,9 @@ ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%TAN%Right click to reset 
 // ------------------------------------------------------------------------------
 // [QIKE] Pandemonium Keys
 // ------------------------------------------------------------------------------
-ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube w/ Hate + Terror keys in Act 5%NL%} // Key of Destruction
-ItemDisplay[pk2]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube w/ Destruction + Terror keys in Act 5%NL%} // Key of Hate
-ItemDisplay[pk1]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube w/ Destruction + Hate keys in Act 5%NL%} // Key of Terror
+ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from Nihlathak & Izual%NL%Cube w/ Hate + Terror keys in Act 5%NL%} // Key of Destruction
+ItemDisplay[pk2]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from The Summoner & Bloodwitch the Wild%NL%Cube w/ Destruction + Terror keys in Act 5%NL%} // Key of Hate
+ItemDisplay[pk1]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from The Countess & Blood Raven%NL%Cube w/ Destruction + Hate keys in Act 5%NL%} // Key of Terror
 
 // ------------------------------------------------------------------------------
 // [QIOR] Pandemonium Organs
@@ -351,9 +351,9 @@ ItemDisplay[gpy OR gpys]: %YELLOW%+%WHITE%%NAME%%DOT-20% // Perfect Topaz
 // ------------------------------------------------------------------------------
 // [RUMA] Rune map icons
 // ------------------------------------------------------------------------------
-ItemDisplay[RUNE<11]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
-ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
-ItemDisplay[RUNE>23]: %RED%%NAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% %DARK_GREEN%(%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
+ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% %ORANGE%(%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
+ItemDisplay[RUNE>23]: %RED%%RUNENAME% %RED%(%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
 
 // ------------------------------------------------------------------------------
@@ -4172,10 +4172,14 @@ ItemDisplay[ops DIFF>0]: // Oil Potion after Normal difficulty
 // ------------------------------------------------------------------------------
 //    [BCTO] Scrolls & Tomes
 // ------------------------------------------------------------------------------
-ItemDisplay[isc]: ID%RED%+%WHITE% // Scroll of Identify
-ItemDisplay[tsc]: TP%BLUE%+%WHITE% // Scroll of Town Portal
-ItemDisplay[ibk]: %RED%+%WHITE%ID%RED%+%WHITE% // Tome of Identify
-ItemDisplay[tbk]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
+ItemDisplay[isc DIFF<1]: ID%RED%+%WHITE% // Scroll of Identify
+ItemDisplay[isc DIFF>0]: // Hides Scroll of Identify after Normal difficulty
+ItemDisplay[tsc DIFF<1]: TP%BLUE%+%WHITE% // Scroll of Town Portal
+ItemDisplay[tsc DIFF>0]: // Hides Scroll of Town Portal after Normal difficulty
+ItemDisplay[ibk DIFF<1]: %RED%+%WHITE%ID%RED%+%WHITE% // Tome of Identify
+ItemDisplay[ibk DIFF>0]: // Hides Tome of Identify after Normal difficulty
+ItemDisplay[tbk DIFF<1]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
+ItemDisplay[tbk DIFF>0]: // Hides Tome of Town Portal after Normal difficulty
 
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous
@@ -6327,7 +6331,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK>1 CLVL<30 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-0
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SHIELD]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SHIELD]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior
