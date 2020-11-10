@@ -4258,16 +4258,16 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=3 CIRC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINU
 // These lines add descriptions to all circlets, leave these alone if you want to display possible runewords on base circlets
 // Please note you still have to uncomment specific base items lines to get a drop notification
 // You can also use these lines to completely hide items. Just put "//" in between "]:" and "{%" (eg "...]: //{%")
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 CIRC]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ILVL>25 CIRC]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 CIRC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ILVL>25 CIRC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 CIRC]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ILVL>25 CIRC]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 CIRC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ILVL>25 CIRC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
 
