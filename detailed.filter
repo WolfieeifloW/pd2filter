@@ -59,6 +59,7 @@
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 //
+// If the table looks weird/is skipping lines please turn off Word Wrap.
 // Use the code between [] to search (with Match Case/Case Sensitivity turned on) and jump to that section of the filter.
 //
 // +-----------------------------------------+-----------------------------------------+-----------------------------------------+-----------------------------------------+
@@ -144,9 +145,6 @@
 // |                                         |                                         |         [BWTH] Throwing Weapons         |                                         |
 // |                                         |                                         |         [BWWA] Wands                    |                                         |
 // |                                         |                                         |      [BIMA] Base Items Master           |                                         |
-// |                                         |                                         |                                         |                                         |
-// |                                         |                                         |                                         |                                         |
-// |                                         |                                         |                                         |                                         |
 // |                                         |                                         |                                         |                                         |
 // +-----------------------------------------+-----------------------------------------+-----------------------------------------+-----------------------------------------+
 //
@@ -455,7 +453,7 @@ ItemDisplay[MAG (SOCK>3 AND FBR>1) uit]: %GREEN%(JMoD) %BLUE%%NAME% // JMoD Mona
 // [IBOT] Other Items
 // ------------------------------------------------------------------------------
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
-ItemDisplay[INF CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
+ItemDisplay[INF (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
 ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
 
@@ -2278,11 +2276,11 @@ ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME%%MAP-A8% // All Elite tier Dag
 //     [RWJA] Javelins
 // ------------------------------------------------------------------------------
 // All Javelins
-ItemDisplay[RARE !ID CLVL<20 JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // Show all Javelins before level 20
-//ItemDisplay[RARE !ID JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // All Javelins
-//ItemDisplay[RARE !ID NORM JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // All Normal tier Javelins
-//ItemDisplay[RARE !ID EXC JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // All Exceptional tier Javelins
-ItemDisplay[RARE !ID ELT JAV !SPEAR !POLEARM !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
+ItemDisplay[RARE !ID CLVL<20 SPEAR THROWING !ZON]: %NAME%%MAP-A8% // Show all Javelins before level 20
+//ItemDisplay[RARE !ID SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Javelins
+//ItemDisplay[RARE !ID NORM SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Normal tier Javelins
+//ItemDisplay[RARE !ID EXC SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Exceptional tier Javelins
+ItemDisplay[RARE !ID ELT SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
 
 // Normal tier Javelins
 //ItemDisplay[RARE !ID jav]: %NAME%%MAP-A8% // Javelin
@@ -2358,7 +2356,7 @@ ItemDisplay[RARE !ID CLVL<20 MACE]: %NAME%%MAP-A8% // Show all Maces before leve
 //     [RWPO] Polearms
 // ------------------------------------------------------------------------------
 // All rare Polearms
-ItemDisplay[RARE !ID CLVL<20 POLEARMS]: %NAME%%MAP-A8% // Show all Polearms before level 20
+ItemDisplay[RARE !ID CLVL<20 POLEARM]: %NAME%%MAP-A8% // Show all Polearms before level 20
 //ItemDisplay[RARE !ID POLEARM]: %NAME%%MAP-A8% // All Polearms
 //ItemDisplay[RARE !ID NORM POLEARM]: %NAME%%MAP-A8% // All Normal tier Polearms
 //ItemDisplay[RARE !ID EXC POLEARM]: %NAME%%MAP-A8% // All Exceptional tier Polearms
@@ -2417,11 +2415,11 @@ ItemDisplay[RARE !ID ELT SCEPTER]: %NAME%%MAP-A8% // All Elite tier Scepters
 //     [RWSP] Spears
 // ------------------------------------------------------------------------------
 // All rare Spears
-ItemDisplay[RARE !ID CLVL<20 SPEAR !THROWING]: %NAME%%MAP-A8% // Show all Spears before level 20
-//ItemDisplay[RARE !ID SPEAR !THROWING]: %NAME%%MAP-A8% // All Spears
-//ItemDisplay[RARE !ID NORM SPEAR !THROWING]: %NAME%%MAP-A8% // All Normal tier Spears
-//ItemDisplay[RARE !ID EXC SPEAR !THROWING]: %NAME%%MAP-A8% // All Exceptional tier Spears
-//ItemDisplay[RARE !ID ELT SPEAR !THROWING]: %NAME%%MAP-A8% // All Elite tier Spears
+ItemDisplay[RARE !ID CLVL<20 SPEAR !THROWING !ZON]: %NAME%%MAP-A8% // Show all Spears before level 20
+//ItemDisplay[RARE !ID SPEAR !THROWING !ZON]: %NAME%%MAP-A8% // All Spears
+//ItemDisplay[RARE !ID NORM SPEAR !THROWING !ZON]: %NAME%%MAP-A8% // All Normal tier Spears
+//ItemDisplay[RARE !ID EXC SPEAR !THROWING !ZON]: %NAME%%MAP-A8% // All Exceptional tier Spears
+//ItemDisplay[RARE !ID ELT SPEAR !THROWING !ZON]: %NAME%%MAP-A8% // All Elite tier Spears
 
 // Normal tier rare Spears
 //ItemDisplay[RARE !ID spr]: %NAME%%MAP-A8% // Spear
@@ -2546,11 +2544,11 @@ ItemDisplay[RARE !ID ELT SWORD]: %NAME%%MAP-A8% // All Elite tier Swords
 //     [RWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
 // All rare Throwing Weapons
-ItemDisplay[RARE !ID CLVL<20 THROWING]: %NAME%%MAP-A8% // Show all Throwing Weapons before level 20
-//ItemDisplay[RARE !ID THROWING]: %NAME%%MAP-A8% // All Throwing Weapons
-//ItemDisplay[RARE !ID NORM THROWING]: %NAME%%MAP-A8% // All Normal tier Throwing Weapons
-//ItemDisplay[RARE !ID EXC THROWING]: %NAME%%MAP-A8% // All Exceptional tier Throwing Weapons
-ItemDisplay[RARE !ID ELT THROWING]: %NAME%%MAP-A8% // All Elite tier Throwing Weapons
+ItemDisplay[RARE !ID CLVL<20 !SPEAR THROWING !ZON]: %NAME%%MAP-A8% // Show all Throwing Weapons before level 20
+//ItemDisplay[RARE !ID !SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Throwing Weapons
+//ItemDisplay[RARE !ID NORM !SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Normal tier Throwing Weapons
+//ItemDisplay[RARE !ID EXC !SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Exceptional tier Throwing Weapons
+ItemDisplay[RARE !ID ELT !SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Elite tier Throwing Weapons
 
 // Normal tier rare Throwing Weapons
 //ItemDisplay[RARE !ID tkf]: %NAME%%MAP-A8% // Throwing Knife
@@ -3148,7 +3146,7 @@ ItemDisplay[MAG !ID rin]: %NAME% // All unidentified rings
 // ------------------------------------------------------------------------------
 // All Amazon weapons
 //ItemDisplay[MAG !ID ZON]: %NAME%%MAP-97% // All Amazon weapons
-ItemDisplay[MAG !ID ZON JAV !SPEAR !POLEARM]: %NAME%%MAP-97% // Javelins for 6/40
+ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME%%MAP-97% // Javelins for 6/40
 //ItemDisplay[MAG !ID NORM ZON]: %NAME%%MAP-97% // All Normal tier Amazon weapons
 //ItemDisplay[MAG !ID EXC ZON]: %NAME%%MAP-97% // All Exceptional tier Amazon weapons
 //ItemDisplay[MAG !ID ELT ZON]: %NAME%%MAP-97% // All Elite tier Amazon weapons
@@ -3767,10 +3765,10 @@ ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 //     [MWJA] Javelins
 // ------------------------------------------------------------------------------
 // All Javelins
-//ItemDisplay[MAG !ID JAV !SPEAR !POLERARM !ZON]: %NAME%%MAP-97% // All Javelins
-//ItemDisplay[MAG !ID NORM JAV !SPEAR !POLERARM !ZON]: %NAME%%MAP-97% // All Normal tier Javelins
-//ItemDisplay[MAG !ID EXC JAV !SPEAR !POLERARM !ZON]: %NAME%%MAP-97% // All Exceptional tier Javelins
-//ItemDisplay[MAG !ID ELT JAV !SPEAR !POLERARM !ZON]: %NAME%%MAP-97% // All Elite tier Javelins
+//ItemDisplay[MAG !ID SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Javelins
+//ItemDisplay[MAG !ID NORM SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Normal tier Javelins
+//ItemDisplay[MAG !ID EXC SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Exceptional tier Javelins
+//ItemDisplay[MAG !ID ELT SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Elite tier Javelins
 
 // Normal tier Javelins
 //ItemDisplay[MAG !ID jav]: %NAME%%MAP-97% // Javelin
@@ -3902,10 +3900,10 @@ ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 //     [MWSP] Spears
 // ------------------------------------------------------------------------------
 // All magic Spears
-//ItemDisplay[MAG !ID SPEAR !THROWING]: %NAME%%MAP-97% // All Spears
-//ItemDisplay[MAG !ID NORM SPEAR !THROWING]: %NAME%%MAP-97% // All Normal tier Spears
-//ItemDisplay[MAG !ID EXC SPEAR !THROWING]: %NAME%%MAP-97% // All Exceptional tier Spears
-//ItemDisplay[MAG !ID ELT SPEAR !THROWING]: %NAME%%MAP-97% // All Elite tier Spears
+//ItemDisplay[MAG !ID SPEAR !THROWING !ZON]: %NAME%%MAP-97% // All Spears
+//ItemDisplay[MAG !ID NORM SPEAR !THROWING !ZON]: %NAME%%MAP-97% // All Normal tier Spears
+//ItemDisplay[MAG !ID EXC SPEAR !THROWING !ZON]: %NAME%%MAP-97% // All Exceptional tier Spears
+//ItemDisplay[MAG !ID ELT SPEAR !THROWING !ZON]: %NAME%%MAP-97% // All Elite tier Spears
 
 // Normal tier magic Spears
 //ItemDisplay[MAG !ID spr]: %NAME%%MAP-97% // Spear
@@ -4028,10 +4026,10 @@ ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 //     [MWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
 // All magic Throwing Weapons
-//ItemDisplay[MAG !ID THROWING]: %NAME%%MAP-97% // All Throwing Weapons
-//ItemDisplay[MAG !ID NORM THROWING]: %NAME%%MAP-97% // All Normal tier Throwing Weapons
-//ItemDisplay[MAG !ID EXC THROWING]: %NAME%%MAP-97% // All Exceptional tier Throwing Weapons
-//ItemDisplay[MAG !ID ELT THROWING]: %NAME%%MAP-97% // All Elite tier Throwing Weapons
+//ItemDisplay[MAG !ID !SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Throwing Weapons
+//ItemDisplay[MAG !ID NORM !SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Normal tier Throwing Weapons
+//ItemDisplay[MAG !ID EXC !SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Exceptional tier Throwing Weapons
+//ItemDisplay[MAG !ID ELT !SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Elite tier Throwing Weapons
 
 // Normal tier magic Throwing Weapons
 //ItemDisplay[MAG !ID tkf]: %NAME%%MAP-97% // Throwing Knife
@@ -4190,7 +4188,7 @@ ItemDisplay[tbk]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !RW (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
+ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
 // Please note that all Helmets, Armors, and Shields have Ethereal filter lines as you can corrupt Indestructible on these slots.
 
 // ------------------------------------------------------------------------------
@@ -4523,24 +4521,24 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 ame]: %GRAY%%NAME%%DOT-1E%%PX-
 // These lines add descriptions to all Amazon Spears, leave these alone if you want to display possible runewords on base Amazon Spears
 // Please note you still have to uncomment specific base items lines to get a drop notification
 // You can also use these lines to completely hide items. Just put "//" in between "]:" and "{%" (eg "...]: //{%")
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Stength%NL%%TAN%Possible RWs:} // 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,%NL%%TAN%Possible RWs:} // 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // 6os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // Superior, 0os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Stength%NL%%TAN%Possible RWs:} // Superior, 2os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // Superior, 3os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,%NL%%TAN%Possible RWs:} // Superior, 4os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Superior, 5os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Superior, 6os
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Eth, 0os
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // Eth, 5os
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // Eth, 6os
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 TABSK2>2 ZON SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // Superior, Eth, 0os
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // Superior, Eth, 5os
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 ZON SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // Superior, Eth, 6os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 TABSK2>2 SPEAR !THROWING ZON]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Stength%NL%%TAN%Possible RWs:} // 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 TABSK2>2 SPEAR !THROWING ZON]: %NAME%{%TAN%Larzuk for sockets} // Superior, 0os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Stength%NL%%TAN%Possible RWs:} // Superior, 2os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // Superior, 3os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,%NL%%TAN%Possible RWs:} // Superior, 4os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Superior, 5os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Superior, 6os
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 TABSK2>2 SPEAR !THROWING ZON]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Eth, 0os
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // Eth, 5os
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // Eth, 6os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 TABSK2>2 SPEAR !THROWING ZON]: %NAME%{%TAN%Larzuk for sockets} // Superior, Eth, 0os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // Superior, Eth, 5os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 TABSK2>2 SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // Superior, Eth, 6os
 
 // Amazon Javelins
 ItemDisplay[NMAG (am5 OR ama OR amf) TABSK2>2]: %NAME% // Show +3 Jav javelins
@@ -8486,7 +8484,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 DAGGER !THROWING]: %GRAY%%NAME%{%ORANGE
 // ------------------------------------------------------------------------------
 //    [BWJA] Javelins
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG CLVL>20 JAV !SPEAR !POLEARM !ZON]: // This will completely hide all white javelins past character level 20
+ItemDisplay[NMAG CLVL>20 SPEAR THROWING !ZON]: // This will completely hide all white javelins past character level 20
 
 // ------------------------------------------------------------------------------
 //    [BWMA] Maces
@@ -10895,112 +10893,112 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity
 // ------------------------------------------------------------------------------
 // These are generic lines for showing all spears of a certain tier and certain conditions (sockets, superior, and/or ethereal)
 // All tiers
-//ItemDisplay[NMAG !INF !RW SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 5os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 6os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 5os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 6os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 5os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 6os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 5os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 6os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 5os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 6os
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 5os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 6os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=5 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 5os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=6 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 6os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 6os, Superior, Eth
 
 // Normal tiers
-//ItemDisplay[NMAG !INF !RW NORM SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NORM SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 4os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 5os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 6os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 NORM SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 2os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 3os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 4os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 5os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 6os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 5os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=6 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 6os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 0os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 2os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 4os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 5os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 NORM SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 6os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW NORM SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 NORM SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 0os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 2os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 3os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 4os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 5os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 6os
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 NORM SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 0os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 2os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 3os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 4os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 5os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 6os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 3os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 4os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=5 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 5os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=6 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 6os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 3os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 NORM SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers 6os, Superior, Eth
 
 // Exceptional tiers
-//ItemDisplay[NMAG !INF !RW EXC SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 EXC SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 4os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 5os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 6os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 EXC SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 2os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 3os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 4os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 5os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 6os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 5os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=6 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 6os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 0os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 2os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 4os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 5os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 EXC SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 6os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW EXC SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 EXC SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 0os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 2os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 3os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 4os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 5os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 6os
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 EXC SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 0os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 2os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 3os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 4os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 5os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 6os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 3os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 4os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=5 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 5os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=6 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 6os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 3os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 EXC SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers 6os, Superior, Eth
 
 // Elite tiers
-//ItemDisplay[NMAG !INF !RW ELT SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 ELT SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 4os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 5os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 6os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ELT SPEAR !THROWING]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 2os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 3os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 4os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 5os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 6os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 5os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=6 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 6os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 0os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 2os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 4os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 5os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 ELT SPEAR !THROWING]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 6os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW ELT SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 0os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 2os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 3os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 4os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 5os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 6os
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 0os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 2os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 3os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 4os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 5os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 6os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 3os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 4os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=5 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 5os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=6 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 6os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 3os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 6os, Superior, Eth
 
 // Below is each specific base polearm type
 // Normal tier Polearms
@@ -11342,30 +11340,30 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity
 // These lines add descriptions to all Spears, leave these alone if you want to display possible runewords on base Spears
 // Please note you still have to uncomment specific base items lines to get a drop notification
 // You can also use these lines to completely hide items. Just put "//" in between "]:" and "{%" (eg "...]: //{%")
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SPEAR !THROWING]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SPEAR !THROWING]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SPEAR !THROWING]: %GRAY%%NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SPEAR !THROWING]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SPEAR !THROWING]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SPEAR !THROWING !ZON]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=5 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=6 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SPEAR !THROWING !ZON]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=5 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=6 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // All tiers, 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // All tiers, 6os, Superior, Eth
 
 // ------------------------------------------------------------------------------
 //    [BWST] Staves
@@ -13514,12 +13512,11 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 SWORD]: %GRAY%%NAME%{%ORANGE%Last Wish,
 // ------------------------------------------------------------------------------
 //    [BWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
-// No need for white throwing weapons as they cannot have sockets
 // This character level is high as throw barbs can use white throwing weapons for a while while leveling
-ItemDisplay[NMAG CLVL>50 THROWING]: // This will completely hide all white throwing weapons past character level 50
-ItemDisplay[NMAG SUP !ETH CLVL<51 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior throwing weapons until character level 50
-ItemDisplay[NMAG !SUP ETH CLVL<51 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Ethereal throwing weapons until character level 50
-ItemDisplay[NMAG SUP ETH CLVL<51 THROWING]: %NAME%%DOT-20%%PX-00% // Showing Superior Ethereal throwing weapons until character level 50
+ItemDisplay[NMAG CLVL>50 !SPEAR THROWING !ZON]: // This will completely hide all white throwing weapons past character level 50
+ItemDisplay[NMAG SUP !ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Superior throwing weapons until character level 50
+ItemDisplay[NMAG !SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Ethereal throwing weapons until character level 50
+ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Superior Ethereal throwing weapons until character level 50
 
 // ------------------------------------------------------------------------------
 //    [BWWA] Wands
