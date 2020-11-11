@@ -466,7 +466,7 @@ ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
 ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
 
 // ------------------------------------------------------------------------------
-// [IBAD] Eth/Sockets to Names
+// [IBAD] Eth/Sockets/Item Level
 // ------------------------------------------------------------------------------
 ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
 ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
