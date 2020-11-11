@@ -16,6 +16,7 @@
 1. Copy all of the code (press CTRL+A to select all than CTRL+C to copy)
 1. Open your text editor (Notepad, Notepad++, etc) as Administrator
 1. With your text editor open **default.filter** from your ProjectD2 folder
+   1. Make sure in Notepad you change the drop-down above the Open button to `All FIles (*)`
 1. Paste the code you copied, overwriting everything in there
 1. Save and close the file
 1. Open Project Diablo 2
