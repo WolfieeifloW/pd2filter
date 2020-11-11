@@ -79,6 +79,12 @@ ItemDisplay[t16]: %RED%%NAME%%MAP-87% // Ruins of Viz-jun
 ItemDisplay[t17]: %RED%%NAME%%MAP-87% // River of Blood
 ItemDisplay[t18]: %RED%%NAME%%MAP-87% // Lava Map
 
+// Diablo Clone Items
+ItemDisplay[dcma]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Vision of Terror
+ItemDisplay[dcbl]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Pure Demonic Essence
+ItemDisplay[dcho]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Black Soulstone
+ItemDisplay[dcso]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Prime Evil Soul
+
 // Gems
 ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when above X character level
 ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when above X character level

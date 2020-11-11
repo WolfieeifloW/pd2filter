@@ -77,26 +77,26 @@
 // |      [CORR] Corruption Items            |         [UCDR] Druid                    |         [SIHD] Hsarus' Defense          |         [RCBA] Barbarian                |
 // |      [MAPI] Map Items                   |         [UCNE] Necromancer              |         [SIIT] Infernal Tools           |         [RCDR] Druid                    |
 // |      [MAPS] Maps                        |         [UCPA] Paladin                  |         [SIIF] Iratha's Finery          |         [RCNE] Necromancer              |
-// |   [GEMS] Gems                           |         [UCSO] Sorceress                |         [SIIA] Isenhart's Armory        |         [RCPA] Paladin                  |
-// |      [GEMA] Gems Master                 |      [UIUA] Unique Armor                |         [SIMR] Milabrega's Regalia      |         [RCSO] Sorceress                |
-// |      [GEAM] Amethyst                    |         [UAAR] Armor                    |         [SISC] Sigon's Complete Steel   |      [RIUA] Rare Armor                  |
-// |      [GEDI] Diamond                     |         [UABE] Belts                    |         [SITB] Tancred's Battlegear     |         [RAAR] Armor                    |
-// |      [GEEM] Emerald                     |         [UABO] Boots                    |         [SIVR] Vidala's Rig             |         [RABE] Belts                    |
-// |      [GERU] Ruby                        |         [UAGL] Gloves                   |      [SIES] Exceptional/Elite Sets      |         [RABO] Boots                    |
-// |      [GESA] Sapphire                    |         [UAHE] Helms                    |         [SIAW] Aldur's Watchtower       |         [RAGL] Gloves                   |
-// |      [GESK] Skull                       |         [UASH] Shields                  |         [SIBK] Bul-Kathos' Children     |         [RAHE] Helms                    |
-// |      [GETO] Topaz                       |      [UIUW] Unique Weapons              |         [SICK] Cow King's Leathers      |         [RASH] Shields                  |
-// |   [RUNS] Runes                          |         [UWAX] Axes                     |         [SITD] The Disciple             |      [RIUW] Rare Weapons                |
-// |      [RUMA] Rune Map Icons              |         [UWBO] Bows                     |         [SIGL] Griswold's Legacy        |         [RWAX] Axes                     |
-// |      [RUDE] Rune Descriptions           |         [UWCR] Crossbows                |         [SIHB] Heaven's Brethren        |         [RWBO] Bows                     |
-// |         [RULO] Low Runes                |         [UWDA] Daggers                  |         [SIHM] Hwanin's Majesty         |         [RWCR] Crossbows                |
-// |         [RUMI] Mid Runes                |         [UWJA] Javelins                 |         [SIIK] Immortal King            |         [RWDA] Daggers                  |
-// |         [RUHI] High Runes               |         [UWMA] Maces                    |         [SIMB] M'avina's Battle Hymn    |         [RWJA] Javelins                 |
-// |   [ITEM] Item Basics                    |         [UWPO] Polearms                 |         [SINO] Natalya's Odium          |         [RWMA] Maces                    |
-// |      [IBVE] Vendor Items                |         [UWSC] Scepters                 |         [SINA] Naj's Ancient Vestige    |         [RWPO] Polearms                 |
-// |      [IBOT] Other Items                 |         [UWSP] Spears                   |         [SIOC] Orphan's Call            |         [RWSC] Scepters                 |
-// |      [IBAD] Eth/Sockets to Names        |         [UWST] Staves                   |         [SISF] Sander's Folly           |         [RWSP] Spears                   |
-// |                                         |         [UWSW] Swords                   |         [SISG] Sazabi's Grand Tribute   |         [RWST] Staves                   |
+// |      [DCLO] Diablo Clone Items          |         [UCSO] Sorceress                |         [SIIA] Isenhart's Armory        |         [RCPA] Paladin                  |
+// |   [GEMS] Gems                           |      [UIUA] Unique Armor                |         [SIMR] Milabrega's Regalia      |         [RCSO] Sorceress                |
+// |      [GEMA] Gems Master                 |         [UAAR] Armor                    |         [SISC] Sigon's Complete Steel   |      [RIUA] Rare Armor                  |
+// |      [GEAM] Amethyst                    |         [UABE] Belts                    |         [SITB] Tancred's Battlegear     |         [RAAR] Armor                    |
+// |      [GEDI] Diamond                     |         [UABO] Boots                    |         [SIVR] Vidala's Rig             |         [RABE] Belts                    |
+// |      [GEEM] Emerald                     |         [UAGL] Gloves                   |      [SIES] Exceptional/Elite Sets      |         [RABO] Boots                    |
+// |      [GERU] Ruby                        |         [UAHE] Helms                    |         [SIAW] Aldur's Watchtower       |         [RAGL] Gloves                   |
+// |      [GESA] Sapphire                    |         [UASH] Shields                  |         [SIBK] Bul-Kathos' Children     |         [RAHE] Helms                    |
+// |      [GESK] Skull                       |      [UIUW] Unique Weapons              |         [SICK] Cow King's Leathers      |         [RASH] Shields                  |
+// |      [GETO] Topaz                       |         [UWAX] Axes                     |         [SITD] The Disciple             |      [RIUW] Rare Weapons                |
+// |   [RUNS] Runes                          |         [UWBO] Bows                     |         [SIGL] Griswold's Legacy        |         [RWAX] Axes                     |
+// |      [RUMA] Rune Map Icons              |         [UWCR] Crossbows                |         [SIHB] Heaven's Brethren        |         [RWBO] Bows                     |
+// |      [RUDE] Rune Descriptions           |         [UWDA] Daggers                  |         [SIHM] Hwanin's Majesty         |         [RWCR] Crossbows                |
+// |         [RULO] Low Runes                |         [UWJA] Javelins                 |         [SIIK] Immortal King            |         [RWDA] Daggers                  |
+// |         [RUMI] Mid Runes                |         [UWMA] Maces                    |         [SIMB] M'avina's Battle Hymn    |         [RWJA] Javelins                 |
+// |         [RUHI] High Runes               |         [UWPO] Polearms                 |         [SINO] Natalya's Odium          |         [RWMA] Maces                    |
+// |   [ITEM] Item Basics                    |         [UWSC] Scepters                 |         [SINA] Naj's Ancient Vestige    |         [RWPO] Polearms                 |
+// |      [IBVE] Vendor Items                |         [UWSP] Spears                   |         [SIOC] Orphan's Call            |         [RWSC] Scepters                 |
+// |      [IBOT] Other Items                 |         [UWST] Staves                   |         [SISF] Sander's Folly           |         [RWSP] Spears                   |
+// |      [IBAD] Eth/Sockets to Names        |         [UWSW] Swords                   |         [SISG] Sazabi's Grand Tribute   |         [RWST] Staves                   |
 // |                                         |         [UWTH] Throwing Weapons         |         [SITR] Tal Rasha's Wrappings    |         [RWSW] Swords                   |
 // |                                         |         [UWWA] Wands                    |         [SITO] Trang-Oul's Avatar       |         [RWTH] Throwing Weapons         |
 // |                                         |      [UIMA] Unique Items Master         |      [SIMA] Set Items Master            |         [RWWA] Wands                    |
@@ -250,14 +250,22 @@ ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // 
 // ------------------------------------------------------------------------------
 // [MAPS] Maps
 // ------------------------------------------------------------------------------
-ItemDisplay[t11]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
-ItemDisplay[t12]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
-ItemDisplay[t13]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
-ItemDisplay[t14]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
-ItemDisplay[t15]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
-ItemDisplay[t16]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Ruins of Viz-jun
-ItemDisplay[t17]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // River of Blood
-ItemDisplay[t18]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Lava Map
+ItemDisplay[t11]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t12]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t13]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t14]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t15]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t16]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Ruins of Viz-jun
+ItemDisplay[t17]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // River of Blood
+ItemDisplay[t18]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Lava Map
+
+// ------------------------------------------------------------------------------
+// [DCLO] Diablo Clone Items
+// ------------------------------------------------------------------------------
+ItemDisplay[dcma]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Vision of Terror
+ItemDisplay[dcbl]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Pure Demonic Essence
+ItemDisplay[dcho]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Black Soulstone
+ItemDisplay[dcso]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Prime Evil Soul
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |

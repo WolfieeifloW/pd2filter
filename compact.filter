@@ -55,6 +55,10 @@ ItemDisplay[t15]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires
 ItemDisplay[t16]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Ruins of Viz-jun
 ItemDisplay[t17]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // River of Blood
 ItemDisplay[t18]: %RED%%NAME%%MAP-87%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Lava Map
+ItemDisplay[dcma]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Vision of Terror
+ItemDisplay[dcbl]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Pure Demonic Essence
+ItemDisplay[dcho]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Black Soulstone
+ItemDisplay[dcso]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Prime Evil Soul
 
 // Gems
 ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when above X character level
