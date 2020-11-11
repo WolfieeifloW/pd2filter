@@ -73,7 +73,7 @@
 // |      [QITO] Tokens                      |      [UICS] Unique Class Specific       |         [SICT] Cathan's Traps           |         [RMRI] Rings                    |
 // |      [QIKE] Pandemonium Keys            |         [UCAM] Amazon                   |         [SICV] Civerb's Vestments       |      [RICS] Rare Class Specific         |
 // |      [QIOR] Pandemonium Organs          |         [UCAS] Assassin                 |         [SICB] Cleglaw's Brace          |         [RCAM] Amazon                   |
-// |   [PD2N] Corruption & Map Items         |         [UCBA] Barbarian                |         [SIDD] Death's Disguise         |         [RCAS] Assassin                 |
+// |   [PD2N] Project Diablo 2 Items         |         [UCBA] Barbarian                |         [SIDD] Death's Disguise         |         [RCAS] Assassin                 |
 // |      [CORR] Corruption Items            |         [UCDR] Druid                    |         [SIHD] Hsarus' Defense          |         [RCBA] Barbarian                |
 // |      [MAPI] Map Items                   |         [UCNE] Necromancer              |         [SIIT] Infernal Tools           |         [RCDR] Druid                    |
 // |      [MAPS] Maps                        |         [UCPA] Paladin                  |         [SIIF] Iratha's Finery          |         [RCNE] Necromancer              |
@@ -96,7 +96,7 @@
 // |   [ITEM] Item Basics                    |         [UWSC] Scepters                 |         [SINA] Naj's Ancient Vestige    |         [RWPO] Polearms                 |
 // |      [IBVE] Vendor Items                |         [UWSP] Spears                   |         [SIOC] Orphan's Call            |         [RWSC] Scepters                 |
 // |      [IBOT] Other Items                 |         [UWST] Staves                   |         [SISF] Sander's Folly           |         [RWSP] Spears                   |
-// |      [IBAD] Eth/Sockets to Names        |         [UWSW] Swords                   |         [SISG] Sazabi's Grand Tribute   |         [RWST] Staves                   |
+// |      [IBAD] Eth/Sockets/Item Level      |         [UWSW] Swords                   |         [SISG] Sazabi's Grand Tribute   |         [RWST] Staves                   |
 // |                                         |         [UWTH] Throwing Weapons         |         [SITR] Tal Rasha's Wrappings    |         [RWSW] Swords                   |
 // |                                         |         [UWWA] Wands                    |         [SITO] Trang-Oul's Avatar       |         [RWTH] Throwing Weapons         |
 // |                                         |      [UIMA] Unique Items Master         |      [SIMA] Set Items Master            |         [RWWA] Wands                    |
