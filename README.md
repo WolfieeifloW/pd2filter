@@ -21,7 +21,7 @@ Ensure you have opened the PD2 Launcher (as Administrator) and clicked Play. Thi
 1. With your text editor open **default.filter** from your ProjectD2 folder
    1. Make sure in Notepad you change the drop-down above the Open button to `All Files (*)`
 1. Paste the code you copied, overwriting everything in there
-1. Save and close the file
+1. Go to File -> Save (NOT Save As), overwrite, and then close the file
 1. Open Project Diablo 2
 1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
 1. Change your settings to match the image below
