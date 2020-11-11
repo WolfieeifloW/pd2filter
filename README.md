@@ -1,6 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**Updated with Diablo Clone items on Wednesday, November 11, 2020 8:40AM EST. Please get the updated filter or view the commit history for the version you use to grab the added lines.**
+**Updated with Diablo Clone items on Wednesday, November 11, 2020 8:40AM EST. Please get the updated filter or view the [commit history](https://github.com/WolfieeifloW/pd2filter/commit/96b945706cc014c16f80571d1f649712695d1a3e) for the version you use to grab the added lines.**
 
 # Table of Contents
 1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
