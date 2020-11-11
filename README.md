@@ -11,12 +11,13 @@
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
 
 # Installation
+Ensure you have opened the PD2 Launcher (as Administrator) and clicked Play. This will update the mod and download all the files you need.
 1. Select which filter you want to use from [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters) section
 1. CTRL+Click (will open in a new tab) the link on that filter which will take you to the raw code for that version
 1. Copy all of the code (press CTRL+A to select all than CTRL+C to copy)
 1. Open your text editor (Notepad, Notepad++, etc) as Administrator
 1. With your text editor open **default.filter** from your ProjectD2 folder
-   1. Make sure in Notepad you change the drop-down above the Open button to `All FIles (*)`
+   1. Make sure in Notepad you change the drop-down above the Open button to `All Files (*)`
 1. Paste the code you copied, overwriting everything in there
 1. Save and close the file
 1. Open Project Diablo 2
