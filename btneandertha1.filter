@@ -11,30 +11,30 @@
 // This version was made custom for BTNeandertha1 (https://www.twitch.tv/btneandertha1)
 
 // Quest Items ------------------------------------------------------------------
-ItemDisplay[hdm]: %NAME%%MAP-00%{%TAN%Give to Charsi in Act 1} // Horadric Malus
-ItemDisplay[bks]: %NAME%%MAP-00%{%TAN%Talk to Akara in Act 1%NL%} // Scroll of Inifuss
-ItemDisplay[bkd]: %NAME%%MAP-00%{%TAN%Go to Act 1: Stony Field%NL%} // Scroll of Inifuss, deciphered
-ItemDisplay[leg]: %GOLD%%NAME%%MAP-00%{%TAN%Cube w/ Tome of Town Portal in Act 1 to open Cow Level} // Wirt's Leg
-ItemDisplay[ass]: %NAME%%MAP-00%{%TAN%Right click for +1 Skill Point%NL%} // Book of Skill
+ItemDisplay[hdm]: %NAME%{%TAN%Give to Charsi in Act 1} // Horadric Malus
+ItemDisplay[bks]: %NAME%{%TAN%Talk to Akara in Act 1%NL%} // Scroll of Inifuss
+ItemDisplay[bkd]: %NAME%{%TAN%Go to Act 1: Stony Field%NL%} // Scroll of Inifuss, deciphered
+ItemDisplay[leg]: %GOLD%%NAME%{%TAN%Cube w/ Tome of Town Portal in Act 1 to open Cow Level} // Wirt's Leg
+ItemDisplay[ass]: %NAME%{%TAN%Right click for +1 Skill Point%NL%} // Book of Skill
 ItemDisplay[tr1]: //%NAME%{%TAN%Not required%NL%} // Horadric Scroll
-ItemDisplay[box]: %NAME%%MAP-00% // Horadric Cube
-ItemDisplay[hst]: %NAME%%MAP-00%{%TAN%Use in Tomb Orifice in Act 2: Tal Rashas Tomb} // Horadric Staff
-ItemDisplay[msf]: %NAME%%MAP-00%{%TAN%Cube w/ Amulet of the Viper} // Staff of Kings
-ItemDisplay[vip]: %NAME%%MAP-00%{%TAN%Cube w/ Staff of Kings} // Amulet of the Viper
-ItemDisplay[j34]: %NAME%%MAP-00%{%TAN%Give to Meshif in Act 3%NL%} // A Jade Figurine
-ItemDisplay[g33]: %NAME%%MAP-00%{%TAN%Give to Ormus in Act 3%NL%} // Gidbinn
-ItemDisplay[qbr]: %NAME%%MAP-00%{%TAN%Cube w/ Eye, Flail, & Heart%NL%} // Khalim's Brain
-ItemDisplay[qey]: %NAME%%MAP-00%{%TAN%Cube w/ Brain, Flail, & Heart%NL%} // Khalim's Eye
-ItemDisplay[qf1]: %NAME%%MAP-00%{%TAN%Cube w/ Brain, Eye, & Heart} // Khalim's Flail
-ItemDisplay[qhr]: %NAME%%MAP-00%{%TAN%Cube w/ Brain, Eye, & Flail%NL%} // Khalim's Heart
-ItemDisplay[qf2]: %NAME%%MAP-00%{%TAN%Hit Compelling Orb in Act 3: Travincal} // Khalim's Will
-ItemDisplay[bbb]: %NAME%%MAP-00%{%TAN%Give to Alkor for +5 Stat Points%NL%} // Lam Esen's Tome
-ItemDisplay[mss]: %NAME%%MAP-00%{%TAN%Take to the Hellforge in Act 4: River of Flame%NL%} // Mephisto's Soulstone
-ItemDisplay[xyz]: %NAME%%MAP-00%{%TAN%Right click for a permanent +20 to Life%NL%} // Potion of Life
-ItemDisplay[g34]: %NAME%%MAP-00%{%TAN%Give to Alkor in Act 3%NL%} // The Golden Bird
-ItemDisplay[hfh]: %NAME%%MAP-00%{%TAN%Hit Hellforge in Act 4: River of Flame} // Hellforge Hammer
-ItemDisplay[ice]: %NAME%%MAP-00%{%TAN%Touch Anya in Act 5: Frozen River%NL%} // Malah's Potion
-ItemDisplay[tr2]: %NAME%%MAP-00%{%TAN%Right click for a permanent All Resistances +10%NL%} // Scroll of Resistance
+ItemDisplay[box]: %NAME% // Horadric Cube
+ItemDisplay[hst]: %NAME%{%TAN%Use in Tomb Orifice in Act 2: Tal Rashas Tomb} // Horadric Staff
+ItemDisplay[msf]: %NAME%{%TAN%Cube w/ Amulet of the Viper} // Staff of Kings
+ItemDisplay[vip]: %NAME%{%TAN%Cube w/ Staff of Kings} // Amulet of the Viper
+ItemDisplay[j34]: %NAME%{%TAN%Give to Meshif in Act 3%NL%} // A Jade Figurine
+ItemDisplay[g33]: %NAME%{%TAN%Give to Ormus in Act 3%NL%} // Gidbinn
+ItemDisplay[qbr]: %NAME%{%TAN%Cube w/ Eye, Flail, & Heart%NL%} // Khalim's Brain
+ItemDisplay[qey]: %NAME%{%TAN%Cube w/ Brain, Flail, & Heart%NL%} // Khalim's Eye
+ItemDisplay[qf1]: %NAME%{%TAN%Cube w/ Brain, Eye, & Heart} // Khalim's Flail
+ItemDisplay[qhr]: %NAME%{%TAN%Cube w/ Brain, Eye, & Flail%NL%} // Khalim's Heart
+ItemDisplay[qf2]: %NAME%{%TAN%Hit Compelling Orb in Act 3: Travincal} // Khalim's Will
+ItemDisplay[bbb]: %NAME%{%TAN%Give to Alkor for +5 Stat Points%NL%} // Lam Esen's Tome
+ItemDisplay[mss]: %NAME%{%TAN%Take to the Hellforge in Act 4: River of Flame%NL%} // Mephisto's Soulstone
+ItemDisplay[xyz]: %NAME%{%TAN%Right click for a permanent +20 to Life%NL%} // Potion of Life
+ItemDisplay[g34]: %NAME%{%TAN%Give to Alkor in Act 3%NL%} // The Golden Bird
+ItemDisplay[hfh]: %NAME%{%TAN%Hit Hellforge in Act 4: River of Flame} // Hellforge Hammer
+ItemDisplay[ice]: %NAME%{%TAN%Touch Anya in Act 5: Frozen River%NL%} // Malah's Potion
+ItemDisplay[tr2]: %NAME%{%TAN%Right click for a permanent All Resistances +10%NL%} // Scroll of Resistance
 
 // Essences & Token -------------------------------------------------------------
 ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Diablo%NL%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror
@@ -56,11 +56,11 @@ ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%MAP-62% // Worldstone Shard
 ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%MAP-62% // Larzuk's Box
 
 // Map Items --------------------------------------------------------------------
-ItemDisplay[rera]: %NAME%{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map}%DOT-80% // Reroll Rare Map (Horadrim Orb)
-ItemDisplay[imra]: %NAME%{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map}%DOT-80% // Imbue Rare Map (Zakarum Orb)
-ItemDisplay[upma]: %NAME%{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map}%DOT-80% // Upgrade Magic Map to Rare Map (Angelic Orb)
-ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map}%DOT-80% // Imbue Magic Map (Arcane Orb)
-ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
+ItemDisplay[rera]: %NAME%{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map} // Reroll Rare Map (Horadrim Orb)
+ItemDisplay[imra]: %NAME%{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map} // Imbue Rare Map (Zakarum Orb)
+ItemDisplay[upma]: %NAME%{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map} // Upgrade Magic Map to Rare Map (Angelic Orb)
+ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map} // Imbue Magic Map (Arcane Orb)
+ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 
 // Maps -------------------------------------------------------------------------
 ItemDisplay[t11]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
@@ -219,76 +219,74 @@ ItemDisplay[RARE !ID ELT ZON]: %NAME%%MAP-A8% // All Rare Amazon weapons
 ItemDisplay[RARE !ID SIN]: %NAME%%MAP-A8% // All Rare Assassin weapons
 ItemDisplay[RARE !ID BAR]: %NAME%%MAP-A8% // All Rare Barbarian helmets
 ItemDisplay[RARE !ID DRU]: %NAME%%MAP-A8% // All Rare Druid Pelts
-ItemDisplay[RARE !ID NEC]: %NAME%%MAP-A8% // All Rare Necromancer Heads
-ItemDisplay[RARE !ID DIN]: %NAME%%MAP-A8% // All Rare Paladin Shields
 ItemDisplay[RARE !ID SOR]: %NAME%%MAP-A8% // All Rare Sorceress Orbs
 
 //      Rare Armors
-ItemDisplay[RARE !ID (EXC OR ELT) CHEST]: %NAME%%MAP-A8% // All Exceptional and Elite tier Rare Armors
+ItemDisplay[RARE !ID (xtp OR ELT) CHEST]: %NAME%%MAP-A8% // All Exceptional and Elite tier Rare Armors
 ItemDisplay[RARE !ID BELT]: %NAME%%MAP-A8% // All Rare belts
 ItemDisplay[RARE !ID BOOTS]: %NAME%%MAP-A8% // All Rare boots
 ItemDisplay[RARE !ID GLOVES]: %NAME%%MAP-A8% // All Rare gloves
 
 //      Rare Weapons
-ItemDisplay[RARE !ID (EXC OR ELT) AXE !THROWING]: %NAME%%MAP-A8% // All Exceptional and Elite tier Axes
-ItemDisplay[RARE !ID ELT BOW]: %NAME%%MAP-A8% // All Elite tier Bows
-ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME%%MAP-A8% // All Elite tier Daggers
-ItemDisplay[RARE !ID ELT SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
-ItemDisplay[RARE !ID ELT MACE]: %NAME%%MAP-A8% // All Elite tier Maces
-ItemDisplay[RARE !ID ELT POLEARM]: %NAME%%MAP-A8% // All Elite tier Polearms
-ItemDisplay[RARE !ID (EXC OR ELT) SCEPTER]: %NAME%%MAP-A8% // All Exceptional & Elite tier Scepters
-ItemDisplay[RARE !ID ELT SPEAR !THROWING !ZON]: %NAME%%MAP-A8% // All Elite tier Spears
-ItemDisplay[RARE !ID ELT STAFF]: %NAME%%MAP-A8% // All Elite tier Staves
-ItemDisplay[RARE !ID crs]: %NAME%%MAP-A8% // Rare Crystal Sword
-ItemDisplay[RARE !ID 9cr]: %NAME%%MAP-A8% // Rare Dimensional Blade
-ItemDisplay[RARE !ID ELT SWORD]: %NAME%%MAP-A8% // All Elite tier Swords
-ItemDisplay[RARE !ID ELT !SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Elite tier Throwing Weapons
-ItemDisplay[RARE !ID WAND]: %NAME%%MAP-A8% // All Wands
+ItemDisplay[RARE !ID (EXC OR ELT) AXE !THROWING]: %NAME% // All Exceptional and Elite tier Axes
+ItemDisplay[RARE !ID ELT BOW]: %NAME% // All Elite tier Bows
+ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME% // All Elite tier Daggers
+ItemDisplay[RARE !ID ELT SPEAR THROWING !ZON]: %NAME% // All Elite tier Javelins
+ItemDisplay[RARE !ID ELT MACE]: %NAME% // All Elite tier Maces
+ItemDisplay[RARE !ID ELT POLEARM]: %NAME% // All Elite tier Polearms
+ItemDisplay[RARE !ID (EXC OR ELT) SCEPTER]: %NAME% // All Exceptional & Elite tier Scepters
+ItemDisplay[RARE !ID ELT SPEAR !THROWING !ZON]: %NAME% // All Elite tier Spears
+ItemDisplay[RARE !ID ELT STAFF]: %NAME% // All Elite tier Staves
+ItemDisplay[RARE !ID crs]: %NAME% // Rare Crystal Sword
+ItemDisplay[RARE !ID 9cr]: %NAME% // Rare Dimensional Blade
+ItemDisplay[RARE !ID ELT SWORD]: %NAME% // All Elite tier Swords
+ItemDisplay[RARE !ID ELT !SPEAR THROWING !ZON]: %NAME% // All Elite tier Throwing Weapons
+ItemDisplay[RARE !ID WAND]: %NAME% // All Wands
 
 //      Hide all other rares
 ItemDisplay[RARE !ID]: // Hide all other Rare items
 
 // Crafted Items ----------------------------------------------------------------
 //      Amulets for crafting
-ItemDisplay[MAG amu ILVL=88 CLVL>91]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 92+}
-ItemDisplay[MAG amu ILVL=89 CLVL>91]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 92+}
-ItemDisplay[MAG amu ILVL=90 CLVL>89]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 90+}
-ItemDisplay[MAG amu ILVL=91 CLVL>89]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 90+}
-ItemDisplay[MAG amu ILVL=92 CLVL>71]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 88+}
-ItemDisplay[MAG amu ILVL=93 CLVL>71]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 88+}
-ItemDisplay[MAG amu ILVL=94 CLVL>85]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 86+}
-ItemDisplay[MAG amu ILVL=95 CLVL>85]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 86+}
-ItemDisplay[MAG amu ILVL=96 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 84+}
-ItemDisplay[MAG amu ILVL=97 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 84+}
-ItemDisplay[MAG amu ILVL=98 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 82+}
-ItemDisplay[MAG amu ILVL=99 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 82+}
+ItemDisplay[MAG amu ILVL=88 CLVL>91]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 92+}
+ItemDisplay[MAG amu ILVL=89 CLVL>91]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 92+}
+ItemDisplay[MAG amu ILVL=90 CLVL>89]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 90+}
+ItemDisplay[MAG amu ILVL=91 CLVL>89]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 90+}
+ItemDisplay[MAG amu ILVL=92 CLVL>71]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 88+}
+ItemDisplay[MAG amu ILVL=93 CLVL>71]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 88+}
+ItemDisplay[MAG amu ILVL=94 CLVL>85]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 86+}
+ItemDisplay[MAG amu ILVL=95 CLVL>85]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 86+}
+ItemDisplay[MAG amu ILVL=96 CLVL>83]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 84+}
+ItemDisplay[MAG amu ILVL=97 CLVL>83]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 84+}
+ItemDisplay[MAG amu ILVL=98 CLVL>81]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 82+}
+ItemDisplay[MAG amu ILVL=99 CLVL>81]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 82+}
 
 //      Rings for crafting
-ItemDisplay[MAG rin ILVL=86 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 84+}
-ItemDisplay[MAG rin ILVL=87 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 84+}
-ItemDisplay[MAG rin ILVL=88 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 82+}
-ItemDisplay[MAG rin ILVL=89 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 82+}
-ItemDisplay[MAG rin ILVL=90 CLVL>79]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 80+}
-ItemDisplay[MAG rin ILVL=91 CLVL>77]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 78+}
-ItemDisplay[MAG rin ILVL=92 CLVL>77]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 78+}
-ItemDisplay[MAG rin ILVL=93 CLVL>75]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 76+}
-ItemDisplay[MAG rin ILVL=94 CLVL>75]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 76+}
-ItemDisplay[MAG rin ILVL>94 CLVL>73]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at char level 74+}
+ItemDisplay[MAG rin ILVL=86 CLVL>83]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 84+}
+ItemDisplay[MAG rin ILVL=87 CLVL>83]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 84+}
+ItemDisplay[MAG rin ILVL=88 CLVL>81]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 82+}
+ItemDisplay[MAG rin ILVL=89 CLVL>81]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 82+}
+ItemDisplay[MAG rin ILVL=90 CLVL>79]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 80+}
+ItemDisplay[MAG rin ILVL=91 CLVL>77]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 78+}
+ItemDisplay[MAG rin ILVL=92 CLVL>77]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 78+}
+ItemDisplay[MAG rin ILVL=93 CLVL>75]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 76+}
+ItemDisplay[MAG rin ILVL=94 CLVL>75]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 76+}
+ItemDisplay[MAG rin ILVL>94 CLVL>73]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 74+}
 
 //      Blood Belts
-ItemDisplay[MAG ILVL>71 mbl]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Belt
-ItemDisplay[MAG ILVL>71 zmb]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Mesh Belt
-ItemDisplay[MAG ILVL>71 umc]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Mithril Coil
+ItemDisplay[MAG ILVL>71 mbl]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Belt
+ItemDisplay[MAG ILVL>71 zmb]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Mesh Belt
+ItemDisplay[MAG ILVL>71 umc]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Mithril Coil
 
 //      Blood Gloves
-ItemDisplay[MAG ILVL>71 vgl]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Heavy Gloves
-ItemDisplay[MAG ILVL>71 xvg]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Sharkskin Gloves
-ItemDisplay[MAG ILVL>71 uvg]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Vampirebone Gloves
+ItemDisplay[MAG ILVL>71 vgl]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Heavy Gloves
+ItemDisplay[MAG ILVL>71 xvg]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Sharkskin Gloves
+ItemDisplay[MAG ILVL>71 uvg]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Vampirebone Gloves
 
 //      Caster Belts
-ItemDisplay[MAG ILVL>71 vbl]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Light Belt
-ItemDisplay[MAG ILVL>71 zvb]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Sharkskin Belt
-ItemDisplay[MAG ILVL>71 uvc]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Vampirefang Belt
+ItemDisplay[MAG ILVL>71 vbl]: %NAME% %ORANGE%[C]{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Light Belt
+ItemDisplay[MAG ILVL>71 zvb]: %NAME% %ORANGE%[C]{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Sharkskin Belt
+ItemDisplay[MAG ILVL>71 uvc]: %NAME% %ORANGE%[C]{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Vampirefang Belt
 
 // Magic Items ------------------------------------------------------------------
 //      Items to Vendor
@@ -305,17 +303,16 @@ ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Magic Grand Charms
 ItemDisplay[MAG !ID jew]: %NAME%%DOT-97% // All Magic Jewels
 
 //      Magic Class Specific
-ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME%%MAP-97% // Magic Amazon Javelins (6/40 etc)
-ItemDisplay[MAG !ID SIN]: %NAME%%MAP-97% // All Magic Assassin Katars
-ItemDisplay[MAG !ID BAR]: %NAME%%MAP-97% // All Magic Barbarian helmets
-ItemDisplay[MAG !ID DRU]: %NAME%%MAP-97% // All Magic Pelts
+ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME% // Magic Amazon Javelins (6/40 etc)
+ItemDisplay[MAG !ID SIN]: %NAME% // All Magic Assassin Katars
+ItemDisplay[MAG !ID BAR]: %NAME% // All Magic Barbarian helmets
+ItemDisplay[MAG !ID DRU]: %NAME% // All Magic Pelts
 
 //      Magic Armors
-ItemDisplay[MAG !ID (EXC OR ELT) CHEST]: %NAME%%MAP-A8% // All Exceptional and Elite tier Magic Armors
+ItemDisplay[MAG !ID (xtp OR ELT) CHEST]: %NAME% // All Exceptional and Elite tier Magic Armors
 
 //      Magic Weapons
-ItemDisplay[MAG !ID !SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Magic Throwing Weapons
-ItemDisplay[MAG !ID WAND]: %NAME%%MAP-97% // All Magic Wands
+ItemDisplay[MAG !ID WAND]: %NAME% // All Magic Wands
 
 //      Hide all other magics
 ItemDisplay[MAG !ID]: // Hide all other Magic items
@@ -362,10 +359,10 @@ ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35% // Rejuv Potion
 ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+%WHITE% // Full Rejuv Potion
 
-ItemDisplay[vps DIFF<2]: %WHITE%+%WHITE%Stam // Stamina Potion
+ItemDisplay[vps DIFF<2]: %WHITE%+S // Stamina Potion
 ItemDisplay[vps DIFF>1]: // Hides Stamina Potion after Nightmare difficulty
-ItemDisplay[yps]: %GREEN%+%WHITE%Anti // Antidote Potion
-ItemDisplay[wms]: %BLUE%+%WHITE%Thaw // Thawing Potion
+ItemDisplay[yps]: %GREEN%+A%WHITE% // Antidote Potion
+ItemDisplay[wms]: %YELLOW%+T%WHITE% // Thawing Potion
 
 ItemDisplay[gpl DIFF<1]: %GREEN%+%WHITE%Strang // Strangling Potion
 ItemDisplay[gpl DIFF>0]: // Strangling Potion after Normal difficulty
@@ -400,32 +397,32 @@ ItemDisplay[NMAG !INF !RW SUP ED=14]: %NAME%%GRAY%[%BLUE%14%%GRAY%]%CONTINUE%
 ItemDisplay[NMAG !INF !RW SUP ED=15]: %NAME%%GRAY%[%BLUE%15%%GRAY%]%CONTINUE%
 
 //      Base Circlets
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ILVL>25 CIRC]: %NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ILVL>25 CIRC]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ILVL>25 CIRC]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ILVL>25 CIRC]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 CIRC]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ILVL>25 CIRC]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ILVL>25 CIRC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ILVL>25 CIRC]: %GRAY%%NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ILVL>25 CIRC]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 CIRC]: %GRAY%%NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 CIRC]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
 
 //      Base Amazon Bows
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Elite tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %NAME%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %GRAY%%NAME%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Elite tiers, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:} // Elite tiers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice, Ice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
-ItemDisplay[NMAG !INF !RW SOCK=5 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // Elite tiers, 5os
+ItemDisplay[NMAG !INF !RW SOCK=5 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %GRAY%%NAME%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // Elite tiers, 5os
 
 //      Base Amazon Spears
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Stength%NL%%TAN%Possible RWs:} // Elite tiers, 2os, Non-Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // Elite tiers, 3os, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Stength%NL%%TAN%Possible RWs:} // Elite tiers, 2os, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // Elite tiers, 3os, Non-Eth
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,%NL%%TAN%Possible RWs:} // Elite tiers, 4os, Non-Eth
 ItemDisplay[NMAG !INF !RW !ETH SOCK=5 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os, Non-Eth
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // Elite tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=6 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os, Non-Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // Elite tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=6 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // Elite tiers, 6os, Eth
 
 //      Base Amazon Javelins
@@ -433,28 +430,36 @@ ItemDisplay[NMAG TABSK2>2 ELT (am5 OR ama OR amf)]: %NAME%%DOT-1E% // Show +3 El
 ItemDisplay[NMAG CLVL>30 TABSK2<3 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins that are +0-2 Jav skills past character level 30
 
 //      Base Assassin Katars
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SIN]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SIN]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SIN]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SIN]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os, Non-Eth
-ItemDisplay[NMAG !INF !RW SOCK=3 SIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Pattern, Plague, Venom, Wind%NL%Chaos, Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os
+// Martial: SK254 Tiger Strike, SK255 Dragon Talon, SK259 Fists of Fire, SK260 Dragon Claw, SK265 Cobra Strike, SK269 Claws of Thunder, SK270 Dragon Tail, SK274 Blades of Ice, SK275 Dragon Flight, SK280 Phoenix Strike
+// Disc: SK252 Dagger & Claw Mastery, SK253 Psychic Hammer, SK258 Burst of Speed, SK263 Weapon Block, SK264 Cloak of Shadows, SK267 Fade, SK268 Shadow Warrior, SK273 Mind Blast, SK278 Venom, SK279 Shadow Master
+// Traps: SK251 Fire Blast, SK256 Shock Web, SK257 Blade Sentinel, SK261 Charged Bolt Sentry, SK262 Wake Of Fire, SK266 Blade Fury, SK272 Wake Of Inferno, SK276 Death Sentry, SK271 Chain Lightning Sentry, SK277 Blade Shield, SK366 Lightning Sentry
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK254>2 OR SK255>2 OR SK259>2 OR SK260>2 OR SK265>2 OR SK269>2 OR SK270>2 OR SK274>2 OR SK275>2 OR SK280>2 OR SK252>2 OR SK253>2 OR SK258>2 OR SK263>2 OR SK264>2 OR SK267>2 OR SK268>2 OR SK273>2 OR SK278>2 OR SK279>2 OR SK251>2 OR SK256>2 OR SK257>2 OR SK261>2 OR SK262>2 OR SK266>2 OR SK272>2 OR SK276>2 OR SK271>2 OR SK277>2 OR SK366>2) SIN]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK254>2 OR SK255>2 OR SK259>2 OR SK260>2 OR SK265>2 OR SK269>2 OR SK270>2 OR SK274>2 OR SK275>2 OR SK280>2 OR SK252>2 OR SK253>2 OR SK258>2 OR SK263>2 OR SK264>2 OR SK267>2 OR SK268>2 OR SK273>2 OR SK278>2 OR SK279>2 OR SK251>2 OR SK256>2 OR SK257>2 OR SK261>2 OR SK262>2 OR SK266>2 OR SK272>2 OR SK276>2 OR SK271>2 OR SK277>2 OR SK366>2) SIN]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK254>2 OR SK255>2 OR SK259>2 OR SK260>2 OR SK265>2 OR SK269>2 OR SK270>2 OR SK274>2 OR SK275>2 OR SK280>2 OR SK252>2 OR SK253>2 OR SK258>2 OR SK263>2 OR SK264>2 OR SK267>2 OR SK268>2 OR SK273>2 OR SK278>2 OR SK279>2 OR SK251>2 OR SK256>2 OR SK257>2 OR SK261>2 OR SK262>2 OR SK266>2 OR SK272>2 OR SK276>2 OR SK271>2 OR SK277>2 OR SK366>2) SIN]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK254>2 OR SK255>2 OR SK259>2 OR SK260>2 OR SK265>2 OR SK269>2 OR SK270>2 OR SK274>2 OR SK275>2 OR SK280>2 OR SK252>2 OR SK253>2 OR SK258>2 OR SK263>2 OR SK264>2 OR SK267>2 OR SK268>2 OR SK273>2 OR SK278>2 OR SK279>2 OR SK251>2 OR SK256>2 OR SK257>2 OR SK261>2 OR SK262>2 OR SK266>2 OR SK272>2 OR SK276>2 OR SK271>2 OR SK277>2 OR SK366>2) SIN]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK254>2 OR SK255>2 OR SK259>2 OR SK260>2 OR SK265>2 OR SK269>2 OR SK270>2 OR SK274>2 OR SK275>2 OR SK280>2 OR SK252>2 OR SK253>2 OR SK258>2 OR SK263>2 OR SK264>2 OR SK267>2 OR SK268>2 OR SK273>2 OR SK278>2 OR SK279>2 OR SK251>2 OR SK256>2 OR SK257>2 OR SK261>2 OR SK262>2 OR SK266>2 OR SK272>2 OR SK276>2 OR SK271>2 OR SK277>2 OR SK366>2) SIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os, Non-Eth
+ItemDisplay[NMAG !INF !RW SOCK=3 (SK254>2 OR SK255>2 OR SK259>2 OR SK260>2 OR SK265>2 OR SK269>2 OR SK270>2 OR SK274>2 OR SK275>2 OR SK280>2 OR SK252>2 OR SK253>2 OR SK258>2 OR SK263>2 OR SK264>2 OR SK267>2 OR SK268>2 OR SK273>2 OR SK278>2 OR SK279>2 OR SK251>2 OR SK256>2 OR SK257>2 OR SK261>2 OR SK262>2 OR SK266>2 OR SK272>2 OR SK276>2 OR SK271>2 OR SK277>2 OR SK366>2) SIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Pattern, Plague, Venom, Wind%NL%Chaos, Fury, Malice,%NL%%TAN%Possible RWs:} // All tiers, 3os
 
 //      Base Barbarian Helmets
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 BAR]: %NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 BAR]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 BAR]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 BAR]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 BAR]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 BAR]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
+// Warcries: SK130 Howl, SK131 Find Potion, SK137 Taunt, SK138 Shout, SK142 Find Item, SK146 Battle Cry, SK149 Battle Orders, SK150 Grim Ward, SK154 War Cry, SK155 Battle Command
+// Combat: SK126 Bash, SK132 Leap, SK133 Double Swing, SK139 Stun, SK140 Double Throw, SK143 Leap Attack, SK144 Concentrate, SK147 Frenzy, SK151 Whirlwind, SK152 Berserk
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK130>2 OR SK131>2 OR SK137>2 OR SK138>2 OR SK142>2 OR SK146>2 OR SK149>2 OR SK150>2 OR SK154>2 OR SK155>2 OR SK126>2 OR SK132>2 OR SK133>2 OR SK139>2 OR SK140>2 OR SK143>2 OR SK144>2 OR SK147>2 OR SK151>2 OR SK152>2) BAR]: %NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK130>2 OR SK131>2 OR SK137>2 OR SK138>2 OR SK142>2 OR SK146>2 OR SK149>2 OR SK150>2 OR SK154>2 OR SK155>2 OR SK126>2 OR SK132>2 OR SK133>2 OR SK139>2 OR SK140>2 OR SK143>2 OR SK144>2 OR SK147>2 OR SK151>2 OR SK152>2) BAR]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK130>2 OR SK131>2 OR SK137>2 OR SK138>2 OR SK142>2 OR SK146>2 OR SK149>2 OR SK150>2 OR SK154>2 OR SK155>2 OR SK126>2 OR SK132>2 OR SK133>2 OR SK139>2 OR SK140>2 OR SK143>2 OR SK144>2 OR SK147>2 OR SK151>2 OR SK152>2) BAR]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK130>2 OR SK131>2 OR SK137>2 OR SK138>2 OR SK142>2 OR SK146>2 OR SK149>2 OR SK150>2 OR SK154>2 OR SK155>2 OR SK126>2 OR SK132>2 OR SK133>2 OR SK139>2 OR SK140>2 OR SK143>2 OR SK144>2 OR SK147>2 OR SK151>2 OR SK152>2) BAR]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 (SK130>2 OR SK131>2 OR SK137>2 OR SK138>2 OR SK142>2 OR SK146>2 OR SK149>2 OR SK150>2 OR SK154>2 OR SK155>2 OR SK126>2 OR SK132>2 OR SK133>2 OR SK139>2 OR SK140>2 OR SK143>2 OR SK144>2 OR SK147>2 OR SK151>2 OR SK152>2) BAR]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 (SK130>2 OR SK131>2 OR SK137>2 OR SK138>2 OR SK142>2 OR SK146>2 OR SK149>2 OR SK150>2 OR SK154>2 OR SK155>2 OR SK126>2 OR SK132>2 OR SK133>2 OR SK139>2 OR SK140>2 OR SK143>2 OR SK144>2 OR SK147>2 OR SK151>2 OR SK152>2) BAR]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
 
 //      Base Druid Pelts
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 DRU]: %NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 DRU]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 DRU]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 DRU]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 DRU]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 DRU]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
+// Ele: SK225 Firestorm, SK229 Molten Boulder, SK230 Arctic Blast, SK234 Fissure, SK235 Cyclone Armor, SK240 Twister, SK244 Volcano, SK245 Tornado, SK250 Hurricane, SK249 Armageddon, SK370 Gust
+// SS: SK223 Werewolf, SK224 Lycanthropy, SK228 Werebear, SK232 Feral Rage, SK233 Maul, SK238 Rabies, SK239 Fire Claws, SK242 Hunger, SK243 Shock Wave, SK248 Fury
+// Summ: SK221 Raven, SK222 Poison Creeper, SK226 Oak Sage, SK227 Summon Spirit Wolf, SK231 Carrion Vine, SK236 Heart of Wolverine, SK237 Summon Dire Wolf, SK241 Solar Creeper, SK246 Spirit of Barbs, SK247 Summon Grizzly
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK225>2 OR SK229>2 OR SK230>2 OR SK234>2 OR SK235>2 OR SK240>2 OR SK244>2 OR SK245>2 OR SK250>2 OR SK249>2 OR SK370>2 OR SK223>2 OR SK224>2 OR SK228>2 OR SK232>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK242>2 OR SK243>2 OR SK248>2 OR SK221>2 OR SK222>2 OR SK226>2 OR SK227>2 OR SK231>2 OR SK236>2 OR SK237>2 OR SK241>2 OR SK246>2 OR SK247>2) DRU]: %NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK225>2 OR SK229>2 OR SK230>2 OR SK234>2 OR SK235>2 OR SK240>2 OR SK244>2 OR SK245>2 OR SK250>2 OR SK249>2 OR SK370>2 OR SK223>2 OR SK224>2 OR SK228>2 OR SK232>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK242>2 OR SK243>2 OR SK248>2 OR SK221>2 OR SK222>2 OR SK226>2 OR SK227>2 OR SK231>2 OR SK236>2 OR SK237>2 OR SK241>2 OR SK246>2 OR SK247>2) DRU]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK225>2 OR SK229>2 OR SK230>2 OR SK234>2 OR SK235>2 OR SK240>2 OR SK244>2 OR SK245>2 OR SK250>2 OR SK249>2 OR SK370>2 OR SK223>2 OR SK224>2 OR SK228>2 OR SK232>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK242>2 OR SK243>2 OR SK248>2 OR SK221>2 OR SK222>2 OR SK226>2 OR SK227>2 OR SK231>2 OR SK236>2 OR SK237>2 OR SK241>2 OR SK246>2 OR SK247>2) DRU]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK225>2 OR SK229>2 OR SK230>2 OR SK234>2 OR SK235>2 OR SK240>2 OR SK244>2 OR SK245>2 OR SK250>2 OR SK249>2 OR SK370>2 OR SK223>2 OR SK224>2 OR SK228>2 OR SK232>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK242>2 OR SK243>2 OR SK248>2 OR SK221>2 OR SK222>2 OR SK226>2 OR SK227>2 OR SK231>2 OR SK236>2 OR SK237>2 OR SK241>2 OR SK246>2 OR SK247>2) DRU]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 (SK225>2 OR SK229>2 OR SK230>2 OR SK234>2 OR SK235>2 OR SK240>2 OR SK244>2 OR SK245>2 OR SK250>2 OR SK249>2 OR SK370>2 OR SK223>2 OR SK224>2 OR SK228>2 OR SK232>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK242>2 OR SK243>2 OR SK248>2 OR SK221>2 OR SK222>2 OR SK226>2 OR SK227>2 OR SK231>2 OR SK236>2 OR SK237>2 OR SK241>2 OR SK246>2 OR SK247>2) DRU]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 (SK225>2 OR SK229>2 OR SK230>2 OR SK234>2 OR SK235>2 OR SK240>2 OR SK244>2 OR SK245>2 OR SK250>2 OR SK249>2 OR SK370>2 OR SK223>2 OR SK224>2 OR SK228>2 OR SK232>2 OR SK233>2 OR SK238>2 OR SK239>2 OR SK242>2 OR SK243>2 OR SK248>2 OR SK221>2 OR SK222>2 OR SK226>2 OR SK227>2 OR SK231>2 OR SK236>2 OR SK237>2 OR SK241>2 OR SK246>2 OR SK247>2) DRU]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
 
 //      Base Paladin Shields
 // Showing resist on item name (eg "Targe [+35]")
@@ -481,67 +486,64 @@ ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Exile
 //      Base Armor
 ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<30 CHEST]: %GRAY%%NAME%%DOT-1E%%CONTINUE% // Show and notify all 2 and 3 socket armors until character level 30
 
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (EXC OR ELT) CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (EXC OR ELT) CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (EXC OR ELT) CHEST]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (EXC OR ELT) CHEST]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 (EXC OR ELT) CHEST]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers
-ItemDisplay[NMAG !INF !RW SOCK=3 (EXC OR ELT) CHEST]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 (EXC OR ELT) CHEST]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (xtp OR ELT) CHEST]: %NAME%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (xtp OR ELT) CHEST]: %NAME%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (xtp OR ELT) CHEST]: %GRAY%%NAME%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (xtp OR ELT) CHEST]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 (xtp OR ELT) CHEST]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers
+ItemDisplay[NMAG !INF !RW SOCK=3 (xtp OR ELT) CHEST]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 (xtp OR ELT) CHEST]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}
 
 //      Base Shields (only Monarch)
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 uit]: %NAME%%DOT-1E%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // Monarch, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 uit]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Monarch, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 uit]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // Monarch, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uit]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Monarch, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 uit]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // Monarch, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 uit]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // Monarch, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 uit]: %NAME%{%TAN%Larzuk for sockets} // Monarch, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 uit]: %GRAY%%NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // Monarch, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uit]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // Monarch, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 uit]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // Monarch, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 uit]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // Monarch, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 uit]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // Monarch, 4os
 
 //      Base Polearms
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ELT POLEARM]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ELT POLEARM]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // Elite tiers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ELT POLEARM]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ELT POLEARM]: %NAME%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT POLEARM]: %GRAY%%NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ELT POLEARM]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 ELT POLEARM]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // Elite tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 ELT POLEARM]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
 
 //      Base Scepters
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (EXC OR ELT) SCEPTER]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (EXC OR ELT) SCEPTER]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (EXC OR ELT) SCEPTER]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (EXC OR ELT) SCEPTER]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
 
 //      Base Spears
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // Elite tiers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %NAME%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // Elite tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
 
-//      Base Throwing Weapons
-ItemDisplay[NMAG !SUP !ETH ELT !SPEAR THROWING !ZON]: %NAME%%DOT-1E% // Elite tier, Non-Superior, Non-Eth
-ItemDisplay[NMAG SUP !ETH ELT !SPEAR THROWING !ZON]: %NAME%%DOT-1E% // Elite tier, Superior, Non-Eth
-ItemDisplay[NMAG !SUP ETH ELT !SPEAR THROWING !ZON]: %NAME%%DOT-1E% // Elite tier, Non-Superior, Eth
-ItemDisplay[NMAG SUP ETH ELT !SPEAR THROWING !ZON]: %NAME%%DOT-1E% // Elite tier, Superior, Eth
-
 //      Base Wands
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 WAND !(wnd OR ywn OR 9wn)]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 WAND !(wnd OR ywn OR 9wn)]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW ETH SOCK=0 WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+// Summ: SK69 Skeleton Mastery, SK70 Raise Skeleton, SK75 Clay Golem, SK79 Golem Mastery, SK80 Skeletal Mage, SK85 Blood Golem, SK90 Iron Golem, SK94 Fire Golem, SK95 Revive, SK367 Blood Warp
+// PnB: SK67 Teeth, SK68 Bone Armor, SK73 Poison Dagger, SK74 Corpse Explosion, SK78 Bone Wall, SK83 Desecrate, SK84 Bone Spear, SK88 Bone Prison, SK92 Poison Nova, SK93 Bone Spirit
+// Curse: SK66 Amplify Damage, SK71 Dim Vision, SK72 Weaken, SK76 Iron Maiden, SK77 Terror, SK81 Confuse, SK82 Life Tap, SK86 Attract, SK87 Decrepify, SK91 Lower Resist, SK374 Curse Mastery, SK381 Dark Pact
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK69>2 OR SK70>2 OR SK75>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK90>2 OR SK94>2 OR SK95>2 OR SK367>2 OR SK67>2 OR SK68>2 OR SK73>2 OR SK74>2 OR SK78>2 OR SK83>2 OR SK84>2 OR SK88>2 OR SK92>2 OR SK93>2 OR SK66>2 OR SK71>2 OR SK72>2 OR SK76>2 OR SK77>2 OR SK81>2 OR SK82>2 OR SK86>2 OR SK87>2 OR SK91>2 OR SK374>2 OR SK381>2) WAND !(wnd OR ywn OR 9wn)]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK69>2 OR SK70>2 OR SK75>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK90>2 OR SK94>2 OR SK95>2 OR SK367>2 OR SK67>2 OR SK68>2 OR SK73>2 OR SK74>2 OR SK78>2 OR SK83>2 OR SK84>2 OR SK88>2 OR SK92>2 OR SK93>2 OR SK66>2 OR SK71>2 OR SK72>2 OR SK76>2 OR SK77>2 OR SK81>2 OR SK82>2 OR SK86>2 OR SK87>2 OR SK91>2 OR SK374>2 OR SK381>2) WAND !(wnd OR ywn OR 9wn)]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 (SK69>2 OR SK70>2 OR SK75>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK90>2 OR SK94>2 OR SK95>2 OR SK367>2 OR SK67>2 OR SK68>2 OR SK73>2 OR SK74>2 OR SK78>2 OR SK83>2 OR SK84>2 OR SK88>2 OR SK92>2 OR SK93>2 OR SK66>2 OR SK71>2 OR SK72>2 OR SK76>2 OR SK77>2 OR SK81>2 OR SK82>2 OR SK86>2 OR SK87>2 OR SK91>2 OR SK374>2 OR SK381>2) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK69>2 OR SK70>2 OR SK75>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK90>2 OR SK94>2 OR SK95>2 OR SK367>2 OR SK67>2 OR SK68>2 OR SK73>2 OR SK74>2 OR SK78>2 OR SK83>2 OR SK84>2 OR SK88>2 OR SK92>2 OR SK93>2 OR SK66>2 OR SK71>2 OR SK72>2 OR SK76>2 OR SK77>2 OR SK81>2 OR SK82>2 OR SK86>2 OR SK87>2 OR SK91>2 OR SK374>2 OR SK381>2) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 (SK69>2 OR SK70>2 OR SK75>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK90>2 OR SK94>2 OR SK95>2 OR SK367>2 OR SK67>2 OR SK68>2 OR SK73>2 OR SK74>2 OR SK78>2 OR SK83>2 OR SK84>2 OR SK88>2 OR SK92>2 OR SK93>2 OR SK66>2 OR SK71>2 OR SK72>2 OR SK76>2 OR SK77>2 OR SK81>2 OR SK82>2 OR SK86>2 OR SK87>2 OR SK91>2 OR SK374>2 OR SK381>2) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //      Hide all other bases
 ItemDisplay[NMAG !RW (NORM OR EXC OR ELT)]: // Hide all other Base items
