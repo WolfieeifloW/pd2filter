@@ -8,6 +8,7 @@
    1. [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
    1. [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
    1. [Basic](https://github.com/WolfieeifloW/pd2filter#basic)
+   1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
 1. [Completely Hidden Items](https://github.com/WolfieeifloW/pd2filter#completely-hidden-items)
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
@@ -49,8 +50,10 @@ CTRL+click the above link for the raw code.
 
 **Select this version if you want a template/base to start from for creating your own filter.** This filters purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
 
-### Wolfie
-**N/A yet.** This version is basically a copy of my own personal filter. Will most likely contain things you don't think are worth it and not contain things you think are worth it. No support will be given for this version.
+### [BTNeandertha1](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/btneandertha1.filter)
+CTRL+click the above link for the raw code.
+
+This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneandertha1). It is a quite strict filter, you can view exactly what it shows and hides [HERE](https://docs.google.com/spreadsheets/d/1RBb95nju8cP_w2AKuGTN3P1UGXqOkWAtn9PtI9dG7eM/edit?usp=sharing). No support will be given for this version.
 
 # Informative Links
 * **Info for Filter:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display>
