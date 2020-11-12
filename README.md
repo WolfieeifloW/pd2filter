@@ -11,6 +11,7 @@
    1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
 1. [Completely Hidden Items](https://github.com/WolfieeifloW/pd2filter#completely-hidden-items)
+1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
 
 # Installation
@@ -83,6 +84,9 @@ The only items fully hidden in my filters (Detailed and Compact, at least) are:
 * White Daggers and Dirks (and Exceptional & Elite versions) pastcertain character levels as they can only have 1 socket (no Runewords)
 * White Javelins past certain character levels (no sockets = no possible Runewords)
 * White throwing weapons past certain character levels (no sockets = no possible Runewords)
+
+# Donations
+I've had several people ask to donate. This is in **no way** required but is in all ways **very much appreciated**. To donate you can use [THIS](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD) link to send me money for my work.
 
 # Disclaimer
 For all versions of the filter I take no responsibility for any items that are accidentally hidden and/or do not notify. I do try my best to test these filters and ensure they are working properly but there's always room for error.
