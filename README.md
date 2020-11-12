@@ -56,6 +56,7 @@ CTRL+click the above link for the raw code.
 This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneandertha1). It is a quite strict filter, you can view exactly what it shows and hides [HERE](https://docs.google.com/spreadsheets/d/1RBb95nju8cP_w2AKuGTN3P1UGXqOkWAtn9PtI9dG7eM/edit?usp=sharing). No support will be given for this version.
 
 # Informative Links
+* **Reddit Thread:** <https://www.reddit.com/r/ProjectDiablo2/comments/jr9c8x/wolfieeiflows_pd2_filters_w_install_instructions/>
 * **Info for Filter:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display>
 * **Color Chart:** <https://raw.githubusercontent.com/planqi/slashdiablo-maphack/master/readme_gfx/color_palette.png>
 * **Info for Notify:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display#marking-items-on-the-map>
