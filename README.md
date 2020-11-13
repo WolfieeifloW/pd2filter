@@ -21,7 +21,7 @@ Ensure you have opened the PD2 Launcher (as Administrator) and clicked Play. Thi
 1. Copy all of the code (press CTRL+A to select all than CTRL+C to copy)
 1. Open your text editor (Notepad, Notepad++, etc) as Administrator (CTRL+click [HERE](https://i.imgur.com/Yy5qyc3.png) for image of how-to)
 1. With your text editor open **default.filter** from your ProjectD2 folder
-   1. Make sure in Notepad you change the drop-down above the Open button to `All Files (*)`
+   1. Make sure in Notepad you change the drop-down above the Open button to `All Files (*)` (CTRL+click [HERE](https://i.imgur.com/yjXlWme.png) for image of how-to)
 1. Paste the code you copied, overwriting everything in there
 1. Go to File -> Save (NOT Save As), overwrite, and then close the file
 1. Open Project Diablo 2
