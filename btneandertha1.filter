@@ -274,7 +274,6 @@ ItemDisplay[MAG rin ILVL=94 CLVL>75]: %NAME% %ORANGE%[C]{%TAN%Craft at char leve
 ItemDisplay[MAG rin ILVL>94 CLVL>73]: %NAME% %ORANGE%[C]{%TAN%Craft at char level 74+}
 
 //      Blood Belts
-ItemDisplay[MAG ILVL>71 mbl]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Belt
 ItemDisplay[MAG ILVL>71 zmb]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Mesh Belt
 ItemDisplay[MAG ILVL>71 umc]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Mithril Coil
 
@@ -284,7 +283,6 @@ ItemDisplay[MAG ILVL>71 xvg]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Nef Rune
 ItemDisplay[MAG ILVL>71 uvg]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Vampirebone Gloves
 
 //      Caster Belts
-ItemDisplay[MAG ILVL>71 vbl]: %NAME% %ORANGE%[C]{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Light Belt
 ItemDisplay[MAG ILVL>71 zvb]: %NAME% %ORANGE%[C]{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Sharkskin Belt
 ItemDisplay[MAG ILVL>71 uvc]: %NAME% %ORANGE%[C]{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Vampirefang Belt
 
@@ -311,9 +309,6 @@ ItemDisplay[MAG !ID DRU]: %NAME% // All Magic Pelts
 //      Magic Armors
 ItemDisplay[MAG !ID (xtp OR ELT) CHEST]: %NAME% // All Exceptional and Elite tier Magic Armors
 
-//      Magic Weapons
-ItemDisplay[MAG !ID WAND]: %NAME% // All Magic Wands
-
 //      Hide all other magics
 ItemDisplay[MAG !ID]: // Hide all other Magic items
 
@@ -334,6 +329,8 @@ ItemDisplay[GOLD<200 CLVL>29]: // Hide 200 gold and less if level 30+
 ItemDisplay[GOLD<300 CLVL>39]: // Hide 300 gold and less if level 40+
 ItemDisplay[GOLD<500 CLVL>49]: // Hide 500 gold and less if level 50+
 ItemDisplay[GOLD<1000 CLVL>59]: // Hide 1000 gold and less if level 60+
+ItemDisplay[GOLD<3000 CLVL>69]: // Hide 5000 gold and less if level 70+
+ItemDisplay[GOLD<5000 CLVL>79]: // Hide 5000 gold and less if level 80+
 
 //      Keys
 ItemDisplay[key]: %GRAY%%NAME%
