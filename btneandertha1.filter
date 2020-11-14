@@ -63,14 +63,14 @@ ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map} // Imbue Ma
 ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 
 // Maps -------------------------------------------------------------------------
-ItemDisplay[t11]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Sewers of Harrogath Map
-ItemDisplay[t12]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Mesa Map
-ItemDisplay[t13]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Palace Map
-ItemDisplay[t14]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Ice Caves Map
-ItemDisplay[t15]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Horazons Memory Map
-ItemDisplay[t16]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Ruins of Viz-jun
-ItemDisplay[t17]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // River of Blood
-ItemDisplay[t18]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Lava Map
+ItemDisplay[t11]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath Map
+ItemDisplay[t12]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Mesa Map
+ItemDisplay[t13]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Palace Map
+ItemDisplay[t14]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ice Caves Map
+ItemDisplay[t15]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazons Memory Map
+ItemDisplay[t16]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun
+ItemDisplay[t17]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood
+ItemDisplay[t18]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Lava Map
 
 // Diablo Clone Items -----------------------------------------------------------
 ItemDisplay[dcma]: %RED%%NAME%%MAP-62%{%TAN%Soul to fight Uber Diablo!%NL%Black Soulstone, & Prime Evil%NL%Cube w/ Pure Demonic Essence,} // Vision of Terror
