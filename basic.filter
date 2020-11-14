@@ -224,7 +224,7 @@ ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+%WHITE% // Full Rejuv Potion
 ItemDisplay[vps DIFF<2]: %WHITE%+%WHITE%Stam // Stamina Potion
 ItemDisplay[vps DIFF>1]: // Hides Stamina Potion after Nightmare difficulty
 ItemDisplay[yps]: %GREEN%+%WHITE%Anti // Antidote Potion
-ItemDisplay[wms DIFF<2]: %BLUE%+%WHITE%Thaw // Thawing Potion
+ItemDisplay[wms DIFF<2]: %YELLOW%+%WHITE%Thaw // Thawing Potion
 ItemDisplay[wms DIFF>1]: // Thawing Potion after Nightmare difficulty
 
 // Throwing Potions - to hide add "//" after the colon  (eg ": //%...")
