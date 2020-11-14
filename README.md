@@ -10,6 +10,7 @@
    1. [Basic](https://github.com/WolfieeifloW/pd2filter#basic)
    1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
+1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
 1. [Completely Hidden Items](https://github.com/WolfieeifloW/pd2filter#completely-hidden-items)
 1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
@@ -66,6 +67,14 @@ This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneande
 * **Automods Info:** <https://www.diabloii.net/forums/threads/the-staffmod-grail.740340/>
 * **Skill Codes:** <https://user.xmission.com/~trevin/DiabloIIv1.09_Skills.html>
 * **PD2 Item & Skill Codes:** <https://docs.google.com/spreadsheets/d/15_JIFA5Wkx3sGQr_scLZz3l6Q8Ig687yUiz8DttaxtI/edit?usp=sharing>
+
+# Common Issues
+These are the common problems that people seem to run into. Please check each of these before asking for help.
+* In-game settings not matching what I have in [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
+* Having two PD2 installations and pasting your filter into the wrong one
+* Saving the filter file with the wrong name, eg **default.filter.filter**, **default.txt**, or **default.filter.txt**
+* Having a PD2 installation inside of a Diablo II folder which is inside another Diablo II folder (folderception!)
+* Not saving and closing the filter file after pasting into it
 
 # Completely Hidden Items
 The only items fully hidden in my filters (Detailed and Compact, at least) are:
