@@ -42,11 +42,11 @@ ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube any 3 organs in Act 5 to open
 // PD2 Items
 ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
 ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Larzuk's Box
-ItemDisplay[rera]: %NAME%{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map}%DOT-80% // Reroll Rare Map (Horadrim Orb)
-ItemDisplay[imra]: %NAME%{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map}%DOT-80% // Imbue Rare Map (Zakarum Orb)
-ItemDisplay[upma]: %NAME%{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map}%DOT-80% // Upgrade Magic Map to Rare Map (Angelic Orb)
-ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map}%DOT-80% // Imbue Magic Map (Arcane Orb)
-ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
+ItemDisplay[rera]: %NAME%{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map} // Reroll Rare Map (Horadrim Orb)
+ItemDisplay[imra]: %NAME%{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map} // Imbue Rare Map (Zakarum Orb)
+ItemDisplay[upma]: %NAME%{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map} // Upgrade Magic Map to Rare Map (Angelic Orb)
+ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map} // Imbue Magic Map (Arcane Orb)
+ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[t11]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Sewers of Harrogath Map
 ItemDisplay[t12]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Mesa Map
 ItemDisplay[t13]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Palace Map
@@ -68,37 +68,37 @@ ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems 
 ItemDisplay[gcv OR gcvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
 ItemDisplay[gfv OR gfvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
 ItemDisplay[gsv OR gsvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
-ItemDisplay[gzv OR gzvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
+ItemDisplay[gzv OR gzvs]: %PURPLE%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
 ItemDisplay[gpv OR gpvs]: %PURPLE%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Caster crafting} // Perfect Amethyst
 ItemDisplay[gcw OR gcws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
 ItemDisplay[gfw OR gfws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
 ItemDisplay[gsw OR gsws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
-ItemDisplay[glw OR glws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
+ItemDisplay[glw OR glws]: %WHITE%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
 ItemDisplay[gpw OR gpws]: %WHITE%+%WHITE%%NAME%%DOT-20% // Perfect Diamond
 ItemDisplay[gcg OR gcgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Chipped Emerald = Flawed Emerald} // Chipped Emerald
 ItemDisplay[gfg OR gfgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
 ItemDisplay[gsg OR gsgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
-ItemDisplay[glg OR glgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
+ItemDisplay[glg OR glgs]: %GREEN%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
 ItemDisplay[gpg OR gpgs]: %GREEN%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
 ItemDisplay[gcr OR gcrs]: %RED%+%WHITE%%NAME%{%TAN%3 Chipped Ruby = Flawed Ruby} // Chipped Ruby
 ItemDisplay[gfr OR gfrs]: %RED%+%WHITE%%NAME%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
 ItemDisplay[gsr OR gsrs]: %RED%+%WHITE%%NAME%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
-ItemDisplay[glr OR glrs]: %RED%+%WHITE%%NAME%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
+ItemDisplay[glr OR glrs]: %RED%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
 ItemDisplay[gpr OR gprs]: %RED%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
 ItemDisplay[gcb OR gcbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Chipped Sapphire = Flawed Sapphire} // Chipped Sapphire
 ItemDisplay[gfb OR gfbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
 ItemDisplay[gsb OR gsbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
-ItemDisplay[glb OR glbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
+ItemDisplay[glb OR glbs]: %BLUE%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
 ItemDisplay[gpb OR gpbs]: %BLUE%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
 ItemDisplay[skc OR skcs]: %GRAY%+%WHITE%%NAME%{%TAN%3 Chipped Skull = Flawed Skull} // Chipped Skull
 ItemDisplay[skf OR skfs]: %GRAY%+%WHITE%%NAME%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
 ItemDisplay[sku OR skus]: %GRAY%+%WHITE%%NAME%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
-ItemDisplay[skl OR skls]: %GRAY%+%WHITE%%NAME%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
+ItemDisplay[skl OR skls]: %GRAY%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
 ItemDisplay[skz OR skzs]: %GRAY%+%WHITE%%NAME%%DOT-20% // Perfect Skull
 ItemDisplay[gcy OR gcys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
 ItemDisplay[gfy OR gfys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
 ItemDisplay[gsy OR gsys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
-ItemDisplay[gly OR glys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
+ItemDisplay[gly OR glys]: %YELLOW%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
 ItemDisplay[gpy OR gpys]: %YELLOW%+%WHITE%%NAME%%DOT-20% // Perfect Topaz
 
 // Runes
@@ -148,7 +148,7 @@ ItemDisplay[MAG (CLSK6>1 AND SK366>2) SIN]: %GREEN%(+5 LS) %BLUE%%NAME% // +2 As
 ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %GREEN%(+5 CLS) %BLUE%%NAME% // +2 Assassin, +3 Chain Lightning Sentry claw
 ItemDisplay[MAG (TABSK48>2 AND SK366>2) SIN]: %GREEN%(+6 LS) %BLUE%%NAME% // +3 Trap, +3 Lightning Sentry claw
 ItemDisplay[MAG (TABSK48>2 AND SK271>2) SIN]: %GREEN%(+6 CLS) %BLUE%%NAME% // +3 Trap, +3 Chain Lightning Sentry claw
-ItemDisplay[MAG TABSK34>2 WEAPON]: %GREEN%(+3 BO) %BLUE%%NAME% // +3 Battle Order weapon
+ItemDisplay[MAG TABSK34>2 WEAPON]: %GREEN%(+3 Warcries) %BLUE%%NAME% // +3 Battle Order weapon
 ItemDisplay[MAG CHSK54>0 STAFF]: %GREEN%(Teleport) %BLUE%%NAME% // Teleport charges
 ItemDisplay[MAG CHSK357>0 STAFF]: %GREEN%(Blink) %BLUE%%NAME% // Blink charges
 ItemDisplay[MAG CHSK66>0 WAND]: %GREEN%(Amp Dmg) %BLUE%%NAME% // Amplify Damage charges
