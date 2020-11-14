@@ -29,7 +29,7 @@ ItemDisplay[qf1]: %NAME%{%TAN%Cube w/ Brain, Eye, & Heart} // Khalim's Flail
 ItemDisplay[qhr]: %NAME%{%TAN%Cube w/ Brain, Eye, & Flail%NL%} // Khalim's Heart
 ItemDisplay[qf2]: %NAME%{%TAN%Hit Compelling Orb in Act 3: Travincal} // Khalim's Will
 ItemDisplay[bbb]: %NAME%{%TAN%Give to Alkor for +5 Stat Points%NL%} // Lam Esen's Tome
-ItemDisplay[mss]: %NAME%{%TAN%Take to the Hellforge in Act 4: River of Flame%NL%} // Mephisto's Soulstone
+ItemDisplay[mss]: %NAME%{%TAN%Act 4: River of Flame%NL%Take to the Hellforge in%NL%} // Mephisto's Soulstone
 ItemDisplay[xyz]: %NAME%{%TAN%Right click for a permanent +20 to Life%NL%} // Potion of Life
 ItemDisplay[g34]: %NAME%{%TAN%Give to Alkor in Act 3%NL%} // The Golden Bird
 ItemDisplay[hfh]: %NAME%{%TAN%Hit Hellforge in Act 4: River of Flame} // Hellforge Hammer
