@@ -232,14 +232,14 @@ ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map} // Purge Ma
 // ------------------------------------------------------------------------------
 // [MAPS] Maps
 // ------------------------------------------------------------------------------
-ItemDisplay[t11]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath Map
-ItemDisplay[t12]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Mesa Map
-ItemDisplay[t13]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Palace Map
-ItemDisplay[t14]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ice Caves Map
-ItemDisplay[t15]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazons Memory Map
-ItemDisplay[t16]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun
-ItemDisplay[t17]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood
-ItemDisplay[t18]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Lava Map
+ItemDisplay[t11]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath Map
+ItemDisplay[t12]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Mesa Map
+ItemDisplay[t13]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Palace Map
+ItemDisplay[t14]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ice Caves Map
+ItemDisplay[t15]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazons Memory Map
+ItemDisplay[t16]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun
+ItemDisplay[t17]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood
+ItemDisplay[t18]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Lava Map
 
 // ------------------------------------------------------------------------------
 // [DCLO] Diablo Clone Items
@@ -264,71 +264,71 @@ ItemDisplay[GEM=2 DIFF>0]: // Hide all Flawed gems past Normal difficulty
 ItemDisplay[GEM=3 DIFF>1]: // Hide all Normal gems past Nightmare difficulty
 //ItemDisplay[GEM=4]: // Hide all Flawless gems
 //ItemDisplay[GEM=5]: // Hide all Perfect gems
-ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems for stacking purposes
+//ItemDisplay[GEM>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // [Not working right now as I'm not using %NAME% in the gems] Shows the quantity of gems for stacking purposes
 
 // Below is to show the cube recipes at the bottom of the gem info
 // ------------------------------------------------------------------------------
 // [GEAM] Amethyst
 // ------------------------------------------------------------------------------
-ItemDisplay[gcv OR gcvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
-ItemDisplay[gfv OR gfvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
-ItemDisplay[gsv OR gsvs]: %PURPLE%+%WHITE%%NAME%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
-ItemDisplay[gzv OR gzvs]: %PURPLE%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
-ItemDisplay[gpv OR gpvs]: %PURPLE%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Caster crafting} // Perfect Amethyst
+ItemDisplay[gcv OR gcvs]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst%WHITE%{%TAN%3 Chipped Amethyst = Flawed Amethyst} // Chipped Amethyst
+ItemDisplay[gfv OR gfvs]: %PURPLE%+%WHITE%Flawed %PURPLE%Amethyst%WHITE%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
+ItemDisplay[gsv OR gsvs]: %PURPLE%+%WHITE%%PURPLE%Amethyst%WHITE%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
+ItemDisplay[gzv OR gzvs]: %PURPLE%+%WHITE%Flawless %PURPLE%Amethyst%WHITE%%DOT-20%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
+ItemDisplay[gpv OR gpvs]: %PURPLE%+%WHITE%Perfect %PURPLE%Amethyst%WHITE%%DOT-20%{%TAN%Used in Caster crafting} // Perfect Amethyst
 
 // ------------------------------------------------------------------------------
 // [GEDI] Diamond
 // ------------------------------------------------------------------------------
-ItemDisplay[gcw OR gcws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
-ItemDisplay[gfw OR gfws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
-ItemDisplay[gsw OR gsws]: %WHITE%+%WHITE%%NAME%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
-ItemDisplay[glw OR glws]: %WHITE%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
-ItemDisplay[gpw OR gpws]: %WHITE%+%WHITE%%NAME%%DOT-20% // Perfect Diamond
+ItemDisplay[gcw OR gcws]: %WHITE%+%WHITE%Chipped %WHITE%Diamond%WHITE%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
+ItemDisplay[gfw OR gfws]: %WHITE%+%WHITE%Flawed %WHITE%Diamond%WHITE%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
+ItemDisplay[gsw OR gsws]: %WHITE%+%WHITE%%WHITE%Diamond%WHITE%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
+ItemDisplay[glw OR glws]: %WHITE%+%WHITE%Flawless %WHITE%Diamond%WHITE%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
+ItemDisplay[gpw OR gpws]: %WHITE%+%WHITE%Perfect %WHITE%Diamond%WHITE%%DOT-20% // Perfect Diamond
 
 // ------------------------------------------------------------------------------
 // [GEEM] Emerald
 // ------------------------------------------------------------------------------
-ItemDisplay[gcg OR gcgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Chipped Emerald = Flawed Emerald} // Chipped Emerald
-ItemDisplay[gfg OR gfgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
-ItemDisplay[gsg OR gsgs]: %GREEN%+%WHITE%%NAME%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
-ItemDisplay[glg OR glgs]: %GREEN%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
-ItemDisplay[gpg OR gpgs]: %GREEN%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
+ItemDisplay[gcg OR gcgs]: %GREEN%+%WHITE%Chipped %GREEN%Emerald%WHITE%{%TAN%3 Chipped Emerald = Flawed Emerald} // Chipped Emerald
+ItemDisplay[gfg OR gfgs]: %GREEN%+%WHITE%Flawed %GREEN%Emerald%WHITE%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
+ItemDisplay[gsg OR gsgs]: %GREEN%+%WHITE%%GREEN%Emerald%WHITE%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
+ItemDisplay[glg OR glgs]: %GREEN%+%WHITE%Flawless %GREEN%Emerald%WHITE%%DOT-20%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
+ItemDisplay[gpg OR gpgs]: %GREEN%+%WHITE%Perfect %GREEN%Emerald%WHITE%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
 
 // ------------------------------------------------------------------------------
 // [GERU] Ruby
 // ------------------------------------------------------------------------------
-ItemDisplay[gcr OR gcrs]: %RED%+%WHITE%%NAME%{%TAN%3 Chipped Ruby = Flawed Ruby} // Chipped Ruby
-ItemDisplay[gfr OR gfrs]: %RED%+%WHITE%%NAME%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
-ItemDisplay[gsr OR gsrs]: %RED%+%WHITE%%NAME%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
-ItemDisplay[glr OR glrs]: %RED%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
-ItemDisplay[gpr OR gprs]: %RED%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
+ItemDisplay[gcr OR gcrs]: %RED%+%WHITE%Chipped %RED%Ruby%WHITE%{%TAN%3 Chipped Ruby = Flawed Ruby} // Chipped Ruby
+ItemDisplay[gfr OR gfrs]: %RED%+%WHITE%Flawed %RED%Ruby%WHITE%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
+ItemDisplay[gsr OR gsrs]: %RED%+%WHITE%%RED%Ruby%WHITE%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
+ItemDisplay[glr OR glrs]: %RED%+%WHITE%Flawless %RED%Ruby%WHITE%%DOT-20%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
+ItemDisplay[gpr OR gprs]: %RED%+%WHITE%Perfect %RED%Ruby%WHITE%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
 
 // ------------------------------------------------------------------------------
 // [GESA] Sapphire
 // ------------------------------------------------------------------------------
-ItemDisplay[gcb OR gcbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Chipped Sapphire = Flawed Sapphire} // Chipped Sapphire
-ItemDisplay[gfb OR gfbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
-ItemDisplay[gsb OR gsbs]: %BLUE%+%WHITE%%NAME%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
-ItemDisplay[glb OR glbs]: %BLUE%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
-ItemDisplay[gpb OR gpbs]: %BLUE%+%WHITE%%NAME%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
+ItemDisplay[gcb OR gcbs]: %BLUE%+%WHITE%Chipped %BLUE%Sapphire%WHITE%{%TAN%3 Chipped Sapphire = Flawed Sapphire} // Chipped Sapphire
+ItemDisplay[gfb OR gfbs]: %BLUE%+%WHITE%Flawed %BLUE%Sapphire%WHITE%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
+ItemDisplay[gsb OR gsbs]: %BLUE%+%WHITE%%BLUE%Sapphire%WHITE%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
+ItemDisplay[glb OR glbs]: %BLUE%+%WHITE%Flawless %BLUE%Sapphire%WHITE%%DOT-20%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
+ItemDisplay[gpb OR gpbs]: %BLUE%+%WHITE%Perfect %BLUE%Sapphire%WHITE%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
 
 // ------------------------------------------------------------------------------
 // [GESK] Skull
 // ------------------------------------------------------------------------------
-ItemDisplay[skc OR skcs]: %GRAY%+%WHITE%%NAME%{%TAN%3 Chipped Skull = Flawed Skull} // Chipped Skull
-ItemDisplay[skf OR skfs]: %GRAY%+%WHITE%%NAME%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
-ItemDisplay[sku OR skus]: %GRAY%+%WHITE%%NAME%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
-ItemDisplay[skl OR skls]: %GRAY%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
-ItemDisplay[skz OR skzs]: %GRAY%+%WHITE%%NAME%%DOT-20% // Perfect Skull
+ItemDisplay[skc OR skcs]: %GRAY%+%WHITE%Chipped %GRAY%Skull%WHITE%{%TAN%3 Chipped Skull = Flawed Skull} // Chipped Skull
+ItemDisplay[skf OR skfs]: %GRAY%+%WHITE%Flawed %GRAY%Skull%WHITE%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
+ItemDisplay[sku OR skus]: %GRAY%+%WHITE%%GRAY%Skull%WHITE%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
+ItemDisplay[skl OR skls]: %GRAY%+%WHITE%Flawless %GRAY%Skull%WHITE%%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
+ItemDisplay[skz OR skzs]: %GRAY%+%WHITE%Perfect %GRAY%Skull%WHITE%%DOT-20% // Perfect Skull
 
 // ------------------------------------------------------------------------------
 // [GETO] Topaz
 // ------------------------------------------------------------------------------
-ItemDisplay[gcy OR gcys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
-ItemDisplay[gfy OR gfys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
-ItemDisplay[gsy OR gsys]: %YELLOW%+%WHITE%%NAME%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
-ItemDisplay[gly OR glys]: %YELLOW%+%WHITE%%NAME%%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
-ItemDisplay[gpy OR gpys]: %YELLOW%+%WHITE%%NAME%%DOT-20% // Perfect Topaz
+ItemDisplay[gcy OR gcys]: %YELLOW%+%WHITE%Chipped %YELLOW%Topaz%WHITE%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
+ItemDisplay[gfy OR gfys]: %YELLOW%+%WHITE%Flawed %YELLOW%Topaz%WHITE%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
+ItemDisplay[gsy OR gsys]: %YELLOW%+%WHITE%%YELLOW%Topaz%WHITE%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
+ItemDisplay[gly OR glys]: %YELLOW%+%WHITE%Flawless %YELLOW%Topaz%WHITE%%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
+ItemDisplay[gpy OR gpys]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz%WHITE%%DOT-20% // Perfect Topaz
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
