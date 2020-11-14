@@ -59,18 +59,14 @@ This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneande
 
 # Informative Links
 * **Reddit Thread:** <https://www.reddit.com/r/ProjectDiablo2/comments/jr9c8x/wolfieeiflows_pd2_filters_w_install_instructions/>
-
 * **Info for Filter:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display>
-
 * **Color Chart:** <https://raw.githubusercontent.com/planqi/slashdiablo-maphack/master/readme_gfx/color_palette.png>
 * **Info for Notify:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display#marking-items-on-the-map>
 * **More Notify Info:** <https://github.com/planqi/slashdiablo-maphack#release-notes-for-bh-maphack-v18>
-
 * **PD2 Item & Skill Codes:** <https://docs.google.com/spreadsheets/d/15_JIFA5Wkx3sGQr_scLZz3l6Q8Ig687yUiz8DttaxtI/edit?usp=sharing>
 * **Item Codes:** <http://www.gmstemple.com/Diablo2/itemcodes.html>
 * **Skill Codes:** <https://user.xmission.com/~trevin/DiabloIIv1.09_Skills.html>
 * **Automods Info:** <https://www.diabloii.net/forums/threads/the-staffmod-grail.740340/>
-
 * **PD2 Wiki:** <https://projectdiablo2.miraheze.org/wiki/Item_Filtering>
 
 # Common Issues
