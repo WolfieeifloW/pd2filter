@@ -13560,7 +13560,7 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 // Wands with Necromancer Skills
 // I have not broken these down into Normal vs Exceptional vs Elite as any Wand is fine
 //      +3 Amplify Damage
-//ItemDisplay[NMAG !INF !RW SK66>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK66>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK66>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK66>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK66>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
@@ -13574,7 +13574,7 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK86>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Blood Golem
-//ItemDisplay[NMAG !INF !RW SK85>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK85>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK85>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK85>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK85>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
@@ -13595,14 +13595,14 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK88>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Bone Spear
-//ItemDisplay[NMAG !INF !RW SK84>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK84>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK84>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK84>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK84>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK84>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Bone Spirit
-//ItemDisplay[NMAG !INF !RW SK93>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK93>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK93>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK93>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK93>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
@@ -13616,7 +13616,7 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK78>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Clay Golem
-//ItemDisplay[NMAG !INF !RW SK75>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK75>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK75>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK75>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK75>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
@@ -13637,7 +13637,7 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK74>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Curse Mastery
-//ItemDisplay[NMAG !INF !RW SK374>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK374>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK374>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK374>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK374>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
@@ -13658,21 +13658,21 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK71>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Fire Golem
-//ItemDisplay[NMAG !INF !RW SK94>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK94>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK94>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK94>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK94>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK94>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Golem Mastery
-//ItemDisplay[NMAG !INF !RW SK79>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK79>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK79>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK79>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK79>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK79>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Iron Golem
-//ItemDisplay[NMAG !INF !RW SK90>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK90>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK90>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK90>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK90>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
@@ -13693,7 +13693,7 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK82>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Lower Resist
-//ItemDisplay[NMAG !INF !RW SK91>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK91>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK91>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK91>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK91>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
@@ -13707,42 +13707,42 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK73>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Poison Explosion
-//ItemDisplay[NMAG !INF !RW SK83>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK83>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK83>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK83>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK83>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK83>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Poison Nova
-//ItemDisplay[NMAG !INF !RW SK92>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK92>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK92>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK92>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK92>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK92>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Raise Skeletal Mage
-//ItemDisplay[NMAG !INF !RW SK80>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK80>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK80>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK80>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK80>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK80>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Raise Skeleton
-//ItemDisplay[NMAG !INF !RW SK70>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK70>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK70>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK70>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK70>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK70>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Revive
-//ItemDisplay[NMAG !INF !RW SK95>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK95>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK95>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK95>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK95>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK95>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Skeleton Mastery
-//ItemDisplay[NMAG !INF !RW SK69>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK69>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK69>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK69>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK69>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
@@ -13756,7 +13756,7 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK89>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Teeth
-//ItemDisplay[NMAG !INF !RW SK67>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+ItemDisplay[NMAG !INF !RW SK67>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK67>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK67>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK67>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
