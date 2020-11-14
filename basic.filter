@@ -59,15 +59,15 @@ ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68% // Diablo's Horn
 ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68% // Mephisto's Brain
 
 // Corruption Items
-ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%MAP-62% // Worldstone Shard
-ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%MAP-62% // Larzuk's Box
+ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
+ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Larzuk's Box
 
 // Map Items
-ItemDisplay[rera]: %NAME%%DOT-80% // Reroll Rare Map (Horadrim Orb)
-ItemDisplay[imra]: %NAME%%DOT-80% // Imbue Rare Map (Zakarum Orb)
-ItemDisplay[upma]: %NAME%%DOT-80% // Upgrade Magic Map to Rare Map (Angelic Orb)
-ItemDisplay[imma]: %NAME%%DOT-80% // Imbue Magic Map (Arcane Orb)
-ItemDisplay[scou]: %NAME%%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
+ItemDisplay[rera]: %NAME% // Reroll Rare Map (Horadrim Orb)
+ItemDisplay[imra]: %NAME% // Imbue Rare Map (Zakarum Orb)
+ItemDisplay[upma]: %NAME% // Upgrade Magic Map to Rare Map (Angelic Orb)
+ItemDisplay[imma]: %NAME% // Imbue Magic Map (Arcane Orb)
+ItemDisplay[scou]: %NAME% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 
 // Maps
 ItemDisplay[t11]: %RED%%NAME%%MAP-87% // Map
@@ -86,9 +86,9 @@ ItemDisplay[dcho]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Black So
 ItemDisplay[dcso]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Prime Evil Soul
 
 // Gems
-ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when above X character level
-ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when above X character level
-ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when above X character level
+ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
+ItemDisplay[GEM=2 DIFF>0]: // Hide all Flawed gems past Normal difficulty
+ItemDisplay[GEM=3 DIFF>1]: // Hide all Normal gems past Nightmare difficulty
 ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems for stacking purposes
 ItemDisplay[gcv OR gcvs]: %PURPLE%+%WHITE%%NAME% // Chipped Amethyst
 ItemDisplay[gfv OR gfvs]: %PURPLE%+%WHITE%%NAME% // Flawed Amethyst
@@ -127,9 +127,9 @@ ItemDisplay[gly OR glys]: %YELLOW%+%WHITE%%NAME% // Flawless Topaz
 ItemDisplay[gpy OR gpys]: %YELLOW%+%WHITE%%NAME%%DOT-20% // Perfect Topaz
 
 // Runes
-ItemDisplay[RUNE<11]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
-ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
-ItemDisplay[RUNE>23]: %RED%%NAME% (%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% %DARK_GREEN%(%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
+ItemDisplay[RUNE>10 RUNE<24]: %ORANGE%%RUNENAME% %ORANGE%(%RUNENUM%)%MAP-0B%%CONTINUE% // Amn-Mal
+ItemDisplay[RUNE>23]: %RED%%RUNENAME% %RED%(%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
 ItemDisplay[RUNE>0]: %NAME%
 
@@ -143,14 +143,14 @@ ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's
 ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
 ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
 // Uncomment (remove // at the start of the line) to display item level on items
-//ItemDisplay[!ETH SOCK=0]: %NAME% [i%ILVL%]%CONTINUE% // Add ilvl to the end of items' names (eg "Quilted Armor [i99]")
-//ItemDisplay[!RW (ETH OR SOCK>0)]: %NAME%[i%ILVL%]%CONTINUE% // No space between ilvl and other displays if item is eth (eg "Quilted Armor [Eth][2][i99]")
+//ItemDisplay[!ETH SOCK=0 (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME% [i%ILVL%]%CONTINUE% // Add ilvl to the end of items' names (eg "Quilted Armor [i99]")
+//ItemDisplay[!RW (ETH OR SOCK>0) (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME%[i%ILVL%]%CONTINUE% // No space between ilvl and other displays if item is eth (eg "Quilted Armor [Eth][2][i99]")
 
 // Unique Items
-ItemDisplay[UNI !ID]: %NAME%%MAP-84% // This will show and notify for ALL unique items
+ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items
 
 // Set Items
-ItemDisplay[SET !ID]: %NAME%%MAP-84% // This will show and notify for ALL set items
+ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 
 // Rare Items
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
@@ -158,22 +158,22 @@ ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
 
 // Crafted Items
 // Crafted Amulets
-ItemDisplay[MAG amu ILVL=88 CLVL>91]: %NAME%%DOT-97%{%TAN%Craft at char level 92+}
-ItemDisplay[MAG amu ILVL=89 CLVL>91]: %NAME%%DOT-97%{%TAN%Craft at char level 92+}
-ItemDisplay[MAG amu ILVL=90 CLVL>89]: %NAME%%DOT-97%{%TAN%Craft at char level 90+}
-ItemDisplay[MAG amu ILVL=91 CLVL>89]: %NAME%%DOT-97%{%TAN%Craft at char level 90+}
-ItemDisplay[MAG amu ILVL=92 CLVL>71]: %NAME%%DOT-97%{%TAN%Craft at char level 88+}
-ItemDisplay[MAG amu ILVL=93 CLVL>71]: %NAME%%DOT-97%{%TAN%Craft at char level 88+}
-ItemDisplay[MAG amu ILVL=94 CLVL>85]: %NAME%%DOT-97%{%TAN%Craft at char level 86+}
-ItemDisplay[MAG amu ILVL=95 CLVL>85]: %NAME%%DOT-97%{%TAN%Craft at char level 86+}
-ItemDisplay[MAG amu ILVL=96 CLVL>83]: %NAME%%DOT-97%{%TAN%Craft at char level 84+}
-ItemDisplay[MAG amu ILVL=97 CLVL>83]: %NAME%%DOT-97%{%TAN%Craft at char level 84+}
-ItemDisplay[MAG amu ILVL=98 CLVL>81]: %NAME%%DOT-97%{%TAN%Craft at char level 82+}
-ItemDisplay[MAG amu ILVL=99 CLVL>81]: %NAME%%DOT-97%{%TAN%Craft at char level 82+}
+ItemDisplay[MAG amu ILVL=88 CLVL>91]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=89 CLVL>91]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=90 CLVL>89]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=91 CLVL>89]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=92 CLVL>71]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=93 CLVL>71]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=94 CLVL>85]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=95 CLVL>85]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=96 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=97 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=98 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=99 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%
 
 // Magic Items
 // Amulets
-ItemDisplay[MAG !ID amu]: %NAME%%MAP-97% // All unidentified amulets
+ItemDisplay[MAG !ID amu]: %NAME%%DOT-97% // All unidentified amulets
 
 // Charms
 ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
@@ -189,9 +189,11 @@ ItemDisplay[GOLD<200 CLVL>29]: // Hide 200 gold and less if level 30+
 ItemDisplay[GOLD<300 CLVL>39]: // Hide 300 gold and less if level 40+
 ItemDisplay[GOLD<500 CLVL>49]: // Hide 500 gold and less if level 50+
 ItemDisplay[GOLD<1000 CLVL>59]: // Hide 1000 gold and less if level 60+
+ItemDisplay[GOLD<3000 CLVL>69]: // Hide 3000 gold and less if level 70+
+ItemDisplay[GOLD<5000 CLVL>79]: // Hide 5000 gold and less if level 80+
 
 // Keys
-//ItemDisplay[key]: %NAME%%MAP-97% // Consider uncommenting for Lower Kurast Runs
+//ItemDisplay[key]: %NAME%%DOT-97% // Consider uncommenting for Lower Kurast Runs
 
 // Potions
 // Health Potions
@@ -201,8 +203,7 @@ ItemDisplay[hp2 DIFF<1]: %RED%+%WHITE%HP2 // Light Healing Potion
 ItemDisplay[hp2 DIFF>0]: // Hides Light Healing Potions after Normal difficulty
 ItemDisplay[hp3 DIFF<2]: %RED%+%WHITE%HP3 // Healing Potion
 ItemDisplay[hp3 DIFF>1]: // Hides Healing Potions after after Nightmare difficulty
-ItemDisplay[hp4 DIFF<2]: %RED%+%WHITE%HP4 // Greater Healing Potion
-ItemDisplay[hp4 DIFF>1]: // Hides Greater Healing Potion after Nightmare difficulty
+ItemDisplay[hp4]: %RED%+%WHITE%HP4 // Greater Healing Potion
 ItemDisplay[hp5]: %RED%+%WHITE%HP5 // Super Healing Potion
 
 // Mana Potions
@@ -212,8 +213,7 @@ ItemDisplay[mp2 DIFF<1]: %BLUE%+%WHITE%MP2 // Light Mana Potion
 ItemDisplay[mp2 DIFF>0]: // Hides Light Mana Potions after Normal difficulty
 ItemDisplay[mp3 DIFF<2]: %BLUE%+%WHITE%MP3 // Mana Potion
 ItemDisplay[mp3 DIFF>1]: // Hides Mana Potions after after Nightmare difficulty
-ItemDisplay[mp4 DIFF<2]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
-ItemDisplay[mp4 DIFF>1]: // Hides Greater Mana Potion after Nightmare difficulty
+ItemDisplay[mp4]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
 ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 
 // Rejuv Potions
@@ -223,8 +223,7 @@ ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+%WHITE% // Full Rejuv Potion
 // Drinkable Potions - to hide add "//" after the colon  (eg ": //%...")
 ItemDisplay[vps DIFF<2]: %WHITE%+%WHITE%Stam // Stamina Potion
 ItemDisplay[vps DIFF>1]: // Hides Stamina Potion after Nightmare difficulty
-ItemDisplay[yps DIFF<2]: %GREEN%+%WHITE%Anti // Antidote Potion
-ItemDisplay[yps DIFF>1]: // Antidote Potion after Nightmare difficulty
+ItemDisplay[yps]: %GREEN%+%WHITE%Anti // Antidote Potion
 ItemDisplay[wms DIFF<2]: %BLUE%+%WHITE%Thaw // Thawing Potion
 ItemDisplay[wms DIFF>1]: // Thawing Potion after Nightmare difficulty
 
@@ -243,12 +242,12 @@ ItemDisplay[ops DIFF<1]: %ORANGE%+%WHITE%Oil // Oil Potion
 ItemDisplay[ops DIFF>0]: // Oil Potion after Normal difficulty
 
 // Scrolls & Tomes
-ItemDisplay[isc DIFF<1]: ID%RED%+%WHITE% // Scroll of Identify
+ItemDisplay[isc DIFF<1]: ID%RED%!%WHITE% // Scroll of Identify
 ItemDisplay[isc DIFF>0]: // Hides Scroll of Identify after Normal difficulty
-ItemDisplay[tsc DIFF<1]: TP%BLUE%+%WHITE% // Scroll of Town Portal
+ItemDisplay[tsc DIFF<1]: TP%BLUE%!%WHITE% // Scroll of Town Portal
 ItemDisplay[tsc DIFF>0]: // Hides Scroll of Town Portal after Normal difficulty
-ItemDisplay[ibk]: %RED%+%WHITE%ID%RED%+%WHITE% // Tome of Identify
-ItemDisplay[tbk]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
+ItemDisplay[ibk]: %RED%!%WHITE%ID%RED%!%WHITE% // Tome of Identify
+ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 
 // Base Items
 // I've given just one example here to get you started

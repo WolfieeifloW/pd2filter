@@ -38,23 +38,6 @@
 //
 // +----------------------------------------------------------------------------+
 // |                                                                            |
-// |     TO-DO LIST                                                             |
-// |                                                                            |
-// +----------------------------------------------------------------------------+
-// - Item code for "Imbue Random Rarity (Demonic Cube)"?
-// - Check QTY for:
-//      [✓] Gems
-//      [✓] Runes
-//      [] Map reagents
-//      [] Worldstone Shards
-//      [] Uber Keys
-//      [] Token essences
-//      [] Organs
-// - Fix "WAITING ON CURSE MASTERY SKILL ID (??)" lines
-// - Need Lightning Sentry skill ID
-//
-// +----------------------------------------------------------------------------+
-// |                                                                            |
 // |     TABLE OF CONTENTS                                                      |
 // |                                                                            |
 // +----------------------------------------------------------------------------+
@@ -234,8 +217,8 @@ ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube any 3 organs in Act 5 to open
 // ------------------------------------------------------------------------------
 // [CORR] Corruption Items
 // ------------------------------------------------------------------------------
-ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%MAP-62% // Worldstone Shard
-ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%MAP-62% // Larzuk's Box
+ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
+ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Larzuk's Box
 
 // ------------------------------------------------------------------------------
 // [MAPI] Map Items
@@ -244,17 +227,16 @@ ItemDisplay[rera]: %NAME%{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare
 ItemDisplay[imra]: %NAME%{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map}%DOT-80% // Imbue Rare Map (Zakarum Orb)
 ItemDisplay[upma]: %NAME%{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map}%DOT-80% // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map}%DOT-80% // Imbue Magic Map (Arcane Orb)
-//ItemDisplay[???]: %NAME%{%TAN%Cube w/ Jewel & White Map}%DOT-80% // Imbue Random Rarity (Demonic Cube)
 ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map}%DOT-80% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 
 // ------------------------------------------------------------------------------
 // [MAPS] Maps
 // ------------------------------------------------------------------------------
-ItemDisplay[t11]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
-ItemDisplay[t12]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
-ItemDisplay[t13]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
-ItemDisplay[t14]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
-ItemDisplay[t15]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Map
+ItemDisplay[t11]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Sewers of Harrogath Map
+ItemDisplay[t12]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Mesa Map
+ItemDisplay[t13]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Palace Map
+ItemDisplay[t14]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Ice Caves Map
+ItemDisplay[t15]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Horazons Memory Map
 ItemDisplay[t16]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Ruins of Viz-jun
 ItemDisplay[t17]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // River of Blood
 ItemDisplay[t18]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires level 75} // Lava Map
@@ -262,10 +244,10 @@ ItemDisplay[t18]: %RED%%NAME%%MAP-62%{%TAN%Right-click in Act 5 town%NL%Requires
 // ------------------------------------------------------------------------------
 // [DCLO] Diablo Clone Items
 // ------------------------------------------------------------------------------
-ItemDisplay[dcma]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Vision of Terror
-ItemDisplay[dcbl]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Pure Demonic Essence
-ItemDisplay[dcho]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Black Soulstone
-ItemDisplay[dcso]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Prime Evil Soul
+ItemDisplay[dcma]: %RED%%NAME%%MAP-62%{%TAN%Soul to fight Uber Diablo!%NL%Black Soulstone, & Prime Evil%NL%Cube w/ Pure Demonic Essence,} // Vision of Terror
+ItemDisplay[dcbl]: %RED%%NAME%%MAP-62%{%TAN%Evil Soul to fight Uber Diablo!%NL%Black Soulstone, & Prime%NL%Cube w/ Vision of Terror,} // Pure Demonic Essence
+ItemDisplay[dcho]: %RED%%NAME%%MAP-62%{%TAN%Evil Soul to fight Uber Diablo!%NL%Pure Demonic Essence, & Prime%NL%Cube w/ Vision of Terror,} // Black Soulstone
+ItemDisplay[dcso]: %RED%%NAME%%MAP-62%{%TAN%Soulstone to fight Uber Diablo!%NL%Pure Demonic Essence, & Black%NL%Cube w/ Vision of Terror,} // Prime Evil Soul
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -275,13 +257,11 @@ ItemDisplay[dcso]: %RED%%NAME%%MAP-62%{%TAN%For Diablo Clone fight!} // Prime Ev
 // ------------------------------------------------------------------------------
 // [GEMA] Gems Master
 // ------------------------------------------------------------------------------
-// Uncomment a line to hide all tiers of that gem once past a certain character level
-// Change the number after "CLVL>" to whatever character level you want
-// Put a "//" at the start of a line to stop the filter from hiding those gems ever
+// Put a "//" at the start of a line to stop the filter from hiding that gem tier
 // Please note in PD2 lower level gems are not used in rune upgrade recipes anymore
-ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems when above X character level
-ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems when above X character level
-ItemDisplay[GEM=3 CLVL>29]: // Hide all Normal gems when above X character level
+ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
+ItemDisplay[GEM=2 DIFF>0]: // Hide all Flawed gems past Normal difficulty
+ItemDisplay[GEM=3 DIFF>1]: // Hide all Normal gems past Nightmare difficulty
 //ItemDisplay[GEM=4]: // Hide all Flawless gems
 //ItemDisplay[GEM=5]: // Hide all Perfect gems
 ItemDisplay[GEM>0 QTY>1]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of gems for stacking purposes
@@ -427,9 +407,9 @@ ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %GREEN%(+3 Jav 20IAS) %BLUE%%NAME
 ItemDisplay[MAG TABSK2>5 ZON]: %GREEN%(+6 Jav) %BLUE%%NAME% // +6 Javelin Skills Javelin
 
 // Assassin Claws
-//ItemDisplay[MAG (CLSK6>1 AND SK???>2) SIN]: %GREEN%(+5 LS) %BLUE%%NAME% // +2 Assassin, +3 Lightning Sentry claw
+ItemDisplay[MAG (CLSK6>1 AND SK366>2) SIN]: %GREEN%(+5 LS) %BLUE%%NAME% // +2 Assassin, +3 Lightning Sentry claw
 ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %GREEN%(+5 CLS) %BLUE%%NAME% // +2 Assassin, +3 Chain Lightning Sentry claw
-//ItemDisplay[MAG (TABSK48>2 AND SK???>2) SIN]: %GREEN%(+6 LS) %BLUE%%NAME% // +3 Trap, +3 Lightning Sentry claw
+ItemDisplay[MAG (TABSK48>2 AND SK366>2) SIN]: %GREEN%(+6 LS) %BLUE%%NAME% // +3 Trap, +3 Lightning Sentry claw
 ItemDisplay[MAG (TABSK48>2 AND SK271>2) SIN]: %GREEN%(+6 CLS) %BLUE%%NAME% // +3 Trap, +3 Chain Lightning Sentry claw
 
 // Barbarian Weapons
@@ -485,7 +465,7 @@ ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth
 // ------------------------------------------------------------------------------
 // This line shows all unique unid items and will override the Master section at the end
 // If you only want to see all unique items but not be notified than comment out this line and take a look at the Unique Items Master section
-ItemDisplay[UNI !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL unique items
+ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items
 
 // Issue with Amulets, Rings, & Jewels is there's no way to tell what they are until they are identified.
 // You have to either show them all or show none of them.
@@ -1312,14 +1292,14 @@ ItemDisplay[UNI CLVL>59 !ID]: %NAME% // At level 60+, stop notifying for all uni
 ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 
 // These item bases belong to multiple sets, so you cannot know what one they are until identified
-//ItemDisplay[SET !ID amu]: %NAME%%MAP-84% // Angelic, Arcanna, Cathan, Civerb, Iratha, Tal Rasha, Tancred, The Disciple, Vidala Amulets
-//ItemDisplay[SET !ID cap]: %NAME%%MAP-84% // Infernal, Sanders Caps
-//ItemDisplay[SET !ID crn]: %NAME%%MAP-84% // Iratha, Milabrega Crowns
-//ItemDisplay[SET !ID mbl]: %NAME%%MAP-84% // Hsaru, Hwanin Belts
-//ItemDisplay[SET !ID rin]: %NAME%%MAP-84% // Angelic, Bul-Kathos', Cathan Rings
-//ItemDisplay[SET !ID tbl]: %NAME%%MAP-84% // Infernal, Iratha Heavy Belts
-//ItemDisplay[SET !ID tgl]: %NAME%%MAP-84% // Arctic, Iratha Light Gauntlets
-//ItemDisplay[SET !ID vbt]: %NAME%%MAP-84% // Cow King, Sander Heavy Boots
+ItemDisplay[SET !ID amu]: %NAME%%MAP-84% // Angelic, Arcanna, Cathan, Civerb, Iratha, Tal Rasha, Tancred, The Disciple, Vidala Amulets
+ItemDisplay[SET !ID cap]: %NAME%%MAP-84% // Infernal, Sanders Caps
+ItemDisplay[SET !ID crn]: %NAME%%MAP-84% // Iratha, Milabrega Crowns
+ItemDisplay[SET !ID mbl]: %NAME%%MAP-84% // Hsaru, Hwanin Belts
+ItemDisplay[SET !ID rin]: %NAME%%MAP-84% // Angelic, Bul-Kathos', Cathan Rings
+ItemDisplay[SET !ID tbl]: %NAME%%MAP-84% // Infernal, Iratha Heavy Belts
+ItemDisplay[SET !ID tgl]: %NAME%%MAP-84% // Arctic, Iratha Light Gauntlets
+ItemDisplay[SET !ID vbt]: %NAME%%MAP-84% // Cow King, Sander Heavy Boots
 
 // ------------------------------------------------------------------------------
 // [SINS] Normal Sets
@@ -1327,75 +1307,75 @@ ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notif
 // ------------------------------------------------------------------------------
 //    [SIAR] Angelic Raiment
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID rng]: %NAME%%MAP-84% // Angelic Mantle Ring Mail
-//ItemDisplay[SET !ID sbr]: %NAME%%MAP-84% // Angelic Sickle Sabre
+ItemDisplay[SET !ID rng]: %NAME%%MAP-84% // Angelic Mantle Ring Mail
+ItemDisplay[SET !ID sbr]: %NAME%%MAP-84% // Angelic Sickle Sabre
 // Angelic Halo Ring in "Set Multiple" section
 // Angelic Wings Amulet in "Set Multiple" section
 
 // ------------------------------------------------------------------------------
 //    [SIAT] Arcanna's Tricks
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID skp]: %NAME%%MAP-84% // Arcanna's Head Skull Cap
-//ItemDisplay[SET !ID ltp]: %NAME%%MAP-84% // Arcanna's Flesh Light Plate
-//ItemDisplay[SET !ID wst]: %NAME%%MAP-84% // Arcanna's Deathwand War Staff
+ItemDisplay[SET !ID skp]: %NAME%%MAP-84% // Arcanna's Head Skull Cap
+ItemDisplay[SET !ID ltp]: %NAME%%MAP-84% // Arcanna's Flesh Light Plate
+ItemDisplay[SET !ID wst]: %NAME%%MAP-84% // Arcanna's Deathwand War Staff
 // Arcanna's Sign Amulet in "Set Multiple" section
 
 // ------------------------------------------------------------------------------
 //    [SIAG] Arctic Gear
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID qui]: %NAME%%MAP-84% // Arctic Furs Quilted Armor
-//ItemDisplay[SET !ID vbl]: %NAME%%MAP-84% // Arctic Binding Light Belt
+ItemDisplay[SET !ID qui]: %NAME%%MAP-84% // Arctic Furs Quilted Armor
+ItemDisplay[SET !ID vbl]: %NAME%%MAP-84% // Arctic Binding Light Belt
 // Arctic Mitts Light Gauntlets in "Set Multiple" section
-//ItemDisplay[SET !ID swb]: %NAME%%MAP-84% // Arctic Horn Short War Bow
+ItemDisplay[SET !ID swb]: %NAME%%MAP-84% // Arctic Horn Short War Bow
 
 // ------------------------------------------------------------------------------
 //    [SIBA] Berserker's Arsenal
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID hlm]: %NAME%%MAP-84% // Berserker's Headgear Helm
-//ItemDisplay[SET !ID spl]: %NAME%%MAP-84% // Berserker's Hauberk Splint Mail
-//ItemDisplay[SET !ID 2ax]: %NAME%%MAP-84% // Berserker's Hatchet Double Axe
+ItemDisplay[SET !ID hlm]: %NAME%%MAP-84% // Berserker's Headgear Helm
+ItemDisplay[SET !ID spl]: %NAME%%MAP-84% // Berserker's Hauberk Splint Mail
+ItemDisplay[SET !ID 2ax]: %NAME%%MAP-84% // Berserker's Hatchet Double Axe
 
 // ------------------------------------------------------------------------------
 //    [SICT] Cathan's Traps
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID msk]: %NAME%%MAP-84% // Cathan's Visage Mask
-//ItemDisplay[SET !ID chn]: %NAME%%MAP-84% // Cathan's Mesh Chain Mail
-//ItemDisplay[SET !ID bst]: %NAME%%MAP-84% // Cathan's Rule Battle Staff
+ItemDisplay[SET !ID msk]: %NAME%%MAP-84% // Cathan's Visage Mask
+ItemDisplay[SET !ID chn]: %NAME%%MAP-84% // Cathan's Mesh Chain Mail
+ItemDisplay[SET !ID bst]: %NAME%%MAP-84% // Cathan's Rule Battle Staff
 // Cathan's Sigil Amulet in "Set Multiple" section
 // Cathan's Seal Ring in "Set Multiple" section
 
 // ------------------------------------------------------------------------------
 //    [SICV] Civerb's Vestments
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID gsc]: %NAME%%MAP-84% // Civerb's Cudgel Grand Scepter
+ItemDisplay[SET !ID gsc]: %NAME%%MAP-84% // Civerb's Cudgel Grand Scepter
 // Civerb's Icon Amulet in "Set Multiple" section
-//ItemDisplay[SET !ID lrg]: %NAME%%MAP-84% // Civerb's Ward Large Shield
+ItemDisplay[SET !ID lrg]: %NAME%%MAP-84% // Civerb's Ward Large Shield
 
 // ------------------------------------------------------------------------------
 //    [SICB] Cleglaw's Brace
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID lsd]: %NAME%%MAP-84% // Cleglaw's Tooth Long Sword
-//ItemDisplay[SET !ID mgl]: %NAME%%MAP-84% // Cleglaw's Pincers Chain Gloves
-//ItemDisplay[SET !ID sml]: %NAME%%MAP-84% // Cleglaw's Claw Small Shield
+ItemDisplay[SET !ID lsd]: %NAME%%MAP-84% // Cleglaw's Tooth Long Sword
+ItemDisplay[SET !ID mgl]: %NAME%%MAP-84% // Cleglaw's Pincers Chain Gloves
+ItemDisplay[SET !ID sml]: %NAME%%MAP-84% // Cleglaw's Claw Small Shield
 
 // ------------------------------------------------------------------------------
 //    [SIDD] Death's Disguise
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID wsd]: %NAME%%MAP-84% // Death's Touch War Sword
-//ItemDisplay[SET !ID lgl]: %NAME%%MAP-84% // Death's Hand Leather Gloves
-//ItemDisplay[SET !ID lbl]: %NAME%%MAP-84% // Death's Guard Sash
+ItemDisplay[SET !ID wsd]: %NAME%%MAP-84% // Death's Touch War Sword
+ItemDisplay[SET !ID lgl]: %NAME%%MAP-84% // Death's Hand Leather Gloves
+ItemDisplay[SET !ID lbl]: %NAME%%MAP-84% // Death's Guard Sash
 
 // ------------------------------------------------------------------------------
 //    [SIHD] Hsarus' Defense
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID buc]: %NAME%%MAP-84% // Hsarus' Iron Fist Buckler
+ItemDisplay[SET !ID buc]: %NAME%%MAP-84% // Hsarus' Iron Fist Buckler
 // Hsarus' Iron Stay Belt in "Set Multiple" section
-//ItemDisplay[SET !ID mbt]: %NAME%%MAP-84% // Hsarus' Iron Heel Chain Boots
+ItemDisplay[SET !ID mbt]: %NAME%%MAP-84% // Hsarus' Iron Heel Chain Boots
 
 // ------------------------------------------------------------------------------
 //    [SIIT] Infernal Tools
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID dgr]: %NAME%%MAP-84% // Infernal Spine Dagger
+ItemDisplay[SET !ID dgr]: %NAME%%MAP-84% // Infernal Spine Dagger
 // Infernal Sign Heavy Belt in "Set Multiple" section
 // Infernal Cranium Cap in "Set Multiple" section
 
@@ -1410,44 +1390,44 @@ ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notif
 // ------------------------------------------------------------------------------
 //    [SIIA] Isenhart's Armory
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID bsd]: %NAME%%MAP-84% // Isenhart's Lightbrand Broad Sword
-//ItemDisplay[SET !ID fhl]: %NAME%%MAP-84% // Isenhart's Horns Full Helm
-//ItemDisplay[SET !ID brs]: %NAME%%MAP-84% // Isenhart's Case Breast Plate
-//ItemDisplay[SET !ID gts]: %NAME%%MAP-84% // Isenhart's Parry Gothic Shield
+ItemDisplay[SET !ID bsd]: %NAME%%MAP-84% // Isenhart's Lightbrand Broad Sword
+ItemDisplay[SET !ID fhl]: %NAME%%MAP-84% // Isenhart's Horns Full Helm
+ItemDisplay[SET !ID brs]: %NAME%%MAP-84% // Isenhart's Case Breast Plate
+ItemDisplay[SET !ID gts]: %NAME%%MAP-84% // Isenhart's Parry Gothic Shield
 
 // ------------------------------------------------------------------------------
 //    [SIMR] Milabrega's Regalia
 // ------------------------------------------------------------------------------
 // Milabrega's Diadem Crown in "Set Multiple" section
-//ItemDisplay[SET !ID aar]: %NAME%%MAP-84% // Milabrega's Robe Ancient Armor
-//ItemDisplay[SET !ID kit]: %NAME%%MAP-84% // Milabrega's Orb Kite Shield
-//ItemDisplay[SET !ID wsp]: %NAME%%MAP-84% // Milabrega's Rod War Scepter
+ItemDisplay[SET !ID aar]: %NAME%%MAP-84% // Milabrega's Robe Ancient Armor
+ItemDisplay[SET !ID kit]: %NAME%%MAP-84% // Milabrega's Orb Kite Shield
+ItemDisplay[SET !ID wsp]: %NAME%%MAP-84% // Milabrega's Rod War Scepter
 
 // ------------------------------------------------------------------------------
 //    [SISC] Sigon's Complete Steel
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID ghm]: %NAME%%MAP-84% // Sigon's Visor Great Helm
-//ItemDisplay[SET !ID gth]: %NAME%%MAP-84% // Sigon's Shelter Gothic Plate
-//ItemDisplay[SET !ID hbt]: %NAME%%MAP-84% // Sigon's Sabot Greaves
-//ItemDisplay[SET !ID tow]: %NAME%%MAP-84% // Sigon's Guard Tower Shield
-//ItemDisplay[SET !ID hbl]: %NAME%%MAP-84% // Sigon's Wrap Plated Belt
-//ItemDisplay[SET !ID hgl]: %NAME%%MAP-84% // Sigon's Gage Gauntlets
+ItemDisplay[SET !ID ghm]: %NAME%%MAP-84% // Sigon's Visor Great Helm
+ItemDisplay[SET !ID gth]: %NAME%%MAP-84% // Sigon's Shelter Gothic Plate
+ItemDisplay[SET !ID hbt]: %NAME%%MAP-84% // Sigon's Sabot Greaves
+ItemDisplay[SET !ID tow]: %NAME%%MAP-84% // Sigon's Guard Tower Shield
+ItemDisplay[SET !ID hbl]: %NAME%%MAP-84% // Sigon's Wrap Plated Belt
+ItemDisplay[SET !ID hgl]: %NAME%%MAP-84% // Sigon's Gage Gauntlets
 
 // ------------------------------------------------------------------------------
 //    [SITB] Tancred's Battlegear
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID bhm]: %NAME%%MAP-84% // Tancred's Skull Bone Helm
-//ItemDisplay[SET !ID ful]: %NAME%%MAP-84% // Tancred's Spine Full Plate Mail
-//ItemDisplay[SET !ID lbt]: %NAME%%MAP-84% // Tancred's Hobnails Boots
-//ItemDisplay[SET !ID mpi]: %NAME%%MAP-84% // Tancred's Crowbill Military Pick
+ItemDisplay[SET !ID bhm]: %NAME%%MAP-84% // Tancred's Skull Bone Helm
+ItemDisplay[SET !ID ful]: %NAME%%MAP-84% // Tancred's Spine Full Plate Mail
+ItemDisplay[SET !ID lbt]: %NAME%%MAP-84% // Tancred's Hobnails Boots
+ItemDisplay[SET !ID mpi]: %NAME%%MAP-84% // Tancred's Crowbill Military Pick
 //Tancred's Weird  Amulet in "Set Multiple" section
 
 // ------------------------------------------------------------------------------
 //    [SIVR] Vidala's Rig
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID lbb]: %NAME%%MAP-84% // Vidala's Barb Long Battle Bow
-//ItemDisplay[SET !ID lea]: %NAME%%MAP-84% // Vidala's Ambush Leather Armor
-//ItemDisplay[SET !ID tbt]: %NAME%%MAP-84% // Vidala's Fetlock Light Plated Boots
+ItemDisplay[SET !ID lbb]: %NAME%%MAP-84% // Vidala's Barb Long Battle Bow
+ItemDisplay[SET !ID lea]: %NAME%%MAP-84% // Vidala's Ambush Leather Armor
+ItemDisplay[SET !ID tbt]: %NAME%%MAP-84% // Vidala's Fetlock Light Plated Boots
 //Vidala's Snare Amulet in "Set Multiple" section
 
 // ------------------------------------------------------------------------------
@@ -1456,132 +1436,132 @@ ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notif
 // ------------------------------------------------------------------------------
 //    [SIAW] Aldur's Watchtower
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID dr8]: %NAME%%MAP-84% // Aldur's Stony Gaze Hunter's Guise
-//ItemDisplay[SET !ID xtb]: %NAME%%MAP-84% // Aldur's Advance Battle Boots
-//ItemDisplay[SET !ID uul]: %NAME%%MAP-84% // Aldur's Deception Shadow Plate
-//ItemDisplay[SET !ID 9mt]: %NAME%%MAP-84% // Aldur's Rhythm Jagged Star
+ItemDisplay[SET !ID dr8]: %NAME%%MAP-84% // Aldur's Stony Gaze Hunter's Guise
+ItemDisplay[SET !ID xtb]: %NAME%%MAP-84% // Aldur's Advance Battle Boots
+ItemDisplay[SET !ID uul]: %NAME%%MAP-84% // Aldur's Deception Shadow Plate
+ItemDisplay[SET !ID 9mt]: %NAME%%MAP-84% // Aldur's Rhythm Jagged Star
 
 // ------------------------------------------------------------------------------
 //    [SIBK] Bul-Kathos' Children
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID 7gd]: %NAME%%MAP-84% // Bul-Kathos' Sacred Charge Colossus Blade
-//ItemDisplay[SET !ID 7wd]: %NAME%%MAP-84% // Bul-Kathos' Tribal Guardian Mythical Sword
+ItemDisplay[SET !ID 7gd]: %NAME%%MAP-84% // Bul-Kathos' Sacred Charge Colossus Blade
+ItemDisplay[SET !ID 7wd]: %NAME%%MAP-84% // Bul-Kathos' Tribal Guardian Mythical Sword
 // Bul'Kathos Death Band Ring in "Set Multiple" section
 
 // ------------------------------------------------------------------------------
 //    [SICK] Cow King's Leathers
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID xap]: %NAME%%MAP-84% // Cow King's Horns War Hat
-//ItemDisplay[SET !ID stu]: %NAME%%MAP-84% // Cow King's Hide Studded Leather
+ItemDisplay[SET !ID xap]: %NAME%%MAP-84% // Cow King's Horns War Hat
+ItemDisplay[SET !ID stu]: %NAME%%MAP-84% // Cow King's Hide Studded Leather
 // Cow King's Hooves Heavy Boots in "Set Multiple" section
 
 // ------------------------------------------------------------------------------
 //    [SITD] The Disciple
 // ------------------------------------------------------------------------------
 // Telling of Beads Amulet in "Set Multiple" section
-//ItemDisplay[SET !ID ulg]: %NAME%%MAP-84% // Laying of Hands Bramble Mitts
-//ItemDisplay[SET !ID uui]: %NAME%%MAP-84% // Dark Adherent Dusk Shroud
-//ItemDisplay[SET !ID xlb]: %NAME%%MAP-84% // Rite of Passage Demonhide Boots
-//ItemDisplay[SET !ID umc]: %NAME%%MAP-84% // Credendum Mithril Coil
+ItemDisplay[SET !ID ulg]: %NAME%%MAP-84% // Laying of Hands Bramble Mitts
+ItemDisplay[SET !ID uui]: %NAME%%MAP-84% // Dark Adherent Dusk Shroud
+ItemDisplay[SET !ID xlb]: %NAME%%MAP-84% // Rite of Passage Demonhide Boots
+ItemDisplay[SET !ID umc]: %NAME%%MAP-84% // Credendum Mithril Coil
 
 // ------------------------------------------------------------------------------
 //    [SIGL] Griswold's Legacy
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID xar]: %NAME%%MAP-84% // Griswold's Heart Ornate Plate
-//ItemDisplay[SET !ID urn]: %NAME%%MAP-84% // Griswold's Valor Corona
-//ItemDisplay[SET !ID 7ws]: %NAME%%MAP-84% // Griswold's Redemption Caduceus
-//ItemDisplay[SET !ID paf]: %NAME%%MAP-84% // Griswold's Honor Vortex Shield
+ItemDisplay[SET !ID xar]: %NAME%%MAP-84% // Griswold's Heart Ornate Plate
+ItemDisplay[SET !ID urn]: %NAME%%MAP-84% // Griswold's Valor Corona
+ItemDisplay[SET !ID 7ws]: %NAME%%MAP-84% // Griswold's Redemption Caduceus
+ItemDisplay[SET !ID paf]: %NAME%%MAP-84% // Griswold's Honor Vortex Shield
 
 // ------------------------------------------------------------------------------
 //    [SIHB] Heaven's Brethren
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID xrs]: %NAME%%MAP-84% // Haemosu's Adament Cuirass
-//ItemDisplay[SET !ID 7ma]: %NAME%%MAP-84% // Dangoon's Teaching Reinforced Mace
-//ItemDisplay[SET !ID uts]: %NAME%%MAP-84% // Taebaek's Glory Ward
-//ItemDisplay[SET !ID uhm]: %NAME%%MAP-84% // Ondal's Almighty Spired Helm
+ItemDisplay[SET !ID xrs]: %NAME%%MAP-84% // Haemosu's Adament Cuirass
+ItemDisplay[SET !ID 7ma]: %NAME%%MAP-84% // Dangoon's Teaching Reinforced Mace
+ItemDisplay[SET !ID uts]: %NAME%%MAP-84% // Taebaek's Glory Ward
+ItemDisplay[SET !ID uhm]: %NAME%%MAP-84% // Ondal's Almighty Spired Helm
 
 // ------------------------------------------------------------------------------
 //    [SIHM] Hwanin's Majesty
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID xrn]: %NAME%%MAP-84% // Hwanin's Splendor Grand Crown
-//ItemDisplay[SET !ID 9vo]: %NAME%%MAP-84% // Hwanin's Justice Bill
-//ItemDisplay[SET !ID xcl]: %NAME%%MAP-84% // Hwanin's Refuge Tigulated Mail
+ItemDisplay[SET !ID xrn]: %NAME%%MAP-84% // Hwanin's Splendor Grand Crown
+ItemDisplay[SET !ID 9vo]: %NAME%%MAP-84% // Hwanin's Justice Bill
+ItemDisplay[SET !ID xcl]: %NAME%%MAP-84% // Hwanin's Refuge Tigulated Mail
 // Hwanin's Blessing Belt in "Set Multiple" section
 
 // ------------------------------------------------------------------------------
 //    [SIIK] Immortal King
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID ba5]: %NAME%%MAP-84% // Immortal King's Will Avenger Guard
-//ItemDisplay[SET !ID 7m7]: %NAME%%MAP-84% // Immortal King's Stone Crusher Ogre Maul
-//ItemDisplay[SET !ID uar]: %NAME%%MAP-84% // Immortal King's Soul Cage Sacred Armor
-//ItemDisplay[SET !ID zhb]: %NAME%%MAP-84% // Immortal King's Detail War Belt
-//ItemDisplay[SET !ID xhg]: %NAME%%MAP-84% // Immortal King's Forge War Gauntlets
-//ItemDisplay[SET !ID xhb]: %NAME%%MAP-84% // Immortal King's Pillar War Boots
+ItemDisplay[SET !ID ba5]: %NAME%%MAP-84% // Immortal King's Will Avenger Guard
+ItemDisplay[SET !ID 7m7]: %NAME%%MAP-84% // Immortal King's Stone Crusher Ogre Maul
+ItemDisplay[SET !ID uar]: %NAME%%MAP-84% // Immortal King's Soul Cage Sacred Armor
+ItemDisplay[SET !ID zhb]: %NAME%%MAP-84% // Immortal King's Detail War Belt
+ItemDisplay[SET !ID xhg]: %NAME%%MAP-84% // Immortal King's Forge War Gauntlets
+ItemDisplay[SET !ID xhb]: %NAME%%MAP-84% // Immortal King's Pillar War Boots
 
 // ------------------------------------------------------------------------------
 //    [SIMB] M'avina's Battle Hymn
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID ci3]: %NAME%%MAP-84% // M'avina's True Sight Diadem
-//ItemDisplay[SET !ID amc]: %NAME%%MAP-84% // M'avina's Caster Grand Matron Bow
-//ItemDisplay[SET !ID uld]: %NAME%%MAP-84% // M'avina's Embrace Kraken Shell
-//ItemDisplay[SET !ID xtg]: %NAME%%MAP-84% // M'avina's Icy Clutch Battle Gauntlets
-//ItemDisplay[SET !ID zvb]: %NAME%%MAP-84% // M'avina's Tenet Sharkskin Belt
+ItemDisplay[SET !ID ci3]: %NAME%%MAP-84% // M'avina's True Sight Diadem
+ItemDisplay[SET !ID amc]: %NAME%%MAP-84% // M'avina's Caster Grand Matron Bow
+ItemDisplay[SET !ID uld]: %NAME%%MAP-84% // M'avina's Embrace Kraken Shell
+ItemDisplay[SET !ID xtg]: %NAME%%MAP-84% // M'avina's Icy Clutch Battle Gauntlets
+ItemDisplay[SET !ID zvb]: %NAME%%MAP-84% // M'avina's Tenet Sharkskin Belt
 
 // ------------------------------------------------------------------------------
 //    [SINO] Natalya's Odium
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID xh9]: %NAME%%MAP-84% // Natalya's Totem Grim Helm
-//ItemDisplay[SET !ID 7qr]: %NAME%%MAP-84% // Natalya's Mark Scissors Suwayyah
-//ItemDisplay[SET !ID ucl]: %NAME%%MAP-84% // Natalya's Shadow Loricated Mail
-//ItemDisplay[SET !ID xmb]: %NAME%%MAP-84% // Natalya's Soul Mesh Boots
+ItemDisplay[SET !ID xh9]: %NAME%%MAP-84% // Natalya's Totem Grim Helm
+ItemDisplay[SET !ID 7qr]: %NAME%%MAP-84% // Natalya's Mark Scissors Suwayyah
+ItemDisplay[SET !ID ucl]: %NAME%%MAP-84% // Natalya's Shadow Loricated Mail
+ItemDisplay[SET !ID xmb]: %NAME%%MAP-84% // Natalya's Soul Mesh Boots
 
 // ------------------------------------------------------------------------------
 //    [SINA] Naj's Ancient Vestige
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID ci0]: %NAME%%MAP-84% // Naj's Circlet Circlet
-//ItemDisplay[SET !ID ult]: %NAME%%MAP-84% // Naj's Light Plate Hellforge Plate
-//ItemDisplay[SET !ID 6cs]: %NAME%%MAP-84% // Naj's Puzzler Elder Staff
+ItemDisplay[SET !ID ci0]: %NAME%%MAP-84% // Naj's Circlet Circlet
+ItemDisplay[SET !ID ult]: %NAME%%MAP-84% // Naj's Light Plate Hellforge Plate
+ItemDisplay[SET !ID 6cs]: %NAME%%MAP-84% // Naj's Puzzler Elder Staff
 
 // ------------------------------------------------------------------------------
 //    [SIOC] Orphan's Call
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID xhm]: %NAME%%MAP-84% // Guillaume's Face Winged Helm
-//ItemDisplay[SET !ID xml]: %NAME%%MAP-84% // Whitstan's Guard Round Shield
-//ItemDisplay[SET !ID xvg]: %NAME%%MAP-84% // Magnus' Skin Sharkskin Gloves
-//ItemDisplay[SET !ID ztb]: %NAME%%MAP-84% // Wilhelm's Pride Battle Belt
+ItemDisplay[SET !ID xhm]: %NAME%%MAP-84% // Guillaume's Face Winged Helm
+ItemDisplay[SET !ID xml]: %NAME%%MAP-84% // Whitstan's Guard Round Shield
+ItemDisplay[SET !ID xvg]: %NAME%%MAP-84% // Magnus' Skin Sharkskin Gloves
+ItemDisplay[SET !ID ztb]: %NAME%%MAP-84% // Wilhelm's Pride Battle Belt
 
 // ------------------------------------------------------------------------------
 //    [SISF] Sander's Folly
 // ------------------------------------------------------------------------------
 //Sander's Paragon Cap in "Set Multiple" section
-//ItemDisplay[SET !ID bwn]: %NAME%%MAP-84% // Sander's Superstition Bone Wand
-//ItemDisplay[SET !ID vgl]: %NAME%%MAP-84% // Sander's Taboo Heavy Gloves
+ItemDisplay[SET !ID bwn]: %NAME%%MAP-84% // Sander's Superstition Bone Wand
+ItemDisplay[SET !ID vgl]: %NAME%%MAP-84% // Sander's Taboo Heavy Gloves
 //Sander's Riprap Heavy Boots in "Set Multiple" section
 
 // ------------------------------------------------------------------------------
 //    [SISG] Sazabi's Grand Tribute
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID xhl]: %NAME%%MAP-84% // Sazabi's Mental Sheath Basinet
-//ItemDisplay[SET !ID 7ls]: %NAME%%MAP-84% // Sazabi's Cobalt Redeemer Cryptic Sword
-//ItemDisplay[SET !ID upl]: %NAME%%MAP-84% // Sazabi's Ghost Liberator Balrog Skin
+ItemDisplay[SET !ID xhl]: %NAME%%MAP-84% // Sazabi's Mental Sheath Basinet
+ItemDisplay[SET !ID 7ls]: %NAME%%MAP-84% // Sazabi's Cobalt Redeemer Cryptic Sword
+ItemDisplay[SET !ID upl]: %NAME%%MAP-84% // Sazabi's Ghost Liberator Balrog Skin
 
 // ------------------------------------------------------------------------------
 //    [SITR] Tal Rasha's Wrappings
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID oba]: %NAME%%MAP-84% // Tal Rasha's Lidless Eye Swirling Crystal
-//ItemDisplay[SET !ID xsk]: %NAME%%MAP-84% // Tal Rasha's Horadric Crest Death Mask
-//ItemDisplay[SET !ID uth]: %NAME%%MAP-84% // Tal Rasha's Guardianship Lacquered Plate
-//ItemDisplay[SET !ID zmb]: %NAME%%MAP-84% // Tal Rasha's Fine-Spun Cloth Mesh Belt
+ItemDisplay[SET !ID oba]: %NAME%%MAP-84% // Tal Rasha's Lidless Eye Swirling Crystal
+ItemDisplay[SET !ID xsk]: %NAME%%MAP-84% // Tal Rasha's Horadric Crest Death Mask
+ItemDisplay[SET !ID uth]: %NAME%%MAP-84% // Tal Rasha's Guardianship Lacquered Plate
+ItemDisplay[SET !ID zmb]: %NAME%%MAP-84% // Tal Rasha's Fine-Spun Cloth Mesh Belt
 //Tal Rasha's Adjudication Amulet in "Set Multiple" section
 
 // ------------------------------------------------------------------------------
 //    [SITO] Trang-Oul's Avatar
 // ------------------------------------------------------------------------------
-//ItemDisplay[SET !ID uh9]: %NAME%%MAP-84% // Trang-Oul's Guise Bone Visage
-//ItemDisplay[SET !ID xul]: %NAME%%MAP-84% // Trang-Oul's Scales Chaos Armor
-//ItemDisplay[SET !ID ne9]: %NAME%%MAP-84% // Trang-Oul's Wing Cantor Trophy
-//ItemDisplay[SET !ID utc]: %NAME%%MAP-84% // Trang-Oul's Girth Troll Belt
-//ItemDisplay[SET !ID xmg]: %NAME%%MAP-84% // Trang-Oul's Claws Heavy Bracers
+ItemDisplay[SET !ID uh9]: %NAME%%MAP-84% // Trang-Oul's Guise Bone Visage
+ItemDisplay[SET !ID xul]: %NAME%%MAP-84% // Trang-Oul's Scales Chaos Armor
+ItemDisplay[SET !ID ne9]: %NAME%%MAP-84% // Trang-Oul's Wing Cantor Trophy
+ItemDisplay[SET !ID utc]: %NAME%%MAP-84% // Trang-Oul's Girth Troll Belt
+ItemDisplay[SET !ID xmg]: %NAME%%MAP-84% // Trang-Oul's Claws Heavy Bracers
 
 // ------------------------------------------------------------------------------
 // [SIMA] Set Items Master
@@ -2761,7 +2741,7 @@ ItemDisplay[MAG ILVL>71 uvg]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% 
 // ------------------------------------------------------------------------------
 //    [CCBE] Belt
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 vbl]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Light Belt
+//ItemDisplay[MAG ILVL>71 vbl]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Light Belt
 ItemDisplay[MAG ILVL>71 zvb]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Sharkskin Belt
 ItemDisplay[MAG ILVL>71 uvc]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Vampirefang Belt
 
@@ -4118,7 +4098,7 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %
 //    [BCGO] Gold
 // ------------------------------------------------------------------------------
 // If you want all gold to show just comment out all of these lines by adding "// " at the start of each line and uncomment the first line
-//ItemDisplay[GOLD]: %NAME% // Show all gold (if you uncomment this line comment out all the other gold lines below)
+//ItemDisplay[GOLD>0]: %NAME% // Show all gold (if you uncomment this line comment out all the other gold lines below)
 ItemDisplay[GOLD<25]: // Always hide gold in piles of less than 25
 ItemDisplay[GOLD<50 CLVL>9]: // Hide 50 gold and less if level 10+
 ItemDisplay[GOLD<100 CLVL>19]: // Hide 100 gold and less if level 20+
@@ -4126,11 +4106,13 @@ ItemDisplay[GOLD<200 CLVL>29]: // Hide 200 gold and less if level 30+
 ItemDisplay[GOLD<300 CLVL>39]: // Hide 300 gold and less if level 40+
 ItemDisplay[GOLD<500 CLVL>49]: // Hide 500 gold and less if level 50+
 ItemDisplay[GOLD<1000 CLVL>59]: // Hide 1000 gold and less if level 60+
+ItemDisplay[GOLD<3000 CLVL>69]: // Hide 3000 gold and less if level 70+
+ItemDisplay[GOLD<5000 CLVL>79]: // Hide 5000 gold and less if level 80+
 
 // ------------------------------------------------------------------------------
 //    [BCKE] Keys
 // ------------------------------------------------------------------------------
-//ItemDisplay[key]: %NAME%%MAP-97% // Consider uncommenting for Lower Kurast Runs
+//ItemDisplay[key]: %NAME%%DOT-97% // Consider uncommenting for Lower Kurast Runs
 
 // ------------------------------------------------------------------------------
 //    [BCPO] Potions
@@ -4142,8 +4124,7 @@ ItemDisplay[hp2 DIFF<1]: %RED%+%WHITE%HP2 // Light Healing Potion
 ItemDisplay[hp2 DIFF>0]: // Hides Light Healing Potions after Normal difficulty
 ItemDisplay[hp3 DIFF<2]: %RED%+%WHITE%HP3 // Healing Potion
 ItemDisplay[hp3 DIFF>1]: // Hides Healing Potions after after Nightmare difficulty
-ItemDisplay[hp4 DIFF<2]: %RED%+%WHITE%HP4 // Greater Healing Potion
-ItemDisplay[hp4 DIFF>1]: // Hides Greater Healing Potion after Nightmare difficulty
+ItemDisplay[hp4]: %RED%+%WHITE%HP4 // Greater Healing Potion
 ItemDisplay[hp5]: %RED%+%WHITE%HP5 // Super Healing Potion
 
 // Mana Potions
@@ -4153,8 +4134,7 @@ ItemDisplay[mp2 DIFF<1]: %BLUE%+%WHITE%MP2 // Light Mana Potion
 ItemDisplay[mp2 DIFF>0]: // Hides Light Mana Potions after Normal difficulty
 ItemDisplay[mp3 DIFF<2]: %BLUE%+%WHITE%MP3 // Mana Potion
 ItemDisplay[mp3 DIFF>1]: // Hides Mana Potions after after Nightmare difficulty
-ItemDisplay[mp4 DIFF<2]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
-ItemDisplay[mp4 DIFF>1]: // Hides Greater Mana Potion after Nightmare difficulty
+ItemDisplay[mp4]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
 ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 
 // Rejuv Potions
@@ -4164,8 +4144,7 @@ ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+%WHITE% // Full Rejuv Potion
 // Drinkable Potions - to hide add "//" after the colon  (eg ": //%...")
 ItemDisplay[vps DIFF<2]: %WHITE%+%WHITE%Stam // Stamina Potion
 ItemDisplay[vps DIFF>1]: // Hides Stamina Potion after Nightmare difficulty
-ItemDisplay[yps DIFF<2]: %GREEN%+%WHITE%Anti // Antidote Potion
-ItemDisplay[yps DIFF>1]: // Antidote Potion after Nightmare difficulty
+ItemDisplay[yps]: %GREEN%+%WHITE%Anti // Antidote Potion
 ItemDisplay[wms DIFF<2]: %BLUE%+%WHITE%Thaw // Thawing Potion
 ItemDisplay[wms DIFF>1]: // Thawing Potion after Nightmare difficulty
 
@@ -4186,12 +4165,12 @@ ItemDisplay[ops DIFF>0]: // Oil Potion after Normal difficulty
 // ------------------------------------------------------------------------------
 //    [BCTO] Scrolls & Tomes
 // ------------------------------------------------------------------------------
-ItemDisplay[isc DIFF<1]: ID%RED%+%WHITE% // Scroll of Identify
+ItemDisplay[isc DIFF<1]: ID%RED%!%WHITE% // Scroll of Identify
 ItemDisplay[isc DIFF>0]: // Hides Scroll of Identify after Normal difficulty
-ItemDisplay[tsc DIFF<1]: TP%BLUE%+%WHITE% // Scroll of Town Portal
+ItemDisplay[tsc DIFF<1]: TP%BLUE%!%WHITE% // Scroll of Town Portal
 ItemDisplay[tsc DIFF>0]: // Hides Scroll of Town Portal after Normal difficulty
-ItemDisplay[ibk]: %RED%+%WHITE%ID%RED%+%WHITE% // Tome of Identify
-ItemDisplay[tbk]: %BLUE%+%WHITE%TP%BLUE%+%WHITE% // Tome of Town Portal
+ItemDisplay[ibk]: %RED%!%WHITE%ID%RED%!%WHITE% // Tome of Identify
+ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous
@@ -4318,7 +4297,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 CIRC]: %GRAY%%NAME%{%ORANGE%Delirium, D
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) am1]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 5os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) am1]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 2os
@@ -4330,7 +4309,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am1]: %GRAY%%NAME%%
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) am2]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 5os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) am2]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 2os
@@ -4343,7 +4322,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am2]: %GRAY%%NAME%%
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) am6]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 5os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) am6]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 2os
@@ -4355,7 +4334,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am6]: %GRAY%%NAME%%
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) am7]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 5os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) am7]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 2os
@@ -4365,7 +4344,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) am7]: %GRAY%%NAME%%
 
 //      Elite tier
 //           Matriarchal Bow
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) amb]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) amb]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) amb]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) amb]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) amb]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
@@ -4377,7 +4356,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) amb]: %GRAY%%NAME%%
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 (TABSK0>2 OR TABSK1>2) amb]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 5os
 
 //           Grand Matron Bow
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) amc]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) amc]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (TABSK0>2 OR TABSK1>2) amc]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 (TABSK0>2 OR TABSK1>2) amc]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 (TABSK0>2 OR TABSK1>2) amc]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
@@ -4627,205 +4606,270 @@ ItemDisplay[NMAG CLVL>30 (am5 OR ama OR amf) TABSK2<3]: // This will completely 
 // I have not broken these down into Superior, Ethereal, and different number of sockets.
 // These katars also HAVE skill requirements
 // All tiers
-//      +3 Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK278>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Venom
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK273>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK275>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK279>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK263>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK277>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK267>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Fade
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK258>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK260>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK271>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Chain Lightning Sentry
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK276>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Death Sentry
-
 //      +3 Chain Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Venom
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Weapon Block
 ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Fade
 ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK???>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Lightning Sentry
 ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Fade
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK366>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Venom
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, CLS & Weapon Block
 
-//      +3 Dragon Strike variants
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Venom
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK273>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Mind Blast
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK279>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Shadow Master
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK263>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Weapon Block
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Blade Shield
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Fade
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK???>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Lightning Sentry
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Chain Lightning Sentry
+//      +3 Death Sentry variants
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK277>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK258>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK271>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Chain Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK260>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK275>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK267>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Fade
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK366>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK273>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK279>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK278>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Venom
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK263>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, DS & Weapon Block
+
+//      +3 Lightning Sentry variants
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK277>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK258>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK271>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK276>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK260>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK275>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK267>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Fade
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK273>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK279>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK278>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Venom
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK263>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, LS & Weapon Block
+
+//      +3 Mind Blast variants
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK277>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK258>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK271>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK276>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK260>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK275>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Dragon Flight
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK267>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Fade
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK366>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK279>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK278>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Venom
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK263>0) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, Mind Blast & Weapon Block
 
 // Normal tiers
-//      +3 Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK278>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Venom
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK273>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK275>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK279>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK263>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK277>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK267>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Fade
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK258>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK260>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK271>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Chain Lightning Sentry
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK276>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Death Sentry
-
 //      +3 Chain Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Venom
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Fade
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Blade Shield
 ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK???>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Lightning Sentry
 ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Fade
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK366>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Venom
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, CLS & Weapon Block
 
-//      +3 Dragon Strike variants
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Venom
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK273>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Mind Blast
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK279>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Shadow Master
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK263>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Weapon Block
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Blade Shield
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Fade
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK???>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Lightning Sentry
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN NORM]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Chain Lightning Sentry
+//      +3 Death Sentry variants
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK277>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK258>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK271>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Chain Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK260>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK275>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK267>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Fade
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK366>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK273>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK279>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK278>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Venom
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK263>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, DS & Weapon Block
+
+//      +3 Lightning Sentry variants
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK277>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK258>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK271>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK276>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK260>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK275>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK267>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Fade
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK273>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK279>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK278>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Venom
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK263>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, LS & Weapon Block
+
+//      +3 Mind Blast variants
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK277>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK258>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK271>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK276>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK260>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK275>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Dragon Flight
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK267>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Fade
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK366>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK279>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK278>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Venom
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK263>0) SIN NORM]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, Mind Blast & Weapon Block
 
 // Exceptional tiers
-//      +3 Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK278>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Venom
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK273>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK275>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK279>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK263>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK277>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK267>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Fade
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK258>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK260>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK271>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Chain Lightning Sentry
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK276>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Death Sentry
-
 //      +3 Chain Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Venom
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Fade
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Blade Shield
 ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK???>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Lightning Sentry
 ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Fade
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK366>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Venom
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, CLS & Weapon Block
 
-//      +3 Dragon Strike variants
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Venom
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK273>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Mind Blast
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK279>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Shadow Master
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK263>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Weapon Block
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Blade Shield
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Fade
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK???>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Lightning Sentry
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN EXC]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Chain Lightning Sentry
+//      +3 Death Sentry variants
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK277>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK258>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK271>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Chain Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK260>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK275>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK267>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Fade
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK366>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK273>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK279>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK278>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Venom
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK263>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, DS & Weapon Block
+
+//      +3 Lightning Sentry variants
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK277>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK258>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK271>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK276>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK260>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK275>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK267>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Fade
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK273>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK279>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK278>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Venom
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK263>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, LS & Weapon Block
+
+//      +3 Mind Blast variants
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK277>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK258>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK271>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK276>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK260>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK275>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Dragon Flight
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK267>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Fade
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK366>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK279>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK278>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Venom
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK263>0) SIN EXC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, Mind Blast & Weapon Block
 
 // Elite tiers
-//      +3 Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK278>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Venom
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK273>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK275>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK279>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK263>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK277>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK267>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Fade
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK258>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK260>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK271>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Chain Lightning Sentry
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK276>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Death Sentry
-
 //      +3 Chain Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Venom
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Fade
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Blade Shield
 ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK???>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Lightning Sentry
 ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Fade
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK366>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Venom
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, CLS & Weapon Block
 
-//      +3 Dragon Strike variants
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Venom
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK273>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Mind Blast
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK279>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Shadow Master
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK263>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Weapon Block
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Blade Shield
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Fade
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK???>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Lightning Sentry
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN ELT]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Chain Lightning Sentry
+//      +3 Death Sentry variants
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK277>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK258>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK271>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Chain Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK260>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK275>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK267>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Fade
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK366>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK273>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK279>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK278>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Venom
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK263>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, DS & Weapon Block
+
+//      +3 Lightning Sentry variants
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK277>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK258>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK271>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK276>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK260>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK275>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK267>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Fade
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK273>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK279>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK278>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Venom
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK263>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, LS & Weapon Block
+
+//      +3 Mind Blast variants
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK277>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK258>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK271>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK276>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK260>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK275>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Dragon Flight
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK267>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Fade
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK366>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK279>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK278>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Venom
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK263>0) SIN ELT]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, Mind Blast & Weapon Block
 
 // Good katars only
 // Greater Claws (9lw), Greater Talons (9hw), Suwayyah (7ar), Wrist Sword (7wb), Battle Cestus (7cs), Feral Claws (7lw), Runic Talons (7hw), Scissors Suwayyah (7qr)
-//      +3 Lightning Sentry variants
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Venom
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Mind Blast
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Dragon Flight
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK279>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Shadow Master
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK263>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Weapon Block
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK277>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Blade Shield
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Fade
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Burst of Speed
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Chain Lightning Sentry
-//ItemDisplay[NMAG !INF !RW (SK???>2 AND SK276>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Death Sentry
-
 //      +3 Chain Lightning Sentry variants
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Venom
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Mind Blast
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Dragon Flight
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Shadow Master
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Weapon Block
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Blade Shield
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Fade
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Burst of Speed
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK???>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Lightning Sentry
-ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Death Sentry
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK277>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK258>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK276>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK260>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK275>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK267>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Fade
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK366>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK271>2 AND SK273>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK279>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK278>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Venom
+//ItemDisplay[NMAG !INF !RW (SK271>2 AND SK263>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, CLS & Weapon Block
 
-//      +3 Dragon Strike variants
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK278>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Venom
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK273>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Mind Blast
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK275>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Dragon Flight
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK279>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Shadow Master
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK263>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Weapon Block
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK277>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Blade Shield
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK267>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Fade
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK258>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Burst of Speed
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK260>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Dragon Claw
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK???>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Lightning Sentry
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK276>2 AND SK271>0) SIN (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr)]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Chain Lightning Sentry
+//      +3 Death Sentry variants
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK277>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK258>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK271>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Chain Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK260>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK275>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK267>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Fade
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK366>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK276>2 AND SK273>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK279>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK278>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Venom
+//ItemDisplay[NMAG !INF !RW (SK276>2 AND SK263>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, DS & Weapon Block
+
+//      +3 Lightning Sentry variants
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK277>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK258>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK271>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK276>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK260>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK275>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Dragon Flight
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK267>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Fade
+ItemDisplay[NMAG !INF !RW (SK366>2 AND SK273>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Mind Blast
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK279>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK278>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Venom
+//ItemDisplay[NMAG !INF !RW (SK366>2 AND SK263>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, LS & Weapon Block
+
+//      +3 Mind Blast variants
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK277>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Blade Shield
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK258>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Burst of Speed
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK271>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK276>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Death Sentry
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK260>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Dragon Claw
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK275>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Dragon Flight
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK267>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Fade
+ItemDisplay[NMAG !INF !RW (SK273>2 AND SK366>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Lightning Sentry
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK279>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Shadow Master
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK278>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Venom
+//ItemDisplay[NMAG !INF !RW (SK273>2 AND SK263>0) (9lw OR 9hw OR 7ar OR 7wb OR 7cs OR 7lw OR 7hw OR 7qr) SIN]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All good Katars, Mind Blast & Weapon Block
 
 // These lines add descriptions to all Assassin Katars, leave these alone if you want to display possible runewords on base Assassin Katars
 // Please note you still have to uncomment specific base items lines to get a drop notification
@@ -4930,23 +4974,17 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 (SK234>2 OR SK240>2 OR SK245>2 OR SK237
 // ------------------------------------------------------------------------------
 // These are generic lines for showing all Necromancer Heads of any tier and certain conditions (sockets, superior, and/or ethereal)
 // I have not broken these down into Normal vs Exceptional vs Elite as any head is fine
-// Any Curse skill, All tiers; Amplify Damage (SK66), Attract (SK86), Confuse (SK81), Curse Mastery (SK??), Decrepify (SK87), Dim Vision (SK71), Iron Maiden (SK76), Life Tap (SK82), Lower Resist (SK91), Terror (SK77), or Weaken (SK72)
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
-
-// WAITING ON CURSE MASTERY SKILL ID (??)
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK??>2 OR SK87>2 SK82>2 OR SK91>2 OR SK72>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, all types, good skills only (my opinion)
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK??>2 OR SK87>2 SK82>2 OR SK91>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, all types, good skills only (my opinion)
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK87>2 SK82>2 OR SK91>2 OR SK72>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, all types, good skills only (my opinion)
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK87>2 SK82>2 OR SK91>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, all types, good skills only (my opinion)
-// WAITING ON CURSE MASTERY SKILL ID (??)
-
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior, Eth
+// Any Curse skill, All tiers; Amplify Damage (SK66), Attract (SK86), Confuse (SK81), Curse Mastery (SK374), Decrepify (SK87), Dim Vision (SK71), Iron Maiden (SK76), Life Tap (SK82), Lower Resist (SK91), Terror (SK77), or Weaken (SK72)
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK374>2 OR SK87>2 SK82>2 OR SK91>2 OR SK72>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, all types, good skills only (my opinion)
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK374>2 OR SK87>2 SK82>2 OR SK91>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, all types, good skills only (my opinion)
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2) NEC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior, Eth
 
 // Any Poison and Bone skill, All tiers; Bone Armor (SK68), Bone Prison (SK88), Bone Spear (SK84), Bone Spirit (SK93), Bone Wall (SK78), Corpse Explosion (SK74), Poison Dagger (SK73), Poison Explosion (SK83), Poison Nova (SK92), or Teeth (SK67)
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 (SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2) NEC]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
@@ -4975,24 +5013,14 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK85>2 OR SK94>2 OR SK79>2 OR SK90>2 OR S
 // These lines add descriptions to all Necromancer Heads, leave these alone if you want to display possible runewords on base Necromancer Heads
 // Please note you still have to uncomment specific base items lines to get a drop notification
 // You can also use these lines to completely hide items. Just put "//" in between "]:" and "{%" (eg "...]: //{%")
-// WAITING ON CURSE MASTERY SKILL ID (??)
-//ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
-//ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
-//ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Eth
-//ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK??>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
-// WAITING ON CURSE MASTERY SKILL ID (??)
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 OR SK87>2 OR SK71>2 OR SK76>2 OR SK82>2 OR SK91>2 OR SK77>2 OR SK72>2 OR SK68>2 OR SK88>2 OR SK84>2 OR SK93>2 OR SK78>2 OR SK74>2 OR SK73>2 OR SK83>2 OR SK92>2 OR SK67>2 OR SK85>2 OR SK75>2 OR SK94>2 OR SK79>2 OR SK90>2 OR SK70>2 OR SK80>2 OR SK95>2 OR SK69>2 OR SK89>2) NEC]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
 
 // ------------------------------------------------------------------------------
 //    [BCPA] Paladin
@@ -5520,7 +5548,7 @@ ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<30 CHEST]: %GRAY%%NAME%%D
 
 //      Mage Plate
 //ItemDisplay[NMAG !INF !RW xtp]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Mage Plates
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 xtp]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 xtp]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 xtp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 xtp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 xtp]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
@@ -5623,8 +5651,8 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=3 xtp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE
 // Elite tier Armor
 //      Dusk Shroud
 //ItemDisplay[NMAG !INF !RW uui]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Dusk Shrouds
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uui]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 uui]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uui]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 uui]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uui]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uui]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 uui]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
@@ -5642,8 +5670,8 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uui]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE
 
 //      Wyrmhide
 //ItemDisplay[NMAG !INF !RW uea]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Wyrmhides
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uea]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 uea]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uea]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 uea]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uea]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uea]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 uea]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
@@ -5661,8 +5689,8 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uea]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE
 
 //      Scarab Husk
 //ItemDisplay[NMAG !INF !RW ula]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Scarab Husks
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 ula]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 ula]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 ula]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 ula]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ula]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 ula]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ula]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
@@ -5794,8 +5822,8 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 ula]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE
 
 //      Archon Plate
 //ItemDisplay[NMAG !INF !RW utp]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Archon Plates
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 utp]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 utp]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 utp]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
@@ -5825,10 +5853,10 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 2os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 3os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 4os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 4os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 uld]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 4os
 
 //      Hellforge Plate
 //ItemDisplay[NMAG !INF !RW ult]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Hellforge Plates
@@ -5844,10 +5872,10 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 2os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 3os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 4os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 4os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 ult]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 4os
 
 //      Lacquered Plate
 //ItemDisplay[NMAG !INF !RW uth]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Lacquered Plates
@@ -5863,10 +5891,10 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 2os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 3os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 4os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 4os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 uth]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 4os
 
 //      Shadow Plate
 //ItemDisplay[NMAG !INF !RW uul]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Shadow Plates
@@ -5882,10 +5910,10 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 2os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 3os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 4os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 4os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 uul]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 4os
 
 //      Sacred Armor
 //ItemDisplay[NMAG !INF !RW uar]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Sacred Armors
@@ -5902,7 +5930,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 utp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 3os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 4os
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 uar]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 4os
 
@@ -6273,15 +6301,15 @@ ItemDisplay[NMAG GLOVES CLVL>10]: // This will completely hide all white gloves 
 
 //      Demonhead
 //ItemDisplay[NMAG !INF !RW usk]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Demonheads
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 usk]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 usk]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 usk]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 0os
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 0os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 2os
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 3os
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 3os
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 usk]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
@@ -6303,15 +6331,15 @@ ItemDisplay[NMAG GLOVES CLVL>10]: // This will completely hide all white gloves 
 
 //      Bone Visage
 //ItemDisplay[NMAG !INF !RW uh9]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Bone Visages
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uh9]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uh9]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 uh9]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 0os
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 0os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 2os
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 3os
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 3os
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 0os
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 3os
@@ -7014,7 +7042,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SHIELD]: %GRAY%%NAME%{%ORANGE%Phoenix, 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 2ax]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 2ax]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=4 2ax]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 2ax]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 2ax]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 2ax]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 2ax]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 2ax]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
@@ -7518,24 +7546,24 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 SHIELD]: %GRAY%%NAME%{%ORANGE%Phoenix, 
 
 //          Berserker Axe
 //ItemDisplay[NMAG !INF !RW 7wa]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Berserker Axes
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7wa]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7wa]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7wa]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=6 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
@@ -7700,7 +7728,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 AXE !THROWING]: %GRAY%%NAME%{%ORANGE%La
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 BOW]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 BOW]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 BOW]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 BOW]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 BOW]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=5 BOW]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 5os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=6 BOW]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 6os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 BOW]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
@@ -9087,8 +9115,8 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 fla]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 fla]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 fla]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 fla]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 fla]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 fla]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 fla]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 fla]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 fla]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 fla]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
@@ -9643,10 +9671,10 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORA
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 
 //      Thresher
@@ -9666,11 +9694,11 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORA
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 
 //      Cryptic Axe
 //ItemDisplay[NMAG !INF !RW 7pa]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Cryptic Axes
@@ -9689,11 +9717,11 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORA
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 
 //      Great Poleaxe
 //ItemDisplay[NMAG !INF !RW 7h7]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Great Poleaxes
@@ -9715,11 +9743,11 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORA
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
 
 //      Giant Thresher
@@ -9742,11 +9770,11 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORA
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
 
 // These lines add descriptions to all Polearms, leave these alone if you want to display possible runewords on base Polearms
@@ -11008,8 +11036,8 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers 6os, Superior, Eth
 
-// Below is each specific base polearm type
-// Normal tier Polearms
+// Below is each specific base spear type
+// Normal tier Spears
 //      Spear
 //ItemDisplay[NMAG !INF !RW spr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Spears
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 spr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
@@ -11121,7 +11149,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 pik]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 pik]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
 
-// Exceptional tier Polearms
+// Exceptional tier Spears
 //      War Spear
 //ItemDisplay[NMAG !INF !RW 9sr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All War Spears
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 9sr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
@@ -11233,7 +11261,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 9p9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 9p9]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
 
-// Elite tier Polearms
+// Elite tier Spears
 //      Hyperion Spear
 //ItemDisplay[NMAG !INF !RW 7sr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Hyperion Spears
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7sr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
@@ -11263,10 +11291,10 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7tr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7tr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //      Mancatcher
 //ItemDisplay[NMAG !INF !RW 7br]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Mancatchers
@@ -11285,11 +11313,11 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 
 //      Ghost Spear
 //ItemDisplay[NMAG !INF !RW 7st]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Ghost Spears
@@ -11311,11 +11339,11 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
 
 //      War Pike
@@ -11332,12 +11360,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=6 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
@@ -12794,7 +12822,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=4 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=6 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 crs]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 crs]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
@@ -13288,24 +13316,24 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 
 //          Phase Blade
 //ItemDisplay[NMAG !INF !RW 7cr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Phase Blades
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7cr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7cr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7cr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=6 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7cr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
@@ -13375,9 +13403,9 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 72h]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 72h]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
@@ -13451,11 +13479,11 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7fb]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
@@ -13476,12 +13504,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 STAFF]: %GRAY%%NAME%{%ORANGE%Breath of 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7gd]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
@@ -13609,11 +13637,11 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK74>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Curse Mastery
-//ItemDisplay[NMAG !INF !RW SK??>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK??>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK??>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK??>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK??>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
+//ItemDisplay[NMAG !INF !RW SK374>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 SK374>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK374>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK374>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 SK374>2 WAND]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
 
 //      +3 Decrepify
 //ItemDisplay[NMAG !INF !RW SK87>2 WAND]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers
@@ -13752,16 +13780,10 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 // Please note you still have to uncomment specific base items lines to get a drop notification
 // You can also use these lines to completely hide items. Just put "//" in between "]:" and "{%" (eg "...]: //{%")
 // NOTE: These Wands must have a good Necromancer skill on them. To skip to Wands that do not require a good skill search [BWWA2]
-// WAITING ON CURSE MASTERY SKILL ID (??)
-//ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK?? OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-//ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK?? OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK?? OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK?? OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
-// WAITING ON CURSE MASTERY SKILL ID (??)
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK374 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK374 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK66 OR SK86 OR SK81 OR SK374 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK66 OR SK86 OR SK81 OR SK374 OR SK87 OR SK71 OR SK76 OR SK82 OR SK91 OR SK77 OR SK72 OR SK68 OR SK88 OR SK84 OR SK93 OR SK78 OR SK74 OR SK73 OR SK83 OR SK92 OR SK67 OR SK85 OR SK75 OR SK94 OR SK79 OR SK90 OR SK70 OR SK80 OR SK95 OR SK69 OR SK89) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
 
 // [BWWA2] - Wands without Necromancer skills
 // These are generic lines for showing all Wands of a certain tier and certain conditions (sockets, superior, and/or ethereal)
