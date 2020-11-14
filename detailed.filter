@@ -6592,8 +6592,8 @@ ItemDisplay[NMAG CLVL>10 xuc]: // This will completely hide all white Defenders 
 
 //      Grim Shield
 //ItemDisplay[NMAG !INF !RW xsh]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Grim Shields
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 xsh]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 xsh]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 xsh]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 xsh]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 xsh]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 xsh]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 2os
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 xsh]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Eth, 0os
@@ -6724,9 +6724,9 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE
 
 //      Troll Nest
 //ItemDisplay[NMAG !INF !RW ush]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Troll Nests
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 ush]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 ush]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ush]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 ush]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 ush]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ush]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ush]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 ush]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 ush]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 3os

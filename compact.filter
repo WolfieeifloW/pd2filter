@@ -1209,9 +1209,14 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK>1 CLVL<30 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-0
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SHIELD]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
 ItemDisplay[NMAG CLVL>10 buc]: // This will completely hide all white Bucklers past character level 10
 ItemDisplay[NMAG CLVL>10 xuc]: // This will completely hide all white Defenders past character level 10
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 xsh]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 xsh]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uit]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 uit]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 ush]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 ush]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ush]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SHIELD]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 SHIELD]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SHIELD]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os
