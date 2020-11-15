@@ -18,7 +18,7 @@ ItemDisplay[hdm]: %NAME%%MAP-00% // Horadric Malus
 ItemDisplay[bks]: %NAME%%MAP-00% // Scroll of Inifuss
 ItemDisplay[bkd]: %NAME%%MAP-00% // Scroll of Inifuss, deciphered
 ItemDisplay[leg]: %GOLD%%NAME%%MAP-00% // Wirt's Leg
-ItemDisplay[ass]: %NAME%%MAP-00% // Book of Skill
+ItemDisplay[ass]: %GOLD%Book of Skill%MAP-00% // Book of Skill
 ItemDisplay[tr1]: // Horadric Scroll (useless item so we hide it)
 ItemDisplay[box]: %NAME%%MAP-00% // Horadric Cube
 ItemDisplay[hst]: %NAME%%MAP-00% // Horadric Staff
