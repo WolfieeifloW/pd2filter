@@ -213,7 +213,7 @@ ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notif
 //      Rare Jewelery
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All Rare amulets
 ItemDisplay[RARE !ID CIRC]: %NAME%%MAP-A8% // All Rare Circlets
-ItemDisplay[RARE !ID jew]: %NAME%%MAP-A8% // All Rare jewels
+ItemDisplay[RARE !ID jew]: %YELLOW%O %NAME O%WHITE%%%MAP-A8% // All Rare Jewels
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All Rare rings
 
 //      Rare Class Specific
@@ -295,12 +295,12 @@ ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% //
 ItemDisplay[MAG !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Adding $ to 35k+ Magic items for Hell difficulty
 
 //      Magic Charms
-ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Magic Small Charms
-ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97% // Magic Large Charms
-ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Magic Grand Charms
+ItemDisplay[MAG !ID cm1]: %BLUE%O %NAME% O%WHITE%%MAP-97% // Magic Small Charms
+ItemDisplay[MAG !ID cm2]: %BLUE%O %NAME% O%WHITE%%MAP-97% // Magic Large Charms
+ItemDisplay[MAG !ID cm3]: %BLUE%O %NAME% O%WHITE%%MAP-97% // Magic Grand Charms
 
 //      Magic Jewels
-ItemDisplay[MAG !ID jew]: %NAME%%DOT-97% // All Magic Jewels
+ItemDisplay[MAG !ID jew]: %BLUE%O %NAME% O%WHITE%%DOT-97% // All Magic Jewels
 
 //      Magic Class Specific
 ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME% // Magic Amazon Javelins (6/40 etc)
@@ -502,6 +502,18 @@ ItemDisplay[NMAG !INF !RW SOCK=2 uit]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%
 ItemDisplay[NMAG !INF !RW SOCK=3 uit]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // Monarch, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 uit]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // Monarch, 4os
 
+//		Base Axes
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (7ax OR 72a OR 7mp OR 7wa)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (7ax OR 72a OR 7mp OR 7wa)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (7ax OR 72a OR 7mp OR 7wa)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 (7ax OR 72a OR 7mp OR 7wa)]: %GRAY%%NAME%{%ORANGE%Kingslayer, Oath, Passion, Phoenix%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 (72a OR 7mp OR 7wa)]: %GRAY%%NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Beast, Call to Arms, Death,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW SOCK=6 (7mp OR 7wa)]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
+
+//		Base Maces
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 fla]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Flail, 4os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 fla]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Flail, 4os, Superior, Non-Eth
+
 //      Base Polearms
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ELT POLEARM]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ELT POLEARM]: %NAME%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
@@ -533,6 +545,14 @@ ItemDisplay[NMAG !INF !RW SOCK=3 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE
 ItemDisplay[NMAG !INF !RW SOCK=4 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 ELT SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
+
+// Base Swords
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (7cr OR 7bs OR 7ls)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (7cr OR 7bs OR 7ls)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (7cr OR 7bs OR 7ls)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 (7cr OR 7bs OR 7ls)]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 (7cr)]: %GRAY%%NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW SOCK=6 (7cr)]: %GRAY%%NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
 
 //      Base Wands
 // Summ: SK69 Skeleton Mastery, SK70 Raise Skeleton, SK75 Clay Golem, SK79 Golem Mastery, SK80 Skeletal Mage, SK85 Blood Golem, SK90 Iron Golem, SK94 Fire Golem, SK95 Revive, SK367 Blood Warp
