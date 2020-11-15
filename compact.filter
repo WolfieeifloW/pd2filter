@@ -1,6 +1,6 @@
 // Quest Items
 ItemDisplay[hdm]: %NAME%%MAP-00%{%TAN%Give to Charsi in Act 1} // Horadric Malus
-ItemDisplay[bks]: %NAME%%MAP-00%{%TAN%Talk to Akara in Act 1%NL%} // Scroll of Inifuss
+ItemDisplay[bks]: %NAME%%MAP-00%{%TAN%in Act 1%NL%Talk to Akara%NL%} // Scroll of Inifuss
 ItemDisplay[bkd]: %NAME%%MAP-00%{%TAN%Go to Act 1: Stony Field%NL%} // Scroll of Inifuss, deciphered
 ItemDisplay[leg]: %GOLD%%NAME%%MAP-00%{%TAN%Cube w/ Tome of Town Portal in Act 1 to open Cow Level} // Wirt's Leg
 ItemDisplay[ass]: %NAME%%MAP-00%{%TAN%Right click for +1 Skill Point%NL%} // Book of Skill

@@ -12,7 +12,7 @@
 
 // Quest Items ------------------------------------------------------------------
 ItemDisplay[hdm]: %NAME%{%TAN%Give to Charsi in Act 1} // Horadric Malus
-ItemDisplay[bks]: %NAME%{%TAN%Talk to Akara in Act 1%NL%} // Scroll of Inifuss
+ItemDisplay[bks]: %NAME%{%TAN%in Act 1%NL%Talk to Akara%NL%} // Scroll of Inifuss
 ItemDisplay[bkd]: %NAME%{%TAN%Go to Act 1: Stony Field%NL%} // Scroll of Inifuss, deciphered
 ItemDisplay[leg]: %GOLD%%NAME%{%TAN%Cube w/ Tome of Town Portal in Act 1 to open Cow Level} // Wirt's Leg
 ItemDisplay[ass]: %NAME%{%TAN%Right click for +1 Skill Point%NL%} // Book of Skill
@@ -33,8 +33,8 @@ ItemDisplay[mss]: %NAME%{%TAN%Act 4: River of Flame%NL%Take to the Hellforge in%
 ItemDisplay[xyz]: %NAME%{%TAN%Right click for a permanent +20 to Life%NL%} // Potion of Life
 ItemDisplay[g34]: %NAME%{%TAN%Give to Alkor in Act 3%NL%} // The Golden Bird
 ItemDisplay[hfh]: %NAME%{%TAN%Hit Hellforge in Act 4: River of Flame} // Hellforge Hammer
-ItemDisplay[ice]: %NAME%%MAP-00%{%TAN%Act 5: Frozen River%NL%Touch Anya in%NL%} // Malah's Potion
-ItemDisplay[tr2]: Scroll of Resistance%MAP-00%{%TAN%All Resistances +10%NL%Right click for a permanent%NL%} // Scroll of Resistance
+ItemDisplay[ice]: %NAME%{%TAN%Act 5: Frozen River%NL%Touch Anya in%NL%} // Malah's Potion
+ItemDisplay[tr2]: %GOLD%Scroll of Resistance{%TAN%All Resistances +10%NL%Right click for a permanent%NL%} // Scroll of Resistance
 
 // Essences & Token -------------------------------------------------------------
 ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Diablo%NL%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror
