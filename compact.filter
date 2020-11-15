@@ -21,8 +21,8 @@ ItemDisplay[mss]: %NAME%%MAP-00%{%TAN%Act 4: River of Flame%NL%Take to the Hellf
 ItemDisplay[xyz]: %NAME%%MAP-00%{%TAN%Right click for a permanent +20 to Life%NL%} // Potion of Life
 ItemDisplay[g34]: %NAME%%MAP-00%{%TAN%Give to Alkor in Act 3%NL%} // The Golden Bird
 ItemDisplay[hfh]: %NAME%%MAP-00%{%TAN%Hit Hellforge in Act 4: River of Flame} // Hellforge Hammer
-ItemDisplay[ice]: %NAME%%MAP-00%{%TAN%Touch Anya in Act 5: Frozen River%NL%} // Malah's Potion
-ItemDisplay[tr2]: %NAME%%MAP-00%{%TAN%Right click for a permanent All Resistances +10%NL%} // Scroll of Resistance
+ItemDisplay[ice]: %NAME%%MAP-00%{%TAN%Act 5: Frozen River%NL%Touch Anya in%NL%} // Malah's Potion
+ItemDisplay[tr2]: Scroll of Resistance%MAP-00%{%TAN%All Resistances +10%NL%Right click for a permanent%NL%} // Scroll of Resistance
 
 // Essences & Tokens
 ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Diablo%NL%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror

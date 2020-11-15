@@ -37,7 +37,7 @@ ItemDisplay[xyz]: %NAME%%MAP-00% // Potion of Life
 ItemDisplay[g34]: %NAME%%MAP-00% // The Golden Bird
 ItemDisplay[hfh]: %NAME%%MAP-00% // Hellforge Hammer
 ItemDisplay[ice]: %NAME%%MAP-00% // Malah's Potion
-ItemDisplay[tr2]: %NAME%%MAP-00% // Scroll of Resistance
+ItemDisplay[tr2]: Scroll of Resistance%MAP-00% // Scroll of Resistance
 
 // Essences
 ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00% // Burning Essence of Terror
