@@ -223,11 +223,11 @@ ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Larzuk's Box
 // ------------------------------------------------------------------------------
 // [MAPI] Map Items
 // ------------------------------------------------------------------------------
-ItemDisplay[rera]: %NAME%{%TAN%Cube w/ Perfect Gem, Thul Rune or Greater, & Rare Map} // Reroll Rare Map (Horadrim Orb)
-ItemDisplay[imra]: %NAME%{%TAN%Cube w/ Jewel, Thul Rune or Greater, & White Map} // Imbue Rare Map (Zakarum Orb)
-ItemDisplay[upma]: %NAME%{%TAN%Cube w/ Perfect Skull, Thul Rune or Greater, & Magic Map} // Upgrade Magic Map to Rare Map (Angelic Orb)
-ItemDisplay[imma]: %NAME%{%TAN%Cube w/ Jewel, Any Rune, & White Map} // Imbue Magic Map (Arcane Orb)
-ItemDisplay[scou]: %NAME%{%TAN%Cube w/ Hel Rune & Magic or Rare Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
+ItemDisplay[rera]: %NAME%{%TAN%Rune or Greater, & Rare Map%NL%Cube w/ Perfect Gem, Thul%NL%%ORANGE%Reroll Rare Map} // Reroll Rare Map (Horadrim Orb)
+ItemDisplay[imra]: %NAME%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, Thul Rune%NL%%ORANGE%Imbue Rare Map} // Imbue Rare Map (Zakarum Orb)
+ItemDisplay[upma]: %NAME%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic to Rare} // Upgrade Magic Map to Rare Map (Angelic Orb)
+ItemDisplay[imma]: %NAME%{%TAN%Any Rune, & White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map} // Imbue Magic Map (Arcane Orb)
+ItemDisplay[scou]: %NAME%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 
 // ------------------------------------------------------------------------------
 // [MAPS] Maps
