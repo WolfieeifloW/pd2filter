@@ -18,7 +18,7 @@ ItemDisplay[qbr]: %NAME%%MAP-00%{%TAN%Heart, & Flail%NL%Cube w/ Eye,%NL%} // Kha
 ItemDisplay[qhr]: %NAME%%MAP-00%{%TAN%Brain, & Flail%NL%Cube w/ Eye,%NL%} // Khalim's Heart
 ItemDisplay[qf1]: %NAME%%MAP-00%{%TAN%Cube w/ Brain, Eye, & Heart} // Khalim's Flail
 ItemDisplay[qf2]: %NAME%%MAP-00%{%TAN%Hit Compelling Orb in Act 3: Travincal} // Khalim's Will
-ItemDisplay[bbb]: %NAME%%MAP-00%{%TAN%Give to Alkor for +5 Stat Points%NL%} // Lam Esen's Tome
+ItemDisplay[bbb]: %NAME%%MAP-00%{%TAN%+5 Stat Points%NL%Give to Alkor for%NL%} // Lam Esen's Tome
 ItemDisplay[mss]: %NAME%%MAP-00%{%TAN%Act 4: River of Flame%NL%Take to the Hellforge in%NL%} // Mephisto's Soulstone
 ItemDisplay[hfh]: %NAME%%MAP-00%{%TAN%Hit Hellforge in Act 4: River of Flame} // Hellforge Hammer
 ItemDisplay[ice]: %NAME%%MAP-00%{%TAN%Act 5: Frozen River%NL%Touch Anya in%NL%} // Malah's Potion
