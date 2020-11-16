@@ -77,7 +77,7 @@ ItemDisplay[t14]: %NAME%%RED%+%WHITE%%MAP-62% // Ice Caves Map
 ItemDisplay[t15]: %NAME%%RED%+%WHITE%%MAP-62% // Horazons Memory Map
 ItemDisplay[t16]: %NAME%%RED%+%WHITE%%MAP-62% // Ruins of Viz-jun
 ItemDisplay[t17]: %NAME%%RED%+%WHITE%%MAP-62% // River of Blood
-ItemDisplay[t18]: %NAME%%RED%+%WHITE%%MAP-62% // Lava Map
+ItemDisplay[t18]: %NAME%%RED%+%WHITE%%MAP-62% // Phlegethon Map
 
 // Diablo Clone Items
 ItemDisplay[dcma]: %RED%%NAME%%MAP-62% // Vision of Terror
