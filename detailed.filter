@@ -141,10 +141,10 @@
 // ------------------------------------------------------------------------------
 // [QIA1] Act 1
 // ------------------------------------------------------------------------------
-ItemDisplay[hdm]: %NAME%%MAP-00%{%TAN%Give to Charsi in Act 1} // Horadric Malus
 ItemDisplay[bks]: %NAME%%MAP-00%{%TAN%in Act 1%NL%Talk to Akara%NL%} // Scroll of Inifuss
 ItemDisplay[bkd]: %NAME%%MAP-00%{%TAN%Go to Act 1: Stony Field%NL%} // Scroll of Inifuss, deciphered
 ItemDisplay[leg]: %GOLD%%NAME%%MAP-00%{%TAN%Cube w/ Tome of Town Portal in Act 1 to open Cow Level} // Wirt's Leg
+ItemDisplay[hdm]: %NAME%%MAP-00%{%TAN%Give to Charsi in Act 1} // Horadric Malus
 
 // ------------------------------------------------------------------------------
 // [QIA2] Act 2
@@ -153,23 +153,23 @@ ItemDisplay[ass]: %GOLD%Book of Skill%MAP-00%{%TAN%+1 Skill Point%NL%Right click
 ItemDisplay[tr1]: //%NAME%{%TAN%Not required%NL%} // Horadric Scroll
 ItemDisplay[box]: %NAME%%MAP-00% // Horadric Cube
 ItemDisplay[hst]: %NAME%%MAP-00%{%TAN%Act 2: Tal Rashas Tomb%NL%Place in Tomb Orifice in} // Horadric Staff
-ItemDisplay[msf]: %NAME%%MAP-00%{%TAN%Cube w/ Amulet of the Viper} // Staff of Kings
 ItemDisplay[vip]: %NAME%%MAP-00%{%TAN%Cube w/ Staff of Kings} // Amulet of the Viper
+ItemDisplay[msf]: %NAME%%MAP-00%{%TAN%Cube w/ Amulet of the Viper} // Staff of Kings
 
 // ------------------------------------------------------------------------------
 // [QIA3] Act 3
 // ------------------------------------------------------------------------------
-ItemDisplay[j34]: %NAME%%MAP-00%{%TAN%Give to Meshif in Act 3%NL%} // A Jade Figurine
+ItemDisplay[j34]: %NAME%%MAP-00%{%TAN%in Act 3%NL%Give to Meshif%NL%} // A Jade Figurine
+ItemDisplay[g34]: %NAME%%MAP-00%{%TAN%in Act 3%NL%Give to Alkor%NL%} // The Golden Bird
+ItemDisplay[xyz]: %GOLD%Potion of Life%MAP-00%{%TAN%permanent +20 to Life%NL%Right click for a%NL%} // Potion of Life
 ItemDisplay[g33]: %NAME%%MAP-00%{%TAN%Give to Ormus in Act 3%NL%} // Gidbinn
-ItemDisplay[qbr]: %NAME%%MAP-00%{%TAN%Cube w/ Eye, Flail, & Heart%NL%} // Khalim's Brain
-ItemDisplay[qey]: %NAME%%MAP-00%{%TAN%Cube w/ Brain, Flail, & Heart%NL%} // Khalim's Eye
+ItemDisplay[qey]: %NAME%%MAP-00%{%TAN%Heart, & Flail%NL%Cube w/ Brain,%NL%} // Khalim's Eye
+ItemDisplay[qbr]: %NAME%%MAP-00%{%TAN%Heart, & Flail%NL%Cube w/ Eye,%NL%} // Khalim's Brain
+ItemDisplay[qhr]: %NAME%%MAP-00%{%TAN%Brain, & Flail%NL%Cube w/ Eye,%NL%} // Khalim's Heart
 ItemDisplay[qf1]: %NAME%%MAP-00%{%TAN%Cube w/ Brain, Eye, & Heart} // Khalim's Flail
-ItemDisplay[qhr]: %NAME%%MAP-00%{%TAN%Cube w/ Brain, Eye, & Flail%NL%} // Khalim's Heart
 ItemDisplay[qf2]: %NAME%%MAP-00%{%TAN%Hit Compelling Orb in Act 3: Travincal} // Khalim's Will
 ItemDisplay[bbb]: %NAME%%MAP-00%{%TAN%Give to Alkor for +5 Stat Points%NL%} // Lam Esen's Tome
 ItemDisplay[mss]: %NAME%%MAP-00%{%TAN%Act 4: River of Flame%NL%Take to the Hellforge in%NL%} // Mephisto's Soulstone
-ItemDisplay[xyz]: %NAME%%MAP-00%{%TAN%Right click for a permanent +20 to Life%NL%} // Potion of Life
-ItemDisplay[g34]: %NAME%%MAP-00%{%TAN%Give to Alkor in Act 3%NL%} // The Golden Bird
 
 // ------------------------------------------------------------------------------
 // [QIA4] Act 4
@@ -180,7 +180,7 @@ ItemDisplay[hfh]: %NAME%%MAP-00%{%TAN%Hit Hellforge in Act 4: River of Flame} //
 // [QIA5] Act 5
 // ------------------------------------------------------------------------------
 ItemDisplay[ice]: %NAME%%MAP-00%{%TAN%Act 5: Frozen River%NL%Touch Anya in%NL%} // Malah's Potion
-ItemDisplay[tr2]: Scroll of Resistance%MAP-00%{%TAN%All Resistances +10%NL%Right click for a permanent%NL%} // Scroll of Resistance
+ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-00%{%TAN%All Resistances +10%NL%Right click for a permanent%NL%} // Scroll of Resistance
 
 // ------------------------------------------------------------------------------
 // [QIES] Essences

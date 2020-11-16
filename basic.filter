@@ -14,30 +14,30 @@
 
 // Filter lines start here
 // Quest items
-ItemDisplay[hdm]: %NAME%%MAP-00% // Horadric Malus
 ItemDisplay[bks]: %NAME%%MAP-00% // Scroll of Inifuss
 ItemDisplay[bkd]: %NAME%%MAP-00% // Scroll of Inifuss, deciphered
 ItemDisplay[leg]: %GOLD%%NAME%%MAP-00% // Wirt's Leg
+ItemDisplay[hdm]: %NAME%%MAP-00% // Horadric Malus
 ItemDisplay[ass]: %GOLD%Book of Skill%MAP-00% // Book of Skill
 ItemDisplay[tr1]: // Horadric Scroll (useless item so we hide it)
 ItemDisplay[box]: %NAME%%MAP-00% // Horadric Cube
 ItemDisplay[hst]: %NAME%%MAP-00% // Horadric Staff
-ItemDisplay[msf]: %NAME%%MAP-00% // Staff of Kings
 ItemDisplay[vip]: %NAME%%MAP-00% // Amulet of the Viper
+ItemDisplay[msf]: %NAME%%MAP-00% // Staff of Kings
 ItemDisplay[j34]: %NAME%%MAP-00% // A Jade Figurine
 ItemDisplay[g33]: %NAME%%MAP-00% // Gidbinn
-ItemDisplay[qbr]: %NAME%%MAP-00% // Khalim's Brain
+ItemDisplay[g34]: %NAME%%MAP-00% // The Golden Bird
+ItemDisplay[xyz]: %GOLD%Potion of Life%MAP-00% // Potion of Life
 ItemDisplay[qey]: %NAME%%MAP-00% // Khalim's Eye
-ItemDisplay[qf1]: %NAME%%MAP-00% // Khalim's Flail
+ItemDisplay[qbr]: %NAME%%MAP-00% // Khalim's Brain
 ItemDisplay[qhr]: %NAME%%MAP-00% // Khalim's Heart
+ItemDisplay[qf1]: %NAME%%MAP-00% // Khalim's Flail
 ItemDisplay[qf2]: %NAME%%MAP-00% // Khalim's Will
 ItemDisplay[bbb]: %NAME%%MAP-00% // Lam Esen's Tome
 ItemDisplay[mss]: %NAME%%MAP-00% // Mephisto's Soulstone
-ItemDisplay[xyz]: %NAME%%MAP-00% // Potion of Life
-ItemDisplay[g34]: %NAME%%MAP-00% // The Golden Bird
 ItemDisplay[hfh]: %NAME%%MAP-00% // Hellforge Hammer
 ItemDisplay[ice]: %NAME%%MAP-00% // Malah's Potion
-ItemDisplay[tr2]: Scroll of Resistance%MAP-00% // Scroll of Resistance
+ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-00% // Scroll of Resistance
 
 // Essences
 ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00% // Burning Essence of Terror
