@@ -227,7 +227,7 @@ ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%
 //      Rare Jewelery
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All Rare amulets
 ItemDisplay[RARE !ID CIRC]: %NAME%%MAP-A8% // All Rare Circlets
-ItemDisplay[RARE !ID jew]: %YELLOW%O %NAME% O%WHITE%%MAP-A8% // All Rare Jewels
+ItemDisplay[RARE !ID jew]: %YELLOW%o %NAME% o%WHITE%%MAP-A8% // All Rare Jewels
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All Rare rings
 
 //      Rare Class Specific
@@ -309,12 +309,12 @@ ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% //
 ItemDisplay[MAG !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Adding $ to 35k+ Magic items for Hell difficulty
 
 //      Magic Charms
-ItemDisplay[MAG !ID cm1]: %BLUE%O %NAME% O%WHITE%%MAP-97% // Magic Small Charms
-ItemDisplay[MAG !ID cm2]: %BLUE%O %NAME% O%WHITE%%MAP-97% // Magic Large Charms
-ItemDisplay[MAG !ID cm3]: %BLUE%O %NAME% O%WHITE%%MAP-97% // Magic Grand Charms
+ItemDisplay[MAG !ID cm1]: %BLUE%o %NAME% o%WHITE%%MAP-97% // Magic Small Charms
+ItemDisplay[MAG !ID cm2]: %BLUE%o %NAME% o%WHITE%%MAP-97% // Magic Large Charms
+ItemDisplay[MAG !ID cm3]: %BLUE%o %NAME% o%WHITE%%MAP-97% // Magic Grand Charms
 
 //      Magic Jewels
-ItemDisplay[MAG !ID jew]: %BLUE%O %NAME% O%WHITE%%DOT-97% // All Magic Jewels
+ItemDisplay[MAG !ID jew]: %BLUE%o %NAME% o%WHITE%%DOT-97% // All Magic Jewels
 
 //      Magic Class Specific
 ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME% // Magic Amazon Javelins (6/40 etc)
