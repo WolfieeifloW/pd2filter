@@ -204,12 +204,26 @@ ItemDisplay[aqv CLVL>5]: // Hides Arrow quivers past character level 5
 ItemDisplay[cqv CLVL>5]: // Hides Bolt quivers past character level 5
 
 // Unique Items -----------------------------------------------------------------
-ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items
+ItemDisplay[UNI ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko Rune, Lem%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items
 
 // Set Items --------------------------------------------------------------------
-ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
+ItemDisplay[SET ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko Rune, Lem%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 
 // Rare Items -------------------------------------------------------------------
+//		Upgrade recipes
+ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
+
 //      Rare Jewelery
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All Rare amulets
 ItemDisplay[RARE !ID CIRC]: %NAME%%MAP-A8% // All Rare Circlets

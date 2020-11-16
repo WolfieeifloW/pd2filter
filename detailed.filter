@@ -47,43 +47,43 @@
 //
 // +-----------------------------------------+-----------------------------------------+-----------------------------------------+-----------------------------------------+
 // |   [QUES] Quest Items                (1) |   [UNIQ] Unique Items               (2) |   [SETS] Set Items                  (3) |   [RARI] Rare Items                 (4) |
-// |      [QIA1] Act 1                       |      [UIMI] Unique Miscellaneous        |      [SIMU] Set Multiple                |      [RIVE] Rare Items Vendor           |
-// |      [QIA2] Act 2                       |         [UMAM] Amulets                  |      [SINS] Normal Sets                 |      [RIMI] Rare Miscellaneous          |
-// |      [QIA3] Act 3                       |         [UMCH] Charms                   |         [SIAR] Angelic Raiment          |         [RMAM] Amulets                  |
-// |      [QIA4] Act 4                       |         [UMCI] Circlets                 |         [SIAT] Arcanna's Tricks         |         [RMCH] Charms                   |
-// |      [QIA5] Act 5                       |         [UMJE] Jewels                   |         [SIAG] Arctic Gear              |         [RMCI] Circlets                 |
-// |      [QIES] Essences                    |         [UMRI] Rings                    |         [SIBA] Berserker's Arsenal      |         [RMJE] Jewels                   |
-// |      [QITO] Tokens                      |      [UICS] Unique Class Specific       |         [SICT] Cathan's Traps           |         [RMRI] Rings                    |
-// |      [QIKE] Pandemonium Keys            |         [UCAM] Amazon                   |         [SICV] Civerb's Vestments       |      [RICS] Rare Class Specific         |
-// |      [QIOR] Pandemonium Organs          |         [UCAS] Assassin                 |         [SICB] Cleglaw's Brace          |         [RCAM] Amazon                   |
-// |   [PD2N] Project Diablo 2 Items         |         [UCBA] Barbarian                |         [SIDD] Death's Disguise         |         [RCAS] Assassin                 |
-// |      [CORR] Corruption Items            |         [UCDR] Druid                    |         [SIHD] Hsarus' Defense          |         [RCBA] Barbarian                |
-// |      [MAPI] Map Items                   |         [UCNE] Necromancer              |         [SIIT] Infernal Tools           |         [RCDR] Druid                    |
-// |      [MAPS] Maps                        |         [UCPA] Paladin                  |         [SIIF] Iratha's Finery          |         [RCNE] Necromancer              |
-// |      [DCLO] Diablo Clone Items          |         [UCSO] Sorceress                |         [SIIA] Isenhart's Armory        |         [RCPA] Paladin                  |
-// |   [GEMS] Gems                           |      [UIUA] Unique Armor                |         [SIMR] Milabrega's Regalia      |         [RCSO] Sorceress                |
-// |      [GEMA] Gems Master                 |         [UAAR] Armor                    |         [SISC] Sigon's Complete Steel   |      [RIUA] Rare Armor                  |
-// |      [GEAM] Amethyst                    |         [UABE] Belts                    |         [SITB] Tancred's Battlegear     |         [RAAR] Armor                    |
-// |      [GEDI] Diamond                     |         [UABO] Boots                    |         [SIVR] Vidala's Rig             |         [RABE] Belts                    |
-// |      [GEEM] Emerald                     |         [UAGL] Gloves                   |      [SIES] Exceptional/Elite Sets      |         [RABO] Boots                    |
-// |      [GERU] Ruby                        |         [UAHE] Helms                    |         [SIAW] Aldur's Watchtower       |         [RAGL] Gloves                   |
-// |      [GESA] Sapphire                    |         [UASH] Shields                  |         [SIBK] Bul-Kathos' Children     |         [RAHE] Helms                    |
-// |      [GESK] Skull                       |      [UIUW] Unique Weapons              |         [SICK] Cow King's Leathers      |         [RASH] Shields                  |
-// |      [GETO] Topaz                       |         [UWAX] Axes                     |         [SITD] The Disciple             |      [RIUW] Rare Weapons                |
-// |   [RUNS] Runes                          |         [UWBO] Bows                     |         [SIGL] Griswold's Legacy        |         [RWAX] Axes                     |
-// |      [RUMA] Rune Map Icons              |         [UWCR] Crossbows                |         [SIHB] Heaven's Brethren        |         [RWBO] Bows                     |
-// |      [RUDE] Rune Descriptions           |         [UWDA] Daggers                  |         [SIHM] Hwanin's Majesty         |         [RWCR] Crossbows                |
-// |         [RULO] Low Runes                |         [UWJA] Javelins                 |         [SIIK] Immortal King            |         [RWDA] Daggers                  |
-// |         [RUMI] Mid Runes                |         [UWMA] Maces                    |         [SIMB] M'avina's Battle Hymn    |         [RWJA] Javelins                 |
-// |         [RUHI] High Runes               |         [UWPO] Polearms                 |         [SINO] Natalya's Odium          |         [RWMA] Maces                    |
-// |   [ITEM] Item Basics                    |         [UWSC] Scepters                 |         [SINA] Naj's Ancient Vestige    |         [RWPO] Polearms                 |
-// |      [IBAD] Eth/Sockets/Item Level      |         [UWSP] Spears                   |         [SIOC] Orphan's Call            |         [RWSC] Scepters                 |
-// |      [IBOT] Other Items                 |         [UWST] Staves                   |         [SISF] Sander's Folly           |         [RWSP] Spears                   |
-// |      [IBVE] Vendor Items                |         [UWSW] Swords                   |         [SISG] Sazabi's Grand Tribute   |         [RWST] Staves                   |
-// |                                         |         [UWTH] Throwing Weapons         |         [SITR] Tal Rasha's Wrappings    |         [RWSW] Swords                   |
-// |                                         |         [UWWA] Wands                    |         [SITO] Trang-Oul's Avatar       |         [RWTH] Throwing Weapons         |
-// |                                         |      [UIMA] Unique Items Master         |      [SIMA] Set Items Master            |         [RWWA] Wands                    |
-// |                                         |                                         |                                         |      [RIMA] Rare Items Master           |
+// |      [QIA1] Act 1                       |      [UIMI] Unique Miscellaneous        |      [SIMI] Set Miscellaneous           |      [RIVE] Rare Items Vendor           |
+// |      [QIA2] Act 2                       |         [UMAM] Amulets                  |      [SIMU] Set Multiple                |      [RIMI] Rare Miscellaneous          |
+// |      [QIA3] Act 3                       |         [UMCH] Charms                   |      [SINS] Normal Sets                 |         [RMAM] Amulets                  |
+// |      [QIA4] Act 4                       |         [UMCI] Circlets                 |         [SIAR] Angelic Raiment          |         [RMCH] Charms                   |
+// |      [QIA5] Act 5                       |         [UMJE] Jewels                   |         [SIAT] Arcanna's Tricks         |         [RMCI] Circlets                 |
+// |      [QIES] Essences                    |         [UMRI] Rings                    |         [SIAG] Arctic Gear              |         [RMJE] Jewels                   |
+// |      [QITO] Tokens                      |      [UICS] Unique Class Specific       |         [SIBA] Berserker's Arsenal      |         [RMRI] Rings                    |
+// |      [QIKE] Pandemonium Keys            |         [UCAM] Amazon                   |         [SICT] Cathan's Traps           |      [RICS] Rare Class Specific         |
+// |      [QIOR] Pandemonium Organs          |         [UCAS] Assassin                 |         [SICV] Civerb's Vestments       |         [RCAM] Amazon                   |
+// |   [PD2N] Project Diablo 2 Items         |         [UCBA] Barbarian                |         [SICB] Cleglaw's Brace          |         [RCAS] Assassin                 |
+// |      [CORR] Corruption Items            |         [UCDR] Druid                    |         [SIDD] Death's Disguise         |         [RCBA] Barbarian                |
+// |      [MAPI] Map Items                   |         [UCNE] Necromancer              |         [SIHD] Hsarus' Defense          |         [RCDR] Druid                    |
+// |      [MAPS] Maps                        |         [UCPA] Paladin                  |         [SIIT] Infernal Tools           |         [RCNE] Necromancer              |
+// |      [DCLO] Diablo Clone Items          |         [UCSO] Sorceress                |         [SIIF] Iratha's Finery          |         [RCPA] Paladin                  |
+// |   [GEMS] Gems                           |      [UIUA] Unique Armor                |         [SIIA] Isenhart's Armory        |         [RCSO] Sorceress                |
+// |      [GEMA] Gems Master                 |         [UAAR] Armor                    |         [SIMR] Milabrega's Regalia      |      [RIUA] Rare Armor                  |
+// |      [GEAM] Amethyst                    |         [UABE] Belts                    |         [SISC] Sigon's Complete Steel   |         [RAAR] Armor                    |
+// |      [GEDI] Diamond                     |         [UABO] Boots                    |         [SITB] Tancred's Battlegear     |         [RABE] Belts                    |
+// |      [GEEM] Emerald                     |         [UAGL] Gloves                   |         [SIVR] Vidala's Rig             |         [RABO] Boots                    |
+// |      [GERU] Ruby                        |         [UAHE] Helms                    |      [SIES] Exceptional/Elite Sets      |         [RAGL] Gloves                   |
+// |      [GESA] Sapphire                    |         [UASH] Shields                  |         [SIAW] Aldur's Watchtower       |         [RAHE] Helms                    |
+// |      [GESK] Skull                       |      [UIUW] Unique Weapons              |         [SIBK] Bul-Kathos' Children     |         [RASH] Shields                  |
+// |      [GETO] Topaz                       |         [UWAX] Axes                     |         [SICK] Cow King's Leathers      |      [RIUW] Rare Weapons                |
+// |   [RUNS] Runes                          |         [UWBO] Bows                     |         [SITD] The Disciple             |         [RWAX] Axes                     |
+// |      [RUMA] Rune Map Icons              |         [UWCR] Crossbows                |         [SIGL] Griswold's Legacy        |         [RWBO] Bows                     |
+// |      [RUDE] Rune Descriptions           |         [UWDA] Daggers                  |         [SIHB] Heaven's Brethren        |         [RWCR] Crossbows                |
+// |         [RULO] Low Runes                |         [UWJA] Javelins                 |         [SIHM] Hwanin's Majesty         |         [RWDA] Daggers                  |
+// |         [RUMI] Mid Runes                |         [UWMA] Maces                    |         [SIIK] Immortal King            |         [RWJA] Javelins                 |
+// |         [RUHI] High Runes               |         [UWPO] Polearms                 |         [SIMB] M'avina's Battle Hymn    |         [RWMA] Maces                    |
+// |   [ITEM] Item Basics                    |         [UWSC] Scepters                 |         [SINO] Natalya's Odium          |         [RWPO] Polearms                 |
+// |      [IBAD] Eth/Sockets/Item Level      |         [UWSP] Spears                   |         [SINA] Naj's Ancient Vestige    |         [RWSC] Scepters                 |
+// |      [IBOT] Other Items                 |         [UWST] Staves                   |         [SIOC] Orphan's Call            |         [RWSP] Spears                   |
+// |      [IBVE] Vendor Items                |         [UWSW] Swords                   |         [SISF] Sander's Folly           |         [RWST] Staves                   |
+// |                                         |         [UWTH] Throwing Weapons         |         [SISG] Sazabi's Grand Tribute   |         [RWSW] Swords                   |
+// |                                         |         [UWWA] Wands                    |         [SITR] Tal Rasha's Wrappings    |         [RWTH] Throwing Weapons         |
+// |                                         |      [UIMA] Unique Items Master         |         [SITO] Trang-Oul's Avatar       |         [RWWA] Wands                    |
+// |                                         |                                         |      [SIMA] Set Items Master            |      [RIMA] Rare Items Master           |
 // |                                         |                                         |                                         |                                         |
 // +-----------------------------------------+-----------------------------------------+-----------------------------------------+-----------------------------------------+
 // |   [CRAF] Crafted Items              (5) |   [MAGI] Magic Items                (6) |   [BASE] Base Items                 (7) |   [RAND] Random Information         (8) |
@@ -463,6 +463,12 @@ ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
 // ------------------------------------------------------------------------------
 // [UIMI] Unique Miscellaneous
 // ------------------------------------------------------------------------------
+// Upgrade recipes for Unique items
+ItemDisplay[UNI ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko Rune, Lem%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+
 // This line shows all unique unid items and will override the Master section at the end
 // If you only want to see all unique items but not be notified than comment out this line and take a look at the Unique Items Master section
 ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items
@@ -1285,6 +1291,15 @@ ItemDisplay[UNI CLVL>59 !ID]: %NAME% // At level 60+, stop notifying for all uni
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 // ------------------------------------------------------------------------------
+// [SIMI] Set Miscellaneous
+// ------------------------------------------------------------------------------
+// Upgrade recipes for Set items
+ItemDisplay[SET ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko Rune, Lem%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+
+// ------------------------------------------------------------------------------
 // [SIMU] Set Multiple
 // ------------------------------------------------------------------------------
 // This line shows all set unid items and will override the Master section at the end
@@ -1590,7 +1605,11 @@ ItemDisplay[RARE !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%C
 // ------------------------------------------------------------------------------
 // [RIMI] Rare Miscellaneous
 // ------------------------------------------------------------------------------
-// Items used for crafting (eg amulets/charms/rings) check the "Crafted Items" section
+// Upgrade recipes for Rare items
+ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 
 // ------------------------------------------------------------------------------
 //      [RMAM] Amulets

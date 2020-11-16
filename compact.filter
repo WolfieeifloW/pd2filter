@@ -175,6 +175,10 @@ ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
 ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
 
 // Unique Items
+ItemDisplay[UNI ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko Rune, Lem%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items
 ItemDisplay[UNI !ID amu]: %NAME%%MAP-A5% // All unique amulets
 ItemDisplay[UNI !ID cm1]: %NAME%%MAP-A5% // Annihilus Small Charm
@@ -526,6 +530,10 @@ ItemDisplay[UNI CLVL<60 !ID]: %NAME%%MAP-A5% // Notification and map ping for al
 ItemDisplay[UNI CLVL>59 !ID]: %NAME% // At level 60+, stop notifying for all uniques, and only notify for the ones uncommented above - comment out %NAME% (change to "//%NAME%"") in this line to completely hide unwanted uniques
 
 // Set Items
+ItemDisplay[SET ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko Rune, Lem%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 ItemDisplay[SET !ID amu]: %NAME%%MAP-84% // Angelic, Arcanna, Cathan, Civerb, Iratha, Tal Rasha, Tancred, The Disciple, Vidala Amulets
 ItemDisplay[SET !ID cap]: %NAME%%MAP-84% // Infernal, Sanders Caps
@@ -643,6 +651,10 @@ ItemDisplay[SET CLVL<60 !ID]: %NAME%%MAP-84% // Notification and map ping for al
 ItemDisplay[SET CLVL>59 !ID]: %NAME% // At level 60+, stop notifying for all sets, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted sets
 
 // Rare Items
+ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Normal difficulty
 ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Nightmare difficulty
 ItemDisplay[RARE !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Hell difficulty
