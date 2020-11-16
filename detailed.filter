@@ -77,9 +77,9 @@
 // |         [RUMI] Mid Runes                |         [UWMA] Maces                    |         [SIMB] M'avina's Battle Hymn    |         [RWJA] Javelins                 |
 // |         [RUHI] High Runes               |         [UWPO] Polearms                 |         [SINO] Natalya's Odium          |         [RWMA] Maces                    |
 // |   [ITEM] Item Basics                    |         [UWSC] Scepters                 |         [SINA] Naj's Ancient Vestige    |         [RWPO] Polearms                 |
-// |      [IBVE] Vendor Items                |         [UWSP] Spears                   |         [SIOC] Orphan's Call            |         [RWSC] Scepters                 |
+// |      [IBAD] Eth/Sockets/Item Level      |         [UWSP] Spears                   |         [SIOC] Orphan's Call            |         [RWSC] Scepters                 |
 // |      [IBOT] Other Items                 |         [UWST] Staves                   |         [SISF] Sander's Folly           |         [RWSP] Spears                   |
-// |      [IBAD] Eth/Sockets/Item Level      |         [UWSW] Swords                   |         [SISG] Sazabi's Grand Tribute   |         [RWST] Staves                   |
+// |      [IBVE] Vendor Items                |         [UWSW] Swords                   |         [SISG] Sazabi's Grand Tribute   |         [RWST] Staves                   |
 // |                                         |         [UWTH] Throwing Weapons         |         [SITR] Tal Rasha's Wrappings    |         [RWSW] Swords                   |
 // |                                         |         [UWWA] Wands                    |         [SITO] Trang-Oul's Avatar       |         [RWTH] Throwing Weapons         |
 // |                                         |      [UIMA] Unique Items Master         |      [SIMA] Set Items Master            |         [RWWA] Wands                    |
@@ -399,6 +399,16 @@ ItemDisplay[RUNE=33]: %NAME% // Zod Rune
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 // ------------------------------------------------------------------------------
+// [IBAD] Eth/Sockets/Item Level
+// ------------------------------------------------------------------------------
+ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
+ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
+ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
+// Uncomment (remove // at the start of the line) to display item level on items
+//ItemDisplay[!ETH SOCK=0 (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME% [i%ILVL%]%CONTINUE% // Add ilvl to the end of items' names (eg "Quilted Armor [i99]")
+//ItemDisplay[!RW (ETH OR SOCK>0) (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME%[i%ILVL%]%CONTINUE% // No space between ilvl and other displays if item is eth (eg "Quilted Armor [Eth][2][i99]")
+
+// ------------------------------------------------------------------------------
 // [IBVE] Vendor Items
 // ------------------------------------------------------------------------------
 // Amazon Javelins
@@ -444,16 +454,6 @@ ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to s
 ItemDisplay[INF (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
 ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
-
-// ------------------------------------------------------------------------------
-// [IBAD] Eth/Sockets/Item Level
-// ------------------------------------------------------------------------------
-ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
-ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
-ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
-// Uncomment (remove // at the start of the line) to display item level on items
-//ItemDisplay[!ETH SOCK=0 (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME% [i%ILVL%]%CONTINUE% // Add ilvl to the end of items' names (eg "Quilted Armor [i99]")
-//ItemDisplay[!RW (ETH OR SOCK>0) (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME%[i%ILVL%]%CONTINUE% // No space between ilvl and other displays if item is eth (eg "Quilted Armor [Eth][2][i99]")
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |

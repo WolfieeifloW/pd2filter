@@ -133,18 +133,18 @@ ItemDisplay[RUNE>23]: %RED%%RUNENAME% %RED%(%RUNENUM%)%BORDER-50%%CONTINUE% // I
 ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
 ItemDisplay[RUNE>0]: %NAME%
 
-// Other Items
-ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
-ItemDisplay[INF (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
-ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
-ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
-
 ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
 ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
 ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
 // Uncomment (remove // at the start of the line) to display item level on items
 //ItemDisplay[!ETH SOCK=0 (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME% [i%ILVL%]%CONTINUE% // Add ilvl to the end of items' names (eg "Quilted Armor [i99]")
 //ItemDisplay[!RW (ETH OR SOCK>0) (MAG OR RARE OR ARMOR OR WEAPON OR amu OR rin)]: %NAME%[i%ILVL%]%CONTINUE% // No space between ilvl and other displays if item is eth (eg "Quilted Armor [Eth][2][i99]")
+
+// Other Items
+ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
+ItemDisplay[INF (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
+ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
+ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
 
 // Unique Items
 ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items

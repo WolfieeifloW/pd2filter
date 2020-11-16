@@ -172,6 +172,11 @@ ItemDisplay[RUNE=31]: %NAME%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
 ItemDisplay[RUNE=32]: %NAME%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
 ItemDisplay[RUNE=33]: %NAME% // Zod Rune
 
+// Eth/Sockets/Item Level -------------------------------------------------------
+ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
+ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
+ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
+
 // Vendor Items -----------------------------------------------------------------
 ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %GREEN%(+5 Jav) %BLUE%%NAME% // +2 Amazon, +3 Javelin Skills Javelin
 ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %GREEN%(+3 Jav 20IAS) %BLUE%%NAME% // 3 Javelin Skills, 20 IAS glove
@@ -197,11 +202,6 @@ ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to s
 ItemDisplay[INF (ARMOR OR WEAPON) CLVL>5]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 5
 ItemDisplay[aqv CLVL>5]: // Hides Arrow quivers past character level 5
 ItemDisplay[cqv CLVL>5]: // Hides Bolt quivers past character level 5
-
-// Eth/Sockets/Item Level -------------------------------------------------------
-ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
-ItemDisplay[!RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
-ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
 
 // Unique Items -----------------------------------------------------------------
 ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items
