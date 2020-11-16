@@ -162,7 +162,7 @@ ItemDisplay[msf]: %NAME%%MAP-00%{%TAN%Cube w/ Amulet of the Viper} // Staff of K
 ItemDisplay[j34]: %NAME%%MAP-00%{%TAN%in Act 3%NL%Give to Meshif%NL%} // A Jade Figurine
 ItemDisplay[g34]: %NAME%%MAP-00%{%TAN%in Act 3%NL%Give to Alkor%NL%} // The Golden Bird
 ItemDisplay[xyz]: %GOLD%Potion of Life%MAP-00%{%TAN%permanent +20 to Life%NL%Right click for a%NL%} // Potion of Life
-ItemDisplay[g33]: %NAME%%MAP-00%{%TAN%Give to Ormus in Act 3%NL%} // Gidbinn
+ItemDisplay[g33]: %NAME%%MAP-00%{%TAN%Give to Ormus in Act 3} // Gidbinn
 ItemDisplay[qey]: %NAME%%MAP-00%{%TAN%Heart, & Flail%NL%Cube w/ Brain,%NL%} // Khalim's Eye
 ItemDisplay[qbr]: %NAME%%MAP-00%{%TAN%Heart, & Flail%NL%Cube w/ Eye,%NL%} // Khalim's Brain
 ItemDisplay[qhr]: %NAME%%MAP-00%{%TAN%Brain, & Flail%NL%Cube w/ Eye,%NL%} // Khalim's Heart
