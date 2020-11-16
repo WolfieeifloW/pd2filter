@@ -166,7 +166,7 @@ ItemDisplay[g33]: %NAME%%MAP-00%{%TAN%Give to Ormus in Act 3} // Gidbinn
 ItemDisplay[qey]: %NAME%%MAP-00%{%TAN%Heart, & Flail%NL%Cube w/ Brain,%NL%} // Khalim's Eye
 ItemDisplay[qbr]: %NAME%%MAP-00%{%TAN%Heart, & Flail%NL%Cube w/ Eye,%NL%} // Khalim's Brain
 ItemDisplay[qhr]: %NAME%%MAP-00%{%TAN%Brain, & Flail%NL%Cube w/ Eye,%NL%} // Khalim's Heart
-ItemDisplay[qf1]: %NAME%%MAP-00%{%TAN%Cube w/ Brain, Eye, & Heart} // Khalim's Flail
+ItemDisplay[qf1]: %NAME%%MAP-00%{%TAN%Cube w/ Eye, Brain, & Heart} // Khalim's Flail
 ItemDisplay[qf2]: %NAME%%MAP-00%{%TAN%Hit Compelling Orb in Act 3: Travincal} // Khalim's Will
 ItemDisplay[bbb]: %NAME%%MAP-00%{%TAN%+5 Stat Points%NL%Give to Alkor for%NL%} // Lam Esen's Tome
 ItemDisplay[mss]: %NAME%%MAP-00%{%TAN%Act 4: River of Flame%NL%Take to the Hellforge in%NL%} // Mephisto's Soulstone
