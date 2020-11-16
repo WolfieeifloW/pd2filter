@@ -63,14 +63,14 @@ ItemDisplay[imma]: %NAME%{%TAN%Any Rune, & White Map%NL%Cube w/ Jewel,%NL%%ORANG
 ItemDisplay[scou]: %NAME%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 
 // Maps -------------------------------------------------------------------------
-ItemDisplay[t11]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath Map
-ItemDisplay[t12]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Mesa Map
-ItemDisplay[t13]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Palace Map
-ItemDisplay[t14]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ice Caves Map
-ItemDisplay[t15]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazons Memory Map
-ItemDisplay[t16]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun
-ItemDisplay[t17]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood
-ItemDisplay[t18]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon Map
+ItemDisplay[t11]: %YELLOW%++ %NAME% %YELLOW%++%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath Map
+ItemDisplay[t12]: %RED+ %NAME% %RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Mesa Map
+ItemDisplay[t13]: %RED++ %NAME% %RED%++%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Palace Map
+ItemDisplay[t14]: %PURPLE%+ %NAME% %PURPLE%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ice Caves Map
+ItemDisplay[t15]: %PURPLE%++ %NAME% %PURPLE%++%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazons Memory Map
+ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun
+ItemDisplay[t17]: %DARK_GREEN%++ %NAME% %DARK_GREEN%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood
+ItemDisplay[t18]: %YELLOW%+ %NAME% %YELLOW%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon Map
 
 // Diablo Clone Items -----------------------------------------------------------
 ItemDisplay[dcma]: %RED%%NAME%%MAP-62%{%TAN%Soul to fight Uber Diablo!%NL%Black Soulstone, & Prime Evil%NL%Cube w/ Pure Demonic Essence,} // Vision of Terror
