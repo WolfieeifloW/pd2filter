@@ -653,7 +653,7 @@ ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
 ItemDisplay[RARE !ID CLVL<20 ZON]: %NAME%%MAP-A8% // Show all Amazon weapons before level 20
 ItemDisplay[RARE !ID ELT ZON]: %NAME%%MAP-A8% // All Elite tier Amazon weapons
 ItemDisplay[RARE !ID CLVL<20 SIN]: %NAME%%MAP-A8% // Show all Assassin Katars before level 20
-ItemDisplay[RARE !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr)]: %NAME%%MAP-A8% // Assassin Katars, best Katars
+ItemDisplay[RARE !ID SIN]: %NAME%%MAP-A8% // All Assassin Katars
 ItemDisplay[RARE !ID CLVL<20 BAR]: %NAME%%MAP-A8% // Show all Barbarian helmets before level 20
 ItemDisplay[RARE !ID BAR]: %NAME%%MAP-A8% // All Barbarian helmets
 ItemDisplay[RARE !ID CLVL<20 DRU]: %NAME%%MAP-A8% // Show all Druid Pelts before level 20
