@@ -686,7 +686,7 @@ ItemDisplay[RARE !ID ELT SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Elite tier 
 ItemDisplay[RARE !ID CLVL<20 MACE]: %NAME%%MAP-A8% // Show all Maces before level 20
 ItemDisplay[RARE !ID CLVL<20 POLEARM]: %NAME%%MAP-A8% // Show all Polearms before level 20
 ItemDisplay[RARE !ID CLVL<20 SCEPTER]: %NAME%%MAP-A8% // Show all Scepters before level 20
-ItemDisplay[RARE !ID ELT SCEPTER]: %NAME%%MAP-A8% // All Elite tier Scepters
+ItemDisplay[RARE !ID SCEPTER]: %NAME%%MAP-A8% // All Scepters
 ItemDisplay[RARE !ID CLVL<20 SPEAR !THROWING !ZON]: %NAME%%MAP-A8% // Show all Spears before level 20
 ItemDisplay[RARE !ID CLVL<20 STAFF]: %NAME%%MAP-A8% // Show all Staves before level 20
 ItemDisplay[RARE !ID ELT STAFF]: %NAME%%MAP-A8% // All Elite tier Staves

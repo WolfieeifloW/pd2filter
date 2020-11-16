@@ -2379,10 +2379,10 @@ ItemDisplay[RARE !ID CLVL<20 POLEARM]: %NAME%%MAP-A8% // Show all Polearms befor
 // ------------------------------------------------------------------------------
 // All rare Scepters
 ItemDisplay[RARE !ID CLVL<20 SCEPTER]: %NAME%%MAP-A8% // Show all Scepters before level 20
-//ItemDisplay[RARE !ID SCEPTER]: %NAME%%MAP-A8% // All Scepters
+ItemDisplay[RARE !ID SCEPTER]: %NAME%%MAP-A8% // All Scepters
 //ItemDisplay[RARE !ID NORM SCEPTER]: %NAME%%MAP-A8% // All Normal tier Scepters
 //ItemDisplay[RARE !ID EXC SCEPTER]: %NAME%%MAP-A8% // All Exceptional tier Scepters
-ItemDisplay[RARE !ID ELT SCEPTER]: %NAME%%MAP-A8% // All Elite tier Scepters
+//ItemDisplay[RARE !ID ELT SCEPTER]: %NAME%%MAP-A8% // All Elite tier Scepters
 
 // Normal tier rare Scepters
 //ItemDisplay[RARE !ID scp]: %NAME%%MAP-A8% // Scepter
