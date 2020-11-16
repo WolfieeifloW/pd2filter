@@ -34,7 +34,7 @@ Ensure you have opened the PD2 Launcher (as Administrator) and clicked Play. Thi
 
 If it worked a Minor Health Potion should now say *HP1*.
 
-![In-Game Settings](https://i.imgur.com/y7vCGmq.png)
+![In-Game Settings](https://i.imgur.com/1YOQlEo.png)
 
 # Loot Filters
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
