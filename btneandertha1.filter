@@ -213,7 +213,7 @@ ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notif
 //      Rare Jewelery
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All Rare amulets
 ItemDisplay[RARE !ID CIRC]: %NAME%%MAP-A8% // All Rare Circlets
-ItemDisplay[RARE !ID jew]: %YELLOW%O %NAME O%WHITE%%%MAP-A8% // All Rare Jewels
+ItemDisplay[RARE !ID jew]: %YELLOW%O %NAME% O%WHITE%%MAP-A8% // All Rare Jewels
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All Rare rings
 
 //      Rare Class Specific
