@@ -37,19 +37,19 @@ ItemDisplay[ice]: %GOLD%Malahs Potion{%TAN%Act 5: Frozen River%NL%Touch Anya in%
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance{%TAN%All Resistances +10%NL%Right click for a permanent%NL%} // Scroll of Resistance
 
 // Essences & Token -------------------------------------------------------------
-ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Diablo%NL%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror
-ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Mephisto%NL%Cube w/ Burning, Festering, & Twisted essences%NL%} // Charged Essence of Hatred
-ItemDisplay[fed]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Baal%NL%Cube w/ Burning, Charged, & Twisted essences%NL%} // Festering Essence of Destruction
-ItemDisplay[tes]: %ORANGE%%NAME%%MAP-00%{%TAN%Drops from Andarial & Duriel%NL%Cube w/ Burning, Charged, & Festering essences%NL%} // Twisted Essence of Suffering
+ItemDisplay[bet]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from NM & Hell Diablo%NL%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror
+ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from NM & Hell Mephisto%NL%Cube w/ Burning, Festering, & Twisted essences%NL%} // Charged Essence of Hatred
+ItemDisplay[fed]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from NM & Hell Baal%NL%Cube w/ Burning, Charged, & Twisted essences%NL%} // Festering Essence of Destruction
+ItemDisplay[tes]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from NM & Hell Andarial & Duriel%NL%Cube w/ Burning, Charged, & Festering essences%NL%} // Twisted Essence of Suffering
 ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
 
 // Pandemonium Items ------------------------------------------------------------
-ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from Nihlathak & Izual%NL%Cube w/ Hate + Terror keys in Act 5%NL%} // Key of Destruction
-ItemDisplay[pk2]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from The Summoner & Bloodwitch the Wild%NL%Cube w/ Destruction + Terror keys in Act 5%NL%} // Key of Hate
-ItemDisplay[pk1]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from The Countess & Blood Raven%NL%Cube w/ Destruction + Hate keys in Act 5%NL%} // Key of Terror
-ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube any 3 organs in Act 5 to open Uber Trist%NL%} // Baal's Eye
-ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube any 3 organs in Act 5 to open Uber Trist%NL%} // Diablo's Horn
-ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68%{%TAN%Cube any 3 organs in Act 5 to open Uber Trist%NL%} // Mephisto's Brain
+ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from Nihlathak & Izual%NL%Cube w/ Hate & Terror keys in Act 5%NL%} // Key of Destruction
+ItemDisplay[pk2]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from Summoner & Bloodwitch the Wild%NL%Cube w/ Destruction & Terror keys in Act 5%NL%} // Key of Hate
+ItemDisplay[pk1]: %ORANGE%%NAME%%MAP-68%{%TAN%Drops from Countess & Blood Raven%NL%Cube w/ Destruction & Hate keys in Act 5%NL%} // Key of Terror
+ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Baal's Eye
+ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Diablo's Horn
+ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Mephisto's Brain
 
 // Corruption Items -------------------------------------------------------------
 ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
@@ -63,14 +63,14 @@ ItemDisplay[imma]: %NAME%{%TAN%Any Rune, & White Map%NL%Cube w/ Jewel,%NL%%ORANG
 ItemDisplay[scou]: %NAME%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 
 // Maps -------------------------------------------------------------------------
-ItemDisplay[t11]: %YELLOW%++ %NAME% %YELLOW%++%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath Map
-ItemDisplay[t12]: %RED+ %NAME% %RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Mesa Map
-ItemDisplay[t13]: %RED++ %NAME% %RED%++%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Palace Map
-ItemDisplay[t14]: %PURPLE%+ %NAME% %PURPLE%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ice Caves Map
-ItemDisplay[t15]: %PURPLE%++ %NAME% %PURPLE%++%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazons Memory Map
-ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun
-ItemDisplay[t17]: %DARK_GREEN%++ %NAME% %DARK_GREEN%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood
-ItemDisplay[t18]: %YELLOW%+ %NAME% %YELLOW%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon Map
+ItemDisplay[t16]: %RED%+ %DARK_GREEN%%NAME% %RED%+%WHITE%%MAP-80%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun [T1]
+ItemDisplay[t18]: %RED%++ %DARK_GREEN%%NAME% %RED%++%WHITE%%MAP-80%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon Map [T2]
+ItemDisplay[t17]: %RED%+ %YELLOW%%NAME% %RED%++%WHITE%%MAP-A8%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood [T3]
+ItemDisplay[t11]: %RED%++ %YELLOW%%NAME% %RED%++%WHITE%%MAP-A8%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath Map [T?]
+ItemDisplay[t12]: %RED%+ %NAME% %RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Mesa Map [T?]
+ItemDisplay[t13]: %RED%++ %NAME% %RED%++%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Palace Map [T?]
+ItemDisplay[t14]: %RED%+ %PURPLE%%NAME% %RED%+%WHITE%%MAP-9B%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ice Caves Map [T?]
+ItemDisplay[t15]: %RED%++ %PURPLE%%NAME% %RED%++%WHITE%%MAP-9B%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazons Memory Map [T?]
 
 // Diablo Clone Items -----------------------------------------------------------
 ItemDisplay[dcma]: %RED%%NAME%%MAP-62%{%TAN%Soul to fight Uber Diablo!%NL%Black Soulstone, & Prime Evil%NL%Cube w/ Pure Demonic Essence,} // Vision of Terror
@@ -1165,25 +1165,349 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 fla]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORA
 ItemDisplay[NMAG !INF !RW SOCK=5 fla]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // Flail, 5os
 
 //      Base Polearms
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ELT POLEARM]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ELT POLEARM]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // Elite tiers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
-ItemDisplay[NMAG !INF !RW SOCK=5 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
-ItemDisplay[NMAG !INF !RW SOCK=6 ELT POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=2 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // Elite tiers, 2os
+ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=3 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=4 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
+ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=5 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
+ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=6 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
 
 //      Base Scepters
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (EXC OR ELT) SCEPTER]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (EXC OR ELT) SCEPTER]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 (EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW SOCK=5 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+ItemDisplay[NMAG !INF !RW SOCK=5 wsp SCEPTER]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All War Scepters, 5os
+
+//          Defensive Auras
+//              SK100 Resist Fire
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK100>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 RF%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK100>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 RF%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK100>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RF%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK100>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RF%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK100>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RF%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK100>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RF%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK100>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RF%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK100>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RF%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK104 Defiance
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK104>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Def%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK104>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Def%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK104>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Def%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK104>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Def%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK104>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Def%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK104>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Def%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK104>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Def%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK104>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Def%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK105 Resist Cold
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK105>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 RC%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK105>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 RC%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK105>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RC%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK105>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RC%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK105>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RC%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK105>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RC%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK105>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RC%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK105>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RC%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK109 Cleansing
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK109>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Clean%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK109>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Clean%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK109>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Clean%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK109>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Clean%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK109>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Clean%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK109>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Clean%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK109>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Clean%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK109>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Clean%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK110 Resist Lightning
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK110>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 RL%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK110>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 RL%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK110>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RL%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK110>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RL%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK110>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RL%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK110>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RL%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK110>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RL%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK110>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 RL%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK115 Vigor
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK115>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Vig%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK115>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Vig%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK115>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Vig%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK115>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Vig%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK115>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Vig%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK115>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Vig%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK115>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Vig%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK115>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Vig%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK120 Meditation
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK120>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Med%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK120>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Med%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK120>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Med%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK120>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Med%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK120>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Med%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK120>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Med%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK120>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Med%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK120>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Med%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK124 Redemption
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK124>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Red%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK124>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Red%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK124>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Red%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK124>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Red%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK124>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Red%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK124>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Red%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK124>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Red%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK124>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Red%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK125 Salvation
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK125>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Salv%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK125>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Salv%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK125>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Salv%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK125>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Salv%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK125>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Salv%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK125>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Salv%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK125>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Salv%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK125>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Salv%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK99 Prayer
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK99>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Pray%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK99>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Pray%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK99>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Pray%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK99>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Pray%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK99>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Pray%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK99>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Pray%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK99>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Pray%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK99>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Pray%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//          Offensive Auras
+//              SK98 Might
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK98>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Might%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK98>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Might%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK98>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Might%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK98>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Might%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK98>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Might%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK98>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Might%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK98>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Might%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK98>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Might%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK102 Holy Fire
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK102>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HFire%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK102>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HFire%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK102>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFire%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK102>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFire%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK102>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFire%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK102>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFire%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK102>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFire%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK102>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFire%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK103 Thorns
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK103>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Thorn%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK103>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Thorn%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK103>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Thorn%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK103>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Thorn%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK103>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Thorn%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK103>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Thorn%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK103>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Thorn%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK103>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Thorn%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK108 Blessed Aim
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK108>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK108>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK108>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK108>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK108>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK108>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK108>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK108>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK113 Concentration
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK113>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conc%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK113>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conc%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK113>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conc%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK113>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conc%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK113>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conc%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK113>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conc%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK113>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conc%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK113>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conc%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK114 Holy Freeze
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK114>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HFree%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK114>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HFree%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK114>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFree%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK114>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFree%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK114>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFree%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK114>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFree%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK114>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFree%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK114>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HFree%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK118 Holy Shock
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK118>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Shock%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK118>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Shock%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK118>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Shock%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK118>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Shock%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK118>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Shock%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK118>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Shock%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK118>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Shock%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK118>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Shock%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK119 Sanctuary
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK119>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Sanc%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK119>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Sanc%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK119>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sanc%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK119>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sanc%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK119>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sanc%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK119>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sanc%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK119>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sanc%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK119>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sanc%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK122 Fanaticism
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK122>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Fanat%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK122>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Fanat%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK122>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Fanat%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK122>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Fanat%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK122>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Fanat%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK122>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Fanat%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK122>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Fanat%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK122>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Fanat%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK123 Conviction
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK123>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Convi%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK123>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Convi%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK123>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Convi%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK123>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Convi%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK123>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Convi%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK123>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Convi%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK123>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Convi%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK123>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Convi%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//          Combat Skills
+//              SK101 Holy Bolt
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK101>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HB%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK101>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HB%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK101>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HB%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK101>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HB%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK101>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HB%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK101>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HB%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK101>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HB%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK101>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HB%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK106 Zeal
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK106>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Zeal%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK106>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Zeal%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK106>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Zeal%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK106>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Zeal%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK106>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Zeal%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK106>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Zeal%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK106>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Zeal%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK106>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Zeal%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK107 Charge
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK107>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Char%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK107>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Char%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK107>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Char%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK107>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Char%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK107>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Char%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK107>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Char%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK107>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Char%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK107>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Char%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK111 Vengeance
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK111>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Veng%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK111>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Veng%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK111>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Veng%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK111>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Veng%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK111>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Veng%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK111>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Veng%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK111>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Veng%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK111>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Veng%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK112 Blessed Hammer
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK112>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 BH%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK112>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 BH%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK112>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BH%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK112>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BH%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK112>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BH%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK112>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BH%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK112>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BH%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK112>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 BH%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK116 Conversion
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK116>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK116>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK116>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK116>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK116>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK116>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK116>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK116>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK117 Holy Shield
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK117>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HShi%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK117>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HShi%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK117>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HShi%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK117>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HShi%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK117>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HShi%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK117>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HShi%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK117>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HShi%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK117>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HShi%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK121 Fist of the Heavens
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK121>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 FoH%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK121>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 FoH%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK121>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 FoH%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK121>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 FoH%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK121>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 FoH%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK121>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 FoH%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK121>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 FoH%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK121>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 FoH%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK364 Holy Nova
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK364>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HN%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK364>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HN%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK364>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HN%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK364>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HN%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK364>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HN%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK364>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HN%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK364>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HN%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK364>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HN%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK371 Holy Light
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK371>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HL%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK371>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HL%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK371>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HL%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK371>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HL%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK371>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HL%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK371>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HL%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK371>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HL%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK371>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 HL%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK378 Joust
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK378>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Joust%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK378>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Joust%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK378>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Joust%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK378>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Joust%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK378>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Joust%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK378>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Joust%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK378>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Joust%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK378>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Joust%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK96 Sacrifice
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK96>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Sac%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK96>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Sac%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK96>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sac%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK96>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sac%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK96>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sac%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK96>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sac%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK96>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sac%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK96>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Sac%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+
+//              SK97 Smite
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK97>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Smite%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK97>2 (EXC OR ELT) SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Smite%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK97>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Smite%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK97>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Smite%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK97>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Smite%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK97>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Smite%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK97>2 (EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Smite%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice,%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK97>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Smite%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
 
 //      Base Spears
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
