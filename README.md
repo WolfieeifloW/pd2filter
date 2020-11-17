@@ -11,7 +11,6 @@
    1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
 1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
-1. [Completely Hidden Items](https://github.com/WolfieeifloW/pd2filter#completely-hidden-items)
 1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
 
@@ -76,24 +75,6 @@ These are the common problems that people seem to run into. Please check each of
 * Saving the filter file with the wrong name, eg **default.filter.filter**, **default.txt**, or **default.filter.txt**
 * Having a PD2 installation inside of a Diablo II folder which is inside another Diablo II folder (folderception!)
 * Not saving and closing the filter file after pasting into it
-
-# Completely Hidden Items
-The only items fully hidden in my filters (Detailed and Compact, at least) are:
-* Horadric Scroll (completely useless item)
-* Chipped, Flawed, and normal quality gems past certain character levels
-* All ears
-* All inferior (Broken, Crude, etc) items past certain character levels
-* All quivers past a certain character level
-* Low piles of gold past certain character levels
-* All potions except Super quality and Rejuvs past certain difficulties
-* Scrolls past certain difficulties
-* White items with 1 socket past a certain character level
-* White Amazon Javelins that are only +0-2 Jav skills past a certain character level
-* White Belts, Boots, and Gloves past certain character levels
-* White Bucklers (and Exceptional version) past certain character levels as they can only have 1 socket (no Runewords)
-* White Daggers and Dirks (and Exceptional & Elite versions) pastcertain character levels as they can only have 1 socket (no Runewords)
-* White Javelins past certain character levels (no sockets = no possible Runewords)
-* White throwing weapons past certain character levels (no sockets = no possible Runewords)
 
 # Donations
 I've had several people ask to donate. This is in **no way** required but is in all ways **very much appreciated**. To donate you can use [THIS](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD) link to send me money for my work.
