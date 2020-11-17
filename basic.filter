@@ -14,36 +14,36 @@
 
 // Filter lines start here
 // Quest items
-ItemDisplay[bks]: %NAME%%MAP-00% // Scroll of Inifuss
-ItemDisplay[bkd]: %NAME%%MAP-00% // Scroll of Inifuss, deciphered
-ItemDisplay[leg]: %GOLD%%NAME%%MAP-00% // Wirt's Leg
-ItemDisplay[hdm]: %NAME%%MAP-00% // Horadric Malus
-ItemDisplay[ass]: %GOLD%Book of Skill%MAP-00% // Book of Skill
+ItemDisplay[bks]: %NAME%%MAP-58% // Scroll of Inifuss
+ItemDisplay[bkd]: %NAME%%MAP-58% // Scroll of Inifuss, deciphered
+ItemDisplay[leg]: %GOLD%%NAME%%MAP-58% // Wirt's Leg
+ItemDisplay[hdm]: %NAME%%MAP-58% // Horadric Malus
+ItemDisplay[ass]: %GOLD%Book of Skill%MAP-58% // Book of Skill
 ItemDisplay[tr1]: // Horadric Scroll (useless item so we hide it)
-ItemDisplay[box]: %NAME%%MAP-00% // Horadric Cube
-ItemDisplay[hst]: %NAME%%MAP-00% // Horadric Staff
-ItemDisplay[vip]: %NAME%%MAP-00% // Amulet of the Viper
-ItemDisplay[msf]: %NAME%%MAP-00% // Staff of Kings
-ItemDisplay[j34]: %NAME%%MAP-00% // A Jade Figurine
-ItemDisplay[g33]: %NAME%%MAP-00% // Gidbinn
-ItemDisplay[g34]: %NAME%%MAP-00% // The Golden Bird
-ItemDisplay[xyz]: %GOLD%Potion of Life%MAP-00% // Potion of Life
-ItemDisplay[qey]: %NAME%%MAP-00% // Khalim's Eye
-ItemDisplay[qbr]: %NAME%%MAP-00% // Khalim's Brain
-ItemDisplay[qhr]: %NAME%%MAP-00% // Khalim's Heart
-ItemDisplay[qf1]: %NAME%%MAP-00% // Khalim's Flail
-ItemDisplay[qf2]: %NAME%%MAP-00% // Khalim's Will
-ItemDisplay[bbb]: %NAME%%MAP-00% // Lam Esen's Tome
-ItemDisplay[mss]: %NAME%%MAP-00% // Mephisto's Soulstone
-ItemDisplay[hfh]: %NAME%%MAP-00% // Hellforge Hammer
-ItemDisplay[ice]: %GOLD%Malahs Potion%MAP-00% // Malah's Potion
-ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-00% // Scroll of Resistance
+ItemDisplay[box]: %NAME%%MAP-58% // Horadric Cube
+ItemDisplay[hst]: %NAME%%MAP-58% // Horadric Staff
+ItemDisplay[vip]: %NAME%%MAP-58% // Amulet of the Viper
+ItemDisplay[msf]: %NAME%%MAP-58% // Staff of Kings
+ItemDisplay[j34]: %NAME%%MAP-58% // A Jade Figurine
+ItemDisplay[g33]: %NAME%%MAP-58% // Gidbinn
+ItemDisplay[g34]: %NAME%%MAP-58% // The Golden Bird
+ItemDisplay[xyz]: %GOLD%Potion of Life%MAP-58% // Potion of Life
+ItemDisplay[qey]: %NAME%%MAP-58% // Khalim's Eye
+ItemDisplay[qbr]: %NAME%%MAP-58% // Khalim's Brain
+ItemDisplay[qhr]: %NAME%%MAP-58% // Khalim's Heart
+ItemDisplay[qf1]: %NAME%%MAP-58% // Khalim's Flail
+ItemDisplay[qf2]: %NAME%%MAP-58% // Khalim's Will
+ItemDisplay[bbb]: %NAME%%MAP-58% // Lam Esen's Tome
+ItemDisplay[mss]: %NAME%%MAP-58% // Mephisto's Soulstone
+ItemDisplay[hfh]: %NAME%%MAP-58% // Hellforge Hammer
+ItemDisplay[ice]: %GOLD%Malahs Potion%MAP-58% // Malah's Potion
+ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-58% // Scroll of Resistance
 
 // Essences
-ItemDisplay[bet]: %ORANGE%%NAME%%MAP-00% // Burning Essence of Terror
-ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-00% // Charged Essence of Hatred
-ItemDisplay[fed]: %ORANGE%%NAME%%MAP-00% // Festering Essence of Destruction
-ItemDisplay[tes]: %ORANGE%%NAME%%MAP-00% // Twisted Essence of Suffering
+ItemDisplay[bet]: %ORANGE%%NAME%%MAP-68% // Burning Essence of Terror
+ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-68% // Charged Essence of Hatred
+ItemDisplay[fed]: %ORANGE%%NAME%%MAP-68% // Festering Essence of Destruction
+ItemDisplay[tes]: %ORANGE%%NAME%%MAP-68% // Twisted Essence of Suffering
 
 // Tokens
 ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68% // Token of Absolution
