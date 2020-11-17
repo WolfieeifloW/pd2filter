@@ -179,7 +179,7 @@ ItemDisplay[hfh]: %NAME%%MAP-00%{%TAN%Hit Hellforge in Act 4: River of Flame} //
 // ------------------------------------------------------------------------------
 // [QIA5] Act 5
 // ------------------------------------------------------------------------------
-ItemDisplay[ice]: %NAME%%MAP-00%{%TAN%Act 5: Frozen River%NL%Touch Anya in%NL%} // Malah's Potion
+ItemDisplay[ice]: %GOLD%Malahs Potion%MAP-00%{%TAN%Act 5: Frozen River%NL%Touch Anya in%NL%} // Malah's Potion
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-00%{%TAN%All Resistances +10%NL%Right click for a permanent%NL%} // Scroll of Resistance
 
 // ------------------------------------------------------------------------------

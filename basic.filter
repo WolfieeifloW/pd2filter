@@ -36,7 +36,7 @@ ItemDisplay[qf2]: %NAME%%MAP-00% // Khalim's Will
 ItemDisplay[bbb]: %NAME%%MAP-00% // Lam Esen's Tome
 ItemDisplay[mss]: %NAME%%MAP-00% // Mephisto's Soulstone
 ItemDisplay[hfh]: %NAME%%MAP-00% // Hellforge Hammer
-ItemDisplay[ice]: %NAME%%MAP-00% // Malah's Potion
+ItemDisplay[ice]: %GOLD%Malahs Potion%MAP-00% // Malah's Potion
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-00% // Scroll of Resistance
 
 // Essences
