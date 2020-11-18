@@ -8,6 +8,7 @@
    1. [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
    1. [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
    1. [Basic](https://github.com/WolfieeifloW/pd2filter#basic)
+   1. [Wolfie](https://github.com/WolfieeifloW/pd2filter#wolfie)
    1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
 1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
@@ -50,6 +51,11 @@ CTRL+click the above link for the raw code.
 CTRL+click the above link for the raw code.
 
 **Select this version if you want a template/base to start from for creating your own filter.** This filters purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
+
+### [Wolfie](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/wolfie.filter)
+CTRL+click the above link for the raw code.
+
+This version is a copy of my own personal filter. No support will be given for this filter. Only report items that are wrong or items that show as **+++ NO FILTER LINE +++**.
 
 ### [BTNeandertha1](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/btneandertha1.filter)
 CTRL+click the above link for the raw code.
