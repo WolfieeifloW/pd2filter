@@ -362,19 +362,19 @@ ItemDisplay[hp2 DIFF<1]: %RED%+%WHITE%H2 // Light Healing Potion
 ItemDisplay[hp2 DIFF>0]: // Hides Light Healing Potions after Normal difficulty
 ItemDisplay[hp3 DIFF<1]: %RED%+%WHITE%H3 // Healing Potion
 ItemDisplay[hp3 DIFF>0]: // Hides Healing Potions after after Normal difficulty
-ItemDisplay[hp4]: %RED%--%WHITE%H4%RED%--%WHITE% // Greater Healing Potion
-ItemDisplay[hp5]: %RED%++%WHITE%H5%RED%++%WHITE% // Super Healing Potion
+ItemDisplay[hp4]: %RED%-%WHITE%H4%RED%-%WHITE% // Greater Healing Potion
+ItemDisplay[hp5]: %RED%+%WHITE%H5%RED%+%WHITE% // Super Healing Potion
 ItemDisplay[mp1 DIFF<1]: %BLUE%+%WHITE%M1 // Minor Mana Potion
 ItemDisplay[mp1 DIFF>0]: // Hides Minor Mana Potions after Normal difficulty
 ItemDisplay[mp2 DIFF<1]: %BLUE%+%WHITE%M2 // Light Mana Potion
 ItemDisplay[mp2 DIFF>0]: // Hides Light Mana Potions after Normal difficulty
 ItemDisplay[mp3 DIFF<1]: %BLUE%+%WHITE%M3 // Mana Potion
 ItemDisplay[mp3 DIFF>0]: // Hides Mana Potions after after Normal difficulty
-ItemDisplay[mp4]: %BLUE%--%WHITE%M4%BLUE%--%WHITE% // Greater Mana Potion
-ItemDisplay[mp5]: %BLUE%++%WHITE%M5%BLUE%++%WHITE% // Super Mana Potion
+ItemDisplay[mp4]: %BLUE%-%WHITE%M4%BLUE%-%WHITE% // Greater Mana Potion
+ItemDisplay[mp5]: %BLUE%+%WHITE%M5%BLUE%+%WHITE% // Super Mana Potion
 
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35%%PURPLE%+%WHITE% // Rejuv Potion
-ItemDisplay[rvl]: %PURPLE%++%WHITE%65%%PURPLE%++%WHITE% // Full Rejuv Potion
+ItemDisplay[rvl]: %PURPLE%+++%WHITE%65%%PURPLE%+++%WHITE% // Full Rejuv Potion
 
 ItemDisplay[vps DIFF<2]: %WHITE%+S // Stamina Potion
 ItemDisplay[vps DIFF>1]: // Hides Stamina Potion after Nightmare difficulty
