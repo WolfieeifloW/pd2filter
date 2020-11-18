@@ -221,10 +221,10 @@ ItemDisplay[t18]: %NAME%%RED%+%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to 
 // ------------------------------------------------------------------------------
 // [DCLO] Diablo Clone Items
 // ------------------------------------------------------------------------------
-ItemDisplay[dcma]: %RED%%NAME%%MAP-62%{%TAN%Soul to fight Uber Diablo!%NL%Black Soulstone, & Prime Evil%NL%Cube w/ Pure Demonic Essence,} // Vision of Terror
-ItemDisplay[dcbl]: %RED%%NAME%%MAP-62%{%TAN%Evil Soul to fight Uber Diablo!%NL%Black Soulstone, & Prime%NL%Cube w/ Vision of Terror,} // Pure Demonic Essence
-ItemDisplay[dcho]: %RED%%NAME%%MAP-62%{%TAN%Evil Soul to fight Uber Diablo!%NL%Pure Demonic Essence, & Prime%NL%Cube w/ Vision of Terror,} // Black Soulstone
-ItemDisplay[dcso]: %RED%%NAME%%MAP-62%{%TAN%Soulstone to fight Uber Diablo!%NL%Pure Demonic Essence, & Black%NL%Cube w/ Vision of Terror,} // Prime Evil Soul
+ItemDisplay[dcho]: %RED%%NAME%%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
+ItemDisplay[dcso]: %RED%%NAME%%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
+ItemDisplay[dcbl]: %RED%%NAME%%MAP-62%{%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
+ItemDisplay[dcma]: %RED%%NAME%%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
