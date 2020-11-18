@@ -373,7 +373,7 @@ ItemDisplay[mp3 DIFF>0]: // Hides Mana Potions after after Normal difficulty
 ItemDisplay[mp4]: %BLUE%--%WHITE%M4%BLUE%--%WHITE% // Greater Mana Potion
 ItemDisplay[mp5]: %BLUE%++%WHITE%M5%BLUE%++%WHITE% // Super Mana Potion
 
-ItemDisplay[rvs]: %PURPLE%--%WHITE%35%%PURPLE%--%WHITE% // Rejuv Potion
+ItemDisplay[rvs]: %PURPLE%+%WHITE%35%%PURPLE%+%WHITE% // Rejuv Potion
 ItemDisplay[rvl]: %PURPLE%++%WHITE%65%%PURPLE%++%WHITE% // Full Rejuv Potion
 
 ItemDisplay[vps DIFF<2]: %WHITE%+S // Stamina Potion
