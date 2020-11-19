@@ -222,6 +222,10 @@ ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 
 // Rare Items -------------------------------------------------------------------
+ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal difficulty
+ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare difficulty
+ItemDisplay[RARE !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Hell difficulty
+
 //      Upgrade recipes
 ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
@@ -262,6 +266,10 @@ ItemDisplay[RARE !ID 9cr]: %NAME% // Rare Dimensional Blade
 ItemDisplay[RARE !ID ELT SWORD]: %NAME% // All Elite tier Swords
 ItemDisplay[RARE !ID ELT !SPEAR THROWING !ZON]: %NAME% // All Elite tier Throwing Weapons
 ItemDisplay[RARE !ID WAND]: %NAME% // All Wands
+
+ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal difficulty
+ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME% // Nightmare difficulty
+ItemDisplay[RARE !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME% // Hell difficulty
 
 //      Hide all other rares
 ItemDisplay[RARE !ID]: // Hide all other Rare items
@@ -328,6 +336,10 @@ ItemDisplay[MAG !ID DRU]: %NAME% // All Magic Pelts
 
 //      Magic Armors
 ItemDisplay[MAG !ID (xtp OR ELT) CHEST]: %NAME% // All Exceptional and Elite tier Magic Armors
+
+ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ to 10k+ Magic items for Normal difficulty
+ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ to 20k+ Magic items for Nightmare difficulty
+ItemDisplay[MAG !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ to 35k+ Magic items for Hell difficulty
 
 //      Hide all other magics
 ItemDisplay[MAG !ID]: // Hide all other Magic items
@@ -1762,6 +1774,14 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %N
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SOCK=2 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+
+//      Other 35k+ items
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 10k+ non-eth 0os Base items for Normal difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Normal difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 20k+ non-eth 0os Base items for Nightmare difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Nightmare difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 35k+ non-eth 0os Base items for Hell difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Hell difficulty
 
 //      Hide all other bases
 ItemDisplay[NMAG !RW (NORM OR EXC OR ELT)]: // Hide all other Base items
