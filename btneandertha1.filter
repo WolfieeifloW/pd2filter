@@ -422,28 +422,28 @@ ItemDisplay[NMAG !INF !RW SOCK=2 ci3]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Lore, Nadir%
 ItemDisplay[NMAG !INF !RW SOCK=3 ci3]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Delirium, Dream, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os
 
 //      Base Amazon Bows
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Elite tiers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:} // Elite tiers, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice, Ice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
-ItemDisplay[NMAG !INF !RW SOCK=5 (TABSK0>2 OR TABSK1>2) ELT ZON BOW]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // Elite tiers, 5os
+ItemDisplay[NMAG !INF !RW !SUP SOCK=0 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP SOCK=0 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 TABSK0>2 ELT ZON BOW]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Elite tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 TABSK0>2 ELT ZON BOW]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:} // Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 TABSK0>2 ELT ZON BOW]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice, Ice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 TABSK0>2 ELT ZON BOW]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // Elite tiers, 5os
 
 //      Base Amazon Spears
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Stength%NL%%TAN%Possible RWs:} // Elite tiers, 2os, Non-Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // Elite tiers, 3os, Non-Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,%NL%%TAN%Possible RWs:} // Elite tiers, 4os, Non-Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os, Non-Eth
-ItemDisplay[NMAG !INF !RW ETH SOCK=5 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // Elite tiers, 5os, Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=6 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os, Non-Eth
-ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // Elite tiers, 6os, Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Stength%NL%%TAN%Possible RWs:} // Elite tiers, 2os, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // Elite tiers, 3os, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,%NL%%TAN%Possible RWs:} // Elite tiers, 4os, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=5 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os, Non-Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity%NL%%TAN%Possible RWs:} // Elite tiers, 5os, Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=6 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os, Non-Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Breath of the Dying%NL%%TAN%Possible RWs:} // Elite tiers, 6os, Eth
 
 //      Base Amazon Javelins
-ItemDisplay[NMAG TABSK2>2 ELT (am5 OR ama OR amf)]: %NAME%%DOT-1E% // Show +3 Elite tier Amazon Javelins
+ItemDisplay[NMAG TABSK2>2 ELT (am5 OR ama OR amf)]: %NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E% // Show +3 Elite tier Amazon Javelins
 ItemDisplay[NMAG CLVL>30 TABSK2<3 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins that are +0-2 Jav skills past character level 30
 
 //      Base Assassin Katars
