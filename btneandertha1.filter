@@ -1170,12 +1170,12 @@ ItemDisplay[NMAG !INF !RW SOCK=5 fla]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eterni
 
 //      Base Polearms
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=2 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // Elite tiers, 2os
-ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=3 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=4 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=5 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
-ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=6 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP ((ED>9 AND !ETH) OR ETH) SOCK=0 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=2 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // Elite tiers, 2os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=3 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=4 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=5 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=6 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
 
 //      Base Scepters
 ItemDisplay[NMAG !INF !RW SOCK=5 wsp SCEPTER]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All War Scepters, 5os
@@ -1515,12 +1515,12 @@ ItemDisplay[NMAG !INF !RW SOCK=5 SK97>2 (wsp OR EXC OR ELT) SCEPTER]: %GRAY%%NAM
 
 //      Base Spears
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=2 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // Elite tiers, 2os
-ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=3 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
-ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=4 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
-ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=5 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
-ItemDisplay[NMAG !INF !RW SUP ED>0 SOCK=6 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
+ItemDisplay[NMAG !INF !RW SUP ((ED>9 AND !ETH) OR ETH) SOCK=0 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=2 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Strength%NL%%TAN%Possible RWs:} // Elite tiers, 2os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=3 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=4 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=5 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=6 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
 
 //      Base Staves
 ItemDisplay[NMAG !INF !RW !SUP !ETH SK58>2 SOCK=0 STAFF]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
