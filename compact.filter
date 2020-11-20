@@ -196,7 +196,7 @@ ItemDisplay[r31s]: %NAME%{%TAN%2 Jah + Key = Cham%NL%%NL%%WHITE%Shields: +50 Lif
 ItemDisplay[r32]: %NAME%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
 ItemDisplay[r32s]: %NAME%{%TAN%2 Cham + Key = Zod%NL%%NL%%WHITE%Shields: Cannot be Frozen%NL%Armor/Helms: Cannot be Frozen%NL%Weapons: Freezes Target +3%NL%} // Stacked Cham Rune
 ItemDisplay[r33]: %NAME% // Zod Rune
-ItemDisplay[r33s]: %NAME%{%TAN%this bad boy can fit so many fucking els%NL%%ORANGE%Wolfie: %TAN%*slaps rune*%NL%%NL%%WHITE%All Sockets: Indestructible%NL%} // Stacked Zod Rune
+ItemDisplay[r33s]: %NAME%{%TAN%this bad boy can fit so many freaking els%NL%%ORANGE%Wolfie: %TAN%*slaps rune*%NL%%NL%%WHITE%All Sockets: Indestructible%NL%} // Stacked Zod Rune
 
 // Eth & Socket in Item Name
 ItemDisplay[ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
