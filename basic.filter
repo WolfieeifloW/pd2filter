@@ -158,18 +158,18 @@ ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
 
 // Crafted Items
 // Crafted Amulets
-ItemDisplay[MAG amu ILVL=88 CLVL>91]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=89 CLVL>91]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=90 CLVL>89]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=91 CLVL>89]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=92 CLVL>71]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=93 CLVL>71]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=94 CLVL>85]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=95 CLVL>85]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=96 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=97 CLVL>83]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=98 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%
-ItemDisplay[MAG amu ILVL=99 CLVL>81]: %NAME% %ORANGE%[C]%DOT-68%
+ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 92+}
+ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 92+}
+ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 90+}
+ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 90+}
+ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 88+}
+ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 88+}
+ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 86+}
+ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 86+}
+ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
+ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
+ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
+ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
 
 // Magic Items
 // Amulets
