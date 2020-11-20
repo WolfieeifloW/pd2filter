@@ -53,7 +53,7 @@ ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube a
 
 // Corruption Items -------------------------------------------------------------
 ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
-ItemDisplay[lbox]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Larzuk's Box
+ItemDisplay[lbox]: %PURPLE%+%RED%Larzuks Puzzlebox%PURPLE%+%WHITE%%MAP-62% // Larzuk's Box
 
 // Map Items --------------------------------------------------------------------
 ItemDisplay[rera]: %NAME%{%TAN%Rune or Greater, & Rare Map%NL%Cube w/ Perfect Gem, Thul%NL%%ORANGE%Reroll Rare Map} // Reroll Rare Map (Horadrim Orb)
