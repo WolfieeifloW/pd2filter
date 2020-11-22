@@ -1263,8 +1263,8 @@ ItemDisplay[NMAG !INF !RW SOCK=5 (2ax OR 72a OR 7mp OR 7wa)]: %GRAY%%NAME%%DOT-1
 ItemDisplay[NMAG !INF !RW SOCK=6 (7mp OR 7wa)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
 
 //      Base Maces
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 fla]: %NAME%%DOT-1E%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Flail, 4os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 fla]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Flail, 4os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 fla]: %NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Flail, 4os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 fla]: %GRAY%%NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Flail, 4os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SOCK=5 fla]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // Flail, 5os
 
 //      Base Polearms
