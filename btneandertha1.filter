@@ -155,7 +155,7 @@ ItemDisplay[gpys]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz x%QTY%%DOT-20%{%WHITE%S
 ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% %DARK_GREEN%(%RUNENUM%)%CONTINUE% // El-Thul
 ItemDisplay[RUNE>10 RUNE<20]: %ORANGE%%RUNENAME% %ORANGE%(%RUNENUM%)%CONTINUE% // Amn-Fal
 ItemDisplay[RUNE>19 RUNE<24]: %RED%%RUNENAME% %RED%(%RUNENUM%)%MAP-50%%CONTINUE% // Lem-Mal
-ItemDisplay[RUNE>23]: %PURPLE%>>>%RED%%RUNENAME% %RED%(%RUNENUM%)%PURPLE%<<<%BORDER-50%%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE>23]: %PURPLE%>>%RED%%RUNENAME% %RED%(%RUNENUM%)%PURPLE%<<%BORDER-50%%CONTINUE% // Ist-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
 ItemDisplay[r01]: %NAME%{%TAN%3 El + Key = Eld%NL%} // El Rune
 ItemDisplay[r01s]: %NAME%{%TAN%3 El + Key = Eld%NL%%NL%%WHITE%All: +1 Light Radius%NL%Shields: +15 Defense%NL%Armor/Helms: +15 Defense%NL%Weapons: +50 Attack Rating%NL%} // El Rune
