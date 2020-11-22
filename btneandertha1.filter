@@ -260,6 +260,9 @@ ItemDisplay[UNI ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL
 ItemDisplay[UNI ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko Rune, Lem%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[UNI ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI !ID amu]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%MAP-A5%
+ItemDisplay[UNI !ID rin]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%MAP-A5%
+ItemDisplay[UNI !ID jew]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%MAP-A5%
 ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items
 
 // Set Items --------------------------------------------------------------------
