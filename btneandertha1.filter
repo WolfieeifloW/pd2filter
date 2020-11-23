@@ -372,12 +372,12 @@ ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% //
 ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Adding $ to 10k+ Magic items for Normal difficulty
 
 //      Magic Charms
-ItemDisplay[MAG !ID cm1]: %BLUE%o %NAME% o%WHITE%%MAP-97% // Magic Small Charms
+ItemDisplay[MAG !ID cm1]: %RED%o %BLUE%%NAME% %RED%o%WHITE%%MAP-97% // Magic Small Charms
 ItemDisplay[MAG !ID cm2]: %BLUE%o %NAME% o%WHITE%%MAP-97% // Magic Large Charms
-ItemDisplay[MAG !ID cm3]: %BLUE%o %NAME% o%WHITE%%MAP-97% // Magic Grand Charms
+ItemDisplay[MAG !ID cm3]: %RED%o %BLUE%%NAME% %RED%o%WHITE%%MAP-97% // Magic Grand Charms
 
 //      Magic Jewels
-ItemDisplay[MAG !ID jew]: %BLUE%o %NAME% o%WHITE%%DOT-97% // All Magic Jewels
+ItemDisplay[MAG !ID jew]: %RED%o %BLUE%%NAME% %RED%o%WHITE%%DOT-97% // All Magic Jewels
 
 //      Magic Class Specific
 ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME% // Magic Amazon Javelins (6/40 etc)
