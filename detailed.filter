@@ -13,18 +13,9 @@
 // If you want a succinct filter without all the bloat please download the 'Compact' version of the filter.
 //
 // There are a few ways to utilize this filter:
-//    - To stop getting notifications for an item BUT still see it on the ground comment out any %BORDER%, %MAP%, %DOT%, or %PX% parts of a line                        vv
-//       - For example, to stop getting notifications for a Perfect Skull change "ItemDisplay[GEM=5 GEMTYPE=7]: %NAME%%DOT-20%" to "ItemDisplay[GEM=5 GEMTYPE=7]: %NAME%//%DOT-20%"
-//    - To stop getting notifications for an item AND stop seeing it on the ground, comment out everything after the "ItemDisplay[xxx]: "                 vv
-//       - For example, to stop getting notifications and stop seeing Stamina Potions completely, change "ItemDisplay[vps]: %NAME%" to "ItemDisplay[vps]: //%NAME%"
-//       - And just another example, to completely hide all El-Thul runes change---                                  vv
-//            "ItemDisplay[RUNE<11]: %DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE%" to "ItemDisplay[RUNE<11]: //%DARK_GREEN%%RUNENAME% (%RUNENUM%)%DOT-76%%CONTINUE%"
-//    - To get notifications for an item that you're currently not getting notifications for just remove the "//" on that line     v-- (notice lack of //)
-//       - For example, a magic Quilted Armor will not notify, but you can change "//ItemDisplay[MAG !ID qui]: %NAME%%MAP-97%" to "ItemDisplay[MAG !ID qui]: %NAME%%MAP-97%" to start notifications for it
-//       - Note if the line is missing a %BORDER%, %MAP%, %DOT%, or %PX% tag it will not notify; you will need to add that in; eg change "%NAME%" to "%NAME%%MAP-97%"
-// Please note at the bottom of each section there is a line which will stop notifications of all items EXCEPT uncommented ones once past character level 60.
-// This line allows you to only uncomment lines which you want notifications for.
-// You can also, optionally, comment or remove the "%NAME%" on these lines to completely hide all items relating to that section EXCEPT ones you have uncommented.
+//      - To stop getting notifications for an item BUT still see it on the ground comment out any %BORDER%, %MAP%, %DOT%, or %PX% parts of a line
+//      - To stop getting notifications for an item AND stop seeing it on the ground put // before %NAME%
+//      - To get notifications for an item that you're currently not getting notifications for remove the "//" at the very start of that line
 //
 // To change the color or size of a map icon you need to change the two character value after %BORDER%, %MAP%, %DOT%, or %PX%.
 // For example, to change the color of a high rune map icon from dark red to purple change---                                               vv
@@ -34,7 +25,7 @@
 // I have tried to comment every single line in an attempt to make things as clear and easy to understand as possible.
 // If anything is unclear please read the Github wiki page here: https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display
 //
-// If there is anything missing please throw me a DM on Discord or ask for help in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2) - @WolfieeifloW#6431
+// If there is anything missing please ask for help in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2) and if you cannot get an answer throw me a DM on Discord - @WolfieeifloW#6431
 //
 // +----------------------------------------------------------------------------+
 // |                                                                            |
