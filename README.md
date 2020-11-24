@@ -60,7 +60,7 @@ This version is a copy of my own personal filter. No support will be given for t
 ### [BTNeandertha1](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/btneandertha1.filter)
 CTRL+click the above link for the raw code.
 
-This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneandertha1). It is a quite strict filter, you can view exactly what it shows and hides [HERE](https://docs.google.com/spreadsheets/d/1RBb95nju8cP_w2AKuGTN3P1UGXqOkWAtn9PtI9dG7eM/edit?usp=sharing). No support will be given for this version.
+This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneandertha1) which is quite strict. No support will be given for this version.
 
 # Informative Links
 * **Reddit Thread:** <https://www.reddit.com/r/ProjectDiablo2/comments/jr9c8x/wolfieeiflows_pd2_filters_w_install_instructions/>
