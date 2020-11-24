@@ -749,7 +749,7 @@ ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character
 // ------------------------------------------------------------------------------
 //    [CMCH] Charms
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID ILVL>93 cm3]: %NAME%%ORANGE%[REROLL]%MAP-68% // iLvl 94 or higher grand charms for cube rerolling
+ItemDisplay[MAG !ID ILVL>93 cm3]: %NAME%%ORANGE%%MAP-68% // iLvl 94 or higher grand charms for cube rerolling
 //ItemDisplay[MAG ID (TABSK0<1 AND TABSK1<1 AND TABSK2<1 AND TABSK8<1 AND TABSK9<1 AND TABSK10<1 AND TABSK16<1 AND TABSK17<1 AND TABSK18<1 AND TABSK24<1 AND TABSK25<1 AND TABSK26<1 AND TABSK32<1 AND TABSK33<1 AND TABSK34<1 AND TABSK40<1 AND TABSK41<1 AND TABSK42<1 AND TABSK48<1 AND TABSK49<1 AND TABSK50<1) cm3]: %NAME%%MAP-68%{%ORANGE%Reroll} // GC's with no +1 skill tab
 
 // ------------------------------------------------------------------------------

@@ -784,7 +784,7 @@ ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character
 ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
 ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
 ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
-ItemDisplay[MAG !ID ILVL>93 cm3]: %NAME%%ORANGE%[REROLL]%MAP-68% // iLvl 94 or higher grand charms for cube rerolling
+ItemDisplay[MAG !ID ILVL>93 cm3]: %NAME%%ORANGE%%MAP-68% // iLvl 94 or higher grand charms for cube rerolling
 ItemDisplay[MAG rin ILVL=86]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
 ItemDisplay[MAG rin ILVL=87]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
 ItemDisplay[MAG rin ILVL=88]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
