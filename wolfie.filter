@@ -1366,15 +1366,15 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=2 (SK70>2 OR SK69>2 OR SK75>2 OR SK79>2 OR S
 // ------------------------------------------------------------------------------
 //    [BCPA] Paladin
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW SOCK=2 RES>5 CLVL<30 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // Show and notify all 2 socket Paladin shields until character level 30
-ItemDisplay[NMAG !INF !RW SOCK=3 RES>5 CLVL<30 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // Show and notify all 3 socket Paladin shields until character level 30
-ItemDisplay[NMAG !INF !RW SOCK=4 RES>5 CLVL<30 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // Show and notify all 4 socket Paladin shields until character level 30
+ItemDisplay[NMAG !INF !RW SOCK=2 RES>5 CLVL<30 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // Show and notify all 2 socket Paladin shields until character level 30
+ItemDisplay[NMAG !INF !RW SOCK=3 RES>5 CLVL<30 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // Show and notify all 3 socket Paladin shields until character level 30
+ItemDisplay[NMAG !INF !RW SOCK=4 RES>5 CLVL<30 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // Show and notify all 4 socket Paladin shields until character level 30
 
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 RES>34 PAL]: %WHITE%%NAME%%DOT-20%%PX-00%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 RES>34 PAL]: %WHITE%%NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 !ETH RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 !ETH RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:}  // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP SOCK=0 RES>34 DIN]: %WHITE%%NAME%%DOT-20%%PX-00%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=0 RES>34 DIN]: %WHITE%%NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=2 !ETH RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 !ETH RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:}  // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 // ------------------------------------------------------------------------------
 //    [BCSO] Sorceress
@@ -1502,10 +1502,10 @@ ItemDisplay[NMAG !INF !RW SOCK=3 uh9]: %GRAY%%NAME%%DOT-1E%%PX-00%{%ORANGE%Delir
 // ------------------------------------------------------------------------------
 //    [BASH] Shields
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW SOCK=2 CLVL<30 SHIELD !NEC !PAL]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // Shows and notify all 2 socket shields until character level 30
-ItemDisplay[NMAG !INF !RW SOCK=3 CLVL<30 SHIELD !NEC !PAL]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // Shows and notify all 3 socket shields until character level 30
-ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<30 SHIELD !NEC !PAL]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // Shows and notify all 4 socket shields until character level 30
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SHIELD !NEC !PAL]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=2 CLVL<30 SHIELD !NEC !DIN]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // Shows and notify all 2 socket shields until character level 30
+ItemDisplay[NMAG !INF !RW SOCK=3 CLVL<30 SHIELD !NEC !DIN]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // Shows and notify all 3 socket shields until character level 30
+ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<30 SHIELD !NEC !DIN]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // Shows and notify all 4 socket shields until character level 30
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SHIELD !NEC !DIN]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 // Grim Shield
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 xsh]: %NAME%%DOT-20%%PX-00%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // 0os, Non-Superior

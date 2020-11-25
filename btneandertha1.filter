@@ -1207,25 +1207,25 @@ ItemDisplay[NMAG !INF !RW SOCK=2 SK80>2 NEC]: %GRAY%%NAME% %GRAY%[%BLUE%+3 Mage%
 
 //      Base Paladin Shields
 // Showing resist on item name (eg "Targe [+35]")
-ItemDisplay[NMAG !INF !RW RES=35 PAL]: %NAME%%GRAY% [%BLUE%+35%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=36 PAL]: %NAME%%GRAY% [%BLUE%+36%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=37 PAL]: %NAME%%GRAY% [%BLUE%+37%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=38 PAL]: %NAME%%GRAY% [%BLUE%+38%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=39 PAL]: %NAME%%GRAY% [%BLUE%+39%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=40 PAL]: %NAME%%GRAY% [%BLUE%+40%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=41 PAL]: %NAME%%GRAY% [%BLUE%+41%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=42 PAL]: %NAME%%GRAY% [%BLUE%+42%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=43 PAL]: %NAME%%GRAY% [%BLUE%+43%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=44 PAL]: %NAME%%GRAY% [%BLUE%+44%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=45 PAL]: %NAME%%GRAY% [%BLUE%+45%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=35 DIN]: %NAME%%GRAY% [%BLUE%+35%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=36 DIN]: %NAME%%GRAY% [%BLUE%+36%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=37 DIN]: %NAME%%GRAY% [%BLUE%+37%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=38 DIN]: %NAME%%GRAY% [%BLUE%+38%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=39 DIN]: %NAME%%GRAY% [%BLUE%+39%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=40 DIN]: %NAME%%GRAY% [%BLUE%+40%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=41 DIN]: %NAME%%GRAY% [%BLUE%+41%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=42 DIN]: %NAME%%GRAY% [%BLUE%+42%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=43 DIN]: %NAME%%GRAY% [%BLUE%+43%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=44 DIN]: %NAME%%GRAY% [%BLUE%+44%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=45 DIN]: %NAME%%GRAY% [%BLUE%+45%GRAY%]%CONTINUE%
 
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 PAL]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 RES>34 PAL]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 PAL]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 RES>34 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 DIN]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 RES>34 DIN]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 DIN]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 RES>34 DIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 RES>34 DIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 DIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 //      Base Armor
 ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<30 CHEST]: %GRAY%%NAME%%DOT-1E%%CONTINUE% // Show and notify all 2 and 3 socket armors until character level 30

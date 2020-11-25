@@ -5086,101 +5086,101 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 (SK66>2 OR SK86>2 OR SK81>2 OR SK374>2 
 // ------------------------------------------------------------------------------
 //    [BCPA] Paladin
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !ETH SOCK>1 RES>34 CLVL<40 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, show and notify while under character level 40
+ItemDisplay[NMAG !INF !RW !ETH SOCK>1 RES>34 CLVL<40 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, show and notify while under character level 40
 
 // These are generic lines for showing all Paladin shields of a certain tier and certain conditions (sockets, superior, and/or ethereal)
 // Please note all shields must have 35%+ to all res
 // All tiers, 35%+ res
-ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 DIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 DIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 3os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All tiers, 4os, Superior, Eth
 
 // Normal tiers, 35%+ res
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 NORM PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 4os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 NORM PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 2os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 3os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 4os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 4os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 0os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 2os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 NORM PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 NORM DIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 0os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 2os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 3os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 4os
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 NORM DIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 0os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 2os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 3os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 4os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 3os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 4os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 3os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 NORM DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Normal tiers, 4os, Superior, Eth
 
 // Exceptional tiers, 35%+ res
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 EXC PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 4os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 EXC PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 2os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 3os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 4os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 4os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 0os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 2os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 EXC PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 EXC DIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 0os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 2os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 3os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 4os
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 EXC DIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 0os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 2os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 3os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 4os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 3os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 4os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 3os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 EXC DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Exceptional tiers, 4os, Superior, Eth
 
 // Elite tiers, 35%+ res
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 ELT PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 ELT PAL]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os, Superior
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 ELT PAL]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 ELT DIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 ELT DIN]: %WHITE%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os, Superior
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os, Superior
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 0os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 2os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 3os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 ELT DIN]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // All Elite tiers, 4os, Superior, Eth
 
 // These lines add descriptions to all Paladin Shields, leave these alone if you want to display possible runewords on base Paladin Shields
 // Please note you still have to uncomment specific base items lines to get a drop notification
 // You can also use these lines to completely hide items. Just put "//" in between "]:" and "{%" (eg "...]: //{%")
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 PAL]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 PAL]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 RES>34 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 DIN]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 RES>34 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=2 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=3 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=4 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 DIN]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 DIN]: %GRAY%%NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os, Superior, Eth
 
 // ------------------------------------------------------------------------------
 //    [BCSO] Sorceress
