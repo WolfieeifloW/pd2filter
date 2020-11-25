@@ -1,6 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**Yes, my filter has Diablo Clone items**
+**ATTENTION TO ALL WHO USE MY FILTERS** - **please** do a "Find & Replace", with Match Case / Case Sensitivity turned on, for `PAL` and replace it with `DIN`.
 
 # Table of Contents
 1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
