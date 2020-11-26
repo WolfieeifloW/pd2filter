@@ -1790,5 +1790,5 @@ ItemDisplay[NMAG !RW CLVL>29]: // At level 30+ stop showind and notifying for al
 // |     [RAND] Random Information                                              |
 // |                                                                            |
 // +----------------------------------------------------------------------------+
-ItemDisplay[ID]: %NAME% // Showing all ID items
-ItemDisplay[]: %RED%+++ NO FILTER LINE +++ // Catching all other things for debug
+//ItemDisplay[ID]: %NAME% // Showing all ID items
+//ItemDisplay[]: %RED%+++ NO FILTER LINE +++ // Catching all other things for debug
