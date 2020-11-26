@@ -24,86 +24,86 @@
 //
 // +-----------------------------------------+-----------------------------------------+-----------------------------------------+-----------------------------------------+
 // |   [QUES] Quest Items                (1) |   [UNIQ] Unique Items               (2) |   [SETS] Set Items                  (3) |   [RARI] Rare Items                 (4) |
-// |      [QIA1] Act 1                       |      [UIMI] Unique Miscellaneous        |      [SIMI] Set Miscellaneous           |      [RIVE] Rare Items Vendor           |
-// |      [QIA2] Act 2                       |         [UMAM] Amulets                  |      [SIMU] Set Multiple                |      [RIMI] Rare Miscellaneous          |
-// |      [QIA3] Act 3                       |         [UMCH] Charms                   |      [SINS] Normal Sets                 |         [RMAM] Amulets                  |
-// |      [QIA4] Act 4                       |         [UMCI] Circlets                 |         [SIAR] Angelic Raiment          |         [RMCH] Charms                   |
-// |      [QIA5] Act 5                       |         [UMJE] Jewels                   |         [SIAT] Arcanna's Tricks         |         [RMCI] Circlets                 |
-// |      [QIES] Essences                    |         [UMRI] Rings                    |         [SIAG] Arctic Gear              |         [RMJE] Jewels                   |
-// |      [QITO] Tokens                      |      [UICS] Unique Class Specific       |         [SIBA] Berserker's Arsenal      |         [RMRI] Rings                    |
-// |      [QIKE] Pandemonium Keys            |         [UCAM] Amazon                   |         [SICT] Cathan's Traps           |      [RICS] Rare Class Specific         |
-// |      [QIOR] Pandemonium Organs          |         [UCAS] Assassin                 |         [SICV] Civerb's Vestments       |         [RCAM] Amazon                   |
-// |   [PD2N] Project Diablo 2 Items         |         [UCBA] Barbarian                |         [SICB] Cleglaw's Brace          |         [RCAS] Assassin                 |
-// |      [CORR] Corruption Items            |         [UCDR] Druid                    |         [SIDD] Death's Disguise         |         [RCBA] Barbarian                |
-// |      [MAPI] Map Items                   |         [UCNE] Necromancer              |         [SIHD] Hsarus' Defense          |         [RCDR] Druid                    |
-// |      [MAPS] Maps                        |         [UCPA] Paladin                  |         [SIIT] Infernal Tools           |         [RCNE] Necromancer              |
-// |      [DCLO] Diablo Clone Items          |         [UCSO] Sorceress                |         [SIIF] Iratha's Finery          |         [RCPA] Paladin                  |
-// |   [GEMS] Gems                           |      [UIUA] Unique Armor                |         [SIIA] Isenhart's Armory        |         [RCSO] Sorceress                |
-// |      [GEMA] Gems Master                 |         [UAAR] Armor                    |         [SIMR] Milabrega's Regalia      |      [RIUA] Rare Armor                  |
-// |      [GEAM] Amethyst                    |         [UABE] Belts                    |         [SISC] Sigon's Complete Steel   |         [RAAR] Armor                    |
-// |      [GEDI] Diamond                     |         [UABO] Boots                    |         [SITB] Tancred's Battlegear     |         [RABE] Belts                    |
-// |      [GEEM] Emerald                     |         [UAGL] Gloves                   |         [SIVR] Vidala's Rig             |         [RABO] Boots                    |
-// |      [GERU] Ruby                        |         [UAHE] Helms                    |      [SIES] Exceptional/Elite Sets      |         [RAGL] Gloves                   |
-// |      [GESA] Sapphire                    |         [UASH] Shields                  |         [SIAW] Aldur's Watchtower       |         [RAHE] Helms                    |
-// |      [GESK] Skull                       |      [UIUW] Unique Weapons              |         [SIBK] Bul-Kathos' Children     |         [RASH] Shields                  |
-// |      [GETO] Topaz                       |         [UWAX] Axes                     |         [SICK] Cow King's Leathers      |      [RIUW] Rare Weapons                |
-// |   [RUNS] Runes                          |         [UWBO] Bows                     |         [SITD] The Disciple             |         [RWAX] Axes                     |
-// |      [RUMA] Rune Map Icons              |         [UWCR] Crossbows                |         [SIGL] Griswold's Legacy        |         [RWBO] Bows                     |
-// |      [RUDE] Rune Descriptions           |         [UWDA] Daggers                  |         [SIHB] Heaven's Brethren        |         [RWCR] Crossbows                |
-// |         [RULO] Low Runes                |         [UWJA] Javelins                 |         [SIHM] Hwanin's Majesty         |         [RWDA] Daggers                  |
-// |         [RUMI] Mid Runes                |         [UWMA] Maces                    |         [SIIK] Immortal King            |         [RWJA] Javelins                 |
-// |         [RUHI] High Runes               |         [UWPO] Polearms                 |         [SIMB] M'avina's Battle Hymn    |         [RWMA] Maces                    |
-// |   [ITEM] Item Basics                    |         [UWSC] Scepters                 |         [SINO] Natalya's Odium          |         [RWPO] Polearms                 |
-// |      [IBAD] Eth/Sockets/Item Level      |         [UWSP] Spears                   |         [SINA] Naj's Ancient Vestige    |         [RWSC] Scepters                 |
-// |      [IBOT] Other Items                 |         [UWST] Staves                   |         [SIOC] Orphan's Call            |         [RWSP] Spears                   |
-// |      [IBVE] Vendor Items                |         [UWSW] Swords                   |         [SISF] Sander's Folly           |         [RWST] Staves                   |
-// |                                         |         [UWTH] Throwing Weapons         |         [SISG] Sazabi's Grand Tribute   |         [RWSW] Swords                   |
-// |                                         |         [UWWA] Wands                    |         [SITR] Tal Rasha's Wrappings    |         [RWTH] Throwing Weapons         |
-// |                                         |      [UIMA] Unique Items Master         |         [SITO] Trang-Oul's Avatar       |         [RWWA] Wands                    |
+// |      [QIA1] Act 1                       |      [UIMI] Unique Miscellaneous        |      [SIMI] Set Miscellaneous           |      [RIMI] Rare Miscellaneous          |
+// |      [QIA2] Act 2                       |         [UMAM] Amulets                  |      [SIMU] Set Multiple                |         [RMAM] Amulets                  |
+// |      [QIA3] Act 3                       |         [UMCH] Charms                   |      [SINS] Normal Sets                 |         [RMCH] Charms                   |
+// |      [QIA4] Act 4                       |         [UMCI] Circlets                 |         [SIAR] Angelic Raiment          |         [RMCI] Circlets                 |
+// |      [QIA5] Act 5                       |         [UMJE] Jewels                   |         [SIAT] Arcanna's Tricks         |         [RMJE] Jewels                   |
+// |      [QIES] Essences                    |         [UMRI] Rings                    |         [SIAG] Arctic Gear              |         [RMRI] Rings                    |
+// |      [QITO] Tokens                      |      [UICS] Unique Class Specific       |         [SIBA] Berserker's Arsenal      |      [RICS] Rare Class Specific         |
+// |      [QIKE] Pandemonium Keys            |         [UCAM] Amazon                   |         [SICT] Cathan's Traps           |         [RCAM] Amazon                   |
+// |      [QIOR] Pandemonium Organs          |         [UCAS] Assassin                 |         [SICV] Civerb's Vestments       |         [RCAS] Assassin                 |
+// |   [PD2N] Project Diablo 2 Items         |         [UCBA] Barbarian                |         [SICB] Cleglaw's Brace          |         [RCBA] Barbarian                |
+// |      [CORR] Corruption Items            |         [UCDR] Druid                    |         [SIDD] Death's Disguise         |         [RCDR] Druid                    |
+// |      [MAPI] Map Items                   |         [UCNE] Necromancer              |         [SIHD] Hsarus' Defense          |         [RCNE] Necromancer              |
+// |      [MAPS] Maps                        |         [UCPA] Paladin                  |         [SIIT] Infernal Tools           |         [RCPA] Paladin                  |
+// |      [DCLO] Diablo Clone Items          |         [UCSO] Sorceress                |         [SIIF] Iratha's Finery          |         [RCSO] Sorceress                |
+// |   [GEMS] Gems                           |      [UIUA] Unique Armor                |         [SIIA] Isenhart's Armory        |      [RIUA] Rare Armor                  |
+// |      [GEMA] Gems Master                 |         [UAAR] Armor                    |         [SIMR] Milabrega's Regalia      |         [RAAR] Armor                    |
+// |      [GEAM] Amethyst                    |         [UABE] Belts                    |         [SISC] Sigon's Complete Steel   |         [RABE] Belts                    |
+// |      [GEDI] Diamond                     |         [UABO] Boots                    |         [SITB] Tancred's Battlegear     |         [RABO] Boots                    |
+// |      [GEEM] Emerald                     |         [UAGL] Gloves                   |         [SIVR] Vidala's Rig             |         [RAGL] Gloves                   |
+// |      [GERU] Ruby                        |         [UAHE] Helms                    |      [SIES] Exceptional/Elite Sets      |         [RAHE] Helms                    |
+// |      [GESA] Sapphire                    |         [UASH] Shields                  |         [SIAW] Aldur's Watchtower       |         [RASH] Shields                  |
+// |      [GESK] Skull                       |      [UIUW] Unique Weapons              |         [SIBK] Bul-Kathos' Children     |      [RIUW] Rare Weapons                |
+// |      [GETO] Topaz                       |         [UWAX] Axes                     |         [SICK] Cow King's Leathers      |         [RWAX] Axes                     |
+// |   [RUNS] Runes                          |         [UWBO] Bows                     |         [SITD] The Disciple             |         [RWBO] Bows                     |
+// |      [RUMA] Rune Map Icons              |         [UWCR] Crossbows                |         [SIGL] Griswold's Legacy        |         [RWCR] Crossbows                |
+// |      [RUDE] Rune Descriptions           |         [UWDA] Daggers                  |         [SIHB] Heaven's Brethren        |         [RWDA] Daggers                  |
+// |         [RULO] Low Runes                |         [UWJA] Javelins                 |         [SIHM] Hwanin's Majesty         |         [RWJA] Javelins                 |
+// |         [RUMI] Mid Runes                |         [UWMA] Maces                    |         [SIIK] Immortal King            |         [RWMA] Maces                    |
+// |         [RUHI] High Runes               |         [UWPO] Polearms                 |         [SIMB] M'avina's Battle Hymn    |         [RWPO] Polearms                 |
+// |   [ITEM] Item Basics                    |         [UWSC] Scepters                 |         [SINO] Natalya's Odium          |         [RWSC] Scepters                 |
+// |      [IBAD] Eth/Sockets/Item Level      |         [UWSP] Spears                   |         [SINA] Naj's Ancient Vestige    |         [RWSP] Spears                   |
+// |      [IBOT] Other Items                 |         [UWST] Staves                   |         [SIOC] Orphan's Call            |         [RWST] Staves                   |
+// |      [IBVE] Vendor Items                |         [UWSW] Swords                   |         [SISF] Sander's Folly           |         [RWSW] Swords                   |
+// |                                         |         [UWTH] Throwing Weapons         |         [SISG] Sazabi's Grand Tribute   |         [RWTH] Throwing Weapons         |
+// |                                         |         [UWWA] Wands                    |         [SITR] Tal Rasha's Wrappings    |         [RWWA] Wands                    |
+// |                                         |      [UIMA] Unique Items Master         |         [SITO] Trang-Oul's Avatar       |      [RIVE] Rare Items Vendor           |
 // |                                         |                                         |      [SIMA] Set Items Master            |      [RIMA] Rare Items Master           |
 // |                                         |                                         |                                         |                                         |
 // +-----------------------------------------+-----------------------------------------+-----------------------------------------+-----------------------------------------+
 // |   [CRAF] Crafted Items              (5) |   [MAGI] Magic Items                (6) |   [BASE] Base Items                 (7) |   [RAND] Random Information         (8) |
-// |      [CIMI] Crafted Miscellaneous       |      [MIVE] Magic Items Vendor          |      [BIVE] Base Items Vendor           |                                         |
-// |         [CMAM] Amulets                  |      [MIMI] Magic Miscellaneous         |      [BICO] Consumables                 |                                         |
-// |         [CMCH] Charms                   |         [MMAM] Amulets                  |         [BCGO] Gold                     |                                         |
-// |         [CMRI] Rings                    |         [MMCH] Charms                   |         [BCKE] Keys                     |                                         |
-// |      [CIBL] Crafted Blood Items         |         [MMCI] Circlets                 |         [BCPO] Potions                  |                                         |
-// |         [CBAR] Armor                    |         [MMJE] Jewels                   |         [BCTO] Scrolls & Tomes          |                                         |
-// |         [CBBE] Belt                     |         [MMRI] Rings                    |      [BIMI] Base Items Miscellaneous    |                                         |
-// |         [CBBO] Boots                    |      [MICS] Magic Items Class Specific  |         [BMCI] Circlets                 |                                         |
-// |         [CBGL] Gloves                   |         [MCAM] Amazon                   |      [BICS] Base Items Class Specific   |                                         |
-// |         [CBHE] Helm                     |         [MCAS] Assassin                 |         [BCAM] Amazon                   |                                         |
-// |         [CBSH] Shield                   |         [MCBA] Barbarian                |         [BCAS] Assassin                 |                                         |
-// |         [CBWE] Weapon                   |         [MCDR] Druid                    |         [BCBA] Barbarian                |                                         |
-// |      [CICA] Crafted Caster Items        |         [MCNE] Necromancer              |         [BCDR] Druid                    |                                         |
-// |         [CCAR] Armor                    |         [MCPA] Paladin                  |         [BCNE] Necromancer              |                                         |
-// |         [CCBE] Belt                     |         [MCSO] Sorceress                |         [BCPA] Paladin                  |                                         |
-// |         [CCBO] Boots                    |      [MIAR] Magic Items Armor           |         [BCSO] Sorceress                |                                         |
-// |         [CCGL] Gloves                   |         [MAAR] Armor                    |      [BIAR] Base Items Armor            |                                         |
-// |         [CCHE] Helm                     |         [MABE] Belts                    |         [BAAR] Armor                    |                                         |
-// |         [CCSH] Shield                   |         [MABO] Boots                    |         [BABE] Belts                    |                                         |
-// |         [CCWE] Weapon                   |         [MAGL] Gloves                   |         [BABO] Boots                    |                                         |
-// |      [CIHP] Crafted Hit Power Items     |         [MAHE] Helms                    |         [BAGL] Gloves                   |                                         |
-// |         [CHAR] Armor                    |         [MASH] Shields                  |         [BAHE] Helms                    |                                         |
-// |         [CHBE] Belt                     |      [MIWE] Magic Items Weapons         |         [BASH] Shields                  |                                         |
-// |         [CHBO] Boots                    |         [MWAX] Axes                     |      [BIWE] Base Items Weapons          |                                         |
-// |         [CHGL] Gloves                   |         [MWBO] Bows                     |         [BWAX] Axes                     |                                         |
-// |         [CHHE] Helm                     |         [MWCR] Crossbows                |         [BWBO] Bows                     |                                         |
-// |         [CHSH] Shield                   |         [MWDA] Daggers                  |         [BWCR] Crossbows                |                                         |
-// |         [CHWE] Weapon                   |         [MWJA] Javelins                 |         [BWDA] Daggers                  |                                         |
-// |      [CISA] Crafted Safety Items        |         [MWMA] Maces                    |         [BWJA] Javelins                 |                                         |
-// |         [CSAR] Armor                    |         [MWPO] Polearms                 |         [BWMA] Maces                    |                                         |
-// |         [CSBE] Belt                     |         [MWSC] Scepters                 |            [BWMC] Clubs                 |                                         |
-// |         [CSBO] Boots                    |         [MWSP] Spears                   |            [BWMH] Hammers               |                                         |
-// |         [CSGL] Gloves                   |         [MWST] Staves                   |            [BWMM] Maces                 |                                         |
-// |         [CSHE] Helm                     |         [MWSW] Swords                   |         [BWPO] Polearms                 |                                         |
-// |         [CSSH] Shield                   |         [MWTH] Throwing Weapons         |         [BWSC] Scepters                 |                                         |
-// |         [CSWE] Weapon                   |         [MWWA] Wands                    |         [BWSP] Spears                   |                                         |
-// |                                         |      [MIMA] Magic Items Master          |         [BWST] Staves                   |                                         |
-// |                                         |                                         |         [BWSW] Swords                   |                                         |
+// |      [CIMI] Crafted Miscellaneous       |      [MIMI] Magic Miscellaneous         |      [BICO] Consumables                 |                                         |
+// |         [CMAM] Amulets                  |         [MMAM] Amulets                  |         [BCGO] Gold                     |                                         |
+// |         [CMCH] Charms                   |         [MMCH] Charms                   |         [BCKE] Keys                     |                                         |
+// |         [CMRI] Rings                    |         [MMCI] Circlets                 |         [BCPO] Potions                  |                                         |
+// |      [CIBL] Crafted Blood Items         |         [MMJE] Jewels                   |         [BCTO] Scrolls & Tomes          |                                         |
+// |         [CBAR] Armor                    |         [MMRI] Rings                    |      [BIMI] Base Items Miscellaneous    |                                         |
+// |         [CBBE] Belt                     |      [MICS] Magic Items Class Specific  |         [BMCI] Circlets                 |                                         |
+// |         [CBBO] Boots                    |         [MCAM] Amazon                   |      [BICS] Base Items Class Specific   |                                         |
+// |         [CBGL] Gloves                   |         [MCAS] Assassin                 |         [BCAM] Amazon                   |                                         |
+// |         [CBHE] Helm                     |         [MCBA] Barbarian                |         [BCAS] Assassin                 |                                         |
+// |         [CBSH] Shield                   |         [MCDR] Druid                    |         [BCBA] Barbarian                |                                         |
+// |         [CBWE] Weapon                   |         [MCNE] Necromancer              |         [BCDR] Druid                    |                                         |
+// |      [CICA] Crafted Caster Items        |         [MCPA] Paladin                  |         [BCNE] Necromancer              |                                         |
+// |         [CCAR] Armor                    |         [MCSO] Sorceress                |         [BCPA] Paladin                  |                                         |
+// |         [CCBE] Belt                     |      [MIAR] Magic Items Armor           |         [BCSO] Sorceress                |                                         |
+// |         [CCBO] Boots                    |         [MAAR] Armor                    |      [BIAR] Base Items Armor            |                                         |
+// |         [CCGL] Gloves                   |         [MABE] Belts                    |         [BAAR] Armor                    |                                         |
+// |         [CCHE] Helm                     |         [MABO] Boots                    |         [BABE] Belts                    |                                         |
+// |         [CCSH] Shield                   |         [MAGL] Gloves                   |         [BABO] Boots                    |                                         |
+// |         [CCWE] Weapon                   |         [MAHE] Helms                    |         [BAGL] Gloves                   |                                         |
+// |      [CIHP] Crafted Hit Power Items     |         [MASH] Shields                  |         [BAHE] Helms                    |                                         |
+// |         [CHAR] Armor                    |      [MIWE] Magic Items Weapons         |         [BASH] Shields                  |                                         |
+// |         [CHBE] Belt                     |         [MWAX] Axes                     |      [BIWE] Base Items Weapons          |                                         |
+// |         [CHBO] Boots                    |         [MWBO] Bows                     |         [BWAX] Axes                     |                                         |
+// |         [CHGL] Gloves                   |         [MWCR] Crossbows                |         [BWBO] Bows                     |                                         |
+// |         [CHHE] Helm                     |         [MWDA] Daggers                  |         [BWCR] Crossbows                |                                         |
+// |         [CHSH] Shield                   |         [MWJA] Javelins                 |         [BWDA] Daggers                  |                                         |
+// |         [CHWE] Weapon                   |         [MWMA] Maces                    |         [BWJA] Javelins                 |                                         |
+// |      [CISA] Crafted Safety Items        |         [MWPO] Polearms                 |         [BWMA] Maces                    |                                         |
+// |         [CSAR] Armor                    |         [MWSC] Scepters                 |            [BWMC] Clubs                 |                                         |
+// |         [CSBE] Belt                     |         [MWSP] Spears                   |            [BWMH] Hammers               |                                         |
+// |         [CSBO] Boots                    |         [MWST] Staves                   |            [BWMM] Maces                 |                                         |
+// |         [CSGL] Gloves                   |         [MWSW] Swords                   |         [BWPO] Polearms                 |                                         |
+// |         [CSHE] Helm                     |         [MWTH] Throwing Weapons         |         [BWSC] Scepters                 |                                         |
+// |         [CSSH] Shield                   |         [MWWA] Wands                    |         [BWSP] Spears                   |                                         |
+// |         [CSWE] Weapon                   |      [MIVE] Magic Items Vendor          |         [BWST] Staves                   |                                         |
+// |                                         |      [MIMA] Magic Items Master          |         [BWSW] Swords                   |                                         |
 // |                                         |                                         |         [BWTH] Throwing Weapons         |                                         |
 // |                                         |                                         |         [BWWA] Wands                    |                                         |
+// |                                         |                                         |      [BIVE] Base Items Vendor           |                                         |
 // |                                         |                                         |      [BIMA] Base Items Master           |                                         |
 // |                                         |                                         |                                         |                                         |
 // +-----------------------------------------+-----------------------------------------+-----------------------------------------+-----------------------------------------+
@@ -513,13 +513,6 @@ ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notif
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 // ------------------------------------------------------------------------------
-// [RIVE] Rare Items Vendor
-// ------------------------------------------------------------------------------
-ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Normal difficulty
-ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Nightmare difficulty
-ItemDisplay[RARE !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Hell difficulty
-
-// ------------------------------------------------------------------------------
 // [RIMI] Rare Miscellaneous
 // ------------------------------------------------------------------------------
 ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
@@ -716,6 +709,13 @@ ItemDisplay[RARE !ID CLVL<20 WAND]: %NAME%%MAP-A8% // Show all Wands before leve
 ItemDisplay[RARE !ID WAND]: %NAME%%MAP-A8% // All Wands
 
 // ------------------------------------------------------------------------------
+// [RIVE] Rare Items Vendor
+// ------------------------------------------------------------------------------
+ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Normal difficulty
+ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Nightmare difficulty
+ItemDisplay[RARE !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME%%MAP-A8%%CONTINUE% // Hell difficulty
+
+// ------------------------------------------------------------------------------
 // [RIMA] Rare Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Show and notify for all rares until level 39
@@ -910,13 +910,6 @@ ItemDisplay[MAG ILVL>71 umg]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 // ------------------------------------------------------------------------------
-// [MIVE] Magic Items Vendor
-// ------------------------------------------------------------------------------
-ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Normal difficulty
-ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Nightmare difficulty
-ItemDisplay[MAG !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Hell difficulty
-
-// ------------------------------------------------------------------------------
 // [MIMI] Magic Miscellaneous
 // ------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------
@@ -1071,6 +1064,13 @@ ItemDisplay[MAG !ID !SPEAR THROWING !ZON]: %NAME% // All Throwing Weapons
 ItemDisplay[MAG !ID WAND]: %NAME%%MAP-97% // All Wands
 
 // ------------------------------------------------------------------------------
+// [MIVE] Magic Items Vendor
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Normal difficulty
+ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Nightmare difficulty
+ItemDisplay[MAG !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Hell difficulty
+
+// ------------------------------------------------------------------------------
 // [MIMA] Magic Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG !ID CLVL<30]: %NAME% // Show all magics until level 29
@@ -1081,16 +1081,6 @@ ItemDisplay[MAG !ID CLVL>29]: // At level 30+, stop showing and notifying for al
 // |     [BASE] Base Items                                                      |
 // |                                                                            |
 // +----------------------------------------------------------------------------+
-// ------------------------------------------------------------------------------
-// [BIVE] Base Items Vendor
-// ------------------------------------------------------------------------------
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items, Normal difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items, Normal difficulty
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items, Nightmare difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items, Nightmare difficulty
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items, Hell difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items, Hell difficulty
-
 // ------------------------------------------------------------------------------
 // [BICO] Consumables
 // ------------------------------------------------------------------------------
@@ -1779,6 +1769,16 @@ ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (SK69>2 OR SK70>2 OR SK75>2 OR SK79>2
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (SK69>2 OR SK70>2 OR SK75>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK90>2 OR SK94>2 OR SK95>2 OR SK367>2 OR SK67>2 OR SK74>2 OR SK84>2 OR SK92>2 OR SK93>2 OR SK66>2 OR SK71>2 OR SK72>2 OR SK76>2 OR SK77>2 OR SK81>2 OR SK82>2 OR SK86>2 OR SK87>2 OR SK91>2 OR SK374>2 OR SK381>2) WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=2 (SK69>2 OR SK70>2 OR SK75>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK90>2 OR SK94>2 OR SK95>2 OR SK367>2 OR SK67>2 OR SK74>2 OR SK84>2 OR SK92>2 OR SK93>2 OR SK66>2 OR SK71>2 OR SK72>2 OR SK76>2 OR SK77>2 OR SK81>2 OR SK82>2 OR SK86>2 OR SK87>2 OR SK91>2 OR SK374>2 OR SK381>2) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 (SK69>2 OR SK70>2 OR SK75>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK90>2 OR SK94>2 OR SK95>2 OR SK367>2 OR SK67>2 OR SK74>2 OR SK84>2 OR SK92>2 OR SK93>2 OR SK66>2 OR SK71>2 OR SK72>2 OR SK76>2 OR SK77>2 OR SK81>2 OR SK82>2 OR SK86>2 OR SK87>2 OR SK91>2 OR SK374>2 OR SK381>2) WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os, Superior
+
+// ------------------------------------------------------------------------------
+// [BIVE] Base Items Vendor
+// ------------------------------------------------------------------------------
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items, Normal difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items, Normal difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items, Nightmare difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items, Nightmare difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // For non-eth, no sockets items, Hell difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // For eth or socketed items, Hell difficulty
 
 // ------------------------------------------------------------------------------
 // [BIMA] Base Items Master
