@@ -1255,10 +1255,10 @@ ItemDisplay[NMAG !INF !RW SOCK=3 uit]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Dream, Sanct
 ItemDisplay[NMAG !INF !RW SOCK=4 uit]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:} // Monarch, 4os
 
 //      Base Axes
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (7ax OR 72a OR 7mp OR 7wa)]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (7ax OR 72a OR 7mp OR 7wa)]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (7ax OR 72a OR 7mp OR 7wa)]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=4 (7ax OR 72a OR 7mp OR 7wa)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Kingslayer, Oath, Passion, Phoenix%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (72a OR 7mp OR 7wa)]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (72a OR 7mp OR 7wa)]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (72a OR 7mp OR 7wa)]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 (72a OR 7mp OR 7wa)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Kingslayer, Oath, Passion, Phoenix%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 (2ax OR 72a OR 7mp OR 7wa)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Beast, Call to Arms, Death,%NL%%TAN%Possible RWs:} // All tiers, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 (7mp OR 7wa)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
 
