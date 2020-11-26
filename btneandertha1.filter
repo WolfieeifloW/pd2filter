@@ -297,8 +297,8 @@ ItemDisplay[RARE !ID DRU]: %NAME%%MAP-A8% // All Rare Druid Pelts
 ItemDisplay[RARE !ID SOR]: %NAME%%MAP-A8% // All Rare Sorceress Orbs
 
 //      Rare Armors
-ItemDisplay[RARE !ID (xtp OR ELT) CHEST]: %NAME%%MAP-A8% // All Exceptional and Elite tier Rare Armors
-ItemDisplay[RARE !ID BELT]: %NAME%%MAP-A8% // All Rare belts
+ItemDisplay[RARE !ID (xtp OR ELT) CHEST]: %NAME% // All Exceptional and Elite tier Rare Armors
+ItemDisplay[RARE !ID BELT]: %NAME% // All Rare belts
 ItemDisplay[RARE !ID BOOTS]: %NAME%%MAP-A8% // All Rare boots
 ItemDisplay[RARE !ID GLOVES]: %NAME%%MAP-A8% // All Rare gloves
 
@@ -1627,12 +1627,19 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SK58>2 SOCK=0 STAFF]: %NAME% %GRAY%[%BLUE%+3 
 ItemDisplay[NMAG !INF !RW SK58>2 SOCK=4 STAFF]: %GRAY%%NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 //      Base Swords
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (7cr OR 7bs OR 7ls)]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (7cr OR 7bs OR 7ls)]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (7cr OR 7bs OR 7ls)]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=4 (7cr OR 7bs OR 7ls)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+// Crystal Sword variants
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7cr]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 7cr]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7cr]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 7cr]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 (crs OR 7cr)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW SOCK=6 (7cr)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SOCK=6 7cr]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
+
+// Other Swords
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (7bs OR 7ls)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (7bs OR 7ls)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (7bs OR 7ls)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 (7bs OR 7ls)]: %GRAY%%NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 //      Base Wands
 //          Summoning
