@@ -249,9 +249,9 @@ ItemDisplay[gcv]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst%WHITE%{%TAN%3 Chipped
 ItemDisplay[gfv]: %PURPLE%+%WHITE%Flawed %PURPLE%Amethyst%WHITE%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
 ItemDisplay[gsv]: %PURPLE%+%PURPLE%Amethyst%WHITE%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
 ItemDisplay[gzv]: %PURPLE%+%WHITE%Flawless %PURPLE%Amethyst%WHITE%%DOT-20%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
-ItemDisplay[gzvs]: %PURPLE%+%WHITE%Flawless %PURPLE%Amethyst%WHITE%%DOT-20%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst%NL%%NL%%WHITE%Shields: +24 Defense%NL%Armor/Helms: +8 Strength%NL%Weapons: +100 Attack Rating%NL%} // Stacked Flawless Amethyst
+ItemDisplay[gzvs]: %PURPLE%+%WHITE%Flawless %PURPLE%Amethyst x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst%NL%%NL%%WHITE%Shields: +24 Defense%NL%Armor/Helms: +8 Strength%NL%Weapons: +100 Attack Rating%NL%} // Stacked Flawless Amethyst
 ItemDisplay[gpv]: %PURPLE%+%WHITE%Perfect %PURPLE%Amethyst%WHITE%%DOT-20%{%TAN%Used in Caster crafting} // Flawless Amethyst
-ItemDisplay[gpvs]: %PURPLE%+%WHITE%Perfect %PURPLE%Amethyst%WHITE%%DOT-20%{%TAN%Used in Caster crafting%NL%%NL%%WHITE%Shields: +30 Defense%NL%Armor/Helms: +10 Strength%NL%Weapons: +150 Attack Rating%NL%} // Stacked Flawless Amethyst
+ItemDisplay[gpvs]: %PURPLE%+%WHITE%Perfect %PURPLE%Amethyst x%QTY%%WHITE%%DOT-20%{%TAN%Used in Caster crafting%NL%%NL%%WHITE%Shields: +30 Defense%NL%Armor/Helms: +10 Strength%NL%Weapons: +150 Attack Rating%NL%} // Stacked Flawless Amethyst
 
 // ------------------------------------------------------------------------------
 // [GEDI] Diamond
@@ -260,9 +260,9 @@ ItemDisplay[gcw]: %WHITE%+%WHITE%Chipped %WHITE%Diamond%WHITE%{%TAN%3 Chipped Di
 ItemDisplay[gfw]: %WHITE%+%WHITE%Flawed %WHITE%Diamond%WHITE%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
 ItemDisplay[gsw]: %WHITE%+%WHITE%Diamond%WHITE%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
 ItemDisplay[glw]: %WHITE%+%WHITE%Flawless %WHITE%Diamond%WHITE%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
-ItemDisplay[glws]: %WHITE%+%WHITE%Flawless %WHITE%Diamond%WHITE%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond%NL%%NL%%WHITE%Shield: Res +14%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg to Undead%NL%} // Stacked Flawless Diamond
+ItemDisplay[glws]: %WHITE%+%WHITE%Flawless %WHITE%Diamond x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond%NL%%NL%%WHITE%Shield: Res +14%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg to Undead%NL%} // Stacked Flawless Diamond
 ItemDisplay[gpw]: %WHITE%+%WHITE%Perfect %WHITE%Diamond%WHITE%%DOT-20% // Perfect Diamond
-ItemDisplay[gpws]: %WHITE%+%WHITE%Perfect %WHITE%Diamond%WHITE%%DOT-20%{%WHITE%Shields: All Resist +19%NL%Armor/Helms: +100 Attack Rating%NL%Weapons: +68% Damage to Undead%NL%} // Stacked Perfect Diamond
+ItemDisplay[gpws]: %WHITE%+%WHITE%Perfect %WHITE%Diamond x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: All Resist +19%NL%Armor/Helms: +100 Attack Rating%NL%Weapons: +68% Damage to Undead%NL%} // Stacked Perfect Diamond
 
 // ------------------------------------------------------------------------------
 // [GEEM] Emerald
@@ -271,9 +271,9 @@ ItemDisplay[gcg]: %GREEN%+%WHITE%Chipped %GREEN%Emerald%WHITE%{%TAN%3 Chipped Em
 ItemDisplay[gfg]: %GREEN%+%WHITE%Flawed %GREEN%Emerald%WHITE%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
 ItemDisplay[gsg]: %GREEN%+%GREEN%Emerald%WHITE%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
 ItemDisplay[glg]: %GREEN%+%WHITE%Flawless %GREEN%Emerald%WHITE%%DOT-20%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
-ItemDisplay[glgs]: %GREEN%+%WHITE%Flawless %GREEN%Emerald%WHITE%%DOT-20%{%TAN%3 Flawless Emerald + Key = Perfect Emerald%NL%%NL%%WHITE%Shields: Psn Res +28%%NL%Armor/Helms: +8 Dexterity%NL%Weapons: +60 psn over 6 secs%NL%} // Stacked Flawless Emerald
+ItemDisplay[glgs]: %GREEN%+%WHITE%Flawless %GREEN%Emerald x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Emerald + Key = Perfect Emerald%NL%%NL%%WHITE%Shields: Psn Res +28%%NL%Armor/Helms: +8 Dexterity%NL%Weapons: +60 psn over 6 secs%NL%} // Stacked Flawless Emerald
 ItemDisplay[gpg]: %GREEN%+%WHITE%Perfect %GREEN%Emerald%WHITE%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
-ItemDisplay[gpgs]: %GREEN%+%WHITE%Perfect %GREEN%Emerald%WHITE%%DOT-20%{%TAN%Used in Safety crafting%NL%%NL%%WHITE%Shields: Poison Resist +40%%NL%Armor/Helms: +10 Dexterity%NL%Weapons: +100 poison damage over 7 secs%NL%} // Stacked Perfect Emerald
+ItemDisplay[gpgs]: %GREEN%+%WHITE%Perfect %GREEN%Emerald x%QTY%%WHITE%%DOT-20%{%TAN%Used in Safety crafting%NL%%NL%%WHITE%Shields: Poison Resist +40%%NL%Armor/Helms: +10 Dexterity%NL%Weapons: +100 poison damage over 7 secs%NL%} // Stacked Perfect Emerald
 
 // ------------------------------------------------------------------------------
 // [GERU] Ruby
@@ -282,9 +282,9 @@ ItemDisplay[gcr]: %RED%+%WHITE%Chipped %RED%Ruby%WHITE%{%TAN%3 Chipped Ruby = Fl
 ItemDisplay[gfr]: %RED%+%WHITE%Flawed %RED%Ruby%WHITE%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
 ItemDisplay[gsr]: %RED%+%RED%Ruby%WHITE%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
 ItemDisplay[glr]: %RED%+%WHITE%Flawless %RED%Ruby%WHITE%%DOT-20%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
-ItemDisplay[glrs]: %RED%+%WHITE%Flawless %RED%Ruby%WHITE%%DOT-20%{%TAN%3 Flawless Ruby + Key = Perfect Ruby%NL%%NL%%WHITE%Shields: Fire Resist +28%%NL%Armor/Helms: +31 Life%NL%Weapons: Adds 10-16 fire damage%NL%} // Stacked Flawless Ruby
+ItemDisplay[glrs]: %RED%+%WHITE%Flawless %RED%Ruby x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Ruby + Key = Perfect Ruby%NL%%NL%%WHITE%Shields: Fire Resist +28%%NL%Armor/Helms: +31 Life%NL%Weapons: Adds 10-16 fire damage%NL%} // Stacked Flawless Ruby
 ItemDisplay[gpr]: %RED%+%WHITE%Perfect %RED%Ruby%WHITE%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
-ItemDisplay[gprs]: %RED%+%WHITE%Perfect %RED%Ruby%WHITE%%DOT-20%{%TAN%Used in Blood crafting%NL%%NL%%WHITE%Shields: Fire Resist +40%%NL%Armor/Helms: +38 Life%NL%Weapons: Adds 15-20 fire damage%NL%} // Stacked Perfect Ruby
+ItemDisplay[gprs]: %RED%+%WHITE%Perfect %RED%Ruby x%QTY%%WHITE%%DOT-20%{%TAN%Used in Blood crafting%NL%%NL%%WHITE%Shields: Fire Resist +40%%NL%Armor/Helms: +38 Life%NL%Weapons: Adds 15-20 fire damage%NL%} // Stacked Perfect Ruby
 
 // ------------------------------------------------------------------------------
 // [GESA] Sapphire
@@ -293,9 +293,9 @@ ItemDisplay[gcb]: %BLUE%+%WHITE%Chipped %BLUE%Sapphire%WHITE%{%TAN%3 Chipped Sap
 ItemDisplay[gfb]: %BLUE%+%WHITE%Flawed %BLUE%Sapphire%WHITE%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
 ItemDisplay[gsb]: %BLUE%+%BLUE%Sapphire%WHITE%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
 ItemDisplay[glb]: %BLUE%+%WHITE%Flawless %BLUE%Sapphire%WHITE%%DOT-20%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
-ItemDisplay[glbs]: %BLUE%+%WHITE%Flawless %BLUE%Sapphire%WHITE%%DOT-20%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire%NL%%NL%%WHITE%Shields: Cold Res +28%%NL%Armor/Helms: +31 Mana%NL%Weapons: Adds 6-10 cold dmg%NL%} // Stacked Flawless Sapphire
+ItemDisplay[glbs]: %BLUE%+%WHITE%Flawless %BLUE%Sapphire x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire%NL%%NL%%WHITE%Shields: Cold Res +28%%NL%Armor/Helms: +31 Mana%NL%Weapons: Adds 6-10 cold dmg%NL%} // Stacked Flawless Sapphire
 ItemDisplay[gpb]: %BLUE%+%WHITE%Perfect %BLUE%Sapphire%WHITE%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
-ItemDisplay[gpbs]: %BLUE%+%WHITE%Perfect %BLUE%Sapphire%WHITE%%DOT-20%{%TAN%Used in Hit Power crafting%NL%%NL%%WHITE%Shields: Cold Resist +40%%NL%Armor/Helms: +38 Mana%NL%Weapons: Adds 10-14 cold damage%NL%} // Stacked Perfect Sapphire
+ItemDisplay[gpbs]: %BLUE%+%WHITE%Perfect %BLUE%Sapphire x%QTY%%WHITE%%DOT-20%{%TAN%Used in Hit Power crafting%NL%%NL%%WHITE%Shields: Cold Resist +40%%NL%Armor/Helms: +38 Mana%NL%Weapons: Adds 10-14 cold damage%NL%} // Stacked Perfect Sapphire
 
 // ------------------------------------------------------------------------------
 // [GESK] Skull
@@ -304,9 +304,9 @@ ItemDisplay[skc]: %GRAY%+%WHITE%Chipped %GRAY%Skull%WHITE%{%TAN%3 Chipped Skull 
 ItemDisplay[skf]: %GRAY%+%WHITE%Flawed %GRAY%Skull%WHITE%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
 ItemDisplay[sku]: %GRAY%+%GRAY%Skull%WHITE%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
 ItemDisplay[skl]: %GRAY%+%WHITE%Flawless %GRAY%Skull%WHITE%%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
-ItemDisplay[skls]: %GRAY%+%WHITE%Flawless %GRAY%Skull%WHITE%%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull%NL%%NL%%WHITE%Shield: ATDO 16%NL%Armor/Helm: Mana Reg 12%, Rep Life +4%NL%Wep: 3% Life & Mana steal%NL%} // Stacked Flawless Skull
+ItemDisplay[skls]: %GRAY%+%WHITE%Flawless %GRAY%Skull x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull%NL%%NL%%WHITE%Shield: ATDO 16%NL%Armor/Helm: Mana Reg 12%, Rep Life +4%NL%Wep: 3% Life & Mana steal%NL%} // Stacked Flawless Skull
 ItemDisplay[skz]: %GRAY%+%WHITE%Perfect %GRAY%Skull%WHITE%%DOT-20% // Perfect Skull
-ItemDisplay[skzs]: %GRAY%+%WHITE%Perfect %GRAY%Skull%WHITE%%DOT-20%{%WHITE%Shields: Attacker Takes Damage of 20%NL%Armor/Helms: Regen Mana 19%, Rep Life +5%NL%Weapons: 4% Life & 3% Mana steal%NL%} // Stacked Perfect Skull
+ItemDisplay[skzs]: %GRAY%+%WHITE%Perfect %GRAY%Skull x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: Attacker Takes Damage of 20%NL%Armor/Helms: Regen Mana 19%, Rep Life +5%NL%Weapons: 4% Life & 3% Mana steal%NL%} // Stacked Perfect Skull
 
 // ------------------------------------------------------------------------------
 // [GETO] Topaz
@@ -315,9 +315,9 @@ ItemDisplay[gcy]: %YELLOW%+%WHITE%Chipped %YELLOW%Topaz%WHITE%{%TAN%3 Chipped To
 ItemDisplay[gfy]: %YELLOW%+%WHITE%Flawed %YELLOW%Topaz%WHITE%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
 ItemDisplay[gsy]: %YELLOW%+%YELLOW%Topaz%WHITE%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
 ItemDisplay[gly]: %YELLOW%+%WHITE%Flawless %YELLOW%Topaz%WHITE%%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
-ItemDisplay[glys]: %YELLOW%+%WHITE%Flawless %YELLOW%Topaz%WHITE%%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz%NL%%NL%%WHITE%Shields: Light Res +28%%NL%Armor/Helms: 20% Magic Find%NL%Weps: Add 1-30 lightning dmg%NL%} // Stacked Flawless Topaz
+ItemDisplay[glys]: %YELLOW%+%WHITE%Flawless %YELLOW%Topaz x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz%NL%%NL%%WHITE%Shields: Light Res +28%%NL%Armor/Helms: 20% Magic Find%NL%Weps: Add 1-30 lightning dmg%NL%} // Stacked Flawless Topaz
 ItemDisplay[gpy]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz%WHITE%%DOT-20% // Perfect Topaz
-ItemDisplay[gpys]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz%WHITE%%DOT-20%{%WHITE%Shields: Lightning Resist +40%%NL%Armor/Helms: 24% Better Chance of Getting Magic Items%NL%Weapons: Adds 1-40 lightning damage%NL%} // Stacked Perfect Topaz
+ItemDisplay[gpys]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: Lightning Resist +40%%NL%Armor/Helms: 24% Better Chance of Getting Magic Items%NL%Weapons: Adds 1-40 lightning damage%NL%} // Stacked Perfect Topaz
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
