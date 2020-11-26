@@ -1001,7 +1001,7 @@ ItemDisplay[MAG !ID ILVL>49 (ulc OR uvc OR umc)]: %NAME%%MAP-97% // Possible Wha
 // ------------------------------------------------------------------------------
 //     [MAGL] Gloves
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97% // All gloves
+ItemDisplay[MAG !ID GLOVES]: %NAME% // All gloves
 
 // ------------------------------------------------------------------------------
 //     [MAHE] Helms
@@ -1063,7 +1063,7 @@ ItemDisplay[MAG !ID SCEPTER]: %NAME%%MAP-97% // All Scepters
 // ------------------------------------------------------------------------------
 //     [MWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID !SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Throwing Weapons
+ItemDisplay[MAG !ID !SPEAR THROWING !ZON]: %NAME% // All Throwing Weapons
 
 // ------------------------------------------------------------------------------
 //     [MWWA] Wands
