@@ -37,19 +37,19 @@ ItemDisplay[ice]: %GOLD%Malahs Potion{%TAN%Act 5: Frozen River%NL%Touch Anya in%
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance{%TAN%All Resistances +10%NL%Right click for a permanent%NL%} // Scroll of Resistance
 
 // Essences & Token -------------------------------------------------------------
-ItemDisplay[bet]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Diablo%NL%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror
-ItemDisplay[ceh]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Mephisto%NL%Cube w/ Burning, Festering, & Twisted essences%NL%} // Charged Essence of Hatred
-ItemDisplay[fed]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Baal%NL%Cube w/ Burning, Charged, & Twisted essences%NL%} // Festering Essence of Destruction
 ItemDisplay[tes]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Andarial & Duriel%NL%Cube w/ Burning, Charged, & Festering essences%NL%} // Twisted Essence of Suffering
+ItemDisplay[ceh]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Mephisto%NL%Cube w/ Burning, Festering, & Twisted essences%NL%} // Charged Essence of Hatred
+ItemDisplay[bet]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Diablo%NL%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror
+ItemDisplay[fed]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Baal%NL%Cube w/ Burning, Charged, & Twisted essences%NL%} // Festering Essence of Destruction
 ItemDisplay[toa]: %ORANGE%Token of Absolution%WHITE%%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
 
 // Pandemonium Items ------------------------------------------------------------
-ItemDisplay[pk3]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from Nihlathak & Izual%NL%Cube w/ Hate & Terror keys in Act 5%NL%} // Key of Destruction
-ItemDisplay[pk2]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from Summoner & Bloodwitch the Wild%NL%Cube w/ Destruction & Terror keys in Act 5%NL%} // Key of Hate
 ItemDisplay[pk1]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from Countess & Blood Raven%NL%Cube w/ Destruction & Hate keys in Act 5%NL%} // Key of Terror
-ItemDisplay[bey]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Baal's Eye
-ItemDisplay[dhn]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Diablo's Horn
+ItemDisplay[pk2]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from Summoner & Bloodwitch the Wild%NL%Cube w/ Destruction & Terror keys in Act 5%NL%} // Key of Hate
+ItemDisplay[pk3]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from Nihlathak & Izual%NL%Cube w/ Hate & Terror keys in Act 5%NL%} // Key of Destruction
 ItemDisplay[mbr]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Mephisto's Brain
+ItemDisplay[dhn]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Diablo's Horn
+ItemDisplay[bey]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Baal's Eye
 
 // Corruption Items -------------------------------------------------------------
 ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE% x%QTY%%MAP-62% // Worldstone Shard
@@ -265,7 +265,7 @@ ItemDisplay[MAG (SOCK>3 AND FBR>1) uit]: %GREEN%(JMoD) %BLUE%%NAME% // JMoD Mona
 
 // Other Items ------------------------------------------------------------------
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
-ItemDisplay[INF (ARMOR OR WEAPON) CLVL>5]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 5
+ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL>5]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 5
 ItemDisplay[aqv CLVL>5]: // Hides Arrow quivers past character level 5
 ItemDisplay[cqv CLVL>5]: // Hides Bolt quivers past character level 5
 
@@ -287,10 +287,6 @@ ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 
 // Rare Items -------------------------------------------------------------------
-ItemDisplay[RARE !RW PRICE>34999]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Hell difficulty
-ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Nightmare difficulty
-ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME%%CONTINUE% // Normal difficulty
-
 //      Upgrade recipes
 ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
@@ -332,6 +328,7 @@ ItemDisplay[RARE !ID ELT SWORD]: %NAME% // All Elite tier Swords
 ItemDisplay[RARE !ID ELT !SPEAR THROWING !ZON]: %NAME% // All Elite tier Throwing Weapons
 ItemDisplay[RARE !ID WAND]: %NAME% // All Wands
 
+//      Items to Vendor
 ItemDisplay[RARE !RW PRICE>34999]: %DARK_GREEN%$ %YELLOW%%NAME% // Hell difficulty
 ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME% // Nightmare difficulty
 ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal difficulty
@@ -371,11 +368,6 @@ ItemDisplay[MAG ILVL>71 (hbl OR EXC OR ELT) BELT]: %NAME% %ORANGE%[C]%BLUE%{%PUR
 ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
 
 // Magic Items ------------------------------------------------------------------
-//      Items to Vendor
-ItemDisplay[MAG !RW PRICE>34999]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Adding $ to 35k+ Magic items for Hell difficulty
-ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Adding $ to 20k+ Magic items for Nightmare difficulty
-ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME%%CONTINUE% // Adding $ to 10k+ Magic items for Normal difficulty
-
 //      Magic Charms
 ItemDisplay[MAG !ID cm1]: %RED%o %BLUE%%NAME% %RED%o%WHITE%%MAP-97% // Magic Small Charms
 ItemDisplay[MAG !ID cm2]: %BLUE%o %NAME% o%WHITE%%MAP-97% // Magic Large Charms
@@ -393,6 +385,7 @@ ItemDisplay[MAG !ID DRU]: %NAME% // All Magic Pelts
 //      Magic Armors
 ItemDisplay[MAG !ID (xtp OR ELT) CHEST]: %NAME% // All Exceptional and Elite tier Magic Armors
 
+//      Items to Vendor
 ItemDisplay[MAG !RW PRICE>34999]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ to 35k+ Magic items for Hell difficulty
 ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ to 20k+ Magic items for Nightmare difficulty
 ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ to 10k+ Magic items for Normal difficulty
@@ -401,14 +394,6 @@ ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ 
 ItemDisplay[MAG !ID]: // Hide all other Magic items
 
 // Base Items -------------------------------------------------------------------
-//      Items to Vendor
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // Adding $ to 35k+ non-eth 0os Base items for Hell difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // Adding $ to 10k+ eth or socketed Base items for Hell difficulty
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF=1 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // Adding $ to 20k+ non-eth 0os Base items for Nightmare difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF=1 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // Adding $ to 10k+ eth or socketed Base items for Nightmare difficulty
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %WHITE%%NAME%%CONTINUE% // Adding $ to 10k+ non-eth 0os Base items for Normal difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF=0 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %GRAY%%NAME%%CONTINUE% // Adding $ to 10k+ eth or socketed Base items for Normal difficulty
-
 //      Gold
 ItemDisplay[GOLD<25]: // Always hide gold in piles of less than 25
 ItemDisplay[GOLD<50 CLVL>9]: // Hide 50 gold and less if level 10+
@@ -1875,13 +1860,13 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %GRAY%%
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SOCK=2 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
-//      Other 35k+ items
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 35k+ non-eth 0os Base items for Hell difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Hell difficulty
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF=1 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 20k+ non-eth 0os Base items for Nightmare difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF=1 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Nightmare difficulty
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 10k+ non-eth 0os Base items for Normal difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF=0 (NORM OR EXC OR ELT OR 7tk OR 7ta OR 7bk)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Normal difficulty
+//      Items to Vendor
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 35k+ non-eth 0os Base items for Hell difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Hell difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 20k+ non-eth 0os Base items for Nightmare difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Nightmare difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 10k+ non-eth 0os Base items for Normal difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Normal difficulty
 
 //      Hide all other bases
 ItemDisplay[NMAG !RW (NORM OR EXC OR ELT)]: // Hide all other Base items
