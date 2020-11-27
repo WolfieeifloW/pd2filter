@@ -10,6 +10,7 @@
    1. [Basic](https://github.com/WolfieeifloW/pd2filter#basic)
    1. [Wolfie](https://github.com/WolfieeifloW/pd2filter#wolfie)
    1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
+1. [Discord](https://github.com/WolfieeifloW/pd2filter#discord)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
 1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
 1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
@@ -61,6 +62,9 @@ This version is a copy of my own personal filter. No support will be given for t
 CTRL+click the above link for the raw code.
 
 This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneandertha1) which is quite strict. No support will be given for this version.
+
+# Discord
+I've created a Discord for my filter so that you can get pinged when there's an update. This allows you to either redownload the filter or you can update just the lines I've changed! Join the server [HERE](https://discord.gg/8K2QkjAA8g)!
 
 # Informative Links
 * **Reddit Thread:** <https://www.reddit.com/r/ProjectDiablo2/comments/jr9c8x/wolfieeiflows_pd2_filters_w_install_instructions/>
