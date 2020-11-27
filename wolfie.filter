@@ -1444,9 +1444,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 CLVL<30 BOW !ZON]: %GRAY%%NAME%%DOT-20%%PX
 ItemDisplay[NMAG !INF !RW !ETH SOCK=5 CLVL<30 BOW !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // Shows and notify all 5 socket bows until character level 30
 ItemDisplay[NMAG !INF !RW !ETH SOCK=6 CLVL<30 BOW !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Shows and notify all 6 socket bows until character level 30
 
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 BOW !ZON ELT]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 BOW !ZON ELT]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 BOW !ZON (NORM OR ELT)]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 BOW !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 // ------------------------------------------------------------------------------
 //    [BWCR] Crossbows
