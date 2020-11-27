@@ -776,17 +776,17 @@ ItemDisplay[MAG rin ILVL>94]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character l
 // ------------------------------------------------------------------------------
 //    [COBE] Belt
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 (hbl OR EXC OR ELT) BELT]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Tal%NL%%BLUE%Hit Power:%TAN% P Saph + Tal%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Belt
+ItemDisplay[MAG ILVL>71 (hbl OR EXC OR ELT) BELT]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ith%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Belt
 
 // ------------------------------------------------------------------------------
 //    [COBO] Boots
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ort%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Boots
+//ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ort%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Boots
 
 // ------------------------------------------------------------------------------
 //    [COGL] Gloves
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ral%NL%%BLUE%Hit Power:%TAN% P Saph + Ort%NL%%PURPLE%Caster:%TAN% P Ame + Ort%NL%%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
+ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
 
 // ------------------------------------------------------------------------------
 //    [COHE] Helm
@@ -1444,7 +1444,9 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 CLVL<30 BOW !ZON]: %GRAY%%NAME%%DOT-20%%PX
 ItemDisplay[NMAG !INF !RW !ETH SOCK=5 CLVL<30 BOW !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Call to Arms%NL%%TAN%Possible RWs:} // Shows and notify all 5 socket bows until character level 30
 ItemDisplay[NMAG !INF !RW !ETH SOCK=6 CLVL<30 BOW !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Shows and notify all 6 socket bows until character level 30
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 BOW !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 BOW !ZON ELT]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 BOW !ZON ELT]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 BOW !ZON (NORM OR ELT)]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 // ------------------------------------------------------------------------------
 //    [BWCR] Crossbows
