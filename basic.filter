@@ -40,23 +40,23 @@ ItemDisplay[ice]: %GOLD%Malahs Potion%MAP-58% // Malah's Potion
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-58% // Scroll of Resistance
 
 // Essences
-ItemDisplay[bet]: %ORANGE%%NAME%%MAP-68% // Burning Essence of Terror
-ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-68% // Charged Essence of Hatred
-ItemDisplay[fed]: %ORANGE%%NAME%%MAP-68% // Festering Essence of Destruction
 ItemDisplay[tes]: %ORANGE%%NAME%%MAP-68% // Twisted Essence of Suffering
+ItemDisplay[ceh]: %ORANGE%%NAME%%MAP-68% // Charged Essence of Hatred
+ItemDisplay[bet]: %ORANGE%%NAME%%MAP-68% // Burning Essence of Terror
+ItemDisplay[fed]: %ORANGE%%NAME%%MAP-68% // Festering Essence of Destruction
 
 // Tokens
 ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68% // Token of Absolution
 
 // Pandemonium Keys
-ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68% // Key of Destruction
-ItemDisplay[pk2]: %ORANGE%%NAME%%MAP-68% // Key of Hate
 ItemDisplay[pk1]: %ORANGE%%NAME%%MAP-68% // Key of Terror
+ItemDisplay[pk2]: %ORANGE%%NAME%%MAP-68% // Key of Hate
+ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68% // Key of Destruction
 
 // Pandemonium Organs
-ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68% // Baal's Eye
-ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68% // Diablo's Horn
 ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68% // Mephisto's Brain
+ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68% // Diablo's Horn
+ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68% // Baal's Eye
 
 // Corruption Items
 ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
@@ -142,7 +142,7 @@ ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth
 
 // Other Items
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
-ItemDisplay[INF (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
+ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
 ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
 
