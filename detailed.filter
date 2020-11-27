@@ -2659,22 +2659,21 @@ ItemDisplay[RARE !ID CLVL>39]: %NAME% // At level 40+, stop notifying for all ra
 // ------------------------------------------------------------------------------
 // [CIMI] Crafted Miscellaneous
 // ------------------------------------------------------------------------------
-
 // ------------------------------------------------------------------------------
 //    [CMAM] Amulets
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 92+}
-ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 92+}
-ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 90+}
-ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 90+}
-ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 88+}
-ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 88+}
-ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 86+}
-ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 86+}
-ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
-ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
-ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
-ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
+ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 92+}
+ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 92+}
+ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 90+}
+ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 90+}
+ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 88+}
+ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 88+}
+ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 86+}
+ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 86+}
+ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 84+}
+ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 84+}
+ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 82+}
+ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 82+}
 
 // ------------------------------------------------------------------------------
 //    [CMCH] Charms
@@ -2685,456 +2684,54 @@ ItemDisplay[MAG !ID ILVL>93 cm3]: %NAME%%ORANGE%%MAP-68% // iLvl 94 or higher gr
 // ------------------------------------------------------------------------------
 //    [CMRI] Rings
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG rin ILVL=86]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
-ItemDisplay[MAG rin ILVL=87]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
-ItemDisplay[MAG rin ILVL=88]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
-ItemDisplay[MAG rin ILVL=89]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
-ItemDisplay[MAG rin ILVL=90]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 80+}
-ItemDisplay[MAG rin ILVL=91]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 78+}
-ItemDisplay[MAG rin ILVL=92]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 78+}
-ItemDisplay[MAG rin ILVL=93]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 76+}
-ItemDisplay[MAG rin ILVL=94]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 76+}
-ItemDisplay[MAG rin ILVL>94]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 74+}
+ItemDisplay[MAG rin ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 84+}
+ItemDisplay[MAG rin ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 84+}
+ItemDisplay[MAG rin ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 82+}
+ItemDisplay[MAG rin ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 82+}
+ItemDisplay[MAG rin ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 80+}
+ItemDisplay[MAG rin ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 78+}
+ItemDisplay[MAG rin ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 78+}
+ItemDisplay[MAG rin ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 76+}
+ItemDisplay[MAG rin ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 76+}
+ItemDisplay[MAG rin ILVL>94]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 74+}
 
 // ------------------------------------------------------------------------------
-// [CIBL] Crafted Blood Items
+// [CIOT] Crafted Items Other
 // ------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------
-//    [CBAR] Armor
+//    [COAR] Armor
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 plt]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Thul Rune, Perfect Ruby, + Any Jewel} // Plate Mail
-//ItemDisplay[MAG ILVL>71 xlt]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Thul Rune, Perfect Ruby, + Any Jewel} // Templar Coat
-//ItemDisplay[MAG ILVL>71 ult]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Thul Rune, Perfect Ruby, + Any Jewel} // Hellforge Plate
+//ItemDisplay[MAG ILVL>71 CHEST]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Eth%NL%%BLUE%Hit Power:%TAN% P Saph + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%RED%Blood:%TAN% P Ruby + Thul%NL%%ORANGE%Craft w/ Jewel:} // Any Armor
 
 // ------------------------------------------------------------------------------
-//    [CBBE] Belt
+//    [COBE] Belt
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 mbl]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Belt
-//ItemDisplay[MAG ILVL>71 zmb]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Mesh Belt
-//ItemDisplay[MAG ILVL>71 umc]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Mithril Coil
+ItemDisplay[MAG ILVL>71 (hbl OR EXC OR ELT) BELT]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Tal%NL%%BLUE%Hit Power:%TAN% P Saph + Tal%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Belt
 
 // ------------------------------------------------------------------------------
-//    [CBBO] Boots
+//    [COBO] Boots
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 tbt]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Eth Rune, Perfect Ruby, + Any Jewel} // Light Plated Boots
-ItemDisplay[MAG ILVL>71 xtb]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Eth Rune, Perfect Ruby, + Any Jewel} // Battle Boots
-ItemDisplay[MAG ILVL>71 utb]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Eth Rune, Perfect Ruby, + Any Jewel} // Mirrored Boots
+ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ort%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Boots
 
 // ------------------------------------------------------------------------------
-//    [CBGL] Gloves
+//    [COGL] Gloves
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 vgl]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Heavy Gloves
-ItemDisplay[MAG ILVL>71 xvg]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Sharkskin Gloves
-ItemDisplay[MAG ILVL>71 uvg]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Vampirebone Gloves
+ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ral%NL%%BLUE%Hit Power:%TAN% P Saph + Ort%NL%%PURPLE%Caster:%TAN% P Ame + Ort%NL%%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
 
 // ------------------------------------------------------------------------------
-//    [CBHE] Helm
+//    [COHE] Helm
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 hlm]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ral Rune, Perfect Ruby, + Any Jewel} // Helm
-//ItemDisplay[MAG ILVL>71 xlm]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ral Rune, Perfect Ruby, + Any Jewel} // Casque
-//ItemDisplay[MAG ILVL>71 ulm]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ral Rune, Perfect Ruby, + Any Jewel} // Armet
+//ItemDisplay[MAG ILVL>71 HELM]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel:} // Any Helm
 
 // ------------------------------------------------------------------------------
-//    [CBSH] Shield
+//    [COSH] Shield
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 spk]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ith Rune, Perfect Ruby, + Any Jewel} // Spiked Shield
-//ItemDisplay[MAG ILVL>71 xpk]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ith Rune, Perfect Ruby, + Any Jewel} // Barbed Shield
-//ItemDisplay[MAG ILVL>71 upk]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ith Rune, Perfect Ruby, + Any Jewel} // Blade Barrier
+//ItemDisplay[MAG ILVL>71 SHIELD]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel:} // Any Shield
 
 // ------------------------------------------------------------------------------
-//    [CBWE] Weapon
+//    [COWE] Weapon
 // ------------------------------------------------------------------------------
-// Normal tier Axes
-//      1-Handed Axes
-//ItemDisplay[MAG ILVL>71 hax]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Hand Axe
-//ItemDisplay[MAG ILVL>71 axe]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Axe
-//ItemDisplay[MAG ILVL>71 2ax]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Double Axe
-//ItemDisplay[MAG ILVL>71 mpi]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Military Pick
-//ItemDisplay[MAG ILVL>71 wax]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // War Axe
-
-//      2-Handed Axes
-//ItemDisplay[MAG ILVL>71 lax]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Large Axe
-//ItemDisplay[MAG ILVL>71 bax]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Broad Axe
-//ItemDisplay[MAG ILVL>71 btx]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Battle Axe
-//ItemDisplay[MAG ILVL>71 gax]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Great Axe
-//ItemDisplay[MAG ILVL>71 gix]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Giant Axe
-
-// Exceptional tier Axes
-//      1-Handed Axes
-//ItemDisplay[MAG ILVL>71 9ha]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Hatchet
-//ItemDisplay[MAG ILVL>71 9ax]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Cleaver
-//ItemDisplay[MAG ILVL>71 92a]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Twin Axe
-//ItemDisplay[MAG ILVL>71 9mp]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Crowbill
-//ItemDisplay[MAG ILVL>71 9wa]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Naga
-
-//      2-Handed Axes
-//ItemDisplay[MAG ILVL>71 9la]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Military Axe
-//ItemDisplay[MAG ILVL>71 9ba]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Bearded Axe
-//ItemDisplay[MAG ILVL>71 9bt]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Tabar
-//ItemDisplay[MAG ILVL>71 9ga]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Gothic Axe
-//ItemDisplay[MAG ILVL>71 9gi]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Ancient Axe
-
-// Elite tier Axes
-//      1-Handed Axes
-//ItemDisplay[MAG ILVL>71 7ha]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Tomahawk
-//ItemDisplay[MAG ILVL>71 7ax]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Small Crescent
-//ItemDisplay[MAG ILVL>71 72a]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Ettin Axe
-//ItemDisplay[MAG ILVL>71 7mp]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // War Spike
-//ItemDisplay[MAG ILVL>71 7wa]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Berserker Axe
-
-//      2-Handed Axes
-//ItemDisplay[MAG ILVL>71 7la]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Feral Axe
-//ItemDisplay[MAG ILVL>71 7ba]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Silver-Edged Axe
-//ItemDisplay[MAG ILVL>71 7bt]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Decapitator
-//ItemDisplay[MAG ILVL>71 7ga]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Champion Axe
-//ItemDisplay[MAG ILVL>71 7gi]: %NAME% %ORANGE%[C]%DOT-68%{%RED%Blood Craft:%TAN% Ort Rune, Perfect Ruby, + Any Jewel} // Glorious Axe
-
-// ------------------------------------------------------------------------------
-// [CICA] Crafted Caster Items
-// ------------------------------------------------------------------------------
-// ------------------------------------------------------------------------------
-//    [CCAR] Armor
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 ltp]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tal Rune, Perfect Amethyst, + Any Jewel} // Light Plate
-//ItemDisplay[MAG ILVL>71 xtp]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tal Rune, Perfect Amethyst, + Any Jewel} // Mage Plate
-//ItemDisplay[MAG ILVL>71 utp]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tal Rune, Perfect Amethyst, + Any Jewel} // Archon Plate
-
-// ------------------------------------------------------------------------------
-//    [CCBE] Belt
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 vbl]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Light Belt
-ItemDisplay[MAG ILVL>71 zvb]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Sharkskin Belt
-ItemDisplay[MAG ILVL>71 uvc]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Vampirefang Belt
-
-// ------------------------------------------------------------------------------
-//    [CCBO] Boots
-// ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 lbt]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Thul Rune, Perfect Amethyst, + Any Jewel} // Boots
-ItemDisplay[MAG ILVL>71 xlb]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Thul Rune, Perfect Amethyst, + Any Jewel} // Demonhide Boots
-ItemDisplay[MAG ILVL>71 ulb]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Thul Rune, Perfect Amethyst, + Any Jewel} // Wyrmhide Boots
-
-// ------------------------------------------------------------------------------
-//    [CCGL] Gloves
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 lgl]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ort Rune, Perfect Amethyst, + Any Jewel} // Leather Gloves
-//ItemDisplay[MAG ILVL>71 xlg]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ort Rune, Perfect Amethyst, + Any Jewel} // Demonhide Gloves
-//ItemDisplay[MAG ILVL>71 ulg]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Ort Rune, Perfect Amethyst, + Any Jewel} // Bramble Mitts
-
-// ------------------------------------------------------------------------------
-//    [CCHE] Helm
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 msk]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Nef Rune, Perfect Amethyst, + Any Jewel} // Mask
-//ItemDisplay[MAG ILVL>71 xsk]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Nef Rune, Perfect Amethyst, + Any Jewel} // Death Mask
-//ItemDisplay[MAG ILVL>71 usk]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Nef Rune, Perfect Amethyst, + Any Jewel} // Demonhead
-
-// ------------------------------------------------------------------------------
-//    [CCSH] Shield
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 sml]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Eth Rune, Perfect Amethyst, + Any Jewel} // Small Shield
-//ItemDisplay[MAG ILVL>71 xml]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Eth Rune, Perfect Amethyst, + Any Jewel} // Round Shield
-//ItemDisplay[MAG ILVL>71 uml]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Eth Rune, Perfect Amethyst, + Any Jewel} // Luna
-
-// ------------------------------------------------------------------------------
-//    [CCWE] Weapon
-// ------------------------------------------------------------------------------
-// Scepters
-//      Normal tier Scepters
-//ItemDisplay[MAG ILVL>71 scp]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Scepter
-//ItemDisplay[MAG ILVL>71 gsc]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Grand Scepter
-//ItemDisplay[MAG ILVL>71 wsp]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // War Scepter
-
-//      Exceptional tier Scepters
-//ItemDisplay[MAG ILVL>71 9sc]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Rune Scepter
-//ItemDisplay[MAG ILVL>71 9qs]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Holy Water Sprinkler
-//ItemDisplay[MAG ILVL>71 9ws]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Divine Scepter
-
-//      Exceptional tier Scepters
-//ItemDisplay[MAG ILVL>71 7sc]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Mighty Scepter
-//ItemDisplay[MAG ILVL>71 7qs]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Seraph Rod
-//ItemDisplay[MAG ILVL>71 7ws]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Caduceus
-
-// Staves
-//      Normal tier Staves
-//ItemDisplay[MAG ILVL>71 sst]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Short Staff
-//ItemDisplay[MAG ILVL>71 lst]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Long Staff
-//ItemDisplay[MAG ILVL>71 cst]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Gnarled Staff
-//ItemDisplay[MAG ILVL>71 bst]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Battle Staff
-//ItemDisplay[MAG ILVL>71 wst]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // War Staff
-
-//      Exceptional tier Staves
-//ItemDisplay[MAG ILVL>71 8ss]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Jo Staff
-//ItemDisplay[MAG ILVL>71 8ls]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Quarterstaff
-//ItemDisplay[MAG ILVL>71 8cs]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Cedar Staff
-//ItemDisplay[MAG ILVL>71 8bs]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Gothic Staff
-//ItemDisplay[MAG ILVL>71 8ws]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Rune Staff
-
-//      Elite tier Staves
-//ItemDisplay[MAG ILVL>71 6ss]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Walking Stick
-//ItemDisplay[MAG ILVL>71 6ls]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Stalagmite
-//ItemDisplay[MAG ILVL>71 6cs]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Elder Staff
-//ItemDisplay[MAG ILVL>71 6bs]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Shillelagh
-//ItemDisplay[MAG ILVL>71 6ws]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Archon Staff
-
-// Wands
-//      Normal tier Wands
-//ItemDisplay[MAG ILVL>71 wnd]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Wand
-//ItemDisplay[MAG ILVL>71 ywn]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Yew Wand
-//ItemDisplay[MAG ILVL>71 bwn]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Bone Wand
-//ItemDisplay[MAG ILVL>71 gwn]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Grim Wand
-
-//      Exceptional tier Wands
-//ItemDisplay[MAG ILVL>71 9wn]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Burnt Wand
-//ItemDisplay[MAG ILVL>71 9yw]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Petrified Wand
-//ItemDisplay[MAG ILVL>71 9bw]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Tomb Wand
-//ItemDisplay[MAG ILVL>71 9gw]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Grave Wand
-
-//      Elite tier Wands
-//ItemDisplay[MAG ILVL>71 7wn]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Polished Wand
-//ItemDisplay[MAG ILVL>71 7yw]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Ghost Wand
-//ItemDisplay[MAG ILVL>71 7bw]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Lich Wand
-//ItemDisplay[MAG ILVL>71 7gw]: %NAME% %ORANGE%[C]%DOT-68%{%PURPLE%Caster Craft:%TAN% Tir Rune, Perfect Amethyst, + Any Jewel} // Unearthed Wand
-
-// ------------------------------------------------------------------------------
-// [CIHP] Crafted Hit Power Items
-// ------------------------------------------------------------------------------
-// ------------------------------------------------------------------------------
-//    [CHAR] Armor
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 fld]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Nef Rune, Perfect Sapphire, + Any Jewel} // Field Plate
-//ItemDisplay[MAG ILVL>71 xld]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Nef Rune, Perfect Sapphire, + Any Jewel} // Sharktooth Armor
-//ItemDisplay[MAG ILVL>71 uld]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Nef Rune, Perfect Sapphire, + Any Jewel} // Kraken Shell
-
-// ------------------------------------------------------------------------------
-//    [CHBE] Belt
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 tbl]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tal Rune, Perfect Sapphire, + Any Jewel} // Heavy Belt
-//ItemDisplay[MAG ILVL>71 ztb]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tal Rune, Perfect Sapphire, + Any Jewel} // Battle Belt
-//ItemDisplay[MAG ILVL>71 utc]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tal Rune, Perfect Sapphire, + Any Jewel} // Troll Belt
-
-// ------------------------------------------------------------------------------
-//    [CHBO] Boots
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 mbt]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ral Rune, Perfect Sapphire, + Any Jewel} // Chain Boots
-//ItemDisplay[MAG ILVL>71 xmb]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ral Rune, Perfect Sapphire, + Any Jewel} // Mesh Boots
-//ItemDisplay[MAG ILVL>71 umb]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ral Rune, Perfect Sapphire, + Any Jewel} // Boneweave Boots
-
-// ------------------------------------------------------------------------------
-//    [CHGL] Gloves
-// ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 mgl]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ort Rune, Perfect Sapphire, + Any Jewel} // Chain Gloves
-ItemDisplay[MAG ILVL>71 xmg]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ort Rune, Perfect Sapphire, + Any Jewel} // Heavy Bracers
-ItemDisplay[MAG ILVL>71 umg]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ort Rune, Perfect Sapphire, + Any Jewel} // Vambraces
-
-// ------------------------------------------------------------------------------
-//    [CHHE] Helm
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 fhl]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ith Rune, Perfect Sapphire, + Any Jewel} // Full Helm
-//ItemDisplay[MAG ILVL>71 xhl]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ith Rune, Perfect Sapphire, + Any Jewel} // Basinet
-//ItemDisplay[MAG ILVL>71 uhl]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Ith Rune, Perfect Sapphire, + Any Jewel} // Giant Conch
-
-// ------------------------------------------------------------------------------
-//    [CHSH] Shield
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 gts]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Eth Rune, Perfect Sapphire, + Any Jewel} // Gothic Shield
-//ItemDisplay[MAG ILVL>71 xts]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Eth Rune, Perfect Sapphire, + Any Jewel} // Ancient Shield
-//ItemDisplay[MAG ILVL>71 uts]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Eth Rune, Perfect Sapphire, + Any Jewel} // Ward
-
-// ------------------------------------------------------------------------------
-//    [CHWE] Weapon
-// ------------------------------------------------------------------------------
-// Clubs
-//      Normal tier Clubs
-//ItemDisplay[MAG ILVL>71 clb]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Club
-//ItemDisplay[MAG ILVL>71 spc]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Spiked Club
-
-//      Exceptional tier Clubs
-//ItemDisplay[MAG ILVL>71 9cl]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Cudgel
-//ItemDisplay[MAG ILVL>71 9sp]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Barbed Club
-
-//      Elite tier Clubs
-//ItemDisplay[MAG ILVL>71 7cl]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Truncheon
-//ItemDisplay[MAG ILVL>71 7sp]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Tyrant Club
-
-// Hammers
-//      Normal tier Hammers
-//ItemDisplay[MAG ILVL>71 whm]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // War Hammer
-//ItemDisplay[MAG ILVL>71 mau]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Maul
-//ItemDisplay[MAG ILVL>71 gma]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Great Maul
-
-//      Exceptional tier Hammers
-//ItemDisplay[MAG ILVL>71 9wh]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Battle Hammer
-//ItemDisplay[MAG ILVL>71 9m9]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // War Club
-//ItemDisplay[MAG ILVL>71 9gm]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Martel de Fer
-
-//      Elite tier Hammers
-//ItemDisplay[MAG ILVL>71 7wh]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Legendary Mallet
-//ItemDisplay[MAG ILVL>71 7m7]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Ogre Maul
-//ItemDisplay[MAG ILVL>71 7gm]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Thunder Maul
-
-// Maces
-//      Normal tier Maces
-//ItemDisplay[MAG ILVL>71 mac]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Mace
-//ItemDisplay[MAG ILVL>71 mst]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Morning Star
-//ItemDisplay[MAG ILVL>71 fla]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Flail
-
-//      Exceptional tier Maces
-//ItemDisplay[MAG ILVL>71 9ma]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Flanged Mace
-//ItemDisplay[MAG ILVL>71 9mt]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Jagged Star
-//ItemDisplay[MAG ILVL>71 9fl]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Knout
-
-//      Elite tier Maces
-//ItemDisplay[MAG ILVL>71 7ma]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Reinforced Mace
-//ItemDisplay[MAG ILVL>71 7mt]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Devil Star
-//ItemDisplay[MAG ILVL>71 7fl]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Scourge
-
-// Scepters
-//      Normal tier Scepters
-//ItemDisplay[MAG ILVL>71 scp]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Scepter
-//ItemDisplay[MAG ILVL>71 gsc]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Grand Scepter
-//ItemDisplay[MAG ILVL>71 wsp]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // War Scepter
-
-//      Exceptional tier Scepters
-//ItemDisplay[MAG ILVL>71 9sc]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Rune Scepter
-//ItemDisplay[MAG ILVL>71 9qs]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Holy Water Sprinkler
-//ItemDisplay[MAG ILVL>71 9ws]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Divine Scepter
-
-//      Elite tier Scepters
-//ItemDisplay[MAG ILVL>71 7sc]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Mighty Scepter
-//ItemDisplay[MAG ILVL>71 7qs]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Seraph Rod
-//ItemDisplay[MAG ILVL>71 7ws]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Caduceus
-
-// Staves
-//      Normal tier Staves
-//ItemDisplay[MAG ILVL>71 sst]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Short Staff
-//ItemDisplay[MAG ILVL>71 lst]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Long Staff
-//ItemDisplay[MAG ILVL>71 cst]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Gnarled Staff
-//ItemDisplay[MAG ILVL>71 bst]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Battle Staff
-//ItemDisplay[MAG ILVL>71 wst]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // War Staff
-
-//      Exceptional tier Staves
-//ItemDisplay[MAG ILVL>71 8ss]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Jo Staff
-//ItemDisplay[MAG ILVL>71 8ls]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Quarterstaff
-//ItemDisplay[MAG ILVL>71 8cs]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Cedar Staff
-//ItemDisplay[MAG ILVL>71 8bs]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Gothic Staff
-//ItemDisplay[MAG ILVL>71 8ws]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Rune Staff
-
-//      Elite tier Staves
-//ItemDisplay[MAG ILVL>71 6ss]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Walking Stick
-//ItemDisplay[MAG ILVL>71 6ls]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Stalagmite
-//ItemDisplay[MAG ILVL>71 6cs]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Elder Staff
-//ItemDisplay[MAG ILVL>71 6bs]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Shillelagh
-//ItemDisplay[MAG ILVL>71 6ws]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Archon Staff
-
-// Wands
-//      Normal tier Wands
-//ItemDisplay[MAG ILVL>71 wnd]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Wand
-//ItemDisplay[MAG ILVL>71 ywn]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Yew Wand
-//ItemDisplay[MAG ILVL>71 bwn]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Bone Wand
-//ItemDisplay[MAG ILVL>71 gwn]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Grim Wand
-
-//      Exceptional tier Wands
-//ItemDisplay[MAG ILVL>71 9wn]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Burnt Wand
-//ItemDisplay[MAG ILVL>71 9yw]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Petrified Wand
-//ItemDisplay[MAG ILVL>71 9bw]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Tomb Wand
-//ItemDisplay[MAG ILVL>71 9gw]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Grave Wand
-
-//      Elite tier Wands
-//ItemDisplay[MAG ILVL>71 7wn]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Polished Wand
-//ItemDisplay[MAG ILVL>71 7yw]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Ghost Wand
-//ItemDisplay[MAG ILVL>71 7bw]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Lich Wand
-//ItemDisplay[MAG ILVL>71 7gw]: %NAME% %ORANGE%[C]%DOT-68%{%BLUE%Caster Craft:%TAN% Tir Rune, Perfect Sapphire, + Any Jewel} // Unearthed Wand
-
-// ------------------------------------------------------------------------------
-// [CISA] Crafted Safety Items
-// ------------------------------------------------------------------------------
-// ------------------------------------------------------------------------------
-//    [CSAR] Armor
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 brs]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Eth Rune, Perfect Emerald, + Any Jewel} // Breast Plate
-//ItemDisplay[MAG ILVL>71 xrs]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Eth Rune, Perfect Emerald, + Any Jewel} // Cuirass
-//ItemDisplay[MAG ILVL>71 urs]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Eth Rune, Perfect Emerald, + Any Jewel} // Great Hauberk
-
-// ------------------------------------------------------------------------------
-//    [CSBE] Belt
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 lbl]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Tal Rune, Perfect Emerald, + Any Jewel} // Sash
-//ItemDisplay[MAG ILVL>71 zlb]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Tal Rune, Perfect Emerald, + Any Jewel} // Demonhide Sash
-//ItemDisplay[MAG ILVL>71 ulc]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Tal Rune, Perfect Emerald, + Any Jewel} // Spiderweb Sash
-
-// ------------------------------------------------------------------------------
-//    [CSBO] Boots
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 hbt]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Ort Rune, Perfect Emerald, + Any Jewel} // Greaves
-//ItemDisplay[MAG ILVL>71 xhb]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Ort Rune, Perfect Emerald, + Any Jewel} // War Boots
-//ItemDisplay[MAG ILVL>71 uhb]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Ort Rune, Perfect Emerald, + Any Jewel} // Myrmidon Greaves
-
-// ------------------------------------------------------------------------------
-//    [CSGL] Gloves
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 hgl]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Ral Rune, Perfect Emerald, + Any Jewel} // Gauntlets
-//ItemDisplay[MAG ILVL>71 xhg]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Ral Rune, Perfect Emerald, + Any Jewel} // War Gauntlets
-//ItemDisplay[MAG ILVL>71 uhg]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Ral Rune, Perfect Emerald, + Any Jewel} // Ogre Gauntlets
-
-// ------------------------------------------------------------------------------
-//    [CSHE] Helm
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 crn]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Ith Rune, Perfect Emerald, + Any Jewel} // Crown
-//ItemDisplay[MAG ILVL>71 xrn]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Ith Rune, Perfect Emerald, + Any Jewel} // Grand Crown
-//ItemDisplay[MAG ILVL>71 urn]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Ith Rune, Perfect Emerald, + Any Jewel} // Corona
-
-// ------------------------------------------------------------------------------
-//    [CSSH] Shield
-// ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 kit]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Nef Rune, Perfect Emerald, + Any Jewel} // Kite Shield
-//ItemDisplay[MAG ILVL>71 xit]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Nef Rune, Perfect Emerald, + Any Jewel} // Dragon Shield
-//ItemDisplay[MAG ILVL>71 uit]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Nef Rune, Perfect Emerald, + Any Jewel} // Monarch
-
-// ------------------------------------------------------------------------------
-//    [CSWE] Weapon
-// ------------------------------------------------------------------------------
-// Spears
-//      Normal tier Spears
-//ItemDisplay[MAG ILVL>71 spr]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Spear
-//ItemDisplay[MAG ILVL>71 tri]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Trident
-//ItemDisplay[MAG ILVL>71 brn]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Brandistock
-//ItemDisplay[MAG ILVL>71 spt]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Spetum
-//ItemDisplay[MAG ILVL>71 pik]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Pike
-
-//      Exceptional tier Spears
-//ItemDisplay[MAG ILVL>71 9sr]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // War Spear
-//ItemDisplay[MAG ILVL>71 9tr]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Fuscina
-//ItemDisplay[MAG ILVL>71 9br]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // War Fork
-//ItemDisplay[MAG ILVL>71 9st]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Yari
-//ItemDisplay[MAG ILVL>71 9p9]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Lance
-
-//      Elite tier Spears
-//ItemDisplay[MAG ILVL>71 7sr]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Hyperion Spear
-//ItemDisplay[MAG ILVL>71 7tr]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Stygian Pike
-//ItemDisplay[MAG ILVL>71 7br]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Mancatcher
-//ItemDisplay[MAG ILVL>71 7st]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Ghost Spear
-//ItemDisplay[MAG ILVL>71 7p7]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // War Pike
-
-// Javelins
-//      Normal tier Javelins
-//ItemDisplay[MAG ILVL>71 jav]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Javelin
-//ItemDisplay[MAG ILVL>71 pil]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Pilum
-//ItemDisplay[MAG ILVL>71 ssp]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Short Spear
-//ItemDisplay[MAG ILVL>71 glv]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Glaive
-//ItemDisplay[MAG ILVL>71 tsp]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Throwing Spear
-
-//      Exceptional tier Javelins
-//ItemDisplay[MAG ILVL>71 9ja]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // War Javelin
-//ItemDisplay[MAG ILVL>71 9pi]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Great Pilum
-//ItemDisplay[MAG ILVL>71 9s9]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Simbilan
-//ItemDisplay[MAG ILVL>71 9gl]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Spiculum
-//ItemDisplay[MAG ILVL>71 9ts]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Harpoon
-
-//      Elite tier Javelins
-//ItemDisplay[MAG ILVL>71 7ja]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Hyperion Javelin
-//ItemDisplay[MAG ILVL>71 7pi]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Stygian Pilum
-//ItemDisplay[MAG ILVL>71 7s7]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Balrog Spear
-//ItemDisplay[MAG ILVL>71 7gl]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Ghost Glaive
-//ItemDisplay[MAG ILVL>71 7ts]: %NAME% %ORANGE%[C]%DOT-68%{%GREEN%Caster Craft:%TAN% Sol Rune, Perfect Emerald, + Any Jewel} // Winged Harpoon
+//ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Shield
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |

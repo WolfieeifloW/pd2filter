@@ -366,18 +366,9 @@ ItemDisplay[MAG rin ILVL=93]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 7
 ItemDisplay[MAG rin ILVL=94]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 76+}
 ItemDisplay[MAG rin ILVL>94]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 74+}
 
-//      Blood Belts
-ItemDisplay[MAG ILVL>71 zmb]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Mesh Belt
-ItemDisplay[MAG ILVL>71 umc]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Tal Rune, Perfect Ruby, + Any Jewel} // Mithril Coil
-
-//      Blood Gloves
-ItemDisplay[MAG ILVL>71 vgl]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Heavy Gloves
-ItemDisplay[MAG ILVL>71 xvg]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Sharkskin Gloves
-ItemDisplay[MAG ILVL>71 uvg]: %NAME% %ORANGE%[C]{%RED%Blood Craft:%TAN% Nef Rune, Perfect Ruby, + Any Jewel} // Vampirebone Gloves
-
-//      Caster Belts
-ItemDisplay[MAG ILVL>71 zvb]: %NAME% %ORANGE%[C]{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Sharkskin Belt
-ItemDisplay[MAG ILVL>71 uvc]: %NAME% %ORANGE%[C]{%PURPLE%Caster Craft:%TAN% Ith Rune, Perfect Amethyst, + Any Jewel} // Vampirefang Belt
+// Crafting Belts and Gloves
+ItemDisplay[MAG ILVL>71 (hbl OR EXC OR ELT) BELT]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ith%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Belt
+ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
 
 // Magic Items ------------------------------------------------------------------
 //      Items to Vendor
