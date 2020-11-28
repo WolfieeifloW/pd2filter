@@ -1,6 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**ATTENTION TO ALL WHO USE MY FILTERS** - **please** redownload the filter OR do a "Find & Replace", with Match Case / Case Sensitivity turned on, for `PAL` and replace it with `DIN`.
+I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!
 
 # Table of Contents
 1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
