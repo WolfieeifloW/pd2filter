@@ -718,7 +718,7 @@ ItemDisplay[RARE !RW PRICE>34999 DIFF=2]: %DARK_GREEN%$ %YELLOW%%NAME% // Hell d
 // [RIMA] Rare Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Show and notify for all rares until level 39
-ItemDisplay[RARE !ID CLVL>39]: // At level 40+, stop showing and notifying for all rares, and only show and notify for the ones uncommented above
+ItemDisplay[RARE !ID CLVL>39]: // At level 40+, stop showing and notifying for all rares and only show and notify for the ones uncommented above
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
