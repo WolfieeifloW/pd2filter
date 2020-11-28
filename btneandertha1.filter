@@ -10,6 +10,7 @@
 //
 // Welcome to Wolfie's Project Diablo 2 Loot Filter, BTNeandertha1 version.
 // This version was made custom for BTNeandertha1 (https://www.twitch.tv/btneandertha1)
+// No support will be given for this filter. Please only ask for help in my Discord (https://discord.gg/8K2QkjAA8g) or @ me in PD2 Discord there is an issue with a line already in here.
 
 // Quest Items ------------------------------------------------------------------
 ItemDisplay[bks]: %NAME%{%TAN%in Act 1%NL%Talk to Akara%NL%} // Scroll of Inifuss
