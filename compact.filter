@@ -51,8 +51,8 @@ ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube a
 ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Baal's Eye
 
 // PD2 Items
-ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
-ItemDisplay[lbox]: %PURPLE%+%RED%Larzuks Puzzlebox%PURPLE%+%WHITE%%MAP-62% // Larzuk's Box
+ItemDisplay[wss]: %PURPLE%+%RED%%NAME%%PURPLE% x%QTY%+%WHITE%%MAP-62% // Worldstone Shard
+ItemDisplay[lbox]: %PURPLE%+%RED%Larzuks Puzzlebox%PURPLE% x%QTY%+%WHITE%%MAP-62% // Larzuk's Box
 ItemDisplay[rera]: %NAME%{%TAN%Rune or Greater, & Rare Map%NL%Cube w/ Perfect Gem, Thul%NL%%ORANGE%Reroll Rare Map} // Reroll Rare Map (Horadrim Orb)
 ItemDisplay[imra]: %NAME%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, Thul Rune%NL%%ORANGE%Imbue Rare Map} // Imbue Rare Map (Zakarum Orb)
 ItemDisplay[upma]: %NAME%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic to Rare} // Upgrade Magic Map to Rare Map (Angelic Orb)
