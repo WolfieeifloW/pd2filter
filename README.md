@@ -56,7 +56,7 @@ CTRL+click the above link for the raw code.
 ### [Wolfie](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/wolfie.filter)
 CTRL+click the above link for the raw code.
 
-This version is a copy of my own personal filter. No support will be given for this filter. Only report items that are wrong or items that show as **+++ NO FILTER LINE +++**.
+**This version is a copy of my own personal filter.** It is semi-strict while still working while leveling. No support will be given for this filter. Only report items that are wrong or items that show as **+++ NO FILTER LINE +++**.
 
 ### [BTNeandertha1](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/btneandertha1.filter)
 CTRL+click the above link for the raw code.
