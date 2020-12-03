@@ -3905,9 +3905,9 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=3 CIRC]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINU
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 ci2]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, Eth, 2os
 
 // Diadem
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 ci3]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 ci3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ci3]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 ci3]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 ci3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ci3]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ci3]: %NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 0os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 ci3]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // Superior, 2os
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 ci3]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Superior, 3os
