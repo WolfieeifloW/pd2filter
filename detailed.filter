@@ -10928,5 +10928,5 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %
 // [BIMA] Base Items Master
 // ------------------------------------------------------------------------------
 // Master Base Items Filters
-ItemDisplay[NMAG !RW CLVL>29]: %NAME% // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted base items
+ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL>29]: %NAME% // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted base items
 // Please note if you comment out %NAME% it will hide things such as Keys, Scrolls, etc unless you have a line up above for them.
