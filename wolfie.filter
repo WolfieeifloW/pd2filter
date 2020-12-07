@@ -1514,26 +1514,44 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=5 fla]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%
 // ------------------------------------------------------------------------------
 // Colossus Voulge
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 7vo]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=4 7vo]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior, Eth
 
 // Thresher
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 7s8]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=4 7s8]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=5 7s8]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=5 7s8]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior, Eth
 
 // Cryptic Axe
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 7pa]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=4 7pa]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=5 7pa]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=5 7pa]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior, Eth
 
 // Great Poleaxe
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 7h7]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=4 7h7]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=5 7h7]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=5 7h7]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior, Eth
 
 // Giant Thresher
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os, Non-Superior,  Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 7wc]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=4 7wc]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=5 7wc]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=5 7wc]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior, Eth
 
 // ------------------------------------------------------------------------------
@@ -1568,22 +1586,38 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=5 (SK125>2 OR SK99>2 OR SK123>2 OR SK101>2 O
 // ------------------------------------------------------------------------------
 //      Stygian Pike
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7tr]: %NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 7tr]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=4 7tr]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior, Eth
 
 //      Mancatcher
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7br]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 7br]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=4 7br]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7br]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=5 7br]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=5 7br]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7br]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior, Eth
 
 //      Ghost Spear
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 7st]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 7st]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=4 7st]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7st]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=5 7st]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=5 7st]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7st]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior, Eth
 
 //      War Pike
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=4 7p7]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=4 7p7]: %GRAY%%NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // 4os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=5 7p7]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=5 7p7]: %GRAY%%NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:} // 5os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=6 7p7]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // 6os
+ItemDisplay[NMAG !INF !RW (SUP OR ETH) SOCK=6 7p7]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // 6os, Superior OR Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // 6os, Superior, Eth
 
 // ------------------------------------------------------------------------------
@@ -1688,7 +1722,7 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF=2 (NORM OR EXC OR ELT)]: %
 // ------------------------------------------------------------------------------
 // [BIMA] Base Items Master
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !RW CLVL>29]: // At level 30+ stop showind and notifying for all base items and only notify for the ones uncommented above
+ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL>29]: // At level 30+ stop showind and notifying for all base items and only notify for the ones uncommented above
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
