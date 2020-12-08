@@ -641,7 +641,7 @@ ItemDisplay[UNI !ID amd]: %NAME%%MAP-A5% // Stoneraven Matriarchal Spear
 //ItemDisplay[UNI !ID 9xf]: %NAME%%MAP-A5% // Fascia (No Unique for this base)
 //ItemDisplay[UNI !ID 9cs]: %NAME%%MAP-A5% // Hand Scythe (No Unique for this base)
 //ItemDisplay[UNI !ID 9lw]: %NAME%%MAP-A5% // Greater Claws (No Unique for this base)
-//ItemDisplay[UNI !ID 9tw]: %NAME%%MAP-A5% // Bartuc's Cut-Throat Greater Talons
+ItemDisplay[UNI !ID 9tw]: %NAME%%MAP-A5% // Bartuc's Cut-Throat Greater Talons
 //ItemDisplay[UNI !ID 9qr]: %NAME%%MAP-A5% // Scissors Quhab (No Unique for this base)
 
 // Elite tier Katars
