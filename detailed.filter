@@ -9091,14 +9091,14 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 (fla OR 9fl OR 7fl)]: %GRAY%%NAME%{%ORA
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 
 //      Thresher
@@ -9113,16 +9113,16 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7vo]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTI
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 
 //      Cryptic Axe
 //ItemDisplay[NMAG !INF !RW 7pa]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Cryptic Axes
@@ -9136,16 +9136,16 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7s8]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTI
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 
 //      Great Poleaxe
 //ItemDisplay[NMAG !INF !RW 7h7]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Great Poleaxes
@@ -9164,14 +9164,14 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7pa]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTI
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
 
 //      Giant Thresher
@@ -9191,14 +9191,14 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7h7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTI
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 7wc]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
 
 // These lines add descriptions to all Polearms, leave these alone if you want to display possible runewords on base Polearms
@@ -9660,14 +9660,14 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 SCEPTER]: %GRAY%%NAME%{%ORANGE%Eternity
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7tr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7tr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7tr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7tr]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
 
 //      Mancatcher
 //ItemDisplay[NMAG !INF !RW 7br]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Mancatchers
@@ -9681,16 +9681,16 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7tr]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTI
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 
 //      Ghost Spear
 //ItemDisplay[NMAG !INF !RW 7st]: %NAME%%DOT-20%%PX-00%%CONTINUE% // All Ghost Spears
@@ -9709,14 +9709,14 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7br]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTI
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
 
 //      War Pike
@@ -9733,18 +9733,18 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7st]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTI
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=6 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 2os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 3os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 4os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=5 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 5os, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=6 7p7]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // 6os, Superior, Eth
 
 // These lines add descriptions to all Spears, leave these alone if you want to display possible runewords on base Spears
 // Please note you still have to uncomment specific base items lines to get a drop notification
