@@ -1378,7 +1378,6 @@ ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 // ------------------------------------------------------------------------------
 // [SIMU] Set Multiple
 // ------------------------------------------------------------------------------
-
 // If you only want to see all set items but not be notified than comment out this line and take a look at the Set Items Master section
 // This line shows and notifies all set unid items and will override the Master section at the end
 // If you only want to see specific set items comment out this line (// at the very start) and uncomment the specific sets you want
