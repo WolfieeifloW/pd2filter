@@ -4567,7 +4567,7 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SORC]: %GRAY%%NAME%{%ORANGE%Plague, Ve
 // ------------------------------------------------------------------------------
 //    [BAAR] Armor
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<30 CHEST]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Show and notify all 2 and 3 socket armors until character level 30
+ItemDisplay[NMAG !INF !RW !ETH SOCK>1 CLVL<30 CHEST]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Show and notify all 2+ socket armors until character level 30
 
 // These are generic lines for showing all armors of a certain tier and certain conditions (sockets, superior, and/or ethereal)
 // All tiers

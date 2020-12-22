@@ -1131,7 +1131,7 @@ ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (ob5 OR oba OR obf) SORC]: %NAME%{%TA
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=3 SORC]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%%TAN%Possible RWs:} // All tiers, 3os
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (ob5 OR oba OR obf) SORC]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 SORC]: %GRAY%%NAME%{%ORANGE%Plague, Venom%NL%%TAN%Possible RWs:} // All tiers, 3os, Superior
-ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<30 CHEST]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Show and notify all 2 and 3 socket armors until character level 30
+ItemDisplay[NMAG !INF !RW !ETH SOCK>1 CLVL<30 CHEST]: %GRAY%%NAME%%DOT-20%%PX-00%%CONTINUE% // Show and notify all 2+ socket armors until character level 30
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 xtp]: %NAME%%DOT-20%%PX-00%%CONTINUE% // 0os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 xtp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 2os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 xtp]: %GRAY%%NAME%%DOT-1E%%PX-00%%CONTINUE% // 3os
