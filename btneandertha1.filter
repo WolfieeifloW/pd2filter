@@ -272,7 +272,7 @@ ItemDisplay[MAG CHSK91>0 WAND]: %NAME% %GREEN%(Lower Res)%WHITE% // Lower Resist
 ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%(Weaken)%WHITE% // Weaken charges
 
 // Other Items ------------------------------------------------------------------
-ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
+ItemDisplay[ear]: %NAME% // Show player ears, add "//" before "%NAME%" to hide all ears
 ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL>5]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 5
 ItemDisplay[aqv CLVL>5]: // Hides Arrow quivers past character level 5
 ItemDisplay[cqv CLVL>5]: // Hides Bolt quivers past character level 5
