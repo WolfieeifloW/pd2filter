@@ -280,7 +280,7 @@ ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%(Weaken)%WHITE% // Weaken charges
 
 // Other Items ------------------------------------------------------------------
 ItemDisplay[ear]: %NAME% // Show player ears, add "//" before "%NAME%" to hide all ears
-ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL>5]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 5
+ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL>65]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 65
 ItemDisplay[aqv CLVL>5]: // Hides Arrow quivers past character level 5
 ItemDisplay[cqv CLVL>5]: // Hides Bolt quivers past character level 5
 
@@ -349,7 +349,8 @@ ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME% // Nightm
 ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal difficulty
 
 //      Hide all other rares
-ItemDisplay[RARE !ID]: // Hide all other Rare items
+ItemDisplay[RARE !ID CLVL<75]: %NAME% // Show all other Rare items until level 75
+ItemDisplay[RARE !ID CLVL>74]: // Hide all other Rare items past level 74
 
 // Crafted Items ----------------------------------------------------------------
 //      Amulets for crafting
@@ -406,7 +407,8 @@ ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ 
 ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ to 10k+ Magic items for Normal difficulty
 
 //      Hide all other magics
-ItemDisplay[MAG !ID]: // Hide all other Magic items
+ItemDisplay[MAG !ID CLVL<75]: %NAME% // Show all other Magic items until level 75
+ItemDisplay[MAG !ID]: // Hide all other Magic items past level 74
 
 // Base Items -------------------------------------------------------------------
 //      Gold
@@ -429,16 +431,16 @@ ItemDisplay[hp1 DIFF<1]: %RED%+%WHITE%H1 // Minor Healing Potion
 ItemDisplay[hp1 DIFF>0]: // Hides Minor Healing Potions after Normal difficulty
 ItemDisplay[hp2 DIFF<1]: %RED%+%WHITE%H2 // Light Healing Potion
 ItemDisplay[hp2 DIFF>0]: // Hides Light Healing Potions after Normal difficulty
-ItemDisplay[hp3 DIFF<1]: %RED%+%WHITE%H3 // Healing Potion
-ItemDisplay[hp3 DIFF>0]: // Hides Healing Potions after after Normal difficulty
+ItemDisplay[hp3 DIFF<2]: %RED%+%WHITE%H3 // Healing Potion
+ItemDisplay[hp3 DIFF>1]: // Hides Healing Potions after after Nightmare difficulty
 ItemDisplay[hp4]: %RED%-%WHITE%H4%RED%-%WHITE% // Greater Healing Potion
 ItemDisplay[hp5]: %RED%+%WHITE%H5%RED%+%WHITE% // Super Healing Potion
 ItemDisplay[mp1 DIFF<1]: %BLUE%+%WHITE%M1 // Minor Mana Potion
 ItemDisplay[mp1 DIFF>0]: // Hides Minor Mana Potions after Normal difficulty
 ItemDisplay[mp2 DIFF<1]: %BLUE%+%WHITE%M2 // Light Mana Potion
 ItemDisplay[mp2 DIFF>0]: // Hides Light Mana Potions after Normal difficulty
-ItemDisplay[mp3 DIFF<1]: %BLUE%+%WHITE%M3 // Mana Potion
-ItemDisplay[mp3 DIFF>0]: // Hides Mana Potions after after Normal difficulty
+ItemDisplay[mp3 DIFF<2]: %BLUE%+%WHITE%M3 // Mana Potion
+ItemDisplay[mp3 DIFF>1]: // Hides Mana Potions after after Nightmare difficulty
 ItemDisplay[mp4]: %BLUE%-%WHITE%M4%BLUE%-%WHITE% // Greater Mana Potion
 ItemDisplay[mp5]: %BLUE%+%WHITE%M5%BLUE%+%WHITE% // Super Mana Potion
 
@@ -472,9 +474,10 @@ ItemDisplay[ibk]: %RED%!%WHITE%ID%RED%!%WHITE% // Tome of Identify
 ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 
 //      Base Items Misc
-ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
+ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>65]: // Hides all 1 socket base items after level 65
 
 //      Showing 10-15% on Armors/Weapons (eg "Sacred Armor [13%]")
+ItemDisplay[NMAG !INF !RW SUP ED>0 ED<10]: %NAME% %GRAY%[%BLUE%ED%GRAY%]%CONTINUE%
 ItemDisplay[NMAG !INF !RW SUP ED=10]: %NAME% %GRAY%[%BLUE%10%%GRAY%]%CONTINUE%
 ItemDisplay[NMAG !INF !RW SUP ED=11]: %NAME% %GRAY%[%BLUE%11%%GRAY%]%CONTINUE%
 ItemDisplay[NMAG !INF !RW SUP ED=12]: %NAME% %GRAY%[%BLUE%12%%GRAY%]%CONTINUE%
@@ -483,7 +486,7 @@ ItemDisplay[NMAG !INF !RW SUP ED=14]: %NAME% %GRAY%[%BLUE%14%%GRAY%]%CONTINUE%
 ItemDisplay[NMAG !INF !RW SUP ED=15]: %NAME% %GRAY%[%BLUE%15%%GRAY%]%CONTINUE%
 
 //      Base Circlets
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ILVL>25 ci3]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 ILVL>25 ci3]: %NAME%{%TAN%or imbue at Charsi in Act 1%NL%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 ILVL>25 ci3]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ILVL>25 ci3]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 ILVL>25 ci3]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
@@ -513,7 +516,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 ELT SPEAR !THROWING ZON]: %GRAY%%N
 
 //      Base Amazon Javelins
 ItemDisplay[NMAG TABSK2>2 ELT (am5 OR ama OR amf)]: %NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%%DOT-1E% // Show +3 Elite tier Amazon Javelins
-ItemDisplay[NMAG CLVL>30 TABSK2<3 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins that are +0-2 Jav skills past character level 30
+ItemDisplay[NMAG CLVL>65 TABSK2<3 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins that are +0-2 Jav skills past character level 65
 
 //      Base Assassin Katars
 //          Martial Arts
@@ -1225,6 +1228,16 @@ ItemDisplay[NMAG !INF !RW RES=43 DIN]: %NAME%%GRAY% [%BLUE%+43%GRAY%]%CONTINUE%
 ItemDisplay[NMAG !INF !RW RES=44 DIN]: %NAME%%GRAY% [%BLUE%+44%GRAY%]%CONTINUE%
 ItemDisplay[NMAG !INF !RW RES=45 DIN]: %NAME%%GRAY% [%BLUE%+45%GRAY%]%CONTINUE%
 
+// Showing any Paladin Shield with any amount of res until cLvl 75
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 RES>0 CLVL<75 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>0 CLVL<75 DIN]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 RES>0 CLVL<75 DIN]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>0 CLVL<75 DIN]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 RES>0 CLVL<75 DIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 RES>0 CLVL<75 DIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 RES>0 CLVL<75 DIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
+
+// After cLvl 75 only show Paladin Shields with 35+ res
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 RES>34 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 DIN]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 RES>34 DIN]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
@@ -1234,7 +1247,7 @@ ItemDisplay[NMAG !INF !RW SOCK=3 RES>34 DIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Dream
 ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 DIN]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 //      Base Armor
-ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<30 CHEST]: %GRAY%%NAME%%DOT-1E%%CONTINUE% // Show and notify all 2 and 3 socket armors until character level 30
+ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<65 CHEST]: %GRAY%%NAME%%DOT-1E%%CONTINUE% // Show and notify all 2 and 3 socket armors until character level 65
 
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 (xtp OR ELT) CHEST]: %NAME%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Non-Eth
