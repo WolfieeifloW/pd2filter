@@ -280,7 +280,7 @@ ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%(Weaken)%WHITE% // Weaken charges
 
 // Other Items ------------------------------------------------------------------
 ItemDisplay[ear]: %NAME% // Show player ears, add "//" before "%NAME%" to hide all ears
-ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL>65]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 65
+ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL>30]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 30
 ItemDisplay[aqv CLVL>5]: // Hides Arrow quivers past character level 5
 ItemDisplay[cqv CLVL>5]: // Hides Bolt quivers past character level 5
 
@@ -408,7 +408,7 @@ ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ 
 
 //      Hide all other magics
 ItemDisplay[MAG !ID CLVL<75]: %NAME% // Show all other Magic items until level 75
-ItemDisplay[MAG !ID]: // Hide all other Magic items past level 74
+ItemDisplay[MAG !ID CLVL>74]: // Hide all other Magic items past level 74
 
 // Base Items -------------------------------------------------------------------
 //      Gold
@@ -1900,5 +1900,6 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %
 ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 10k+ non-eth 0os Base items for Normal difficulty
 ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Normal difficulty
 
-//      Hide all other bases
-ItemDisplay[NMAG !RW (NORM OR EXC OR ELT)]: // Hide all other Base items
+//      Hide all other bases not specified above
+ItemDisplay[NMAG !RW (NORM OR EXC OR ELT) CLVL<65]: %NAME% // Show all other Base items until level 65
+ItemDisplay[NMAG !RW (NORM OR EXC OR ELT) CLVL>64]: // Hide all other Base items past level 64
