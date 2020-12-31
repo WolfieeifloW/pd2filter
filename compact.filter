@@ -791,6 +791,10 @@ ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Show and notify for all rares u
 ItemDisplay[RARE !ID CLVL>39]: %NAME% // At level 40+, stop notifying for all rares, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted rares
 
 // Crafted Items
+ItemDisplay[CRAFT ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[CRAFT ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[CRAFT ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 92+}
 ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 92+}
 ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%%DOT-68%{%TAN%Craft at character level 90+}
@@ -817,6 +821,20 @@ ItemDisplay[MAG rin ILVL>94]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character l
 ItemDisplay[MAG ILVL>71 (hbl OR EXC OR ELT) BELT]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Tal%NL%%BLUE%Hit Power:%TAN% P Saph + Tal%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Belt
 ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ort%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Boots
 ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ral%NL%%BLUE%Hit Power:%TAN% P Saph + Ort%NL%%PURPLE%Caster:%TAN% P Ame + Ort%NL%%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
+ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
+ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
+ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9hw OR 7hw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
+ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
+ItemDisplay[MAG ILVL>71 ETH (wax OR 9wa OR 7wa)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
+ItemDisplay[MAG ILVL>71 ETH (glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
+ItemDisplay[MAG ILVL>71 ETH (fla OR 9fl OR 7fl OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Maces
+ItemDisplay[MAG ILVL>71 ETH (vou OR 9vo OR 7vo OR scy OR 9s8 OR 7s8 OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR wsc OR 9wc OR 7wc)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
+ItemDisplay[MAG ILVL>71 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Scepters
+ItemDisplay[MAG ILVL>71 ETH (brn OR 9br OR 7br OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
+ItemDisplay[MAG ILVL>71 ETH (lst OR 8ls OR 6ls OR gst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Staves
+ItemDisplay[MAG ILVL>71 ETH (crs OR 9cr OR 7cr OR lsd OR 9ls OR 7ls OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
+ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Throwing Weapons
+ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
 
 // Magic Items
 ItemDisplay[MAG !ID amu]: %NAME%%DOT-97% // All unidentified amulets

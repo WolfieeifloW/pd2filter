@@ -91,19 +91,19 @@
 // |         [COHE] Helm                     |         [MCBA] Barbarian                |         [BCAS] Assassin                 |                                         |
 // |         [COSH] Shield                   |         [MCDR] Druid                    |         [BCBA] Barbarian                |                                         |
 // |         [COWE] Weapon                   |         [MCNE] Necromancer              |         [BCDR] Druid                    |                                         |
-// |                                         |         [MCPA] Paladin                  |         [BCNE] Necromancer              |                                         |
-// |                                         |         [MCSO] Sorceress                |         [BCPA] Paladin                  |                                         |
-// |                                         |      [MIAR] Magic Items Armor           |         [BCSO] Sorceress                |                                         |
-// |                                         |         [MAAR] Armor                    |      [BIAR] Base Items Armor            |                                         |
-// |                                         |         [MABE] Belts                    |         [BAAR] Armor                    |                                         |
-// |                                         |         [MABO] Boots                    |         [BABE] Belts                    |                                         |
-// |                                         |         [MAGL] Gloves                   |         [BABO] Boots                    |                                         |
-// |                                         |         [MAHE] Helms                    |         [BAGL] Gloves                   |                                         |
-// |                                         |         [MASH] Shields                  |         [BAHE] Helms                    |                                         |
-// |                                         |      [MIWE] Magic Items Weapons         |         [BASH] Shields                  |                                         |
-// |                                         |         [MWAX] Axes                     |      [BIWE] Base Items Weapons          |                                         |
-// |                                         |         [MWBO] Bows                     |         [BWAX] Axes                     |                                         |
-// |                                         |         [MWCR] Crossbows                |         [BWBO] Bows                     |                                         |
+// |            [CWAM] Amazon                |         [MCPA] Paladin                  |         [BCNE] Necromancer              |                                         |
+// |            [CWAS] Assassin              |         [MCSO] Sorceress                |         [BCPA] Paladin                  |                                         |
+// |            [CWSO] Sorceress             |      [MIAR] Magic Items Armor           |         [BCSO] Sorceress                |                                         |
+// |            [CWAX] Axes                  |         [MAAR] Armor                    |      [BIAR] Base Items Armor            |                                         |
+// |            [CWJA] Javelins              |         [MABE] Belts                    |         [BAAR] Armor                    |                                         |
+// |            [CWMA] Maces                 |         [MABO] Boots                    |         [BABE] Belts                    |                                         |
+// |            [CWPO] Polearms              |         [MAGL] Gloves                   |         [BABO] Boots                    |                                         |
+// |            [CWSC] Scepters              |         [MAHE] Helms                    |         [BAGL] Gloves                   |                                         |
+// |            [CWSP] Spears                |         [MASH] Shields                  |         [BAHE] Helms                    |                                         |
+// |            [CWST] Staves                |      [MIWE] Magic Items Weapons         |         [BASH] Shields                  |                                         |
+// |            [CWSW] Swords                |         [MWAX] Axes                     |      [BIWE] Base Items Weapons          |                                         |
+// |            [CWTH] Throwing Weapons      |         [MWBO] Bows                     |         [BWAX] Axes                     |                                         |
+// |            [CWWA] Wands                 |         [MWCR] Crossbows                |         [BWBO] Bows                     |                                         |
 // |                                         |         [MWDA] Daggers                  |         [BWCR] Crossbows                |                                         |
 // |                                         |         [MWJA] Javelins                 |         [BWDA] Daggers                  |                                         |
 // |                                         |         [MWMA] Maces                    |         [BWJA] Javelins                 |                                         |
@@ -2694,6 +2694,12 @@ ItemDisplay[RARE !ID CLVL>39]: %NAME% // At level 40+, stop notifying for all ra
 // ------------------------------------------------------------------------------
 // [CIMI] Crafted Miscellaneous
 // ------------------------------------------------------------------------------
+// Upgrade recipes for Crafted items
+ItemDisplay[CRAFT ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[CRAFT ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[CRAFT ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
+
 // ------------------------------------------------------------------------------
 //    [CMAM] Amulets
 // ------------------------------------------------------------------------------
@@ -2766,7 +2772,73 @@ ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P 
 // ------------------------------------------------------------------------------
 //    [COWE] Weapon
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Shield
+//ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Weapon
+
+// ------------------------------------------------------------------------------
+//       [CWAM] Amazon
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
+ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
+
+// ------------------------------------------------------------------------------
+//       [CWAS] Assassin
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9hw OR 7hw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
+
+// ------------------------------------------------------------------------------
+//       [CWSO] Sorceress
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
+
+// ------------------------------------------------------------------------------
+//       [CWAX] Axes
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 ETH (wax OR 9wa OR 7wa)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
+
+// ------------------------------------------------------------------------------
+//       [CWJA] Javelins
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 ETH (glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
+
+// ------------------------------------------------------------------------------
+//       [CWMA] Maces
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 ETH (fla OR 9fl OR 7fl OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Maces
+
+// ------------------------------------------------------------------------------
+//       [CWPO] Polearms
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 ETH (vou OR 9vo OR 7vo OR scy OR 9s8 OR 7s8 OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR wsc OR 9wc OR 7wc)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
+
+// ------------------------------------------------------------------------------
+//       [CWSC] Scepters
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Scepters
+
+// ------------------------------------------------------------------------------
+//       [CWSP] Spears
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 ETH (brn OR 9br OR 7br OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
+
+// ------------------------------------------------------------------------------
+//       [CWST] Staves
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 ETH (lst OR 8ls OR 6ls OR gst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Staves
+
+// ------------------------------------------------------------------------------
+//       [CWSW] Swords
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 ETH (crs OR 9cr OR 7cr OR lsd OR 9ls OR 7ls OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
+
+// ------------------------------------------------------------------------------
+//       [CWTH] Throwing Weapons
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Throwing Weapons
+
+// ------------------------------------------------------------------------------
+//       [CWWA] Wands
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
