@@ -158,6 +158,12 @@ ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
 
 // Crafted Items
+// Upgrade recipes for Crafted items
+ItemDisplay[CRAFT ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[CRAFT ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[CRAFT ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
+
 // Crafted Amulets
 ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 92+}
 ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 92+}
