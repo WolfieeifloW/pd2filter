@@ -45,10 +45,10 @@ ItemDisplay[ice]: %GOLD%Malahs Potion%MAP-A9%{%TAN%Act 5: Frozen River%NL%Touch 
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-A9%{%TAN%All Resistances +10%NL%Right click for a permanent%NL%} // Scroll of Resistance
 
 // Essences & Token -------------------------------------------------------------
-ItemDisplay[tes]: %GOLD%Suffering%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Andarial & Duriel%NL%Cube w/ Burning, Charged, & Festering essences%NL%} // Twisted Essence of Suffering
-ItemDisplay[ceh]: %GOLD%Hatred%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Mephisto%NL%Cube w/ Burning, Festering, & Twisted essences%NL%} // Charged Essence of Hatred
-ItemDisplay[bet]: %GOLD%Terror%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Diablo%NL%Cube w/ Charged, Festering, & Twisted essences%NL%} // Burning Essence of Terror
-ItemDisplay[fed]: %GOLD%Destruction%WHITE% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Baal%NL%Cube w/ Burning, Charged, & Twisted essences%NL%} // Festering Essence of Destruction
+ItemDisplay[tes]: %GOLD%Suffering Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Andarial & Duriel%NL%Cube w/ Terror, Hatred, & Destruction essences%NL%} // Twisted Essence of Suffering
+ItemDisplay[ceh]: %GOLD%Hatred Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Mephisto%NL%Cube w/ Terror, Destruction, & Suffering essences%NL%} // Charged Essence of Hatred
+ItemDisplay[bet]: %GOLD%Terror Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Diablo%NL%Cube w/ Hatred, Destruction, & Suffering essences%NL%} // Burning Essence of Terror
+ItemDisplay[fed]: %GOLD%Destruction Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Baal%NL%Cube w/ Terror, Hatred, & Suffering essences%NL%} // Festering Essence of Destruction
 ItemDisplay[toa]: %ORANGE%Token of Absolution%WHITE%%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
 
 // Pandemonium Items ------------------------------------------------------------
