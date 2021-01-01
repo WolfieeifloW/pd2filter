@@ -10,7 +10,9 @@
 //
 // Welcome to Wolfie's Project Diablo 2 Loot Filter, BTNeandertha1 version.
 // This version was made custom for BTNeandertha1 (https://www.twitch.tv/btneandertha1)
-// No support will be given for this filter. Please only ask for help in my Discord (https://discord.gg/8K2QkjAA8g) or @ me in PD2 Discord there is an issue with a line already in here.
+//
+// No support will be given for this filter.
+// Only issues with lines already in here will be addressed in my Discord (https://discord.gg/8K2QkjAA8g) or in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2).
 
 // TO-DO----
 // - 800+ base armors at 94+
@@ -59,7 +61,7 @@ ItemDisplay[bey]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber T
 
 // Corruption Items -------------------------------------------------------------
 ItemDisplay[wss]: %PURPLE%+ %ORANGE%Worldstone Shard x%QTY% %PURPLE%+%MAP-62% // Worldstone Shard
-ItemDisplay[lbox]: %PURPLE%+ %NAME% x%QTY% %PURPLE%+%WHITE%%MAP-62% // Larzuk's Box
+ItemDisplay[lbox]: %PURPLE%+ %NAME% x%QTY% %PURPLE%+%MAP-62% // Larzuk's Box
 
 // Map Items --------------------------------------------------------------------
 ItemDisplay[rera]: %NAME% x%QTY%{%TAN%Rune or Greater, & Rare Map%NL%Cube w/ Perfect Gem, Thul%NL%%ORANGE%Reroll Rare Map} // Reroll Rare Map (Horadrim Orb)
@@ -73,20 +75,24 @@ ItemDisplay[NMAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %WHITE
 ItemDisplay[MAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
 ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
 
-ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%WHITE%%MAP-80%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun [T1]
-ItemDisplay[t18]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T2]%WHITE%%MAP-80%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon Map [T2]
-ItemDisplay[t17]: %YELLOW%+ %NAME% %YELLOW%[T3]%WHITE%%MAP-A8%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood [T3]
-ItemDisplay[t11]: %YELLOW%+ %NAME% %YELLOW%[T4]%WHITE%%MAP-A8%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath Map [T?]
-ItemDisplay[t12]: %RED%+ %NAME% %RED%[T5]%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Mesa Map [T?]
-ItemDisplay[t13]: %RED%+ %NAME% %RED%[T6]%WHITE%%MAP-62%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Palace Map [T?]
-ItemDisplay[t14]: %PURPLE%+ %NAME% %PURPLE%[T7]%WHITE%%MAP-9B%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ice Caves Map [T?]
-ItemDisplay[t15]: %PURPLE%+ %NAME% %PURPLE%[T8]%WHITE%%MAP-9B%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazons Memory Map [T?]
+ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun [T1]
+ItemDisplay[t18]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T2]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon Map [T2]
+ItemDisplay[t17]: %YELLOW%+ %NAME% %YELLOW%[T3]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood [T3]
+ItemDisplay[t11]: %YELLOW%+ %NAME% %YELLOW%[T4]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath Map [T?]
+ItemDisplay[t12]: %RED%+ %NAME% %RED%[T5]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Mesa Map [T?]
+ItemDisplay[t13]: %RED%+ %NAME% %RED%[T6]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Palace Map [T?]
+ItemDisplay[t14]: %PURPLE%+ %NAME% %PURPLE%[T7]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ice Caves Map [T?]
+ItemDisplay[t15]: %PURPLE%+ %NAME% %PURPLE%[T8]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazons Memory Map [T?]
+
+ItemDisplay[NMAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %NAME%%WHITE% // Coloring white maps
+ItemDisplay[MAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %NAME%%BLUE% // Coloring magic maps
+ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %NAME%%YELLOW% // Coloring rare maps
 
 // Diablo Clone Items -----------------------------------------------------------
-ItemDisplay[dcho]: %RED%%NAME%%WHITE% x%QTY%%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul%NL%%NL%Drops from Uber Trist bosses} // Black Soulstone
-ItemDisplay[dcso]: %RED%%NAME%%WHITE% x%QTY%%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Black Soulstone%NL%%NL%Drops from Hell Diablo & Baal} // Prime Evil Soul
-ItemDisplay[dcbl]: %RED%%NAME%%WHITE% x%QTY%%MAP-62%{%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone%NL%%NL%Drops from map bosses} // Pure Demonic Essence
-ItemDisplay[dcma]: %RED%%NAME%%WHITE% x%QTY%%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
+ItemDisplay[dcho]: %RED%Black Soulstone x%QTY%%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul%NL%%NL%Drops from Uber Trist bosses} // Black Soulstone
+ItemDisplay[dcso]: %RED%Prime Evil Soul x%QTY%%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Black Soulstone%NL%%NL%Drops from Hell Diablo & Baal} // Prime Evil Soul
+ItemDisplay[dcbl]: %RED%Pure Demonic Essence x%QTY%%MAP-62%{%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone%NL%%NL%Drops from map bosses} // Pure Demonic Essence
+ItemDisplay[dcma]: %RED%Vision of Terror x%QTY%%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
 
 // Gems -------------------------------------------------------------------------
 ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
@@ -350,9 +356,9 @@ ItemDisplay[RARE !ID ELT !SPEAR THROWING !ZON]: %NAME% // All Elite tier Throwin
 ItemDisplay[RARE !ID WAND]: %NAME% // All Wands
 
 //      Items to Vendor
-ItemDisplay[RARE !RW PRICE>34999]: %DARK_GREEN%$ %YELLOW%%NAME% // Hell difficulty
-ItemDisplay[RARE !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %YELLOW%%NAME% // Nightmare difficulty
-ItemDisplay[RARE !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal difficulty
+ItemDisplay[RARE !RW PRICE>34999 DIFF<3]: %DARK_GREEN%$ %YELLOW%%NAME% // All difficulties
+ItemDisplay[RARE !RW PRICE>20000 DIFF<2]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal & Nightmare difficulty
+ItemDisplay[RARE !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal difficulty
 
 //      Hide all other rares
 ItemDisplay[RARE !ID CLVL<75]: %NAME% // Show all other Rare items until level 75
@@ -455,9 +461,9 @@ ItemDisplay[MAG !ID DRU]: %NAME% // All Magic Pelts
 ItemDisplay[MAG !ID CLVL<94 (xtp OR ELT) CHEST]: %NAME% // All Exceptional and Elite tier Magic Armors
 
 //      Items to Vendor
-ItemDisplay[MAG !RW PRICE>34999]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ to 35k+ Magic items for Hell difficulty
-ItemDisplay[MAG !RW PRICE>20000 DIFF=1]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ to 20k+ Magic items for Nightmare difficulty
-ItemDisplay[MAG !RW PRICE>10000 DIFF=0]: %DARK_GREEN%$ %BLUE%%NAME% // Adding $ to 10k+ Magic items for Normal difficulty
+ItemDisplay[MAG !RW PRICE>34999 DIFF<3]: %DARK_GREEN%$ %BLUE%%NAME% // All difficulties
+ItemDisplay[MAG !RW PRICE>20000 DIFF<2]: %DARK_GREEN%$ %BLUE%%NAME% // Normal & Nightmare difficulty
+ItemDisplay[MAG !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %BLUE%%NAME% // Normal difficulty
 
 //      Hide all other magics
 ItemDisplay[MAG !ID CLVL<75]: %NAME% // Show all other Magic items until level 75
@@ -1954,12 +1960,12 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %GR
 ItemDisplay[NMAG !INF !RW SOCK=2 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %GRAY%%NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //      Items to Vendor
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 35k+ non-eth 0os Base items for Hell difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Hell difficulty
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 20k+ non-eth 0os Base items for Nightmare difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF=1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Nightmare difficulty
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // Adding $ to 10k+ non-eth 0os Base items for Normal difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF=0 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // Adding $ to 10k+ eth or socketed Base items for Normal difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF<3 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // For non-eth, no sockets items, all difficulties
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF<3 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // For eth or socketed items, all difficulties
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF<2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // For non-eth, no sockets items, Normal & Nightmare difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF<2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // For eth or socketed items, Normal & Nightmare difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // For non-eth, no sockets items, Normal difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // For eth or socketed items, Normal difficulty
 
 //      Hide all other bases not specified above
 ItemDisplay[NMAG !RW (NORM OR EXC OR ELT) CLVL<65]: %NAME% // Show all other Base items until level 65
