@@ -291,7 +291,7 @@ ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%(Weaken)%BLUE% // Weaken charges
 
 // Other Items ------------------------------------------------------------------
 ItemDisplay[ear]: %NAME% // Show player ears, add "//" before "%NAME%" to hide all ears
-ItemDisplay[INF ID ((ARMOR (EXC OR ELT)) OR uit) CLVL<80]: %NAME% // Shows Exceptional and Elite Armor & Monarchs until level 80
+ItemDisplay[INF ID ((CHEST (EXC OR ELT)) OR uit) CLVL<80]: %NAME% // Shows Exceptional and Elite Armor & Monarchs until level 80
 ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL<30]: %NAME% // Show all Low Quality, Cracked, Crude, & Damaged items until character level 30
 ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL>29]: // Hide all Low Quality, Cracked, Crude, & Damaged items at character level 30+
 ItemDisplay[aqv CLVL>5]: // Hides Arrow quivers at character level 6+
@@ -1713,8 +1713,7 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SK58>2 SOCK=0 (gst OR bst OR wst OR 8cs OR 8b
 ItemDisplay[NMAG !INF !RW SK58>2 SOCK=4 STAFF]: %GRAY%%NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 //      Base Swords
-ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 (bsd OR lsd)]: %NAME% [%ORANGE%Larzuk%WHITE%]%DOT-1E%{%TAN%Larzuk for 4 sockets} // Broad Sword, Long Sword, or Crystal Sword, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 ILVL<41 crs]: %NAME% [%ORANGE%Larzuk%WHITE%]%DOT-1E%{%TAN%Larzuk for 4 sockets} // Broad Sword, Long Sword, or Crystal Sword, 0os, Non-Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 (bsd OR lsd OR crs)]: %NAME% [%ORANGE%Larzuk%WHITE%]%DOT-1E%{%TAN%Larzuk for 4 sockets} // Broad Sword, Long Sword, or Crystal Sword, 0os, Superior
 
 // Crystal Sword variants
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7cr]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
