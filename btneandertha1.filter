@@ -436,7 +436,6 @@ ItemDisplay[UNI !ID 8hx]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Buriza-Do 
 
 //    Daggers
 ItemDisplay[UNI !ID dgr]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Gull Dagger
-ItemDisplay[UNI !ID 9bl]: %ORANGE%>%GOLD%%NAME%%ORANGE%<%GOLD%%MAP-A5% // Stormspike Stiletto
 ItemDisplay[UNI !ID 7dg]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Wizardspike Bone Knife
 ItemDisplay[UNI !ID 7kr]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Fleshripper Fanged Knife
 ItemDisplay[UNI !ID 7bl]: %ORANGE%>%GOLD%%NAME%%ORANGE%<%GOLD%%MAP-A5% // Ghostflame Legend Spike
@@ -457,6 +456,7 @@ ItemDisplay[UNI !ID 7gm]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOL
 ItemDisplay[UNI !ID 7o7]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Bonehew Ogre Axe
 ItemDisplay[UNI !ID 7s8]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // The Reaper's Toll Thresher
 ItemDisplay[UNI !ID 7pa]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Tomb Reaver Cryptic Axe
+ItemDisplay[UNI !ID 7wc]: %ORANGE%>%GOLD%%NAME%%ORANGE%<%GOLD%%MAP-A5% // Stormspire Giant Thresher
 
 //    Scepters
 ItemDisplay[UNI !ID 9ws]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Hand of Blessed Light Divine Scepter
