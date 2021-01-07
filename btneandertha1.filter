@@ -41,10 +41,10 @@ ItemDisplay[ice]: %GOLD%Malahs Potion%MAP-A9%{%TAN%Act 5: Frozen River%NL%Touch 
 ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-A9%{%TAN%All Resistances +10%NL%Right click for a permanent%NL%} // Scroll of Resistance
 
 // Essences & Token -------------------------------------------------------------
-ItemDisplay[tes]: %GOLD%Suffering Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Andarial & Duriel%NL%Cube w/ Terror, Hatred, & Destruction essences%NL%} // Twisted Essence of Suffering
-ItemDisplay[ceh]: %GOLD%Hatred Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Mephisto%NL%Cube w/ Terror, Destruction, & Suffering essences%NL%} // Charged Essence of Hatred
-ItemDisplay[bet]: %GOLD%Terror Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Diablo%NL%Cube w/ Hatred, Destruction, & Suffering essences%NL%} // Burning Essence of Terror
-ItemDisplay[fed]: %GOLD%Destruction Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Baal%NL%Cube w/ Terror, Hatred, & Suffering essences%NL%} // Festering Essence of Destruction
+ItemDisplay[tes]: %RED%Suffering Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Andarial & Duriel%NL%Cube w/ Terror, Hatred, & Destruction essences%NL%} // Twisted Essence of Suffering
+ItemDisplay[ceh]: %RED%Hatred Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Mephisto%NL%Cube w/ Terror, Destruction, & Suffering essences%NL%} // Charged Essence of Hatred
+ItemDisplay[bet]: %RED%Terror Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Diablo%NL%Cube w/ Hatred, Destruction, & Suffering essences%NL%} // Burning Essence of Terror
+ItemDisplay[fed]: %RED%Destruction Essence x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Baal%NL%Cube w/ Terror, Hatred, & Suffering essences%NL%} // Festering Essence of Destruction
 ItemDisplay[toa]: %ORANGE%Token of Absolution%WHITE%%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
 
 // Pandemonium Items ------------------------------------------------------------
@@ -353,6 +353,7 @@ ItemDisplay[UNI !ID obf]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOL
 ItemDisplay[UNI !ID xui]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // The Spirit Shroud Ghost Armor
 ItemDisplay[UNI !ID xea]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Skin of the Vipermagi Serpentskin Armor
 ItemDisplay[UNI !ID xrs]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Duriel's Shell Cuirass
+ItemDisplay[UNI !ID xhn]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Shaftstop Mesh Armor
 ItemDisplay[UNI !ID xpl]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Skullder's Ire Russet Armor
 ItemDisplay[UNI !ID xtp]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Que-Hegan's Wisdom Mage Plate
 ItemDisplay[UNI !ID xlt]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Guardian Angel Templar Coat
@@ -505,8 +506,8 @@ ItemDisplay[SET !ID amu]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Angelic,
 ItemDisplay[SET !ID rin]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Angelic, Bul-Kathos', Cathan Rings
 
 // Aldur's Watchtower
-ItemDisplay[SET !ID dr8]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Aldur's Stony Gaze Hunter's Guise
-ItemDisplay[SET !ID xtb]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Aldur's Advance Battle Boots
+ItemDisplay[SET !ID dr8]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Aldur's Stony Gaze Hunter's Guise
+ItemDisplay[SET !ID xtb]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Aldur's Advance Battle Boots
 ItemDisplay[SET !ID uul]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Aldur's Deception Shadow Plate
 
 // Bul-Kathos' Children
