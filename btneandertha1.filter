@@ -333,7 +333,7 @@ ItemDisplay[UNI !ID bae]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Hala
 //    Druid
 ItemDisplay[UNI !ID dra]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Jalal's Mane Totemic Mask
 ItemDisplay[UNI !ID drb]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Cerebus' Bite Blood Spirit
-ItemDisplay[UNI !ID drd]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Spirit Keeper Earth Spirit
+ItemDisplay[UNI !ID drd]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Spirit Keeper Earth Spirit
 
 //    Necromancer
 ItemDisplay[UNI !ID nea]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Homunculus Hierophant Trophy
@@ -356,7 +356,7 @@ ItemDisplay[UNI !ID xrs]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Duriel's S
 ItemDisplay[UNI !ID xhn]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Shaftstop Mesh Armor
 ItemDisplay[UNI !ID xpl]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Skullder's Ire Russet Armor
 ItemDisplay[UNI !ID xtp]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Que-Hegan's Wisdom Mage Plate
-ItemDisplay[UNI !ID xlt]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Guardian Angel Templar Coat
+ItemDisplay[UNI !ID xlt]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Guardian Angel Templar Coat
 ItemDisplay[UNI !ID xth]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Atma's Wail Embossed Plate
 ItemDisplay[UNI !ID uui]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Ormus' Robes Dusk Shroud
 ItemDisplay[UNI !ID utu]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // The Gladiator's Bane Wire Fleece
@@ -506,13 +506,13 @@ ItemDisplay[SET !ID amu]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Angelic,
 ItemDisplay[SET !ID rin]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Angelic, Bul-Kathos', Cathan Rings
 
 // Aldur's Watchtower
-ItemDisplay[SET !ID dr8]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Aldur's Stony Gaze Hunter's Guise
+ItemDisplay[SET !ID dr8]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Aldur's Stony Gaze Hunter's Guise
 ItemDisplay[SET !ID xtb]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Aldur's Advance Battle Boots
 ItemDisplay[SET !ID uul]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Aldur's Deception Shadow Plate
 
 // Bul-Kathos' Children
-ItemDisplay[SET !ID 7gd]: %ORANGE%>%PURPLE%>>%GREEN%%NAME%%PURPLE%<<%ORANGE%<%GREEN%%MAP-84% // Bul-Kathos' Sacred Charge Colossus Blade
-ItemDisplay[SET !ID 7wd]: %ORANGE%>%PURPLE%>>%GREEN%%NAME%%PURPLE%<<%ORANGE%<%GREEN%%MAP-84% // Bul-Kathos' Tribal Guardian Mythical Sword
+ItemDisplay[SET !ID 7gd]: %ORANGE%>%RED%>>%GREEN%%NAME%%RED%<<%ORANGE%<%GREEN%%MAP-84% // Bul-Kathos' Sacred Charge Colossus Blade
+ItemDisplay[SET !ID 7wd]: %ORANGE%>%RED%>>%GREEN%%NAME%%RED%<<%ORANGE%<%GREEN%%MAP-84% // Bul-Kathos' Tribal Guardian Mythical Sword
 
 // Cow King's Leathers
 ItemDisplay[SET !ID xap]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Cow King's Horns War Hat
@@ -548,7 +548,7 @@ ItemDisplay[SET !ID zvb]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // M'avina'
 // Natalya's Odium
 ItemDisplay[SET !ID xh9]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Natalya's Totem Grim Helm
 ItemDisplay[SET !ID 7qr]: %ORANGE%>%PURPLE%>>%GREEN%%NAME%%PURPLE%<<%ORANGE%<%GREEN%%MAP-84% // Natalya's Mark Scissors Suwayyah
-ItemDisplay[SET !ID ucl]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Natalya's Shadow Loricated Mail
+ItemDisplay[SET !ID ucl]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Natalya's Shadow Loricated Mail
 ItemDisplay[SET !ID xmb]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Natalya's Soul Mesh Boots
 
 // Naj's Ancient Vestige
@@ -601,7 +601,7 @@ ItemDisplay[RARE !ID GLOVES]: %NAME%%MAP-A8% // All Rare gloves
 
 //      Rare Weapons
 ItemDisplay[RARE !ID (EXC OR ELT) AXE !THROWING]: %NAME% // All Exceptional and Elite tier Axes
-ItemDisplay[RARE !ID ELT BOW]: %NAME% // All Elite tier Bows
+ItemDisplay[RARE !ID ELT BOW !ZON]: %NAME% // All Elite tier Bows
 ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME% // All Elite tier Daggers
 ItemDisplay[RARE !ID ELT SPEAR THROWING !ZON]: %NAME% // All Elite tier Javelins
 ItemDisplay[RARE !ID ELT MACE]: %NAME% // All Elite tier Maces
@@ -684,8 +684,8 @@ ItemDisplay[MAG ILVL>71 CLVL<85 CHEST]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%
 ItemDisplay[MAG ILVL>71 CLVL<94 BELT]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ith%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Belt
 ItemDisplay[MAG ILVL>71 CLVL<85 BOOTS]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ort%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Boots
 ItemDisplay[MAG ILVL>71 CLVL<94 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
-ItemDisplay[MAG ILVL>71 CLVL<85 HELM]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel:} // Any Helm
-ItemDisplay[MAG ILVL>71 CLVL<85 SHIELD]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel:} // Any Shield
+ItemDisplay[MAG ILVL>71 CLVL<85 HELM !BAR !DRU]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel:} // Any Helm
+ItemDisplay[MAG ILVL>71 CLVL<85 SHIELD !DIN !NEC]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel:} // Any Shield
 //ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Weapon
 ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
 ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
@@ -1631,7 +1631,7 @@ ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=3 CLVL>93 ELT CHEST]: %NAME%%DOT-1E%{
 ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=4 CLVL>93 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 4os, Eth, 800+ Defense
 
 //      Base Helms
-ItemDisplay[NMAG !INF !RW SOCK=3 CLVL<85 HELM]: %NAME% // Show all 3 socket helms until character level 85
+ItemDisplay[NMAG !INF !RW SOCK=3 CLVL<85 HELM !BAR !DRU]: %NAME% // Show all 3 socket helms until character level 85
 
 ItemDisplay[NMAG !INF !RW !SUP CLVL<90 SOCK=0 (xrn OR usk OR uh9)]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // Show ALL Grand Crown, Demonhead, and Bone Visage until character level 90
 ItemDisplay[NMAG !INF !RW SUP CLVL<90 SOCK=0 (xrn OR usk OR uh9)]: %NAME%{%TAN%Larzuk for sockets} // Show ALL Grand Crown, Demonhead, and Bone Visage until character level 90
@@ -1662,8 +1662,8 @@ ItemDisplay[NMAG !INF !RW SOCK=5 (2ax OR 72a OR 7wa)]: %GRAY%%NAME%%DOT-1E%{%ORA
 ItemDisplay[NMAG !INF !RW SOCK=6 (7wa)]: %GRAY%%NAME%%DOT-1E%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
 
 //		Base Bows
-ItemDisplay[NMAG !INF !RW SOCK=4 BOW]: %GRAY%%NAME%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // 4os for Harmony
-ItemDisplay[NMAG !INF !RW SUP SOCK=4 ELT BOW]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // 4os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=4 BOW !ZON]: %GRAY%%NAME%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // 4os for Harmony
+ItemDisplay[NMAG !INF !RW SUP SOCK=4 ELT BOW !ZON]: %GRAY%%NAME%%DOT-20%%PX-00%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // 4os, Superior
 
 //      Base Maces
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 fla]: %NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Flail, 4os, Non-Superior, Non-Eth
