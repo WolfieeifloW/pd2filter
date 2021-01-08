@@ -246,7 +246,7 @@ ItemDisplay[!RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth
 
 // Vendor Items -----------------------------------------------------------------
 ItemDisplay[MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR>9 amu]: %NAME% %GREEN%(2/10+)%BLUE% // +2 class skills, 10+ FCR amulet
-ItemDisplay[MAG (TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR TABSK16>1 OR TABSK17>1 OR TABSK18>1 OR TABSK24>1 OR TABSK34>1 OR TABSK40>1 OR TABSK42>1 OR TABSK48>1 OR TABSK50>1) FCR>9 amu]: %NAME% %GREEN%(2/10+)%BLUE% // +2 tab skills, 10+ FCR amulet
+ItemDisplay[MAG (TABSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR TABSK16>1 OR TABSK17>1 OR TABSK18>1 OR TABSK24>1 OR TABSK25>1 OR TABSK26>1 OR TABSK32>1 OR TABSK34>1 OR TABSK40>1 OR TABSK41>1 OR TABSK42>1 OR TABSK48>1 OR TABSK49>1 OR TABSK50>1) FCR>9 amu]: %NAME% %GREEN%(2/10+)%BLUE% // +2 tab skills, 10+ FCR amulet
 ItemDisplay[MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR>19 CIRC]: %GREEN%2/20 - %NAME%%MAP-84% // +2 class skills, +20 FCR circlet
 ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %NAME% %GREEN%(+5 Jav)%BLUE% // +2 Amazon, +3 Javelin Skills Javelin
 ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE% // +6 Javelin Skills Javelin
@@ -271,8 +271,8 @@ ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK237>2) DRU]: %NAME% %GREEN%(2/3 Di
 ItemDisplay[MAG ((CLSK5>1 OR TABSK42>1) AND SK247>2) DRU]: %NAME% %GREEN%(2/3 Grizzly)%BLUE% // +2 Druid/Grizzly, +3 Grizzly Druid Pelt
 ItemDisplay[MAG (SOCK>3 AND LIFE>89) CHEST]: %NAME% %GREEN%(Whale)%BLUE% // 4 sockets, 90+ Health Armor
 ItemDisplay[MAG (TABSK2>2 AND IAS>19) GLOVES]: %NAME% %GREEN%(+3 Jav 20IAS)%BLUE% // +3 Javelin Skills, 20 IAS Gloves
-ItemDisplay[MAG (TABSK0=2 OR TABSK1=2 OR TABSK2=2 OR TABSK49=2) IAS>19 GLOVES]: %NAME% %GREEN%(2/20)%BLUE% // +2 tab skills, 20 IAS Gloves
-ItemDisplay[MAG (TABSK0=3 OR TABSK1=3 OR TABSK3=3 OR TABSK49=3) IAS>19 GLOVES]: %NAME% %GREEN%(3/20)%BLUE% // +3 tab skills, 20 IAS Gloves
+ItemDisplay[MAG (TABSK0=2 OR TABSK1=2 OR TABSK2=2 OR TABSK50=2) IAS>19 GLOVES]: %NAME% %GREEN%(2/20)%BLUE% // +2 tab skills, 20 IAS Gloves
+ItemDisplay[MAG (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK50=3) IAS>19 GLOVES]: %NAME% %GREEN%(3/20)%BLUE% // +3 tab skills, 20 IAS Gloves
 ItemDisplay[MAG (SOCK>3 AND FBR>1) uit]: %NAME% %GREEN%(JMoD)%BLUE% // JMoD Monarch
 ItemDisplay[MAG ED>299 WEAPON]: %NAME% %GREEN%(300%+ED)%BLUE% // 300%+ ED Weapons
 ItemDisplay[MAG TABSK34>2 WEAPON]: %NAME% %GREEN%(+3 Warcries)%BLUE% // +3 Warcries weapon
@@ -689,7 +689,7 @@ ItemDisplay[MAG ILVL>71 CLVL<85 SHIELD !DIN !NEC]: %NAME% %ORANGE%[C]%BLUE%{%GRE
 //ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Weapon
 ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
 ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
-ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9hw OR 7hw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
+ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
 ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Tir%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
 ItemDisplay[MAG ILVL>71 ETH (wax OR 9wa OR 7wa)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
 ItemDisplay[MAG ILVL>71 ETH (glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
@@ -697,7 +697,7 @@ ItemDisplay[MAG ILVL>71 ETH (fla OR 9fl OR 7fl OR mau OR 9m9 OR 7m7 OR gma OR 9g
 ItemDisplay[MAG ILVL>71 ETH (vou OR 9vo OR 7vo OR scy OR 9s8 OR 7s8 OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR wsc OR 9wc OR 7wc)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
 ItemDisplay[MAG ILVL>71 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Scepters
 ItemDisplay[MAG ILVL>71 ETH (brn OR 9br OR 7br OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
-ItemDisplay[MAG ILVL>71 ETH (lst OR 8ls OR 6ls OR gst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Staves
+ItemDisplay[MAG ILVL>71 ETH (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Staves
 ItemDisplay[MAG ILVL>71 ETH (crs OR 9cr OR 7cr OR lsd OR 9ls OR 7ls OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
 ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Throwing Weapons
 ItemDisplay[MAG ILVL>71 CLVL<85 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Tir%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
@@ -713,7 +713,7 @@ ItemDisplay[MAG !ID jew]: %RED%o %BLUE%%NAME% %RED%o%BLUE%%DOT-97% // All Magic 
 
 //      Magic Class Specific
 ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME% // Magic Amazon Javelins (6/40 etc)
-ItemDisplay[MAG !ID (9hw OR 7hw) SIN]: %NAME% // All Magic Assassin Katars
+ItemDisplay[MAG !ID (9tw OR 7tw) SIN]: %NAME% // All Magic Assassin Katars
 ItemDisplay[MAG !ID BAR]: %NAME% // All Magic Barbarian helmets
 ItemDisplay[MAG !ID DRU]: %NAME% // All Magic Pelts
 
@@ -2025,8 +2025,8 @@ ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=5 ELT !7sr SPEAR !THROWI
 ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=6 ELT !7sr SPEAR !THROWING !ZON]: %GRAY%%NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
 
 //      Base Staves
-ItemDisplay[NMAG !INF !RW !SUP !ETH SK58>2 SOCK=0 (gst OR bst OR wst OR 8cs OR 8bs OR 8ws OR 6cs OR 6bs OR 6ws)]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
-ItemDisplay[NMAG !INF !RW SUP !ETH SK58>2 SOCK=0 (gst OR bst OR wst OR 8cs OR 8bs OR 8ws OR 6cs OR 6bs OR 6ws)]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
+ItemDisplay[NMAG !INF !RW !SUP !ETH SK58>2 SOCK=0 (cst OR bst OR wst OR 8cs OR 8bs OR 8ws OR 6cs OR 6bs OR 6ws)]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
+ItemDisplay[NMAG !INF !RW SUP !ETH SK58>2 SOCK=0 (cst OR bst OR wst OR 8cs OR 8bs OR 8ws OR 6cs OR 6bs OR 6ws)]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
 ItemDisplay[NMAG !INF !RW SK58>2 SOCK=4 STAFF]: %GRAY%%NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 //      Base Swords
