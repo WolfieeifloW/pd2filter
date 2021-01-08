@@ -20,15 +20,15 @@ ItemDisplay[bkd]: %NAME%%MAP-58% // Scroll of Inifuss, deciphered
 ItemDisplay[leg]: %GOLD%%NAME%%MAP-58% // Wirt's Leg
 ItemDisplay[hdm]: %NAME%%MAP-58% // Horadric Malus
 ItemDisplay[ass]: %GOLD%Book of Skill%MAP-58% // Book of Skill
-ItemDisplay[tr1]: // Horadric Scroll (useless item so we hide it)
+ItemDisplay[tr1]: //%NAME% // Horadric Scroll
 ItemDisplay[box]: %NAME%%MAP-58% // Horadric Cube
 ItemDisplay[hst]: %NAME%%MAP-58% // Horadric Staff
 ItemDisplay[vip]: %NAME%%MAP-58% // Amulet of the Viper
 ItemDisplay[msf]: %NAME%%MAP-58% // Staff of Kings
 ItemDisplay[j34]: %NAME%%MAP-58% // A Jade Figurine
-ItemDisplay[g33]: %NAME%%MAP-58% // Gidbinn
 ItemDisplay[g34]: %NAME%%MAP-58% // The Golden Bird
 ItemDisplay[xyz]: %GOLD%Potion of Life%MAP-58% // Potion of Life
+ItemDisplay[g33]: %NAME%%MAP-58% // Gidbinn
 ItemDisplay[qey]: %NAME%%MAP-58% // Khalim's Eye
 ItemDisplay[qbr]: %NAME%%MAP-58% // Khalim's Brain
 ItemDisplay[qhr]: %NAME%%MAP-58% // Khalim's Heart
@@ -148,12 +148,27 @@ ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
 ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
 
 // Unique Items
+ItemDisplay[UNI ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko Rune, Lem%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+
 ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items
 
 // Set Items
+ItemDisplay[SET ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko Rune, Lem%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+
 ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 
 // Rare Items
+ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
+
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
 
@@ -258,4 +273,4 @@ ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 
 // Base Items
 // I've given just one example here to get you started
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SHIELD]: %GRAY%%NAME% // Spirit Shields
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 SHIELD !DIN !NEC]: %GRAY%%NAME% // Spirit Shields
