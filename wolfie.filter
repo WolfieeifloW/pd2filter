@@ -982,7 +982,6 @@ ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME%%MAP-97% // Javelins for 6/40
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG !ID SIN]: %NAME%%MAP-97% // All Assassin Katars
 
-
 // Shadow Disciplines
 ItemDisplay[MAG SK253>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Psychic Hammer
 ItemDisplay[MAG SK258>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Burst of Speed
