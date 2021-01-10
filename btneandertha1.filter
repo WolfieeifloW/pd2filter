@@ -587,7 +587,7 @@ ItemDisplay[RARE !ID jew]: %YELLOW%o %NAME% o%WHITE%%MAP-A8% // All Rare Jewels
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All Rare rings
 
 //      Rare Class Specific
-ItemDisplay[RARE !ID ELT ZON]: %NAME%%MAP-A8% // All Rare Amazon weapons
+ItemDisplay[RARE !ID ZON]: %NAME%%MAP-A8% // All Rare Amazon weapons
 ItemDisplay[RARE !ID SIN]: %NAME%%MAP-A8% // All Rare Assassin weapons
 ItemDisplay[RARE !ID BAR]: %NAME%%MAP-A8% // All Rare Barbarian helmets
 ItemDisplay[RARE !ID DRU]: %NAME%%MAP-A8% // All Rare Druid Pelts
@@ -706,7 +706,9 @@ ItemDisplay[MAG ILVL>71 CLVL<85 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn O
 //      Magic Charms
 ItemDisplay[MAG !ID cm1]: %RED%o %BLUE%%NAME% %RED%o%BLUE%%MAP-97% // Magic Small Charms
 ItemDisplay[MAG !ID cm2]: %BLUE%o %NAME% o%BLUE%%MAP-97% // Magic Large Charms
-ItemDisplay[MAG !ID cm3]: %RED%o %BLUE%%NAME% %RED%o%BLUE%%MAP-97% // Magic Grand Charms
+ItemDisplay[MAG !ID ILVL>90 cm3]: %PURPLE%o %BLUE%%NAME% %PURPLE%o [91+]%BLUE%%MAP-97% // Magic Grand Charms 91+
+ItemDisplay[MAG !ID ILVL>49 ILVL<53 cm3]: %PURPLE%o %BLUE%%NAME% %PURPLE%o%BLUE%%MAP-97% // Magic Grand Charms 50-52
+ItemDisplay[MAG !ID cm3]: %RED%o %BLUE%%NAME% %RED%o%BLUE%%MAP-97% // Magic Grand Charms 1-49 & 53-90
 
 //      Magic Jewels
 ItemDisplay[MAG !ID jew]: %RED%o %BLUE%%NAME% %RED%o%BLUE%%DOT-97% // All Magic Jewels
