@@ -569,7 +569,7 @@ ItemDisplay[SET !ID zmb]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Tal Rash
 ItemDisplay[SET !ID xul]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Trang-Oul's Scales Chaos Armor
 ItemDisplay[SET !ID ne9]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Trang-Oul's Wing Cantor Trophy
 ItemDisplay[SET !ID utc]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Trang-Oul's Girth Troll Belt
-ItemDisplay[SET !ID xmg]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Trang-Oul's Claws Heavy Bracers
+ItemDisplay[SET !ID xmg]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Trang-Oul's Claws Heavy Bracers
 
 ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for all Set items not specified above
 
