@@ -1674,6 +1674,12 @@ ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=4 fla]: %NAME%{%ORANGE%Phoenix, Oath, V
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 fla]: %GRAY%%NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Flail, 4os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SOCK=5 fla]: %GRAY%%NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:} // Flail, 5os
 
+// Thunder Maul
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 7gm]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Thunder Maul, 0os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7gm]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Thunder Maul, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gm]: %NAME%%DOT-1E%{%ORANGE%Doom, Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // Thunder Maul, 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gm]: %NAME%%DOT-1E%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // Thunder Maul, 6os, Eth
+
 //      Base Polearms
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ((ED>9 AND !ETH) OR ETH) SOCK=0 ELT !7o7 POLEARM]: %GRAY%%NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
@@ -2032,6 +2038,11 @@ ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=6 ELT !7sr SPEAR !THROWI
 ItemDisplay[NMAG !INF !RW !SUP !ETH SK58>2 SOCK=0 (cst OR bst OR wst OR 8cs OR 8bs OR 8ws OR 6cs OR 6bs OR 6ws)]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW SUP !ETH SK58>2 SOCK=0 (cst OR bst OR wst OR 8cs OR 8bs OR 8ws OR 6cs OR 6bs OR 6ws)]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
 ItemDisplay[NMAG !INF !RW SK58>2 SOCK=4 STAFF]: %GRAY%%NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Memory, Passion, Phoenix%NL%Heart of the Oak, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+
+// Archon Staves
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 6ws]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Archon Staff, 0os, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 6ws]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Archon Staff, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 6ws]: %NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Archon Staff, 6os, Eth
 
 //      Base Swords
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 ILVL<41 (bsd OR lsd OR crs)]: %NAME% [%ORANGE%Larzuk%WHITE%]%DOT-1E%{%TAN%Larzuk for 4 sockets} // Broad Sword, Long Sword, or Crystal Sword, 0os, Superior
