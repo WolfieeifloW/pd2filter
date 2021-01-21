@@ -1837,9 +1837,11 @@ ItemDisplay[NMAG !INF !RW SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRA
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Hammers until character level 30
 
 // Ogre Maul
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7m7]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Maul, 0os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7m7]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Maul, 6os, Eth
 
 // Thunder Maul
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gm]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Maul, 0os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gm]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Maul, 6os, Eth
 
 // ------------------------------------------------------------------------------
@@ -2025,6 +2027,7 @@ ItemDisplay[NMAG !INF !RW SK62>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Hydra
 ItemDisplay[NMAG !INF !RW SK376>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Combustion
 
 // Archon Staff
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 6ws]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Archon Staff, 0os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 6ws]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Archon Staff, 6os, Eth
 
 // ------------------------------------------------------------------------------
