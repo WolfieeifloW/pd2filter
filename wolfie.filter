@@ -1109,7 +1109,7 @@ ItemDisplay[MAG SK376>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Com
 // ------------------------------------------------------------------------------
 //     [MAAR] Armor
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID ILVL>49 (xtp uui OR uea OR ula OR utu OR utp)]: %NAME%%MAP-97% // Possible Whale Armor, Elite tier, lower strength
+ItemDisplay[MAG !ID ILVL>49 (xtp OR uui OR uea OR ula OR utu OR utp)]: %NAME%%MAP-97% // Possible Whale Armor, Elite tier, lower strength
 
 // ------------------------------------------------------------------------------
 //     [MABE] Belts
@@ -1358,7 +1358,6 @@ ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
 ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
 
 // ------------------------------------------------------------------------------
@@ -2128,6 +2127,7 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %
 // ------------------------------------------------------------------------------
 // [BIMA] Base Items Master
 // ------------------------------------------------------------------------------
+ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL>29]: {%NAME%} // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above
 
 // +----------------------------------------------------------------------------+
