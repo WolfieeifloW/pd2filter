@@ -1552,4 +1552,5 @@ ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF<2 (NORM OR EXC OR ELT)]: %DARK
 ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF<2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items
 ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%{%NAME%} // For non-eth, no sockets items
 ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items
+ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL>29]: %NAME%{%NAME%} // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted base items

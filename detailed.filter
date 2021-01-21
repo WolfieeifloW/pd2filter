@@ -4253,9 +4253,7 @@ ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
 ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
-// Please note that all Helmets, Armors, and Shields have Ethereal filter lines as you can corrupt Indestructible on these slots.
 
 // ------------------------------------------------------------------------------
 //    [BMCI] Circlets
@@ -13747,5 +13745,6 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %
 // ------------------------------------------------------------------------------
 // [BIMA] Base Items Master
 // ------------------------------------------------------------------------------
+ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL>29]: %NAME%{%NAME%} // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted base items
 // Please note if you comment out %NAME% it will hide things such as Keys, Scrolls, etc unless you have a line up above for them.
