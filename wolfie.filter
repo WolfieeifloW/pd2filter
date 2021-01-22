@@ -1761,9 +1761,11 @@ ItemDisplay[NMAG !INF !RW SOCK=5 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Be
 ItemDisplay[NMAG !INF !RW SOCK=6 7wa]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 6os, all variants
 
 // Champion Axe
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7ga]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 5os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7ga]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 6os, Eth
 
 // Glorious Axe
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gi]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 5os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gi]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 6os, Eth
 
 // ------------------------------------------------------------------------------
@@ -1838,10 +1840,12 @@ ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7
 
 // Ogre Maul
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7m7]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Maul, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7m7]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Maul, 5os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7m7]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Maul, 6os, Eth
 
 // Thunder Maul
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gm]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Maul, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gm]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Maul, 5os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gm]: %GRAY%%NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Maul, 6os, Eth
 
 // ------------------------------------------------------------------------------
