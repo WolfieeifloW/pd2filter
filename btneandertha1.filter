@@ -559,7 +559,6 @@ ItemDisplay[SET !ID 6cs]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Na
 
 // Orphan's Call
 ItemDisplay[SET !ID xhm]: %PURPLE%>>%GREEN%%NAME%%PURPLE%<<%GREEN%%MAP-84% // Guillaume's Face Winged Helm
-ItemDisplay[SET !ID xml]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Whitstan's Guard Round Shield
 
 // Tal Rasha's Wrappings
 ItemDisplay[SET !ID oba]: %RED%>>%GREEN%%NAME%%RED%<<%GREEN%%MAP-84% // Tal Rasha's Lidless Eye Swirling Crystal
