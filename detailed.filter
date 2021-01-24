@@ -14,8 +14,10 @@
 // If you want a more strict filter please download the 'Wolfie' version of my filters.
 // If you want this filter but without all the bloat please download the 'Compact' version.
 //
+// **************************************************************************************************** LOOK HERE LOOK HERE
 // TOO MANY BLUE OR WHITE ITEMS? Check the "Magic Items Master" and "Base Items Master" sections.
 // Please also look at the instructions under the "Base Items" header.
+// **************************************************************************************************** LOOK HERE LOOK HERE
 //
 // To change the size of a map icon you need to use a larger notification; largest to smallest they are: %BORDER% > %MAP% > %DOT% > %PX%.
 // To change the color of a map icon you need to change the two character value after %BORDER%, %MAP%, %DOT%, or %PX%.
