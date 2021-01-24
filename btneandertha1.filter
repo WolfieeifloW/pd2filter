@@ -693,8 +693,9 @@ ItemDisplay[MAG ILVL>71 CLVL<85 SHIELD !DIN !NEC]: %NAME% %ORANGE%[C]%BLUE%{%GRE
 //ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Weapon
 ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
 ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
-ItemDisplay[MAG ILVL>71 SIN]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // All Assassin Katars
-ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Tir%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
+ItemDisplay[MAG ILVL>71 CLVL<93 SIN]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // All Assassin Katars
+ItemDisplay[MAG ILVL>71 (btl OR 9tw OR 7tw)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // All good Assassin Katars
+ItemDisplay[MAG ILVL>71 CLVL<93 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Tir%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
 ItemDisplay[MAG ILVL>71 ETH (wax OR 9wa OR 7wa)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
 ItemDisplay[MAG ILVL>71 BOW]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
 ItemDisplay[MAG ILVL>71 ETH (glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
@@ -720,7 +721,7 @@ ItemDisplay[MAG !ID jew]: %RED%o %BLUE%%NAME% %RED%o%BLUE%%DOT-97% // All Magic 
 
 //      Magic Class Specific
 ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME% // Magic Amazon Javelins (6/40 etc)
-ItemDisplay[MAG !ID (9tw OR 7tw) SIN]: %NAME% // All Magic Assassin Katars
+ItemDisplay[MAG !ID CLVL<93 (btl OR 9tw OR 7tw) SIN]: %NAME% // All Magic Assassin Katars
 ItemDisplay[MAG !ID BAR]: %NAME% // All Magic Barbarian helmets
 ItemDisplay[MAG !ID DRU]: %NAME% // All Magic Pelts
 
