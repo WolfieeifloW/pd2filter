@@ -11,6 +11,11 @@
 // This is a succinct version of Detailed.
 // It has all the same lines as Detailed, it just has less comments and none of the commented out items.
 //
+// **************************************************************************************************** LOOK HERE LOOK HERE
+// TOO MANY BLUE OR WHITE ITEMS? Check the "Magic Items Master" and "Base Items Master" sections.
+// Please also look at the instructions under the "Base Items" header.
+// **************************************************************************************************** LOOK HERE LOOK HERE
+//
 // If there is anything missing please join my Discord (https://discord.gg/8K2QkjAA8g) or ask in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2).
 
 // Quest Items
@@ -1011,8 +1016,22 @@ ItemDisplay[MAG SK94>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fir
 ItemDisplay[MAG !RW PRICE>34999 DIFF<3]: %DARK_GREEN%$ %BLUE%%NAME% // All difficulties
 ItemDisplay[MAG !RW PRICE>20000 DIFF<2]: %DARK_GREEN%$ %BLUE%%NAME% // Normal & Nightmare difficulty
 ItemDisplay[MAG !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %BLUE%%NAME% // Normal difficulty
+
+// Magic Items Master
 ItemDisplay[MAG !ID CLVL<30]: %NAME% // Show all magics until level 29
 ItemDisplay[MAG !ID CLVL>29]: %NAME% // At level 30+, stop notifying for all magics, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted magics at level 40+
+
+// Base Items
+// Base items have the lines for Possible RWs at the top. It is recommended you leave these alone except to remove RWs you don't want to see.
+//
+// Each section and each item will have 5 different sets of lines:
+//    - All variants		These lines will show everything, regardless of Superior/Non-Superior and/or Ethereal/Non-Ethereal
+//    - Non-Eth 			These lines will only show Non-Ethereal items, regardless of Superior/Non-Superior (useful if you want Non-Eth but don't care about Superior or not)
+//    - Superior, Non-Eth 	These lines will only show Superior Non-Ethereal items
+//    - Eth 				These lines will only show Ethereal items, regardless of Superior/Non-Superior (useful if you want Eth but don't care about Superior or not)
+//    - Superior, Eth 		These lines will only show Superior Ethereal items (has to be both)
+//
+// PLEASE NOTE *ALL* white items will show unless you remove %NAME% in the Base Items Master section (at the very bottom of filter, more info in that section).
 
 // Gold
 ItemDisplay[GOLD<25]: // Always hide gold in piles of less than 25
@@ -1543,5 +1562,7 @@ ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF<2 (NORM OR EXC OR ELT)]: %DARK
 ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF<2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items
 ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%{%NAME%} // For non-eth, no sockets items
 ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items
+
+// Base Items Master
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL>29]: %NAME%{%NAME%} // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted base items
