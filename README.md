@@ -72,10 +72,7 @@ I've created a Discord for my filter so that you can get pinged when there's an 
 * **Info for Notify:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display#marking-items-on-the-map>
 * **More Notify Info:** <https://github.com/planqi/slashdiablo-maphack#release-notes-for-bh-maphack-v18>
 * **PD2 Item & Skill Codes:** <https://docs.google.com/spreadsheets/d/15_JIFA5Wkx3sGQr_scLZz3l6Q8Ig687yUiz8DttaxtI/edit?usp=sharing>
-* **PD2 Wiki:** <https://projectdiablo2.miraheze.org/wiki/Item_Filtering>
-  * **NOTE:** Some item codes have changed from vanilla, please refer to the PD2 Wiki above for the best item code list.
-  * **Item Codes:** <http://www.gmstemple.com/Diablo2/itemcodes.html>
-  * **Skill Codes:** <https://user.xmission.com/~trevin/DiabloIIv1.09_Skills.html>
+* **PD2 Wiki (all item/skill codes):** <https://projectdiablo2.miraheze.org/wiki/Item_Filtering>
 * **Automods Info:** <https://www.diabloii.net/forums/threads/the-staffmod-grail.740340/>
 
 # Common Issues
