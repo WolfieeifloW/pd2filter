@@ -448,7 +448,7 @@ ItemDisplay[r33s]: %NAME%{%TAN%this bad boy can fit so many freaking els%NL%%ORA
 // ------------------------------------------------------------------------------
 // [IBAD] Eth/Sockets/Item Level
 // ------------------------------------------------------------------------------
-// Magic, UNique, Set, Rare, and Crafted items
+// Magic, Unique, Set, Rare, and Crafted items
 ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
 ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) !RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
 ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) !RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
@@ -2776,6 +2776,26 @@ ItemDisplay[MAG rin ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character l
 // [CIOT] Crafted Items Other
 // ------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------
+//    [COBA] Barbarian Helm
+// ------------------------------------------------------------------------------
+//ItemDisplay[MAG ILVL>71 BAR]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel:} // Any Barbarian Helm
+
+// ------------------------------------------------------------------------------
+//    [CODR] Druid Helm
+// ------------------------------------------------------------------------------
+//ItemDisplay[MAG ILVL>71 DRU]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel:} // Any Druid Helm
+
+// ------------------------------------------------------------------------------
+//    [CONE] Necromancer Heads
+// ------------------------------------------------------------------------------
+//ItemDisplay[MAG ILVL>71 NEC]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel:} // Any Necromancer Head
+
+// ------------------------------------------------------------------------------
+//    [COPA] Paladin Shields
+// ------------------------------------------------------------------------------
+//ItemDisplay[MAG ILVL>71 PAL]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel:} // Any Paladin Shield
+
+// ------------------------------------------------------------------------------
 //    [COAR] Armor
 // ------------------------------------------------------------------------------
 //ItemDisplay[MAG ILVL>71 CHEST]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Eth%NL%%BLUE%Hit Power:%TAN% P Saph + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%RED%Blood:%TAN% P Ruby + Thul%NL%%ORANGE%Craft w/ Jewel:} // Any Armor
@@ -2798,12 +2818,12 @@ ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P 
 // ------------------------------------------------------------------------------
 //    [COHE] Helm
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 HELM]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel:} // Any Helm
+//ItemDisplay[MAG ILVL>71 HELM !BAR !DRU]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel:} // Any Helm
 
 // ------------------------------------------------------------------------------
 //    [COSH] Shield
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 SHIELD]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel:} // Any Shield
+//ItemDisplay[MAG ILVL>71 SHIELD !DIN !NEC]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel:} // Any Shield
 
 // ------------------------------------------------------------------------------
 //    [COWE] Weapon
@@ -2830,6 +2850,21 @@ ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR
 //       [CWAX] Axes
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG ILVL>71 ETH (wax OR 9wa OR 7wa)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
+
+// ------------------------------------------------------------------------------
+//       [CWBO] Bows
+// ------------------------------------------------------------------------------
+ItemDisplay[MAG ILVL>71 (hbw OR 8hb OR 6hb OR cbw OR 8cb OR 6cb OR lwb OR 8lw OR 6lw)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Bows
+
+// ------------------------------------------------------------------------------
+//       [CWCR] Crossbows
+// ------------------------------------------------------------------------------
+//ItemDisplay[MAG ILVL>71 XBOW]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // All Crossbows
+
+// ------------------------------------------------------------------------------
+//       [CWDA] Daggers
+// ------------------------------------------------------------------------------
+//ItemDisplay[MAG ILVL>71 ETH DAGGER]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Daggers
 
 // ------------------------------------------------------------------------------
 //       [CWJA] Javelins
