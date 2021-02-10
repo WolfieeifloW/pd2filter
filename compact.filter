@@ -213,7 +213,7 @@ ItemDisplay[r33]: %NAME% // Zod Rune
 ItemDisplay[r33s]: %NAME%{%TAN%this bad boy can fit so many freaking els%NL%%ORANGE%Wolfie: %TAN%*slaps rune*%NL%%NL%%WHITE%All Sockets: Indestructible%NL%} // Stacked Zod Rune
 
 // Eth & Socket in Item Name
-// Magic, UNique, Set, Rare, and Crafted items
+// Magic, Unique, Set, Rare, and Crafted items
 ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
 ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) !RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
 ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) !RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
@@ -626,6 +626,8 @@ ItemDisplay[UNI !ID 9bw]: %NAME%%MAP-A5% // Arm of King Leoric Tomb Wand
 ItemDisplay[UNI !ID 9gw]: %NAME%%MAP-A5% // Blackhand Key Grave Wand
 ItemDisplay[UNI !ID 7bw]: %NAME%%MAP-A5% // Boneshade Lich Wand
 ItemDisplay[UNI !ID 7gw]: %NAME%%MAP-A5% // Deaths's Web Unearthed Wand
+
+// Unique Items Master
 ItemDisplay[UNI CLVL<60 !ID]: %NAME%%MAP-A5% // Notification and map ping for all uniques until level 59
 ItemDisplay[UNI CLVL>59 !ID]: %NAME% // At level 60+, stop notifying for all uniques, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted uniques at level 60+
 
@@ -747,6 +749,8 @@ ItemDisplay[SET !ID xul]: %NAME%%MAP-84% // Trang-Oul's Scales Chaos Armor
 ItemDisplay[SET !ID ne9]: %NAME%%MAP-84% // Trang-Oul's Wing Cantor Trophy
 ItemDisplay[SET !ID utc]: %NAME%%MAP-84% // Trang-Oul's Girth Troll Belt
 ItemDisplay[SET !ID xmg]: %NAME%%MAP-84% // Trang-Oul's Claws Heavy Bracers
+
+// Set Items Master
 ItemDisplay[SET CLVL<60 !ID]: %NAME%%MAP-84% // Notification and map ping for all sets until level 59
 ItemDisplay[SET CLVL>59 !ID]: %NAME% // At level 60+, stop notifying for all sets, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted sets at level 60+
 
@@ -807,6 +811,8 @@ ItemDisplay[RARE !ID CLVL<20 WAND]: %NAME%%MAP-A8% // Show all Wands before leve
 ItemDisplay[RARE !RW PRICE>34999 DIFF<3]: %DARK_GREEN%$ %YELLOW%%NAME% // All difficulties
 ItemDisplay[RARE !RW PRICE>20000 DIFF<2]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal & Nightmare difficulty
 ItemDisplay[RARE !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal difficulty
+
+// Rare Items Master
 ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Show and notify for all rares until level 39
 ItemDisplay[RARE !ID CLVL>39]: %NAME% // At level 40+, stop notifying for all rares, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted rares at level 40+
 
@@ -867,6 +873,7 @@ ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GREE
 ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
 ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
 ItemDisplay[MAG ILVL>71 ETH (wax OR 9wa OR 7wa)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
+ItemDisplay[MAG ILVL>71 (hbw OR 8hb OR 6hb OR cbw OR 8cb OR 6cb OR lwb OR 8lw OR 6lw)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Bows
 ItemDisplay[MAG ILVL>71 ETH (glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
 ItemDisplay[MAG ILVL>71 ETH (fla OR 9fl OR 7fl OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Maces
 ItemDisplay[MAG ILVL>71 ETH (vou OR 9vo OR 7vo OR scy OR 9s8 OR 7s8 OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR wsc OR 9wc OR 7wc)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
