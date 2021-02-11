@@ -44,23 +44,23 @@ If it worked a Minor Health Potion should now say *HP1*.
 ![In-Game Settings](https://i.imgur.com/WFeroFv.png)
 
 # Loot Filters
-### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)
+### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)  
 CTRL+click the above link for the raw code.  
 **Select this version if you are uncomfortable with needing to write your own filter lines.** This version has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking. This is for ease-of-use and very quick editing as you should ideally only ever have to comment or uncomment a line (add or remove //). This version will show and notify a lot of items by default with the idea that you can slowly start to comment out things you don't need. The flip side is that since this filter contains lines for every item you can easily just uncomment a line for things you want to show that aren't currently showing.
 
-### [Compact](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter)
+### [Compact](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter)  
 CTRL+click the above link for the raw code.  
 **Select this version if you are comfortable with writing your own filter lines.** This version will contain only the lines that are already uncommented in the Detailed version. This version will still show and notify a lot of items that you can slowly start to comment out but you have to have knowledge of filters to add your own lines for items that are not already in the filter.
 
-### [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)
+### [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)  
 CTRL+click the above link for the raw code.  
 **Select this version if you want a template/base to start from for creating your own filter.** This filters purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
 
-### [Wolfie](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/wolfie.filter)
+### [Wolfie](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/wolfie.filter)  
 CTRL+click the above link for the raw code.  
 **This version is a copy of my own personal filter.** It is semi-strict while still working while leveling. No support will be given for this filter. Please only report items that are completely wrong.
 
-### [BTNeandertha1](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/btneandertha1.filter)
+### [BTNeandertha1](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/btneandertha1.filter)  
 CTRL+click the above link for the raw code.  
 This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneandertha1) which is quite strict. No support will be given for this version.
 
