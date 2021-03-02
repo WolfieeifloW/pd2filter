@@ -231,7 +231,7 @@ ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %NAME%
 ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone x%QTY% %PURPLE%+%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
 ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul x%QTY% %PURPLE%+%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
 ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence x%QTY% %PURPLE%+%MAP-62%{%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
-ItemDisplay[dcma]: %PURPLE%+ %RED%Vision of Terror x%QTY% %PURPLE%+%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
+ItemDisplay[dcma]: %PURPLE%+ %RED%Vision of Terror %PURPLE%+%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -1353,7 +1353,8 @@ ItemDisplay[hp2 DIFF<1]: %RED%+%WHITE%HP2 // Light Healing Potion
 ItemDisplay[hp2 DIFF>0]: // Hides Light Healing Potions after Normal difficulty
 ItemDisplay[hp3 DIFF<1]: %RED%+%WHITE%HP3 // Healing Potion
 ItemDisplay[hp3 DIFF>0]: // Hides Healing Potions after after Normal difficulty
-ItemDisplay[hp4]: %RED%+%WHITE%HP4 // Greater Healing Potion
+ItemDisplay[hp4 DIFF<2]: %RED%+%WHITE%HP4 // Greater Healing Potion
+ItemDisplay[hp4 DIFF>1]: // Hides Greater Healing Potion after Nightmare difficulty
 ItemDisplay[hp5]: %RED%+%WHITE%HP5 // Super Healing Potion
 
 // Mana Potions
@@ -1363,7 +1364,8 @@ ItemDisplay[mp2 DIFF<1]: %BLUE%+%WHITE%MP2 // Light Mana Potion
 ItemDisplay[mp2 DIFF>0]: // Hides Light Mana Potions after Normal difficulty
 ItemDisplay[mp3 DIFF<1]: %BLUE%+%WHITE%MP3 // Mana Potion
 ItemDisplay[mp3 DIFF>0]: // Hides Mana Potions after after Normal difficulty
-ItemDisplay[mp4]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
+ItemDisplay[mp4 DIFF<2]: %RED%+%WHITE%HP4 // Greater Mana Potion
+ItemDisplay[mp4 DIFF>1]: // Hides Greater Mana Potion after Nightmare difficulty
 ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 
 // Rejuv Potions
