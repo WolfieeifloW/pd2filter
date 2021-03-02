@@ -84,7 +84,7 @@ ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %NAME%
 ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone x%QTY% %PURPLE%+%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
 ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul x%QTY% %PURPLE%+%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
 ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence x%QTY% %PURPLE%+%MAP-62%{%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
-ItemDisplay[dcma]: %PURPLE%+ %RED%Vision of Terror x%QTY% %PURPLE%+%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
+ItemDisplay[dcma]: %PURPLE%+ %RED%Vision of Terror %PURPLE%+%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
 
 // Gems
 ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
