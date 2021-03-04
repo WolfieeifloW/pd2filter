@@ -1364,7 +1364,7 @@ ItemDisplay[mp2 DIFF<1]: %BLUE%+%WHITE%MP2 // Light Mana Potion
 ItemDisplay[mp2 DIFF>0]: // Hides Light Mana Potions after Normal difficulty
 ItemDisplay[mp3 DIFF<1]: %BLUE%+%WHITE%MP3 // Mana Potion
 ItemDisplay[mp3 DIFF>0]: // Hides Mana Potions after after Normal difficulty
-ItemDisplay[mp4 DIFF<2]: %RED%+%WHITE%HP4 // Greater Mana Potion
+ItemDisplay[mp4 DIFF<2]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
 ItemDisplay[mp4 DIFF>1]: // Hides Greater Mana Potion after Nightmare difficulty
 ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 
