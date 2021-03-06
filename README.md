@@ -1,5 +1,7 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
+**My filters will be ready for Season 2. I will push updates the day before the launch!**
+
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).
 
 I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!
