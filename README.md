@@ -1,6 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**My filters will be ready for Season 2. I will push updates the day before the launch!**
+**THIS BRANCH IS FOR BETA TESTING! DO NOT USE UNLESS YOU ARE OKAY WITH POSSIBLY MISSING ITEMS!**
 
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).
 
