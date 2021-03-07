@@ -15,9 +15,9 @@ Please also look at the instructions under the "Base Items" header.
 1. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
    1. [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
    1. [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
-   1. [Basic](https://github.com/WolfieeifloW/pd2filter#basic)
    1. [Wolfie](https://github.com/WolfieeifloW/pd2filter#wolfie)
    1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
+   1. [Basic](https://github.com/WolfieeifloW/pd2filter#basic)
 1. [Discord](https://github.com/WolfieeifloW/pd2filter#discord)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
 1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
@@ -54,10 +54,6 @@ CTRL+click the above link for the raw code.
 CTRL+click the above link for the raw code.  
 **Select this version if you are comfortable with writing your own filter lines.** This version will contain only the lines that are already uncommented in the Detailed version. This version will still show and notify a lot of items that you can slowly start to comment out but you have to have knowledge of filters to add your own lines for items that are not already in the filter.
 
-### [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)  
-CTRL+click the above link for the raw code.  
-**Select this version if you want a template/base to start from for creating your own filter.** This filters purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
-
 ### [Wolfie](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/wolfie.filter)  
 CTRL+click the above link for the raw code.  
 **This version is a copy of my own personal filter.** It is semi-strict while still working while leveling. No support will be given for this filter. Please only report items that are completely wrong.
@@ -65,6 +61,10 @@ CTRL+click the above link for the raw code.
 ### [BTNeandertha1](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/btneandertha1.filter)  
 CTRL+click the above link for the raw code.  
 This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneandertha1) which is quite strict. No support will be given for this version.
+
+### [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)  
+CTRL+click the above link for the raw code.  
+**Select this version if you want a template/base to start from for creating your own filter.** This filters purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
 
 # Discord
 I've created a Discord for my filter so that you can get pinged when there's an update. This allows you to either redownload the filter or you can update just the lines I've changed! Join the server [HERE](https://discord.gg/6bM8AtYGAq)!
