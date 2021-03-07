@@ -794,6 +794,8 @@ ItemDisplay[CRAFT ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%
 ItemDisplay[CRAFT ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 
+// PLEASE NOTE: None of these crafting bases have a notification on them. If you wish to be notified please add "%MAP-97%" (without quotes) after "%BLUE%"
+// For example if you wanted an Amulet to notify you would change "%ORANGE%[C]%BLUE%{" to "%ORANGE%[C]%BLUE%%MAP-97%{"
 // ------------------------------------------------------------------------------
 //    [CMAM] Amulets
 // ------------------------------------------------------------------------------
@@ -1037,7 +1039,7 @@ ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME%%MAP-97% // Javelins for 6/40
 // ------------------------------------------------------------------------------
 //     [MCAS] Assassin
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID SIN]: %NAME%%MAP-97% // All Assassin Katars
+ItemDisplay[MAG !ID SIN]: %NAME% // All Assassin Katars
 
 // Shadow Disciplines
 ItemDisplay[MAG SK253>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Psychic Hammer
@@ -1056,7 +1058,7 @@ ItemDisplay[MAG SK366>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Lig
 // ------------------------------------------------------------------------------
 //     [MCBA] Barbarian
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID BAR]: %NAME%%MAP-97% // All Barbarian helmets
+ItemDisplay[MAG !ID BAR]: %NAME% // All Barbarian helmets
 
 // Warcries
 ItemDisplay[MAG SK142>2 BAR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Find Item
@@ -1074,7 +1076,7 @@ ItemDisplay[MAG SK152>2 BAR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Ber
 // ------------------------------------------------------------------------------
 //     [MCDR] Druid
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID DRU]: %NAME%%MAP-97% // All Pelts
+ItemDisplay[MAG !ID DRU]: %NAME% // All Pelts
 
 // Elemental
 ItemDisplay[MAG SK234>2 DRU]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fissure
@@ -1164,12 +1166,12 @@ ItemDisplay[MAG SK376>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Com
 // ------------------------------------------------------------------------------
 //     [MAAR] Armor
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID ILVL>49 (xtp OR uui OR uea OR ula OR utu OR utp)]: %NAME%%MAP-97% // Possible Whale Armor, Elite tier, lower strength
+ItemDisplay[MAG !ID ILVL>49 (xtp OR uui OR uea OR ula OR utu OR utp)]: %NAME% // Possible Whale Armor, Elite tier, lower strength
 
 // ------------------------------------------------------------------------------
 //     [MABE] Belts
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID ILVL>49 (ulc OR uvc OR umc)]: %NAME%%MAP-97% // Possible Whale Belt, Elite tier, lower strength
+ItemDisplay[MAG !ID ILVL>49 (ulc OR uvc OR umc)]: %NAME% // Possible Whale Belt, Elite tier, lower strength
 
 // ------------------------------------------------------------------------------
 //     [MABO] Boots
@@ -1223,7 +1225,7 @@ ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 // ------------------------------------------------------------------------------
 //     [MWSC] Scepters
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID SCEPTER]: %NAME%%MAP-97% // All Scepters
+ItemDisplay[MAG !ID SCEPTER]: %NAME% // All Scepters
 
 // Defensive Auras
 ItemDisplay[MAG !ETH SK125>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Salvation
@@ -1282,7 +1284,7 @@ ItemDisplay[MAG SK376>2 STAFF]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // C
 // ------------------------------------------------------------------------------
 //     [MWWA] Wands
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID WAND]: %NAME%%MAP-97% // All Wands
+ItemDisplay[MAG !ID WAND]: %NAME% // All Wands
 
 // Curses
 ItemDisplay[MAG SK66>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Amplify Damage

@@ -216,7 +216,7 @@ ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 8
 
 // Magic Items
 // Amulets
-ItemDisplay[MAG !ID amu]: %NAME%%DOT-97% // All unidentified amulets
+ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
 
 // Charms
 ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
