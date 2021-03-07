@@ -4,25 +4,25 @@
 
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).
 
-I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!
+I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter/tree/beta#discord) for more info!
 
 **TOO MANY BLUE OR WHITE ITEMS?**  
 Check the "Magic Items Master" and "Base Items Master" sections.  
 Please also look at the instructions under the "Base Items" header.
 
 # Table of Contents
-1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
-1. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
-   1. [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
-   1. [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
-   1. [Wolfie](https://github.com/WolfieeifloW/pd2filter#wolfie)
-   1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
-   1. [Basic](https://github.com/WolfieeifloW/pd2filter#basic)
-1. [Discord](https://github.com/WolfieeifloW/pd2filter#discord)
-1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
-1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
-1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
-1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
+1. [Installation](https://github.com/WolfieeifloW/pd2filter/tree/beta#installation)
+1. [Loot Filters](https://github.com/WolfieeifloW/pd2filter/tree/beta#loot-filters)
+   1. [Detailed](https://github.com/WolfieeifloW/pd2filter/tree/beta#detailed)
+   1. [Compact](https://github.com/WolfieeifloW/pd2filter/tree/beta#compact)
+   1. [Wolfie](https://github.com/WolfieeifloW/pd2filter/tree/beta#wolfie)
+   1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter/tree/beta#btneandertha1)
+   1. [Basic](https://github.com/WolfieeifloW/pd2filter/tree/beta#basic)
+1. [Discord](https://github.com/WolfieeifloW/pd2filter/tree/beta#discord)
+1. [Informative Links](https://github.com/WolfieeifloW/pd2filter/tree/beta#informative-links)
+1. [Common Issues](https://github.com/WolfieeifloW/pd2filter/tree/beta#common-issues)
+1. [Donations](https://github.com/WolfieeifloW/pd2filter/tree/beta#donations)
+1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter/tree/beta#disclaimer)
 
 # Installation
 Ensure you have opened the PD2 Launcher (as Administrator) and clicked Play. This will update the mod and download all the files you need.
@@ -81,7 +81,7 @@ I've created a Discord for my filter so that you can get pinged when there's an 
 
 # Common Issues
 These are the common problems that people seem to run into. Please check each of these before asking for help.
-* In-game settings not matching what I have in [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
+* In-game settings not matching what I have in [Installation](https://github.com/WolfieeifloW/pd2filter/tree/beta#installation)
 * Having two PD2 installations and pasting your filter into the wrong one
 * Saving the filter file with the wrong name, eg **default.filter.filter**, **default.txt**, or **default.filter.txt**
 * Having a PD2 installation inside of a Diablo II folder which is inside another Diablo II folder (folderception!)
@@ -89,7 +89,7 @@ These are the common problems that people seem to run into. Please check each of
 
 # Donations
 I've had several people ask to donate. This is in **no way** required but is in all ways **very much appreciated**. To donate you can use [THIS](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD) link to send me money for my work.
-If you wish you can get the "Donator" role in my [Discord](https://github.com/WolfieeifloW/pd2filter#discord) as well!
+If you wish you can get the "Donator" role in my [Discord](https://github.com/WolfieeifloW/pd2filter/tree/beta#discord) as well!
 
 # Disclaimer
 For all versions of the filter I take no responsibility for any items that are accidentally hidden and/or do not notify. I do try my best to test these filters and ensure they are working properly but there's always room for error.
