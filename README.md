@@ -1,6 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**My filters will be ready for Season 2. I will push updates the day before the launch!**
+**My filters will be ready for Season 2. I will push updates the day before the launch (Thursday, March 11, 2021) around 12PM EST!**
 
 If you are playing in the beta and wish to have the beta updates on your filter please head to my [Beta Branch](https://github.com/WolfieeifloW/pd2filter/tree/beta) and grab the newest versions from there!
 
