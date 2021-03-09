@@ -205,7 +205,7 @@ ItemDisplay[imra]: %NAME% x%QTY%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, 
 ItemDisplay[upma]: %NAME% x%QTY%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic to Rare} // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME% x%QTY%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map} // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]: %NAME% x%QTY%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
-//ItemDisplay[]: %NAME% x%QTY%{%TAN%Description%NL%%ORANGE%Title} // ??? New Anya item ???
+ItemDisplay[upmp]: %NAME% x%QTY%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps} // Cartographer's Orb
 
 // ------------------------------------------------------------------------------
 // [MAPS] Maps
@@ -218,19 +218,21 @@ ItemDisplay[RARE (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR
 // Tier 1 Maps
 ItemDisplay[t11]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun [T1]
 ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazon's Memory [T1]
-ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horadrim Tower [T1]
-ItemDisplay[t14]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Tomb [T1]
+ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Bastion Keep [T1]
 
 // Tier 2 Maps
 ItemDisplay[t21]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon [T2]
 ItemDisplay[t22]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Torajan Jungle [T2]
-ItemDisplay[t23]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Throne of Insanity [T2]
+ItemDisplay[t23]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Arreat Battlefield [T2]
+ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Blood Moon [T2]
 
 // Tier 3 Maps
 ItemDisplay[t31]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood [T3]
-ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Arreat Battlefield [T3]
+ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Throne of Insanity [T3]
 ItemDisplay[t33]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath [T3]
 ItemDisplay[t34]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ancestral Trial [T3]
+ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Cathedral of Light [T3]
+ItemDisplay[t36]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Tomb of Zoltun Kulle [T3]
 
 // Tier 4 Maps
 ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Plains of Torment [T4]

@@ -70,28 +70,42 @@ ItemDisplay[imra]: %NAME% // Imbue Rare Map (Zakarum Orb)
 ItemDisplay[upma]: %NAME% // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME% // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]: %NAME% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
-//ItemDisplay[]: %NAME% x%QTY%{%TAN%Description%NL%%ORANGE%Title} // ??? New Anya item ???
+ItemDisplay[upmp]: %NAME% x%QTY%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps} // Cartographer's Orb
 
 // Maps
-ItemDisplay[t11]: %NAME%%RED%+%WHITE%%MAP-62% // Ruins of Viz-jun
-ItemDisplay[t12]: %NAME%%RED%+%WHITE%%MAP-62% // Horazon's Memory
-ItemDisplay[t13]: %NAME%%RED%+%WHITE%%MAP-62% // Horadrim Tower
-ItemDisplay[t14]: %NAME%%RED%+%WHITE%%MAP-62% // Tomb
-ItemDisplay[t21]: %NAME%%RED%+%WHITE%%MAP-62% // Phlegethon
-ItemDisplay[t22]: %NAME%%RED%+%WHITE%%MAP-62% // Torajan Jungle
-ItemDisplay[t23]: %NAME%%RED%+%WHITE%%MAP-62% // Throne of Insanity
+// Tier 1 Maps
+ItemDisplay[t11]: %NAME%%RED%+%WHITE%%MAP-80% // Ruins of Viz-jun
+ItemDisplay[t12]: %NAME%%RED%+%WHITE%%MAP-80% // Horazon's Memory
+ItemDisplay[t13]: %NAME%%RED%+%WHITE%%MAP-80% // Bastion Keep
+
+// Tier 2 Maps
+ItemDisplay[t21]: %NAME%%RED%+%WHITE%%MAP-A8% // Phlegethon
+ItemDisplay[t22]: %NAME%%RED%+%WHITE%%MAP-A8% // Torajan Jungle
+ItemDisplay[t23]: %NAME%%RED%+%WHITE%%MAP-A8% // Arreat Battlefield
+ItemDisplay[t24]: %NAME%%RED%+%WHITE%%MAP-A8% // Blood Moon
+
+// Tier 3 Maps
 ItemDisplay[t31]: %NAME%%RED%+%WHITE%%MAP-62% // River of Blood
-ItemDisplay[t32]: %NAME%%RED%+%WHITE%%MAP-62% // Arreat Battlefield
+ItemDisplay[t32]: %NAME%%RED%+%WHITE%%MAP-62% // Throne of Insanity
 ItemDisplay[t33]: %NAME%%RED%+%WHITE%%MAP-62% // Sewers of Harrogath
 ItemDisplay[t34]: %NAME%%RED%+%WHITE%%MAP-62% // Ancestral Trial
-ItemDisplay[t41]: %NAME%%RED%+%WHITE%%MAP-62% // Plains of Torment
-ItemDisplay[t42]: %NAME%%RED%+%WHITE%%MAP-62% // Desert
+ItemDisplay[t35]: %NAME%%RED%+%WHITE%%MAP-62% // Cathedral of Light
+ItemDisplay[t36]: %NAME%%RED%+%WHITE%%MAP-62% // Tomb of Zoltun Kulle
+
+// Tier 4 Maps
+ItemDisplay[t41]: %NAME%%RED%+%WHITE%%MAP-9B% // Plains of Torment
+ItemDisplay[t42]: %NAME%%RED%+%WHITE%%MAP-9B% // Desert
 
 // Diablo Clone Items
 ItemDisplay[dcho]: %RED%%NAME%%MAP-62% // Black Soulstone
 ItemDisplay[dcso]: %RED%%NAME%%MAP-62% // Prime Evil Soul
 ItemDisplay[dcbl]: %RED%%NAME%%MAP-62% // Pure Demonic Essence
 ItemDisplay[dcma]: %RED%%NAME%%MAP-62% // Vision of Terror
+ItemDisplay[UNI utb]: %NAME% // New DClone Unique Mirrored Boots
+ItemDisplay[UNI uld]: %NAME% // New DClone Unique Kraken Shell
+ItemDisplay[UNI 7bs]: %NAME% // New DClone Unique Conquest Sword
+ItemDisplay[UNI 7qr]: %NAME% // New DClone Unique Scissors Suwayyah
+ItemDisplay[UNI uh9]: %NAME% // New DClone Unique Bone Visage
 
 // Gems
 ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
