@@ -54,7 +54,7 @@ ItemDisplay[pk3]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Drops from Nihlathak
 ItemDisplay[mbr]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Mephisto's Brain
 ItemDisplay[dhn]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Diablo's Horn
 ItemDisplay[bey]: %ORANGE%%NAME%%WHITE% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Baal's Eye
-ItemDisplay[std]: %ORANGE%%NAME%%MAP-68%{%TAN%+20% Magic/Gold Find%NL%+10% Monster Rarity%NL%+20% Monster Density%NL%+10% Experience%NL%%ORANGE%Cube w/ a map to gain %RED%Heroic%ORANGE% bonus:} // Standard of Heroes
+ItemDisplay[std]: %ORANGE%%NAME%%MAP-68%{%TAN%+20% Magic/Gold Find%NL%+20% Monster Density%NL%+10% Experience%NL%%ORANGE%Cube w/ a map to gain%DARK_GREEN% Heroic%ORANGE% bonus:} // Standard of Heroes
 
 // Corruption Items -------------------------------------------------------------
 ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard x%QTY% %PURPLE%+%RED%%MAP-62%{%TAN%Unsock Item: 50% Mod, 25% Brick, 25% Sockets%NL%Sock Item: 75% Mod, 25% Brick%NL%Maps: 70% Mod, 30% CNC%NL%%ORANGE%Cube w/ item to corrupt} // Worldstone Shard
