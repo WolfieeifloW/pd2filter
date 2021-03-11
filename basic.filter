@@ -58,7 +58,7 @@ ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68% // Key of Destruction
 ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68% // Mephisto's Brain
 ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68% // Diablo's Horn
 ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68% // Baal's Eye
-ItemDisplay[std]: %ORANGE%%NAME%%MAP-68% // Standard of Heroes
+ItemDisplay[std]: %NAME%%MAP-68% // Standard of Heroes
 
 // Corruption Items
 ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard %PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
