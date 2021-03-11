@@ -58,6 +58,7 @@ ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68% // Key of Destruction
 ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68% // Mephisto's Brain
 ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68% // Diablo's Horn
 ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68% // Baal's Eye
+ItemDisplay[std]: %NAME%%MAP-68% // Standard of Heroes
 
 // Corruption Items
 ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard %PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
@@ -69,28 +70,48 @@ ItemDisplay[imra]: %NAME% // Imbue Rare Map (Zakarum Orb)
 ItemDisplay[upma]: %NAME% // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME% // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]: %NAME% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
+ItemDisplay[upmp]: %NAME% // Uptier Maps (Cube 3 maps of the same tier to get a map of the next tier) (Cartographer's Orb)
 
 // Maps
-ItemDisplay[t11]: %NAME%%RED%+%WHITE%%MAP-62% // Sewers of Harrogath Map
-ItemDisplay[t12]: %NAME%%RED%+%WHITE%%MAP-62% // Mesa Map
-ItemDisplay[t13]: %NAME%%RED%+%WHITE%%MAP-62% // Palace Map
-ItemDisplay[t14]: %NAME%%RED%+%WHITE%%MAP-62% // Ice Caves Map
-ItemDisplay[t15]: %NAME%%RED%+%WHITE%%MAP-62% // Horazons Memory Map
-ItemDisplay[t16]: %NAME%%RED%+%WHITE%%MAP-62% // Ruins of Viz-jun
-ItemDisplay[t17]: %NAME%%RED%+%WHITE%%MAP-62% // River of Blood
-ItemDisplay[t18]: %NAME%%RED%+%WHITE%%MAP-62% // Phlegethon Map
+// Tier 1 Maps
+ItemDisplay[t11]: %NAME%%RED%+%WHITE%%MAP-80% // Ruins of Viz-jun
+ItemDisplay[t12]: %NAME%%RED%+%WHITE%%MAP-80% // Horazon's Memory
+ItemDisplay[t13]: %NAME%%RED%+%WHITE%%MAP-80% // Bastion Keep
+
+// Tier 2 Maps
+ItemDisplay[t21]: %NAME%%RED%+%WHITE%%MAP-A8% // Phlegethon
+ItemDisplay[t22]: %NAME%%RED%+%WHITE%%MAP-A8% // Torajan Jungle
+ItemDisplay[t23]: %NAME%%RED%+%WHITE%%MAP-A8% // Arreat Battlefield
+ItemDisplay[t24]: %NAME%%RED%+%WHITE%%MAP-A8% // Blood Moon
+
+// Tier 3 Maps
+ItemDisplay[t31]: %NAME%%RED%+%WHITE%%MAP-62% // River of Blood
+ItemDisplay[t32]: %NAME%%RED%+%WHITE%%MAP-62% // Throne of Insanity
+ItemDisplay[t33]: %NAME%%RED%+%WHITE%%MAP-62% // Sewers of Harrogath
+ItemDisplay[t34]: %NAME%%RED%+%WHITE%%MAP-62% // Ancestral Trial
+ItemDisplay[t35]: %NAME%%RED%+%WHITE%%MAP-62% // Cathedral of Light
+ItemDisplay[t36]: %NAME%%RED%+%WHITE%%MAP-62% // Tomb of Zoltun Kulle
+
+// Tier 4 Maps
+ItemDisplay[t41]: %NAME%%RED%+%WHITE%%MAP-9B% // Plains of Torment
+ItemDisplay[t42]: %NAME%%RED%+%WHITE%%MAP-9B% // Desert
 
 // Diablo Clone Items
 ItemDisplay[dcho]: %RED%%NAME%%MAP-62% // Black Soulstone
 ItemDisplay[dcso]: %RED%%NAME%%MAP-62% // Prime Evil Soul
 ItemDisplay[dcbl]: %RED%%NAME%%MAP-62% // Pure Demonic Essence
 ItemDisplay[dcma]: %RED%%NAME%%MAP-62% // Vision of Terror
+ItemDisplay[UNI !ID utb]: %NAME%%MAP-A5% // New DClone Unique Mirrored Boots
+ItemDisplay[UNI !ID uld]: %NAME%%MAP-A5% // New DClone Unique Kraken Shell
+ItemDisplay[UNI !ID 7bs]: %NAME%%MAP-A5% // New DClone Unique Conquest Sword
+ItemDisplay[UNI !ID 7qr]: %NAME%%MAP-A5% // New DClone Unique Scissors Suwayyah
+ItemDisplay[UNI !ID uh9]: %NAME%%MAP-A5% // New DClone Unique Bone Visage
 
 // Gems
 ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
 ItemDisplay[GEM=2 DIFF>0]: // Hide all Flawed gems past Normal difficulty
 ItemDisplay[GEM=3 DIFF>1]: // Hide all Normal gems past Nightmare difficulty
-//ItemDisplay[GEM>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // [Not working right now as I'm not using %NAME% in the gems] Shows the quantity of gems for stacking purposes
+
 ItemDisplay[gcv]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst%WHITE% // Chipped Amethyst
 ItemDisplay[gfv]: %PURPLE%+%WHITE%Flawed %PURPLE%Amethyst%WHITE% // Flawed Amethyst
 ItemDisplay[gsv]: %PURPLE%+%PURPLE%Amethyst%WHITE% // Amethyst ("Normal")
@@ -188,22 +209,28 @@ ItemDisplay[CRAFT ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphir
 ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 
 // Crafted Amulets
-ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 92+}
-ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 92+}
-ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 90+}
-ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 90+}
-ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 88+}
-ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 88+}
-ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 86+}
-ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 86+}
-ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
-ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 84+}
-ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
-ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%DOT-68%{%TAN%Craft at character level 82+}
+ItemDisplay[MAG amu ILVL=82]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 98+}
+ItemDisplay[MAG amu ILVL=83]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 98+}
+ItemDisplay[MAG amu ILVL=84]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 96+}
+ItemDisplay[MAG amu ILVL=85]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 96+}
+ItemDisplay[MAG amu ILVL=86]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 94+}
+ItemDisplay[MAG amu ILVL=87]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 94+}
+ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 92+}
+ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 92+}
+ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 90+}
+ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 90+}
+ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 88+}
+ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 88+}
+ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 86+}
+ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 86+}
+ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 84+}
+ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 84+}
+ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 82+}
+ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 82+}
 
 // Magic Items
 // Amulets
-ItemDisplay[MAG !ID amu]: %NAME%%DOT-97% // All unidentified amulets
+ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
 
 // Charms
 ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
@@ -223,7 +250,7 @@ ItemDisplay[GOLD<3000 CLVL>69]: // Hide 3000 gold and less if level 70+
 ItemDisplay[GOLD<5000 CLVL>79]: // Hide 5000 gold and less if level 80+
 
 // Keys
-//ItemDisplay[key]: %NAME%%DOT-97% // Consider uncommenting for Lower Kurast Runs
+//ItemDisplay[key]: %NAME% // Consider uncommenting for Lower Kurast Runs
 
 // Potions
 // Health Potions
