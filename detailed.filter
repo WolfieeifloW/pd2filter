@@ -201,6 +201,7 @@ ItemDisplay[pk3]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Drops from Nihlathak & Izua
 ItemDisplay[mbr]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Mephisto's Brain
 ItemDisplay[dhn]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Diablo's Horn
 ItemDisplay[bey]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL%Cube any 3 organs in%NL%} // Baal's Eye
+ItemDisplay[std]: %NAME% x%QTY%%MAP-68%{%TAN%+20% Magic/Gold Find%NL%+20% Monster Density%NL%+10% Experience%NL%%ORANGE%Cube w/ a map to gain%DARK_GREEN% Heroic%ORANGE% bonus:} // Standard of Heroes
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -210,8 +211,8 @@ ItemDisplay[bey]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Act 5 to open Uber Trist%NL
 // ------------------------------------------------------------------------------
 // [CORR] Corruption Items
 // ------------------------------------------------------------------------------
-ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard x%QTY% %PURPLE%+%RED%%MAP-62% // Worldstone Shard
-ItemDisplay[lbox]: %PURPLE%+ %RED%Larzuks Puzzlebox x%QTY% %PURPLE%+%RED%%MAP-62% // Larzuk's Box
+ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard x%QTY% %PURPLE%+%RED%%MAP-62%{%TAN%Unsock Item: 50% Mod, 25% Brick, 25% Sockets%NL%Sock Item: 75% Mod, 25% Brick%NL%Maps: 70% Mod, 30% CNC%NL%%ORANGE%Cube w/ item to corrupt} // Worldstone Shard
+ItemDisplay[lbox]: %PURPLE%+ %RED%Larzuks Puzzlebox x%QTY% %PURPLE%+%RED%%MAP-62%{%TAN%Armors: 0-2%NL%2H Weapons: 0-4%NL%1H Weapons: 0-2%NL%Amazon Weapons: 0-6%NL%Bows: 0-6%NL%%ORANGE%Cube w/ unsocketed item to roll sockets} // Larzuk's Box
 
 // ------------------------------------------------------------------------------
 // [MAPI] Map Items
@@ -221,34 +222,56 @@ ItemDisplay[imra]: %NAME% x%QTY%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, 
 ItemDisplay[upma]: %NAME% x%QTY%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic to Rare} // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME% x%QTY%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map} // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]: %NAME% x%QTY%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
+ItemDisplay[upmp]: %NAME% x%QTY%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps} // Cartographer's Orb
 
 // ------------------------------------------------------------------------------
 // [MAPS] Maps
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
-ItemDisplay[MAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
-ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
+// Coloring maps names
+ItemDisplay[NMAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
+ItemDisplay[MAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
+ItemDisplay[RARE (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
 
-ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun [T1]
-ItemDisplay[t18]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T2]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon Map [T2]
-ItemDisplay[t17]: %YELLOW%+ %NAME% %YELLOW%[T3]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood [T3]
-ItemDisplay[t11]: %YELLOW%+ %NAME% %YELLOW%[T4]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath Map [T?]
-ItemDisplay[t12]: %RED%+ %NAME% %RED%[T5]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Mesa Map [T?]
-ItemDisplay[t13]: %RED%+ %NAME% %RED%[T6]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Palace Map [T?]
-ItemDisplay[t14]: %PURPLE%+ %NAME% %PURPLE%[T7]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ice Caves Map [T?]
-ItemDisplay[t15]: %PURPLE%+ %NAME% %PURPLE%[T8]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazons Memory Map [T?]
+// Tier 1 Maps
+ItemDisplay[t11]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun [T1]
+ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazon's Memory [T1]
+ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Bastion Keep [T1]
 
-ItemDisplay[NMAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %NAME%%WHITE% // Coloring white maps
-ItemDisplay[MAG (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %NAME%%BLUE% // Coloring magic maps
-ItemDisplay[RARE (t16 OR t18 OR t17 OR t11 OR t12 OR t13 OR t14 OR t15)]: %NAME%%YELLOW% // Coloring rare maps
+// Tier 2 Maps
+ItemDisplay[t21]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon [T2]
+ItemDisplay[t22]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Torajan Jungle [T2]
+ItemDisplay[t23]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Arreat Battlefield [T2]
+ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Blood Moon [T2]
+
+// Tier 3 Maps
+ItemDisplay[t31]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood [T3]
+ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Throne of Insanity [T3]
+ItemDisplay[t33]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath [T3]
+ItemDisplay[t34]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ancestral Trial [T3]
+ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Cathedral of Light [T3]
+ItemDisplay[t36]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Tomb of Zoltun Kulle [T3]
+
+// Tier 4 Maps
+ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Plains of Torment [T4]
+ItemDisplay[t42]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Desert [T4]
+
+// Coloring maps names
+ItemDisplay[NMAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
+ItemDisplay[MAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
+ItemDisplay[RARE (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
 
 // ------------------------------------------------------------------------------
 // [DCLO] Diablo Clone Items
 // ------------------------------------------------------------------------------
-ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone x%QTY% %PURPLE%+%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
-ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul x%QTY% %PURPLE%+%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
-ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence x%QTY% %PURPLE%+%MAP-62%{%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
+ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from Uber Trist bosses%NL%%NL%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
+ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from Hell Diablo & Baal%NL%%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
+ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from map bosses%NL%%NL%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
 ItemDisplay[dcma]: %PURPLE%+ %RED%Vision of Terror %PURPLE%+%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
+ItemDisplay[UNI !ID utb]: %NAME%%MAP-A5% // New DClone Unique Mirrored Boots
+ItemDisplay[UNI !ID uld]: %NAME%%MAP-A5% // New DClone Unique Kraken Shell
+ItemDisplay[UNI !ID 7bs]: %NAME%%MAP-A5% // New DClone Unique Conquest Sword
+ItemDisplay[UNI !ID 7qr]: %NAME%%MAP-A5% // New DClone Unique Scissors Suwayyah
+ItemDisplay[UNI !ID uh9]: %NAME%%MAP-A5% // New DClone Unique Bone Visage
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -396,7 +419,7 @@ ItemDisplay[r12s]: %NAME%{%TAN%3 Sol + Key = Shael%NL%%NL%%WHITE%Shields: Damage
 ItemDisplay[r13]: %NAME%{%TAN%3 Shael + Key = Dol%NL%} // Shael Rune
 ItemDisplay[r13s]: %NAME%{%TAN%3 Shael + Key = Dol%NL%%NL%%WHITE%Shields: 20% Faster Block Rate%NL%Armor/Helms: 20% Faster Hit Recovery%NL%Weapons: +20% Attack Speed%NL%} // Stacked Shael Rune
 ItemDisplay[r14]: %NAME%{%TAN%3 Dol + Key = Hel%NL%} // Dol Rune
-ItemDisplay[r14s]: %NAME%{%TAN%3 Dol + Key = Hel%NL%%NL%%WHITE%Shields: Replenish Life +10%NL%Armor/Helms: Replenish Life +10%NL%Weapons: Replenish Life +15%NL%} // Stacked Dol Rune
+ItemDisplay[r14s]: %NAME%{%TAN%3 Dol + Key = Hel%NL%%NL%%WHITE%Shields: Replenish Life +10%NL%Armor/Helms: Replenish Life +10%NL%Weapons: +25% Enhanced Damage%NL%} // Stacked Dol Rune
 ItemDisplay[r15]: %NAME%{%TAN%3 Hel + Key = Io%NL%} // Hel Rune
 ItemDisplay[r15s]: %NAME%{%TAN%3 Hel + Key = Io%NL%%NL%%WHITE%Shields: Requirements -15%%NL%Armor/Helms: Requirements -15%%NL%Weapons: Requirements -20%%NL%} // Stacked Hel Rune
 ItemDisplay[r16]: %NAME%{%TAN%3 Io + Key = Lum%NL%} // Io Rune
@@ -437,8 +460,8 @@ ItemDisplay[r31]: %NAME%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
 ItemDisplay[r31s]: %NAME%{%TAN%2 Jah + Key = Cham%NL%%NL%%WHITE%Shields: +50 Life%NL%Armor/Helms: Increase Maximum Life 5%%NL%Weapons: Ignore Targets Defense%NL%} // Stacked Jah Rune
 ItemDisplay[r32]: %NAME%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
 ItemDisplay[r32s]: %NAME%{%TAN%2 Cham + Key = Zod%NL%%NL%%WHITE%Shields: Cannot be Frozen%NL%Armor/Helms: Cannot be Frozen%NL%Weapons: Freezes Target +3%NL%} // Stacked Cham Rune
-ItemDisplay[r33]: %NAME% // Zod Rune
-ItemDisplay[r33s]: %NAME%{%TAN%this bad boy can fit so many freaking els%NL%%ORANGE%Wolfie: %TAN%*slaps rune*%NL%%NL%%WHITE%All Sockets: Indestructible%NL%} // Stacked Zod Rune
+ItemDisplay[r33]: %NAME%{%TAN%Cube w/ Perfect Skull + item to fully repair item} // Zod Rune
+ItemDisplay[r33s]: %NAME%{%TAN%Cube w/ Perfect Skull + item to fully repair item%NL%%NL%%WHITE%All Sockets: Indestructible%NL%} // Stacked Zod Rune
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -2715,27 +2738,29 @@ ItemDisplay[CRAFT ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%
 ItemDisplay[CRAFT ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 
+// PLEASE NOTE: None of these crafting bases have a notification on them. If you wish to be notified please add "%MAP-97%" (without quotes) after "%BLUE%"
+// For example if you wanted an Amulet to notify you would change "%ORANGE%[C]%BLUE%{" to "%ORANGE%[C]%BLUE%%MAP-97%{"
 // ------------------------------------------------------------------------------
 //    [CMAM] Amulets
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG amu ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 98+}
-ItemDisplay[MAG amu ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 98+}
-ItemDisplay[MAG amu ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 96+}
-ItemDisplay[MAG amu ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 96+}
-ItemDisplay[MAG amu ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 94+}
-ItemDisplay[MAG amu ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 94+}
-ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 92+}
-ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 92+}
-ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 90+}
-ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 90+}
-ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 88+}
-ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 88+}
-ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 86+}
-ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 86+}
-ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 84+}
-ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 84+}
-ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 82+}
-ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 82+}
+ItemDisplay[MAG amu ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG amu ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG amu ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG amu ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG amu ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG amu ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
 
 // ------------------------------------------------------------------------------
 //    [CMCH] Charms
@@ -2745,32 +2770,32 @@ ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character l
 // ------------------------------------------------------------------------------
 //    [CMRI] Rings
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG rin ILVL=74]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 98+}
-ItemDisplay[MAG rin ILVL=75]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 98+}
-ItemDisplay[MAG rin ILVL=76]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 96+}
-ItemDisplay[MAG rin ILVL=77]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 96+}
-ItemDisplay[MAG rin ILVL=78]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 94+}
-ItemDisplay[MAG rin ILVL=79]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 94+}
-ItemDisplay[MAG rin ILVL=80]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 92+}
-ItemDisplay[MAG rin ILVL=81]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 92+}
-ItemDisplay[MAG rin ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 90+}
-ItemDisplay[MAG rin ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 90+}
-ItemDisplay[MAG rin ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 88+}
-ItemDisplay[MAG rin ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 88+}
-ItemDisplay[MAG rin ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 86+}
-ItemDisplay[MAG rin ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 86+}
-ItemDisplay[MAG rin ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 84+}
-ItemDisplay[MAG rin ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 84+}
-ItemDisplay[MAG rin ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 82+}
-ItemDisplay[MAG rin ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 82+}
-ItemDisplay[MAG rin ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 80+}
-ItemDisplay[MAG rin ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 80+}
-ItemDisplay[MAG rin ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 78+}
-ItemDisplay[MAG rin ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 78+}
-ItemDisplay[MAG rin ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 76+}
-ItemDisplay[MAG rin ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 76+}
-ItemDisplay[MAG rin ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 74+}
-ItemDisplay[MAG rin ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character level 74+}
+ItemDisplay[MAG rin ILVL=74]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG rin ILVL=75]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG rin ILVL=76]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG rin ILVL=77]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG rin ILVL=78]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG rin ILVL=79]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG rin ILVL=80]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG rin ILVL=81]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG rin ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG rin ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG rin ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG rin ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG rin ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG rin ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG rin ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG rin ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG rin ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG rin ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG rin ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 80+}
+ItemDisplay[MAG rin ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 80+}
+ItemDisplay[MAG rin ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 78+}
+ItemDisplay[MAG rin ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 78+}
+ItemDisplay[MAG rin ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 76+}
+ItemDisplay[MAG rin ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 76+}
+ItemDisplay[MAG rin ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 74+}
+ItemDisplay[MAG rin ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 74+}
 
 // ------------------------------------------------------------------------------
 // [CIOT] Crafted Items Other
@@ -2778,138 +2803,139 @@ ItemDisplay[MAG rin ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%TAN%Craft at character l
 // ------------------------------------------------------------------------------
 //    [COBA] Barbarian Helm
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 BAR]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel:} // Any Barbarian Helm
+ItemDisplay[MAG ILVL>71 BAR]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Barbarian Helm
 
 // ------------------------------------------------------------------------------
 //    [CODR] Druid Helm
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 DRU]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel:} // Any Druid Helm
+ItemDisplay[MAG ILVL>71 DRU]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Druid Helm
 
 // ------------------------------------------------------------------------------
 //    [CONE] Necromancer Heads
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 NEC]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel:} // Any Necromancer Head
+ItemDisplay[MAG ILVL>71 NEC]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Necromancer Head
 
 // ------------------------------------------------------------------------------
 //    [COPA] Paladin Shields
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 PAL]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel:} // Any Paladin Shield
+ItemDisplay[MAG ILVL>71 DIN]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Paladin Shield
 
 // ------------------------------------------------------------------------------
 //    [COAR] Armor
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 CHEST]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Eth%NL%%BLUE%Hit Power:%TAN% P Saph + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%RED%Blood:%TAN% P Ruby + Thul%NL%%ORANGE%Craft w/ Jewel:} // Any Armor
+ItemDisplay[MAG ILVL>71 CHEST (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Armor
 
 // ------------------------------------------------------------------------------
 //    [COBE] Belt
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 BELT]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Tal%NL%%BLUE%Hit Power:%TAN% P Saph + Tal%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Belt
+ItemDisplay[MAG ILVL>71 BELT (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ith%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Belt
 
 // ------------------------------------------------------------------------------
 //    [COBO] Boots
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ort%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Boots
+//ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ort%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Boots
 
 // ------------------------------------------------------------------------------
 //    [COGL] Gloves
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ral%NL%%BLUE%Hit Power:%TAN% P Saph + Ort%NL%%PURPLE%Caster:%TAN% P Ame + Ort%NL%%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
+ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Ort%NL%%PURPLE%Caster:%TAN% P Ame + Ort%NL%%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
 
 // ------------------------------------------------------------------------------
 //    [COHE] Helm
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 HELM !BAR !DRU]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel:} // Any Helm
+ItemDisplay[MAG ILVL>71 HELM !BAR !DRU (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Helm
 
 // ------------------------------------------------------------------------------
 //    [COSH] Shield
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 SHIELD !DIN !NEC]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel:} // Any Shield
+ItemDisplay[MAG ILVL>71 SHIELD !DIN !NEC (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Shield
 
 // ------------------------------------------------------------------------------
 //    [COWE] Weapon
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Weapon
+//ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Weapon
 
 // ------------------------------------------------------------------------------
 //       [CWAM] Amazon
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
-ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
+ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
+ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
+ItemDisplay[MAG ILVL>71 ZON BOW]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Amazon Bow
 
 // ------------------------------------------------------------------------------
 //       [CWAS] Assassin
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
+ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
 
 // ------------------------------------------------------------------------------
 //       [CWSO] Sorceress
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
+ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Tir%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
 
 // ------------------------------------------------------------------------------
 //       [CWAX] Axes
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 ETH (wax OR 9wa OR 7wa)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
+ItemDisplay[MAG ILVL>71 ETH (9wa OR 7wa)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
 
 // ------------------------------------------------------------------------------
 //       [CWBO] Bows
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 (hbw OR 8hb OR 6hb OR cbw OR 8cb OR 6cb OR lwb OR 8lw OR 6lw)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Bows
+ItemDisplay[MAG ILVL>71 (8hb OR 6hb OR 8cb OR 6cb OR 8lw OR 6lw)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Bows
 
 // ------------------------------------------------------------------------------
 //       [CWCR] Crossbows
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 XBOW]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // All Crossbows
+ItemDisplay[MAG ILVL>71 XBOW (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Crossbow
 
 // ------------------------------------------------------------------------------
 //       [CWDA] Daggers
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL>71 ETH DAGGER]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Daggers
+ItemDisplay[MAG ILVL>71 ETH DAGGER (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Dagger
 
 // ------------------------------------------------------------------------------
 //       [CWJA] Javelins
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 ETH (glv OR 9gl OR 7gl OR tsp OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
+ItemDisplay[MAG ILVL>71 ETH (9gl OR 7gl OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
 
 // ------------------------------------------------------------------------------
 //       [CWMA] Maces
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 ETH (fla OR 9fl OR 7fl OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Maces
+ItemDisplay[MAG ILVL>71 ETH (9fl OR 7fl OR 9m9 OR 7m7 OR 9gm OR 7gm)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Maces
 
 // ------------------------------------------------------------------------------
 //       [CWPO] Polearms
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 ETH (vou OR 9vo OR 7vo OR scy OR 9s8 OR 7s8 OR pax OR 9pa OR 7pa OR hal OR 9h9 OR 7h7 OR wsc OR 9wc OR 7wc)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
+ItemDisplay[MAG ILVL>71 ETH (9vo OR 7vo OR 9s8 OR 7s8 OR 9pa OR 7pa OR 9h9 OR 7h7 OR 9wc OR 7wc)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
 
 // ------------------------------------------------------------------------------
 //       [CWSC] Scepters
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Scepters
+ItemDisplay[MAG ILVL>71 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Scepters
 
 // ------------------------------------------------------------------------------
 //       [CWSP] Spears
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 ETH (brn OR 9br OR 7br OR spt OR 9st OR 7st OR pik OR 9p9 OR 7p7)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
+ItemDisplay[MAG ILVL>71 ETH (9br OR 7br OR 9st OR 7st OR 9p9 OR 7p7)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
 
 // ------------------------------------------------------------------------------
 //       [CWST] Staves
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 ETH (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Staves
+ItemDisplay[MAG ILVL>71 ETH (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Staves
 
 // ------------------------------------------------------------------------------
 //       [CWSW] Swords
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 ETH (crs OR 9cr OR 7cr OR lsd OR 9ls OR 7ls OR gis OR 9gs OR 7gs OR flb OR 9fb OR 7fb OR gsd OR 9gd OR 7gd)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
+ItemDisplay[MAG ILVL>71 ETH (crs OR 9cr OR 7cr OR 9ls OR 7ls OR 9gs OR 7gs OR 9fb OR 7fb OR 9gd OR 7gd)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
 
 // ------------------------------------------------------------------------------
 //       [CWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Throwing Weapons
+ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON) (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Throwing Weapon
 
 // ------------------------------------------------------------------------------
 //       [CWWA] Wands
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
+ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Tir%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -2924,7 +2950,7 @@ ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR
 // ------------------------------------------------------------------------------
 //      [MMAM] Amulets
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID amu]: %NAME%%DOT-97% // All unidentified amulets
+ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
 
 // ------------------------------------------------------------------------------
 //      [MMCH] Charms
@@ -2961,84 +2987,84 @@ ItemDisplay[MAG !ID rin]: %NAME% // All unidentified rings
 //     [MCAM] Amazon
 // ------------------------------------------------------------------------------
 // All Amazon weapons
-//ItemDisplay[MAG !ID ZON]: %NAME%%MAP-97% // All Amazon weapons
+//ItemDisplay[MAG !ID ZON]: %NAME% // All Amazon weapons
 ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME%%MAP-97% // Javelins for 6/40
-//ItemDisplay[MAG !ID NORM ZON]: %NAME%%MAP-97% // All Normal tier Amazon weapons
-//ItemDisplay[MAG !ID EXC ZON]: %NAME%%MAP-97% // All Exceptional tier Amazon weapons
-//ItemDisplay[MAG !ID ELT ZON]: %NAME%%MAP-97% // All Elite tier Amazon weapons
+//ItemDisplay[MAG !ID NORM ZON]: %NAME% // All Normal tier Amazon weapons
+//ItemDisplay[MAG !ID EXC ZON]: %NAME% // All Exceptional tier Amazon weapons
+//ItemDisplay[MAG !ID ELT ZON]: %NAME% // All Elite tier Amazon weapons
 
 // Amazon Bows
 //      Normal tier Amazon Bows
-//ItemDisplay[MAG !ID am1]: %NAME%%MAP-97% // Stag Bow
-//ItemDisplay[MAG !ID am2]: %NAME%%MAP-97% // Reflex Bow
+//ItemDisplay[MAG !ID am1]: %NAME% // Stag Bow
+//ItemDisplay[MAG !ID am2]: %NAME% // Reflex Bow
 
 //      Exceptional tier Amazon Bows
-//ItemDisplay[MAG !ID am6]: %NAME%%MAP-97% // Ashwood Bow
-//ItemDisplay[MAG !ID am7]: %NAME%%MAP-97% // Ceremonial Bow
+//ItemDisplay[MAG !ID am6]: %NAME% // Ashwood Bow
+//ItemDisplay[MAG !ID am7]: %NAME% // Ceremonial Bow
 
 //      Elite tier Amazon Bows
-//ItemDisplay[MAG !ID amb]: %NAME%%MAP-97% // Matriarchal Bow
-//ItemDisplay[MAG !ID amc]: %NAME%%MAP-97% // Grand Matron Bow
+//ItemDisplay[MAG !ID amb]: %NAME% // Matriarchal Bow
+//ItemDisplay[MAG !ID amc]: %NAME% // Grand Matron Bow
 
 // Amazon Spears
 //      Normal tier Amazon Spears
-//ItemDisplay[MAG !ID am3]: %NAME%%MAP-97% // Maiden Spear
-//ItemDisplay[MAG !ID am4]: %NAME%%MAP-97% // Maiden Pike
+//ItemDisplay[MAG !ID am3]: %NAME% // Maiden Spear
+//ItemDisplay[MAG !ID am4]: %NAME% // Maiden Pike
 
 //      Exceptional tier Amazon Spears
-//ItemDisplay[MAG !ID am8]: %NAME%%MAP-97% // Ceremonial Spear
-//ItemDisplay[MAG !ID am9]: %NAME%%MAP-97% // Ceremonial Pike
+//ItemDisplay[MAG !ID am8]: %NAME% // Ceremonial Spear
+//ItemDisplay[MAG !ID am9]: %NAME% // Ceremonial Pike
 
 //      Elite tier Amazon Spears
-//ItemDisplay[MAG !ID amd]: %NAME%%MAP-97% // Matriarchal Spear
-//ItemDisplay[MAG !ID ame]: %NAME%%MAP-97% // Matriarchal Pike
+//ItemDisplay[MAG !ID amd]: %NAME% // Matriarchal Spear
+//ItemDisplay[MAG !ID ame]: %NAME% // Matriarchal Pike
 
 // Amazon Javelins
 //      Normal tier Amazon Javelins
-//ItemDisplay[MAG !ID am5]: %NAME%%MAP-97% // Maiden Javelin
+//ItemDisplay[MAG !ID am5]: %NAME% // Maiden Javelin
 
 //      Exceptional tier Amazon Javelins
-//ItemDisplay[MAG !ID ama]: %NAME%%MAP-97% // Ceremonial Javelin
+//ItemDisplay[MAG !ID ama]: %NAME% // Ceremonial Javelin
 
 //      Elite tier Amazon Javelins
-//ItemDisplay[MAG !ID amf]: %NAME%%MAP-97% // Matriarchal Javelin
+//ItemDisplay[MAG !ID amf]: %NAME% // Matriarchal Javelin
 
 // ------------------------------------------------------------------------------
 //     [MCAS] Assassin
 // ------------------------------------------------------------------------------
 // All Katars
-//ItemDisplay[MAG !ID SIN]: %NAME%%MAP-97% // All Assassin Katars
-ItemDisplay[MAG !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr)]: %NAME%%MAP-97% // Assassin Katars, best Katars
-//ItemDisplay[MAG !ID NORM SIN]: %NAME%%MAP-97% // All Normal tier Assassin Katars
-//ItemDisplay[MAG !ID EXC SIN]: %NAME%%MAP-97% // All Exceptional tier Assassin Katars
-//ItemDisplay[MAG !ID ELT SIN]: %NAME%%MAP-97% // All Elite tier Assassin Katars
+//ItemDisplay[MAG !ID SIN]: %NAME% // All Assassin Katars
+ItemDisplay[MAG !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr)]: %NAME% // Assassin Katars, best Katars
+//ItemDisplay[MAG !ID NORM SIN]: %NAME% // All Normal tier Assassin Katars
+//ItemDisplay[MAG !ID EXC SIN]: %NAME% // All Exceptional tier Assassin Katars
+//ItemDisplay[MAG !ID ELT SIN]: %NAME% // All Elite tier Assassin Katars
 
 // Normal tier Katars
-//ItemDisplay[MAG !ID ktr]: %NAME%%MAP-97% // Katar
-//ItemDisplay[MAG !ID wrb]: %NAME%%MAP-97% // Wrist Blade
-//ItemDisplay[MAG !ID axf]: %NAME%%MAP-97% // Hatchet Hands
-//ItemDisplay[MAG !ID ces]: %NAME%%MAP-97% // Cestus
-//ItemDisplay[MAG !ID clw]: %NAME%%MAP-97% // Claws
-//ItemDisplay[MAG !ID btl]: %NAME%%MAP-97% // Blade Talons
-//ItemDisplay[MAG !ID skr]: %NAME%%MAP-97% // Scissors Katar
+//ItemDisplay[MAG !ID ktr]: %NAME% // Katar
+//ItemDisplay[MAG !ID wrb]: %NAME% // Wrist Blade
+//ItemDisplay[MAG !ID axf]: %NAME% // Hatchet Hands
+//ItemDisplay[MAG !ID ces]: %NAME% // Cestus
+//ItemDisplay[MAG !ID clw]: %NAME% // Claws
+//ItemDisplay[MAG !ID btl]: %NAME% // Blade Talons
+//ItemDisplay[MAG !ID skr]: %NAME% // Scissors Katar
 
 // Exceptional tier Katars
-//ItemDisplay[MAG !ID 9ar]: %NAME%%MAP-97% // Quhab
-//ItemDisplay[MAG !ID 9wb]: %NAME%%MAP-97% // Wrist Spike
-//ItemDisplay[MAG !ID 9xf]: %NAME%%MAP-97% // Fascia
-//ItemDisplay[MAG !ID 9cs]: %NAME%%MAP-97% // Hand Scythe, best skills
-//ItemDisplay[MAG !ID 9lw]: %NAME%%MAP-97% // Greater Claws, best skills
-//ItemDisplay[MAG !ID 9tw]: %NAME%%MAP-97% // Greater Talons, best skills
-//ItemDisplay[MAG !ID 9qr]: %NAME%%MAP-97% // Scissors Quhab, best skills
+//ItemDisplay[MAG !ID 9ar]: %NAME% // Quhab
+//ItemDisplay[MAG !ID 9wb]: %NAME% // Wrist Spike
+//ItemDisplay[MAG !ID 9xf]: %NAME% // Fascia
+//ItemDisplay[MAG !ID 9cs]: %NAME% // Hand Scythe, best skills
+//ItemDisplay[MAG !ID 9lw]: %NAME% // Greater Claws, best skills
+//ItemDisplay[MAG !ID 9tw]: %NAME% // Greater Talons, best skills
+//ItemDisplay[MAG !ID 9qr]: %NAME% // Scissors Quhab, best skills
 
 // Elite tier Katars
-//ItemDisplay[MAG !ID 7ar]: %NAME%%MAP-97% // Suwayyah, best skills
-//ItemDisplay[MAG !ID 7wb]: %NAME%%MAP-97% // Wrist Sword, best skills
-//ItemDisplay[MAG !ID 7xf]: %NAME%%MAP-97% // War Fist, best skills
-//ItemDisplay[MAG !ID 7cs]: %NAME%%MAP-97% // Battle Cestus, best skills
-//ItemDisplay[MAG !ID 7lw]: %NAME%%MAP-97% // Feral Claws, best skills
-//ItemDisplay[MAG !ID 7tw]: %NAME%%MAP-97% // Runic Talons, best skills
-//ItemDisplay[MAG !ID 7qr]: %NAME%%MAP-97% // Scissors Suwayyah, best skills
+//ItemDisplay[MAG !ID 7ar]: %NAME% // Suwayyah, best skills
+//ItemDisplay[MAG !ID 7wb]: %NAME% // Wrist Sword, best skills
+//ItemDisplay[MAG !ID 7xf]: %NAME% // War Fist, best skills
+//ItemDisplay[MAG !ID 7cs]: %NAME% // Battle Cestus, best skills
+//ItemDisplay[MAG !ID 7lw]: %NAME% // Feral Claws, best skills
+//ItemDisplay[MAG !ID 7tw]: %NAME% // Runic Talons, best skills
+//ItemDisplay[MAG !ID 7qr]: %NAME% // Scissors Suwayyah, best skills
 
 // Martial Arts
 //ItemDisplay[MAG SK254>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Tiger Strike
@@ -3081,32 +3107,32 @@ ItemDisplay[MAG SK366>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Lig
 //     [MCBA] Barbarian
 // ------------------------------------------------------------------------------
 // All Barbarian helmets
-ItemDisplay[MAG !ID BAR]: %NAME%%MAP-97% // All Barbarian helmets
-//ItemDisplay[MAG !ID NORM BAR]: %NAME%%MAP-97% // All Normal tier Barbarian helmets
-//ItemDisplay[MAG !ID EXC BAR]: %NAME%%MAP-97% // All Exceptional tier Barbarian helmets
-//ItemDisplay[MAG !ID ELT BAR]: %NAME%%MAP-97% // All Elite tier Barbarian helmets
-//ItemDisplay[MAG !ID BAR ILVL>49]: %NAME%%MAP-97% // Possible Whale Barbarian Helmet
+ItemDisplay[MAG !ID BAR]: %NAME% // All Barbarian helmets
+//ItemDisplay[MAG !ID NORM BAR]: %NAME% // All Normal tier Barbarian helmets
+//ItemDisplay[MAG !ID EXC BAR]: %NAME% // All Exceptional tier Barbarian helmets
+//ItemDisplay[MAG !ID ELT BAR]: %NAME% // All Elite tier Barbarian helmets
+//ItemDisplay[MAG !ID BAR ILVL>49]: %NAME% // Possible Whale Barbarian Helmet
 
 // Normal tier Barbarian helmets
-//ItemDisplay[MAG !ID ba1]: %NAME%%MAP-97% // Jawbone Cap
-//ItemDisplay[MAG !ID ba2]: %NAME%%MAP-97% // Fanged Helm
-//ItemDisplay[MAG !ID ba3]: %NAME%%MAP-97% // Horned Helm
-//ItemDisplay[MAG !ID ba4]: %NAME%%MAP-97% // Assault Helmet
-//ItemDisplay[MAG !ID ba5]: %NAME%%MAP-97% // Avenger Guard
+//ItemDisplay[MAG !ID ba1]: %NAME% // Jawbone Cap
+//ItemDisplay[MAG !ID ba2]: %NAME% // Fanged Helm
+//ItemDisplay[MAG !ID ba3]: %NAME% // Horned Helm
+//ItemDisplay[MAG !ID ba4]: %NAME% // Assault Helmet
+//ItemDisplay[MAG !ID ba5]: %NAME% // Avenger Guard
 
 // Exceptional tier Barbarian helmets
-//ItemDisplay[MAG !ID ba6]: %NAME%%MAP-97% // Jawbone Visor
-//ItemDisplay[MAG !ID ba7]: %NAME%%MAP-97% // Lion Helm
-//ItemDisplay[MAG !ID ba8]: %NAME%%MAP-97% // Rage Mask
-//ItemDisplay[MAG !ID ba9]: %NAME%%MAP-97% // Savage Helmet
-//ItemDisplay[MAG !ID baa]: %NAME%%MAP-97% // Slayer Guard
+//ItemDisplay[MAG !ID ba6]: %NAME% // Jawbone Visor
+//ItemDisplay[MAG !ID ba7]: %NAME% // Lion Helm
+//ItemDisplay[MAG !ID ba8]: %NAME% // Rage Mask
+//ItemDisplay[MAG !ID ba9]: %NAME% // Savage Helmet
+//ItemDisplay[MAG !ID baa]: %NAME% // Slayer Guard
 
 // Elite tier Barbarian helmets
-//ItemDisplay[MAG !ID bab]: %NAME%%MAP-97% // Carnage Helm
-//ItemDisplay[MAG !ID bac]: %NAME%%MAP-97% // Fury Visor
-//ItemDisplay[MAG !ID bad]: %NAME%%MAP-97% // Destroyer Helm
-//ItemDisplay[MAG !ID bae]: %NAME%%MAP-97% // Conqueror Crown
-//ItemDisplay[MAG !ID baf]: %NAME%%MAP-97% // Guardian Crown
+//ItemDisplay[MAG !ID bab]: %NAME% // Carnage Helm
+//ItemDisplay[MAG !ID bac]: %NAME% // Fury Visor
+//ItemDisplay[MAG !ID bad]: %NAME% // Destroyer Helm
+//ItemDisplay[MAG !ID bae]: %NAME% // Conqueror Crown
+//ItemDisplay[MAG !ID baf]: %NAME% // Guardian Crown
 
 // Warcries
 //ItemDisplay[MAG SK130>2 BAR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Howl
@@ -3136,31 +3162,31 @@ ItemDisplay[MAG SK152>2 BAR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Ber
 //     [MCDR] Druid
 // ------------------------------------------------------------------------------
 // All Pelts
-ItemDisplay[MAG !ID DRU]: %NAME%%MAP-97% // All Pelts
-//ItemDisplay[MAG !ID NORM DRU]: %NAME%%MAP-97% // All Normal tier Pelts
-//ItemDisplay[MAG !ID EXC DRU]: %NAME%%MAP-97% // All Exceptional tier Pelts
-//ItemDisplay[MAG !ID ELT DRU]: %NAME%%MAP-97% // All Elite tier Pelts
+ItemDisplay[MAG !ID DRU]: %NAME% // All Pelts
+//ItemDisplay[MAG !ID NORM DRU]: %NAME% // All Normal tier Pelts
+//ItemDisplay[MAG !ID EXC DRU]: %NAME% // All Exceptional tier Pelts
+//ItemDisplay[MAG !ID ELT DRU]: %NAME% // All Elite tier Pelts
 
 // Normal tier Pelts
-//ItemDisplay[MAG !ID dr1]: %NAME%%MAP-97% // Wolf Head
-//ItemDisplay[MAG !ID dr2]: %NAME%%MAP-97% // Hawk Helm
-//ItemDisplay[MAG !ID dr3]: %NAME%%MAP-97% // Antlers
-//ItemDisplay[MAG !ID dr4]: %NAME%%MAP-97% // Falcon Mask
-//ItemDisplay[MAG !ID dr5]: %NAME%%MAP-97% // Spirit Mask
+//ItemDisplay[MAG !ID dr1]: %NAME% // Wolf Head
+//ItemDisplay[MAG !ID dr2]: %NAME% // Hawk Helm
+//ItemDisplay[MAG !ID dr3]: %NAME% // Antlers
+//ItemDisplay[MAG !ID dr4]: %NAME% // Falcon Mask
+//ItemDisplay[MAG !ID dr5]: %NAME% // Spirit Mask
 
 // Exceptional tier Pelts
-//ItemDisplay[MAG !ID dr6]: %NAME%%MAP-97% // Alpha Helm
-//ItemDisplay[MAG !ID dr7]: %NAME%%MAP-97% // Griffon Headdress
-//ItemDisplay[MAG !ID dr8]: %NAME%%MAP-97% // Hunter's Guise
-//ItemDisplay[MAG !ID dr9]: %NAME%%MAP-97% // Sacred Feathers
-//ItemDisplay[MAG !ID dra]: %NAME%%MAP-97% // Totemic Mask
+//ItemDisplay[MAG !ID dr6]: %NAME% // Alpha Helm
+//ItemDisplay[MAG !ID dr7]: %NAME% // Griffon Headdress
+//ItemDisplay[MAG !ID dr8]: %NAME% // Hunter's Guise
+//ItemDisplay[MAG !ID dr9]: %NAME% // Sacred Feathers
+//ItemDisplay[MAG !ID dra]: %NAME% // Totemic Mask
 
 // Elite tier Pelts
-//ItemDisplay[MAG !ID drb]: %NAME%%MAP-97% // Blood Spirit
-//ItemDisplay[MAG !ID drc]: %NAME%%MAP-97% // Sun Spirit
-//ItemDisplay[MAG !ID drd]: %NAME%%MAP-97% // Earth Spirit
-//ItemDisplay[MAG !ID dre]: %NAME%%MAP-97% // Sky Spirit
-//ItemDisplay[MAG !ID drf]: %NAME%%MAP-97% // Dream Spirit
+//ItemDisplay[MAG !ID drb]: %NAME% // Blood Spirit
+//ItemDisplay[MAG !ID drc]: %NAME% // Sun Spirit
+//ItemDisplay[MAG !ID drd]: %NAME% // Earth Spirit
+//ItemDisplay[MAG !ID dre]: %NAME% // Sky Spirit
+//ItemDisplay[MAG !ID drf]: %NAME% // Dream Spirit
 
 // Elemental
 //ItemDisplay[MAG SK225>2 DRU]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Firestorm
@@ -3203,31 +3229,31 @@ ItemDisplay[MAG SK247>2 DRU]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Sum
 //     [MCNE] Necromancer
 // ------------------------------------------------------------------------------
 // All Heads
-//ItemDisplay[MAG !ID NEC]: %NAME%%MAP-97% // All Heads
-//ItemDisplay[MAG !ID NORM NEC]: %NAME%%MAP-97% // All Normal tier Heads
-//ItemDisplay[MAG !ID EXC NEC]: %NAME%%MAP-97% // All Exceptional tier Heads
-//ItemDisplay[MAG !ID ELT NEC]: %NAME%%MAP-97% // All Elite tier Heads
+//ItemDisplay[MAG !ID NEC]: %NAME% // All Heads
+//ItemDisplay[MAG !ID NORM NEC]: %NAME% // All Normal tier Heads
+//ItemDisplay[MAG !ID EXC NEC]: %NAME% // All Exceptional tier Heads
+//ItemDisplay[MAG !ID ELT NEC]: %NAME% // All Elite tier Heads
 
 // Normal tier Heads
-//ItemDisplay[MAG !ID ne1]: %NAME%%MAP-97% // Preserved Head
-//ItemDisplay[MAG !ID ne2]: %NAME%%MAP-97% // Zombie Head
-//ItemDisplay[MAG !ID ne3]: %NAME%%MAP-97% // Unraveller Head
-//ItemDisplay[MAG !ID ne4]: %NAME%%MAP-97% // Gargoyle Head
-//ItemDisplay[MAG !ID ne5]: %NAME%%MAP-97% // Demon Head
+//ItemDisplay[MAG !ID ne1]: %NAME% // Preserved Head
+//ItemDisplay[MAG !ID ne2]: %NAME% // Zombie Head
+//ItemDisplay[MAG !ID ne3]: %NAME% // Unraveller Head
+//ItemDisplay[MAG !ID ne4]: %NAME% // Gargoyle Head
+//ItemDisplay[MAG !ID ne5]: %NAME% // Demon Head
 
 // Exceptional tier Heads
-//ItemDisplay[MAG !ID ne6]: %NAME%%MAP-97% // Mummified Trophy
-//ItemDisplay[MAG !ID ne7]: %NAME%%MAP-97% // Fetish Trophy
-//ItemDisplay[MAG !ID ne8]: %NAME%%MAP-97% // Sexton Trophy
-//ItemDisplay[MAG !ID ne9]: %NAME%%MAP-97% // Cantor Trophy
-//ItemDisplay[MAG !ID nea]: %NAME%%MAP-97% // Hierophant Trophy
+//ItemDisplay[MAG !ID ne6]: %NAME% // Mummified Trophy
+//ItemDisplay[MAG !ID ne7]: %NAME% // Fetish Trophy
+//ItemDisplay[MAG !ID ne8]: %NAME% // Sexton Trophy
+//ItemDisplay[MAG !ID ne9]: %NAME% // Cantor Trophy
+//ItemDisplay[MAG !ID nea]: %NAME% // Hierophant Trophy
 
 // Elite tier Heads
-//ItemDisplay[MAG !ID neb]: %NAME%%MAP-97% // Minion Skull
-//ItemDisplay[MAG !ID neg]: %NAME%%MAP-97% // Hellspawn Skull
-//ItemDisplay[MAG !ID ned]: %NAME%%MAP-97% // Overseer Skull
-//ItemDisplay[MAG !ID nee]: %NAME%%MAP-97% // Succubus Skull
-//ItemDisplay[MAG !ID nef]: %NAME%%MAP-97% // Bloodlord Skull
+//ItemDisplay[MAG !ID neb]: %NAME% // Minion Skull
+//ItemDisplay[MAG !ID neg]: %NAME% // Hellspawn Skull
+//ItemDisplay[MAG !ID ned]: %NAME% // Overseer Skull
+//ItemDisplay[MAG !ID nee]: %NAME% // Succubus Skull
+//ItemDisplay[MAG !ID nef]: %NAME% // Bloodlord Skull
 
 // Curses
 ItemDisplay[MAG SK66>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Amplify Damage
@@ -3271,61 +3297,61 @@ ItemDisplay[MAG SK94>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fire
 //     [MCPA] Paladin
 // ------------------------------------------------------------------------------
 // All Paladin Shields
-//ItemDisplay[MAG !ID DIN]: %NAME%%MAP-97% // All Paladin Shields
-//ItemDisplay[MAG !ID NORM DIN]: %NAME%%MAP-97% // All Normal tier Paladin Shields
-//ItemDisplay[MAG !ID EXC DIN]: %NAME%%MAP-97% // All Exceptional tier Paladin Shields
-//ItemDisplay[MAG !ID ELT DIN]: %NAME%%MAP-97% // All Elite tier Paladin Shields
+//ItemDisplay[MAG !ID DIN]: %NAME% // All Paladin Shields
+//ItemDisplay[MAG !ID NORM DIN]: %NAME% // All Normal tier Paladin Shields
+//ItemDisplay[MAG !ID EXC DIN]: %NAME% // All Exceptional tier Paladin Shields
+//ItemDisplay[MAG !ID ELT DIN]: %NAME% // All Elite tier Paladin Shields
 
 // Normal tier Paladin Shields
-//ItemDisplay[MAG !ID pa1]: %NAME%%MAP-97% // Targe
-//ItemDisplay[MAG !ID pa2]: %NAME%%MAP-97% // Rondache
-//ItemDisplay[MAG !ID pa3]: %NAME%%MAP-97% // Heraldic Shield
-//ItemDisplay[MAG !ID pa4]: %NAME%%MAP-97% // Aerin Shield
-//ItemDisplay[MAG !ID pa5]: %NAME%%MAP-97% // Crown Shield
+//ItemDisplay[MAG !ID pa1]: %NAME% // Targe
+//ItemDisplay[MAG !ID pa2]: %NAME% // Rondache
+//ItemDisplay[MAG !ID pa3]: %NAME% // Heraldic Shield
+//ItemDisplay[MAG !ID pa4]: %NAME% // Aerin Shield
+//ItemDisplay[MAG !ID pa5]: %NAME% // Crown Shield
 
 // Exceptional tier Paladin Shields
-//ItemDisplay[MAG !ID pa6]: %NAME%%MAP-97% // Akaran Targe
-//ItemDisplay[MAG !ID pa7]: %NAME%%MAP-97% // Akaran Rondache
-//ItemDisplay[MAG !ID pa8]: %NAME%%MAP-97% // Protector Shield
-//ItemDisplay[MAG !ID pa9]: %NAME%%MAP-97% // Gilded Shield
-//ItemDisplay[MAG !ID paa]: %NAME%%MAP-97% // Royal Shield
+//ItemDisplay[MAG !ID pa6]: %NAME% // Akaran Targe
+//ItemDisplay[MAG !ID pa7]: %NAME% // Akaran Rondache
+//ItemDisplay[MAG !ID pa8]: %NAME% // Protector Shield
+//ItemDisplay[MAG !ID pa9]: %NAME% // Gilded Shield
+//ItemDisplay[MAG !ID paa]: %NAME% // Royal Shield
 
 // Elite tier Paladin Shields
-//ItemDisplay[MAG !ID pab]: %NAME%%MAP-97% // Sacred Targe
-//ItemDisplay[MAG !ID pac]: %NAME%%MAP-97% // Sacred Rondache
-//ItemDisplay[MAG !ID pad]: %NAME%%MAP-97% // Kurast Shield
-//ItemDisplay[MAG !ID pae]: %NAME%%MAP-97% // Zakarum Shield
-//ItemDisplay[MAG !ID paf]: %NAME%%MAP-97% // Vortex Shield
+//ItemDisplay[MAG !ID pab]: %NAME% // Sacred Targe
+//ItemDisplay[MAG !ID pac]: %NAME% // Sacred Rondache
+//ItemDisplay[MAG !ID pad]: %NAME% // Kurast Shield
+//ItemDisplay[MAG !ID pae]: %NAME% // Zakarum Shield
+//ItemDisplay[MAG !ID paf]: %NAME% // Vortex Shield
 
 // ------------------------------------------------------------------------------
 //     [MCSO] Sorceress
 // ------------------------------------------------------------------------------
 // All Sorceress Orbs
-//ItemDisplay[MAG !ID SOR]: %NAME% // %MAP-97% // All sorceress Orbs
-//ItemDisplay[MAG !ID NORM SOR]: %NAME%%MAP-97% // All Normal tier Sorceress Orbs
-//ItemDisplay[MAG !ID EXC SOR]: %NAME%%MAP-97% // All Exceptional tier Sorceress Orbs
-//ItemDisplay[MAG !ID ELT SOR]: %NAME%%MAP-97% // All Elite tier Sorceress Orbs
+//ItemDisplay[MAG !ID SOR]: %NAME% //  // All sorceress Orbs
+//ItemDisplay[MAG !ID NORM SOR]: %NAME% // All Normal tier Sorceress Orbs
+//ItemDisplay[MAG !ID EXC SOR]: %NAME% // All Exceptional tier Sorceress Orbs
+//ItemDisplay[MAG !ID ELT SOR]: %NAME% // All Elite tier Sorceress Orbs
 
 // Normal tier Sorceress Orbs
-//ItemDisplay[MAG !ID ob1]: %NAME%%MAP-97% // Eagle Orb
-//ItemDisplay[MAG !ID ob2]: %NAME%%MAP-97% // Sacred Globe
-//ItemDisplay[MAG !ID ob3]: %NAME%%MAP-97% // Smoked Sphere
-//ItemDisplay[MAG !ID ob4]: %NAME%%MAP-97% // Clasped Orb
-//ItemDisplay[MAG !ID ob5]: %NAME%%MAP-97% // Jared's Stone
+//ItemDisplay[MAG !ID ob1]: %NAME% // Eagle Orb
+//ItemDisplay[MAG !ID ob2]: %NAME% // Sacred Globe
+//ItemDisplay[MAG !ID ob3]: %NAME% // Smoked Sphere
+//ItemDisplay[MAG !ID ob4]: %NAME% // Clasped Orb
+//ItemDisplay[MAG !ID ob5]: %NAME% // Jared's Stone
 
 // Exceptional tier Sorceress Orbs
-//ItemDisplay[MAG !ID ob6]: %NAME%%MAP-97% // Glowing Orb
-//ItemDisplay[MAG !ID ob7]: %NAME%%MAP-97% // Crystalline Globe
-//ItemDisplay[MAG !ID ob8]: %NAME%%MAP-97% // Cloudy Sphere
-//ItemDisplay[MAG !ID ob9]: %NAME%%MAP-97% // Sparkling Ball
-//ItemDisplay[MAG !ID oba]: %NAME%%MAP-97% // Swirling Crystal
+//ItemDisplay[MAG !ID ob6]: %NAME% // Glowing Orb
+//ItemDisplay[MAG !ID ob7]: %NAME% // Crystalline Globe
+//ItemDisplay[MAG !ID ob8]: %NAME% // Cloudy Sphere
+//ItemDisplay[MAG !ID ob9]: %NAME% // Sparkling Ball
+//ItemDisplay[MAG !ID oba]: %NAME% // Swirling Crystal
 
 // Elite tier Sorceress Orbs
-//ItemDisplay[MAG !ID obb]: %NAME%%MAP-97% // Heavenly Stone
-//ItemDisplay[MAG !ID obc]: %NAME%%MAP-97% // Eldritch Orb
-//ItemDisplay[MAG !ID obd]: %NAME%%MAP-97% // Demon Heart
-//ItemDisplay[MAG !ID obe]: %NAME%%MAP-97% // Vortex Orb
-//ItemDisplay[MAG !ID obf]: %NAME%%MAP-97% // Dimensional Shard
+//ItemDisplay[MAG !ID obb]: %NAME% // Heavenly Stone
+//ItemDisplay[MAG !ID obc]: %NAME% // Eldritch Orb
+//ItemDisplay[MAG !ID obd]: %NAME% // Demon Heart
+//ItemDisplay[MAG !ID obe]: %NAME% // Vortex Orb
+//ItemDisplay[MAG !ID obf]: %NAME% // Dimensional Shard
 
 // Cold
 //ItemDisplay[MAG SK39>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Ice Bolt
@@ -3373,63 +3399,63 @@ ItemDisplay[MAG SK376>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Com
 //     [MAAR] Armor
 // ------------------------------------------------------------------------------
 // All armors
-//ItemDisplay[MAG !ID CHEST]: %NAME%%MAP-97% // All armors
-//ItemDisplay[MAG ETH !ID CHEST]: %NAME%%MAP-97% // All armors, eth
-//ItemDisplay[MAG !ID NORM CHEST]: %NAME%%MAP-97% // All Normal tier Armors
-//ItemDisplay[MAG !ID EXC CHEST]: %NAME%%MAP-97% // All Exceptional tier Armors
-//ItemDisplay[MAG !ID ELT CHEST]: %NAME%%MAP-97% // All Elite tier Armors
+//ItemDisplay[MAG !ID CHEST]: %NAME% // All armors
+//ItemDisplay[MAG ETH !ID CHEST]: %NAME% // All armors, eth
+//ItemDisplay[MAG !ID NORM CHEST]: %NAME% // All Normal tier Armors
+//ItemDisplay[MAG !ID EXC CHEST]: %NAME% // All Exceptional tier Armors
+//ItemDisplay[MAG !ID ELT CHEST]: %NAME% // All Elite tier Armors
 //ItemDisplay[MAG ETH !ID ELT CHEST]: %NAME%%MAP-97% // All Elite tier Armors, eth
-ItemDisplay[MAG !ID ILVL>49 (uui OR uea OR ula OR utu OR utp)]: %NAME%%MAP-97% // Possible Whale Armor, Elite tier, lower strength
+ItemDisplay[MAG !ID ILVL>49 (uui OR uea OR ula OR utu OR utp)]: %NAME% // Possible Whale Armor, Elite tier, lower strength
 
 // Normal tier armor
-//ItemDisplay[MAG !ID qui]: %NAME%%MAP-97% // Quilted Armor
-//ItemDisplay[MAG !ID lea]: %NAME%%MAP-97% // Leather Armor
-//ItemDisplay[MAG !ID hla]: %NAME%%MAP-97% // Hard Leather Armor
-//ItemDisplay[MAG !ID stu]: %NAME%%MAP-97% // Studded Leather
-//ItemDisplay[MAG !ID rng]: %NAME%%MAP-97% // Ring Mail
-//ItemDisplay[MAG !ID scl]: %NAME%%MAP-97% // Scale Mail
-//ItemDisplay[MAG !ID brs]: %NAME%%MAP-97% // Breast Plate
-//ItemDisplay[MAG !ID chn]: %NAME%%MAP-97% // Chain Mail
-//ItemDisplay[MAG !ID spl]: %NAME%%MAP-97% // Splint Mail
-//ItemDisplay[MAG !ID ltp]: %NAME%%MAP-97% // Light Plate
-//ItemDisplay[MAG !ID fld]: %NAME%%MAP-97% // Field Plate
-//ItemDisplay[MAG !ID plt]: %NAME%%MAP-97% // Plate Mail
-//ItemDisplay[MAG !ID gth]: %NAME%%MAP-97% // Gothic Plate
-//ItemDisplay[MAG !ID ful]: %NAME%%MAP-97% // Full Plate Mail
-//ItemDisplay[MAG !ID aar]: %NAME%%MAP-97% // Ancient Armor
+//ItemDisplay[MAG !ID qui]: %NAME% // Quilted Armor
+//ItemDisplay[MAG !ID lea]: %NAME% // Leather Armor
+//ItemDisplay[MAG !ID hla]: %NAME% // Hard Leather Armor
+//ItemDisplay[MAG !ID stu]: %NAME% // Studded Leather
+//ItemDisplay[MAG !ID rng]: %NAME% // Ring Mail
+//ItemDisplay[MAG !ID scl]: %NAME% // Scale Mail
+//ItemDisplay[MAG !ID brs]: %NAME% // Breast Plate
+//ItemDisplay[MAG !ID chn]: %NAME% // Chain Mail
+//ItemDisplay[MAG !ID spl]: %NAME% // Splint Mail
+//ItemDisplay[MAG !ID ltp]: %NAME% // Light Plate
+//ItemDisplay[MAG !ID fld]: %NAME% // Field Plate
+//ItemDisplay[MAG !ID plt]: %NAME% // Plate Mail
+//ItemDisplay[MAG !ID gth]: %NAME% // Gothic Plate
+//ItemDisplay[MAG !ID ful]: %NAME% // Full Plate Mail
+//ItemDisplay[MAG !ID aar]: %NAME% // Ancient Armor
 
 // Exceptional tier armor
-//ItemDisplay[MAG !ID xui]: %NAME%%MAP-97% // Ghost Armor
-//ItemDisplay[MAG !ID xea]: %NAME%%MAP-97% // Serpentskin Armor
-//ItemDisplay[MAG !ID xla]: %NAME%%MAP-97% // Demonhide Armor
-//ItemDisplay[MAG !ID xtu]: %NAME%%MAP-97% // Trellised Armor
-//ItemDisplay[MAG !ID xng]: %NAME%%MAP-97% // Linked Mail
-//ItemDisplay[MAG !ID xcl]: %NAME%%MAP-97% // Tigulated Mail
-//ItemDisplay[MAG !ID xrs]: %NAME%%MAP-97% // Cuirass
-//ItemDisplay[MAG !ID xhn]: %NAME%%MAP-97% // Mesh Armor
-//ItemDisplay[MAG !ID xpl]: %NAME%%MAP-97% // Russet Armor
-//ItemDisplay[MAG !ID xtp]: %NAME%%MAP-97% // Mage Plate
-//ItemDisplay[MAG !ID xld]: %NAME%%MAP-97% // Sharktooth Armor
-//ItemDisplay[MAG !ID xlt]: %NAME%%MAP-97% // Templar Coat
-//ItemDisplay[MAG !ID xth]: %NAME%%MAP-97% // Embossed Plate
-//ItemDisplay[MAG !ID xul]: %NAME%%MAP-97% // Chaos Armor
-//ItemDisplay[MAG !ID xar]: %NAME%%MAP-97% // Ornate Plate
+//ItemDisplay[MAG !ID xui]: %NAME% // Ghost Armor
+//ItemDisplay[MAG !ID xea]: %NAME% // Serpentskin Armor
+//ItemDisplay[MAG !ID xla]: %NAME% // Demonhide Armor
+//ItemDisplay[MAG !ID xtu]: %NAME% // Trellised Armor
+//ItemDisplay[MAG !ID xng]: %NAME% // Linked Mail
+//ItemDisplay[MAG !ID xcl]: %NAME% // Tigulated Mail
+//ItemDisplay[MAG !ID xrs]: %NAME% // Cuirass
+//ItemDisplay[MAG !ID xhn]: %NAME% // Mesh Armor
+//ItemDisplay[MAG !ID xpl]: %NAME% // Russet Armor
+//ItemDisplay[MAG !ID xtp]: %NAME% // Mage Plate
+//ItemDisplay[MAG !ID xld]: %NAME% // Sharktooth Armor
+//ItemDisplay[MAG !ID xlt]: %NAME% // Templar Coat
+//ItemDisplay[MAG !ID xth]: %NAME% // Embossed Plate
+//ItemDisplay[MAG !ID xul]: %NAME% // Chaos Armor
+//ItemDisplay[MAG !ID xar]: %NAME% // Ornate Plate
 
 // Elite tier armor
-//ItemDisplay[MAG !ID uui]: %NAME%%MAP-97% // Dusk Shroud, lower strength
-//ItemDisplay[MAG !ID uea]: %NAME%%MAP-97% // Wyrmhide, lower strength
-//ItemDisplay[MAG !ID ula]: %NAME%%MAP-97% // Scarab Husk, lower strength
-//ItemDisplay[MAG !ID utu]: %NAME%%MAP-97% // Wire Fleece, lower strength
-//ItemDisplay[MAG !ID ung]: %NAME%%MAP-97% // Diamond Mail
-//ItemDisplay[MAG !ID ucl]: %NAME%%MAP-97% // Loricated Mail
-//ItemDisplay[MAG !ID urs]: %NAME%%MAP-97% // Great Hauberk
-//ItemDisplay[MAG !ID uhn]: %NAME%%MAP-97% // Boneweave
-//ItemDisplay[MAG !ID upl]: %NAME%%MAP-97% // Balrog Skin
-//ItemDisplay[MAG !ID utp]: %NAME%%MAP-97% // Archon Plate, lower strength
-//ItemDisplay[MAG !ID uld]: %NAME%%MAP-97% // Kraken Shell
-//ItemDisplay[MAG !ID ult]: %NAME%%MAP-97% // Hellforge Plate
-//ItemDisplay[MAG !ID uth]: %NAME%%MAP-97% // Lacquered Plate
-//ItemDisplay[MAG !ID uul]: %NAME%%MAP-97% // Shadow Plate
+//ItemDisplay[MAG !ID uui]: %NAME% // Dusk Shroud, lower strength
+//ItemDisplay[MAG !ID uea]: %NAME% // Wyrmhide, lower strength
+//ItemDisplay[MAG !ID ula]: %NAME% // Scarab Husk, lower strength
+//ItemDisplay[MAG !ID utu]: %NAME% // Wire Fleece, lower strength
+//ItemDisplay[MAG !ID ung]: %NAME% // Diamond Mail
+//ItemDisplay[MAG !ID ucl]: %NAME% // Loricated Mail
+//ItemDisplay[MAG !ID urs]: %NAME% // Great Hauberk
+//ItemDisplay[MAG !ID uhn]: %NAME% // Boneweave
+//ItemDisplay[MAG !ID upl]: %NAME% // Balrog Skin
+//ItemDisplay[MAG !ID utp]: %NAME% // Archon Plate, lower strength
+//ItemDisplay[MAG !ID uld]: %NAME% // Kraken Shell
+//ItemDisplay[MAG !ID ult]: %NAME% // Hellforge Plate
+//ItemDisplay[MAG !ID uth]: %NAME% // Lacquered Plate
+//ItemDisplay[MAG !ID uul]: %NAME% // Shadow Plate
 //ItemDisplay[MAG !ID uar]: %NAME%%MAP-97% // Sacred Armor
 //ItemDisplay[MAG !ID ETH uar]: %NAME%%MAP-97% // Sacred Armor, Eth
 
@@ -3437,170 +3463,170 @@ ItemDisplay[MAG !ID ILVL>49 (uui OR uea OR ula OR utu OR utp)]: %NAME%%MAP-97% /
 //     [MABE] Belts
 // ------------------------------------------------------------------------------
 // All belts
-//ItemDisplay[MAG !ID BELT]: %NAME%%MAP-97% // All belts
-//ItemDisplay[MAG !ID NORM BELT]: %NAME%%MAP-97% // All Normal tier Belts
-//ItemDisplay[MAG !ID EXC BELT]: %NAME%%MAP-97% // All Exceptional tier Belts
-//ItemDisplay[MAG !ID ELT BELT]: %NAME%%MAP-97% // All Elite tier Belts
-ItemDisplay[MAG !ID ILVL>49 (ulc OR uvc OR umc)]: %NAME%%MAP-97% // Possible Whale Belt, Elite tier, lower strength
+//ItemDisplay[MAG !ID BELT]: %NAME% // All belts
+//ItemDisplay[MAG !ID NORM BELT]: %NAME% // All Normal tier Belts
+//ItemDisplay[MAG !ID EXC BELT]: %NAME% // All Exceptional tier Belts
+//ItemDisplay[MAG !ID ELT BELT]: %NAME% // All Elite tier Belts
+ItemDisplay[MAG !ID ILVL>49 (ulc OR uvc OR umc)]: %NAME% // Possible Whale Belt, Elite tier, lower strength
 
 // Normal tier belts
-//ItemDisplay[MAG !ID lbl]: %NAME%%MAP-97% // Sash
-//ItemDisplay[MAG !ID vbl]: %NAME%%MAP-97% // Light Belt
-//ItemDisplay[MAG !ID mbl]: %NAME%%MAP-97% // Belt
-//ItemDisplay[MAG !ID tbl]: %NAME%%MAP-97% // Heavy Belt
-//ItemDisplay[MAG !ID hbl]: %NAME%%MAP-97% // Plated Belt
+//ItemDisplay[MAG !ID lbl]: %NAME% // Sash
+//ItemDisplay[MAG !ID vbl]: %NAME% // Light Belt
+//ItemDisplay[MAG !ID mbl]: %NAME% // Belt
+//ItemDisplay[MAG !ID tbl]: %NAME% // Heavy Belt
+//ItemDisplay[MAG !ID hbl]: %NAME% // Plated Belt
 
 // Exceptional tier belts
-//ItemDisplay[MAG !ID zlb]: %NAME%%MAP-97% // Demonhide Sash
-//ItemDisplay[MAG !ID zvb]: %NAME%%MAP-97% // Sharkskin Belt
-//ItemDisplay[MAG !ID zmb]: %NAME%%MAP-97% // Mesh Belt
-//ItemDisplay[MAG !ID ztb]: %NAME%%MAP-97% // Battle Belt
-//ItemDisplay[MAG !ID zhb]: %NAME%%MAP-97% // War Belt
+//ItemDisplay[MAG !ID zlb]: %NAME% // Demonhide Sash
+//ItemDisplay[MAG !ID zvb]: %NAME% // Sharkskin Belt
+//ItemDisplay[MAG !ID zmb]: %NAME% // Mesh Belt
+//ItemDisplay[MAG !ID ztb]: %NAME% // Battle Belt
+//ItemDisplay[MAG !ID zhb]: %NAME% // War Belt
 
 // Elite tier belts
-//ItemDisplay[MAG !ID ulc]: %NAME%%MAP-97% // Spiderweb Sash
-//ItemDisplay[MAG !ID uvc]: %NAME%%MAP-97% // Vampirefang Belt
-//ItemDisplay[MAG !ID umc]: %NAME%%MAP-97% // Mithril Coil
-//ItemDisplay[MAG !ID utc]: %NAME%%MAP-97% // Troll Belt
-//ItemDisplay[MAG !ID uhc]: %NAME%%MAP-97% // Colossus Girdle
+//ItemDisplay[MAG !ID ulc]: %NAME% // Spiderweb Sash
+//ItemDisplay[MAG !ID uvc]: %NAME% // Vampirefang Belt
+//ItemDisplay[MAG !ID umc]: %NAME% // Mithril Coil
+//ItemDisplay[MAG !ID utc]: %NAME% // Troll Belt
+//ItemDisplay[MAG !ID uhc]: %NAME% // Colossus Girdle
 
 // ------------------------------------------------------------------------------
 //     [MABO] Boots
 // ------------------------------------------------------------------------------
 // All boots
-//ItemDisplay[MAG !ID BOOTS]: %NAME%%MAP-97% // All boots
-//ItemDisplay[MAG !ID NORM BOOTS]: %NAME%%MAP-97% // All Normal tier Boots
-//ItemDisplay[MAG !ID EXC BOOTS]: %NAME%%MAP-97% // All Exceptional tier Boots
-//ItemDisplay[MAG !ID ELT BOOTS]: %NAME%%MAP-97% // All Elite tier Boots
+//ItemDisplay[MAG !ID BOOTS]: %NAME% // All boots
+//ItemDisplay[MAG !ID NORM BOOTS]: %NAME% // All Normal tier Boots
+//ItemDisplay[MAG !ID EXC BOOTS]: %NAME% // All Exceptional tier Boots
+//ItemDisplay[MAG !ID ELT BOOTS]: %NAME% // All Elite tier Boots
 
 // Normal tier boots
-//ItemDisplay[MAG !ID lbt]: %NAME%%MAP-97% // Boots
-//ItemDisplay[MAG !ID vbt]: %NAME%%MAP-97% // Heavy Boots
-//ItemDisplay[MAG !ID mbt]: %NAME%%MAP-97% // Chain Boots
-//ItemDisplay[MAG !ID tbt]: %NAME%%MAP-97% // Light Plated Boots
-//ItemDisplay[MAG !ID hbt]: %NAME%%MAP-97% // Greaves
+//ItemDisplay[MAG !ID lbt]: %NAME% // Boots
+//ItemDisplay[MAG !ID vbt]: %NAME% // Heavy Boots
+//ItemDisplay[MAG !ID mbt]: %NAME% // Chain Boots
+//ItemDisplay[MAG !ID tbt]: %NAME% // Light Plated Boots
+//ItemDisplay[MAG !ID hbt]: %NAME% // Greaves
 
 // Exceptional tier boots
-//ItemDisplay[MAG !ID xlb]: %NAME%%MAP-97% // Demonhide Boots
-//ItemDisplay[MAG !ID xvb]: %NAME%%MAP-97% // Sharkskin Boots
-//ItemDisplay[MAG !ID xmb]: %NAME%%MAP-97% // Mesh Boots
-//ItemDisplay[MAG !ID xtb]: %NAME%%MAP-97% // Battle Boots
-//ItemDisplay[MAG !ID xhb]: %NAME%%MAP-97% // War Boots
+//ItemDisplay[MAG !ID xlb]: %NAME% // Demonhide Boots
+//ItemDisplay[MAG !ID xvb]: %NAME% // Sharkskin Boots
+//ItemDisplay[MAG !ID xmb]: %NAME% // Mesh Boots
+//ItemDisplay[MAG !ID xtb]: %NAME% // Battle Boots
+//ItemDisplay[MAG !ID xhb]: %NAME% // War Boots
 
 // Elite tier boots
-//ItemDisplay[MAG !ID ulb]: %NAME%%MAP-97% // Wyrmhide Boots
-//ItemDisplay[MAG !ID uvb]: %NAME%%MAP-97% // Scarabshell Boots
-//ItemDisplay[MAG !ID umb]: %NAME%%MAP-97% // Boneweave Boots
-//ItemDisplay[MAG !ID utb]: %NAME%%MAP-97% // Mirrored Boots
-//ItemDisplay[MAG !ID uhb]: %NAME%%MAP-97% // Myrmidon Greaves
+//ItemDisplay[MAG !ID ulb]: %NAME% // Wyrmhide Boots
+//ItemDisplay[MAG !ID uvb]: %NAME% // Scarabshell Boots
+//ItemDisplay[MAG !ID umb]: %NAME% // Boneweave Boots
+//ItemDisplay[MAG !ID utb]: %NAME% // Mirrored Boots
+//ItemDisplay[MAG !ID uhb]: %NAME% // Myrmidon Greaves
 
 // ------------------------------------------------------------------------------
 //     [MAGL] Gloves
 // ------------------------------------------------------------------------------
 // All gloves
-ItemDisplay[MAG !ID GLOVES]: %NAME%%MAP-97% // All gloves
-//ItemDisplay[MAG !ID NORM GLOVES]: %NAME%%MAP-97% // All Normal tier Gloves
-//ItemDisplay[MAG !ID EXC GLOVES]: %NAME%%MAP-97% // All Exceptional tier Gloves
-//ItemDisplay[MAG !ID ELT GLOVES]: %NAME%%MAP-97% // All Elite tier Gloves
+ItemDisplay[MAG !ID GLOVES]: %NAME% // All gloves
+//ItemDisplay[MAG !ID NORM GLOVES]: %NAME% // All Normal tier Gloves
+//ItemDisplay[MAG !ID EXC GLOVES]: %NAME% // All Exceptional tier Gloves
+//ItemDisplay[MAG !ID ELT GLOVES]: %NAME% // All Elite tier Gloves
 
 // Normal tier gloves
-//ItemDisplay[MAG !ID lgl]: %NAME%%MAP-97% // Leather Gloves, lower strength
-//ItemDisplay[MAG !ID vgl]: %NAME%%MAP-97% // Heavy Gloves, lower strength
-//ItemDisplay[MAG !ID mgl]: %NAME%%MAP-97% // Chain Gloves, lower strength
-//ItemDisplay[MAG !ID tgl]: %NAME%%MAP-97% // Light Gauntlets, lower strength
-//ItemDisplay[MAG !ID hgl]: %NAME%%MAP-97% // Gauntlets, lower strength
+//ItemDisplay[MAG !ID lgl]: %NAME% // Leather Gloves, lower strength
+//ItemDisplay[MAG !ID vgl]: %NAME% // Heavy Gloves, lower strength
+//ItemDisplay[MAG !ID mgl]: %NAME% // Chain Gloves, lower strength
+//ItemDisplay[MAG !ID tgl]: %NAME% // Light Gauntlets, lower strength
+//ItemDisplay[MAG !ID hgl]: %NAME% // Gauntlets, lower strength
 
 // Exceptional tier gloves
-//ItemDisplay[MAG !ID xlg]: %NAME%%MAP-97% // Demonhide Gloves, lower strength
-//ItemDisplay[MAG !ID xvg]: %NAME%%MAP-97% // Sharkskin Gloves, lower strength
-//ItemDisplay[MAG !ID xmg]: %NAME%%MAP-97% // Heavy Bracers, lower strength
-//ItemDisplay[MAG !ID xtg]: %NAME%%MAP-97% // Battle Gauntlets
-//ItemDisplay[MAG !ID xhg]: %NAME%%MAP-97% // War Gauntlets
+//ItemDisplay[MAG !ID xlg]: %NAME% // Demonhide Gloves, lower strength
+//ItemDisplay[MAG !ID xvg]: %NAME% // Sharkskin Gloves, lower strength
+//ItemDisplay[MAG !ID xmg]: %NAME% // Heavy Bracers, lower strength
+//ItemDisplay[MAG !ID xtg]: %NAME% // Battle Gauntlets
+//ItemDisplay[MAG !ID xhg]: %NAME% // War Gauntlets
 
 // Elite tier gloves
-//ItemDisplay[MAG !ID ulg]: %NAME%%MAP-97% // Bramble Mitts, lower strength
-//ItemDisplay[MAG !ID uvg]: %NAME%%MAP-97% // Vampirebone Gloves, lower strength
-//ItemDisplay[MAG !ID umg]: %NAME%%MAP-97% // Vambraces
-//ItemDisplay[MAG !ID utg]: %NAME%%MAP-97% // Crusader Gauntlets
-//ItemDisplay[MAG !ID uhg]: %NAME%%MAP-97% // Ogre Gauntlets
+//ItemDisplay[MAG !ID ulg]: %NAME% // Bramble Mitts, lower strength
+//ItemDisplay[MAG !ID uvg]: %NAME% // Vampirebone Gloves, lower strength
+//ItemDisplay[MAG !ID umg]: %NAME% // Vambraces
+//ItemDisplay[MAG !ID utg]: %NAME% // Crusader Gauntlets
+//ItemDisplay[MAG !ID uhg]: %NAME% // Ogre Gauntlets
 
 // ------------------------------------------------------------------------------
 //     [MAHE] Helms
 // ------------------------------------------------------------------------------
 // All helms
-//ItemDisplay[MAG !ID HELM !BAR !DRU]: %NAME%%MAP-97% // All helmets
-//ItemDisplay[MAG !ID NORM HELM !BAR !DRU]: %NAME%%MAP-97% // All Normal tier Helmets
-//ItemDisplay[MAG !ID EXC HELM !BAR !DRU]: %NAME%%MAP-97% // All Exceptional tier Helmets
-//ItemDisplay[MAG !ID ELT HELM !BAR !DRU]: %NAME%%MAP-97% // All Elite tier Helmets
+//ItemDisplay[MAG !ID HELM !BAR !DRU]: %NAME% // All helmets
+//ItemDisplay[MAG !ID NORM HELM !BAR !DRU]: %NAME% // All Normal tier Helmets
+//ItemDisplay[MAG !ID EXC HELM !BAR !DRU]: %NAME% // All Exceptional tier Helmets
+//ItemDisplay[MAG !ID ELT HELM !BAR !DRU]: %NAME% // All Elite tier Helmets
 
 // Normal tier helms
-//ItemDisplay[MAG !ID cap]: %NAME%%MAP-97% // Cap
-//ItemDisplay[MAG !ID skp]: %NAME%%MAP-97% // Skull Cap
-//ItemDisplay[MAG !ID hlm]: %NAME%%MAP-97% // Helm
-//ItemDisplay[MAG !ID fhl]: %NAME%%MAP-97% // Full Helm
-//ItemDisplay[MAG !ID ghm]: %NAME%%MAP-97% // Great Helm
-//ItemDisplay[MAG !ID msk]: %NAME%%MAP-97% // Mask
-//ItemDisplay[MAG !ID crn]: %NAME%%MAP-97% // Crown
-//ItemDisplay[MAG !ID bhm]: %NAME%%MAP-97% // Bone Helm
+//ItemDisplay[MAG !ID cap]: %NAME% // Cap
+//ItemDisplay[MAG !ID skp]: %NAME% // Skull Cap
+//ItemDisplay[MAG !ID hlm]: %NAME% // Helm
+//ItemDisplay[MAG !ID fhl]: %NAME% // Full Helm
+//ItemDisplay[MAG !ID ghm]: %NAME% // Great Helm
+//ItemDisplay[MAG !ID msk]: %NAME% // Mask
+//ItemDisplay[MAG !ID crn]: %NAME% // Crown
+//ItemDisplay[MAG !ID bhm]: %NAME% // Bone Helm
 
 // Exceptional tier helms
-//ItemDisplay[MAG !ID xap]: %NAME%%MAP-97% // War Hat
-//ItemDisplay[MAG !ID xkp]: %NAME%%MAP-97% // Sallet
-//ItemDisplay[MAG !ID xlm]: %NAME%%MAP-97% // Casque
-//ItemDisplay[MAG !ID xhl]: %NAME%%MAP-97% // Basinet
-//ItemDisplay[MAG !ID xhm]: %NAME%%MAP-97% // Winged Helm
-//ItemDisplay[MAG !ID xsk]: %NAME%%MAP-97% // Death Mask
-//ItemDisplay[MAG !ID xrn]: %NAME%%MAP-97% // Grand Crown
-//ItemDisplay[MAG !ID xh9]: %NAME%%MAP-97% // Grim Helm
+//ItemDisplay[MAG !ID xap]: %NAME% // War Hat
+//ItemDisplay[MAG !ID xkp]: %NAME% // Sallet
+//ItemDisplay[MAG !ID xlm]: %NAME% // Casque
+//ItemDisplay[MAG !ID xhl]: %NAME% // Basinet
+//ItemDisplay[MAG !ID xhm]: %NAME% // Winged Helm
+//ItemDisplay[MAG !ID xsk]: %NAME% // Death Mask
+//ItemDisplay[MAG !ID xrn]: %NAME% // Grand Crown
+//ItemDisplay[MAG !ID xh9]: %NAME% // Grim Helm
 
 // Elite tier helms
-//ItemDisplay[MAG !ID uap]: %NAME%%MAP-97% // Shako
-//ItemDisplay[MAG !ID ukp]: %NAME%%MAP-97% // Hydraskull
-//ItemDisplay[MAG !ID ulm]: %NAME%%MAP-97% // Armet
-//ItemDisplay[MAG !ID uhl]: %NAME%%MAP-97% // Giant Conch
-//ItemDisplay[MAG !ID uhm]: %NAME%%MAP-97% // Spired Helm
-//ItemDisplay[MAG !ID usk]: %NAME%%MAP-97% // Demonhead
-//ItemDisplay[MAG !ID urn]: %NAME%%MAP-97% // Corona
-//ItemDisplay[MAG !ID uh9]: %NAME%%MAP-97% // Bone Visage
+//ItemDisplay[MAG !ID uap]: %NAME% // Shako
+//ItemDisplay[MAG !ID ukp]: %NAME% // Hydraskull
+//ItemDisplay[MAG !ID ulm]: %NAME% // Armet
+//ItemDisplay[MAG !ID uhl]: %NAME% // Giant Conch
+//ItemDisplay[MAG !ID uhm]: %NAME% // Spired Helm
+//ItemDisplay[MAG !ID usk]: %NAME% // Demonhead
+//ItemDisplay[MAG !ID urn]: %NAME% // Corona
+//ItemDisplay[MAG !ID uh9]: %NAME% // Bone Visage
 
 // ------------------------------------------------------------------------------
 //     [MASH] Shields
 // ------------------------------------------------------------------------------
 // All Shields
-//ItemDisplay[MAG !ID SHIELD !DIN !NEC]: %NAME%%MAP-97% // All Shields
-//ItemDisplay[MAG !ID NORM SHIELD !DIN !NEC]: %NAME%%MAP-97% // All Normal tier Shields
-//ItemDisplay[MAG !ID EXC SHIELD !DIN !NEC]: %NAME%%MAP-97% // All Exceptional tier Shields
-//ItemDisplay[MAG !ID ELT SHIELD !DIN !NEC]: %NAME%%MAP-97% // All Elite tier Shields
+//ItemDisplay[MAG !ID SHIELD !DIN !NEC]: %NAME% // All Shields
+//ItemDisplay[MAG !ID NORM SHIELD !DIN !NEC]: %NAME% // All Normal tier Shields
+//ItemDisplay[MAG !ID EXC SHIELD !DIN !NEC]: %NAME% // All Exceptional tier Shields
+//ItemDisplay[MAG !ID ELT SHIELD !DIN !NEC]: %NAME% // All Elite tier Shields
 
 // Normal tier Shields
-//ItemDisplay[MAG !ID buc]: %NAME%%MAP-97% // Buckler
-//ItemDisplay[MAG !ID sml]: %NAME%%MAP-97% // Small Shield
-//ItemDisplay[MAG !ID lrg]: %NAME%%MAP-97% // Large Shield
-//ItemDisplay[MAG !ID kit]: %NAME%%MAP-97% // Kite Shield
-//ItemDisplay[MAG !ID spk]: %NAME%%MAP-97% // Spiked Shield
-//ItemDisplay[MAG !ID tow]: %NAME%%MAP-97% // Tower Shield
-//ItemDisplay[MAG !ID bsh]: %NAME%%MAP-97% // Bone Shield
-//ItemDisplay[MAG !ID gts]: %NAME%%MAP-97% // Gothic Shield
+//ItemDisplay[MAG !ID buc]: %NAME% // Buckler
+//ItemDisplay[MAG !ID sml]: %NAME% // Small Shield
+//ItemDisplay[MAG !ID lrg]: %NAME% // Large Shield
+//ItemDisplay[MAG !ID kit]: %NAME% // Kite Shield
+//ItemDisplay[MAG !ID spk]: %NAME% // Spiked Shield
+//ItemDisplay[MAG !ID tow]: %NAME% // Tower Shield
+//ItemDisplay[MAG !ID bsh]: %NAME% // Bone Shield
+//ItemDisplay[MAG !ID gts]: %NAME% // Gothic Shield
 
 // Exceptional tier Shields
-//ItemDisplay[MAG !ID xuc]: %NAME%%MAP-97% // Defender
-//ItemDisplay[MAG !ID xml]: %NAME%%MAP-97% // Round Shield
-//ItemDisplay[MAG !ID xrg]: %NAME%%MAP-97% // Scutum
-//ItemDisplay[MAG !ID xpk]: %NAME%%MAP-97% // Barbed Shield
-//ItemDisplay[MAG !ID xit]: %NAME%%MAP-97% // Dragon Shield
-//ItemDisplay[MAG !ID xsh]: %NAME%%MAP-97% // Grim Shield
-//ItemDisplay[MAG !ID xow]: %NAME%%MAP-97% // Pavise
-//ItemDisplay[MAG !ID xts]: %NAME%%MAP-97% // Ancient Shield
+//ItemDisplay[MAG !ID xuc]: %NAME% // Defender
+//ItemDisplay[MAG !ID xml]: %NAME% // Round Shield
+//ItemDisplay[MAG !ID xrg]: %NAME% // Scutum
+//ItemDisplay[MAG !ID xpk]: %NAME% // Barbed Shield
+//ItemDisplay[MAG !ID xit]: %NAME% // Dragon Shield
+//ItemDisplay[MAG !ID xsh]: %NAME% // Grim Shield
+//ItemDisplay[MAG !ID xow]: %NAME% // Pavise
+//ItemDisplay[MAG !ID xts]: %NAME% // Ancient Shield
 
 // Elite tier Shields
-//ItemDisplay[MAG !ID uuc]: %NAME%%MAP-97% // Heater
-//ItemDisplay[MAG !ID uml]: %NAME%%MAP-97% // Luna
-//ItemDisplay[MAG !ID urg]: %NAME%%MAP-97% // Hyperion
+//ItemDisplay[MAG !ID uuc]: %NAME% // Heater
+//ItemDisplay[MAG !ID uml]: %NAME% // Luna
+//ItemDisplay[MAG !ID urg]: %NAME% // Hyperion
 ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
-//ItemDisplay[MAG !ID upk]: %NAME%%MAP-97% // Blade Barrier
-//ItemDisplay[MAG !ID uow]: %NAME%%MAP-97% // Aegis
-//ItemDisplay[MAG !ID ush]: %NAME%%MAP-97% // Troll Nest
-//ItemDisplay[MAG !ID uts]: %NAME%%MAP-97% // Ward
+//ItemDisplay[MAG !ID upk]: %NAME% // Blade Barrier
+//ItemDisplay[MAG !ID uow]: %NAME% // Aegis
+//ItemDisplay[MAG !ID ush]: %NAME% // Troll Nest
+//ItemDisplay[MAG !ID uts]: %NAME% // Ward
 
 // ------------------------------------------------------------------------------
 // [MIWE] Magic Items Weapons
@@ -3609,283 +3635,283 @@ ItemDisplay[MAG !ID uit]: %NAME%%MAP-97% // Monarch, possible JMOD
 //     [MWAX] Axes
 // ------------------------------------------------------------------------------
 // All Axes
-//ItemDisplay[MAG !ID AXE !THROWING]: %NAME%%MAP-97% // All Axes
-//ItemDisplay[MAG !ID NORM AXE !THROWING]: %NAME%%MAP-97% // All Normal tier Axes
-//ItemDisplay[MAG !ID EXC AXE !THROWING]: %NAME%%MAP-97% // All Exceptional tier Axes
-//ItemDisplay[MAG !ID ELT AXE !THROWING]: %NAME%%MAP-97% // All Elite tier Axes
+//ItemDisplay[MAG !ID AXE !THROWING]: %NAME% // All Axes
+//ItemDisplay[MAG !ID NORM AXE !THROWING]: %NAME% // All Normal tier Axes
+//ItemDisplay[MAG !ID EXC AXE !THROWING]: %NAME% // All Exceptional tier Axes
+//ItemDisplay[MAG !ID ELT AXE !THROWING]: %NAME% // All Elite tier Axes
 
 // Normal tier Axes
 //      1-Handed Axes
-//ItemDisplay[MAG !ID hax]: %NAME%%MAP-97% // Hand Axe
-//ItemDisplay[MAG !ID axe]: %NAME%%MAP-97% // Axe
-//ItemDisplay[MAG !ID 2ax]: %NAME%%MAP-97% // Double Axe
-//ItemDisplay[MAG !ID mpi]: %NAME%%MAP-97% // Military Pick
-//ItemDisplay[MAG !ID wax]: %NAME%%MAP-97% // War Axe
+//ItemDisplay[MAG !ID hax]: %NAME% // Hand Axe
+//ItemDisplay[MAG !ID axe]: %NAME% // Axe
+//ItemDisplay[MAG !ID 2ax]: %NAME% // Double Axe
+//ItemDisplay[MAG !ID mpi]: %NAME% // Military Pick
+//ItemDisplay[MAG !ID wax]: %NAME% // War Axe
 
 //      2-handed Axes
-//ItemDisplay[MAG !ID lax]: %NAME%%MAP-97% // Large Axe
-//ItemDisplay[MAG !ID bax]: %NAME%%MAP-97% // Broad Axe
-//ItemDisplay[MAG !ID btx]: %NAME%%MAP-97% // Battle Axe
-//ItemDisplay[MAG !ID gax]: %NAME%%MAP-97% // Great Axe
-//ItemDisplay[MAG !ID gix]: %NAME%%MAP-97% // Giant Axe
+//ItemDisplay[MAG !ID lax]: %NAME% // Large Axe
+//ItemDisplay[MAG !ID bax]: %NAME% // Broad Axe
+//ItemDisplay[MAG !ID btx]: %NAME% // Battle Axe
+//ItemDisplay[MAG !ID gax]: %NAME% // Great Axe
+//ItemDisplay[MAG !ID gix]: %NAME% // Giant Axe
 
 // Exceptional tier Axes
 //      1-Handed Axes
-//ItemDisplay[MAG !ID 9ha]: %NAME%%MAP-97% // Hatchet
-//ItemDisplay[MAG !ID 9ax]: %NAME%%MAP-97% // Cleaver
-//ItemDisplay[MAG !ID 92a]: %NAME%%MAP-97% // Twin Axe
-//ItemDisplay[MAG !ID 9mp]: %NAME%%MAP-97% // Crowbill
-//ItemDisplay[MAG !ID 9wa]: %NAME%%MAP-97% // Naga
+//ItemDisplay[MAG !ID 9ha]: %NAME% // Hatchet
+//ItemDisplay[MAG !ID 9ax]: %NAME% // Cleaver
+//ItemDisplay[MAG !ID 92a]: %NAME% // Twin Axe
+//ItemDisplay[MAG !ID 9mp]: %NAME% // Crowbill
+//ItemDisplay[MAG !ID 9wa]: %NAME% // Naga
 
 //      2-Handed Axes
-//ItemDisplay[MAG !ID 9la]: %NAME%%MAP-97% // Military Axe
-//ItemDisplay[MAG !ID 9ba]: %NAME%%MAP-97% // Bearded Axe
-//ItemDisplay[MAG !ID 9bt]: %NAME%%MAP-97% // Tabar
-//ItemDisplay[MAG !ID 9ga]: %NAME%%MAP-97% // Gothic Axe
-//ItemDisplay[MAG !ID 9gi]: %NAME%%MAP-97% // Ancient Axe
+//ItemDisplay[MAG !ID 9la]: %NAME% // Military Axe
+//ItemDisplay[MAG !ID 9ba]: %NAME% // Bearded Axe
+//ItemDisplay[MAG !ID 9bt]: %NAME% // Tabar
+//ItemDisplay[MAG !ID 9ga]: %NAME% // Gothic Axe
+//ItemDisplay[MAG !ID 9gi]: %NAME% // Ancient Axe
 
 // Elite tier Axes
 //      1-Handed Axes
-//ItemDisplay[MAG !ID 7ha]: %NAME%%MAP-97% // Tomahawk
-//ItemDisplay[MAG !ID 7ax]: %NAME%%MAP-97% // Small Crescent
-//ItemDisplay[MAG !ID 72a]: %NAME%%MAP-97% // Ettin Axe
-//ItemDisplay[MAG !ID 7mp]: %NAME%%MAP-97% // War Spike
-//ItemDisplay[MAG !ID 7wa]: %NAME%%MAP-97% // Berserker Axe
+//ItemDisplay[MAG !ID 7ha]: %NAME% // Tomahawk
+//ItemDisplay[MAG !ID 7ax]: %NAME% // Small Crescent
+//ItemDisplay[MAG !ID 72a]: %NAME% // Ettin Axe
+//ItemDisplay[MAG !ID 7mp]: %NAME% // War Spike
+//ItemDisplay[MAG !ID 7wa]: %NAME% // Berserker Axe
 
 //      2-Handed Axes
-//ItemDisplay[MAG !ID 7la]: %NAME%%MAP-97% // Feral Axe
-//ItemDisplay[MAG !ID 7ba]: %NAME%%MAP-97% // Silver-Edged Axe
-//ItemDisplay[MAG !ID 7bt]: %NAME%%MAP-97% // Decapitator
-//ItemDisplay[MAG !ID 7ga]: %NAME%%MAP-97% // Champion Axe
-//ItemDisplay[MAG !ID 7gi]: %NAME%%MAP-97% // Glorious Axe
+//ItemDisplay[MAG !ID 7la]: %NAME% // Feral Axe
+//ItemDisplay[MAG !ID 7ba]: %NAME% // Silver-Edged Axe
+//ItemDisplay[MAG !ID 7bt]: %NAME% // Decapitator
+//ItemDisplay[MAG !ID 7ga]: %NAME% // Champion Axe
+//ItemDisplay[MAG !ID 7gi]: %NAME% // Glorious Axe
 
 // ------------------------------------------------------------------------------
 //     [MWBO] Bows
 // ------------------------------------------------------------------------------
 // All Bows
-//ItemDisplay[MAG !ID BOW !ZON]: %NAME%%MAP-97% // All bows
-//ItemDisplay[MAG !ID NORM BOW !ZON]: %NAME%%MAP-97% // All Normal tier Bows
-//ItemDisplay[MAG !ID EXC BOW !ZON]: %NAME%%MAP-97% // All Exceptional tier Bows
-//ItemDisplay[MAG !ID ELT BOW !ZON]: %NAME%%MAP-97% // All Elite tier Bows
+//ItemDisplay[MAG !ID BOW !ZON]: %NAME% // All bows
+//ItemDisplay[MAG !ID NORM BOW !ZON]: %NAME% // All Normal tier Bows
+//ItemDisplay[MAG !ID EXC BOW !ZON]: %NAME% // All Exceptional tier Bows
+//ItemDisplay[MAG !ID ELT BOW !ZON]: %NAME% // All Elite tier Bows
 
 // Normal tier Bows
-//ItemDisplay[MAG !ID sbw]: %NAME%%MAP-97% // Short Bow
-//ItemDisplay[MAG !ID hbw]: %NAME%%MAP-97% // Hunter's Bow
-//ItemDisplay[MAG !ID lbw]: %NAME%%MAP-97% // Long Bow
-//ItemDisplay[MAG !ID cbw]: %NAME%%MAP-97% // Composite Bow
-//ItemDisplay[MAG !ID sbb]: %NAME%%MAP-97% // Short Battle Bow
-//ItemDisplay[MAG !ID lbb]: %NAME%%MAP-97% // Long Battle Bow
-//ItemDisplay[MAG !ID swb]: %NAME%%MAP-97% // Short War Bow
-//ItemDisplay[MAG !ID lwb]: %NAME%%MAP-97% // Long War Bow
+//ItemDisplay[MAG !ID sbw]: %NAME% // Short Bow
+//ItemDisplay[MAG !ID hbw]: %NAME% // Hunter's Bow
+//ItemDisplay[MAG !ID lbw]: %NAME% // Long Bow
+//ItemDisplay[MAG !ID cbw]: %NAME% // Composite Bow
+//ItemDisplay[MAG !ID sbb]: %NAME% // Short Battle Bow
+//ItemDisplay[MAG !ID lbb]: %NAME% // Long Battle Bow
+//ItemDisplay[MAG !ID swb]: %NAME% // Short War Bow
+//ItemDisplay[MAG !ID lwb]: %NAME% // Long War Bow
 
 // Exceptional tier Bows
-//ItemDisplay[MAG !ID 8sb]: %NAME%%MAP-97% // Edge Bow
-//ItemDisplay[MAG !ID 8hb]: %NAME%%MAP-97% // Razor Bow
-//ItemDisplay[MAG !ID 8lb]: %NAME%%MAP-97% // Cedar Bow
-//ItemDisplay[MAG !ID 8cb]: %NAME%%MAP-97% // Double Bow
-//ItemDisplay[MAG !ID 8s8]: %NAME%%MAP-97% // Short Siege Bow
-//ItemDisplay[MAG !ID 8l8]: %NAME%%MAP-97% // Large Siege Bow
-//ItemDisplay[MAG !ID 8sw]: %NAME%%MAP-97% // Rune Bow
-//ItemDisplay[MAG !ID 8lw]: %NAME%%MAP-97% // Gothic Bow
+//ItemDisplay[MAG !ID 8sb]: %NAME% // Edge Bow
+//ItemDisplay[MAG !ID 8hb]: %NAME% // Razor Bow
+//ItemDisplay[MAG !ID 8lb]: %NAME% // Cedar Bow
+//ItemDisplay[MAG !ID 8cb]: %NAME% // Double Bow
+//ItemDisplay[MAG !ID 8s8]: %NAME% // Short Siege Bow
+//ItemDisplay[MAG !ID 8l8]: %NAME% // Large Siege Bow
+//ItemDisplay[MAG !ID 8sw]: %NAME% // Rune Bow
+//ItemDisplay[MAG !ID 8lw]: %NAME% // Gothic Bow
 
 // Elite tier Bows
-//ItemDisplay[MAG !ID 6sb]: %NAME%%MAP-97% // Spider Bow
-//ItemDisplay[MAG !ID 6hb]: %NAME%%MAP-97% // Blade Bow
-//ItemDisplay[MAG !ID 6lb]: %NAME%%MAP-97% // Shadow Bow
-//ItemDisplay[MAG !ID 6cb]: %NAME%%MAP-97% // Great Bow
-//ItemDisplay[MAG !ID 6s7]: %NAME%%MAP-97% // Diamond Bow
-//ItemDisplay[MAG !ID 6l7]: %NAME%%MAP-97% // Crusader Bow
-//ItemDisplay[MAG !ID 6sw]: %NAME%%MAP-97% // Ward Bow
-//ItemDisplay[MAG !ID 6lw]: %NAME%%MAP-97% // Hydra Bow
+//ItemDisplay[MAG !ID 6sb]: %NAME% // Spider Bow
+//ItemDisplay[MAG !ID 6hb]: %NAME% // Blade Bow
+//ItemDisplay[MAG !ID 6lb]: %NAME% // Shadow Bow
+//ItemDisplay[MAG !ID 6cb]: %NAME% // Great Bow
+//ItemDisplay[MAG !ID 6s7]: %NAME% // Diamond Bow
+//ItemDisplay[MAG !ID 6l7]: %NAME% // Crusader Bow
+//ItemDisplay[MAG !ID 6sw]: %NAME% // Ward Bow
+//ItemDisplay[MAG !ID 6lw]: %NAME% // Hydra Bow
 
 // ------------------------------------------------------------------------------
 //     [MWCR] Crossbows
 // ------------------------------------------------------------------------------
 // All Bows
-//ItemDisplay[MAG !ID XBOW]: %NAME%%MAP-97% // All Crossbows
-//ItemDisplay[MAG !ID NORM XBOW]: %NAME%%MAP-97% // All Normal Crossbows
-//ItemDisplay[MAG !ID EXC XBOW]: %NAME%%MAP-97% // All Exceptional Crossbows
-//ItemDisplay[MAG !ID ELT XBOW]: %NAME%%MAP-97% // All Elite Crossbows
+//ItemDisplay[MAG !ID XBOW]: %NAME% // All Crossbows
+//ItemDisplay[MAG !ID NORM XBOW]: %NAME% // All Normal Crossbows
+//ItemDisplay[MAG !ID EXC XBOW]: %NAME% // All Exceptional Crossbows
+//ItemDisplay[MAG !ID ELT XBOW]: %NAME% // All Elite Crossbows
 
 // Normal tier Crossbows
-//ItemDisplay[MAG !ID lxb]: %NAME%%MAP-97% // Light Crossbow
-//ItemDisplay[MAG !ID mxb]: %NAME%%MAP-97% // Crossbow
-//ItemDisplay[MAG !ID hxb]: %NAME%%MAP-97% // Heavy Crossbow
-//ItemDisplay[MAG !ID rxb]: %NAME%%MAP-97% // Repeating Crossbow
+//ItemDisplay[MAG !ID lxb]: %NAME% // Light Crossbow
+//ItemDisplay[MAG !ID mxb]: %NAME% // Crossbow
+//ItemDisplay[MAG !ID hxb]: %NAME% // Heavy Crossbow
+//ItemDisplay[MAG !ID rxb]: %NAME% // Repeating Crossbow
 
 // Exceptional tier Crossbows
-//ItemDisplay[MAG !ID 8lx]: %NAME%%MAP-97% // Arbalest
-//ItemDisplay[MAG !ID 8mx]: %NAME%%MAP-97% // Siege Crossbow
-//ItemDisplay[MAG !ID 8hx]: %NAME%%MAP-97% // Ballista
-//ItemDisplay[MAG !ID 8rx]: %NAME%%MAP-97% // Chu-Ko-Nu
+//ItemDisplay[MAG !ID 8lx]: %NAME% // Arbalest
+//ItemDisplay[MAG !ID 8mx]: %NAME% // Siege Crossbow
+//ItemDisplay[MAG !ID 8hx]: %NAME% // Ballista
+//ItemDisplay[MAG !ID 8rx]: %NAME% // Chu-Ko-Nu
 
 // Elite tier Crossbows
-//ItemDisplay[MAG !ID 6lx]: %NAME%%MAP-97% // Pellet Bow
-//ItemDisplay[MAG !ID 6mx]: %NAME%%MAP-97% // Gorgon Crossbow
-//ItemDisplay[MAG !ID 6hx]: %NAME%%MAP-97% // Colossus Crossbow
-//ItemDisplay[MAG !ID 6rx]: %NAME%%MAP-97% // Demon Crossbow
+//ItemDisplay[MAG !ID 6lx]: %NAME% // Pellet Bow
+//ItemDisplay[MAG !ID 6mx]: %NAME% // Gorgon Crossbow
+//ItemDisplay[MAG !ID 6hx]: %NAME% // Colossus Crossbow
+//ItemDisplay[MAG !ID 6rx]: %NAME% // Demon Crossbow
 
 // ------------------------------------------------------------------------------
 //     [MWDA] Daggers
 // ------------------------------------------------------------------------------
 // All Daggers
-//ItemDisplay[MAG !ID DAGGER !THROWING]: %NAME%%MAP-97% // All Daggers
-//ItemDisplay[MAG !ID NORM DAGGER !THROWING]: %NAME%%MAP-97% // All Normal tier Daggers
-//ItemDisplay[MAG !ID EXC DAGGER !THROWING]: %NAME%%MAP-97% // All Exceptional tier Daggers
-//ItemDisplay[MAG !ID ELT DAGGER !THROWING]: %NAME%%MAP-97% // All Elite tier Daggers
+//ItemDisplay[MAG !ID DAGGER !THROWING]: %NAME% // All Daggers
+//ItemDisplay[MAG !ID NORM DAGGER !THROWING]: %NAME% // All Normal tier Daggers
+//ItemDisplay[MAG !ID EXC DAGGER !THROWING]: %NAME% // All Exceptional tier Daggers
+//ItemDisplay[MAG !ID ELT DAGGER !THROWING]: %NAME% // All Elite tier Daggers
 
 // Normal tier Daggers
-//ItemDisplay[MAG !ID dgr]: %NAME%%MAP-97% // Dagger
-//ItemDisplay[MAG !ID dir]: %NAME%%MAP-97% // Dirk
-//ItemDisplay[MAG !ID kri]: %NAME%%MAP-97% // Kris
-//ItemDisplay[MAG !ID bld]: %NAME%%MAP-97% // Blade
+//ItemDisplay[MAG !ID dgr]: %NAME% // Dagger
+//ItemDisplay[MAG !ID dir]: %NAME% // Dirk
+//ItemDisplay[MAG !ID kri]: %NAME% // Kris
+//ItemDisplay[MAG !ID bld]: %NAME% // Blade
 
 // Exceptional tier Daggers
-//ItemDisplay[MAG !ID 9dg]: %NAME%%MAP-97% // Poignard
-//ItemDisplay[MAG !ID 9di]: %NAME%%MAP-97% // Rondel
-//ItemDisplay[MAG !ID 9kr]: %NAME%%MAP-97% // Cinquedeas
-//ItemDisplay[MAG !ID 9bl]: %NAME%%MAP-97% // Stiletto
+//ItemDisplay[MAG !ID 9dg]: %NAME% // Poignard
+//ItemDisplay[MAG !ID 9di]: %NAME% // Rondel
+//ItemDisplay[MAG !ID 9kr]: %NAME% // Cinquedeas
+//ItemDisplay[MAG !ID 9bl]: %NAME% // Stiletto
 
 // Elite tier Daggers
-//ItemDisplay[MAG !ID 7dg]: %NAME%%MAP-97% // Bone Knife
-//ItemDisplay[MAG !ID 7di]: %NAME%%MAP-97% // Mithril Point
-//ItemDisplay[MAG !ID 7kr]: %NAME%%MAP-97% // Fanged Knife
-//ItemDisplay[MAG !ID 7bl]: %NAME%%MAP-97% // Legend Spike
+//ItemDisplay[MAG !ID 7dg]: %NAME% // Bone Knife
+//ItemDisplay[MAG !ID 7di]: %NAME% // Mithril Point
+//ItemDisplay[MAG !ID 7kr]: %NAME% // Fanged Knife
+//ItemDisplay[MAG !ID 7bl]: %NAME% // Legend Spike
 
 // ------------------------------------------------------------------------------
 //     [MWJA] Javelins
 // ------------------------------------------------------------------------------
 // All Javelins
-//ItemDisplay[MAG !ID SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Javelins
-//ItemDisplay[MAG !ID NORM SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Normal tier Javelins
-//ItemDisplay[MAG !ID EXC SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Exceptional tier Javelins
-//ItemDisplay[MAG !ID ELT SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Elite tier Javelins
+//ItemDisplay[MAG !ID SPEAR THROWING !ZON]: %NAME% // All Javelins
+//ItemDisplay[MAG !ID NORM SPEAR THROWING !ZON]: %NAME% // All Normal tier Javelins
+//ItemDisplay[MAG !ID EXC SPEAR THROWING !ZON]: %NAME% // All Exceptional tier Javelins
+//ItemDisplay[MAG !ID ELT SPEAR THROWING !ZON]: %NAME% // All Elite tier Javelins
 
 // Normal tier Javelins
-//ItemDisplay[MAG !ID jav]: %NAME%%MAP-97% // Javelin
-//ItemDisplay[MAG !ID pil]: %NAME%%MAP-97% // Pilum
-//ItemDisplay[MAG !ID ssp]: %NAME%%MAP-97% // Short Spear
-//ItemDisplay[MAG !ID glv]: %NAME%%MAP-97% // Glaive
-//ItemDisplay[MAG !ID tsp]: %NAME%%MAP-97% // Throwing Spear
+//ItemDisplay[MAG !ID jav]: %NAME% // Javelin
+//ItemDisplay[MAG !ID pil]: %NAME% // Pilum
+//ItemDisplay[MAG !ID ssp]: %NAME% // Short Spear
+//ItemDisplay[MAG !ID glv]: %NAME% // Glaive
+//ItemDisplay[MAG !ID tsp]: %NAME% // Throwing Spear
 
 // Exceptional tier Javelins
-//ItemDisplay[MAG !ID 9ja]: %NAME%%MAP-97% // War Javelin
-//ItemDisplay[MAG !ID 9pi]: %NAME%%MAP-97% // Great Pilum
-//ItemDisplay[MAG !ID 9s9]: %NAME%%MAP-97% // Simbilan
-//ItemDisplay[MAG !ID 9gl]: %NAME%%MAP-97% // Spiculum
-//ItemDisplay[MAG !ID 9ts]: %NAME%%MAP-97% // Harpoon
+//ItemDisplay[MAG !ID 9ja]: %NAME% // War Javelin
+//ItemDisplay[MAG !ID 9pi]: %NAME% // Great Pilum
+//ItemDisplay[MAG !ID 9s9]: %NAME% // Simbilan
+//ItemDisplay[MAG !ID 9gl]: %NAME% // Spiculum
+//ItemDisplay[MAG !ID 9ts]: %NAME% // Harpoon
 
 // Elite tier Javelins
-//ItemDisplay[MAG !ID 7ja]: %NAME%%MAP-97% // Hyperion Javelin
-//ItemDisplay[MAG !ID 7pi]: %NAME%%MAP-97% // Stygian Pilum
-//ItemDisplay[MAG !ID 7s7]: %NAME%%MAP-97% // Balrog Spear
-//ItemDisplay[MAG !ID 7gl]: %NAME%%MAP-97% // Ghost Glaive
-//ItemDisplay[MAG !ID 7ts]: %NAME%%MAP-97% // Winged Harpoon
+//ItemDisplay[MAG !ID 7ja]: %NAME% // Hyperion Javelin
+//ItemDisplay[MAG !ID 7pi]: %NAME% // Stygian Pilum
+//ItemDisplay[MAG !ID 7s7]: %NAME% // Balrog Spear
+//ItemDisplay[MAG !ID 7gl]: %NAME% // Ghost Glaive
+//ItemDisplay[MAG !ID 7ts]: %NAME% // Winged Harpoon
 
 // ------------------------------------------------------------------------------
 //     [MWMA] Maces
 // ------------------------------------------------------------------------------
 // All magic Maces
-//ItemDisplay[MAG !ID MACE]: %NAME%%MAP-97% // All Maces
-//ItemDisplay[MAG !ID NORM MACE]: %NAME%%MAP-97% // All Normal tier Maces
-//ItemDisplay[MAG !ID EXC MACE]: %NAME%%MAP-97% // All Exceptional tier Maces
-//ItemDisplay[MAG !ID ELT MACE]: %NAME%%MAP-97% // All Elite tier Maces
+//ItemDisplay[MAG !ID MACE]: %NAME% // All Maces
+//ItemDisplay[MAG !ID NORM MACE]: %NAME% // All Normal tier Maces
+//ItemDisplay[MAG !ID EXC MACE]: %NAME% // All Exceptional tier Maces
+//ItemDisplay[MAG !ID ELT MACE]: %NAME% // All Elite tier Maces
 
 // Normal tier magic Maces
 //      1-Handed Maces
-//ItemDisplay[MAG !ID clb]: %NAME%%MAP-97% // Club
-//ItemDisplay[MAG !ID spc]: %NAME%%MAP-97% // Spiked Club
-//ItemDisplay[MAG !ID mac]: %NAME%%MAP-97% // Mace
-//ItemDisplay[MAG !ID mst]: %NAME%%MAP-97% // Morning Star
-//ItemDisplay[MAG !ID fla]: %NAME%%MAP-97% // Flail
-//ItemDisplay[MAG !ID whm]: %NAME%%MAP-97% // War Hammer
+//ItemDisplay[MAG !ID clb]: %NAME% // Club
+//ItemDisplay[MAG !ID spc]: %NAME% // Spiked Club
+//ItemDisplay[MAG !ID mac]: %NAME% // Mace
+//ItemDisplay[MAG !ID mst]: %NAME% // Morning Star
+//ItemDisplay[MAG !ID fla]: %NAME% // Flail
+//ItemDisplay[MAG !ID whm]: %NAME% // War Hammer
 
 //      2-Handed Maces
-//ItemDisplay[MAG !ID mau]: %NAME%%MAP-97% // Maul
-//ItemDisplay[MAG !ID gma]: %NAME%%MAP-97% // Great Maul
+//ItemDisplay[MAG !ID mau]: %NAME% // Maul
+//ItemDisplay[MAG !ID gma]: %NAME% // Great Maul
 
 // Exceptional tier magic Maces
 //      1-Handed Maces
-//ItemDisplay[MAG !ID 9cl]: %NAME%%MAP-97% // Cudgel
-//ItemDisplay[MAG !ID 9sp]: %NAME%%MAP-97% // Barbed Club
-//ItemDisplay[MAG !ID 9ma]: %NAME%%MAP-97% // Flanged Mace
-//ItemDisplay[MAG !ID 9mt]: %NAME%%MAP-97% // Jagged Star
-//ItemDisplay[MAG !ID 9fl]: %NAME%%MAP-97% // Knout
-//ItemDisplay[MAG !ID 9wh]: %NAME%%MAP-97% // Battle Hammer
+//ItemDisplay[MAG !ID 9cl]: %NAME% // Cudgel
+//ItemDisplay[MAG !ID 9sp]: %NAME% // Barbed Club
+//ItemDisplay[MAG !ID 9ma]: %NAME% // Flanged Mace
+//ItemDisplay[MAG !ID 9mt]: %NAME% // Jagged Star
+//ItemDisplay[MAG !ID 9fl]: %NAME% // Knout
+//ItemDisplay[MAG !ID 9wh]: %NAME% // Battle Hammer
 
 //      2-Handed Maces
-//ItemDisplay[MAG !ID 9m9]: %NAME%%MAP-97% // War Club
-//ItemDisplay[MAG !ID 9gm]: %NAME%%MAP-97% // Martel de Fer
+//ItemDisplay[MAG !ID 9m9]: %NAME% // War Club
+//ItemDisplay[MAG !ID 9gm]: %NAME% // Martel de Fer
 
 // Elite tier magic Maces
 //      1-Handed Maces
-//ItemDisplay[MAG !ID 7cl]: %NAME%%MAP-97% // Truncheon
-//ItemDisplay[MAG !ID 7sp]: %NAME%%MAP-97% // Tyrant Club
-//ItemDisplay[MAG !ID 7ma]: %NAME%%MAP-97% // Reinforced Mace
-//ItemDisplay[MAG !ID 7mt]: %NAME%%MAP-97% // Devil Star
-//ItemDisplay[MAG !ID 7fl]: %NAME%%MAP-97% // Scourge
-//ItemDisplay[MAG !ID 7wh]: %NAME%%MAP-97% // Legendary Mallet
+//ItemDisplay[MAG !ID 7cl]: %NAME% // Truncheon
+//ItemDisplay[MAG !ID 7sp]: %NAME% // Tyrant Club
+//ItemDisplay[MAG !ID 7ma]: %NAME% // Reinforced Mace
+//ItemDisplay[MAG !ID 7mt]: %NAME% // Devil Star
+//ItemDisplay[MAG !ID 7fl]: %NAME% // Scourge
+//ItemDisplay[MAG !ID 7wh]: %NAME% // Legendary Mallet
 
 //      2-Handed Maces
-//ItemDisplay[MAG !ID 7m7]: %NAME%%MAP-97% // Ogre Maul
-//ItemDisplay[MAG !ID 7gm]: %NAME%%MAP-97% // Thunder Maul
+//ItemDisplay[MAG !ID 7m7]: %NAME% // Ogre Maul
+//ItemDisplay[MAG !ID 7gm]: %NAME% // Thunder Maul
 
 // ------------------------------------------------------------------------------
 //     [MWPO] Polearms
 // ------------------------------------------------------------------------------
 // All magic Polearms
-//ItemDisplay[MAG !ID POLEARM]: %NAME%%MAP-97% // All Polearms
-//ItemDisplay[MAG !ID NORM POLEARM]: %NAME%%MAP-97% // All Normal tier Polearms
-//ItemDisplay[MAG !ID EXC POLEARM]: %NAME%%MAP-97% // All Exceptional tier Polearms
-//ItemDisplay[MAG !ID ELT POLEARM]: %NAME%%MAP-97% // All Elite tier Polearms
+//ItemDisplay[MAG !ID POLEARM]: %NAME% // All Polearms
+//ItemDisplay[MAG !ID NORM POLEARM]: %NAME% // All Normal tier Polearms
+//ItemDisplay[MAG !ID EXC POLEARM]: %NAME% // All Exceptional tier Polearms
+//ItemDisplay[MAG !ID ELT POLEARM]: %NAME% // All Elite tier Polearms
 
 // Normal tier magic Polearms
-//ItemDisplay[MAG !ID bar]: %NAME%%MAP-97% // Bardiche
-//ItemDisplay[MAG !ID vou]: %NAME%%MAP-97% // Voulge
-//ItemDisplay[MAG !ID scy]: %NAME%%MAP-97% // Scythe
-//ItemDisplay[MAG !ID pax]: %NAME%%MAP-97% // Poleaxe
-//ItemDisplay[MAG !ID hal]: %NAME%%MAP-97% // Halberd
-//ItemDisplay[MAG !ID wsc]: %NAME%%MAP-97% // War Scythe
+//ItemDisplay[MAG !ID bar]: %NAME% // Bardiche
+//ItemDisplay[MAG !ID vou]: %NAME% // Voulge
+//ItemDisplay[MAG !ID scy]: %NAME% // Scythe
+//ItemDisplay[MAG !ID pax]: %NAME% // Poleaxe
+//ItemDisplay[MAG !ID hal]: %NAME% // Halberd
+//ItemDisplay[MAG !ID wsc]: %NAME% // War Scythe
 
 // Exceptional tier magic Polearms
-//ItemDisplay[MAG !ID 9b7]: %NAME%%MAP-97% // Lochaber Axe
-//ItemDisplay[MAG !ID 9vo]: %NAME%%MAP-97% // Bill
-//ItemDisplay[MAG !ID 9s8]: %NAME%%MAP-97% // Battle Scythe
-//ItemDisplay[MAG !ID 9pa]: %NAME%%MAP-97% // Partizan
-//ItemDisplay[MAG !ID 9h9]: %NAME%%MAP-97% // Bec-de-Corbin
-//ItemDisplay[MAG !ID 9wc]: %NAME%%MAP-97% // Grim Scythe
+//ItemDisplay[MAG !ID 9b7]: %NAME% // Lochaber Axe
+//ItemDisplay[MAG !ID 9vo]: %NAME% // Bill
+//ItemDisplay[MAG !ID 9s8]: %NAME% // Battle Scythe
+//ItemDisplay[MAG !ID 9pa]: %NAME% // Partizan
+//ItemDisplay[MAG !ID 9h9]: %NAME% // Bec-de-Corbin
+//ItemDisplay[MAG !ID 9wc]: %NAME% // Grim Scythe
 
 // Elite tier magic Polearms
-//ItemDisplay[MAG !ID 7o7]: %NAME%%MAP-97% // Ogre Axe
-//ItemDisplay[MAG !ID 7vo]: %NAME%%MAP-97% // Colossus Voulge
-//ItemDisplay[MAG !ID 7s8]: %NAME%%MAP-97% // Thresher
-//ItemDisplay[MAG !ID 7pa]: %NAME%%MAP-97% // Cryptic Axe
-//ItemDisplay[MAG !ID 7h7]: %NAME%%MAP-97% // Great Poleaxe
-//ItemDisplay[MAG !ID 7wc]: %NAME%%MAP-97% // Giant Thresher
+//ItemDisplay[MAG !ID 7o7]: %NAME% // Ogre Axe
+//ItemDisplay[MAG !ID 7vo]: %NAME% // Colossus Voulge
+//ItemDisplay[MAG !ID 7s8]: %NAME% // Thresher
+//ItemDisplay[MAG !ID 7pa]: %NAME% // Cryptic Axe
+//ItemDisplay[MAG !ID 7h7]: %NAME% // Great Poleaxe
+//ItemDisplay[MAG !ID 7wc]: %NAME% // Giant Thresher
 
 // ------------------------------------------------------------------------------
 //     [MWSC] Scepters
 // ------------------------------------------------------------------------------
 // All magic Scepters
-//ItemDisplay[MAG !ID SCEPTER]: %NAME%%MAP-97% // All Scepters
-//ItemDisplay[MAG !ID NORM SCEPTER]: %NAME%%MAP-97% // All Normal tier Scepters
-//ItemDisplay[MAG !ID EXC SCEPTER]: %NAME%%MAP-97% // All Exceptional tier Scepters
-//ItemDisplay[MAG !ID ELT SCEPTER]: %NAME%%MAP-97% // All Elite tier Scepters
+//ItemDisplay[MAG !ID SCEPTER]: %NAME% // All Scepters
+//ItemDisplay[MAG !ID NORM SCEPTER]: %NAME% // All Normal tier Scepters
+//ItemDisplay[MAG !ID EXC SCEPTER]: %NAME% // All Exceptional tier Scepters
+//ItemDisplay[MAG !ID ELT SCEPTER]: %NAME% // All Elite tier Scepters
 
 // Normal tier magic Scepters
-//ItemDisplay[MAG !ID scp]: %NAME%%MAP-97% // Scepter
-//ItemDisplay[MAG !ID gsc]: %NAME%%MAP-97% // Grand Scepter
-//ItemDisplay[MAG !ID wsp]: %NAME%%MAP-97% // War Scepter
+//ItemDisplay[MAG !ID scp]: %NAME% // Scepter
+//ItemDisplay[MAG !ID gsc]: %NAME% // Grand Scepter
+//ItemDisplay[MAG !ID wsp]: %NAME% // War Scepter
 
 // Exceptional tier magic Scepters
-//ItemDisplay[MAG !ID 9sc]: %NAME%%MAP-97% // Rune Scepter
-//ItemDisplay[MAG !ID 9qs]: %NAME%%MAP-97% // Holy Water Sprinkler
-//ItemDisplay[MAG !ID 9ws]: %NAME%%MAP-97% // Divine Scepter
+//ItemDisplay[MAG !ID 9sc]: %NAME% // Rune Scepter
+//ItemDisplay[MAG !ID 9qs]: %NAME% // Holy Water Sprinkler
+//ItemDisplay[MAG !ID 9ws]: %NAME% // Divine Scepter
 
 // Elite tier magic Scepters
-//ItemDisplay[MAG !ID 7sc]: %NAME%%MAP-97% // Mighty Scepter
-//ItemDisplay[MAG !ID 7qs]: %NAME%%MAP-97% // Seraph Rod
-//ItemDisplay[MAG !ID 7ws]: %NAME%%MAP-97% // Caduceus
+//ItemDisplay[MAG !ID 7sc]: %NAME% // Mighty Scepter
+//ItemDisplay[MAG !ID 7qs]: %NAME% // Seraph Rod
+//ItemDisplay[MAG !ID 7ws]: %NAME% // Caduceus
 
 // Defensive Auras
 //ItemDisplay[MAG !ETH SK100>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Resist Fire
@@ -3930,61 +3956,61 @@ ItemDisplay[MAG !ETH SK371>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-9
 //     [MWSP] Spears
 // ------------------------------------------------------------------------------
 // All magic Spears
-//ItemDisplay[MAG !ID SPEAR !THROWING !ZON]: %NAME%%MAP-97% // All Spears
-//ItemDisplay[MAG !ID NORM SPEAR !THROWING !ZON]: %NAME%%MAP-97% // All Normal tier Spears
-//ItemDisplay[MAG !ID EXC SPEAR !THROWING !ZON]: %NAME%%MAP-97% // All Exceptional tier Spears
-//ItemDisplay[MAG !ID ELT SPEAR !THROWING !ZON]: %NAME%%MAP-97% // All Elite tier Spears
+//ItemDisplay[MAG !ID SPEAR !THROWING !ZON]: %NAME% // All Spears
+//ItemDisplay[MAG !ID NORM SPEAR !THROWING !ZON]: %NAME% // All Normal tier Spears
+//ItemDisplay[MAG !ID EXC SPEAR !THROWING !ZON]: %NAME% // All Exceptional tier Spears
+//ItemDisplay[MAG !ID ELT SPEAR !THROWING !ZON]: %NAME% // All Elite tier Spears
 
 // Normal tier magic Spears
-//ItemDisplay[MAG !ID spr]: %NAME%%MAP-97% // Spear
-//ItemDisplay[MAG !ID tri]: %NAME%%MAP-97% // Trident
-//ItemDisplay[MAG !ID brn]: %NAME%%MAP-97% // Brandistock
-//ItemDisplay[MAG !ID spt]: %NAME%%MAP-97% // Spetum
-//ItemDisplay[MAG !ID pik]: %NAME%%MAP-97% // Pike
+//ItemDisplay[MAG !ID spr]: %NAME% // Spear
+//ItemDisplay[MAG !ID tri]: %NAME% // Trident
+//ItemDisplay[MAG !ID brn]: %NAME% // Brandistock
+//ItemDisplay[MAG !ID spt]: %NAME% // Spetum
+//ItemDisplay[MAG !ID pik]: %NAME% // Pike
 
 // Exceptional tier magic Spears
-//ItemDisplay[MAG !ID 9sr]: %NAME%%MAP-97% // War Spear
-//ItemDisplay[MAG !ID 9tr]: %NAME%%MAP-97% // Fuscina
-//ItemDisplay[MAG !ID 9br]: %NAME%%MAP-97% // War Fork
-//ItemDisplay[MAG !ID 9st]: %NAME%%MAP-97% // Yari
-//ItemDisplay[MAG !ID 9p9]: %NAME%%MAP-97% // Lance
+//ItemDisplay[MAG !ID 9sr]: %NAME% // War Spear
+//ItemDisplay[MAG !ID 9tr]: %NAME% // Fuscina
+//ItemDisplay[MAG !ID 9br]: %NAME% // War Fork
+//ItemDisplay[MAG !ID 9st]: %NAME% // Yari
+//ItemDisplay[MAG !ID 9p9]: %NAME% // Lance
 
 // Elite tier magic Spears
-//ItemDisplay[MAG !ID 7sr]: %NAME%%MAP-97% // Hyperion Spear
-//ItemDisplay[MAG !ID 7tr]: %NAME%%MAP-97% // Stygian Pike
-//ItemDisplay[MAG !ID 7br]: %NAME%%MAP-97% // Mancatcher
-//ItemDisplay[MAG !ID 7st]: %NAME%%MAP-97% // Ghost Spear
-//ItemDisplay[MAG !ID 7p7]: %NAME%%MAP-97% // War Pike
+//ItemDisplay[MAG !ID 7sr]: %NAME% // Hyperion Spear
+//ItemDisplay[MAG !ID 7tr]: %NAME% // Stygian Pike
+//ItemDisplay[MAG !ID 7br]: %NAME% // Mancatcher
+//ItemDisplay[MAG !ID 7st]: %NAME% // Ghost Spear
+//ItemDisplay[MAG !ID 7p7]: %NAME% // War Pike
 
 // ------------------------------------------------------------------------------
 //     [MWST] Staves
 // ------------------------------------------------------------------------------
 // All magic Staves
-//ItemDisplay[MAG !ID STAFF]: %NAME%%MAP-97% // All Staves
-//ItemDisplay[MAG !ID NORM STAFF]: %NAME%%MAP-97% // All Normal tier Staves
-//ItemDisplay[MAG !ID EXC STAFF]: %NAME%%MAP-97% // All Exceptional tier Staves
-//ItemDisplay[MAG !ID ELT STAFF]: %NAME%%MAP-97% // All Elite tier Staves
+//ItemDisplay[MAG !ID STAFF]: %NAME% // All Staves
+//ItemDisplay[MAG !ID NORM STAFF]: %NAME% // All Normal tier Staves
+//ItemDisplay[MAG !ID EXC STAFF]: %NAME% // All Exceptional tier Staves
+//ItemDisplay[MAG !ID ELT STAFF]: %NAME% // All Elite tier Staves
 
 // Normal tier magic Staves
-//ItemDisplay[MAG !ID sst]: %NAME%%MAP-97% // Short Staff
-//ItemDisplay[MAG !ID lst]: %NAME%%MAP-97% // Long Staff
-//ItemDisplay[MAG !ID cst]: %NAME%%MAP-97% // Gnarled Staff
-//ItemDisplay[MAG !ID bst]: %NAME%%MAP-97% // Battle Staff
-//ItemDisplay[MAG !ID wst]: %NAME%%MAP-97% // War Staff
+//ItemDisplay[MAG !ID sst]: %NAME% // Short Staff
+//ItemDisplay[MAG !ID lst]: %NAME% // Long Staff
+//ItemDisplay[MAG !ID cst]: %NAME% // Gnarled Staff
+//ItemDisplay[MAG !ID bst]: %NAME% // Battle Staff
+//ItemDisplay[MAG !ID wst]: %NAME% // War Staff
 
 // Exceptional tier magic Staves
-//ItemDisplay[MAG !ID 8ss]: %NAME%%MAP-97% // Jo Staff
-//ItemDisplay[MAG !ID 8ls]: %NAME%%MAP-97% // Quarterstaff
-//ItemDisplay[MAG !ID 8cs]: %NAME%%MAP-97% // Cedar Staff
-//ItemDisplay[MAG !ID 8bs]: %NAME%%MAP-97% // Gothic Staff
-//ItemDisplay[MAG !ID 8ws]: %NAME%%MAP-97% // Rune Staff
+//ItemDisplay[MAG !ID 8ss]: %NAME% // Jo Staff
+//ItemDisplay[MAG !ID 8ls]: %NAME% // Quarterstaff
+//ItemDisplay[MAG !ID 8cs]: %NAME% // Cedar Staff
+//ItemDisplay[MAG !ID 8bs]: %NAME% // Gothic Staff
+//ItemDisplay[MAG !ID 8ws]: %NAME% // Rune Staff
 
 // Elite tier magic Staves
-//ItemDisplay[MAG !ID 6ss]: %NAME%%MAP-97% // Walking Stick
-//ItemDisplay[MAG !ID 6ls]: %NAME%%MAP-97% // Stalagmite
-//ItemDisplay[MAG !ID 6cs]: %NAME%%MAP-97% // Elder Staff
-//ItemDisplay[MAG !ID 6bs]: %NAME%%MAP-97% // Shillelagh
-//ItemDisplay[MAG !ID 6ws]: %NAME%%MAP-97% // Archon Staff
+//ItemDisplay[MAG !ID 6ss]: %NAME% // Walking Stick
+//ItemDisplay[MAG !ID 6ls]: %NAME% // Stalagmite
+//ItemDisplay[MAG !ID 6cs]: %NAME% // Elder Staff
+//ItemDisplay[MAG !ID 6bs]: %NAME% // Shillelagh
+//ItemDisplay[MAG !ID 6ws]: %NAME% // Archon Staff
 
 // Cold
 //ItemDisplay[MAG SK39>2 STAFF]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Ice Bolt
@@ -4029,121 +4055,121 @@ ItemDisplay[MAG SK376>2 STAFF]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // C
 //     [MWSW] Swords
 // ------------------------------------------------------------------------------
 // All magic Swords
-//ItemDisplay[MAG !ID SWORD]: %NAME%%MAP-97% // All Swords
-//ItemDisplay[MAG !ID NORM SWORD]: %NAME%%MAP-97% // All Normal tier Swords
-//ItemDisplay[MAG !ID EXC SWORD]: %NAME%%MAP-97% // All Exceptional tier Swords
-//ItemDisplay[MAG !ID ELT SWORD]: %NAME%%MAP-97% // All Elite tier Swords
+//ItemDisplay[MAG !ID SWORD]: %NAME% // All Swords
+//ItemDisplay[MAG !ID NORM SWORD]: %NAME% // All Normal tier Swords
+//ItemDisplay[MAG !ID EXC SWORD]: %NAME% // All Exceptional tier Swords
+//ItemDisplay[MAG !ID ELT SWORD]: %NAME% // All Elite tier Swords
 
 // Normal tier magic Swords
 //      1-Handed Swords
-//ItemDisplay[MAG !ID ssd]: %NAME%%MAP-97% // Short Sword
-//ItemDisplay[MAG !ID scm]: %NAME%%MAP-97% // Scimitar
-//ItemDisplay[MAG !ID sbr]: %NAME%%MAP-97% // Sabre
-//ItemDisplay[MAG !ID flc]: %NAME%%MAP-97% // Falchion
-//ItemDisplay[MAG !ID crs]: %NAME%%MAP-97% // Crystal Sword
-//ItemDisplay[MAG !ID bsd]: %NAME%%MAP-97% // Broad Sword
-//ItemDisplay[MAG !ID lsd]: %NAME%%MAP-97% // Long Sword
-//ItemDisplay[MAG !ID wsd]: %NAME%%MAP-97% // War Sword
+//ItemDisplay[MAG !ID ssd]: %NAME% // Short Sword
+//ItemDisplay[MAG !ID scm]: %NAME% // Scimitar
+//ItemDisplay[MAG !ID sbr]: %NAME% // Sabre
+//ItemDisplay[MAG !ID flc]: %NAME% // Falchion
+//ItemDisplay[MAG !ID crs]: %NAME% // Crystal Sword
+//ItemDisplay[MAG !ID bsd]: %NAME% // Broad Sword
+//ItemDisplay[MAG !ID lsd]: %NAME% // Long Sword
+//ItemDisplay[MAG !ID wsd]: %NAME% // War Sword
 
 //      2-Handed Swords
-//ItemDisplay[MAG !ID 2hs]: %NAME%%MAP-97% // Two-handed Sword
-//ItemDisplay[MAG !ID clm]: %NAME%%MAP-97% // Claymore
-//ItemDisplay[MAG !ID gis]: %NAME%%MAP-97% // Giant Sword
-//ItemDisplay[MAG !ID bsw]: %NAME%%MAP-97% // Bastard Sword
-//ItemDisplay[MAG !ID flb]: %NAME%%MAP-97% // Flamberge
-//ItemDisplay[MAG !ID gsd]: %NAME%%MAP-97% // Great Sword
+//ItemDisplay[MAG !ID 2hs]: %NAME% // Two-handed Sword
+//ItemDisplay[MAG !ID clm]: %NAME% // Claymore
+//ItemDisplay[MAG !ID gis]: %NAME% // Giant Sword
+//ItemDisplay[MAG !ID bsw]: %NAME% // Bastard Sword
+//ItemDisplay[MAG !ID flb]: %NAME% // Flamberge
+//ItemDisplay[MAG !ID gsd]: %NAME% // Great Sword
 
 // Exceptional tier magic Swords
 //      1-Handed Swords
-//ItemDisplay[MAG !ID 9ss]: %NAME%%MAP-97% // Gladius
-//ItemDisplay[MAG !ID 9sm]: %NAME%%MAP-97% // Cutlass
-//ItemDisplay[MAG !ID 9sb]: %NAME%%MAP-97% // Shamshir
-//ItemDisplay[MAG !ID 9fc]: %NAME%%MAP-97% // Tulwar
-//ItemDisplay[MAG !ID 9cr]: %NAME%%MAP-97% // Dimensional Blade
-//ItemDisplay[MAG !ID 9bs]: %NAME%%MAP-97% // Battle Sword
-//ItemDisplay[MAG !ID 9ls]: %NAME%%MAP-97% // Rune Sword
-//ItemDisplay[MAG !ID 9wd]: %NAME%%MAP-97% // Ancient Sword
+//ItemDisplay[MAG !ID 9ss]: %NAME% // Gladius
+//ItemDisplay[MAG !ID 9sm]: %NAME% // Cutlass
+//ItemDisplay[MAG !ID 9sb]: %NAME% // Shamshir
+//ItemDisplay[MAG !ID 9fc]: %NAME% // Tulwar
+//ItemDisplay[MAG !ID 9cr]: %NAME% // Dimensional Blade
+//ItemDisplay[MAG !ID 9bs]: %NAME% // Battle Sword
+//ItemDisplay[MAG !ID 9ls]: %NAME% // Rune Sword
+//ItemDisplay[MAG !ID 9wd]: %NAME% // Ancient Sword
 
 //      2-Handed Swords
-//ItemDisplay[MAG !ID 92h]: %NAME%%MAP-97% // Espandon
-//ItemDisplay[MAG !ID 9cm]: %NAME%%MAP-97% // Dacian Falx
-//ItemDisplay[MAG !ID 9gs]: %NAME%%MAP-97% // Tusk Sword
-//ItemDisplay[MAG !ID 9b9]: %NAME%%MAP-97% // Gothic Sword
-//ItemDisplay[MAG !ID 9fb]: %NAME%%MAP-97% // Zweihander
-//ItemDisplay[MAG !ID 9gd]: %NAME%%MAP-97% // Executioner Sword
+//ItemDisplay[MAG !ID 92h]: %NAME% // Espandon
+//ItemDisplay[MAG !ID 9cm]: %NAME% // Dacian Falx
+//ItemDisplay[MAG !ID 9gs]: %NAME% // Tusk Sword
+//ItemDisplay[MAG !ID 9b9]: %NAME% // Gothic Sword
+//ItemDisplay[MAG !ID 9fb]: %NAME% // Zweihander
+//ItemDisplay[MAG !ID 9gd]: %NAME% // Executioner Sword
 
 // Elite tier magic Swords
 //      1-Handed Swords
-//ItemDisplay[MAG !ID 7ss]: %NAME%%MAP-97% // Falcata
-//ItemDisplay[MAG !ID 7sm]: %NAME%%MAP-97% // Ataghan
-//ItemDisplay[MAG !ID 7sb]: %NAME%%MAP-97% // Elegant Blade
-//ItemDisplay[MAG !ID 7fc]: %NAME%%MAP-97% // Hydra Edge
-//ItemDisplay[MAG !ID 7cr]: %NAME%%MAP-97% // Phase Blade
-//ItemDisplay[MAG !ID 7bs]: %NAME%%MAP-97% // Conquest Sword
-//ItemDisplay[MAG !ID 7ls]: %NAME%%MAP-97% // Cryptic Sword
-//ItemDisplay[MAG !ID 7wd]: %NAME%%MAP-97% // Mythical Sword
+//ItemDisplay[MAG !ID 7ss]: %NAME% // Falcata
+//ItemDisplay[MAG !ID 7sm]: %NAME% // Ataghan
+//ItemDisplay[MAG !ID 7sb]: %NAME% // Elegant Blade
+//ItemDisplay[MAG !ID 7fc]: %NAME% // Hydra Edge
+//ItemDisplay[MAG !ID 7cr]: %NAME% // Phase Blade
+//ItemDisplay[MAG !ID 7bs]: %NAME% // Conquest Sword
+//ItemDisplay[MAG !ID 7ls]: %NAME% // Cryptic Sword
+//ItemDisplay[MAG !ID 7wd]: %NAME% // Mythical Sword
 
 //      2-Handed Swords
-//ItemDisplay[MAG !ID 72h]: %NAME%%MAP-97% // Legend Sword
-//ItemDisplay[MAG !ID 7cm]: %NAME%%MAP-97% // Highland Blade
-//ItemDisplay[MAG !ID 7gs]: %NAME%%MAP-97% // Balrog Blade
-//ItemDisplay[MAG !ID 7b7]: %NAME%%MAP-97% // Champion Sword
-//ItemDisplay[MAG !ID 7fb]: %NAME%%MAP-97% // Colossus Sword
-//ItemDisplay[MAG !ID 7gd]: %NAME%%MAP-97% // Colossus Blade
+//ItemDisplay[MAG !ID 72h]: %NAME% // Legend Sword
+//ItemDisplay[MAG !ID 7cm]: %NAME% // Highland Blade
+//ItemDisplay[MAG !ID 7gs]: %NAME% // Balrog Blade
+//ItemDisplay[MAG !ID 7b7]: %NAME% // Champion Sword
+//ItemDisplay[MAG !ID 7fb]: %NAME% // Colossus Sword
+//ItemDisplay[MAG !ID 7gd]: %NAME% // Colossus Blade
 
 // ------------------------------------------------------------------------------
 //     [MWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
 // All magic Throwing Weapons
-//ItemDisplay[MAG !ID !SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Throwing Weapons
-//ItemDisplay[MAG !ID NORM !SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Normal tier Throwing Weapons
-//ItemDisplay[MAG !ID EXC !SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Exceptional tier Throwing Weapons
-//ItemDisplay[MAG !ID ELT !SPEAR THROWING !ZON]: %NAME%%MAP-97% // All Elite tier Throwing Weapons
+//ItemDisplay[MAG !ID !SPEAR THROWING !ZON]: %NAME% // All Throwing Weapons
+//ItemDisplay[MAG !ID NORM !SPEAR THROWING !ZON]: %NAME% // All Normal tier Throwing Weapons
+//ItemDisplay[MAG !ID EXC !SPEAR THROWING !ZON]: %NAME% // All Exceptional tier Throwing Weapons
+//ItemDisplay[MAG !ID ELT !SPEAR THROWING !ZON]: %NAME% // All Elite tier Throwing Weapons
 
 // Normal tier magic Throwing Weapons
-//ItemDisplay[MAG !ID tkf]: %NAME%%MAP-97% // Throwing Knife
-//ItemDisplay[MAG !ID bkf]: %NAME%%MAP-97% // Balanced Knife
-//ItemDisplay[MAG !ID tax]: %NAME%%MAP-97% // Throwing Axe
-//ItemDisplay[MAG !ID bal]: %NAME%%MAP-97% // Balanced Axe
+//ItemDisplay[MAG !ID tkf]: %NAME% // Throwing Knife
+//ItemDisplay[MAG !ID bkf]: %NAME% // Balanced Knife
+//ItemDisplay[MAG !ID tax]: %NAME% // Throwing Axe
+//ItemDisplay[MAG !ID bal]: %NAME% // Balanced Axe
 
 // Exceptional tier magic Throwing Weapons
-//ItemDisplay[MAG !ID 9tk]: %NAME%%MAP-97% // Battle Dart
-//ItemDisplay[MAG !ID 9bk]: %NAME%%MAP-97% // War Dart
-//ItemDisplay[MAG !ID 9ta]: %NAME%%MAP-97% // Francisca
-//ItemDisplay[MAG !ID 9b8]: %NAME%%MAP-97% // Hurlbat
+//ItemDisplay[MAG !ID 9tk]: %NAME% // Battle Dart
+//ItemDisplay[MAG !ID 9bk]: %NAME% // War Dart
+//ItemDisplay[MAG !ID 9ta]: %NAME% // Francisca
+//ItemDisplay[MAG !ID 9b8]: %NAME% // Hurlbat
 
 // Elite tier magic Throwing Weapons
-//ItemDisplay[MAG !ID 7tk]: %NAME%%MAP-97% // Flying Knife
-//ItemDisplay[MAG !ID 7bk]: %NAME%%MAP-97% // Winged Knife
-//ItemDisplay[MAG !ID 7ta]: %NAME%%MAP-97% // Flying Axe
-//ItemDisplay[MAG !ID 7b8]: %NAME%%MAP-97% // Winged Axe
+//ItemDisplay[MAG !ID 7tk]: %NAME% // Flying Knife
+//ItemDisplay[MAG !ID 7bk]: %NAME% // Winged Knife
+//ItemDisplay[MAG !ID 7ta]: %NAME% // Flying Axe
+//ItemDisplay[MAG !ID 7b8]: %NAME% // Winged Axe
 
 // ------------------------------------------------------------------------------
 //     [MWWA] Wands
 // ------------------------------------------------------------------------------
 // All magic Wands
-//ItemDisplay[MAG !ID WAND]: %NAME%%MAP-97% // All Wands
-//ItemDisplay[MAG !ID NORM WAND]: %NAME%%MAP-97% // All Normal tier Wands
-//ItemDisplay[MAG !ID EXC WAND]: %NAME%%MAP-97% // All Exceptional tier Wands
-//ItemDisplay[MAG !ID ELT WAND]: %NAME%%MAP-97% // All Elite tier Wands
+//ItemDisplay[MAG !ID WAND]: %NAME% // All Wands
+//ItemDisplay[MAG !ID NORM WAND]: %NAME% // All Normal tier Wands
+//ItemDisplay[MAG !ID EXC WAND]: %NAME% // All Exceptional tier Wands
+//ItemDisplay[MAG !ID ELT WAND]: %NAME% // All Elite tier Wands
 
 // Normal tier magic Wands
-//ItemDisplay[MAG !ID wnd]: %NAME%%MAP-97% // Wand
-//ItemDisplay[MAG !ID ywn]: %NAME%%MAP-97% // Yew Wand
-//ItemDisplay[MAG !ID bwn]: %NAME%%MAP-97% // Bone Wand
-//ItemDisplay[MAG !ID gwn]: %NAME%%MAP-97% // Grim Wand
+//ItemDisplay[MAG !ID wnd]: %NAME% // Wand
+//ItemDisplay[MAG !ID ywn]: %NAME% // Yew Wand
+//ItemDisplay[MAG !ID bwn]: %NAME% // Bone Wand
+//ItemDisplay[MAG !ID gwn]: %NAME% // Grim Wand
 
 // Exceptional tier magic Wands
-//ItemDisplay[MAG !ID 9wn]: %NAME%%MAP-97% // Burnt Wand
-//ItemDisplay[MAG !ID 9yw]: %NAME%%MAP-97% // Petrified Wand
-//ItemDisplay[MAG !ID 9bw]: %NAME%%MAP-97% // Tomb Wand
-//ItemDisplay[MAG !ID 9gw]: %NAME%%MAP-97% // Grave Wand
+//ItemDisplay[MAG !ID 9wn]: %NAME% // Burnt Wand
+//ItemDisplay[MAG !ID 9yw]: %NAME% // Petrified Wand
+//ItemDisplay[MAG !ID 9bw]: %NAME% // Tomb Wand
+//ItemDisplay[MAG !ID 9gw]: %NAME% // Grave Wand
 
 // Elite tier magic Wands
-//ItemDisplay[MAG !ID 7wn]: %NAME%%MAP-97% // Polished Wand
-//ItemDisplay[MAG !ID 7yw]: %NAME%%MAP-97% // Ghost Wand
-//ItemDisplay[MAG !ID 7bw]: %NAME%%MAP-97% // Lich Wand
-//ItemDisplay[MAG !ID 7gw]: %NAME%%MAP-97% // Unearthed Wand
+//ItemDisplay[MAG !ID 7wn]: %NAME% // Polished Wand
+//ItemDisplay[MAG !ID 7yw]: %NAME% // Ghost Wand
+//ItemDisplay[MAG !ID 7bw]: %NAME% // Lich Wand
+//ItemDisplay[MAG !ID 7gw]: %NAME% // Unearthed Wand
 
 // Curses
 ItemDisplay[MAG SK66>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Amplify Damage
@@ -4195,7 +4221,7 @@ ItemDisplay[MAG !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %BLUE%%NAME% // Normal di
 // [MIMA] Magic Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG !ID CLVL<30]: %NAME% // Show all magics until level 29
-ItemDisplay[MAG !ID CLVL>29]: %NAME% // At level 30+, stop notifying for all magics, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted magics at level 40+
+ItemDisplay[MAG !ID CLVL>29]: //%NAME% // At level 30+, stop showing and notifying for all magics, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show unwanted magics at level 30+
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -4234,7 +4260,7 @@ ItemDisplay[GOLD<5000 CLVL>79]: // Hide 5000 gold and less if level 80+
 // ------------------------------------------------------------------------------
 //    [BCKE] Keys
 // ------------------------------------------------------------------------------
-//ItemDisplay[key]: %NAME%%DOT-97% // Consider uncommenting for Lower Kurast Runs
+//ItemDisplay[key]: %NAME% // Consider uncommenting for Lower Kurast Runs
 
 // ------------------------------------------------------------------------------
 //    [BCPO] Potions
@@ -4979,119 +5005,119 @@ ItemDisplay[NMAG !INF !RW SK94>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fire Gol
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Paladin Shields, leave these alone if you want to display possible runewords on base Paladin Shields
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 RES>34 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Paladin shields, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 RES>34 DIN]: %NAME%{%TAN%Larzuk for sockets}%CONTINUE% // All Paladin shields, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 RES>34 DIN]: %NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 RES>34 DIN]: %NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 DIN]: %NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 4os
+ItemDisplay[NMAG !INF !RW !SUP SOCK=0 RES>20 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Paladin shields, 0os, Non-Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=0 RES>20 DIN]: %NAME%{%TAN%Larzuk for sockets}%CONTINUE% // All Paladin shields, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 DIN]: %NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 DIN]: %NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN]: %NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 4os
 
 ItemDisplay[NMAG !INF !RW CLVL<30 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Paladin shields until character level 30
 
 // These are generic lines for showing all Paladin shields of a certain tier and certain conditions (sockets, superior, and/or ethereal)
 // Please note all shields must have 35%+ to all res
 // --- All tiers Paladin shields, 35%+ res
-ItemDisplay[NMAG !INF !RW SOCK=0 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=2 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, all variants
-ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, all variants
+ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, all variants
+ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, all variants
 
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Non-Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Non-Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Eth
 
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Superior, Eth
 
 // --- Normal tier Paladin shields, 35%+ res
-//ItemDisplay[NMAG !INF !RW SOCK=0 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=2 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, all variants
 
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Eth
 
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Superior, Eth
 
 // --- Exceptional tier Paladin shields, 35%+ res
-//ItemDisplay[NMAG !INF !RW SOCK=0 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=2 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, all variants
 
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Eth
 
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Superior, Eth
 
 // --- Elite tier Paladin shields, 35%+ res
-//ItemDisplay[NMAG !INF !RW SOCK=0 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=2 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=4 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, all variants
 
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Eth
 
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>34 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Superior, Eth
 
 // ------------------------------------------------------------------------------
 //    [BCSO] Sorceress
@@ -9179,12 +9205,12 @@ ItemDisplay[NMAG !INF !RW SOCK=6 XBOW]: %NAME%{%ORANGE%Breath of the Dying, Sile
 //ItemDisplay[NMAG !INF !RW SOCK=5 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 5os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=6 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 6os, all variants
 
-//ItemDisplay[NMAG !INF !RW SUP SOCK=0 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=0 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP SOCK=2 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP SOCK=3 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 3os, Superior
-//ItemDisplay[NMAG !INF !RW SUP SOCK=4 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=4 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP SOCK=5 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 5os, Superior
-//ItemDisplay[NMAG !INF !RW SUP SOCK=6 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 6os, Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=6 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 6os, Superior
 
 // ------ Demon Crossbow
 //ItemDisplay[NMAG !INF !RW SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 0os, all variants
@@ -9193,10 +9219,10 @@ ItemDisplay[NMAG !INF !RW SOCK=6 XBOW]: %NAME%{%ORANGE%Breath of the Dying, Sile
 //ItemDisplay[NMAG !INF !RW SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 4os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=5 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 5os, all variants
 
-//ItemDisplay[NMAG !INF !RW SUP SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 0os, Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP SOCK=2 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP SOCK=3 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 3os, Superior
-//ItemDisplay[NMAG !INF !RW SUP SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 4os, Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP SOCK=5 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 5os, Superior
 
 // ------------------------------------------------------------------------------
@@ -9405,9 +9431,9 @@ ItemDisplay[NMAG CLVL>20 7di]: // This will completely hide all white Mithril Po
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Superior, Non-Eth
 
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, Eth
@@ -13790,5 +13816,4 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %
 // [BIMA] Base Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
-ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL>29]: %NAME%{%NAME%} // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted base items
-// Please note if you comment out %NAME% it will hide things such as Keys, Scrolls, etc unless you have a line up above for them.
+ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL>29]: {%NAME%} // At level 30+, stop showing and notifying for all base items and only show/notify for the ones uncommented above. Add %NAME% before {%NAME%} in this line to show all base items
