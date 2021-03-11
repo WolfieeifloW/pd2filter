@@ -1,8 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**My filters will be ready for Season 2. I will push updates today before the launch (Thursday, March 11, 2021) around 12PM EST!**
-
-If you are playing in the beta and wish to have the beta updates on your filter please head to my [Beta Branch](https://github.com/WolfieeifloW/pd2filter/tree/beta) and grab the newest versions from there!
+**Filters are updated for Season 2 since Thursday, March 11, 2021 2:37PM EST!**
 
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).
 
@@ -32,7 +30,7 @@ Ensure you have opened the PD2 Launcher (as Administrator) and clicked Play. Thi
 1. CTRL+Click (will open in a new tab) the link on that filter which will take you to the raw code for that version
 1. Copy all of the code (press CTRL+A to select all than CTRL+C to copy)
 1. Open your text editor (Notepad, Notepad++, etc) as Administrator (CTRL+click [HERE](https://i.imgur.com/Yy5qyc3.png) for image of how-to)
-1. With your text editor open the **default.filter** file in your ProjectD2 folder
+1. With your text editor open the **default.filter** file (or **loot.filter** if you have that file) in your ProjectD2 folder
    1. Make sure in Notepad you change the drop-down above the Open button to `All Files (*)` (CTRL+click [HERE](https://i.imgur.com/yjXlWme.png) for image of how-to)
 1. Paste the code you copied, overwriting everything in there
 1. Go to File -> Save (NOT Save As), overwrite, and then close the file
