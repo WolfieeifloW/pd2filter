@@ -1641,10 +1641,10 @@ ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN]: %NAME%{%ORANGE%Exile, Phoenix, Spi
 
 ItemDisplay[NMAG !INF !RW CLVL<30 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Paladin shields until character level 30
 
-ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, all variants
-ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, all variants
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Non-Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Non-Eth
+ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 20%+ res, all variants
+ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 20%+ res, all variants
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 20%+ res, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 20%+ res, Non-Eth
 
 // ------------------------------------------------------------------------------
 //    [BCSO] Sorceress

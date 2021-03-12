@@ -5035,110 +5035,110 @@ ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN]: %NAME%{%ORANGE%Exile, Phoenix, Spi
 ItemDisplay[NMAG !INF !RW CLVL<30 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Paladin shields until character level 30
 
 // These are generic lines for showing all Paladin shields of a certain tier and certain conditions (sockets, superior, and/or ethereal)
-// Please note all shields must have 35%+ to all res
-// --- All tiers Paladin shields, 35%+ res
-ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, all variants
-ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, all variants
+// Please note all shields must have 20%+ to all res
+// --- All tiers Paladin shields, 20%+ res
+ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 20%+ res, all variants
+ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 20%+ res, all variants
 
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Non-Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Non-Eth
-ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 20%+ res, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 20%+ res, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 20%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 20%+ res, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 20%+ res, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 20%+ res, Eth
 
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 2os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 3os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 20%+ res, Superior, Eth
 
-// --- Normal tier Paladin shields, 35%+ res
-//ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, all variants
+// --- Normal tier Paladin shields, 20%+ res
+//ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 20%+ res, all variants
 
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 20%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 20%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 20%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 20%+ res, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 20%+ res, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 20%+ res, Eth
 
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 0os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 2os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 3os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 NORM DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Normal tier Paladin shields, 4os, 20%+ res, Superior, Eth
 
-// --- Exceptional tier Paladin shields, 35%+ res
-//ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, all variants
+// --- Exceptional tier Paladin shields, 20%+ res
+//ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 20%+ res, all variants
 
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 20%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 20%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 20%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 20%+ res, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 20%+ res, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 20%+ res, Eth
 
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 0os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 2os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 3os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 EXC DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Exceptional tier Paladin shields, 4os, 20%+ res, Superior, Eth
 
-// --- Elite tier Paladin shields, 35%+ res
-//ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, all variants
+// --- Elite tier Paladin shields, 20%+ res
+//ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 20%+ res, all variants
+//ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 20%+ res, all variants
 
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Non-Eth
-//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 20%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 20%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 20%+ res, Non-Eth
+//ItemDisplay[NMAG !INF !RW !ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 20%+ res, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 20%+ res, Superior, Non-Eth
+//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 20%+ res, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 20%+ res, Eth
+//ItemDisplay[NMAG !INF !RW ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 20%+ res, Eth
 
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 35%+ res, Superior, Eth
-//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 35%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 0os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 2os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=3 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 3os, 20%+ res, Superior, Eth
+//ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 RES>20 ELT DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Paladin shields, 4os, 20%+ res, Superior, Eth
 
 // ------------------------------------------------------------------------------
 //    [BCSO] Sorceress

@@ -1621,18 +1621,18 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK381>2 NEC]: %NAME% %GRAY%[%BLUE%+3 D
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK381>2 NEC]: %NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:} // All tiers, 2os, Non-Eth
 
 //      Base Paladin Shields
-// Showing resist on item name (eg "Targe [+35]")
-ItemDisplay[NMAG !INF !RW RES=35 DIN]: %NAME%%GRAY% [%PURPLE%+35%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=36 DIN]: %NAME%%GRAY% [%PURPLE%+36%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=37 DIN]: %NAME%%GRAY% [%PURPLE%+37%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=38 DIN]: %NAME%%GRAY% [%PURPLE%+38%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=39 DIN]: %NAME%%GRAY% [%PURPLE%+39%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=40 DIN]: %NAME%%GRAY% [%PURPLE%+40%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=41 DIN]: %NAME%%GRAY% [%PURPLE%+41%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=42 DIN]: %NAME%%GRAY% [%PURPLE%+42%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=43 DIN]: %NAME%%GRAY% [%PURPLE%+43%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=44 DIN]: %NAME%%GRAY% [%PURPLE%+44%GRAY%]%CONTINUE%
-ItemDisplay[NMAG !INF !RW RES=45 DIN]: %NAME%%GRAY% [%PURPLE%+45%GRAY%]%CONTINUE%
+// Showing resist on item name (eg "Targe [+25]")
+ItemDisplay[NMAG !INF !RW RES=20 DIN]: %NAME%%GRAY% [%PURPLE%+20%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=21 DIN]: %NAME%%GRAY% [%PURPLE%+21%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=22 DIN]: %NAME%%GRAY% [%PURPLE%+22%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=23 DIN]: %NAME%%GRAY% [%PURPLE%+23%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=24 DIN]: %NAME%%GRAY% [%PURPLE%+24%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=25 DIN]: %NAME%%GRAY% [%PURPLE%+25%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=26 DIN]: %NAME%%GRAY% [%PURPLE%+26%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=27 DIN]: %NAME%%GRAY% [%PURPLE%+27%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=28 DIN]: %NAME%%GRAY% [%PURPLE%+28%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=29 DIN]: %NAME%%GRAY% [%PURPLE%+29%GRAY%]%CONTINUE%
+ItemDisplay[NMAG !INF !RW RES=30 DIN]: %NAME%%GRAY% [%PURPLE%+30%GRAY%]%CONTINUE%
 
 // Showing any Paladin Shield with any amount of res until cLvl 75
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 RES>0 CLVL<75 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
@@ -1643,7 +1643,7 @@ ItemDisplay[NMAG !INF !RW SOCK=2 RES>0 CLVL<75 DIN]: %NAME%%DOT-1E%{%ORANGE%Rhym
 ItemDisplay[NMAG !INF !RW SOCK=3 RES>0 CLVL<75 DIN]: %NAME%%DOT-1E%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:} // All tiers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 RES>0 CLVL<75 DIN]: %NAME%%DOT-1E%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:} // All tiers, 4os
 
-// After cLvl 75 only show Paladin Shields with 35+ res
+// After cLvl 75 only show Paladin Shields with 20+ res
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 RES>20 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 RES>20 DIN]: %NAME%%DOT-1E%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
