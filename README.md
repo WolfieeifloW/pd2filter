@@ -12,18 +12,19 @@ Please also look at the instructions under the "Base Items" header.
 
 # Table of Contents
 1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
-1. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
-   1. [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
-   1. [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
-   1. [Wolfie](https://github.com/WolfieeifloW/pd2filter#wolfie)
-   1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
-   1. [Template](https://github.com/WolfieeifloW/pd2filter#template)
-1. [Pictures](https://github.com/WolfieeifloW/pd2filter#pictures)
-1. [Discord](https://github.com/WolfieeifloW/pd2filter#discord)
-1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
-1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
-1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
-1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
+2. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
+   * [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
+   * [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
+   * [Wolfie](https://github.com/WolfieeifloW/pd2filter#wolfie)
+   * [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
+   * [Template](https://github.com/WolfieeifloW/pd2filter#template)
+3. [Pictures](https://github.com/WolfieeifloW/pd2filter#pictures)
+4. [Discord](https://github.com/WolfieeifloW/pd2filter#discord)
+5. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
+6. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
+7. [FAQ](https://github.com/WolfieeifloW/pd2filter#faq)
+8. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
+9. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
 
 # Installation
 The launcher will automatically grab the newest version of your selected filter whenever you press Play!
@@ -96,6 +97,22 @@ These are the common problems that people seem to run into. Please check each of
 * Saving the filter file with the wrong name, eg **default.filter.filter**, **default.txt**, or **default.filter.txt**
 * Having a PD2 installation inside of a Diablo II folder which is inside another Diablo II folder (folderception!)
 * Not saving and closing the filter file after pasting into it
+
+# FAQ
+* Will a loot filter from Season 1 work for Season 2?
+  * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
+* What is the best / recommended filter (or for leveling)?
+  * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Check channel pins for wiki or just try a few different ones out. It's easier than ever now to try different ones as it's a few clicks in the launcher
+* Has anyone made a video or post about the differences between X and Y filter?
+  * No one here has made comparison videos or a post of "X vs Y filter", that would be an astronomical amount of work. What's not a lot of work is trying a few out and seeing what fits your style
+* My launcher still says "Coming soon!" for item filters?
+  * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
+* My launcher shows no filters in the list?
+  * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
+* What is the difference between your filters?
+  * My Detailed/Compact are non-strict, Wolfie is strict(er), and BT is strictest
+* How can I test my chosen loot filter?
+  * The easiest way to test your filter is on Single Player with the [PlugY Pack](https://projectdiablo2.miraheze.org/wiki/PD2_Item_Pack) or by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
 
 # Donations
 Donation link: [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD)  
