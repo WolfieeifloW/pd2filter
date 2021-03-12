@@ -1094,6 +1094,9 @@ ItemDisplay[GOLD<1000 CLVL>59]: // Hide 1000 gold and less if level 60+
 ItemDisplay[GOLD<3000 CLVL>69]: // Hide 3000 gold and less if level 70+
 ItemDisplay[GOLD<5000 CLVL>79]: // Hide 5000 gold and less if level 80+
 
+// Keys
+ItemDisplay[key DIFF>0]: //%NAME% // Remove // before %NAME% to show keys again - useful for Lower Kurast Runs
+
 // Potions
 ItemDisplay[hp1 DIFF<1]: %RED%+%WHITE%HP1 // Minor Healing Potion
 ItemDisplay[hp1 DIFF>0]: // Hides Minor Healing Potions after Normal difficulty
