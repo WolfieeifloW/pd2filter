@@ -31,7 +31,7 @@ The launcher will automatically grab the newest version of your selected filter 
 1. On the left-side column (1) select **Wolfie**
 1. On the right-side column (2) select which version of my [Loot Filter](https://github.com/WolfieeifloW/pd2filter#loot-filters) you want to use:
 ![02](https://user-images.githubusercontent.com/40577712/110861437-20aa5c00-828c-11eb-9e8d-bd04e3e01399.png)
-1. Once you select a filter from the right side you will see text saying "Config Saved", which means you are good to go!
+1. Once you select a filter from the right side you will see "Config Saved"
 ![03](https://user-images.githubusercontent.com/40577712/110861656-72eb7d00-828c-11eb-80f0-2d586bb2773c.png)
 1. Click the **X** button in the top-right corner
 1. Select **Play** in the launcher
