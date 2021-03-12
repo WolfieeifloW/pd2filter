@@ -25,16 +25,16 @@ Please also look at the instructions under the "Base Items" header.
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
 
 # Installation
-Ensure you have opened the PD2 Launcher (as Administrator) and clicked Play. This will update the mod and download all the files you need.
-1. Select which filter you want to use from [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters) section
-1. CTRL+Click (will open in a new tab) the link on that filter which will take you to the raw code for that version
-1. Copy all of the code (press CTRL+A to select all than CTRL+C to copy)
-1. Open your text editor (Notepad, Notepad++, etc) as Administrator (CTRL+click [HERE](https://i.imgur.com/Yy5qyc3.png) for image of how-to)
-1. With your text editor open the **default.filter** file (or **loot.filter** if you have that file) in your ProjectD2 folder
-   1. Make sure in Notepad you change the drop-down above the Open button to `All Files (*)` (CTRL+click [HERE](https://i.imgur.com/yjXlWme.png) for image of how-to)
-1. Paste the code you copied, overwriting everything in there
-1. Go to File -> Save (NOT Save As), overwrite, and then close the file
-1. Open Project Diablo 2
+The launcher will automatically grab the newest version of your selected filter whenever you press Play!
+1. In the Project Diablo 2 launcher click the "Item Filter Profiles" button:
+![01](https://user-images.githubusercontent.com/40577712/110861246-e0e37480-828b-11eb-99c9-1000149c7c43.jpg)
+1. On the left-side column (1) select **Wolfie**
+1. On the right-side column (2) select which version of my [Loot Filter](https://github.com/WolfieeifloW/pd2filter#loot-filters) you want to use:
+![02](https://user-images.githubusercontent.com/40577712/110861437-20aa5c00-828c-11eb-9e8d-bd04e3e01399.png)
+1. Once you select a filter from the right side you will see text saying "Config Saved", which means you are good to go!
+![03](https://user-images.githubusercontent.com/40577712/110861656-72eb7d00-828c-11eb-80f0-2d586bb2773c.png)
+1. Click the **X** button in the top-right corner
+1. Select **Play** in the launcher
 1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
 1. Change your settings to match the image below
 1. Close the Settings window by right-clicking in the title bar (anywhere along the bar that says "Settings")
