@@ -1447,7 +1447,6 @@ ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 // [BIMI] Base Items Miscellaneous
 // ------------------------------------------------------------------------------
 ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>15]: // Hides all 1 socket base items after level 15
-ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK>1 CLVL<20]: %NAME% // Shows ALL 2os+ items until level 20
 
 // ------------------------------------------------------------------------------
 //    [BMCI] Circlets

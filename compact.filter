@@ -1144,7 +1144,6 @@ ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 
 // Base Items
 ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
-ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK>1 CLVL<30]: %NAME% // Shows ALL 2os+ items until level 30
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 ILVL>25 CIRC]: %NAME%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All circlets, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 ILVL>25 CIRC]: %NAME%{%TAN%Larzuk for sockets}%CONTINUE% // All circlets, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 CIRC]: %NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:}%CONTINUE% // All circlets, 2os
