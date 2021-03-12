@@ -108,7 +108,7 @@ These are the common problems that people seem to run into. Please check each of
 * **My launcher still says "Coming soon!" for item filters?**
   * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
 * **My launcher shows no filters in the list?**
-  * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
+  * Close launcher and re-open, repeat if they still don't show - *or* the server/GitHub is down
 * **Has anyone made a video or post about the differences between X and Y filter?**
   * No one here has made comparison videos or a post of "X vs Y filter", that would be an astronomical amount of work. What's not a lot of work is trying a few out and seeing what fits your style
 * **How can I test my chosen loot filter?**
