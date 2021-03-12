@@ -506,6 +506,7 @@ ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE% // +6 Javelin Skills
 //  +2 Sin / +3 skill
 ItemDisplay[MAG (CLSK6>1 AND SK253>2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +2 Assassin, +3 Psychic Hammer katar
 ItemDisplay[MAG (CLSK6>1 AND SK273>2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +2 Assassin, +3 Mind Blast katar
+ItemDisplay[MAG (CLSK6>1 AND SK278>2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +2 Assassin, +3 Venom katar
 ItemDisplay[MAG (CLSK6>1 AND SK262>2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +2 Assassin, +3 Wake of Fire katar
 ItemDisplay[MAG (CLSK6>1 AND SK276>2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +2 Assassin, +3 Death Sentry katar
 ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +2 Assassin, +3 Chain Lightning Sentry katar
