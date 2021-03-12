@@ -482,13 +482,32 @@ ItemDisplay[MAG (CLSK6>1 AND SK276>2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +2 As
 ItemDisplay[MAG (CLSK6>1 AND SK271>2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +2 Assassin, +3 Chain Lightning Sentry katar
 ItemDisplay[MAG (CLSK6>1 AND SK366>2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +2 Assassin, +3 Lightning Sentry katar
 
+//  +2 tab / +3 skill
+ItemDisplay[MAG (TABSK49=2 AND SK253=3) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +2 Shadow Disciplines, +3 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=2 AND SK273=3) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +2 Shadow Disciplines, +3 Mind Blast katar
+ItemDisplay[MAG (TABSK49=2 AND SK278=3) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +2 Shadow Disciplines, +3 Venom katar
+ItemDisplay[MAG (TABSK48=2 AND SK262=3) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +2 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=2 AND SK276=3) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +2 Trap, +3 Death Sentry katar
+ItemDisplay[MAG (TABSK48=2 AND SK271=3) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +2 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=2 AND SK366=3) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +2 Trap, +3 Lightning Sentry katar
+
+//  +3 tab / +2 skill
+ItemDisplay[MAG (TABSK49=3 AND SK253=2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +3 Shadow Disciplines, +2 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=3 AND SK273=2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +3 Shadow Disciplines, +2 Mind Blast katar
+ItemDisplay[MAG (TABSK49=3 AND SK278=2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +3 Shadow Disciplines, +2 Venom katar
+ItemDisplay[MAG (TABSK48=3 AND SK262=2) SIN]: %NAME% %GREEN%(+5 WoF)%BLUE% // +3 Trap, +2 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=3 AND SK276=2) SIN]: %NAME% %GREEN%(+5 DS)%BLUE% // +3 Trap, +2 Death Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK271=2) SIN]: %NAME% %GREEN%(+5 CLS)%BLUE% // +3 Trap, +2 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK366=2) SIN]: %NAME% %GREEN%(+5 LS)%BLUE% // +3 Trap, +2 Lightning Sentry katar
+
 //  +3 tab / +3 skill
-ItemDisplay[MAG (TABSK49>2 AND SK253>2) SIN]: %NAME% %GREEN%(+6 PH)%BLUE% // +3 Shadow Disciplines, +3 Psychic Hammer katar
-ItemDisplay[MAG (TABSK49>2 AND SK273>2) SIN]: %NAME% %GREEN%(+6 MB)%BLUE% // +3 Shadow Disciplines, +3 Mind Blast katar
-ItemDisplay[MAG (TABSK48>2 AND SK262>2) SIN]: %NAME% %GREEN%(+6 WoF)%BLUE% // +3 Trap, +3 Wake of Fire katar
-ItemDisplay[MAG (TABSK48>2 AND SK276>2) SIN]: %NAME% %GREEN%(+6 DS)%BLUE% // +3 Trap, +3 Death Sentry katar
-ItemDisplay[MAG (TABSK48>2 AND SK271>2) SIN]: %NAME% %GREEN%(+6 CLS)%BLUE% // +3 Trap, +3 Chain Lightning Sentry katar
-ItemDisplay[MAG (TABSK48>2 AND SK366>2) SIN]: %NAME% %GREEN%(+6 LS)%BLUE% // +3 Trap, +3 Lightning Sentry katar
+ItemDisplay[MAG (TABSK49=3 AND SK253=3) SIN]: %NAME% %GREEN%(+6 PH)%BLUE% // +3 Shadow Disciplines, +3 Psychic Hammer katar
+ItemDisplay[MAG (TABSK49=3 AND SK273=3) SIN]: %NAME% %GREEN%(+6 MB)%BLUE% // +3 Shadow Disciplines, +3 Mind Blast katar
+ItemDisplay[MAG (TABSK49=3 AND SK278=3) SIN]: %NAME% %GREEN%(+6 Ven)%BLUE% // +3 Shadow Disciplines, +3 Venom katar
+ItemDisplay[MAG (TABSK48=3 AND SK262=3) SIN]: %NAME% %GREEN%(+6 WoF)%BLUE% // +3 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG (TABSK48=3 AND SK276=3) SIN]: %NAME% %GREEN%(+6 DS)%BLUE% // +3 Trap, +3 Death Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK271=3) SIN]: %NAME% %GREEN%(+6 CLS)%BLUE% // +3 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG (TABSK48=3 AND SK366=3) SIN]: %NAME% %GREEN%(+6 LS)%BLUE% // +3 Trap, +3 Lightning Sentry katar
 
 // Barbarian helms
 ItemDisplay[MAG (CLSK4>1 AND SK149>2) BAR]: %NAME% %GREEN%(+2/3 BO)%BLUE% // +2 Barbarian, +3 Battle Orders Barb helm
@@ -1054,6 +1073,7 @@ ItemDisplay[MAG SK253>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Psy
 ItemDisplay[MAG SK258>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Burst of Speed
 ItemDisplay[MAG SK267>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fade
 ItemDisplay[MAG SK273>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Mind Blast
+ItemDisplay[MAG SK278>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Venom
 
 // Traps
 ItemDisplay[MAG SK257>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blade Sentinel
@@ -1506,18 +1526,19 @@ ItemDisplay[NMAG !INF !RW SOCK=3 SIN]: %NAME%{%ORANGE%Pattern, Plague, Venom, Wi
 ItemDisplay[NMAG !INF !RW CLVL<30 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Assassin Katars until character level 30
 
 // Shadow Disciplines
-ItemDisplay[NMAG !INF !RW !ETH SK253>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Psychic Hammer
-ItemDisplay[NMAG !INF !RW !ETH SK258>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Burst of Speed
-ItemDisplay[NMAG !INF !RW !ETH SK267>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fade
-ItemDisplay[NMAG !INF !RW !ETH SK273>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mind Blast
+ItemDisplay[NMAG !INF !RW SK253>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Psychic Hammer
+ItemDisplay[NMAG !INF !RW SK258>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Burst of Speed
+ItemDisplay[NMAG !INF !RW SK267>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fade
+ItemDisplay[NMAG !INF !RW SK273>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mind Blast
+ItemDisplay[NMAG !INF !RW SK278>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Venom
 
 // Traps
-ItemDisplay[NMAG !INF !RW !ETH SK257>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade Sentinel
-ItemDisplay[NMAG !INF !RW !ETH SK262>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wake Of Fire
-ItemDisplay[NMAG !INF !RW !ETH SK266>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade Fury
-ItemDisplay[NMAG !INF !RW !ETH SK276>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Death Sentry
-ItemDisplay[NMAG !INF !RW !ETH SK271>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chain Lightning Sentry
-ItemDisplay[NMAG !INF !RW !ETH SK366>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Lightning Sentry
+ItemDisplay[NMAG !INF !RW SK257>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade Sentinel
+ItemDisplay[NMAG !INF !RW SK262>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wake Of Fire
+ItemDisplay[NMAG !INF !RW SK266>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade Fury
+ItemDisplay[NMAG !INF !RW SK276>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Death Sentry
+ItemDisplay[NMAG !INF !RW SK271>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chain Lightning Sentry
+ItemDisplay[NMAG !INF !RW SK366>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Lightning Sentry
 
 // ------------------------------------------------------------------------------
 //    [BCBA] Barbarian
