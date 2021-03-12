@@ -109,10 +109,10 @@ These are the common problems that people seem to run into. Please check each of
   * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
 * My launcher shows no filters in the list?
   * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
-* What is the difference between your filters?
-  * My Detailed/Compact are non-strict, Wolfie is strict(er), and BT is strictest
 * How can I test my chosen loot filter?
   * The easiest way to test your filter is on Single Player with the [PlugY Pack](https://projectdiablo2.miraheze.org/wiki/PD2_Item_Pack) or by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
+* What is the difference between your filters?
+  * My Detailed/Compact are non-strict, Wolfie is strict(er), and BT is strictest
 
 # Donations
 Donation link: [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD)  
