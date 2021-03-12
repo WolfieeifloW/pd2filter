@@ -69,7 +69,7 @@ ItemDisplay[upma]: %NAME% x%QTY%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Pe
 ItemDisplay[imma]: %NAME% x%QTY%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map} // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]: %NAME% x%QTY%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]: %NAME% x%QTY%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps} // Cartographer's Orb
-ItemDisplay[scarab]: %NAME%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon} // Horadrim Scarab
+ItemDisplay[scrb]: %NAME%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon} // Horadrim Scarab
 ItemDisplay[NMAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
 ItemDisplay[MAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
 ItemDisplay[RARE (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
