@@ -206,6 +206,7 @@ ItemDisplay[upma]: %NAME% x%QTY%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Pe
 ItemDisplay[imma]: %NAME% x%QTY%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map} // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]: %NAME% x%QTY%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]: %NAME% x%QTY%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps} // Cartographer's Orb
+ItemDisplay[scarab]: %NAME%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon} // Horadrim Scarab
 
 // ------------------------------------------------------------------------------
 // [MAPS] Maps

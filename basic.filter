@@ -71,6 +71,7 @@ ItemDisplay[upma]: %NAME% // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME% // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]: %NAME% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]: %NAME% // Uptier Maps (Cube 3 maps of the same tier to get a map of the next tier) (Cartographer's Orb)
+ItemDisplay[scarab]: %NAME% // Create Group Dungeon (Cube with Tier 3 map) (Horadrim Scarab)
 
 // Maps
 // Tier 1 Maps
