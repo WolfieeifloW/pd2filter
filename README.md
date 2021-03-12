@@ -17,7 +17,8 @@ Please also look at the instructions under the "Base Items" header.
    1. [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
    1. [Wolfie](https://github.com/WolfieeifloW/pd2filter#wolfie)
    1. [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
-   1. [Basic](https://github.com/WolfieeifloW/pd2filter#basic)
+   1. [Template](https://github.com/WolfieeifloW/pd2filter#template)
+1. [Pictures](https://github.com/WolfieeifloW/pd2filter#pictures)
 1. [Discord](https://github.com/WolfieeifloW/pd2filter#discord)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
 1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
@@ -36,14 +37,13 @@ The launcher will automatically grab the newest version of your selected filter 
 1. Click the **X** button in the top-right corner
 1. Select **Play** in the launcher
 1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
-1. Change your settings to match the image below
+1. Change your settings to match the image below:
+![In-Game Settings](https://i.imgur.com/WFeroFv.png)
 1. Close the Settings window by right-clicking in the title bar (anywhere along the bar that says "Settings")
 1. Reload your filter using **Numpad 0**
    1. If you don't have a numpad change `Reload Config:          VK_NUMPAD0` in ProjectDiablo.cfg (in your PD2 folder) to one of these [Virtual Key Codes](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
 
 If it worked a Minor Health Potion should now say *HP1*.
-
-![In-Game Settings](https://i.imgur.com/WFeroFv.png)
 
 # Loot Filters
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)  
@@ -62,12 +62,22 @@ CTRL+click the above link for the raw code.
 CTRL+click the above link for the raw code.  
 This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneandertha1) which is quite strict. No support will be given for this version.
 
-### [Basic](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/basic.filter)  
+### [Template](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/template.filter)  
 CTRL+click the above link for the raw code.  
 **Select this version if you want a template/base to start from for creating your own filter.** This filters purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
 
+# Pictures
+Some things may have changed since these images were taken but these give a general idea of how things look. For even more images please visit my [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/)!
+
+**Detailed:**
+![00_GroundDetailed](https://user-images.githubusercontent.com/40577712/110947461-31031b00-830e-11eb-8ea2-bfd0bf65613f.png)
+
+**Wolfie:**
+![00_GroundWolfie](https://user-images.githubusercontent.com/40577712/110947471-3496a200-830e-11eb-988a-20c9d86049fb.png)
+
 # Discord
-I've created a Discord for my filter so that you can get pinged when there's an update. This allows you to either redownload the filter or you can update just the lines I've changed! Join the server [HERE](https://discord.gg/6bM8AtYGAq)!
+Discord link: [WolfieeifloW's PD2 Filters](https://discord.gg/6bM8AtYGAq)  
+I've created a Discord for my filter so that you can get pinged when there's an update so you can know when to grab the new update in the launcher!
 
 # Informative Links
 * **Reddit Thread:** <https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/>
@@ -88,7 +98,8 @@ These are the common problems that people seem to run into. Please check each of
 * Not saving and closing the filter file after pasting into it
 
 # Donations
-I've had several people ask to donate. This is in **no way** required but is in all ways **very much appreciated**. To donate you can use [THIS](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD) link to send me money for my work.
+Donation link: [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD)  
+Donations are not required in any way but I very much appreciate all who support me in this fashion!  
 If you wish you can get the "Donator" role in my [Discord](https://github.com/WolfieeifloW/pd2filter#discord) as well!
 
 # Disclaimer
