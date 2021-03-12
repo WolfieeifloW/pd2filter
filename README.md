@@ -103,12 +103,14 @@ These are the common problems that people seem to run into. Please check each of
   * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
 * What is the best / recommended filter (or for leveling)?
   * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Check channel pins for wiki or just try a few different ones out. It's easier than ever now to try different ones as it's a few clicks in the launcher
-* Has anyone made a video or post about the differences between X and Y filter?
-  * No one here has made comparison videos or a post of "X vs Y filter", that would be an astronomical amount of work. What's not a lot of work is trying a few out and seeing what fits your style
+* But I've customized my filter, how do I save my changes?
+  * Put your customized filter into `ProjectD2\filters\local` and choose "Local" in the launcher
 * My launcher still says "Coming soon!" for item filters?
   * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
 * My launcher shows no filters in the list?
   * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
+* Has anyone made a video or post about the differences between X and Y filter?
+  * No one here has made comparison videos or a post of "X vs Y filter", that would be an astronomical amount of work. What's not a lot of work is trying a few out and seeing what fits your style
 * How can I test my chosen loot filter?
   * The easiest way to test your filter is on Single Player with the [PlugY Pack](https://projectdiablo2.miraheze.org/wiki/PD2_Item_Pack) or by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
 * Are your filters updated for Season 2?
