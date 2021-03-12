@@ -111,6 +111,8 @@ These are the common problems that people seem to run into. Please check each of
   * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
 * How can I test my chosen loot filter?
   * The easiest way to test your filter is on Single Player with the [PlugY Pack](https://projectdiablo2.miraheze.org/wiki/PD2_Item_Pack) or by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
+* Are your filters updated for Season 2?
+  * Yes, all versions of my filters are updated and ready-to-go for Season 2!
 * What is the difference between your filters?
   * My Detailed/Compact are non-strict, Wolfie is strict(er), and BT is strictest
 
