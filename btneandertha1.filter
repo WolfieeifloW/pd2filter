@@ -71,9 +71,9 @@ ItemDisplay[scrb]: %NAME%{%TAN%these are intended for groups!%NL%%RED%WARNING:%N
 
 // Maps -------------------------------------------------------------------------
 // Coloring maps names
-ItemDisplay[NMAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
-ItemDisplay[MAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
-ItemDisplay[RARE (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
+ItemDisplay[NMAG (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
+ItemDisplay[MAG (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
+ItemDisplay[RARE (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
 
 // Tier 1 Maps
 ItemDisplay[t11]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun [T1]
@@ -99,9 +99,9 @@ ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-cli
 ItemDisplay[t42]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Desert [T4]
 
 // Coloring maps names
-ItemDisplay[NMAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
-ItemDisplay[MAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
-ItemDisplay[RARE (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
+ItemDisplay[NMAG (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
+ItemDisplay[MAG (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
+ItemDisplay[RARE (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
 
 // Diablo Clone Items -----------------------------------------------------------
 ItemDisplay[dcho]: %RED%Black Soulstone x%QTY%%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul%NL%%NL%Drops from Uber Trist bosses} // Black Soulstone

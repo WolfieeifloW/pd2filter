@@ -70,9 +70,9 @@ ItemDisplay[imma]: %NAME% x%QTY%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%I
 ItemDisplay[scou]: %NAME% x%QTY%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]: %NAME% x%QTY%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps} // Cartographer's Orb
 ItemDisplay[scrb]: %NAME%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon} // Horadrim Scarab
-ItemDisplay[NMAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
-ItemDisplay[MAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
-ItemDisplay[RARE (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
+ItemDisplay[NMAG (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
+ItemDisplay[MAG (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
+ItemDisplay[RARE (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
 ItemDisplay[t11]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun [T1]
 ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazon's Memory [T1]
 ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Bastion Keep [T1]
@@ -88,9 +88,9 @@ ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in 
 ItemDisplay[t36]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Tomb of Zoltun Kulle [T3]
 ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Plains of Torment [T4]
 ItemDisplay[t42]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Desert [T4]
-ItemDisplay[NMAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
-ItemDisplay[MAG (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
-ItemDisplay[RARE (t11 OR t12 OR t13 OR t14 OR t21 OR t22 OR t23 OR t31 OR t32 OR t33 OR t34 OR t41 OR t42)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
+ItemDisplay[NMAG (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
+ItemDisplay[MAG (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
+ItemDisplay[RARE (t11 OR t12 OR t13 OR t21 OR t22 OR t23 OR t24 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t41 OR t42)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
 ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from Uber Trist bosses%NL%%NL%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
 ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from Hell Diablo & Baal%NL%%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
 ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from map bosses%NL%%NL%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
