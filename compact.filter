@@ -839,9 +839,9 @@ ItemDisplay[RARE !ID ELT SWORD]: %NAME%%MAP-A8% // All Elite tier Swords
 ItemDisplay[RARE !ID CLVL<20 !SPEAR THROWING !ZON]: %NAME%%MAP-A8% // Show all Throwing Weapons before level 20
 ItemDisplay[RARE !ID ELT !SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Elite tier Throwing Weapons
 ItemDisplay[RARE !ID CLVL<20 WAND]: %NAME%%MAP-A8% // Show all Wands before level 20
-ItemDisplay[RARE !RW PRICE>34999 DIFF<3]: %DARK_GREEN%$ %YELLOW%%NAME% // All difficulties
-ItemDisplay[RARE !RW PRICE>20000 DIFF<2]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal & Nightmare difficulty
-ItemDisplay[RARE !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal difficulty
+ItemDisplay[RARE !RW PRICE>34999 DIFF<3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // All difficulties
+ItemDisplay[RARE !RW PRICE>20000 DIFF<2]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // Normal & Nightmare difficulty
+ItemDisplay[RARE !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // Normal difficulty
 
 // Rare Items Master
 ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Show and notify for all rares until level 39
@@ -1063,9 +1063,9 @@ ItemDisplay[MAG SK80>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Ske
 ItemDisplay[MAG SK85>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blood Golem
 ItemDisplay[MAG SK90>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Iron Golem
 ItemDisplay[MAG SK94>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fire Golem
-ItemDisplay[MAG !RW PRICE>34999 DIFF<3]: %DARK_GREEN%$ %BLUE%%NAME% // All difficulties
-ItemDisplay[MAG !RW PRICE>20000 DIFF<2]: %DARK_GREEN%$ %BLUE%%NAME% // Normal & Nightmare difficulty
-ItemDisplay[MAG !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %BLUE%%NAME% // Normal difficulty
+ItemDisplay[MAG !RW PRICE>34999 DIFF<3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // All difficulties
+ItemDisplay[MAG !RW PRICE>20000 DIFF<2]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal & Nightmare difficulty
+ItemDisplay[MAG !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal difficulty
 
 // Magic Items Master
 ItemDisplay[MAG !ID CLVL<30]: %NAME% // Show all magics until level 29
