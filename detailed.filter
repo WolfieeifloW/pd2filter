@@ -2767,6 +2767,7 @@ ItemDisplay[RARE !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} /
 // [RIMA] Rare Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Show and notify for all rares until level 39
+ItemDisplay[RARE !ID CLVL<75 (EXC OR ELT)]: %NAME%%MAP-A8% // Show and notify for all Exceptional and Elite tier rares until level 75
 ItemDisplay[RARE !ID CLVL>39]: %NAME% // At level 40+, stop notifying for all rares, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted rares at level 40+
 
 // +----------------------------------------------------------------------------+
@@ -4266,6 +4267,7 @@ ItemDisplay[MAG !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // N
 // [MIMA] Magic Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG !ID CLVL<30]: %NAME% // Show all magics until level 29
+ItemDisplay[MAG !ID CLVL<60 (EXC OR ELT)]: %NAME% // Show all Exceptional and Elite tier magics until level 60
 ItemDisplay[MAG !ID CLVL>29]: //%NAME% // At level 30+, stop showing and notifying for all magics, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show unwanted magics at level 30+
 
 // +----------------------------------------------------------------------------+
@@ -13859,4 +13861,5 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %
 // [BIMA] Base Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
+ItemDisplay[NMAG !RW (ARMOR OR WEAPON) (EXC OR ELT) CLVL<60]: %NAME%{%NAME%} // Until level 60 notify and show all Exceptional and Elite tier base items
 ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL>29]: {%NAME%} // At level 30+, stop showing and notifying for all base items and only show/notify for the ones uncommented above. Add %NAME% before {%NAME%} in this line to show all base items
