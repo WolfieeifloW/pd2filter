@@ -1189,6 +1189,7 @@ ItemDisplay[MAG SK80>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Skel
 ItemDisplay[MAG SK85>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blood Golem
 ItemDisplay[MAG SK90>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Iron Golem
 ItemDisplay[MAG SK94>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fire Golem
+ItemDisplay[MAG SK95>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Revive
 
 // ------------------------------------------------------------------------------
 //     [MCPA] Paladin
@@ -1373,6 +1374,7 @@ ItemDisplay[MAG SK80>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Ske
 ItemDisplay[MAG SK85>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blood Golem
 ItemDisplay[MAG SK90>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Iron Golem
 ItemDisplay[MAG SK94>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fire Golem
+ItemDisplay[MAG SK95>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Revive
 
 // ------------------------------------------------------------------------------
 // [MIVE] Magic Items Vendor
@@ -1671,6 +1673,7 @@ ItemDisplay[NMAG !INF !RW !ETH SK80>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ske
 ItemDisplay[NMAG !INF !RW !ETH SK85>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blood Golem
 ItemDisplay[NMAG !INF !RW !ETH SK90>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Iron Golem
 ItemDisplay[NMAG !INF !RW !ETH SK94>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fire Golem
+ItemDisplay[NMAG !INF !RW !ETH SK95>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Revive
 
 // ------------------------------------------------------------------------------
 //    [BCPA] Paladin
@@ -2264,6 +2267,7 @@ ItemDisplay[NMAG !INF !RW SK80>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Skeleta
 ItemDisplay[NMAG !INF !RW SK85>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blood Golem
 ItemDisplay[NMAG !INF !RW SK90>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Iron Golem
 ItemDisplay[NMAG !INF !RW SK94>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fire Golem
+ItemDisplay[NMAG !INF !RW SK95>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Revive
 
 // ------------------------------------------------------------------------------
 // [BIVE] Base Items Vendor

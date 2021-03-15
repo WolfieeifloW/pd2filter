@@ -1024,6 +1024,7 @@ ItemDisplay[MAG SK80>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Skel
 ItemDisplay[MAG SK85>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blood Golem
 ItemDisplay[MAG SK90>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Iron Golem
 ItemDisplay[MAG SK94>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fire Golem
+ItemDisplay[MAG SK95>2 NEC]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Revive
 ItemDisplay[MAG SK40>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Enchant Cold
 ItemDisplay[MAG SK44>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Frost Nova
 ItemDisplay[MAG SK59>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blizzard
@@ -1094,6 +1095,7 @@ ItemDisplay[MAG SK80>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Ske
 ItemDisplay[MAG SK85>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blood Golem
 ItemDisplay[MAG SK90>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Iron Golem
 ItemDisplay[MAG SK94>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fire Golem
+ItemDisplay[MAG SK95>2 WAND]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Revive
 ItemDisplay[MAG !RW PRICE>34999 DIFF<3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // All difficulties
 ItemDisplay[MAG !RW PRICE>20000 DIFF<2]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal & Nightmare difficulty
 ItemDisplay[MAG !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal difficulty
@@ -1301,6 +1303,7 @@ ItemDisplay[NMAG !INF !RW SK80>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Skeletal
 ItemDisplay[NMAG !INF !RW SK85>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blood Golem
 ItemDisplay[NMAG !INF !RW SK90>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Iron Golem
 ItemDisplay[NMAG !INF !RW SK94>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fire Golem
+ItemDisplay[NMAG !INF !RW SK95>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Revive
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 RES>20 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Paladin shields, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 RES>20 DIN]: %NAME%{%TAN%Larzuk for sockets}%CONTINUE% // All Paladin shields, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 DIN]: %NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 2os
@@ -1653,6 +1656,7 @@ ItemDisplay[NMAG !INF !RW SK80>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Skeleta
 ItemDisplay[NMAG !INF !RW SK85>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blood Golem
 ItemDisplay[NMAG !INF !RW SK90>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Iron Golem
 ItemDisplay[NMAG !INF !RW SK94>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fire Golem
+ItemDisplay[NMAG !INF !RW SK95>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Revive
 ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF<3 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%{%NAME%} // For non-eth, no sockets items
 ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF<3 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items
 ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF<2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME%{%NAME%} // For non-eth, no sockets items
