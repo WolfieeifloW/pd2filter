@@ -13,6 +13,14 @@
 // No support will be given for this filter.
 // Only issues with lines already in here will be addressed in my Discord (https://discord.gg/8K2QkjAA8g) or in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2).
 
+
+// DELETE THIS LINE WHEN CREATING YOUR OWN FILTER
+// THIS LINE IS JUST TO MAKE PEOPLE AWARE THIS IS ONLY A TEMPLATE AND NOT MEANT FOR REGULAR USE/PLAY
+ItemDisplay[]: %NAME%{%RED%STRICTEST: BTs%NL%STRICTER: WOLFIE%NL%NON-STRICT: DETAILED/COMPACT%NL%%NL%IT IS NOT MEANT FOR REGULAR PLAY!%NL%THIS FILTER IS A TEMPLATE!}
+// DELETE THIS LINE WHEN CREATING YOUR OWN FILTER
+// THIS LINE IS JUST TO MAKE PEOPLE AWARE THIS IS ONLY A TEMPLATE AND NOT MEANT FOR REGULAR USE/PLAY
+
+
 // Filter lines start here
 // Quest items
 ItemDisplay[bks]: %NAME%%MAP-58% // Scroll of Inifuss
@@ -102,11 +110,6 @@ ItemDisplay[dcho]: %RED%%NAME%%MAP-62% // Black Soulstone
 ItemDisplay[dcso]: %RED%%NAME%%MAP-62% // Prime Evil Soul
 ItemDisplay[dcbl]: %RED%%NAME%%MAP-62% // Pure Demonic Essence
 ItemDisplay[dcma]: %RED%%NAME%%MAP-62% // Vision of Terror
-ItemDisplay[UNI !ID utb]: %NAME%%MAP-A5% // New DClone Unique Mirrored Boots
-ItemDisplay[UNI !ID uld]: %NAME%%MAP-A5% // New DClone Unique Kraken Shell
-ItemDisplay[UNI !ID 7bs]: %NAME%%MAP-A5% // New DClone Unique Conquest Sword
-ItemDisplay[UNI !ID 7qr]: %NAME%%MAP-A5% // New DClone Unique Scissors Suwayyah
-ItemDisplay[UNI !ID uh9]: %NAME%%MAP-A5% // New DClone Unique Bone Visage
 
 // Gems
 ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
