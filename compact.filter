@@ -249,8 +249,8 @@ ItemDisplay[MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 
 ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %NAME% %GREEN%(+5 Jav)%BLUE% // +2 Amazon, +3 Javelin Skills Javelin
 ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE% // +6 Javelin Skills Javelin
 ItemDisplay[MAG TABSK50=3 SIN]: %NAME% %GREEN%(+3 MA)%BLUE%
-ItemDisplay[MAG TABSK59=3 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%
-ItemDisplay[MAG TABSK58=3 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%
+ItemDisplay[MAG TABSK49=3 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%
+ItemDisplay[MAG TABSK48=3 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%
 ItemDisplay[MAG (CLSK6>1 AND SK254>2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +2 Assassin, +3 Tiger Strike katar
 ItemDisplay[MAG (CLSK6>1 AND SK265>2) SIN]: %NAME% %GREEN%(+5 CS)%BLUE% // +2 Assassin, +3 Cobra Strike katar
 ItemDisplay[MAG (CLSK6>1 AND SK269>2) SIN]: %NAME% %GREEN%(+5 CoT)%BLUE% // +2 Assassin, +3 Claws of Thunder katar

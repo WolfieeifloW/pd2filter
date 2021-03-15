@@ -476,8 +476,8 @@ ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE% // +6 Javelin Skills
 // Assassin Katars
 //  +3 tab
 ItemDisplay[MAG TABSK50=3 SIN]: %NAME% %GREEN%(+3 MA)%BLUE%
-ItemDisplay[MAG TABSK59=3 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%
-ItemDisplay[MAG TABSK58=3 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%
+ItemDisplay[MAG TABSK49=3 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%
+ItemDisplay[MAG TABSK48=3 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%
 
 //  +2 Sin / +3 skill
 ItemDisplay[MAG (CLSK6>1 AND SK254>2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +2 Assassin, +3 Tiger Strike katar
