@@ -38,7 +38,7 @@ The launcher will automatically grab the newest version of your selected filter 
 1. Click the **X** button in the top-right corner
 1. Select **Play** in the launcher
 1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
-1. Change your settings to match the image below:
+1. Change your settings to match the image below:  
 ![In-Game Settings](https://i.imgur.com/WFeroFv.png)
 1. Close the Settings window by right-clicking in the title bar (anywhere along the bar that says "Settings")
 1. Reload your filter using **Numpad 0**
