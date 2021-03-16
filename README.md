@@ -28,12 +28,12 @@ Please also look at the instructions under the "Base Items" header.
 
 # Installation
 The launcher will automatically grab the newest version of your selected filter whenever you press Play!
-1. In the Project Diablo 2 launcher click the "Item Filter Profiles" button:
+1. In the Project Diablo 2 launcher click the "Item Filter Profiles" button:  
 ![01](https://user-images.githubusercontent.com/40577712/110861246-e0e37480-828b-11eb-99c9-1000149c7c43.jpg)
 1. On the left-side column (1) select **Wolfie**
-1. On the right-side column (2) select which version of my [Loot Filter](https://github.com/WolfieeifloW/pd2filter#loot-filters) you want to use:
+1. On the right-side column (2) select which version of my [Loot Filter](https://github.com/WolfieeifloW/pd2filter#loot-filters) you want to use:  
 ![02](https://user-images.githubusercontent.com/40577712/110861437-20aa5c00-828c-11eb-9e8d-bd04e3e01399.png)
-1. Once you select a filter from the right side you will see "Config Saved"
+1. Once you select a filter from the right side you will see "Config Saved"  
 ![03](https://user-images.githubusercontent.com/40577712/110861656-72eb7d00-828c-11eb-80f0-2d586bb2773c.png)
 1. Click the **X** button in the top-right corner
 1. Select **Play** in the launcher
@@ -70,10 +70,10 @@ CTRL+click the above link for the raw code.
 # Pictures
 Some things may have changed since these images were taken but these give a general idea of how things look. For even more images please visit my [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/)!
 
-**Detailed:**
+**Detailed:**  
 ![00_GroundDetailed](https://user-images.githubusercontent.com/40577712/110947461-31031b00-830e-11eb-8ea2-bfd0bf65613f.png)
 
-**Wolfie:**
+**Wolfie:**  
 ![00_GroundWolfie](https://user-images.githubusercontent.com/40577712/110947471-3496a200-830e-11eb-988a-20c9d86049fb.png)
 
 # Discord
