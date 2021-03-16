@@ -873,7 +873,7 @@ ItemDisplay[RARE !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} /
 // Rare Items Master
 ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Show and notify for all rares until level 39
 ItemDisplay[RARE !ID CLVL<75 (EXC OR ELT)]: %NAME%%MAP-A8% // Show and notify for all Exceptional and Elite tier rares until level 75
-ItemDisplay[RARE !ID CLVL>39]: %NAME% // At level 40+, stop notifying for all rares, and only notify for the ones uncommented above. Comment out %NAME% in this line to completely hide unwanted rares at level 40+
+ItemDisplay[RARE !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifying for all rares, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show unwanted rares at level 40+
 
 // Crafted Items
 ItemDisplay[CRAFT ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}

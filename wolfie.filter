@@ -836,7 +836,7 @@ ItemDisplay[RARE !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} /
 // ------------------------------------------------------------------------------
 ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Show and notify for all rares until level 39
 ItemDisplay[RARE !ID CLVL<75 (EXC OR ELT)]: %NAME%%MAP-A8% // Show and notify for all Exceptional and Elite tier rares until level 75
-ItemDisplay[RARE !ID CLVL>39]: // At level 40+, stop showing and notifying for all rares and only show and notify for the ones uncommented above
+ItemDisplay[RARE !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifying for all rares, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show unwanted rares at level 40+
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
