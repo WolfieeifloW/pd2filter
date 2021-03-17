@@ -101,7 +101,7 @@ These are the common problems that people seem to run into. Please check each of
 # FAQ
 * **Will a loot filter from Season 1 work for Season 2?**
   * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
-* **What is the best / recommended filter (or for leveling)?**
+* **What is the (best / recommended / good for X / leveling) filter?**
   * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Try a few out, it's easier than ever now to try different ones as it's only a few clicks in the launcher
 * **How do I turn off the filter?**
   * Turn off `Advanced Item Display` and delete `default.filter` and `loot.filter`
