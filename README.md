@@ -107,6 +107,8 @@ These are the common problems that people seem to run into. Please check each of
   * Turn off `Advanced Item Display` and delete `default.filter` and `loot.filter`
 * **But I've customized my filter, how do I save my changes?**
   * Put your customized filter into `ProjectD2\filters\local` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
+* **I want to use a filter not in the launcher?**
+  * Put your customized filter into `ProjectD2\filters\local` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
 * **My launcher still says "Coming soon!" for item filters?**
   * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
 * **My launcher shows no filters in the list?**
@@ -118,7 +120,7 @@ These are the common problems that people seem to run into. Please check each of
 * **Are your filters updated for Season 2?**
   * Yes, all versions of my filters are updated and ready-to-go for Season 2!
 * **What is the difference between your filters?**
-  * My Detailed/Compact are non-strict, Wolfie is strict(er), and BT is strictest
+  * My Detailed/Compact are less strict, Wolfie is stricter, and BT is strictest
 
 # Donations
 Donation link: [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD)  
