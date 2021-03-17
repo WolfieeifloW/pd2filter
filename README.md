@@ -106,7 +106,7 @@ These are the common problems that people seem to run into. Please check each of
 * **How do I turn off the filter / go back to original?**
   * Turn off `Advanced Item Display` in the in-game settings and then delete `default.filter` and `loot.filter` in the ProjectD2 folder
 * **But I've customized my filter, how do I save my changes?**
-  * Put your customized filter into `ProjectD2\filters\local` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
+  * Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
 * **I want to use a filter not in the launcher?**
   * Put your customized filter into `ProjectD2\filters\local` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
 * **My launcher still says "Coming soon!" for item filters?**
