@@ -116,7 +116,7 @@ These are the common problems that people seem to run into. Please check each of
 * **Has anyone made a video or post about the differences between X and Y filter?**
   * No one here has made comparison videos or a post of "X vs Y filter", that would be an astronomical amount of work. What's not a lot of work is trying a few out and seeing what fits your style
 * **How can I test my chosen loot filter?**
-  * The easiest way to test your filter is on Single Player with the [PlugY Pack](https://projectdiablo2.miraheze.org/wiki/PD2_Item_Pack) or by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
+  * The easiest way to test your filter is by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
 * **Are your filters updated for Season 2?**
   * Yes, all versions of my filters are updated and ready-to-go for Season 2!
 * **What is the difference between your filters?**
