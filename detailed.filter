@@ -3427,7 +3427,7 @@ ItemDisplay[MAG SK48>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Nova
 ItemDisplay[MAG SK53>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Chain Lightning
 //ItemDisplay[MAG SK54>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Teleport
 //ItemDisplay[MAG SK57>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Thunder Storm
-//ItemDisplay[MAG SK58>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Energy Shield
+ItemDisplay[MAG SK58>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Energy Shield
 ItemDisplay[MAG SK63>2 SOR]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Lightning Mastery
 
 // Fire
@@ -4086,7 +4086,7 @@ ItemDisplay[MAG SK48>2 STAFF]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // No
 ItemDisplay[MAG SK53>2 STAFF]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Chain Lightning
 //ItemDisplay[MAG SK54>2 STAFF]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Teleport
 //ItemDisplay[MAG SK57>2 STAFF]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Thunder Storm
-//ItemDisplay[MAG SK58>2 STAFF]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Energy Shield
+ItemDisplay[MAG SK58>2 STAFF]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Energy Shield
 ItemDisplay[MAG SK63>2 STAFF]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Lightning Mastery
 
 // Fire
@@ -5210,7 +5210,7 @@ ItemDisplay[NMAG !INF !RW SK48>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Nova
 ItemDisplay[NMAG !INF !RW SK53>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chain Lightning
 //ItemDisplay[NMAG !INF !RW SK54>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Teleport
 //ItemDisplay[NMAG !INF !RW SK57>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Storm
-//ItemDisplay[NMAG !INF !RW SK58>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Energy Shield
+ItemDisplay[NMAG !INF !RW SK58>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Energy Shield
 ItemDisplay[NMAG !INF !RW SK63>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Lightning Mastery
 
 // --- Fire
@@ -11933,7 +11933,7 @@ ItemDisplay[NMAG !INF !RW SK48>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Nova
 ItemDisplay[NMAG !INF !RW SK53>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chain Lightning
 //ItemDisplay[NMAG !INF !RW SK54>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Teleport
 //ItemDisplay[NMAG !INF !RW SK57>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Storm
-//ItemDisplay[NMAG !INF !RW SK58>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Energy Shield
+ItemDisplay[NMAG !INF !RW SK58>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Energy Shield
 ItemDisplay[NMAG !INF !RW SK63>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Lightning Mastery
 
 // --- Fire
