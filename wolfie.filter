@@ -1420,7 +1420,7 @@ ItemDisplay[MAG !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // N
 // [MIMA] Magic Items Master
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG !ID CLVL<30]: %NAME% // Show all magics until level 29
-ItemDisplay[MAG !ID CLVL<60 (EXC OR ELT)]: %NAME% // Show all Exceptional and Elite tier magics until level 60
+ItemDisplay[MAG !ID CLVL<75 (EXC OR ELT)]: %NAME% // Show all Exceptional and Elite tier magics until level 60
 ItemDisplay[MAG !ID CLVL>29]: // At level 30+, stop showing and notifying for all magics, and only show and notify for the ones uncommented above
 
 // +----------------------------------------------------------------------------+
@@ -1505,10 +1505,10 @@ ItemDisplay[ops]: // Hide Oil Potions
 // ------------------------------------------------------------------------------
 //    [BCTO] Scrolls & Tomes
 // ------------------------------------------------------------------------------
-ItemDisplay[isc DIFF<1 CLVL<30]: ID%RED%!%WHITE%{%TAN%Continued on TP scroll...%NL%All Exc and Elt Rares until 75%NL%All Rares until character level 40%NL%My filters show:} // Scroll of Identify, showing info about filter until char level 30
+ItemDisplay[isc DIFF<1 CLVL<15]: ID%RED%!%WHITE%{%TAN%Continued on TP scroll...%NL%All Exc and Elt Rares until 75%NL%All Rares until character level 40%NL%My filters show:} // Scroll of Identify, showing info about filter until char level 15
 ItemDisplay[isc DIFF<1]: ID%RED%!%WHITE% // Scroll of Identify
 ItemDisplay[isc DIFF>0]: // Hides Scroll of Identify after Normal difficulty
-ItemDisplay[tsc DIFF<1 CLVL<30]: TP%BLUE%!%WHITE%{%TAN%will slowly show less clutter!%NL%Keep lvling and the filter%NL%All Exc and Elt Magics/Bases until 60%NL%All Magics/Bases until 30} // Scroll of Town Portal, showing info about filter until char level 30
+ItemDisplay[tsc DIFF<1 CLVL<15]: TP%BLUE%!%WHITE%{%TAN%will slowly show less clutter!%NL%Keep lvling and the filter%NL%All Exc and Elt Magics/Bases until 75%NL%All Magics/Bases until 30} // Scroll of Town Portal, showing info about filter until char level 15
 ItemDisplay[tsc DIFF<1]: TP%BLUE%!%WHITE% // Scroll of Town Portal
 ItemDisplay[tsc DIFF>0]: // Hides Scroll of Town Portal after Normal difficulty
 ItemDisplay[ibk]: %RED%!%WHITE%ID%RED%!%WHITE% // Tome of Identify
