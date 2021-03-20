@@ -83,27 +83,25 @@ ItemDisplay[scrb]: %NAME% // Create Group Dungeon (Cube with Tier 3 map) (Horadr
 
 // Maps
 // Tier 1 Maps
-ItemDisplay[t11]: %NAME%%RED%+%WHITE%%MAP-80% // Ruins of Viz-jun
-ItemDisplay[t12]: %NAME%%RED%+%WHITE%%MAP-80% // Horazon's Memory
-ItemDisplay[t13]: %NAME%%RED%+%WHITE%%MAP-80% // Bastion Keep
+ItemDisplay[t11]: %NAME%%MAP-80%%CONTINUE% // Ruins of Viz-jun [T1]
+ItemDisplay[t12]: %NAME%%MAP-80%%CONTINUE% // Horazon's Memory [T1]
+ItemDisplay[t13]: %NAME%%MAP-80%%CONTINUE% // Bastion Keep [T1]
 
 // Tier 2 Maps
-ItemDisplay[t21]: %NAME%%RED%+%WHITE%%MAP-A8% // Phlegethon
-ItemDisplay[t22]: %NAME%%RED%+%WHITE%%MAP-A8% // Torajan Jungle
-ItemDisplay[t23]: %NAME%%RED%+%WHITE%%MAP-A8% // Arreat Battlefield
-ItemDisplay[t24]: %NAME%%RED%+%WHITE%%MAP-A8% // Blood Moon
+ItemDisplay[t21]: %NAME%%MAP-A8%%CONTINUE% // Phlegethon [T2]
+ItemDisplay[t22]: %NAME%%MAP-A8%%CONTINUE% // Torajan Jungle [T2]
+ItemDisplay[t23]: %NAME%%MAP-A8%%CONTINUE% // Arreat Battlefield [T2]
+ItemDisplay[t24]: %NAME%%MAP-A8%%CONTINUE% // Blood Moon [T2]
 
 // Tier 3 Maps
-ItemDisplay[t31]: %NAME%%RED%+%WHITE%%MAP-62% // River of Blood
-ItemDisplay[t32]: %NAME%%RED%+%WHITE%%MAP-62% // Throne of Insanity
-ItemDisplay[t33]: %NAME%%RED%+%WHITE%%MAP-62% // Sewers of Harrogath
-ItemDisplay[t34]: %NAME%%RED%+%WHITE%%MAP-62% // Ancestral Trial
-ItemDisplay[t35]: %NAME%%RED%+%WHITE%%MAP-62% // Cathedral of Light
-ItemDisplay[t36]: %NAME%%RED%+%WHITE%%MAP-62% // Tomb of Zoltun Kulle
+ItemDisplay[t31]: %NAME%%MAP-62%%CONTINUE% // River of Blood [T3]
+ItemDisplay[t32]: %NAME%%MAP-62%%CONTINUE% // Throne of Insanity [T3]
+ItemDisplay[t33]: %NAME%%MAP-62%%CONTINUE% // Sewers of Harrogath [T3]
+ItemDisplay[t34]: %NAME%%MAP-62%%CONTINUE% // Ancestral Trial [T3]
+ItemDisplay[t35]: %NAME%%MAP-62%%CONTINUE% // Tomb of Zoltun Kulle [T3]
 
 // Tier 4 Maps
-ItemDisplay[t41]: %NAME%%RED%+%WHITE%%MAP-9B% // Plains of Torment
-ItemDisplay[t42]: %NAME%%RED%+%WHITE%%MAP-9B% // Desert
+ItemDisplay[t41]: %NAME%%MAP-9B%%CONTINUE% // Cathedral of Light [T4]
 
 // Diablo Clone Items
 ItemDisplay[dcho]: %RED%%NAME%%MAP-62% // Black Soulstone
