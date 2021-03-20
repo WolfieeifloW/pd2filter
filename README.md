@@ -99,18 +99,18 @@ These are the common problems that people seem to run into. Please check each of
 * Not saving and closing the filter file after pasting into it
 
 # FAQ
-* **Will a loot filter from Season 1 work for Season 2?**
-  * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
 * **What is the (best / recommended / good for X / leveling) filter?**
   * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Try a few out, it's easier than ever now to try different ones as it's only a few clicks in the launcher
 * **How do I turn off the filter / go back to original?**
   * Turn off `Advanced Item Display` in the in-game settings and then delete `default.filter` and `loot.filter` in the ProjectD2 folder
+* **My launcher still says "Coming soon!" for item filters?**
+  * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
+* **Will a loot filter from Season 1 work for Season 2?**
+  * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
 * **But I've customized my filter, how do I save my changes?**
   * Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
 * **I want to use a filter not in the launcher?**
   * Put your customized filter into `ProjectD2\filters\local` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
-* **My launcher still says "Coming soon!" for item filters?**
-  * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again
 * **My launcher shows no filters in the list?**
   * Close launcher and re-open, repeat if they still don't show - *or* the server/GitHub is down
 * **Has anyone made a video or post about the differences between X and Y filter?**
