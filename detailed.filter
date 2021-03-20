@@ -5208,11 +5208,6 @@ ItemDisplay[NMAG !INF !RW SOCK=3 SOR]: %NAME%{%ORANGE%Plague, Venom%NL%%TAN%Poss
 
 ItemDisplay[NMAG !INF !RW CLVL<30 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Sorceress orbs until character level 30
 
-// These lines only require +1 (or higher) to the skill as these are used for prebuffing / saving skill points
-ItemDisplay[NMAG !INF !RW SK50>0 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shiver Armor
-ItemDisplay[NMAG !INF !RW SK60>0 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chilling Armor
-ItemDisplay[NMAG !INF !RW SK58>0 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Energy Shield
-
 // The lines below are for each skill for this class
 // Please note if you want to have more specific drops (eg sup/eth/sockets) you will need to add those in
 // An example would be if you only wanted Superior Ethereal 2 socket Cold Mastery head you would add, before "SK65>2", "SUP ETH SOCK=2 " (example provided at bottom of Cold section below)
@@ -5222,10 +5217,10 @@ ItemDisplay[NMAG !INF !RW SK58>0 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Energy S
 ItemDisplay[NMAG !INF !RW SK40>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Enchant Cold
 ItemDisplay[NMAG !INF !RW SK44>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Frost Nova
 //ItemDisplay[NMAG !INF !RW SK45>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ice Blast
-ItemDisplay[NMAG !INF !RW SK50>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shiver Armor
+//ItemDisplay[NMAG !INF !RW SK50>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shiver Armor
 //ItemDisplay[NMAG !INF !RW SK55>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glacial Spike
 ItemDisplay[NMAG !INF !RW SK59>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blizzard
-ItemDisplay[NMAG !INF !RW SK60>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chilling Armor
+//ItemDisplay[NMAG !INF !RW SK60>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chilling Armor
 ItemDisplay[NMAG !INF !RW SK369>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ice Barrage
 ItemDisplay[NMAG !INF !RW SK64>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Frozen Orb
 ItemDisplay[NMAG !INF !RW SK65>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cold Mastery
@@ -11941,9 +11936,9 @@ ItemDisplay[NMAG !INF !RW SOCK=5 STAFF]: %NAME%{%ORANGE%Call to Arms, Eternity, 
 ItemDisplay[NMAG !INF !RW SOCK=6 STAFF]: %NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 6os
 
 // These lines only require +1 (or higher) to the skill as these are used for prebuffing / saving skill points
-ItemDisplay[NMAG !INF !RW SK50>0 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shiver Armor
-ItemDisplay[NMAG !INF !RW SK60>0 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chilling Armor
-ItemDisplay[NMAG !INF !RW SK58>0 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Energy Shield
+ItemDisplay[NMAG !INF !RW (SOCK=4 OR SOCK=5) SK50>0 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shiver Armor
+ItemDisplay[NMAG !INF !RW (SOCK=4 OR SOCK=5) SK60>0 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chilling Armor
+ItemDisplay[NMAG !INF !RW (SOCK=4 OR SOCK=5) SK58>0 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Energy Shield
 
 // These lines are for Staves with Sorceress skills
 // --- Cold
