@@ -8589,17 +8589,17 @@ ItemDisplay[NMAG !INF !RW SOCK=6 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserke
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 4os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 5os, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 2os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 3os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 4os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 5os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 4os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 5os, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 4os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=5 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 5os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=5 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 5os, Eth
 
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 2os, Superior, Eth
@@ -8622,17 +8622,17 @@ ItemDisplay[NMAG !INF !RW SOCK=6 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserke
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 5os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 6os, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 2os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 3os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 4os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 5os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 6os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 4os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 5os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 6os, Superior, Non-Eth
 
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 4os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 5os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Champion Axe, 6os, Eth
 
@@ -8658,17 +8658,17 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7ga]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cham
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 5os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 6os, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 2os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 3os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 4os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 5os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 6os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 4os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 5os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 6os, Superior, Non-Eth
 
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 4os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 5os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gi]: %NAME%%DOT-20%%PX-00%{%NAME%} // Glorious Axe, 6os, Eth
 
@@ -13629,9 +13629,9 @@ ItemDisplay[NMAG !INF !RW SOCK=6 7cr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Phase Bl
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 72h]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legend Sword, 2os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 72h]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legend Sword, 3os, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 72h]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legend Sword, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 72h]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legend Sword, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 72h]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legend Sword, 2os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 72h]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legend Sword, 3os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 72h]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legend Sword, 3os, Superior, Non-Eth
 
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 72h]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legend Sword, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 72h]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legend Sword, 2os, Eth
@@ -13678,10 +13678,10 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=3 72h]: %NAME%%DOT-20%%PX-00%{%NAME%} // Lege
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 3os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 4os, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 2os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 3os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 4os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 3os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 4os, Superior, Non-Eth
 
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balrog Blade, 2os, Eth
@@ -13732,11 +13732,11 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Balr
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 4os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 5os, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 2os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 3os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 4os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 5os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 4os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 5os, Superior, Non-Eth
 
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Sword, 2os, Eth
@@ -13765,12 +13765,12 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=5 7fb]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colo
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=5 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 5os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=6 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 6os, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 2os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 3os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 4os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 5os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 6os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 4os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 5os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=6 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 6os, Superior, Non-Eth
 
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 2os, Eth
