@@ -1712,11 +1712,11 @@ ItemDisplay[NMAG !INF !RW !ETH SK95>2 NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Rev
 // ------------------------------------------------------------------------------
 //    [BCPA] Paladin
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 RES>20 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Paladin shields, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 RES>20 DIN]: %NAME%{%TAN%Larzuk for sockets}%CONTINUE% // All Paladin shields, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 RES>20 DIN]: %NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 RES>20 DIN]: %NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN]: %NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 4os
+ItemDisplay[NMAG !INF !RW !SUP SOCK=0 DIN]: %NAME%{%TAN%& Perfect Ruby for sockets%NL%Larzuk or cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Paladin shields, 0os, Non-Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=0 DIN]: %NAME%{%TAN%Larzuk for sockets}%CONTINUE% // All Paladin shields, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=2 DIN]: %NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 DIN]: %NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 DIN]: %NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 4os
 
 ItemDisplay[NMAG !INF !RW CLVL<30 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Paladin shields until character level 30
 
