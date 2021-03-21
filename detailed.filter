@@ -293,11 +293,6 @@ ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone x%QTY% %PURPLE%+%MAP-62%{%TAN%
 ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from Hell Diablo & Baal%NL%%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
 ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from map bosses%NL%%NL%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
 ItemDisplay[dcma]: %PURPLE%+ %RED%Vision of Terror %PURPLE%+%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
-ItemDisplay[UNI !ID utb]: %NAME%%MAP-A5% // New DClone Unique Mirrored Boots
-ItemDisplay[UNI !ID uld]: %NAME%%MAP-A5% // New DClone Unique Kraken Shell
-ItemDisplay[UNI !ID 7bs]: %NAME%%MAP-A5% // New DClone Unique Conquest Sword
-ItemDisplay[UNI !ID 7qr]: %NAME%%MAP-A5% // New DClone Unique Scissors Suwayyah
-ItemDisplay[UNI !ID uh9]: %NAME%%MAP-A5% // New DClone Unique Bone Visage
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -764,7 +759,7 @@ ItemDisplay[UNI !ID 7wb]: %NAME%%MAP-A5% // Jadetalon Wrist Sword
 ItemDisplay[UNI !ID 7cs]: %NAME%%MAP-A5% // Shadowkiller Battle Cestus
 ItemDisplay[UNI !ID 7lw]: %NAME%%MAP-A5% // Firelizard's Talons Feral Claws
 //ItemDisplay[UNI !ID 7tw]: %NAME%%MAP-A5% // Runic Talons (No Unique for this base)
-//ItemDisplay[UNI !ID 7qr]: %NAME%%MAP-A5% // Scissors Suwayyah (No Unique for this base)
+ItemDisplay[UNI !ID 7qr]: %NAME%%MAP-A5% // Aidan's Scar Scissors Suwayyah
 
 // ------------------------------------------------------------------------------
 //      [UCBA] Barbarian
@@ -939,7 +934,7 @@ ItemDisplay[UNI !ID upl]: %NAME%%MAP-A5% // Arkaine's Valor Balrog Skin
 //ItemDisplay[UNI !ID utp]: %NAME%%MAP-A5% // Archon Plate (No Unique for this base)
 ItemDisplay[UNI !ID uld]: %NAME%%MAP-A5% // Leviathan Kraken Shell
 //ItemDisplay[UNI !ID ult]: %NAME%%MAP-A5% // Hellforge Plate (No Unique for this base)
-//ItemDisplay[UNI !ID uth]: %NAME%%MAP-A5% // Lacquered Plate (No Unique for this base)
+ItemDisplay[UNI !ID uth]: %NAME%%MAP-A5% // Dark Abyss Lacquered Plate
 ItemDisplay[UNI !ID uul]: %NAME%%MAP-A5% // Steel Carapace Shadow Plate
 ItemDisplay[UNI !ID uar]: %NAME%%MAP-A5% // Templar's Might or Tyrael's Might Sacred Armor
 
@@ -988,7 +983,7 @@ ItemDisplay[UNI !ID xhb]: %NAME%%MAP-A5% // Gore Rider War Boots
 //ItemDisplay[UNI !ID ulb]: %NAME%%MAP-A5% // Wyrmhide Boots (No Unique for this base)
 ItemDisplay[UNI !ID uvb]: %NAME%%MAP-A5% // Sandstorm Trek Scarabshell Boots
 ItemDisplay[UNI !ID umb]: %NAME%%MAP-A5% // Marrowwalk Boneweave Boots
-//ItemDisplay[UNI !ID utb]: %NAME%%MAP-A5% // Mirrored Boots (No Unique for this base)
+ItemDisplay[UNI !ID utb]: %NAME%%MAP-A5% // Itherael's Path Mirrored Boots
 ItemDisplay[UNI !ID uhb]: %NAME%%MAP-A5% // Shadow Dancer Myrmidon Greaves
 
 // ------------------------------------------------------------------------------
@@ -1042,7 +1037,7 @@ ItemDisplay[UNI !ID xh9]: %NAME%%MAP-A5% // Vampire Gaze Grim Helm
 ItemDisplay[UNI !ID uap]: %NAME%%MAP-A5% // Harlequin Crest Shako
 //ItemDisplay[UNI !ID ukp]: %NAME%%MAP-A5% // Hydraskull (No Unique for this base)
 ItemDisplay[UNI !ID ulm]: %NAME%%MAP-A5% // Steel Shade Armet
-//ItemDisplay[UNI !ID uhl]: %NAME%%MAP-A5% // Giant Conch (No Unique for this base)
+ItemDisplay[UNI !ID uhl]: %NAME%%MAP-A5% // Overlord's Helm Giant Conch
 ItemDisplay[UNI !ID uhm]: %NAME%%MAP-A5% // Veil of Steel or Nightwing's Veil Spired Helm
 ItemDisplay[UNI !ID usk]: %NAME%%MAP-A5% // Andariel's Visage Demonhead
 ItemDisplay[UNI !ID urn]: %NAME%%MAP-A5% // Crown of Ages Corona
@@ -1414,7 +1409,7 @@ ItemDisplay[UNI !ID 7sm]: %NAME%%MAP-A5% // Djinn Slayer Ataghan
 ItemDisplay[UNI !ID 7sb]: %NAME%%MAP-A5% // Bloodmoon Elegant Blade
 //ItemDisplay[UNI !ID 7fc]: %NAME%%MAP-A5% // Hydra Edge (No Unique for this base)
 ItemDisplay[UNI !ID 7cr]: %NAME%%MAP-A5% // Lightsabre or Azurewrath Phase Blade
-//ItemDisplay[UNI !ID 7bs]: %NAME%%MAP-A5% // Conquest Sword (No Unique for this base)
+ItemDisplay[UNI !ID 7bs]: %NAME%%MAP-A5% // Hadriel's Hand Conquest Sword
 ItemDisplay[UNI !ID 7ls]: %NAME%%MAP-A5% // Frostwind Cryptic Sword
 //ItemDisplay[UNI !ID 7wd]: %NAME%%MAP-A5% // Mythical Sword (No Unique for this base)
 

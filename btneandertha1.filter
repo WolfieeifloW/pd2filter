@@ -133,11 +133,6 @@ ItemDisplay[dcho]: %RED%Black Soulstone x%QTY%%MAP-62%{%TAN%& Pure Demonic Essen
 ItemDisplay[dcso]: %RED%Prime Evil Soul x%QTY%%MAP-62%{%TAN%& Pure Demonic Essence%NL%Cube w/ Black Soulstone%NL%%NL%Drops from Hell Diablo & Baal} // Prime Evil Soul
 ItemDisplay[dcbl]: %RED%Pure Demonic Essence x%QTY%%MAP-62%{%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone%NL%%NL%Drops from map bosses} // Pure Demonic Essence
 ItemDisplay[dcma]: %RED%Vision of Terror%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
-ItemDisplay[UNI !ID utb]: %NAME%%MAP-A5% // New DClone Unique Mirrored Boots
-ItemDisplay[UNI !ID uld]: %NAME%%MAP-A5% // New DClone Unique Kraken Shell
-ItemDisplay[UNI !ID 7bs]: %NAME%%MAP-A5% // New DClone Unique Conquest Sword
-ItemDisplay[UNI !ID 7qr]: %NAME%%MAP-A5% // New DClone Unique Scissors Suwayyah
-ItemDisplay[UNI !ID uh9]: %NAME%%MAP-A5% // New DClone Unique Bone Visage
 
 // Gems -------------------------------------------------------------------------
 ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
@@ -387,6 +382,7 @@ ItemDisplay[UNI !ID amf]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Thun
 
 //    Assassin
 ItemDisplay[UNI !ID 7cs]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Shadowkiller Battle Cestus
+ItemDisplay[UNI !ID 7qr]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Aidan's Scar Scissors Suwayyah
 
 //    Barbarian
 ItemDisplay[UNI !ID baa]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Arreat's Face Slayer Guard
@@ -425,6 +421,7 @@ ItemDisplay[UNI !ID uui]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Ormu
 ItemDisplay[UNI !ID utu]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // The Gladiator's Bane Wire Fleece
 ItemDisplay[UNI !ID upl]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Arkaine's Valor Balrog Skin
 ItemDisplay[UNI !ID uld]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Leviathan Kraken Shell
+ItemDisplay[UNI !ID uth]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Dark Abyss Lacquered Plate
 ItemDisplay[UNI !ID uul]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Steel Carapace Shadow Plate
 ItemDisplay[UNI !ID uar]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Templar's Might or Tyrael's Might Sacred Armor
 
@@ -446,6 +443,7 @@ ItemDisplay[UNI !ID xtb]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // War 
 ItemDisplay[UNI !ID xhb]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Gore Rider War Boots
 ItemDisplay[UNI !ID uvb]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Sandstorm Trek Scarabshell Boots
 ItemDisplay[UNI !ID umb]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Marrowwalk Boneweave Boots
+ItemDisplay[UNI !ID utb]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Itherael's Path Mirrored Boots
 ItemDisplay[UNI !ID uhb]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Shadow Dancer Myrmidon Greaves
 
 //    Gloves
@@ -465,6 +463,7 @@ ItemDisplay[UNI !ID xhm]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Valkyrie W
 ItemDisplay[UNI !ID xh9]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Vampire Gaze Grim Helm
 ItemDisplay[UNI !ID uap]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Harlequin Crest Shako
 ItemDisplay[UNI !ID ulm]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Steel Shade Armet
+ItemDisplay[UNI !ID uhl]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Overlord's Helm Giant Conch
 ItemDisplay[UNI !ID uhm]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Veil of Steel or Nightwing's Veil Spired Helm
 ItemDisplay[UNI !ID usk]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Andariel's Visage Demonhead
 ItemDisplay[UNI !ID urn]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Crown of Ages Corona
@@ -540,6 +539,7 @@ ItemDisplay[UNI 6ws]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5%{%ORANGE%Hav
 //    Swords
 ItemDisplay[UNI !ID 9fc]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Blade of Ali Baba Tulwar
 ItemDisplay[UNI !ID 7cr]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Lightsabre or Azurewrath Phase Blade
+ItemDisplay[UNI !ID 7bs]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Hadriel's Hand Conquest Sword
 ItemDisplay[UNI !ID 7gs]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Flamebellow Balrog Blade
 ItemDisplay[UNI !ID 7b7]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Doombringer Champion Sword
 ItemDisplay[UNI !ID 7gd]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // The Grandfather Colossus Blade
