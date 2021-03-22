@@ -100,7 +100,7 @@ These are the common problems that people seem to run into. Please check each of
 
 # FAQ
 * **What is the (best / recommended / good for X / leveling) filter?**
-  * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Try a few out, it's easier than ever now to try different ones as it's only a few clicks in the launcher
+  * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Try a few out, it's easier than ever now to try different ones as it's only a few clicks in the launcher. [List of Public Filters](https://projectdiablo2.miraheze.org/wiki/Item_Filtering#List_of_Public_Filters) has a short description for each filter
 * **How do I turn off the filter / go back to original?**
   * Turn off `Advanced Item Display` in the in-game settings and then delete `default.filter` and `loot.filter` in the ProjectD2 folder
 * **My launcher still says "Coming soon!" for item filters?**
