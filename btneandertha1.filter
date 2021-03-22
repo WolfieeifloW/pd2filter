@@ -393,6 +393,7 @@ ItemDisplay[UNI !ID bae]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Hala
 ItemDisplay[UNI !ID dra]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Jalal's Mane Totemic Mask
 ItemDisplay[UNI !ID drb]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Cerebus' Bite Blood Spirit
 ItemDisplay[UNI !ID drd]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Spirit Keeper Earth Spirit
+ItemDisplay[UNI !ID dre]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Ravenlore Sky Spirit
 
 //    Necromancer
 ItemDisplay[UNI !ID nea]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Homunculus Hierophant Trophy
@@ -437,6 +438,7 @@ ItemDisplay[UNI !ID uvc]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Nosf
 ItemDisplay[UNI !ID umc]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Verdungo's Hearty Cord Mithril Coil
 
 //    Boots
+ItemDisplay[UNI !ID hbt]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Tearhaunch Greaves
 ItemDisplay[UNI !ID xvb]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Waterwalk Sharkskin Boots
 ItemDisplay[UNI !ID xmb]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Silkweave Mesh Boots
 ItemDisplay[UNI !ID xtb]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // War Traveler Battle Boots
