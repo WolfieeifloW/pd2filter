@@ -13829,7 +13829,7 @@ ItemDisplay[NMAG !INF !RW !SUP SOCK=0 WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%& 
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%Larzuk for sockets}%CONTINUE% // All Wands, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 WAND !(wnd OR ywn OR 9wn)]: %NAME%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:}%CONTINUE% // All Wands, 2os
 
-ItemDisplay[NMAG !INF !RW CLVL<30 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Necromancer heads until character level 30
+ItemDisplay[NMAG !INF !RW CLVL<30 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Wands until character level 30
 
 // The lines below are for each skill for this class
 // Please note if you want to have more specific drops (eg sup/eth/sockets) you will need to add those in

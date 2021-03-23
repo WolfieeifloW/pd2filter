@@ -1707,7 +1707,7 @@ ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% //
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Wands, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 WAND !(wnd OR ywn OR 9wn)]: %NAME%{%TAN%Larzuk for sockets}%CONTINUE% // All Wands, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 WAND !(wnd OR ywn OR 9wn)]: %NAME%{%ORANGE%Strength, White%NL%%TAN%Possible RWs:}%CONTINUE% // All Wands, 2os
-ItemDisplay[NMAG !INF !RW CLVL<30 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Necromancer heads until character level 30
+ItemDisplay[NMAG !INF !RW CLVL<30 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Wands until character level 30
 ItemDisplay[NMAG !INF !RW SK66>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Amplify Damage
 ItemDisplay[NMAG !INF !RW SK76>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Iron Maiden
 ItemDisplay[NMAG !INF !RW SK82>2 WAND]: %NAME%%DOT-20%%PX-00%{%NAME%} // Life Tap
