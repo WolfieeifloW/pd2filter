@@ -39,7 +39,7 @@ The launcher will automatically grab the newest version of your selected filter 
 1. Select **Play** in the launcher
 1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
 1. Change your settings to match the image below:  
-![In-Game Settings](https://i.imgur.com/WFeroFv.png)
+![InGameSettings](https://user-images.githubusercontent.com/40577712/112235704-8f38d380-8c15-11eb-9791-fddfe493d45b.png)
 1. Close the Settings window by right-clicking in the title bar (anywhere along the bar that says "Settings")
 1. Reload your filter using **Numpad 0**
    1. If you don't have a numpad change `Reload Config:          VK_NUMPAD0` in ProjectDiablo.cfg (in your PD2 folder) to one of these [Virtual Key Codes](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
