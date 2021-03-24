@@ -1019,7 +1019,7 @@ ItemDisplay[MAG ILVL>71 (8hb OR 6hb OR 8cb OR 6cb OR 8lw OR 6lw)]: %NAME% %ORANG
 // ------------------------------------------------------------------------------
 //       [CWCR] Crossbows
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 XBOW (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Crossbow
+ItemDisplay[MAG ILVL>71 XBOW (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Crossbow
 
 // ------------------------------------------------------------------------------
 //       [CWDA] Daggers
