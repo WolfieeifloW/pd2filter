@@ -1615,6 +1615,8 @@ ItemDisplay[NMAG !INF !RW SK276>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Death S
 ItemDisplay[NMAG !INF !RW SK271>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chain Lightning Sentry
 ItemDisplay[NMAG !INF !RW SK366>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Lightning Sentry
 
+ItemDisplay[NMAG !INF !RW ETH (SOCK=0 OR SOCK=3) ELT SIN]: %NAME% // Showing all 0/3os Ethereal Elite tier Assassin katars
+
 // ------------------------------------------------------------------------------
 //    [BCBA] Barbarian
 // ------------------------------------------------------------------------------
