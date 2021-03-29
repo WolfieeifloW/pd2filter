@@ -2874,6 +2874,10 @@ ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt
 ItemDisplay[NMAG !INF !RW SOCK=4 fla]: %NAME%%DOT-20%%PX-00%{%NAME%} // Flail, 4os, all variants
 ItemDisplay[NMAG !INF !RW SOCK=5 fla]: %NAME%%DOT-20%%PX-00%{%NAME%} // Flail, 5os, all variants
 
+// Scourge
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 4os, Eth
+
 // ------------------------------------------------------------------------------
 //    [BWPO] Polearms
 // ------------------------------------------------------------------------------

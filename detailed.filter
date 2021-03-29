@@ -11439,10 +11439,10 @@ ItemDisplay[NMAG !INF !RW SOCK=5 fla]: %NAME%%DOT-20%%PX-00%{%NAME%} // Flail, 5
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 4os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 5os, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 5os, Eth
 
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 0os, Superior, Eth
