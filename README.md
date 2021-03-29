@@ -1,9 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**Filters are updated for Season 2 since Thursday, March 11, 2021 2:37PM EST!**
-
-To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).
-
+To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).  
 I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!
 
 **TOO MANY BLUE OR WHITE ITEMS?**  
