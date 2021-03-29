@@ -2395,10 +2395,10 @@ ItemDisplay[NMAG !INF !RW SOCK=2 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRA
 //      Items to Vendor
 ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF<3 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // For non-eth, no sockets items, all difficulties
 ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF<3 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // For eth or socketed items, all difficulties
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>20000 DIFF<2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // For non-eth, no sockets items, Normal & Nightmare difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>20000 DIFF<2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // For eth or socketed items, Normal & Nightmare difficulty
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // For non-eth, no sockets items, Normal difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>10000 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // For eth or socketed items, Normal difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>19999 DIFF<2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // For non-eth, no sockets items, Normal & Nightmare difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>19999 DIFF<2 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // For eth or socketed items, Normal & Nightmare difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>9999 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // For non-eth, no sockets items, Normal difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>9999 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // For eth or socketed items, Normal difficulty
 
 //      Hide all other bases not specified above
 ItemDisplay[NMAG !RW (NORM OR EXC OR ELT) CLVL<65]: %NAME% // Show all other Base items until level 65
