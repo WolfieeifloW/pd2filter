@@ -1506,8 +1506,10 @@ ItemDisplay[isc DIFF>0]: // Hides Scroll of Identify after Normal difficulty
 ItemDisplay[tsc DIFF<1 CLVL<15]: TP%BLUE%!%WHITE%{%TAN%will slowly show less clutter!%NL%Keep lvling and the filter%NL%All Exc and Elt Magics/Bases until 75%NL%All Magics/Bases until 30} // Scroll of Town Portal, showing info about filter until char level 15
 ItemDisplay[tsc DIFF<1]: TP%BLUE%!%WHITE% // Scroll of Town Portal
 ItemDisplay[tsc DIFF>0]: // Hides Scroll of Town Portal after Normal difficulty
+ItemDisplay[ibk QTY<5]: %RED%!%WHITE%ID%RED% REFILL ME !%WHITE% // Tome of Identify
 ItemDisplay[ibk]: %RED%!%WHITE%ID%RED%!%WHITE% // Tome of Identify
-ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
+ItemDisplay[tbk QTY<5]: %BLUE%!%WHITE%TP%RED% REFILL ME%BLUE%!%WHITE%{%RED%HELLO} // Tome of Town Portal
+ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE%{%RED%HELLO} // Tome of Town Portal
 
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous

@@ -866,8 +866,10 @@ ItemDisplay[isc DIFF<2]: ID%RED%!%WHITE% // Show Scroll of Identify in Normal/Ni
 ItemDisplay[isc DIFF>1]: // Hides Scroll of Identify after Nightmare difficulty
 ItemDisplay[tsc DIFF<2]: TP%BLUE%!%WHITE% // Scroll of Town Portal in Normal/Nightmare difficulty
 ItemDisplay[tsc DIFF>1]: // Hides Scroll of Town Portal after Nightmare difficulty
+ItemDisplay[ibk QTY<5]: %RED%!%WHITE%ID%RED% REFILL ME !%WHITE% // Tome of Identify
 ItemDisplay[ibk]: %RED%!%WHITE%ID%RED%!%WHITE% // Tome of Identify
-ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
+ItemDisplay[tbk QTY<5]: %BLUE%!%WHITE%TP%RED% REFILL ME%BLUE%!%WHITE%{%RED%HELLO} // Tome of Town Portal
+ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE%{%RED%HELLO} // Tome of Town Portal
 
 //      Base Items Misc
 ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>65]: // Hides all 1 socket base items after level 65
