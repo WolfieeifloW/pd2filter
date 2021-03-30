@@ -103,7 +103,7 @@ These are the common problems that people seem to run into. Please check each of
 * **How do I turn off the filter / go back to original?**
   * Turn off `Advanced Item Display` in the in-game settings, close your game and launcher, delete `default.filter` and `loot.filter` in the ProjectD2 folder, and then reload the game
 * **My launcher still says "Coming soon!" for item filters?**
-  * Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again. Back-up your ddraw.ini and ProjectDiablo.cfg files before reinstalling as the new launcher will overwrite them!
+  * First back-up your ddraw.ini and ProjectDiablo.cfg files before reinstalling as the new launcher will overwrite them! Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install again.
 * **Will a loot filter from Season 1 work for Season 2?**
   * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
 * **But I've customized my filter, how do I save my changes?**
