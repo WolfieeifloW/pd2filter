@@ -872,7 +872,7 @@ ItemDisplay[tbk QTY<5]: %BLUE%!%WHITE%TP%RED% REFILL ME%BLUE%!%WHITE%{%RED%HELLO
 ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE%{%RED%HELLO} // Tome of Town Portal
 
 //      Base Items Misc
-ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>65]: // Hides all 1 socket base items after level 65
+ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>65]: // Hides all 1 socket base items after level 65
 
 //      Showing ED on Armors/Weapons (eg "Sacred Armor [13%]")
 ItemDisplay[NMAG !INF !RW SUP ED>0 ED<10]: %NAME% %GRAY%[%BLUE%ED%GRAY%]%CONTINUE% // For 5-9% ED just shows "ED"
@@ -912,7 +912,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME% %
 
 //      Base Amazon Javelins
 ItemDisplay[NMAG TABSK2>2 CLVL<75 ELT (am5 OR ama OR amf)]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%WHITE%%DOT-1E% // Show +3 Elite tier Amazon Javelins until character level 75
-ItemDisplay[NMAG TABSK2<3 CLVL>65 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins that are +0-2 Jav skills at character level 66+
+ItemDisplay[NMAG ID TABSK2<3 CLVL>65 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins that are +0-2 Jav skills at character level 66+
 
 //      Base Assassin Katars
 //          Martial Arts

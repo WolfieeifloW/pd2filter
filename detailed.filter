@@ -5199,7 +5199,7 @@ ItemDisplay[NMAG !INF !RW SOCK=0 7yw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%C
 ItemDisplay[NMAG !INF !RW SOCK=0 7bw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Lich Wand, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 7gw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Unearthed Wand, 0os
 
-ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
+ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
 
 // ------------------------------------------------------------------------------
 //    [BMCI] Circlets
@@ -7269,19 +7269,19 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=4 uar]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Sacr
 //    [BABE] Belts
 // ------------------------------------------------------------------------------
 // No need for white belts currently.
-ItemDisplay[NMAG BELT CLVL>10]: // This will completely hide all white belts past character level 10
+ItemDisplay[NMAG ID BELT CLVL>10]: // This will completely hide all white belts past character level 10
 
 // ------------------------------------------------------------------------------
 //    [BABO] Boots
 // ------------------------------------------------------------------------------
 // No need for white boots currently.
-ItemDisplay[NMAG BOOTS CLVL>10]: // This will completely hide all white boots past character level 10
+ItemDisplay[NMAG ID BOOTS CLVL>10]: // This will completely hide all white boots past character level 10
 
 // ------------------------------------------------------------------------------
 //    [BAGL] Gloves
 // ------------------------------------------------------------------------------
 // No need for white gloves currently.
-ItemDisplay[NMAG GLOVES CLVL>10]: // This will completely hide all white gloves past character level 10
+ItemDisplay[NMAG ID GLOVES CLVL>10]: // This will completely hide all white gloves past character level 10
 
 // ------------------------------------------------------------------------------
 //    [BAHE] Helms
@@ -7928,7 +7928,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SHIELD !DIN !NEC]: %NAME%%DOT-20%%PX-00%{%
 // --- Normal tier Shields
 // ------ Buckler
 // Bucker can only have 1 socket
-ItemDisplay[NMAG CLVL>10 buc]: // This will completely hide all white Bucklers past character level 10
+ItemDisplay[NMAG ID CLVL>10 buc]: // This will completely hide all white Bucklers past character level 10
 
 // ------ Small Shield
 //ItemDisplay[NMAG !INF !RW SOCK=0 sml]: %NAME%%DOT-20%%PX-00%{%NAME%} // Small Shield, 0os, all variants
@@ -8065,7 +8065,7 @@ ItemDisplay[NMAG CLVL>10 buc]: // This will completely hide all white Bucklers p
 // --- Exceptional tier Shields
 // ------ Defender
 // Defender can only have 1 socket
-ItemDisplay[NMAG CLVL>10 xuc]: // This will completely hide all white Defenders past character level 10
+ItemDisplay[NMAG ID CLVL>10 xuc]: // This will completely hide all white Defenders past character level 10
 
 // ------ Round Shield
 //ItemDisplay[NMAG !INF !RW SOCK=0 xml]: %NAME%%DOT-20%%PX-00%{%NAME%} // Round Shield, 0os, all variants
@@ -10305,11 +10305,11 @@ ItemDisplay[NMAG !INF !RW SOCK=3 DAGGER !THROWING]: %NAME%{%ORANGE%Plague, Venom
 // --- Normal tier Daggers
 // ------ Dagger
 // Dagger can only have 1 socket
-ItemDisplay[NMAG CLVL>20 dgr]: // This will completely hide all white Daggers past character level 20
+ItemDisplay[NMAG ID CLVL>20 dgr]: // This will completely hide all white Daggers past character level 20
 
 // ------ Dirk
 // Dirk can only have 1 socket
-ItemDisplay[NMAG CLVL>20 dir]: // This will completely hide all white Dirks past character level 20
+ItemDisplay[NMAG ID CLVL>20 dir]: // This will completely hide all white Dirks past character level 20
 
 // ------ Kris
 //ItemDisplay[NMAG !INF !RW SOCK=0 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 0os, all variants
@@ -10351,11 +10351,11 @@ ItemDisplay[NMAG CLVL>20 dir]: // This will completely hide all white Dirks past
 // --- Exceptional tier Daggers
 // ------ Poignard
 // Poignard can only have 1 socket
-ItemDisplay[NMAG CLVL>20 9dg]: // This will completely hide all white Poignards past character level 20
+ItemDisplay[NMAG ID CLVL>20 9dg]: // This will completely hide all white Poignards past character level 20
 
 // ------ Rondel
 // Rondel can only have 1 socket
-ItemDisplay[NMAG CLVL>20 9di]: // This will completely hide all white Rondels past character level 20
+ItemDisplay[NMAG ID CLVL>20 9di]: // This will completely hide all white Rondels past character level 20
 
 // ------ Cinquedeas
 //ItemDisplay[NMAG !INF !RW SOCK=0 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 0os, all variants
@@ -10397,11 +10397,11 @@ ItemDisplay[NMAG CLVL>20 9di]: // This will completely hide all white Rondels pa
 // --- Elite tier Daggers
 // ------ Bone Knife
 // Bone Knife can only have 1 socket
-ItemDisplay[NMAG CLVL>20 7dg]: // This will completely hide all white Bone Knifes past character level 20
+ItemDisplay[NMAG ID CLVL>20 7dg]: // This will completely hide all white Bone Knifes past character level 20
 
 // ------ Mithril Point
 // Mithril Point can only have 1 socket
-ItemDisplay[NMAG CLVL>20 7di]: // This will completely hide all white Mithril Points past character level 20
+ItemDisplay[NMAG ID CLVL>20 7di]: // This will completely hide all white Mithril Points past character level 20
 
 // ------ Fanged Knife
 //ItemDisplay[NMAG !INF !RW SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, all variants
@@ -10443,7 +10443,7 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} //
 // ------------------------------------------------------------------------------
 //    [BWJA] Javelins
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG CLVL>20 SPEAR THROWING !ZON]: // This will completely hide all white javelins past character level 20
+ItemDisplay[NMAG ID CLVL>20 SPEAR THROWING !ZON]: // This will completely hide all white javelins past character level 20
 
 // ------------------------------------------------------------------------------
 //    [BWMA] Maces
@@ -14723,7 +14723,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colo
 //    [BWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
 // This character level is high as throw barbs can use white throwing weapons for a while while leveling
-ItemDisplay[NMAG CLVL>50 !SPEAR THROWING !ZON]: // This will completely hide all white throwing weapons past character level 50
+ItemDisplay[NMAG ID CLVL>50 !SPEAR THROWING !ZON]: // This will completely hide all white throwing weapons past character level 50
 ItemDisplay[NMAG SUP !ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Superior throwing weapons until character level 50
 ItemDisplay[NMAG !SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Ethereal throwing weapons until character level 50
 ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Superior Ethereal throwing weapons until character level 50

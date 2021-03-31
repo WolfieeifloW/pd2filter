@@ -2315,7 +2315,7 @@ ItemDisplay[NMAG !INF !RW SOCK=0 7yw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%C
 ItemDisplay[NMAG !INF !RW SOCK=0 7bw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Lich Wand, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 7gw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Unearthed Wand, 0os
 
-ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>15]: // Hides all 1 socket base items after level 15
+ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>15]: // Hides all 1 socket base items after level 15
 
 // ------------------------------------------------------------------------------
 //    [BMCI] Circlets
@@ -2653,19 +2653,19 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=4 uar]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Sacr
 //    [BABE] Belts
 // ------------------------------------------------------------------------------
 // No need for white belts currently.
-ItemDisplay[NMAG BELT CLVL>10]: // This will completely hide all white belts past character level 10
+ItemDisplay[NMAG ID BELT CLVL>10]: // This will completely hide all white belts past character level 10
 
 // ------------------------------------------------------------------------------
 //    [BABO] Boots
 // ------------------------------------------------------------------------------
 // No need for white boots currently.
-ItemDisplay[NMAG BOOTS CLVL>10]: // This will completely hide all white boots past character level 10
+ItemDisplay[NMAG ID BOOTS CLVL>10]: // This will completely hide all white boots past character level 10
 
 // ------------------------------------------------------------------------------
 //    [BAGL] Gloves
 // ------------------------------------------------------------------------------
 // No need for white gloves currently.
-ItemDisplay[NMAG GLOVES CLVL>10]: // This will completely hide all white gloves past character level 10
+ItemDisplay[NMAG ID GLOVES CLVL>10]: // This will completely hide all white gloves past character level 10
 
 // ------------------------------------------------------------------------------
 //    [BAHE] Helms
@@ -2822,7 +2822,7 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} //
 // ------------------------------------------------------------------------------
 //    [BWJA] Javelins
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG CLVL<30 SPEAR THROWING !ZON]: // Show all white Javelins until character level 20
+ItemDisplay[NMAG ID CLVL<30 SPEAR THROWING !ZON]: // Show all white Javelins until character level 20
 
 // ------------------------------------------------------------------------------
 //    [BWMA] Maces

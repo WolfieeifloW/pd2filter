@@ -1962,7 +1962,7 @@ ItemDisplay[NMAG !INF !RW SOCK=0 7yw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%C
 ItemDisplay[NMAG !INF !RW SOCK=0 7bw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Lich Wand, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 7gw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Unearthed Wand, 0os
 // End of Larzuk quest socket numbers
-ItemDisplay[NMAG (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
+ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 ILVL>25 CIRC]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All circlets, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 ILVL>25 CIRC]: %NAME%{%NAME%}%CONTINUE% // All circlets, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 CIRC]: %NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:}%CONTINUE% // All circlets, 2os
@@ -2179,9 +2179,9 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=0 uar]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Sacr
 ItemDisplay[NMAG !INF !RW ETH SOCK=2 uar]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Sacred Armor, 2os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=3 uar]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Sacred Armor, 3os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=4 uar]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Sacred Armor, 4os, Eth
-ItemDisplay[NMAG BELT CLVL>10]: // This will completely hide all white belts past character level 10
-ItemDisplay[NMAG BOOTS CLVL>10]: // This will completely hide all white boots past character level 10
-ItemDisplay[NMAG GLOVES CLVL>10]: // This will completely hide all white gloves past character level 10
+ItemDisplay[NMAG ID BELT CLVL>10]: // This will completely hide all white belts past character level 10
+ItemDisplay[NMAG ID BOOTS CLVL>10]: // This will completely hide all white boots past character level 10
+ItemDisplay[NMAG ID GLOVES CLVL>10]: // This will completely hide all white gloves past character level 10
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 HELM !BAR !DRU]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All Helms, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 HELM !BAR !DRU]: %NAME%{%NAME%}%CONTINUE% // All Helms, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 HELM !BAR !DRU]: %NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:}%CONTINUE% // All Helms, 2os
@@ -2199,8 +2199,8 @@ ItemDisplay[NMAG !INF !RW SOCK=3 SHIELD !DIN !NEC]: %NAME%{%ORANGE%Dream, Sanctu
 ItemDisplay[NMAG !INF !RW SOCK=4 SHIELD !DIN !NEC]: %NAME%{%ORANGE%Phoenix, Spirit%NL%%TAN%Possible RWs:}%CONTINUE% // All Shields, 4os
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 SHIELD !DIN !NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket shields until character level 30
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SHIELD !DIN !NEC]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Shields, 4os, Non-Eth
-ItemDisplay[NMAG CLVL>10 buc]: // This will completely hide all white Bucklers past character level 10
-ItemDisplay[NMAG CLVL>10 xuc]: // This will completely hide all white Defenders past character level 10
+ItemDisplay[NMAG ID CLVL>10 buc]: // This will completely hide all white Bucklers past character level 10
+ItemDisplay[NMAG ID CLVL>10 xuc]: // This will completely hide all white Defenders past character level 10
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 xsh]: %NAME%%DOT-20%%PX-00%{%NAME%} // Grim Shield, 0os, Non-Eth
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 xsh]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Grim Shield, 2os, Non-Eth
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 uit]: %NAME%%DOT-20%%PX-00%{%NAME%} // Monarch, 0os, Non-Eth
@@ -2267,15 +2267,15 @@ ItemDisplay[NMAG !INF !RW !SUP SOCK=0 DAGGER !THROWING]: %NAME%{%NAME%%NL%& Perf
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 DAGGER !THROWING]: %NAME%{%NAME%}%CONTINUE% // All Daggers, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 DAGGER !THROWING]: %NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Daggers, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 DAGGER !THROWING]: %NAME%{%ORANGE%Plague, Venom, Wind%NL%Fury, Malice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Daggers, 3os
-ItemDisplay[NMAG CLVL>20 dgr]: // This will completely hide all white Daggers past character level 20
-ItemDisplay[NMAG CLVL>20 dir]: // This will completely hide all white Dirks past character level 20
-ItemDisplay[NMAG CLVL>20 9dg]: // This will completely hide all white Poignards past character level 20
-ItemDisplay[NMAG CLVL>20 9di]: // This will completely hide all white Rondels past character level 20
-ItemDisplay[NMAG CLVL>20 7dg]: // This will completely hide all white Bone Knifes past character level 20
-ItemDisplay[NMAG CLVL>20 7di]: // This will completely hide all white Mithril Points past character level 20
+ItemDisplay[NMAG ID CLVL>20 dgr]: // This will completely hide all white Daggers past character level 20
+ItemDisplay[NMAG ID CLVL>20 dir]: // This will completely hide all white Dirks past character level 20
+ItemDisplay[NMAG ID CLVL>20 9dg]: // This will completely hide all white Poignards past character level 20
+ItemDisplay[NMAG ID CLVL>20 9di]: // This will completely hide all white Rondels past character level 20
+ItemDisplay[NMAG ID CLVL>20 7dg]: // This will completely hide all white Bone Knifes past character level 20
+ItemDisplay[NMAG ID CLVL>20 7di]: // This will completely hide all white Mithril Points past character level 20
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Superior, Non-Eth
-ItemDisplay[NMAG CLVL>20 SPEAR THROWING !ZON]: // This will completely hide all white javelins past character level 20
+ItemDisplay[NMAG ID CLVL>20 SPEAR THROWING !ZON]: // This will completely hide all white javelins past character level 20
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Clubs, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%NAME%}%CONTINUE% // All Clubs, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Clubs, 2os
@@ -2467,7 +2467,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colo
 ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 4os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 5os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Blade, 6os, Eth
-ItemDisplay[NMAG CLVL>50 !SPEAR THROWING !ZON]: // This will completely hide all white throwing weapons past character level 50
+ItemDisplay[NMAG ID CLVL>50 !SPEAR THROWING !ZON]: // This will completely hide all white throwing weapons past character level 50
 ItemDisplay[NMAG SUP !ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Superior throwing weapons until character level 50
 ItemDisplay[NMAG !SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Ethereal throwing weapons until character level 50
 ItemDisplay[NMAG SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Superior Ethereal throwing weapons until character level 50
