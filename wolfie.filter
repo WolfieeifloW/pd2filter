@@ -3179,9 +3179,9 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>9999 DIFF<1 (NORM OR EXC OR ELT)]: %D
 // ------------------------------------------------------------------------------
 // [BIMA] Base Items Master
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
-ItemDisplay[NMAG !RW (ARMOR OR WEAPON) (EXC OR ELT) CLVL<75]: %NAME%{%NAME%} // Until level 75 notify and show all Exceptional and Elite tier base items
-ItemDisplay[NMAG !RW (ARMOR OR WEAPON) CLVL>29]: {%NAME%} // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above
+ItemDisplay[NMAG !RW ID (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
+ItemDisplay[NMAG !RW ID (ARMOR OR WEAPON) (EXC OR ELT) CLVL<75]: %NAME%{%NAME%} // Until level 75 notify and show all Exceptional and Elite tier base items
+ItemDisplay[NMAG !RW ID (ARMOR OR WEAPON) CLVL>29]: {%NAME%} // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |

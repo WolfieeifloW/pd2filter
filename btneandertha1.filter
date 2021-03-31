@@ -2403,5 +2403,5 @@ ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>9999 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_
 ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>9999 DIFF<1 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %GRAY%%NAME% // For eth or socketed items, Normal difficulty
 
 //      Hide all other bases not specified above
-ItemDisplay[NMAG !RW (NORM OR EXC OR ELT) CLVL<65]: %NAME% // Show all other Base items until level 65
-ItemDisplay[NMAG !RW (NORM OR EXC OR ELT) CLVL>64]: // Hide all other Base items at level 65+
+ItemDisplay[NMAG !RW ID (NORM OR EXC OR ELT) CLVL<65]: %NAME% // Show all other Base items until level 65
+ItemDisplay[NMAG !RW ID (NORM OR EXC OR ELT) CLVL>64]: // Hide all other Base items at level 65+
