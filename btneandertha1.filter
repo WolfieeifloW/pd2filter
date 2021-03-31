@@ -868,7 +868,7 @@ ItemDisplay[tsc DIFF<2]: TP%BLUE%!%WHITE% // Scroll of Town Portal in Normal/Nig
 ItemDisplay[tsc DIFF>1]: // Hides Scroll of Town Portal after Nightmare difficulty
 ItemDisplay[ibk QTY<5]: %RED%!%WHITE%ID%RED% REFILL ME !%WHITE% // Tome of Identify
 ItemDisplay[ibk]: %RED%!%WHITE%ID%RED%!%WHITE% // Tome of Identify
-ItemDisplay[tbk QTY<5]: %BLUE%!%WHITE%TP%RED% REFILL ME%BLUE%!%WHITE%{%RED%HELLO} // Tome of Town Portal
+ItemDisplay[tbk QTY<5]: %BLUE%!%WHITE%TP%RED% REFILL ME%BLUE%!%WHITE% // Tome of Town Portal
 ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE%{%RED%HELLO} // Tome of Town Portal
 
 //      Base Items Misc
