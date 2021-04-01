@@ -218,15 +218,15 @@ ItemDisplay[r03s]: %NAME%{%TAN%3 Tir + Key = Nef%NL%%NL%%WHITE%Shields: +2 Mana 
 ItemDisplay[r04]: %NAME%{%TAN%3 Nef + Key = Eth%NL%} // Nef Rune
 ItemDisplay[r04s]: %NAME%{%TAN%3 Nef + Key = Eth%NL%%NL%%WHITE%Shields: +30 Defense vs Missile%NL%Armor/Helms: +30 Defense vs Missile%NL%Weapons: Knockback%NL%} // Stacked Nef Rune
 ItemDisplay[r05]: %NAME%{%TAN%3 Eth + Key = Ith%NL%} // Eth Rune
-ItemDisplay[r05s]: %PURPLE%>>%ORANGE%Ist %RED%(24)%PURPLE%<< x%QTY%%BORDER-50%{%TAN%3 Eth + Key = Ith%NL%%NL%%WHITE%Shields: Regen Mana 15%%NL%Armor/Helms: Regen Mana 15%%NL%Weapons: -25% Target Defense%NL%%NL%%RED%April Fools!} // Stacked Eth Rune
+ItemDisplay[r05s]: %PURPLE%>>%ORANGE%Ist %RED%(24)%PURPLE%<< x%QTY%%BORDER-50%{%RED%THIS IS ACTUALLY AN ETH RUNE%NL%%NL%April Fools!} // Stacked Eth Rune
 ItemDisplay[r06]: %NAME%{%TAN%3 Ith + Key = Tal%NL%} // Ith Rune
-ItemDisplay[r06s]: %PURPLE%>>%ORANGE%Gul %RED%(25)%PURPLE%<< x%QTY%%BORDER-50%{%TAN%3 Ith + Key = Tal%NL%%NL%%WHITE%Shields: 15% Dmg Taken as Mana%NL%Armor/Helms: 15% Dmg Taken as Mana%NL%Weapons: +9 Max Dmg%NL%%NL%%RED%April Fools!} // Stacked Ith Rune
+ItemDisplay[r06s]: %PURPLE%>>%ORANGE%Gul %RED%(25)%PURPLE%<< x%QTY%%BORDER-50%{%RED%THIS IS ACTUALLY AN ITH RUNE%NL%%NL%April Fools!} // Stacked Ith Rune
 ItemDisplay[r07]: %NAME%{%TAN%3 Tal + Key = Ral%NL%} // Tal Rune
-ItemDisplay[r07s]: %PURPLE%>>%ORANGE%Vex %RED%(26)%PURPLE%<< x%QTY%%BORDER-50%{%TAN%3 Tal + Key = Ral%NL%%NL%%WHITE%Shields: Psn Res +35%%NL%Armor/Helms: Psn Res +30%%NL%Weapons: +75 psn dmg over 5 secs%NL%%NL%%RED%April Fools!} // Stacked Tal Rune
+ItemDisplay[r07s]: %PURPLE%>>%ORANGE%Vex %RED%(26)%PURPLE%<< x%QTY%%BORDER-50%{%RED%THIS IS ACTUALLY A TAL RUNE%NL%%NL%April Fools!} // Stacked Tal Rune
 ItemDisplay[r08]: %NAME%{%TAN%3 Ral + Key = Ort%NL%} // Ral Rune
-ItemDisplay[r08s]: %PURPLE%>>%ORANGE%Ohm %RED%(27)%PURPLE%<< x%QTY%%BORDER-50%{%TAN%3 Ral + Key = Ort%NL%%NL%%WHITE%Shields: Fire Res +35%%NL%Armor/Helms: Fire Res +30%%NL%Weapons: Adds 5-30 fire damage%NL%%NL%%RED%April Fools!} // Stacked Ral Rune
+ItemDisplay[r08s]: %PURPLE%>>%ORANGE%Ohm %RED%(27)%PURPLE%<< x%QTY%%BORDER-50%{%RED%THIS IS ACTUALLY A RAL RUNE%NL%%NL%April Fools!} // Stacked Ral Rune
 ItemDisplay[r09]: %NAME%{%TAN%3 Ort + Key = Thul%NL%} // Ort Rune
-ItemDisplay[r09s]: %PURPLE%>>%ORANGE%Lo %RED%(28)%PURPLE%<< x%QTY%%BORDER-50%{%TAN%3 Ort + Key = Thul%NL%%NL%%WHITE%Shields: Light Res +35%%NL%Armor/Helms: Light Res +30%%NL%Weapons: Adds 1-50 light dmg%NL%%NL%%RED%April Fools!} // Stacked Ort Rune
+ItemDisplay[r09s]: %PURPLE%>>%ORANGE%Lo %RED%(28)%PURPLE%<< x%QTY%%BORDER-50%{%RED%THIS IS ACTUALLY AN ORT RUNE%NL%%NL%April Fools!} // Stacked Ort Rune
 ItemDisplay[r10]: %NAME%{%TAN%3 Thul + Key = Amn%NL%} // Thul Rune
 ItemDisplay[r10s]: %NAME%{%TAN%3 Thul + Key = Amn%NL%%NL%%WHITE%Shields: Cold Resist +35%%NL%Armor/Helms: Cold Resist +30%%NL%Weapons: Adds 3-14 cold damage%NL%} // Stacked Thul Rune
 ItemDisplay[r11]: %NAME%{%TAN%3 Amn + Key = Sol%NL%} // Amn Rune
