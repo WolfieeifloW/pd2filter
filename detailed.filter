@@ -420,11 +420,11 @@ ItemDisplay[r04s]: %NAME%{%TAN%3 Nef + Key = Eth%NL%%NL%%WHITE%Shields: +30 Defe
 ItemDisplay[r05]: %NAME%{%TAN%3 Eth + Key = Ith%NL%} // Eth Rune
 ItemDisplay[r05s]: %NAME%{%TAN%3 Eth + Key = Ith%NL%%NL%%WHITE%Shields: Regen Mana 15%%NL%Armor/Helms: Regen Mana 15%%NL%Weapons: -25% Target Defense%NL%} // Eth Rune
 ItemDisplay[r06]: %NAME%{%TAN%3 Ith + Key = Tal%NL%} // Ith Rune
-ItemDisplay[r06s]: %ORANGE%Gul %RED%(25) x%QTY%%BORDER-50%{%RED%THIS IS ACTUALLY AN ITH RUNE%NL%%NL%April Fools!} // Stacked Ith Rune
+ItemDisplay[r06s]: %ORANGE%Gul %RED%(25) x%QTY%%BORDER-50%{%RED%Have fun, have a laugh!%NL%THIS IS ACTUALLY AN ITH RUNE%NL%%NL%April Fools!} // Stacked Ith Rune
 ItemDisplay[r07]: %NAME%{%TAN%3 Tal + Key = Ral%NL%} // Tal Rune
 ItemDisplay[r07s]: %NAME%{%TAN%3 Tal + Key = Ral%NL%%NL%%WHITE%Shields: Poison Resist +35%%NL%Armor/Helms: Poison Resist +30%%NL%Weapons: +75 poison damage over 5 seconds%NL%} // Tal Rune
 ItemDisplay[r08]: %NAME%{%TAN%3 Ral + Key = Ort%NL%} // Ral Rune
-ItemDisplay[r08s]: %ORANGE%Ohm %RED%(27) x%QTY%%BORDER-50%{%RED%THIS IS ACTUALLY A RAL RUNE%NL%%NL%April Fools!} // Stacked Ral Rune
+ItemDisplay[r08s]: %ORANGE%Ohm %RED%(27) x%QTY%%BORDER-50%{%RED%Have fun, have a laugh!%NL%THIS IS ACTUALLY A RAL RUNE%NL%%NL%April Fools!} // Stacked Ral Rune
 ItemDisplay[r09]: %NAME%{%TAN%3 Ort + Key = Thul%NL%} // Ort Rune
 ItemDisplay[r09s]: %NAME%{%TAN%3 Ort + Key = Thul%NL%%NL%%WHITE%Shields: Lightning Resist +35%%NL%Armor/Helms: Lightning Resist +30%%NL%Weapons: Adds 1-50 lightning dmg%NL%} // Ort Rune
 ItemDisplay[r10]: %NAME%{%TAN%3 Thul + Key = Amn%NL%} // Thul Rune
