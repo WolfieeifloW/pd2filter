@@ -1679,33 +1679,33 @@ ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN]: %NAME%%DOT-1E%{%ORANGE%Exile, Phoe
 ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<65 CHEST]: %NAME%%DOT-1E%%CONTINUE% // Show and notify all 2 and 3 socket armors until character level 65
 ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<85 CHEST]: %NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Show all 4 socket armors until character level 85
 
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 CLVL<93 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 CLVL<93 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 CLVL<93 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 CLVL<93 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SOCK=2 CLVL<84 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers
 ItemDisplay[NMAG !INF !RW SOCK=2 CLVL<84 (xtp OR ELT) CHEST]: %NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers
-ItemDisplay[NMAG !INF !RW SOCK=3 CLVL<93 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=3 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=3 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<93 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}
+ItemDisplay[NMAG !INF !RW SOCK=4 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}
 ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}
 
 // Mage Plates
-ItemDisplay[NMAG !INF !RW SUP ED=15 !ETH SOCK=0 CLVL>93 xtp]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Mage Plate, 0os, Superior 15%, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP ED=15 !ETH SOCK=3 CLVL>93 xtp]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Mage Plate, 3os, Superior 15%
+ItemDisplay[NMAG !INF !RW SUP ED=15 !ETH SOCK=0 CLVL>92 xtp]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Mage Plate, 0os, Superior 15%, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP ED=15 !ETH SOCK=3 CLVL>92 xtp]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Mage Plate, 3os, Superior 15%
 
 // Elite Tier Body Armors
-ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=0 CLVL>93 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 0os, Superior 10%+, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=3 CLVL>93 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 3os, Superior 10%+, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=4 CLVL>93 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 4os, Superior 10%+, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH DEF>799 SOCK=0 CLVL>93 ELT CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Elite tier Body Armor, 0os, Non-Superior, Eth, 800+ Defense
-ItemDisplay[NMAG !INF !RW SUP ETH DEF>799 SOCK=0 CLVL>93 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 0os, Superior, Eth, 800+ Defense
-ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=3 CLVL>93 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 3os, Eth, 800+ Defense
-ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=4 CLVL>93 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 4os, Eth, 800+ Defense
+ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=0 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 0os, Superior 10%+, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=3 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 3os, Superior 10%+, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=4 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 4os, Superior 10%+, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH DEF>799 SOCK=0 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Elite tier Body Armor, 0os, Non-Superior, Eth, 800+ Defense
+ItemDisplay[NMAG !INF !RW SUP ETH DEF>799 SOCK=0 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 0os, Superior, Eth, 800+ Defense
+ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=3 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 3os, Eth, 800+ Defense
+ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=4 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 4os, Eth, 800+ Defense
 
 //      Base Helms
 ItemDisplay[NMAG !INF !RW SOCK=3 CLVL<85 HELM !BAR !DRU]: %NAME% // Show all 3 socket helms until character level 85
