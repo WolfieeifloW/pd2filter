@@ -698,52 +698,52 @@ ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire
 // PLEASE NOTE: None of these crafting bases have a notification on them. If you wish to be notified please add "%MAP-97%" (without quotes) after "%BLUE%"
 // For example if you wanted an Amulet to notify you would change "%ORANGE%[C]%BLUE%{" to "%ORANGE%[C]%BLUE%%MAP-97%{"
 //      Amulets for crafting
-ItemDisplay[MAG amu CLVL<93 ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
-ItemDisplay[MAG amu CLVL<93 ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
-ItemDisplay[MAG amu CLVL<93 ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
-ItemDisplay[MAG amu CLVL<93 ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
-ItemDisplay[MAG amu CLVL<93 ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
-ItemDisplay[MAG amu CLVL<93 ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
-ItemDisplay[MAG amu CLVL<93 ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
-ItemDisplay[MAG amu CLVL<93 ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
-ItemDisplay[MAG amu CLVL<93 ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
-ItemDisplay[MAG amu CLVL<93 ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
-ItemDisplay[MAG amu CLVL<93 ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
-ItemDisplay[MAG amu CLVL<93 ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
-ItemDisplay[MAG amu CLVL<93 ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
-ItemDisplay[MAG amu CLVL<93 ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
-ItemDisplay[MAG amu CLVL<93 ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
-ItemDisplay[MAG amu CLVL<93 ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
-ItemDisplay[MAG amu CLVL<93 ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
-ItemDisplay[MAG amu CLVL<93 ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG amu ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG amu ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG amu ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG amu ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG amu ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG amu ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%PURPLE%Caster:%TAN% P Ame + Ral%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
 
 //      Rings for crafting
-ItemDisplay[MAG rin CLVL<93 ILVL=74]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
-ItemDisplay[MAG rin CLVL<93 ILVL=75]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
-ItemDisplay[MAG rin CLVL<93 ILVL=76]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
-ItemDisplay[MAG rin CLVL<93 ILVL=77]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
-ItemDisplay[MAG rin CLVL<93 ILVL=78]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
-ItemDisplay[MAG rin CLVL<93 ILVL=79]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
-ItemDisplay[MAG rin CLVL<93 ILVL=80]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
-ItemDisplay[MAG rin CLVL<93 ILVL=81]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
-ItemDisplay[MAG rin CLVL<93 ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
-ItemDisplay[MAG rin CLVL<93 ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
-ItemDisplay[MAG rin CLVL<93 ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
-ItemDisplay[MAG rin CLVL<93 ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
-ItemDisplay[MAG rin CLVL<93 ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
-ItemDisplay[MAG rin CLVL<93 ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
-ItemDisplay[MAG rin CLVL<93 ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
-ItemDisplay[MAG rin CLVL<93 ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
-ItemDisplay[MAG rin CLVL<93 ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
-ItemDisplay[MAG rin CLVL<93 ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
-ItemDisplay[MAG rin CLVL<93 ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 80+}
-ItemDisplay[MAG rin CLVL<93 ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 80+}
-ItemDisplay[MAG rin CLVL<93 ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 78+}
-ItemDisplay[MAG rin CLVL<93 ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 78+}
-ItemDisplay[MAG rin CLVL<93 ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 76+}
-ItemDisplay[MAG rin CLVL<93 ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 76+}
-ItemDisplay[MAG rin CLVL<93 ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 74+}
-ItemDisplay[MAG rin CLVL<93 ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 74+}
+ItemDisplay[MAG rin ILVL=74]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG rin ILVL=75]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG rin ILVL=76]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG rin ILVL=77]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG rin ILVL=78]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG rin ILVL=79]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG rin ILVL=80]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG rin ILVL=81]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG rin ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG rin ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG rin ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG rin ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG rin ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG rin ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG rin ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG rin ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG rin ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG rin ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG rin ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 80+}
+ItemDisplay[MAG rin ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 80+}
+ItemDisplay[MAG rin ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 78+}
+ItemDisplay[MAG rin ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 78+}
+ItemDisplay[MAG rin ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 76+}
+ItemDisplay[MAG rin ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 76+}
+ItemDisplay[MAG rin ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 74+}
+ItemDisplay[MAG rin ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 74+}
 
 // Crafting Magic bases
 ItemDisplay[MAG ILVL>71 BAR]: %NAME% %ORANGE%[C]%BLUE%{%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Barbarian Helm
