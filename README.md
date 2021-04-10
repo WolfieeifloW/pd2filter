@@ -13,6 +13,7 @@ Please also look at the instructions under the "Base Items" header.
 1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
 2. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
    * [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
+   * [Revealed](https://github.com/WolfieeifloW/pd2filter#revealed)
    * [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
    * [Wolfie](https://github.com/WolfieeifloW/pd2filter#wolfie)
    * [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
@@ -49,6 +50,10 @@ If it worked a Minor Health Potion should now say *HP1*.
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)  
 CTRL+click the above link for the raw code.  
 **Select this version if you are uncomfortable with needing to write your own filter lines.** This version has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking. This is for ease-of-use and very quick editing as you should ideally only ever have to comment or uncomment a line (add or remove //). This version will show and notify a lot of items by default with the idea that you can slowly start to comment out things you don't need. The flip side is that since this filter contains lines for every item you can easily just uncomment a line for things you want to show that aren't currently showing.
+
+### [Revealed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/revealed.filter)  
+CTRL+click the above link for the raw code.  
+**Select this version if you want to know what Set and Unique item you've dropped without ID'ing it.** This version is based off of Detailed but will show you the name of Set and Unique items when they drop before you've ID'd them. For example if a Unique Shako drops it will say "Shako [Harlequin Crest]". Being based off of Detailed means it still has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking.
 
 ### [Compact](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter)  
 CTRL+click the above link for the raw code.  
@@ -121,7 +126,7 @@ These are the common problems that people seem to run into. Please check each of
 * **Are your filters updated for Season 2?**
   * Yes, all versions of my filters are updated and ready-to-go for Season 2!
 * **What is the difference between your filters?**
-  * My Detailed/Compact are less strict, Wolfie is stricter, and BT is strictest
+  * My Detailed/Revealed/Compact are less strict, Wolfie is stricter, and BT is strictest
 
 # Donations
 Donation link: [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD)  
