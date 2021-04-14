@@ -103,7 +103,7 @@ These are the common problems that people seem to run into. Please check each of
 * Not saving and closing the filter file after pasting into it
 
 # FAQ
-** Read the [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues) above first.**
+**Read the [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues) above if the FAQ does not help.**
 
 * **What is the (best / recommended / good for X / leveling) filter?**
   * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Try a few out, it's easier than ever now to try different ones as it's only a few clicks in the launcher. [List of Public Filters](https://projectdiablo2.miraheze.org/wiki/Item_Filtering#List_of_Public_Filters) has a short description for each filter
@@ -116,11 +116,11 @@ These are the common problems that people seem to run into. Please check each of
 * **But I've customized my filter, how do I save my changes?**
   * Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
 * **I want to use a filter not in the launcher?**
-  * Put your customized filter into `ProjectD2\filters\local` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
+  * Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
 * **My launcher shows no filters in the list?**
   * Close launcher and re-open, repeat if they still don't show *or* the server/GitHub is down. Also try adding the launcher and game to your antivirus and/or firewall
 * **Has anyone made a video or post about the differences between X and Y filter?**
-  * No one here has made comparison videos or a post of "X vs Y filter", that would be an astronomical amount of work. What's not a lot of work is trying a few out and seeing what fits your style
+  * No one here has made comparison videos or a post of "X vs Y filter", that would be an astronomical amount of work. What's not a lot of work is trying a few out and seeing what fits your style!
 * **How can I test my chosen loot filter?**
   * The easiest way to test your filter is by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
 * **Are your filters updated for Season 2?**
