@@ -114,9 +114,9 @@ These are the common problems that people seem to run into. Please check each of
 * **Will a loot filter from Season 1 work for Season 2?**
   * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
 * **But I've customized my filter, how do I save my changes?**
-  * Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
+  * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
 * **I want to use a filter not in the launcher?**
-  * Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
+  * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
 * **My launcher shows no filters in the list?**
   * Close launcher and re-open, repeat if they still don't show *or* the server/GitHub is down. Also try adding the launcher and game to your antivirus and/or firewall
 * **Has anyone made a video or post about the differences between X and Y filter?**
