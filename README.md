@@ -110,7 +110,7 @@ These are the common problems that people seem to run into. Please check each of
 * **My launcher still says "Coming soon!" for item filters?**
   * First back-up your ddraw.ini and ProjectDiablo.cfg files (these will be overwritten). Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install the new launcher version.
 * **My Settings button is gone?**
-  * Close the game & the launcher, delete `ProjectDiablo.cfg`, and then relaunch the game. Note you may have to redo your settings (look at the image in [Installation](https://github.com/WolfieeifloW/pd2filter#installation))
+  * Close the game & the launcher, delete `UI.ini`, and then relaunch the game. Note you may have to redo your settings (look at the image in [Installation](https://github.com/WolfieeifloW/pd2filter#installation))
 * **But I've customized my filter, how do I save my changes?**
   * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
 * **I want to use a filter not in the launcher?**
