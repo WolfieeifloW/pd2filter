@@ -1700,8 +1700,8 @@ ItemDisplay[NMAG !INF !RW SUP ED=15 !ETH SOCK=3 CLVL>92 xtp]: %NAME%%DOT-1E%{%OR
 
 // Elite Tier Body Armors
 ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=0 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 0os, Superior 10%+, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=3 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 3os, Superior 10%+, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=4 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 4os, Superior 10%+, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=3 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 3os, Superior 10%+, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=4 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 4os, Superior 10%+, Non-Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH DEF>799 SOCK=0 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Elite tier Body Armor, 0os, Non-Superior, Eth, 800+ Defense
 ItemDisplay[NMAG !INF !RW SUP ETH DEF>799 SOCK=0 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 0os, Superior, Eth, 800+ Defense
 ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=3 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 3os, Eth, 800+ Defense
@@ -1742,7 +1742,7 @@ ItemDisplay[NMAG !INF !RW SOCK=6 (7wa)]: %NAME%%DOT-1E%{%ORANGE%Last Wish, Silen
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 (7bt OR 7ga)]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Decapitator & Champion Axe, 0os, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 (7bt OR 7ga)]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Decapitator & Champion Axe, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 (7bt OR 7ga)]: %NAME%%DOT-1E%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Beast, Call to Arms, Death,%NL%%TAN%Possible RWs:} // Decapitator & Champion Axe, 5os, Eth
-ItemDisplay[NMAG !INF !RW ETH SOCK=6 (7bt OR 7ga)]: %NAME%%DOT-1E%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // Decapitator & Champion Axe, 6os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7ga]: %NAME%%DOT-1E%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // Champion Axe, 6os, Eth
 
 //      Base Bows
 ItemDisplay[NMAG !INF !RW SUP ED=15 SOCK=4 ELT BOW !ZON]: %NAME%%DOT-20%%PX-00%{%ORANGE%Ice, Passion, Phoenix, Wrath%NL%Harmony, Hand of Justice,%NL%Brand, Faith, Fortitude,%NL%%TAN%Possible RWs:} // 4os, Superior
