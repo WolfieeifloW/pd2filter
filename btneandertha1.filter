@@ -536,7 +536,7 @@ ItemDisplay[UNI !ID 7p7]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOL
 ItemDisplay[UNI !ID 8ls]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Ribcracker Quarterstaff
 ItemDisplay[UNI !ID 6cs]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Ondal's Wisdom Elder Staff
 ItemDisplay[UNI !ID 6ws]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Mang Song's Lesson Archon Staff
-ItemDisplay[UNI 6ws]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5%{%ORANGE%Have farmed Mausoleum%NL%You probably should,%NL%For PlugY museum;%NL%Never found it,%NL%%TAN%An ode to MrLlamaSC:} // Mang Song's Lesson Archon Staff
+ItemDisplay[UNI 6ws]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5%{%ORANGE%MrLlamaSCs nipple%NL%Never thought Id see,%NL%Time for a tipple;%NL%Finally found it,%NL%%TAN%An ode to MrLlamaSC:} // Mang Song's Lesson Archon Staff
 
 //    Swords
 ItemDisplay[UNI !ID 9fc]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Blade of Ali Baba Tulwar
