@@ -4393,7 +4393,7 @@ ItemDisplay[tsc DIFF>0]: // Hides Scroll of Town Portal after Normal difficulty
 ItemDisplay[ibk QTY<5]: %RED%!%WHITE%ID%RED% REFILL ME !%WHITE% // Tome of Identify
 ItemDisplay[ibk]: %RED%!%WHITE%ID%RED%!%WHITE% // Tome of Identify
 ItemDisplay[tbk QTY<5]: %BLUE%!%WHITE%TP%RED% REFILL ME%BLUE%!%WHITE% // Tome of Town Portal
-ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE%{%RED%HELLO} // Tome of Town Portal
+ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous
