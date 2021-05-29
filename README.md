@@ -1,7 +1,8 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).  
-I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!
+I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!  
+Looking for a LoD filter? Check it out [HERE](https://github.com/WolfieeifloW/lodfilter)!
 
 **TOO MANY BLUE OR WHITE ITEMS?**  
 Check the "Magic Items Master" and "Base Items Master" sections.  
@@ -106,15 +107,15 @@ These are the common problems that people seem to run into. Please check each of
 * **What is the (best / recommended / good for X / leveling) filter?**
   * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Try a few out, it's easier than ever now to try different ones as it's only a few clicks in the launcher. [List of Public Filters](https://projectdiablo2.miraheze.org/wiki/Item_Filtering#List_of_Public_Filters) has a short description for each filter
 * **How do I turn off the filter / go back to original?**
-  * Turn off `Advanced Item Display` in the in-game settings, close your game and launcher, delete `default.filter` and `loot.filter` in the ProjectD2 folder, and then reload the game
+  * Turn off `Advanced Item Display` in the in-game settings then close your game and launcher. Delete the `filters` folder, and delete `default.filter` and `loot.filter` in the ProjectD2 folder, and then reload the game
 * **My launcher still says "Coming soon!" for item filters?**
   * First back-up your ddraw.ini and ProjectDiablo.cfg files (these will be overwritten). Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install the new launcher version.
 * **My Settings button is gone?**
   * Close the game & the launcher, delete `UI.ini`, and then relaunch the game. Note you may have to redo your settings (look at the image in [Installation](https://github.com/WolfieeifloW/pd2filter#installation))
 * **But I've customized my filter, how do I save my changes?**
-  * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
+  * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local--customized-filter) too)
 * **I want to use a filter not in the launcher?**
-  * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local-filter) too)
+  * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local--customized-filter) too)
 * **Will a loot filter from Season 1 work for Season 2?**
   * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
 * **My launcher shows no filters in the list?**
