@@ -345,9 +345,9 @@ ItemDisplay[MAG CHSK72>0 WAND]: %NAME% %GREEN%(Weaken)%BLUE% // Weaken charges
 
 // Other Items ------------------------------------------------------------------
 ItemDisplay[ear]: %NAME% // Show player ears, add "//" before "%NAME%" to hide all ears
-ItemDisplay[INF ID ((CHEST (EXC OR ELT)) OR uit) CLVL<75]: %NAME% // Shows Exceptional and Elite Body Armor & Monarchs until level 75
-ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL<30]: %NAME% // Show all Low Quality, Cracked, Crude, & Damaged items until character level 30
-ItemDisplay[INF ID (ARMOR OR WEAPON) CLVL>29]: // Hide all Low Quality, Cracked, Crude, & Damaged items at character level 30+
+ItemDisplay[!RW INF ID ((CHEST (EXC OR ELT)) OR uit) CLVL<75]: %NAME% // Shows Exceptional and Elite Body Armor & Monarchs until level 75
+ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL<30]: %NAME% // Show all Low Quality, Cracked, Crude, & Damaged items until character level 30
+ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>29]: // Hide all Low Quality, Cracked, Crude, & Damaged items at character level 30+
 ItemDisplay[aqv CLVL>5]: // Hides Arrow quivers at character level 6+
 ItemDisplay[cqv CLVL>5]: // Hides Bolt quivers at character level 6+
 
