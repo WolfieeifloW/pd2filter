@@ -105,29 +105,29 @@ These are the common problems that people seem to run into. Please check each of
 **Read the [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues) above if the FAQ does not help.**
 
 1. **What is the (best / recommended / good for X / leveling) filter?**
-  * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Try a few out, it's easier than ever now to try different ones as it's only a few clicks in the launcher. [List of Public Filters](https://projectdiablo2.miraheze.org/wiki/Item_Filtering#List_of_Public_Filters) has a short description for each filter
+   * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Try a few out, it's easier than ever now to try different ones as it's only a few clicks in the launcher. [List of Public Filters](https://projectdiablo2.miraheze.org/wiki/Item_Filtering#List_of_Public_Filters) has a short description for each filter
 2. **How do I turn off the filter / go back to original?**
-  * Turn off `Advanced Item Display` in the in-game settings then close your game and launcher. Delete the `filters` folder, and delete `default.filter` and `loot.filter` in the ProjectD2 folder, and then reload the game
+   * Turn off `Advanced Item Display` in the in-game settings then close your game and launcher. Delete the `filters` folder, and delete `default.filter` and `loot.filter` in the ProjectD2 folder, and then reload the game
 3. **My launcher still says "Coming soon!" for item filters?**
-  * First back-up your ddraw.ini and ProjectDiablo.cfg files (these will be overwritten). Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install the new launcher version.
+   * First back-up your ddraw.ini and ProjectDiablo.cfg files (these will be overwritten). Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install the new launcher version.
 4. **My Settings button is gone?**
-  * Close the game & the launcher, delete `UI.ini`, and then relaunch the game. Note you may have to redo your settings (look at the image in [Installation](https://github.com/WolfieeifloW/pd2filter#installation))
+   * Close the game & the launcher, delete `UI.ini`, and then relaunch the game. Note you may have to redo your settings (look at the image in [Installation](https://github.com/WolfieeifloW/pd2filter#installation))
 5. **But I've customized my filter, how do I save my changes?**
-  * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local--customized-filter) too)
+   * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local--customized-filter) too)
 6. **I want to use a filter not in the launcher?**
-  * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local--customized-filter) too)
+   * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local--customized-filter) too)
 7. **Will a loot filter from Season 1 work for Season 2?**
-  * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
+   * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
 8. **My launcher shows no filters in the list?**
-  * Close launcher and re-open, repeat if they still don't show *or* the server/GitHub is down. Also try adding the launcher and game to your antivirus and/or firewall
+   * Close launcher and re-open, repeat if they still don't show *or* the server/GitHub is down. Also try adding the launcher and game to your antivirus and/or firewall
 9. **Has anyone made a video or post about the differences between X and Y filter?**
-  * No one here has made comparison videos or a post of "X vs Y filter", that would be an astronomical amount of work. What's not a lot of work is trying a few out and seeing what fits your style!
+   * No one here has made comparison videos or a post of "X vs Y filter", that would be an astronomical amount of work. What's not a lot of work is trying a few out and seeing what fits your style!
 10. **How can I test my chosen loot filter?**
-  * The easiest way to test your filter is by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
+   * The easiest way to test your filter is by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
 11. **Are your filters updated for Season 2?**
-  * Yes, all versions of my filters are updated and ready-to-go for Season 2!
+   * Yes, all versions of my filters are updated and ready-to-go for Season 2!
 12. **What is the difference between your filters?**
-  * My Detailed/Revealed/Compact are less strict, Wolfie is stricter, and BT is strictest
+   * My Detailed/Revealed/Compact are less strict, Wolfie is stricter, and BT is strictest
 
 # Donations
 Donation link: [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD)  
