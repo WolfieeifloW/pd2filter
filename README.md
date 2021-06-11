@@ -109,7 +109,7 @@ These are the common problems that people seem to run into. Please check each of
 1. **How do I turn off the filter / go back to original?**
    * Turn off `Advanced Item Display` in the in-game settings then close your game and launcher. Delete the `filters` folder, and delete `default.filter` and `loot.filter` in the ProjectD2 folder, and then reload the game
 1. **My launcher still says "Coming soon!" for item filters?**
-   * First back-up your ddraw.ini and ProjectDiablo.cfg files (these will be overwritten). Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install the new launcher version.
+   * First back-up your ddraw.ini and ProjectDiablo.cfg files (these will be overwritten). Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install the new launcher version
 1. **My Settings button is gone?**
    * Close the game & the launcher, delete `UI.ini`, and then relaunch the game. Note you may have to redo your settings (look at the image in [Installation](https://github.com/WolfieeifloW/pd2filter#installation))
 1. **But I've customized my filter, how do I save my changes?**
