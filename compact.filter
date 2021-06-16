@@ -2,7 +2,7 @@
 // |                                                                            |
 // |     WOLFIE'S PROJECT DIABLO 2 FILTER (COMPACT)                             |
 // |     GitHub: https://github.com/WolfieeifloW/pd2filter                      |
-// |     Discord: https://discord.gg/8K2QkjAA8g                                 |
+// |     Discord: https://discord.gg/6bM8AtYGAq                                 |
 // |     Made By: @WolfieeifloW#6431                                            |
 // |                                                                            |
 // +----------------------------------------------------------------------------+
@@ -16,7 +16,7 @@
 // Please also look at the instructions under the "Base Items" header.
 // **************************************************************************************************** LOOK HERE LOOK HERE
 //
-// If there is anything missing please join my Discord (https://discord.gg/8K2QkjAA8g) or ask in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2).
+// If there is anything missing please join my Discord (https://discord.gg/6bM8AtYGAq) or ask in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2).
 
 // Quest Items
 ItemDisplay[bks]: %NAME%%MAP-58%{%TAN%in Act 1%NL%Talk to Akara%NL%} // Scroll of Inifuss
@@ -845,6 +845,13 @@ ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
 ItemDisplay[RARE !ID CIRC]: %NAME%%MAP-A8% // All unidentified Circlets
 ItemDisplay[RARE !ID jew]: %NAME%%MAP-A8% // All unidentified jewels
+ItemDisplay[RARE LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage
+ItemDisplay[RARE LVLREQ<31 ED>14 (MAXDMG>12 OR STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15%+ Enhanced Damage, and 13+ Maximum Damage, 5+ Strength, or 6+ Dexterity
+ItemDisplay[RARE LVLREQ<31 MAXDMG>8 (STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 9+ Maximum Damage, and 5+ Strength or 6+ Dexterity
+ItemDisplay[RARE LVLREQ<31 STR>4 DEX>5 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 5+ Strength and 6+ Dexterity
+ItemDisplay[RARE LVLREQ<31 MAXDMG>14 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15+ Maximum Damage
+ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 5+ Minimum Damage and 10+ Maximum Damage
+ItemDisplay[RARE LVLREQ<31 STAT91=-15 (RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // -Requirements, and 8%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, or 6+ Dexterity
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
 ItemDisplay[RARE !ID CLVL<20 ZON]: %NAME%%MAP-A8% // Show all Amazon weapons before level 20
 ItemDisplay[RARE !ID ELT ZON]: %NAME%%MAP-A8% // All Elite tier Amazon weapons
@@ -987,6 +994,13 @@ ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97% // Large Charms
 ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Grand Charms
 ItemDisplay[MAG !ID CIRC]: %NAME%%MAP-97% // All unidentified Circlets
 ItemDisplay[MAG !ID jew]: %NAME%%DOT-97% // All unidentified jewels
+ItemDisplay[MAG LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage
+ItemDisplay[MAG LVLREQ<31 ED>14 MAXDMG>12 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15%+ Enhanced Damage and 13+ Maximum Damage
+ItemDisplay[MAG LVLREQ<31 MAXDMG>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20+ Maximum Damage
+ItemDisplay[MAG LVLREQ<31 MINDMG>4 MAXDMG>13 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 5+ Minimum Damage and 13+ Maximum Damage
+ItemDisplay[MAG LVLREQ<31 RES>12 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // All Resist 13+
+ItemDisplay[MAG LVLREQ<31 RES>9 (STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // All Resist 13+, and 5+ Strength or 6+ Dexterity
+ItemDisplay[MAG LVLREQ<31 STAT91=-15 (RES>10 OR ED>14 OR MAXDMG>7 OR MINDMG>6) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // -Requirements, and 11%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, or 7+ Minimum Damage
 ItemDisplay[MAG !ID rin]: %NAME% // All unidentified rings
 ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME%%MAP-97% // Javelins for 6/40
 ItemDisplay[MAG !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw OR 7tw OR 7qr)]: %NAME% // Assassin Katars, best Katars
