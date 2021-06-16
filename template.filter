@@ -2,7 +2,7 @@
 // |                                                                            |
 // |     WOLFIE'S PROJECT DIABLO 2 FILTER (TEMPLATE)                            |
 // |     GitHub: https://github.com/WolfieeifloW/pd2filter                      |
-// |     Discord: https://discord.gg/8K2QkjAA8g                                 |
+// |     Discord: https://discord.gg/6bM8AtYGAq                                 |
 // |     Made By: @WolfieeifloW#6431                                            |
 // |                                                                            |
 // +----------------------------------------------------------------------------+
@@ -11,7 +11,7 @@
 // This filter is a very basic tempalte which people can use to build their own filter.
 //
 // No support will be given for this filter.
-// Only issues with lines already in here will be addressed in my Discord (https://discord.gg/8K2QkjAA8g) or in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2).
+// Only issues with lines already in here will be addressed in my Discord (https://discord.gg/6bM8AtYGAq) or in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2).
 
 
 // DELETE THIS LINE WHEN CREATING YOUR OWN FILTER
