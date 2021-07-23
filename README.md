@@ -1,5 +1,7 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
+**Yes, my filters are updated for Season 3!**
+
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).  
 I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!  
 Looking for a LoD filter? Check it out [HERE](https://github.com/WolfieeifloW/lodfilter)!
@@ -116,16 +118,16 @@ These are the common problems that people seem to run into. Please check each of
    * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local--customized-filter) too)
 1. **I want to use a filter not in the launcher?**
    * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local--customized-filter) too)
-1. **Will a loot filter from Season 1 work for Season 2?**
-   * No. Season 2 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 filter
+1. **Will a loot filter from Season 1 or 2 work for Season 3?**
+   * No. Season 2 & 3 added new items, changed all the map item codes, and more. You will most likely miss out on all of these things if you continue using a Season 1 or 2 filter
 1. **My launcher shows no filters in the list?**
    * Close launcher and re-open, repeat if they still don't show *or* the server/GitHub is down. Also try adding the launcher and game to your antivirus and/or firewall
 1. **Has anyone made a video or post about the differences between X and Y filter?**
    * No one here has made comparison videos or a post of "X vs Y filter", that would be an astronomical amount of work. What's not a lot of work is trying a few out and seeing what fits your style!
 1. **How can I test my chosen loot filter?**
    * The easiest way to test your filter is by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
-1. **Are your filters updated for Season 2?**
-   * Yes, all versions of my filters are updated and ready-to-go for Season 2!
+1. **Are your filters updated for Season 3?**
+   * Yes, all versions of my filters are updated and ready-to-go for Season 3!
 1. **What is the difference between your filters?**
    * My Detailed/Revealed/Compact are less strict, Wolfie is stricter, and BT is strictest
 
