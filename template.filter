@@ -66,6 +66,7 @@ ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68% // Key of Destruction
 ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68% // Mephisto's Brain
 ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68% // Diablo's Horn
 ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68% // Baal's Eye
+ItemDisplay[ubtm]: %ORANGE%%NAME%%MAP-68%{%TAN%to enter Uber Tristram%NL%near the Blood Fountain%NL%Right-click in Act 5} // The Pandemonium Talisman
 ItemDisplay[std]: %NAME%%MAP-68% // Standard of Heroes
 
 // Corruption Items
@@ -83,25 +84,28 @@ ItemDisplay[scrb]: %NAME%%MAP-62% // Create Group Dungeon (Cube with Tier 3 map)
 
 // Maps
 // Tier 1 Maps
-ItemDisplay[t11]: %NAME%%MAP-80%%CONTINUE% // Ruins of Viz-jun [T1]
-ItemDisplay[t12]: %NAME%%MAP-80%%CONTINUE% // Horazon's Memory [T1]
-ItemDisplay[t13]: %NAME%%MAP-80%%CONTINUE% // Bastion Keep [T1]
+ItemDisplay[t11]: %NAME%%MAP-80% // Ruins of Viz-jun [T1]
+ItemDisplay[t12]: %NAME%%MAP-80% // Horazon's Memory [T1]
+ItemDisplay[t13]: %NAME%%MAP-80% // Bastion Keep [T1]
 
 // Tier 2 Maps
-ItemDisplay[t21]: %NAME%%MAP-A8%%CONTINUE% // Phlegethon [T2]
-ItemDisplay[t22]: %NAME%%MAP-A8%%CONTINUE% // Torajan Jungle [T2]
-ItemDisplay[t23]: %NAME%%MAP-A8%%CONTINUE% // Arreat Battlefield [T2]
-ItemDisplay[t24]: %NAME%%MAP-A8%%CONTINUE% // Blood Moon [T2]
+ItemDisplay[t21]: %NAME%%MAP-A8% // Phlegethon [T2]
+ItemDisplay[t22]: %NAME%%MAP-A8% // Torajan Jungle [T2]
+ItemDisplay[t23]: %NAME%%MAP-A8% // Arreat Battlefield [T2]
+ItemDisplay[t24]: %NAME%%MAP-A8% // Tomb of Zoltun Kulle [T2]
+ItemDisplay[t25]: %NAME%%MAP-A8% // Sewers of Harrogath [T2]
 
 // Tier 3 Maps
-ItemDisplay[t31]: %NAME%%MAP-62%%CONTINUE% // River of Blood [T3]
-ItemDisplay[t32]: %NAME%%MAP-62%%CONTINUE% // Throne of Insanity [T3]
-ItemDisplay[t33]: %NAME%%MAP-62%%CONTINUE% // Sewers of Harrogath [T3]
-ItemDisplay[t34]: %NAME%%MAP-62%%CONTINUE% // Ancestral Trial [T3]
-ItemDisplay[t35]: %NAME%%MAP-62%%CONTINUE% // Tomb of Zoltun Kulle [T3]
+ItemDisplay[t31]: %NAME%%MAP-62% // River of Blood [T3]
+ItemDisplay[t32]: %NAME%%MAP-62% // Throne of Insanity [T3]
+ItemDisplay[t33]: %NAME%%MAP-62% // Reziarfg's Lair [T3]
+ItemDisplay[t34]: %NAME%%MAP-62% // Ancestral Trial [T3]
+ItemDisplay[t35]: %NAME%%MAP-62% // Blood Moon [T3]
+ItemDisplay[t36]: %NAME%%MAP-62% // Fall of Caldeum [T3]
+ItemDisplay[t37]: %NAME%%MAP-62% // Pandemonium Citadel [T3]
 
 // Tier 4 Maps
-ItemDisplay[t41]: %NAME%%MAP-9B%%CONTINUE% // Cathedral of Light [T4]
+ItemDisplay[t41]: %NAME%%MAP-9B% // Cathedral of Light [T4]
 
 // Diablo Clone Items
 ItemDisplay[dcho]: %RED%%NAME%%MAP-62% // Black Soulstone
