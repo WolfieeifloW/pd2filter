@@ -1853,6 +1853,7 @@ ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=5 ELT !7o7 POLEARM]: %NA
 ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=6 ELT !7o7 POLEARM]: %NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
 
 //      Base Scepters
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SCEPTER]: %NAME%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice, Insight%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All Scepters, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 wsp SCEPTER]: %NAME%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All War Scepters, 5os
 
 //          Defensive Auras

@@ -2393,6 +2393,7 @@ ItemDisplay[NMAG !INF !RW SOCK=2 SCEPTER]: %NAME%{%ORANGE%Strength%NL%%TAN%Possi
 ItemDisplay[NMAG !INF !RW SOCK=3 SCEPTER]: %NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SCEPTER]: %NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice, Insight%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SCEPTER]: %NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 5os
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All Scepters, 4os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=5 wsp SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All War Scepters, 5os
 ItemDisplay[NMAG !INF !RW !ETH SK125>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Salvation
 ItemDisplay[NMAG !INF !RW !ETH SK99>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Prayer

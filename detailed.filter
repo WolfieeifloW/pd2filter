@@ -12341,6 +12341,7 @@ ItemDisplay[NMAG !INF !RW SOCK=3 SCEPTER]: %NAME%{%ORANGE%Malice, Plague, Venom,
 ItemDisplay[NMAG !INF !RW SOCK=4 SCEPTER]: %NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice, Insight%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SCEPTER]: %NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 5os
 
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All Scepters, 4os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=5 wsp SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All War Scepters, 5os
 
 // --- Defensive Auras

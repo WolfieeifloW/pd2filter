@@ -3008,6 +3008,7 @@ ItemDisplay[NMAG !INF !RW SOCK=5 SCEPTER]: %NAME%{%ORANGE%Eternity, Honor%NL%Bea
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Scepters until character level 30
 
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All Scepters, 4os
 ItemDisplay[NMAG !INF !RW !ETH SOCK=5 wsp SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All War Scepters, 5os
 
 // Defensive Auras
