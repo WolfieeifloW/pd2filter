@@ -198,9 +198,9 @@ ItemDisplay[pk3]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Drops from Nihlathak & Izua
 // ------------------------------------------------------------------------------
 // [QIOR] Pandemonium Organs
 // ------------------------------------------------------------------------------
-ItemDisplay[mbr]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs to create} // Mephisto's Brain
-ItemDisplay[dhn]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs to create} // Diablo's Horn
-ItemDisplay[bey]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs to create} // Baal's Eye
+ItemDisplay[mbr]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs w/ a Key to create} // Mephisto's Brain
+ItemDisplay[dhn]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs w/ a Key to create} // Diablo's Horn
+ItemDisplay[bey]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs w/ a Key to create} // Baal's Eye
 ItemDisplay[ubtm]: %ORANGE%%NAME%%MAP-68%{%TAN%to enter Uber Tristram%NL%near the Blood Fountain%NL%Right-click in Act 5} // The Pandemonium Talisman
 ItemDisplay[std]: %NAME% x%QTY%%MAP-68%{%TAN%+20% Magic/Gold Find%NL%+20% Monster Density%NL%+10% Experience%NL%%ORANGE%Cube w/ a map to gain%DARK_GREEN% Heroic%ORANGE% bonus:} // Standard of Heroes
 
