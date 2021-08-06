@@ -5334,8 +5334,8 @@ ItemDisplay[NMAG !INF !RW SOCK=5 ZON BOW]: %NAME%{%ORANGE%Call to Arms%NL%%TAN%P
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SPEAR !THROWING ZON]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Amazon Spears, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 SPEAR !THROWING ZON]: %NAME%{%NAME%}%CONTINUE% // All Amazon Spears, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 SPEAR !THROWING ZON]: %NAME%{%ORANGE%Stength%NL%%TAN%Possible RWs:}%CONTINUE% // All Amazon Spears, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 SPEAR !THROWING ZON]: %NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:}%CONTINUE% // All Amazon Spears, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 SPEAR !THROWING ZON]: %NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Amazon Spears, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SPEAR !THROWING ZON]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:}%CONTINUE% // All Amazon Spears, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SPEAR !THROWING ZON]: %NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Hand of Justice, Passion,%NL%Fortitude, Infinity, Insight,%NL%%TAN%Possible RWs:}%CONTINUE% // All Amazon Spears, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SPEAR !THROWING ZON]: %NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:}%CONTINUE% // All Amazon Spears, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 SPEAR !THROWING ZON]: %NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Amazon Spears, 6os
@@ -5693,8 +5693,8 @@ ItemDisplay[NMAG CLVL<30 TABSK2<3 (am5 OR ama OR amf)]: %NAME% // Show +0-2 Amaz
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SIN]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Assassin Katars, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 SIN]: %NAME%{%NAME%}%CONTINUE% // All Assassin Katars, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 SIN]: %NAME%{%ORANGE%Steel, Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Assassin Katars, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 SIN]: %NAME%{%ORANGE%Pattern, Plague, Venom, Wind%NL%Black, Chaos, Crescent Moon, Fury,%NL%Kings Grace, Lawbringer, Malice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Assassin Katars, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 SIN]: %NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Assassin Katars, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SIN]: %NAME%{%ORANGE%Pattern, Plague, Venom%NL%Kings Grace, Lawbringer, Malice,%NL%Black, Chaos, Crescent Moon, Fury,%NL%%TAN%Possible RWs:}%CONTINUE% // All Assassin Katars, 3os
 
 ItemDisplay[NMAG !INF !RW CLVL<30 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Assassin Katars until character level 30
 
@@ -8396,8 +8396,8 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ush]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Tro
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 AXE !THROWING]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Axes, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 AXE !THROWING]: %NAME%{%NAME%}%CONTINUE% // All Axes, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 AXE !THROWING]: %NAME%{%ORANGE%Steel, Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Axes, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 AXE !THROWING]: %NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:}%CONTINUE% // All Axes, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 AXE !THROWING]: %NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Axes, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 AXE !THROWING]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:}%CONTINUE% // All Axes, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 AXE !THROWING]: %NAME%{%ORANGE%Kingslayer, Oath, Passion, Phoenix%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Axes, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 AXE !THROWING]: %NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Beast, Call to Arms, Death,%NL%%TAN%Possible RWs:}%CONTINUE% // All Axes, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 AXE !THROWING]: %NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Axes, 6os
@@ -10257,8 +10257,8 @@ ItemDisplay[NMAG !INF !RW SUP SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demo
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 DAGGER !THROWING]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Daggers, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 DAGGER !THROWING]: %NAME%{%NAME%}%CONTINUE% // All Daggers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 DAGGER !THROWING]: %NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Daggers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 DAGGER !THROWING]: %NAME%{%ORANGE%Plague, Venom, Wind%NL%Fury, Malice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Daggers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 DAGGER !THROWING]: %NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Daggers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 DAGGER !THROWING]: %NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Daggers, 3os
 
 // These are generic lines for showing all crossbows of a certain tier and certain conditions (sockets, superior, and/or ethereal)
 // --- All tiers Daggers
@@ -10547,8 +10547,8 @@ ItemDisplay[NMAG ID CLVL>20 SPEAR THROWING !ZON]: // This will completely hide a
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Clubs, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%NAME%}%CONTINUE% // All Clubs, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Clubs, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 (9sp OR 7sp)]: %NAME%{%ORANGE%Plague, Venom, Wind%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Clubs, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Clubs, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 (9sp OR 7sp)]: %NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Clubs, 3os
 
 // These lines are for Clubs with Druid skills
 // --- Elemental
@@ -10799,8 +10799,8 @@ ItemDisplay[NMAG !INF !RW SK247>2 (clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp)]: %NA
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Hammers, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%NAME%}%CONTINUE% // All Hammers, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Black, Fury, Lawbringer,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Black, Fury, Lawbringer,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Passion, Phoenix%NL%Hand of Justice,%NL%Famine, Fortitude,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Doom, Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 6os
@@ -11255,8 +11255,8 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gm]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thun
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl)]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Maces, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl)]: %NAME%{%NAME%}%CONTINUE% // All Maces, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl)]: %NAME%{%ORANGE%Steel, Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Maces, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 (mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl)]: %NAME%{%ORANGE%Plague, Venom, Wind%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Maces, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl)]: %NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Maces, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 (mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl)]: %NAME%{%ORANGE%Plague, Venom%NL%Black, Fury, Malice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Maces, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 (fla OR 9fl OR 7fl)]: %NAME%{%ORANGE%Phoenix, Oath, Voice of Reason%NL%Heart of the Oak, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Maces, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 (fla OR 9fl OR 7fl)]: %NAME%{%ORANGE%Call to Arms, Eternity, Honor%NL%%TAN%Possible RWs:}%CONTINUE% // All Maces, 5os
 
@@ -11610,8 +11610,8 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fl]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scou
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 POLEARM]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Polearms, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 POLEARM]: %NAME%{%NAME%}%CONTINUE% // All Polearms, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 POLEARM]: %NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 POLEARM]: %NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 POLEARM]: %NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 POLEARM]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 POLEARM]: %NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 POLEARM]: %NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 POLEARM]: %NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 6os
@@ -12327,8 +12327,8 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7wc]: %NAME%%DOT-20%%PX-00%{%NAME%} // Gian
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SCEPTER]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Scepters, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 SCEPTER]: %NAME%{%NAME%}%CONTINUE% // All Scepters, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 SCEPTER]: %NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 SCEPTER]: %NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 SCEPTER]: %NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SCEPTER]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SCEPTER]: %NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice, Insight%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SCEPTER]: %NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 5os
 
@@ -12381,8 +12381,8 @@ ItemDisplay[NMAG !INF !RW !ETH SK371>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} /
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SPEAR !THROWING !ZON]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Spears, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 SPEAR !THROWING !ZON]: %NAME%{%NAME%}%CONTINUE% // All Spears, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Phoenix, Pride, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Call to Arms, Destruction, Doom,%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 6os
@@ -12993,8 +12993,8 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7p7]: %NAME%%DOT-20%%PX-00%{%NAME%} // War 
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 STAFF]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Staves, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 STAFF]: %NAME%{%NAME%}%CONTINUE% // All Staves, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 STAFF]: %NAME%{%ORANGE%Leaf, Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 STAFF]: %NAME%{%ORANGE%Plague, Venom, Wind%NL%Fury, Malice%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 STAFF]: %NAME%{%ORANGE%Leaf, Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 STAFF]: %NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 STAFF]: %NAME%{%ORANGE%Memory, Passion, Phoenix, Spirit%NL%Heart of the Oak, Infinity, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 STAFF]: %NAME%{%ORANGE%Call to Arms, Doom, Eternity, Honor%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 STAFF]: %NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 6os
@@ -13585,8 +13585,8 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 6ws]: %NAME%%DOT-20%%PX-00%{%NAME%} // Arch
 // Please note you still have to uncomment specific base items lines to get a drop notification
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SWORD]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Swords, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 SWORD]: %NAME%{%NAME%}%CONTINUE% // All Swords, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 SWORD]: %NAME%{%ORANGE%Steel, Strength%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 SWORD]: %NAME%{%ORANGE%Malice, Plague, Venom, Wind%NL%Kings Grace, Lawbringer,%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 3os
+ItemDisplay[NMAG !INF !RW SOCK=2 SWORD]: %NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SWORD]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Kings Grace, Lawbringer,%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SWORD]: %NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Doom, Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SWORD]: %NAME%{%ORANGE%Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 SWORD]: %NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 6os
