@@ -2204,7 +2204,9 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SK58>2 SOCK=0 (cst OR bst OR wst OR 8cs OR 8b
 ItemDisplay[NMAG !INF !RW SK58>2 SOCK=4 STAFF]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Memory, Passion, Phoenix, Spirit%NL%Heart of the Oak, Infinity, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 //          Archon Staves
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 6ws]: %NAME%%DOT-20%%PX-00%{%ORANGE%Memory, Passion, Phoenix, Spirit%NL%Heart of the Oak, Infinity, Insight,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Archon Staff, 4os, Non-Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 6ws]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Archon Staff, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 6ws]: %NAME%%DOT-20%%PX-00%{%ORANGE%Leaf, Strength, Wind%NL%%TAN%Possible RWs:} // Archon Staff, 2os, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 6ws]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Archon Staff, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 6ws]: %NAME%%DOT-1E%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Archon Staff, 6os, Eth
 
