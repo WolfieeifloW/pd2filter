@@ -3017,7 +3017,7 @@ ItemDisplay[MAG ILVL>71 ETH (9br OR 7br OR 9st OR 7st OR 9p9 OR 7p7)]: %NAME% %O
 // ------------------------------------------------------------------------------
 //       [CWST] Staves
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL>71 (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Staves
+ItemDisplay[MAG ILVL>71 (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Staves
 
 // ------------------------------------------------------------------------------
 //       [CWSW] Swords
