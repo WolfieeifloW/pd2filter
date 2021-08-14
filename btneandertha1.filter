@@ -1780,8 +1780,8 @@ ItemDisplay[NMAG !INF !RW SUP SOCK=4 6hx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix
 ItemDisplay[NMAG !INF !RW SUP SOCK=6 6hx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Colossus Crossbow, 6os, Superior
 
 //          Demon Crossbow
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // Demon Crossbow, 0os, Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Demon Crossbow, 4os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Demon Crossbow, 0os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Demon Crossbow, 4os, all variants
 
 //      Base Daggers
 //          Fanged Knife

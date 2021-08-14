@@ -10247,16 +10247,16 @@ ItemDisplay[NMAG !INF !RW SUP SOCK=4 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colo
 ItemDisplay[NMAG !INF !RW SUP SOCK=6 6hx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Crossbow, 6os, Superior
 
 // ------ Demon Crossbow
-//ItemDisplay[NMAG !INF !RW SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 0os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 0os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=2 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 2os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=3 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 3os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 4os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 4os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=5 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 5os, all variants
 
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 0os, Superior
+//ItemDisplay[NMAG !INF !RW SUP SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 0os, Superior
 //ItemDisplay[NMAG !INF !RW SUP SOCK=2 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 2os, Superior
 //ItemDisplay[NMAG !INF !RW SUP SOCK=3 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 3os, Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 4os, Superior
+//ItemDisplay[NMAG !INF !RW SUP SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 4os, Superior
 //ItemDisplay[NMAG !INF !RW SUP SOCK=5 6rx]: %NAME%%DOT-20%%PX-00%{%NAME%} // Demon Crossbow, 5os, Superior
 
 // ------------------------------------------------------------------------------
