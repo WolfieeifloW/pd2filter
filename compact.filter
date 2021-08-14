@@ -2468,6 +2468,12 @@ ItemDisplay[NMAG !INF !RW SK61>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fire M
 ItemDisplay[NMAG !INF !RW SK62>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Hydra
 ItemDisplay[NMAG !INF !RW SK376>2 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Combustion
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 ELT STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // All Elite tier Staves, 4os, Non-Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 6ls]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 6ls]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 6cs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 6cs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 6bs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 6bs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 2os, Eth
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 6ws]: %NAME%%DOT-20%%PX-00%{%NAME%} // Archon Staff, 4os, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 6ws]: %NAME%%DOT-20%%PX-00%{%NAME%} // Archon Staff, 0os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=2 6ws]: %NAME%%DOT-20%%PX-00%{%NAME%} // Archon Staff, 2os, Eth

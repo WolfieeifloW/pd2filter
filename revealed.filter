@@ -13482,8 +13482,8 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 ELT STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 6ls]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 2os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 6ls]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 3os, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 6ls]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 6ls]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 6ls]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 6ls]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 6ls]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 3os, Eth
 
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 6ls]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 0os, Superior, Eth
@@ -13506,8 +13506,8 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 ELT STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 6cs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 3os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 6cs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 4os, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 6cs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 6cs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 6cs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 6cs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 6cs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 6cs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 4os, Eth
 
@@ -13532,8 +13532,8 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 ELT STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} 
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 6bs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 3os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 6bs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 4os, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 6bs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 0os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=2 6bs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 6bs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 6bs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 6bs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 6bs]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 4os, Eth
 
