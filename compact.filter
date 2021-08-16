@@ -2334,6 +2334,7 @@ ItemDisplay[NMAG !INF !RW SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma 
 ItemDisplay[NMAG !INF !RW SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Doom, Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 6os
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7m7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Maul, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 7m7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Maul, 2os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 7m7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Maul, 5os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7m7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Maul, 6os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gm]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Maul, 0os, Eth
