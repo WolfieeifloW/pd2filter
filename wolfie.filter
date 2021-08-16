@@ -2921,6 +2921,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7m7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre
 
 // Thunder Maul
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7gm]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Maul, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 7gm]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Maul, 2os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gm]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Maul, 5os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gm]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thunder Maul, 6os, Eth
 
@@ -3069,6 +3070,7 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7p7]: %NAME%%DOT-20%%PX-00%{%NAME%} //
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7p7]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Pike, 4os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=5 7p7]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Pike, 5os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7p7]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Pike, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 7p7]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Pike, 2os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=4 7p7]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Pike, 4os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 7p7]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Pike, 5os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=6 7p7]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Pike, 6os, Eth
