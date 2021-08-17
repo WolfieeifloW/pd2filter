@@ -2830,7 +2830,7 @@ ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire
 //    [CMAM] Amulets
 // ------------------------------------------------------------------------------
 // Display recipe on all amulets until level 75
-ItemDisplay[MAG amu ILVL<82 CLVL<75]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:}
+ItemDisplay[MAG amu ILVL<82 CLVL<75]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:}
 
 ItemDisplay[MAG amu ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
 ItemDisplay[MAG amu ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
@@ -2860,7 +2860,7 @@ ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Sk
 //    [CMRI] Rings
 // ------------------------------------------------------------------------------
 // Display recipe on all rings until level 75
-ItemDisplay[MAG rin ILVL<64 CLVL<75]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:}
+ItemDisplay[MAG rin ILVL<64 CLVL<75]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:}
 
 ItemDisplay[MAG rin ILVL=64]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
 ItemDisplay[MAG rin ILVL=65]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
