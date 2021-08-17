@@ -9392,7 +9392,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=5 2ax]: %NAME%%DOT-20%%PX-00%{%NAME%} // Dou
 
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 72a]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 72a]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 72a]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 3os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 72a]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 72a]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 4os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 72a]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 5os, Eth
 
@@ -9462,7 +9462,7 @@ ItemDisplay[NMAG !INF !RW SOCK=6 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserke
 
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 3os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 4os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=5 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 5os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=6 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 6os, Eth
@@ -11168,7 +11168,7 @@ ItemDisplay[NMAG !INF !RW SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAM
 
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7wh]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legendary Mallet, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7wh]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legendary Mallet, 2os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wh]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legendary Mallet, 3os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wh]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legendary Mallet, 3os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=4 7wh]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legendary Mallet, 4os, Eth
 
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7wh]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legendary Mallet, 0os, Superior, Eth

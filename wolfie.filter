@@ -2757,6 +2757,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=5 2ax]: %NAME%%DOT-20%%PX-00%{%NAME%} // Dou
 
 // Ettin Axe
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 72a]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 72a]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 3os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 72a]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 5os, Eth
 
 // Berserker Axe
@@ -2764,6 +2765,7 @@ ItemDisplay[NMAG !INF !RW SOCK=0 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserke
 ItemDisplay[NMAG !INF !RW SOCK=4 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 4os, all variants
 ItemDisplay[NMAG !INF !RW SOCK=5 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 5os, all variants
 ItemDisplay[NMAG !INF !RW SOCK=6 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 6os, all variants
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wa]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 3os, Eth
 
 // Decapitator
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7bt]: %NAME%%DOT-20%%PX-00%{%NAME%} // Decapitator, 0os, Superior, Non-Eth
@@ -2913,6 +2915,9 @@ ItemDisplay[NMAG !INF !RW SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAM
 ItemDisplay[NMAG !INF !RW SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 6os
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Hammers until character level 30
+
+// Legendary Mallet
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 7wh]: %NAME%%DOT-20%%PX-00%{%NAME%} // Legendary Mallet, 3os, Eth
 
 // Ogre Maul
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7m7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Maul, 0os, Eth
