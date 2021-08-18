@@ -988,13 +988,13 @@ ItemDisplay[MAG ILVL>71 DIN]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Sk
 // ------------------------------------------------------------------------------
 //    [COAR] Armor
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 CHEST (EXC OR ELT)]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Armor
+ItemDisplay[MAG ILVL<72 CLVL<75 CHEST]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Armor
 ItemDisplay[MAG ILVL>71 CHEST (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Armor
 
 // ------------------------------------------------------------------------------
 //    [COBE] Belt
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 BELT (EXC OR ELT)]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Eld%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%YELLOW%Bountiful:%TAN% P Top + El%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Belt
+ItemDisplay[MAG ILVL<72 CLVL<75 BELT]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Eld%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%YELLOW%Bountiful:%TAN% P Top + El%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Belt
 ItemDisplay[MAG ILVL>71 BELT (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Eld%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%YELLOW%Bountiful:%TAN% P Top + El%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Belt
 
 // ------------------------------------------------------------------------------
@@ -1012,13 +1012,13 @@ ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P
 // ------------------------------------------------------------------------------
 //    [COHE] Helm
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 HELM !BAR !DRU (EXC OR ELT)]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Helm
+ItemDisplay[MAG ILVL<72 CLVL<75 HELM !BAR !DRU]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Helm
 ItemDisplay[MAG ILVL>71 HELM !BAR !DRU (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Helm
 
 // ------------------------------------------------------------------------------
 //    [COSH] Shield
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 SHIELD !DIN !NEC (EXC OR ELT)]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Shield
+ItemDisplay[MAG ILVL<72 CLVL<75 SHIELD !DIN !NEC]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Shield
 ItemDisplay[MAG ILVL>71 SHIELD !DIN !NEC (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Shield
 
 // ------------------------------------------------------------------------------
@@ -1030,103 +1030,103 @@ ItemDisplay[MAG ILVL>71 SHIELD !DIN !NEC (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%
 // ------------------------------------------------------------------------------
 //       [CWAM] Amazon
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
-ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
-ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH SPEAR !THROWING ZON]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH ZON BOW]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
 ItemDisplay[MAG ILVL<72 CLVL<75 ZON BOW]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Amazon Bow
+ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
+ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
 ItemDisplay[MAG ILVL>71 ZON BOW]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Amazon Bow
 
 // ------------------------------------------------------------------------------
 //       [CWAS] Assassin
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
+ItemDisplay[MAG ILVL<72 CLVL<75 SIN]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
 ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
 
 // ------------------------------------------------------------------------------
 //       [CWSO] Sorceress
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
+ItemDisplay[MAG ILVL<72 CLVL<75 SOR]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
 ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
 
 // ------------------------------------------------------------------------------
 //       [CWAX] Axes
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH (9wa OR 7wa OR 9bt OR 7bt OR 9ga OR 7ga OR 9gi OR 7gi)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH AXE]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
 ItemDisplay[MAG ILVL>71 ETH (9wa OR 7wa OR 9bt OR 7bt OR 9ga OR 7ga OR 9gi OR 7gi)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
 
 // ------------------------------------------------------------------------------
 //       [CWBO] Bows
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 (8hb OR 6hb OR 8cb OR 6cb OR 8sw OR 6sw OR 8lw OR 6lw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Bows
+ItemDisplay[MAG ILVL<72 CLVL<75 BOW]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Bows
 ItemDisplay[MAG ILVL>71 (8hb OR 6hb OR 8cb OR 6cb OR 8sw OR 6sw OR 8lw OR 6lw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Bows
 
 // ------------------------------------------------------------------------------
 //       [CWCR] Crossbows
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 XBOW (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Crossbow
+ItemDisplay[MAG ILVL<72 CLVL<75 XBOW]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Crossbow
 ItemDisplay[MAG ILVL>71 XBOW (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Crossbow
 
 // ------------------------------------------------------------------------------
 //       [CWDA] Daggers
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH DAGGER (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Exceptional or Elite tier Dagger
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH DAGGER]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Exceptional or Elite tier Dagger
 ItemDisplay[MAG ILVL>71 ETH DAGGER (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Exceptional or Elite tier Dagger
 
 // ------------------------------------------------------------------------------
 //       [CWJA] Javelins
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH (9gl OR 7gl OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH SPEAR THROWING !ZON]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
 ItemDisplay[MAG ILVL>71 ETH (9gl OR 7gl OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
 
 // ------------------------------------------------------------------------------
 //       [CWMA] Maces
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // All Clubs
+ItemDisplay[MAG ILVL<72 CLVL<75 MACE]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // All Clubs
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH MACE]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Maces
 ItemDisplay[MAG ILVL>71 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // All Clubs
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH (9fl OR 7fl OR 9m9 OR 7m7 OR 9gm OR 7gm)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Maces
 ItemDisplay[MAG ILVL>71 ETH (9fl OR 7fl OR 9m9 OR 7m7 OR 9gm OR 7gm)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Maces
 
 // ------------------------------------------------------------------------------
 //       [CWPO] Polearms
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH (9vo OR 7vo OR 9s8 OR 7s8 OR 9pa OR 7pa OR 9h9 OR 7h7 OR 9wc OR 7wc)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH POLEARM]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
 ItemDisplay[MAG ILVL>71 ETH (9vo OR 7vo OR 9s8 OR 7s8 OR 9pa OR 7pa OR 9h9 OR 7h7 OR 9wc OR 7wc)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
 
 // ------------------------------------------------------------------------------
 //       [CWSC] Scepters
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Scepters
+ItemDisplay[MAG ILVL<72 CLVL<75 SCEPTER]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Scepters
 ItemDisplay[MAG ILVL>71 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Scepters
 
 // ------------------------------------------------------------------------------
 //       [CWSP] Spears
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH (9br OR 7br OR 9st OR 7st OR 9p9 OR 7p7)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH SPEAR]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
 ItemDisplay[MAG ILVL>71 ETH (9br OR 7br OR 9st OR 7st OR 9p9 OR 7p7)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
 
 // ------------------------------------------------------------------------------
 //       [CWST] Staves
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Staves
+ItemDisplay[MAG ILVL<72 CLVL<75 STAFF]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Staves
 ItemDisplay[MAG ILVL>71 (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Staves
 
 // ------------------------------------------------------------------------------
 //       [CWSW] Swords
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH (crs OR 9cr OR 7cr OR 9ls OR 7ls OR 9gs OR 7gs OR 9fb OR 7fb OR 9gd OR 7gd)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH SWORD]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
 ItemDisplay[MAG ILVL>71 ETH (crs OR 9cr OR 7cr OR 9ls OR 7ls OR 9gs OR 7gs OR 9fb OR 7fb OR 9gd OR 7gd)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
 
 // ------------------------------------------------------------------------------
 //       [CWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH (!SPEAR THROWING !ZON) (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Exceptional or Elite tier Throwing Weapon
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH !SPEAR THROWING !ZON]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Exceptional or Elite tier Throwing Weapon
 ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON) (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Exceptional or Elite tier Throwing Weapon
 
 // ------------------------------------------------------------------------------
 //       [CWWA] Wands
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
+ItemDisplay[MAG ILVL<72 CLVL<75 WAND]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
 ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
 
 // +----------------------------------------------------------------------------+
