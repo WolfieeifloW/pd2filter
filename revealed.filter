@@ -12364,47 +12364,47 @@ ItemDisplay[NMAG !INF !RW SOCK=3 SCEPTER]: %NAME%{%ORANGE%Malice, Plague, Venom%
 ItemDisplay[NMAG !INF !RW SOCK=4 SCEPTER]: %NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice, Insight%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SCEPTER]: %NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 5os
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All Scepters, 4os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 wsp SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All War Scepters, 5os
+ItemDisplay[NMAG !INF !RW SOCK=4 SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All Scepters, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 wsp SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All War Scepters, 5os
 
 // --- Defensive Auras
-//ItemDisplay[NMAG !INF !RW !ETH SK100>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Resist Fire
-//ItemDisplay[NMAG !INF !RW !ETH SK104>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Defiance
-//ItemDisplay[NMAG !INF !RW !ETH SK105>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Resist Cold
-//ItemDisplay[NMAG !INF !RW !ETH SK109>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cleansing
-//ItemDisplay[NMAG !INF !RW !ETH SK110>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Resist Lightning
-//ItemDisplay[NMAG !INF !RW !ETH SK115>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Vigor
-//ItemDisplay[NMAG !INF !RW !ETH SK120>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Meditation
-//ItemDisplay[NMAG !INF !RW !ETH SK124>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Redemption
-ItemDisplay[NMAG !INF !RW !ETH SK125>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Salvation
-ItemDisplay[NMAG !INF !RW !ETH SK99>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Prayer
+ItemDisplay[NMAG !INF !RW SK100>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Resist Fire
+//ItemDisplay[NMAG !INF !RW SK104>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Defiance
+//ItemDisplay[NMAG !INF !RW SK105>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Resist Cold
+//ItemDisplay[NMAG !INF !RW SK109>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cleansing
+//ItemDisplay[NMAG !INF !RW SK110>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Resist Lightning
+//ItemDisplay[NMAG !INF !RW SK115>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Vigor
+//ItemDisplay[NMAG !INF !RW SK120>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Meditation
+//ItemDisplay[NMAG !INF !RW SK124>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Redemption
+ItemDisplay[NMAG !INF !RW SK125>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Salvation
+ItemDisplay[NMAG !INF !RW SK99>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Prayer
 
 // --- Offensive Auras
-//ItemDisplay[NMAG !INF !RW !ETH SK98>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Might
-//ItemDisplay[NMAG !INF !RW !ETH SK102>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Fire
-//ItemDisplay[NMAG !INF !RW !ETH SK103>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thorns
-//ItemDisplay[NMAG !INF !RW !ETH SK108>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blessed Aim
-//ItemDisplay[NMAG !INF !RW !ETH SK113>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Concentration
-//ItemDisplay[NMAG !INF !RW !ETH SK114>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Freeze
-//ItemDisplay[NMAG !INF !RW !ETH SK118>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Shock
-//ItemDisplay[NMAG !INF !RW !ETH SK119>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Sanctuary
-//ItemDisplay[NMAG !INF !RW !ETH SK122>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanaticism
-ItemDisplay[NMAG !INF !RW !ETH SK123>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Conviction
+//ItemDisplay[NMAG !INF !RW SK98>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Might
+ItemDisplay[NMAG !INF !RW SK102>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Fire
+ItemDisplay[NMAG !INF !RW SK103>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thorns
+//ItemDisplay[NMAG !INF !RW SK108>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blessed Aim
+ItemDisplay[NMAG !INF !RW SK113>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Concentration
+ItemDisplay[NMAG !INF !RW SK114>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Freeze
+ItemDisplay[NMAG !INF !RW SK118>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Shock
+//ItemDisplay[NMAG !INF !RW SK119>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Sanctuary
+ItemDisplay[NMAG !INF !RW SK122>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanaticism
+ItemDisplay[NMAG !INF !RW SK123>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Conviction
 
 // --- Combat Skills
-ItemDisplay[NMAG !INF !RW !ETH SK101>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Bolt
-//ItemDisplay[NMAG !INF !RW !ETH SK106>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Zeal
-//ItemDisplay[NMAG !INF !RW !ETH SK107>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Charge
-//ItemDisplay[NMAG !INF !RW !ETH SK111>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Vengeance
-ItemDisplay[NMAG !INF !RW !ETH SK112>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blessed Hammer
-//ItemDisplay[NMAG !INF !RW !ETH SK116>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Conversion
-//ItemDisplay[NMAG !INF !RW !ETH SK117>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Shield
-ItemDisplay[NMAG !INF !RW !ETH SK121>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fist of the Heavens
-ItemDisplay[NMAG !INF !RW !ETH SK364>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Nova
-ItemDisplay[NMAG !INF !RW !ETH SK371>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Light
-//ItemDisplay[NMAG !INF !RW !ETH SK378>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Joust
-//ItemDisplay[NMAG !INF !RW !ETH SK96>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Sacrifice
-//ItemDisplay[NMAG !INF !RW !ETH SK97>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Smite
+ItemDisplay[NMAG !INF !RW SK101>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Bolt
+ItemDisplay[NMAG !INF !RW SK106>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Zeal
+//ItemDisplay[NMAG !INF !RW SK107>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Charge
+ItemDisplay[NMAG !INF !RW SK111>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Vengeance
+ItemDisplay[NMAG !INF !RW SK112>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blessed Hammer
+//ItemDisplay[NMAG !INF !RW SK116>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Conversion
+ItemDisplay[NMAG !INF !RW SK117>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Shield
+ItemDisplay[NMAG !INF !RW SK121>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fist of the Heavens
+ItemDisplay[NMAG !INF !RW SK364>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Nova
+ItemDisplay[NMAG !INF !RW SK371>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Light
+//ItemDisplay[NMAG !INF !RW SK378>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Joust
+//ItemDisplay[NMAG !INF !RW SK96>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Sacrifice
+//ItemDisplay[NMAG !INF !RW SK97>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Smite
 
 // ------------------------------------------------------------------------------
 //    [BWSP] Spears

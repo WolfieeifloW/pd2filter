@@ -3052,22 +3052,32 @@ ItemDisplay[NMAG !INF !RW SOCK=5 SCEPTER]: %NAME%{%ORANGE%Eternity, Honor%NL%Bea
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Scepters until character level 30
 
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All Scepters, 4os
-ItemDisplay[NMAG !INF !RW !ETH SOCK=5 wsp SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All War Scepters, 5os
+ItemDisplay[NMAG !INF !RW SOCK=4 SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All Scepters, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 wsp SCEPTER]: %NAME%%DOT-1E%{%NAME%} // All War Scepters, 5os
 
-// Defensive Auras
-ItemDisplay[NMAG !INF !RW !ETH SK125>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Salvation
-ItemDisplay[NMAG !INF !RW !ETH SK99>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Prayer
+// --- Defensive Auras
+ItemDisplay[NMAG !INF !RW SK100>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Resist Fire
+ItemDisplay[NMAG !INF !RW SK125>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Salvation
+ItemDisplay[NMAG !INF !RW SK99>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Prayer
 
-// Offensive Auras
-ItemDisplay[NMAG !INF !RW !ETH SK123>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Conviction
+// --- Offensive Auras
+ItemDisplay[NMAG !INF !RW SK102>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Fire
+ItemDisplay[NMAG !INF !RW SK103>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Thorns
+ItemDisplay[NMAG !INF !RW SK113>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Concentration
+ItemDisplay[NMAG !INF !RW SK114>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Freeze
+ItemDisplay[NMAG !INF !RW SK118>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Shock
+ItemDisplay[NMAG !INF !RW SK122>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanaticism
+ItemDisplay[NMAG !INF !RW SK123>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Conviction
 
-// Combat Skills
-ItemDisplay[NMAG !INF !RW !ETH SK101>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Bolt
-ItemDisplay[NMAG !INF !RW !ETH SK112>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blessed Hammer
-ItemDisplay[NMAG !INF !RW !ETH SK121>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fist of the Heavens
-ItemDisplay[NMAG !INF !RW !ETH SK364>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Nova
-ItemDisplay[NMAG !INF !RW !ETH SK371>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Light
+// --- Combat Skills
+ItemDisplay[NMAG !INF !RW SK101>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Bolt
+ItemDisplay[NMAG !INF !RW SK106>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Zeal
+ItemDisplay[NMAG !INF !RW SK111>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Vengeance
+ItemDisplay[NMAG !INF !RW SK112>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blessed Hammer
+ItemDisplay[NMAG !INF !RW SK117>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Shield
+ItemDisplay[NMAG !INF !RW SK121>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fist of the Heavens
+ItemDisplay[NMAG !INF !RW SK364>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Nova
+ItemDisplay[NMAG !INF !RW SK371>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Light
 
 // ------------------------------------------------------------------------------
 //    [BWSP] Spears
