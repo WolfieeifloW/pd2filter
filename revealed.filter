@@ -1781,9 +1781,9 @@ ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire
 ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 
 // Temporary addition for S3 Start
-ItemDisplay[RARE ARMOR]: %NAME%%MAP-A8% // All Rare armors
-ItemDisplay[RARE (SIN OR SOR OR ZON OR STAFF OR WAND OR SCEPTER OR MACE)]: %NAME%%MAP-A8% // Rare caster weapons
-ItemDisplay[RARE ETH WEAPON]: %NAME%%MAP-A8% // Rare Eth melee weapons
+ItemDisplay[RARE ARMOR]: %NAME%%MAP-A8%{%NAME%} // All Rare armors
+ItemDisplay[RARE (SIN OR SOR OR ZON OR STAFF OR WAND OR SCEPTER OR MACE)]: %NAME%%MAP-A8%{%NAME%} // Rare caster weapons
+ItemDisplay[RARE ETH WEAPON]: %NAME%%MAP-A8%{%NAME%} // Rare Eth melee weapons
 
 // ------------------------------------------------------------------------------
 //      [RMAM] Amulets

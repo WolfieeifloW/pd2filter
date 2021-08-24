@@ -650,15 +650,16 @@ ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notif
 // ------------------------------------------------------------------------------
 // [RIMI] Rare Miscellaneous
 // ------------------------------------------------------------------------------
+// Upgrade recipes for Rare items
 ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 
 // Temporary addition for S3 Start
-ItemDisplay[RARE ARMOR]: %NAME%%MAP-A8% // All Rare armors
-ItemDisplay[RARE (SIN OR SOR OR ZON OR STAFF OR WAND OR SCEPTER OR MACE)]: %NAME%%MAP-A8% // Rare caster weapons
-ItemDisplay[RARE ETH WEAPON]: %NAME%%MAP-A8% // Rare Eth melee weapons
+ItemDisplay[RARE ARMOR]: %NAME%%MAP-A8%{%NAME%} // All Rare armors
+ItemDisplay[RARE (SIN OR SOR OR ZON OR STAFF OR WAND OR SCEPTER OR MACE)]: %NAME%%MAP-A8%{%NAME%} // Rare caster weapons
+ItemDisplay[RARE ETH WEAPON]: %NAME%%MAP-A8%{%NAME%} // Rare Eth melee weapons
 
 // ------------------------------------------------------------------------------
 //      [RMAM] Amulets
