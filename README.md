@@ -144,7 +144,7 @@ Has all required changes to make the game work (world event, ubers, etc) plus ha
 ### [ddraw.ini](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/ddraw.ini)  
 All proper settings to run 1600x900 borderless windowed mode  
 ### [_LOD_SharedStashSave.sss](https://github.com/WolfieeifloW/pd2filter/raw/main/_LOD_SharedStashSave.sss)  
-Has an empty shared stash that has all named tabs for some :_chef: organization
+Has an empty shared stash that has all named tabs for some *chefs kiss* organization
 
 # Disclaimer
 For all versions of the filter I take no responsibility for any items that are accidentally hidden and/or do not notify. I do try my best to test these filters and ensure they are working properly but there's always room for error.
