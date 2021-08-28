@@ -25,6 +25,7 @@ Please also look at the instructions under the "Base Items" header.
 1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
 1. [FAQ](https://github.com/WolfieeifloW/pd2filter#faq)
 1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
+1. [Extras](https://github.com/WolfieeifloW/pd2filter#extras)
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
 
 # Installation
@@ -47,7 +48,7 @@ The launcher will automatically grab the newest version of your selected filter 
 
 If it worked a Minor Health Potion should now say *HP1*.
 
-# Loot Filters
+# Loot Filters  
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)  
 CTRL+click the above link for the raw code.  
 **Select this version if you are uncomfortable with needing to write your own filter lines.** This version has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking. This is for ease-of-use and very quick editing as you should ideally only ever have to comment or uncomment a line (add or remove //). This version will show and notify a lot of items by default with the idea that you can slowly start to comment out things you don't need. The flip side is that since this filter contains lines for every item you can easily just uncomment a line for things you want to show that aren't currently showing.
@@ -135,6 +136,15 @@ These are the common problems that people seem to run into. Please check each of
 Donation link: [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD)  
 Donations are not required in any way but I very much appreciate all who support me in this fashion!  
 If you wish you can get the "Donator" role in my [Discord](https://github.com/WolfieeifloW/pd2filter#discord) as well!
+
+# Extras  
+### [PlugY.ini](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/PlugY.ini)  
+CTRL+click the above link for the raw code.  
+Has all required changes to make the game work (world event, ubers, etc) plus has settings to properly place the buttons in the PlugY stash *and* the gold amount hover  
+### [ddraw.ini](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/ddraw.ini)  
+All proper settings to run 1600x900 borderless windowed mode  
+### [_LOD_SharedStashSave.sss](https://github.com/WolfieeifloW/pd2filter/raw/main/_LOD_SharedStashSave.sss)  
+Has an empty shared stash that has all named tabs for some :_chef: organization
 
 # Disclaimer
 For all versions of the filter I take no responsibility for any items that are accidentally hidden and/or do not notify. I do try my best to test these filters and ensure they are working properly but there's always room for error.
