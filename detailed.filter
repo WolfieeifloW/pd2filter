@@ -36,7 +36,7 @@
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 // If the table looks weird/is skipping lines please turn off Word Wrap in your text editor.
-// Use the code between [] to search (with Match Case/Case Sensitivity turned on) and jump to that section of the filter.
+// Use the code between and including the [] to search (with Match Case/Case Sensitivity turned on) and jump to that section of the filter.
 //
 // +-----------------------------------------+-----------------------------------------+-----------------------------------------+-----------------------------------------+
 // |   [QUES] Quest Items                (1) |   [UNIQ] Unique Items               (2) |   [SETS] Set Items                  (3) |   [RARI] Rare Items                 (4) |
@@ -71,8 +71,8 @@
 // |         [RUHI] High Runes               |         [UWPO] Polearms                 |         [SIMB] M'avina's Battle Hymn    |         [RWPO] Polearms                 |
 // |   [ITEM] Item Basics                    |         [UWSC] Scepters                 |         [SINO] Natalya's Odium          |         [RWSC] Scepters                 |
 // |      [IBAD] Eth/Sockets/Item Level      |         [UWSP] Spears                   |         [SINA] Naj's Ancient Vestige    |         [RWSP] Spears                   |
-// |      [IBOT] Other Items                 |         [UWST] Staves                   |         [SIOC] Orphan's Call            |         [RWST] Staves                   |
-// |      [IBVE] Vendor Items                |         [UWSW] Swords                   |         [SISF] Sander's Folly           |         [RWSW] Swords                   |
+// |      [IBVE] Vendor Items                |         [UWST] Staves                   |         [SIOC] Orphan's Call            |         [RWST] Staves                   |
+// |      [IBOT] Other Items                 |         [UWSW] Swords                   |         [SISF] Sander's Folly           |         [RWSW] Swords                   |
 // |                                         |         [UWTH] Throwing Weapons         |         [SISG] Sazabi's Grand Tribute   |         [RWTH] Throwing Weapons         |
 // |                                         |         [UWWA] Wands                    |         [SITR] Tal Rasha's Wrappings    |         [RWWA] Wands                    |
 // |                                         |      [UIMA] Unique Items Master         |         [SITO] Trang-Oul's Avatar       |      [RIVE] Rare Items Vendor           |
@@ -85,30 +85,30 @@
 // |         [CMCH] Charms                   |         [MMCH] Charms                   |         [BCKE] Keys                     |                                         |
 // |         [CMRI] Rings                    |         [MMCI] Circlets                 |         [BCPO] Potions                  |                                         |
 // |      [CIOT] Crafted Items Other         |         [MMJE] Jewels                   |         [BCTO] Scrolls & Tomes          |                                         |
-// |         [COAR] Armor                    |         [MMRI] Rings                    |      [BIMI] Base Items Miscellaneous    |                                         |
-// |         [COBE] Belt                     |      [MICS] Magic Items Class Specific  |         [BMCI] Circlets                 |                                         |
-// |         [COBO] Boots                    |         [MCAM] Amazon                   |      [BICS] Base Items Class Specific   |                                         |
-// |         [COGL] Gloves                   |         [MCAS] Assassin                 |         [BCAM] Amazon                   |                                         |
-// |         [COHE] Helm                     |         [MCBA] Barbarian                |         [BCAS] Assassin                 |                                         |
-// |         [COSH] Shield                   |         [MCDR] Druid                    |         [BCBA] Barbarian                |                                         |
-// |         [COWE] Weapon                   |         [MCNE] Necromancer              |         [BCDR] Druid                    |                                         |
-// |            [CWAM] Amazon                |         [MCPA] Paladin                  |         [BCNE] Necromancer              |                                         |
-// |            [CWAS] Assassin              |         [MCSO] Sorceress                |         [BCPA] Paladin                  |                                         |
-// |            [CWSO] Sorceress             |      [MIAR] Magic Items Armor           |         [BCSO] Sorceress                |                                         |
-// |            [CWAX] Axes                  |         [MAAR] Armor                    |      [BIAR] Base Items Armor            |                                         |
-// |            [CWJA] Javelins              |         [MABE] Belts                    |         [BAAR] Armor                    |                                         |
-// |            [CWMA] Maces                 |         [MABO] Boots                    |         [BABE] Belts                    |                                         |
-// |            [CWPO] Polearms              |         [MAGL] Gloves                   |         [BABO] Boots                    |                                         |
-// |            [CWSC] Scepters              |         [MAHE] Helms                    |         [BAGL] Gloves                   |                                         |
-// |            [CWSP] Spears                |         [MASH] Shields                  |         [BAHE] Helms                    |                                         |
-// |            [CWST] Staves                |      [MIWE] Magic Items Weapons         |         [BASH] Shields                  |                                         |
-// |            [CWSW] Swords                |         [MWAX] Axes                     |      [BIWE] Base Items Weapons          |                                         |
-// |            [CWTH] Throwing Weapons      |         [MWBO] Bows                     |         [BWAX] Axes                     |                                         |
-// |            [CWWA] Wands                 |         [MWCR] Crossbows                |         [BWBO] Bows                     |                                         |
-// |                                         |         [MWDA] Daggers                  |         [BWCR] Crossbows                |                                         |
-// |                                         |         [MWJA] Javelins                 |         [BWDA] Daggers                  |                                         |
-// |                                         |         [MWMA] Maces                    |         [BWJA] Javelins                 |                                         |
-// |                                         |         [MWPO] Polearms                 |         [BWMA] Maces                    |                                         |
+// |         [COBA] Barbarian Helm           |         [MMRI] Rings                    |      [BIMI] Base Items Miscellaneous    |                                         |
+// |         [CODR] Druid Helm               |      [MICS] Magic Items Class Specific  |         [BMCI] Circlets                 |                                         |
+// |         [CONE] Necromancer Heads        |         [MCAM] Amazon                   |      [BICS] Base Items Class Specific   |                                         |
+// |         [COPA] Paladin Shields          |         [MCAS] Assassin                 |         [BCAM] Amazon                   |                                         |
+// |         [COAR] Armor                    |         [MCBA] Barbarian                |         [BCAS] Assassin                 |                                         |
+// |         [COBE] Belt                     |         [MCDR] Druid                    |         [BCBA] Barbarian                |                                         |
+// |         [COBO] Boots                    |         [MCNE] Necromancer              |         [BCDR] Druid                    |                                         |
+// |         [COGL] Gloves                   |         [MCPA] Paladin                  |         [BCNE] Necromancer              |                                         |
+// |         [COHE] Helm                     |         [MCSO] Sorceress                |         [BCPA] Paladin                  |                                         |
+// |         [COSH] Shield                   |      [MIAR] Magic Items Armor           |         [BCSO] Sorceress                |                                         |
+// |         [COWE] Weapon                   |         [MAAR] Armor                    |      [BIAR] Base Items Armor            |                                         |
+// |            [CWAM] Amazon                |         [MABE] Belts                    |         [BAAR] Armor                    |                                         |
+// |            [CWAS] Assassin              |         [MABO] Boots                    |         [BABE] Belts                    |                                         |
+// |            [CWSO] Sorceress             |         [MAGL] Gloves                   |         [BABO] Boots                    |                                         |
+// |            [CWAX] Axes                  |         [MAHE] Helms                    |         [BAGL] Gloves                   |                                         |
+// |            [CWJA] Javelins              |         [MASH] Shields                  |         [BAHE] Helms                    |                                         |
+// |            [CWMA] Maces                 |      [MIWE] Magic Items Weapons         |         [BASH] Shields                  |                                         |
+// |            [CWPO] Polearms              |         [MWAX] Axes                     |      [BIWE] Base Items Weapons          |                                         |
+// |            [CWSC] Scepters              |         [MWBO] Bows                     |         [BWAX] Axes                     |                                         |
+// |            [CWSP] Spears                |         [MWCR] Crossbows                |         [BWBO] Bows                     |                                         |
+// |            [CWST] Staves                |         [MWDA] Daggers                  |         [BWCR] Crossbows                |                                         |
+// |            [CWSW] Swords                |         [MWJA] Javelins                 |         [BWDA] Daggers                  |                                         |
+// |            [CWTH] Throwing Weapons      |         [MWMA] Maces                    |         [BWJA] Javelins                 |                                         |
+// |            [CWWA] Wands                 |         [MWPO] Polearms                 |         [BWMA] Maces                    |                                         |
 // |                                         |         [MWSC] Scepters                 |            [BWMC] Clubs                 |                                         |
 // |                                         |         [MWSP] Spears                   |            [BWMH] Hammers               |                                         |
 // |                                         |         [MWST] Staves                   |            [BWMM] Maces                 |                                         |
@@ -1836,7 +1836,7 @@ ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%{%ORANGE%Note:%TAN% Goo
 ItemDisplay[RARE LVLREQ<31 STAT91=-15 (RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // -Requirements, and 8%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, or 6+ Dexterity
 
 // ------------------------------------------------------------------------------
-//       [RMRI] Rings
+//      [RMRI] Rings
 // ------------------------------------------------------------------------------
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
 
@@ -3118,7 +3118,7 @@ ItemDisplay[MAG LVLREQ<31 RES>9 (STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN%
 ItemDisplay[MAG LVLREQ<31 STAT91=-15 (RES>10 OR ED>14 OR MAXDMG>7 OR MINDMG>6) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // -Requirements, and 11%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, or 7+ Minimum Damage
 
 // ------------------------------------------------------------------------------
-//       [MMRI] Rings
+//      [MMRI] Rings
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG !ID rin]: %NAME% // All unidentified rings
 
