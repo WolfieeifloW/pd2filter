@@ -141,9 +141,9 @@ ItemDisplay[dcbl]: %RED%Pure Demonic Essence x%QTY%%MAP-62%{%TAN%& Prime Evil So
 ItemDisplay[dcma]: %RED%Vision of Terror%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
 
 // Gems -------------------------------------------------------------------------
-ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
-ItemDisplay[GEM=2 DIFF>0]: // Hide all Flawed gems past Normal difficulty
-ItemDisplay[GEM=3 DIFF>1]: // Hide all Normal gems past Nightmare difficulty
+ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems past Normal difficulty
+ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems past Normal difficulty
+ItemDisplay[GEM=3 CLVL>44]: // Hide all Normal gems past Nightmare difficulty
 //ItemDisplay[GEM>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // [Not working right now as I'm not using %NAME% in the gems] Shows the quantity of gems for stacking purposes
 
 //      Amethyst
