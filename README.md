@@ -113,9 +113,11 @@ These are the common problems that people seem to run into. Please check each of
    * Turn off `Advanced Item Display` in the in-game settings then close your game and launcher. Delete the `filters` folder, and delete `default.filter` and `loot.filter` in the ProjectD2 folder, and then reload the game
 1. **My launcher still says "Coming soon!" for item filters?**
    * First back-up your ddraw.ini and ProjectDiablo.cfg files (these will be overwritten). Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install the new launcher version
+1. **How do I use a filter with PlugY?**
+   * Open the launcher, pick a filter, hit Play & let the game open. Close the game, close the launcher, and open PlugY. **NOTE:** you should open the launcher and repeat this process every few days to get game and filter updates
 1. **My Settings button is gone?**
    * Close the game & the launcher, delete `UI.ini`, and then relaunch the game. Note you may have to redo your settings (look at the image in [Installation](https://github.com/WolfieeifloW/pd2filter#installation))
-1. **But I've customized my filter, how do I save my changes?**
+1. **I've customized my filter, how do I save my changes?**
    * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local--customized-filter) too)
 1. **I want to use a filter not in the launcher?**
    * **NOTE:** Using a local filter will mean you miss out on updates from the creator whose filter you're using. You will have to manually input any future changes they make to acquire them. Put your customized filter into `ProjectD2\filters\local` as `default.filter` and choose "Local" in the launcher (look at my guide [here](https://github.com/Project-Diablo-2/LootFilters#using-a-local--customized-filter) too)
