@@ -83,7 +83,7 @@ Some things may have changed since these images were taken but these give a gene
 ![00_GroundWolfie](https://user-images.githubusercontent.com/40577712/110947471-3496a200-830e-11eb-988a-20c9d86049fb.png)
 
 # Discord
-Discord link: [WolfieeifloW's PD2 Filters](https://discord.gg/6bM8AtYGAq)  
+Discord link: [WolfieeifloW's Diablo II Projects](https://discord.gg/6bM8AtYGAq)  
 I've created a Discord for my filter so that you can get pinged when there's an update so you can know when to grab the new update in the launcher!
 
 # Informative Links
