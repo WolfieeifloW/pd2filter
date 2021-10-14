@@ -21,10 +21,10 @@ Please also look at the instructions under the "Base Items" header.
    * [Template](https://github.com/WolfieeifloW/pd2filter#template)
 1. [Pictures](https://github.com/WolfieeifloW/pd2filter#pictures)
 1. [Discord](https://github.com/WolfieeifloW/pd2filter#discord)
+1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
 1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
 1. [FAQ](https://github.com/WolfieeifloW/pd2filter#faq)
-1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
 1. [Extras](https://github.com/WolfieeifloW/pd2filter#extras)
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
 
@@ -86,6 +86,11 @@ Some things may have changed since these images were taken but these give a gene
 Discord link: [WolfieeifloW's Diablo II Projects](https://discord.gg/6bM8AtYGAq)  
 I've created a Discord for my filter so that you can get pinged when there's an update so you can know when to grab the new update in the launcher!
 
+# Donations
+Donation link: [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD)  
+Donations are not required in any way but I very much appreciate all who support me in this fashion!  
+If you wish you can get the "Donator" role in my [Discord](https://github.com/WolfieeifloW/pd2filter#discord) as well!
+
 # Informative Links
 * **Reddit Thread:** <https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/>
 * **Info for Filter:** <https://github.com/planqi/slashdiablo-maphack/wiki/Advanced-Item-Display>
@@ -133,11 +138,6 @@ These are the common problems that people seem to run into. Please check each of
    * Yes, all versions of my filters are updated and ready-to-go for Season 3!
 1. **What is the difference between your filters?**
    * My Detailed/Revealed/Compact are less strict, Wolfie is stricter, and BT is strictest
-
-# Donations
-Donation link: [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD)  
-Donations are not required in any way but I very much appreciate all who support me in this fashion!  
-If you wish you can get the "Donator" role in my [Discord](https://github.com/WolfieeifloW/pd2filter#discord) as well!
 
 # Extras  
 ### [PlugY.ini](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/PlugY.ini)  
