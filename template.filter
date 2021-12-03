@@ -71,7 +71,7 @@ ItemDisplay[std]: %NAME%%MAP-68% // Standard of Heroes
 
 // Corruption Items
 ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard %PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
-ItemDisplay[lbox]: %PURPLE%+ %RED%Larzuks Puzzlebox %PURPLE%+%WHITE%%MAP-62% // Larzuk's Box
+ItemDisplay[lbox]: %PURPLE%+ %RED%Larzuks Puzzlebox %PURPLE%+%WHITE%%MAP-62% // Larzuk's Puzzlebox
 
 // Map Items
 ItemDisplay[rera]: %NAME% // Reroll Rare Map (Horadrim Orb)
@@ -82,36 +82,22 @@ ItemDisplay[scou]: %NAME% // Purge Map (Removes Mods and Reverts back to a White
 ItemDisplay[upmp]: %NAME% // Uptier Maps (Cube 3 maps of the same tier to get a map of the next tier) (Cartographer's Orb)
 ItemDisplay[scrb]: %NAME%%MAP-62% // Create Group Dungeon (Cube with Tier 3 map) (Horadrim Scarab)
 
-// Maps
-// Tier 1 Maps
-ItemDisplay[t11]: %NAME%%MAP-80% // Ruins of Viz-jun [T1]
-ItemDisplay[t12]: %NAME%%MAP-80% // Horazon's Memory [T1]
-ItemDisplay[t13]: %NAME%%MAP-80% // Bastion Keep [T1]
-
-// Tier 2 Maps
-ItemDisplay[t21]: %NAME%%MAP-A8% // Phlegethon [T2]
-ItemDisplay[t22]: %NAME%%MAP-A8% // Torajan Jungle [T2]
-ItemDisplay[t23]: %NAME%%MAP-A8% // Arreat Battlefield [T2]
-ItemDisplay[t24]: %NAME%%MAP-A8% // Tomb of Zoltun Kulle [T2]
-ItemDisplay[t25]: %NAME%%MAP-A8% // Sewers of Harrogath [T2]
-
-// Tier 3 Maps
-ItemDisplay[t31]: %NAME%%MAP-62% // River of Blood [T3]
-ItemDisplay[t32]: %NAME%%MAP-62% // Throne of Insanity [T3]
-ItemDisplay[t33]: %NAME%%MAP-62% // Reziarfg's Lair [T3]
-ItemDisplay[t34]: %NAME%%MAP-62% // Ancestral Trial [T3]
-ItemDisplay[t35]: %NAME%%MAP-62% // Blood Moon [T3]
-ItemDisplay[t36]: %NAME%%MAP-62% // Fall of Caldeum [T3]
-ItemDisplay[t37]: %NAME%%MAP-62% // Pandemonium Citadel [T3]
-
-// Tier 4 Maps
-ItemDisplay[t41]: %NAME%%MAP-9B% // Cathedral of Light [T4]
+// Maps & Arenas
+ItemDisplay[t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49]: %NAME% // Maps
+ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME% // Items for PvP arenas
 
 // Diablo Clone Items
 ItemDisplay[dcho]: %RED%%NAME%%MAP-62% // Black Soulstone
 ItemDisplay[dcso]: %RED%%NAME%%MAP-62% // Prime Evil Soul
 ItemDisplay[dcbl]: %RED%%NAME%%MAP-62% // Pure Demonic Essence
 ItemDisplay[dcma]: %RED%%NAME%%MAP-62% // Vision of Terror
+
+// Rathma Items
+ItemDisplay[rtmo]: %RED%%NAME%%MAP-62% // Rathma ingredient (unknown usage)
+ItemDisplay[rtma]: %RED%%NAME%%MAP-62% // Voidstone (accesses Rathma)
+ItemDisplay[cwss]: %RED%%NAME%%MAP-62% // Tainted Worldstone Shard
+ItemDisplay[rid]: %RED%%NAME%%MAP-62% // Unlimited ID Tome
+ItemDisplay[rtp]: %RED%%NAME%%MAP-62% // Unlimited TP Tome
 
 // Gems
 ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
@@ -179,8 +165,8 @@ ItemDisplay[NMAG !RW ETH SOCK>0]: %GRAY%%NAME%[%SOCKETS%]%CONTINUE% // No space 
 // Other Items
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
-ItemDisplay[aqv CLVL>10]: // Hides Arrow quivers past character level 10
-ItemDisplay[cqv CLVL>10]: // Hides Bolt quivers past character level 10
+ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
+ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
 
 // Unique Items
 ItemDisplay[UNI ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
@@ -204,8 +190,12 @@ ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%N
 ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 
+ItemDisplay[RARE aqv]: %NAME% // Shows Rare Arrow quivers
+ItemDisplay[RARE cqv]: %NAME% // Shows Rare Bolt quivers
+
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
+ItemDisplay[RARE !ID jew]: %NAME%%MAP-A8% // All unidentified jewels
 
 // Crafted Items
 // Upgrade recipes for Crafted items
@@ -213,6 +203,9 @@ ItemDisplay[CRAFT ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst
 ItemDisplay[CRAFT ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[CRAFT ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
+
+// Jewel Fragments
+ItemDisplay[jewf]: %NAME%
 
 // Crafted Amulets
 ItemDisplay[MAG amu ILVL=82]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 98+}
@@ -235,6 +228,10 @@ ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 8
 ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 82+}
 
 // Magic Items
+// Arrows & Quivers
+ItemDisplay[MAG aqv CLVL<50]: %NAME% // Shows Magic Arrow quivers until character level 50
+ItemDisplay[MAG cqv CLVL<50]: %NAME% // Shows Magic Bolt quivers until character level 50
+
 // Amulets
 ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
 
@@ -243,17 +240,13 @@ ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
 ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97% // Large Charms
 ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Grand Charms
 
+// Jewels
+ItemDisplay[MAG !ID jew]: %NAME%%DOT-97% // All unidentified jewels
+
 // Base Items
 // Gold
-ItemDisplay[GOLD<25]: // Always hide gold in piles of less than 25
-ItemDisplay[GOLD<50 CLVL>9]: // Hide 50 gold and less if level 10+
-ItemDisplay[GOLD<100 CLVL>19]: // Hide 100 gold and less if level 20+
-ItemDisplay[GOLD<200 CLVL>29]: // Hide 200 gold and less if level 30+
-ItemDisplay[GOLD<300 CLVL>39]: // Hide 300 gold and less if level 40+
-ItemDisplay[GOLD<500 CLVL>49]: // Hide 500 gold and less if level 50+
-ItemDisplay[GOLD<1000 CLVL>59]: // Hide 1000 gold and less if level 60+
-ItemDisplay[GOLD<3000 CLVL>69]: // Hide 3000 gold and less if level 70+
-ItemDisplay[GOLD<5000 CLVL>79]: // Hide 5000 gold and less if level 80+
+ItemDisplay[GOLD>10000]: %NAME% // Showing very high piles of gold so they don't get missed
+ItemDisplay[GOLD>0]: // Hides all Gold as it is now auto-pickup (still picks up gold hidden by filter)
 
 // Keys
 //ItemDisplay[key]: %NAME% // Consider uncommenting for Lower Kurast Runs
