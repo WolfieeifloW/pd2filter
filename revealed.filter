@@ -542,9 +542,9 @@ ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE% // +6 Javelin Skills
 
 // Assassin Katars
 //  +3 tab
-ItemDisplay[MAG TABSK50=3 SIN]: %NAME% %GREEN%(+3 MA)%BLUE%
-ItemDisplay[MAG TABSK49=3 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%
-ItemDisplay[MAG TABSK48=3 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%
+ItemDisplay[MAG TABSK50>2 SIN]: %NAME% %GREEN%(+3 MA)%BLUE%
+ItemDisplay[MAG TABSK49>2 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%
+ItemDisplay[MAG TABSK48>2 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%
 
 //  +2 Sin / +3 skill
 ItemDisplay[MAG (CLSK6>1 AND SK254>2) SIN]: %NAME% %GREEN%(+5 TS)%BLUE% // +2 Assassin, +3 Tiger Strike katar
@@ -655,6 +655,10 @@ ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to s
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
 ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
+
+// Adding a failsafe to catch all non-equipment things
+// This should prevent missing of any new item codes that we don't know of
+ItemDisplay[!(ARMOR OR WEAPON OR gpl OR gpm OR gps OR opl OR opm OR ops OR rin OR amu OR GOLD>0 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR rvs OR rvl OR vps OR yps OR wms OR isc OR tsc OR ibk OR tbk)]: %NAME% // Showing all non-equipment items
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -1797,8 +1801,8 @@ ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%N
 ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 
-ItemDisplay[RARE aqv]: %NAME% // Shows Rare Arrow quivers
-ItemDisplay[RARE cqv]: %NAME% // Shows Rare Bolt quivers
+ItemDisplay[RARE aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
+ItemDisplay[RARE cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
 
 // Temporary addition for S3 Start
 ItemDisplay[RARE ARMOR]: %NAME%%MAP-A8%{%NAME%} // All Rare armors
@@ -3091,8 +3095,8 @@ ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR
 // ------------------------------------------------------------------------------
 // [MIMI] Magic Miscellaneous
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG aqv CLVL<50]: %NAME% // Shows Magic Arrow quivers until character level 50
-ItemDisplay[MAG cqv CLVL<50]: %NAME% // Shows Magic Bolt quivers until character level 50
+ItemDisplay[MAG aqv]: %NAME% // Shows Magic Arrow quivers
+ItemDisplay[MAG cqv]: %NAME% // Shows Magic Bolt quivers
 // Items used for crafting (eg amulets/charms/rings) check the "Crafted Items" section
 
 // ------------------------------------------------------------------------------
@@ -3225,6 +3229,7 @@ ItemDisplay[MAG !ID (9cs OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7xf OR 7cs OR 7lw
 //ItemDisplay[MAG !ID 7qr]: %NAME% // Scissors Suwayyah, best skills
 
 // Martial Arts
+ItemDisplay[MAG TABSK50>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // +3 Martial Arts
 ItemDisplay[MAG SK254>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Tiger Strike
 //ItemDisplay[MAG SK255>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Dragon Talon
 //ItemDisplay[MAG SK259>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fists of Fire
@@ -3237,6 +3242,7 @@ ItemDisplay[MAG SK275>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Dra
 ItemDisplay[MAG SK280>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Phoenix Strike
 
 // Shadow Disciplines
+ItemDisplay[MAG TABSK49>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // +3 Shadow Disciplines
 ItemDisplay[MAG SK252>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Dagger & Claw Mastery
 ItemDisplay[MAG SK253>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Psychic Hammer
 ItemDisplay[MAG SK258>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Burst of Speed
@@ -3249,6 +3255,7 @@ ItemDisplay[MAG SK278>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Ven
 //ItemDisplay[MAG SK279>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Shadow Master
 
 // Traps
+ItemDisplay[MAG TABSK48>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // +3 Traps
 //ItemDisplay[MAG SK251>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fire Blast
 //ItemDisplay[MAG SK256>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Shock Web
 ItemDisplay[MAG SK257>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blade Sentinel
