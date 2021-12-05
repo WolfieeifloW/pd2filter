@@ -308,6 +308,9 @@ ItemDisplay[MAG (TABSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR TABSK16>1 OR T
 ItemDisplay[MAG (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR>19 CIRC]: %NAME% %GREEN%(2/20)%BLUE% // +2 class skills, +20 FCR circlet
 ItemDisplay[MAG (CLSK0>1 AND TABSK2>2) ZON]: %NAME% %GREEN%(+5 Jav)%BLUE% // +2 Amazon, +3 Javelin Skills Javelin
 ItemDisplay[MAG TABSK2>5 ZON]: %NAME% %GREEN%(+6 Jav)%BLUE% // +6 Javelin Skills Javelin
+ItemDisplay[MAG TABSK50>2 SIN]: %NAME% %GREEN%(+3 MA)%BLUE%
+ItemDisplay[MAG TABSK49>2 SIN]: %NAME% %GREEN%(+3 SD)%BLUE%
+ItemDisplay[MAG TABSK48>2 SIN]: %NAME% %GREEN%(+3 Trap)%BLUE%
 ItemDisplay[MAG (CLSK6>1 AND SK253>2) SIN]: %NAME% %GREEN%(+5 PH)%BLUE% // +2 Assassin, +3 Psychic Hammer katar
 ItemDisplay[MAG (CLSK6>1 AND SK273>2) SIN]: %NAME% %GREEN%(+5 MB)%BLUE% // +2 Assassin, +3 Mind Blast katar
 ItemDisplay[MAG (CLSK6>1 AND SK278>2) SIN]: %NAME% %GREEN%(+5 Ven)%BLUE% // +2 Assassin, +3 Venom katar
@@ -366,6 +369,10 @@ ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL<30]: %NAME% // Show all Low Qualit
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>29]: // Hide all Low Quality, Cracked, Crude, & Damaged items at character level 30+
 ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
 ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
+
+// Adding a failsafe to catch all non-equipment things
+// This should prevent missing of any new item codes that we don't know of
+ItemDisplay[!(ARMOR OR WEAPON OR gpl OR gpm OR gps OR opl OR opm OR ops OR rin OR amu OR GOLD>0 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR rvs OR rvl OR vps OR yps OR wms OR isc OR tsc OR ibk OR tbk)]: %NAME% // Showing all non-equipment items
 
 // Unique Items -----------------------------------------------------------------
 ItemDisplay[UNI ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
@@ -523,6 +530,7 @@ ItemDisplay[UNI !ID 6sw]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Wido
 ItemDisplay[UNI !ID 6lw]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Windforce Hydra Bow
 
 //    Crossbows
+ItemDisplay[UNI !ID 8mx]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Pus Spitter Siege Crossbow
 ItemDisplay[UNI !ID 8hx]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Buriza-Do Kyanon Ballista
 ItemDisplay[UNI ID 8hx]: %NAME%%MAP-A5%{%ORANGE%Its worse than Windforce%NL%But little does he know,%NL%He has no remorse;%NL%He thinks its great,%NL%%TAN%An ode to MacroBioBoi:} // Buriza-Do Kyanon Ballista
 
@@ -671,8 +679,8 @@ ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%N
 ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 
-ItemDisplay[RARE aqv]: %NAME% // Shows Rare Arrow quivers
-ItemDisplay[RARE cqv]: %NAME% // Shows Rare Bolt quivers
+ItemDisplay[RARE aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
+ItemDisplay[RARE cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
 
 // Temporary addition for S3 Start
 ItemDisplay[RARE ARMOR]: %NAME%%MAP-A8%{%NAME%} // All Rare armors
@@ -831,8 +839,8 @@ ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR
 
 // Magic Items ------------------------------------------------------------------
 //      Magic Arrows & Quivers
-ItemDisplay[MAG aqv CLVL<50]: %NAME% // Shows Magic Arrow quivers until character level 50
-ItemDisplay[MAG cqv CLVL<50]: %NAME% // Shows Magic Bolt quivers until character level 50
+ItemDisplay[MAG aqv]: %NAME% // Shows Magic Arrow quivers
+ItemDisplay[MAG cqv]: %NAME% // Shows Magic Bolt quivers
 
 //      Magic Charms
 ItemDisplay[MAG !ID cm1]: %RED%o %BLUE%%NAME% %RED%o%BLUE%%MAP-97% // Magic Small Charms
