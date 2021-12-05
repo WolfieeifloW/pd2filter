@@ -628,7 +628,7 @@ ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character le
 
 // Adding a failsafe to catch all non-equipment things
 // This should prevent missing of any new item codes that we don't know of
-ItemDisplay[!(ARMOR OR WEAPON OR gpl OR gpm OR gps OR opl OR opm OR ops OR rin OR amu OR GOLD>0 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR rvs OR rvl OR vps OR yps OR wms OR isc OR tsc OR ibk OR tbk)]: %NAME% // Showing all non-equipment items
+ItemDisplay[!(ARMOR OR WEAPON OR aqv OR cqv OR (MAG (cm1 OR cm2 OR cm3 OR jew)) OR (RARE (jew)) OR gpl OR gpm OR gps OR opl OR opm OR ops OR rin OR amu OR GOLD>0 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR rvs OR rvl OR vps OR yps OR wms OR isc OR tsc OR ibk OR tbk)]: %NAME% // Showing all non-equipment items
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
