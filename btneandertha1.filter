@@ -397,7 +397,6 @@ ItemDisplay[UNI !ID jew]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Rain
 
 //    Rings
 ItemDisplay[UNI !ID rin]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // All unique rings
-ItemDisplay[UNI ID rin ALLSK>0 (STAT50>0 OR STAT51>0) STAT9>0 STAT77>0]: %NAME%%MAP-A5%{%ORANGE%You can let me out of the basement.%NL%Maybe now that you're so rich,%NL%Much to everyones amazement;%NL%Find an SoJ on Day 1 of reset,%NL%%TAN%An ode to BTN:} // Stone of Jordan Ring
 
 //    Amazon
 ItemDisplay[UNI !ID am5]: %YELLOW%>>%GOLD%%NAME%%YELLOW%<<%GOLD%%MAP-A5% // True Silver Maiden Javelin
