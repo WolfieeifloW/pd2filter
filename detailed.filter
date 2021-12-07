@@ -1814,9 +1814,9 @@ ItemDisplay[RARE !ID aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
 ItemDisplay[RARE !ID cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
 
 // Temporary addition for S3 Start
-ItemDisplay[RARE ARMOR]: %NAME%%MAP-A8%{%NAME%} // All Rare armors
-ItemDisplay[RARE (SIN OR SOR OR ZON OR STAFF OR WAND OR SCEPTER OR MACE)]: %NAME%%MAP-A8%{%NAME%} // Rare caster weapons
-ItemDisplay[RARE ETH WEAPON]: %NAME%%MAP-A8%{%NAME%} // Rare Eth melee weapons
+ItemDisplay[RARE !ID ARMOR]: %NAME%%MAP-A8%{%NAME%} // All Rare armors
+ItemDisplay[RARE !ID (SIN OR SOR OR ZON OR STAFF OR WAND OR SCEPTER OR MACE)]: %NAME%%MAP-A8%{%NAME%} // Rare caster weapons
+ItemDisplay[RARE !ID ETH WEAPON]: %NAME%%MAP-A8%{%NAME%} // Rare Eth melee weapons
 
 // ------------------------------------------------------------------------------
 //      [RMAM] Amulets
