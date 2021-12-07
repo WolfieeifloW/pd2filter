@@ -866,8 +866,8 @@ ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%
 ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
-ItemDisplay[RARE cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
+ItemDisplay[RARE !ID aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
+ItemDisplay[RARE !ID cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
 // Temporary addition for S3 Start
 ItemDisplay[RARE ARMOR]: %NAME%%MAP-A8%{%NAME%} // All Rare armors
 ItemDisplay[RARE (SIN OR SOR OR ZON OR STAFF OR WAND OR SCEPTER OR MACE)]: %NAME%%MAP-A8%{%NAME%} // Rare caster weapons
@@ -1061,8 +1061,8 @@ ItemDisplay[MAG ILVL<72 CLVL<75 WAND]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sha
 ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
 
 // Magic Items
-ItemDisplay[MAG aqv]: %NAME% // Shows Magic Arrow quivers
-ItemDisplay[MAG cqv]: %NAME% // Shows Magic Bolt quivers
+ItemDisplay[MAG !ID aqv]: %NAME% // Shows Magic Arrow quivers
+ItemDisplay[MAG !ID cqv]: %NAME% // Shows Magic Bolt quivers
 ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
 ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
 ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97% // Large Charms

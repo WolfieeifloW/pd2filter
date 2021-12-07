@@ -194,8 +194,8 @@ ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%N
 ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 
-ItemDisplay[RARE aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
-ItemDisplay[RARE cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
+ItemDisplay[RARE !ID aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
+ItemDisplay[RARE !ID cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
 
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
@@ -233,8 +233,8 @@ ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 8
 
 // Magic Items
 // Arrows & Quivers
-ItemDisplay[MAG aqv]: %NAME% // Shows Magic Arrow quivers
-ItemDisplay[MAG cqv]: %NAME% // Shows Magic Bolt quivers
+ItemDisplay[MAG !ID aqv]: %NAME% // Shows Magic Arrow quivers
+ItemDisplay[MAG !ID cqv]: %NAME% // Shows Magic Bolt quivers
 
 // Amulets
 ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
