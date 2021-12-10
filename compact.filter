@@ -2108,7 +2108,7 @@ ItemDisplay[NMAG !INF !RW SK266>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade F
 ItemDisplay[NMAG !INF !RW SK276>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Death Sentry
 ItemDisplay[NMAG !INF !RW SK271>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Chain Lightning Sentry
 ItemDisplay[NMAG !INF !RW SK366>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Lightning Sentry
-ItemDisplay[NMAG !INF !RW ETH (SOCK=0 OR SOCK=3) ELT SIN]: %NAME% // Showing all 0/3os Ethereal Elite tier Assassin katars
+ItemDisplay[NMAG !INF !RW ETH (SOCK=0 OR SOCK=2 OR SOCK=3) ELT SIN]: %NAME%%DOT-20%%PX-00% // Showing all 0/2/3os Ethereal Elite tier Assassin katars
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 BAR]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All Barbarian helms, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 BAR]: %NAME%{%NAME%}%CONTINUE% // All Barbarian helms, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 BAR]: %NAME%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:}%CONTINUE% // All Barbarian helms, 2os
