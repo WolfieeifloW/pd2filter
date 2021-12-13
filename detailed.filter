@@ -308,7 +308,7 @@ ItemDisplay[dcma]: %PURPLE%+ %RED%Vision of Terror %PURPLE%+%MAP-62%{%TAN%to fig
 ItemDisplay[rtmo]: %PURPLE%+ %RED%%NAME% x%QTY% %PURPLE%+%MAP-62%{%TAN%Item used for Rathma..} // Trang-Oul's Jawbone (Rathma ingredient)
 ItemDisplay[rtmv]: %PURPLE%+ %RED%%NAME% x%QTY% %PURPLE%+%MAP-62%{%TAN%Item used for Rathma..} // Something for Rathma...
 ItemDisplay[rtma]: %PURPLE%+ %RED%%NAME% %PURPLE%+%MAP-62%{%TAN%Item used for Rathma..} // Voidstone (accesses Rathma)
-ItemDisplay[cwss]: %PURPLE%+ %RED%%NAME% x%QTY% %PURPLE%+%RED%%MAP-62%{%TAN%20% chance Brick%NL%20% chance Extra XP%NL%20% chance Extra Res%NL%20% chance Extra Vit/Ene%NL%20% chance +1 Skill%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
+ItemDisplay[cwss]: %PURPLE%+ %RED%%NAME% x%QTY% %PURPLE%+%RED%%MAP-62%{%TAN%25% chance Extra XP%NL%25% chance Extra Res%NL%25% chance Extra Vit/Ene%NL%25% chance +1 Skill%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
 ItemDisplay[rid]: %PURPLE%+ %RED%%NAME% %PURPLE%+%MAP-62% // Unlimited ID Tome
 ItemDisplay[rtp]: %PURPLE%+ %RED%%NAME% %PURPLE%+%MAP-62% // Unlimited TP Tome
 
