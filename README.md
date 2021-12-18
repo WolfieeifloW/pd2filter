@@ -16,6 +16,7 @@ Please also look at the instructions under the "Base Items" header.
    * [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
    * [Revealed](https://github.com/WolfieeifloW/pd2filter#revealed)
    * [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
+   * [Vanilla](https://github.com/WolfieeifloW/pd2filter#vanilla)
    * [Wolfie](https://github.com/WolfieeifloW/pd2filter#wolfie)
    * [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
    * [Template](https://github.com/WolfieeifloW/pd2filter#template)
@@ -60,6 +61,10 @@ CTRL+click the above link for the raw code.
 ### [Compact](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter)  
 CTRL+click the above link for the raw code.  
 **Select this version if you are comfortable with writing your own filter lines.** This version will contain only the lines that are already uncommented in the Detailed version. This version will still show and notify a lot of items that you can slowly start to comment out but you have to have knowledge of filters to add your own lines for items that are not already in the filter.
+
+### [Vanilla](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/vanilla.filter)  
+CTRL+click the above link for the raw code.  
+**Select this version if you want to see almost everything but still have some QoL features.** This version will only hide *true* junk and show literally everything else. The *only* things being hidden in this version are low level gems, ears, inf items, NMAG quivers, gold, keys, low potions, and scrolls. Everything else is shown. It still keeps QoL things such as crafting recipes, shortened potion names, possible RWs, etc on items.
 
 ### [Wolfie](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/wolfie.filter)  
 CTRL+click the above link for the raw code.  
@@ -137,7 +142,7 @@ These are the common problems that people seem to run into. Please check each of
 1. **Are your filters updated for the newest Season?**
    * Yes, all versions of my filters are updated and ready-to-go for the newest Season!
 1. **What is the difference between your filters?**
-   * My Detailed/Revealed/Compact are less strict, Wolfie is stricter, and BT is strictest
+   * Vanilla is zero strictness, Detailed/Revealed/Compact are less strict, Wolfie is stricter, and BT is strictest
 
 # Extras  
 ### [PlugY.ini](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/PlugY.ini)  
