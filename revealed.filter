@@ -183,10 +183,10 @@ ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-58%{%TAN%All Resistances +10%NL
 // ------------------------------------------------------------------------------
 // [QIES] Essences
 // ------------------------------------------------------------------------------
-ItemDisplay[tes]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Andariel & Duriel%NL%Cube w/ Terror, Hatred, & Destruction essences%NL%} // Twisted Essence of Suffering
-ItemDisplay[ceh]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Mephisto%NL%Cube w/ Terror, Destruction, & Suffering essences%NL%} // Charged Essence of Hatred
-ItemDisplay[bet]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Diablo%NL%Cube w/ Hatred, Destruction, & Suffering essences%NL%} // Burning Essence of Terror
-ItemDisplay[fed]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Drops from NM & Hell Baal%NL%Cube w/ Terror, Hatred, & Suffering essences%NL%} // Festering Essence of Destruction
+ItemDisplay[tes]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from NM & Hell Andariel & Duriel%NL%Cube w/ Terror, Hatred, & Destruction essences%NL%} // Twisted Essence of Suffering
+ItemDisplay[ceh]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from NM & Hell Mephisto%NL%Cube w/ Terror, Destruction, & Suffering essences%NL%} // Charged Essence of Hatred
+ItemDisplay[bet]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from NM & Hell Diablo%NL%Cube w/ Hatred, Destruction, & Suffering essences%NL%} // Burning Essence of Terror
+ItemDisplay[fed]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from NM & Hell Baal%NL%Cube w/ Terror, Hatred, & Suffering essences%NL%} // Festering Essence of Destruction
 
 // ------------------------------------------------------------------------------
 // [QITO] Tokens
@@ -196,18 +196,18 @@ ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%TAN%Right click to reset 
 // ------------------------------------------------------------------------------
 // [QIKE] Pandemonium Keys
 // ------------------------------------------------------------------------------
-ItemDisplay[pk1]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Drops from Countess & Blood Raven%NL%Cube w/ Destruction & Hate keys in Act 5%NL%} // Key of Terror
-ItemDisplay[pk2]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Drops from Summoner & Bloodwitch the Wild%NL%Cube w/ Destruction & Terror keys in Act 5%NL%} // Key of Hate
-ItemDisplay[pk3]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%Drops from Nihlathak & Izual%NL%Cube w/ Hate & Terror keys in Act 5%NL%} // Key of Destruction
+ItemDisplay[pk1]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from Countess & Blood Raven%NL%Cube w/ Destruction & Hate keys in Act 5%NL%} // Key of Terror
+ItemDisplay[pk2]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from Summoner & Bloodwitch the Wild%NL%Cube w/ Destruction & Terror keys in Act 5%NL%} // Key of Hate
+ItemDisplay[pk3]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from Nihlathak & Izual%NL%Cube w/ Hate & Terror keys in Act 5%NL%} // Key of Destruction
 
 // ------------------------------------------------------------------------------
 // [QIOR] Pandemonium Organs
 // ------------------------------------------------------------------------------
-ItemDisplay[mbr]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs w/ a Key to create} // Mephisto's Brain
-ItemDisplay[dhn]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs w/ a Key to create} // Diablo's Horn
-ItemDisplay[bey]: %ORANGE%%NAME% x%QTY%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs w/ a Key to create} // Baal's Eye
+ItemDisplay[mbr]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs w/ a Key to create} // Mephisto's Brain
+ItemDisplay[dhn]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs w/ a Key to create} // Diablo's Horn
+ItemDisplay[bey]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%used to enter Uber Tristram%NL%The Pandemonium Talisman%NL%Cube any 3 organs w/ a Key to create} // Baal's Eye
 ItemDisplay[ubtm]: %ORANGE%%NAME%%MAP-68%{%TAN%to enter Uber Tristram%NL%near the Blood Fountain%NL%Right-click in Act 5} // The Pandemonium Talisman
-ItemDisplay[std]: %NAME% x%QTY%%MAP-68%{%TAN%+20% Magic/Gold Find%NL%+20% Monster Density%NL%+10% Experience%NL%%ORANGE%Cube w/ a map to gain%DARK_GREEN% Heroic%ORANGE% bonus:} // Standard of Heroes
+ItemDisplay[std]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-68%{%TAN%+20% Magic/Gold Find%NL%+20% Monster Density%NL%+10% Experience%NL%%ORANGE%Cube w/ a map to gain%DARK_GREEN% Heroic%ORANGE% bonus:} // Standard of Heroes
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -217,18 +217,18 @@ ItemDisplay[std]: %NAME% x%QTY%%MAP-68%{%TAN%+20% Magic/Gold Find%NL%+20% Monste
 // ------------------------------------------------------------------------------
 // [CORR] Corruption Items
 // ------------------------------------------------------------------------------
-ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard x%QTY% %PURPLE%+%RED%%MAP-62%{%TAN%Unsock Item: 50% Mod, 25% Brick, 25% Sockets%NL%Sock Item: 75% Mod, 25% Brick%NL%Maps: 100% chance for Mod%NL%%ORANGE%Cube w/ item to corrupt:} // Worldstone Shard
-ItemDisplay[lbox]: %PURPLE%+ %RED%Larzuks Puzzlebox x%QTY% %PURPLE%+%RED%%MAP-62%{%RED%Do not use on Throwing weapons!%NL%%NL%%TAN%Armors: 1-2%NL%2H Weapons: 1-4%NL%1H Weapons: 1-2%NL%%ORANGE%Cube w/ unsocketed item to roll sockets} // Larzuk's Puzzlebox
+ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%Unsock Item: 50% Mod, 25% Brick, 25% Sockets%NL%Sock Item: 75% Mod, 25% Brick%NL%Maps: 100% chance for Mod%NL%%ORANGE%Cube w/ item to corrupt:} // Worldstone Shard
+ItemDisplay[lbox]: %PURPLE%+ %RED%Larzuks Puzzlebox%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Do not use on Throwing weapons!%NL%%NL%%TAN%Armors: 1-2%NL%2H Weapons: 1-4%NL%1H Weapons: 1-2%NL%%ORANGE%Cube w/ unsocketed item to roll sockets} // Larzuk's Puzzlebox
 
 // ------------------------------------------------------------------------------
 // [MAPI] Map Items
 // ------------------------------------------------------------------------------
-ItemDisplay[rera]: %NAME% x%QTY%{%TAN%Rune or Greater, & Rare Map%NL%Cube w/ Perfect Gem, Thul%NL%%ORANGE%Reroll Rare Map%NL%} // Reroll Rare Map (Horadrim Orb)
-ItemDisplay[imra]: %NAME% x%QTY%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, Thul Rune%NL%%ORANGE%Imbue Rare Map%NL%} // Imbue Rare Map (Zakarum Orb)
-ItemDisplay[upma]: %NAME% x%QTY%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Angelic Orb)
-ItemDisplay[imma]: %NAME% x%QTY%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map%NL%} // Imbue Magic Map (Arcane Orb)
-ItemDisplay[scou]: %NAME% x%QTY%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map%NL%} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
-ItemDisplay[upmp]: %NAME% x%QTY%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps%NL%} // Cartographer's Orb
+ItemDisplay[rera]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Rune or Greater, & Rare Map%NL%Cube w/ Perfect Gem, Thul%NL%%ORANGE%Reroll Rare Map%NL%} // Reroll Rare Map (Horadrim Orb)
+ItemDisplay[imra]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, Thul Rune%NL%%ORANGE%Imbue Rare Map%NL%} // Imbue Rare Map (Zakarum Orb)
+ItemDisplay[upma]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Angelic Orb)
+ItemDisplay[imma]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map%NL%} // Imbue Magic Map (Arcane Orb)
+ItemDisplay[scou]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Magic or Rare Map%NL%Cube w/ Hel Rune &%NL%%ORANGE%Purge Map%NL%} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
+ItemDisplay[upmp]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps%NL%} // Cartographer's Orb
 ItemDisplay[scrb]: %NAME%%MAP-62%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon%NL%} // Horadrim Scarab
 
 // ------------------------------------------------------------------------------
@@ -298,18 +298,18 @@ ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]:
 // ------------------------------------------------------------------------------
 // [DCLO] Diablo Clone Items
 // ------------------------------------------------------------------------------
-ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from Uber Trist bosses%NL%%NL%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
-ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from Hell Diablo & Baal%NL%%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
-ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence x%QTY% %PURPLE%+%MAP-62%{%TAN%Drops from map bosses%NL%%NL%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
+ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%Drops from Uber Trist bosses%NL%%NL%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
+ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%Drops from Hell Diablo & Baal%NL%%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
+ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%Drops from map bosses%NL%%NL%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
 ItemDisplay[dcma]: %PURPLE%+ %RED%Vision of Terror %PURPLE%+%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
 
 // ------------------------------------------------------------------------------
 // [RTHM] Rathma Items
 // ------------------------------------------------------------------------------
-ItemDisplay[rtmo]: %PURPLE%+ %RED%%NAME% x%QTY% %PURPLE%+%MAP-62%{%TAN%Item used for Rathma..} // Trang-Oul's Jawbone (Rathma ingredient)
-ItemDisplay[rtmv]: %PURPLE%+ %RED%%NAME% x%QTY% %PURPLE%+%MAP-62%{%TAN%Item used for Rathma..} // Something for Rathma...
+ItemDisplay[rtmo]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%Item used for Rathma..} // Trang-Oul's Jawbone (Rathma ingredient)
+ItemDisplay[rtmv]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%Item used for Rathma..} // Something for Rathma...
 ItemDisplay[rtma]: %PURPLE%+ %RED%%NAME% %PURPLE%+%MAP-62%{%TAN%Item used for Rathma..} // Voidstone (accesses Rathma)
-ItemDisplay[cwss]: %PURPLE%+ %RED%%NAME% x%QTY% %PURPLE%+%RED%%MAP-62%{%TAN%25% chance Extra XP%NL%25% chance Extra Res%NL%25% chance Extra Vit/Ene%NL%25% chance +1 Skill%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
+ItemDisplay[cwss]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%25% chance Extra XP%NL%25% chance Extra Res%NL%25% chance Extra Vit/Ene%NL%25% chance +1 Skill%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
 ItemDisplay[rid]: %PURPLE%+ %RED%%NAME% %PURPLE%+%MAP-62% // Unlimited ID Tome
 ItemDisplay[rtp]: %PURPLE%+ %RED%%NAME% %PURPLE%+%MAP-62% // Unlimited TP Tome
 
@@ -337,9 +337,9 @@ ItemDisplay[gcv]: %PURPLE%+%WHITE%Chipped %PURPLE%Amethyst%WHITE%{%TAN%3 Chipped
 ItemDisplay[gfv]: %PURPLE%+%WHITE%Flawed %PURPLE%Amethyst%WHITE%{%TAN%3 Flawed Amethyst = Amethyst} // Flawed Amethyst
 ItemDisplay[gsv]: %PURPLE%+%PURPLE%Amethyst%WHITE%{%TAN%3 Amethyst = Flawless Amethyst} // Amethyst ("Normal")
 ItemDisplay[gzv]: %PURPLE%+%WHITE%Flawless %PURPLE%Amethyst%WHITE%%DOT-20%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst} // Flawless Amethyst
-ItemDisplay[gzvs]: %PURPLE%+%WHITE%Flawless %PURPLE%Amethyst x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst%NL%%NL%%WHITE%Shields: +24 Defense%NL%Armor/Helms: +8 Strength%NL%Weapons: +100 Attack Rating%NL%} // Stacked Flawless Amethyst
+ItemDisplay[gzvs]: %PURPLE%+%WHITE%Flawless %PURPLE%Amethyst%WHITE% x%QTY%%DOT-20%{%TAN%3 Flawless Amethyst + Key = Perfect Amethyst%NL%%NL%%WHITE%Shields: +24 Defense%NL%Armor/Helms: +8 Strength%NL%Weapons: +100 Attack Rating%NL%} // Stacked Flawless Amethyst
 ItemDisplay[gpv]: %PURPLE%+%WHITE%Perfect %PURPLE%Amethyst%WHITE%%DOT-20%{%TAN%Used in Caster crafting} // Flawless Amethyst
-ItemDisplay[gpvs]: %PURPLE%+%WHITE%Perfect %PURPLE%Amethyst x%QTY%%WHITE%%DOT-20%{%TAN%Used in Caster crafting%NL%%NL%%WHITE%Shields: +30 Defense%NL%Armor/Helms: +10 Strength%NL%Weapons: +150 Attack Rating%NL%} // Stacked Flawless Amethyst
+ItemDisplay[gpvs]: %PURPLE%+%WHITE%Perfect %PURPLE%Amethyst%WHITE% x%QTY%%DOT-20%{%TAN%Used in Caster crafting%NL%%NL%%WHITE%Shields: +30 Defense%NL%Armor/Helms: +10 Strength%NL%Weapons: +150 Attack Rating%NL%} // Stacked Flawless Amethyst
 
 // ------------------------------------------------------------------------------
 // [GEDI] Diamond
@@ -348,9 +348,9 @@ ItemDisplay[gcw]: %WHITE%+%WHITE%Chipped %WHITE%Diamond%WHITE%{%TAN%3 Chipped Di
 ItemDisplay[gfw]: %WHITE%+%WHITE%Flawed %WHITE%Diamond%WHITE%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
 ItemDisplay[gsw]: %WHITE%+%WHITE%Diamond%WHITE%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
 ItemDisplay[glw]: %WHITE%+%WHITE%Flawless %WHITE%Diamond%WHITE%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
-ItemDisplay[glws]: %WHITE%+%WHITE%Flawless %WHITE%Diamond x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond%NL%%NL%%WHITE%Shield: Res +14%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg to Undead%NL%} // Stacked Flawless Diamond
+ItemDisplay[glws]: %WHITE%+%WHITE%Flawless %WHITE%Diamond%WHITE% x%QTY%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond%NL%%NL%%WHITE%Shield: Res +14%NL%Armor/Helm: +80 Attack Rating%NL%Weapon: +54% Dmg to Undead%NL%} // Stacked Flawless Diamond
 ItemDisplay[gpw]: %WHITE%+%WHITE%Perfect %WHITE%Diamond%WHITE%%DOT-20% // Perfect Diamond
-ItemDisplay[gpws]: %WHITE%+%WHITE%Perfect %WHITE%Diamond x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: All Resist +19%NL%Armor/Helms: +100 Attack Rating%NL%Weapons: +68% Damage to Undead%NL%} // Stacked Perfect Diamond
+ItemDisplay[gpws]: %WHITE%+%WHITE%Perfect %WHITE%Diamond%WHITE% x%QTY%%DOT-20%{%WHITE%Shields: All Resist +19%NL%Armor/Helms: +100 Attack Rating%NL%Weapons: +68% Damage to Undead%NL%} // Stacked Perfect Diamond
 
 // ------------------------------------------------------------------------------
 // [GEEM] Emerald
@@ -359,9 +359,9 @@ ItemDisplay[gcg]: %GREEN%+%WHITE%Chipped %GREEN%Emerald%WHITE%{%TAN%3 Chipped Em
 ItemDisplay[gfg]: %GREEN%+%WHITE%Flawed %GREEN%Emerald%WHITE%{%TAN%3 Flawed Emerald = Emerald} // Flawed Emerald
 ItemDisplay[gsg]: %GREEN%+%GREEN%Emerald%WHITE%{%TAN%3 Emerald = Flawless Emerald} // Emerald ("Normal")
 ItemDisplay[glg]: %GREEN%+%WHITE%Flawless %GREEN%Emerald%WHITE%%DOT-20%{%TAN%3 Flawless Emerald + Key = Perfect Emerald} // Flawless Emerald
-ItemDisplay[glgs]: %GREEN%+%WHITE%Flawless %GREEN%Emerald x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Emerald + Key = Perfect Emerald%NL%%NL%%WHITE%Shields: Psn Res +28%%NL%Armor/Helms: +8 Dexterity%NL%Weapons: +60 psn over 6 secs%NL%} // Stacked Flawless Emerald
+ItemDisplay[glgs]: %GREEN%+%WHITE%Flawless %GREEN%Emerald%WHITE% x%QTY%%DOT-20%{%TAN%3 Flawless Emerald + Key = Perfect Emerald%NL%%NL%%WHITE%Shields: Psn Res +28%%NL%Armor/Helms: +8 Dexterity%NL%Weapons: +60 psn over 6 secs%NL%} // Stacked Flawless Emerald
 ItemDisplay[gpg]: %GREEN%+%WHITE%Perfect %GREEN%Emerald%WHITE%%DOT-20%{%TAN%Used in Safety crafting} // Perfect Emerald
-ItemDisplay[gpgs]: %GREEN%+%WHITE%Perfect %GREEN%Emerald x%QTY%%WHITE%%DOT-20%{%TAN%Used in Safety crafting%NL%%NL%%WHITE%Shields: Poison Resist +40%%NL%Armor/Helms: +10 Dexterity%NL%Weapons: +100 poison damage over 7 secs%NL%} // Stacked Perfect Emerald
+ItemDisplay[gpgs]: %GREEN%+%WHITE%Perfect %GREEN%Emerald%WHITE% x%QTY%%DOT-20%{%TAN%Used in Safety crafting%NL%%NL%%WHITE%Shields: Poison Resist +40%%NL%Armor/Helms: +10 Dexterity%NL%Weapons: +100 poison damage over 7 secs%NL%} // Stacked Perfect Emerald
 
 // ------------------------------------------------------------------------------
 // [GERU] Ruby
@@ -370,9 +370,9 @@ ItemDisplay[gcr]: %RED%+%WHITE%Chipped %RED%Ruby%WHITE%{%TAN%3 Chipped Ruby = Fl
 ItemDisplay[gfr]: %RED%+%WHITE%Flawed %RED%Ruby%WHITE%{%TAN%3 Flawed Ruby = Ruby} // Flawed Ruby
 ItemDisplay[gsr]: %RED%+%RED%Ruby%WHITE%{%TAN%3 Ruby = Flawless Ruby} // Ruby ("Normal")
 ItemDisplay[glr]: %RED%+%WHITE%Flawless %RED%Ruby%WHITE%%DOT-20%{%TAN%3 Flawless Ruby + Key = Perfect Ruby} // Flawless Ruby
-ItemDisplay[glrs]: %RED%+%WHITE%Flawless %RED%Ruby x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Ruby + Key = Perfect Ruby%NL%%NL%%WHITE%Shields: Fire Resist +28%%NL%Armor/Helms: +31 Life%NL%Weapons: Adds 10-16 fire damage%NL%} // Stacked Flawless Ruby
+ItemDisplay[glrs]: %RED%+%WHITE%Flawless %RED%Ruby%WHITE% x%QTY%%DOT-20%{%TAN%3 Flawless Ruby + Key = Perfect Ruby%NL%%NL%%WHITE%Shields: Fire Resist +28%%NL%Armor/Helms: +31 Life%NL%Weapons: Adds 10-16 fire damage%NL%} // Stacked Flawless Ruby
 ItemDisplay[gpr]: %RED%+%WHITE%Perfect %RED%Ruby%WHITE%%DOT-20%{%TAN%Used in Blood crafting} // Perfect Ruby
-ItemDisplay[gprs]: %RED%+%WHITE%Perfect %RED%Ruby x%QTY%%WHITE%%DOT-20%{%TAN%Used in Blood crafting%NL%%NL%%WHITE%Shields: Fire Resist +40%%NL%Armor/Helms: +38 Life%NL%Weapons: Adds 15-20 fire damage%NL%} // Stacked Perfect Ruby
+ItemDisplay[gprs]: %RED%+%WHITE%Perfect %RED%Ruby%WHITE% x%QTY%%DOT-20%{%TAN%Used in Blood crafting%NL%%NL%%WHITE%Shields: Fire Resist +40%%NL%Armor/Helms: +38 Life%NL%Weapons: Adds 15-20 fire damage%NL%} // Stacked Perfect Ruby
 
 // ------------------------------------------------------------------------------
 // [GESA] Sapphire
@@ -381,9 +381,9 @@ ItemDisplay[gcb]: %BLUE%+%WHITE%Chipped %BLUE%Sapphire%WHITE%{%TAN%3 Chipped Sap
 ItemDisplay[gfb]: %BLUE%+%WHITE%Flawed %BLUE%Sapphire%WHITE%{%TAN%3 Flawed Sapphire = Sapphire} // Flawed Sapphire
 ItemDisplay[gsb]: %BLUE%+%BLUE%Sapphire%WHITE%{%TAN%3 Sapphire = Flawless Sapphire} // Sapphire ("Normal")
 ItemDisplay[glb]: %BLUE%+%WHITE%Flawless %BLUE%Sapphire%WHITE%%DOT-20%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire} // Flawless Sapphire
-ItemDisplay[glbs]: %BLUE%+%WHITE%Flawless %BLUE%Sapphire x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire%NL%%NL%%WHITE%Shields: Cold Res +28%%NL%Armor/Helms: +31 Mana%NL%Weapons: Adds 6-10 cold dmg%NL%} // Stacked Flawless Sapphire
+ItemDisplay[glbs]: %BLUE%+%WHITE%Flawless %BLUE%Sapphire%WHITE% x%QTY%%DOT-20%{%TAN%3 Flawless Sapphire + Key = Perfect Sapphire%NL%%NL%%WHITE%Shields: Cold Res +28%%NL%Armor/Helms: +31 Mana%NL%Weapons: Adds 6-10 cold dmg%NL%} // Stacked Flawless Sapphire
 ItemDisplay[gpb]: %BLUE%+%WHITE%Perfect %BLUE%Sapphire%WHITE%%DOT-20%{%TAN%Used in Hit Power crafting} // Perfect Sapphire
-ItemDisplay[gpbs]: %BLUE%+%WHITE%Perfect %BLUE%Sapphire x%QTY%%WHITE%%DOT-20%{%TAN%Used in Hit Power crafting%NL%%NL%%WHITE%Shields: Cold Resist +40%%NL%Armor/Helms: +38 Mana%NL%Weapons: Adds 10-14 cold damage%NL%} // Stacked Perfect Sapphire
+ItemDisplay[gpbs]: %BLUE%+%WHITE%Perfect %BLUE%Sapphire%WHITE% x%QTY%%DOT-20%{%TAN%Used in Hit Power crafting%NL%%NL%%WHITE%Shields: Cold Resist +40%%NL%Armor/Helms: +38 Mana%NL%Weapons: Adds 10-14 cold damage%NL%} // Stacked Perfect Sapphire
 
 // ------------------------------------------------------------------------------
 // [GESK] Skull
@@ -392,9 +392,9 @@ ItemDisplay[skc]: %GRAY%+%WHITE%Chipped %GRAY%Skull%WHITE%{%TAN%3 Chipped Skull 
 ItemDisplay[skf]: %GRAY%+%WHITE%Flawed %GRAY%Skull%WHITE%{%TAN%3 Flawed Skull = Skull} // Flawed Skull
 ItemDisplay[sku]: %GRAY%+%GRAY%Skull%WHITE%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
 ItemDisplay[skl]: %GRAY%+%WHITE%Flawless %GRAY%Skull%WHITE%%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
-ItemDisplay[skls]: %GRAY%+%WHITE%Flawless %GRAY%Skull x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull%NL%%NL%%WHITE%Shield: ATDO 16%NL%Armor/Helm: Mana Reg 12%, Rep Life +4%NL%Wep: 3% Life & Mana steal%NL%} // Stacked Flawless Skull
+ItemDisplay[skls]: %GRAY%+%WHITE%Flawless %GRAY%Skull%WHITE% x%QTY%%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull%NL%%NL%%WHITE%Shield: ATDO 16%NL%Armor/Helm: Mana Reg 12%, Rep Life +4%NL%Wep: 3% Life & Mana steal%NL%} // Stacked Flawless Skull
 ItemDisplay[skz]: %GRAY%+%WHITE%Perfect %GRAY%Skull%WHITE%%DOT-20% // Perfect Skull
-ItemDisplay[skzs]: %GRAY%+%WHITE%Perfect %GRAY%Skull x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: Attacker Takes Damage of 20%NL%Armor/Helms: Regen Mana 19%, Rep Life +5%NL%Weapons: 4% Life & 3% Mana steal%NL%} // Stacked Perfect Skull
+ItemDisplay[skzs]: %GRAY%+%WHITE%Perfect %GRAY%Skull%WHITE% x%QTY%%DOT-20%{%WHITE%Shields: Attacker Takes Damage of 20%NL%Armor/Helms: Regen Mana 19%, Rep Life +5%NL%Weapons: 4% Life & 3% Mana steal%NL%} // Stacked Perfect Skull
 
 // ------------------------------------------------------------------------------
 // [GETO] Topaz
@@ -403,9 +403,9 @@ ItemDisplay[gcy]: %YELLOW%+%WHITE%Chipped %YELLOW%Topaz%WHITE%{%TAN%3 Chipped To
 ItemDisplay[gfy]: %YELLOW%+%WHITE%Flawed %YELLOW%Topaz%WHITE%{%TAN%3 Flawed Topaz = Topaz} // Flawed Topaz
 ItemDisplay[gsy]: %YELLOW%+%YELLOW%Topaz%WHITE%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
 ItemDisplay[gly]: %YELLOW%+%WHITE%Flawless %YELLOW%Topaz%WHITE%%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
-ItemDisplay[glys]: %YELLOW%+%WHITE%Flawless %YELLOW%Topaz x%QTY%%WHITE%%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz%NL%%NL%%WHITE%Shields: Light Res +28%%NL%Armor/Helms: 20% Magic Find%NL%Weps: Add 1-30 lightning dmg%NL%} // Stacked Flawless Topaz
+ItemDisplay[glys]: %YELLOW%+%WHITE%Flawless %YELLOW%Topaz%WHITE% x%QTY%%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz%NL%%NL%%WHITE%Shields: Light Res +28%%NL%Armor/Helms: 20% Magic Find%NL%Weps: Add 1-30 lightning dmg%NL%} // Stacked Flawless Topaz
 ItemDisplay[gpy]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz%WHITE%%DOT-20% // Perfect Topaz
-ItemDisplay[gpys]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz x%QTY%%WHITE%%DOT-20%{%WHITE%Shields: Lightning Resist +40%%NL%Armor/Helms: 24% Better Chance of Getting Magic Items%NL%Weapons: Adds 1-40 lightning damage%NL%} // Stacked Perfect Topaz
+ItemDisplay[gpys]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz%WHITE% x%QTY%%DOT-20%{%WHITE%Shields: Lightning Resist +40%%NL%Armor/Helms: 24% Better Chance of Getting Magic Items%NL%Weapons: Adds 1-40 lightning damage%NL%} // Stacked Perfect Topaz
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -413,95 +413,97 @@ ItemDisplay[gpys]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz x%QTY%%WHITE%%DOT-20%{%
 // |                                                                            |
 // +----------------------------------------------------------------------------+
 // ------------------------------------------------------------------------------
-// [RUMA] Rune map icons
-// ------------------------------------------------------------------------------
-ItemDisplay[RUNE<10]: %DARK_GREEN%%RUNENAME% %DARK_GREEN%(%RUNENUM%)%DOT-76%%CONTINUE% // El-Ort
-ItemDisplay[RUNE>9 RUNE<24]: %ORANGE%%RUNENAME% %ORANGE%(%RUNENUM%)%MAP-0B%%CONTINUE% // Thul-Mal
-ItemDisplay[RUNE>23]: %RED%%RUNENAME% %RED%(%RUNENUM%)%BORDER-50%%CONTINUE% // Ist-Zod
-ItemDisplay[RUNE>0 QTY>0]: %NAME% x%QTY%%CONTINUE% // Shows the quantity of runes for stacking purposes
-
-// ------------------------------------------------------------------------------
 // [RUDE] Rune descriptions
 // ------------------------------------------------------------------------------
 // These show the cube recipes at the bottom of the rune info
-
 // ------------------------------------------------------------------------------
 //    [RULO] Low Runes
 // ------------------------------------------------------------------------------
-ItemDisplay[r01]: %NAME%{%TAN%3 El + Key = Eld%NL%} // El Rune
-ItemDisplay[r01s]: %NAME%{%TAN%3 El + Key = Eld%NL%%NL%%WHITE%All: +1 Light Radius%NL%Shields: +15 Defense%NL%Armor/Helms: +15 Defense%NL%Weapons: +50 Attack Rating%NL%} // Stacked El Rune
-ItemDisplay[r02]: %NAME%{%TAN%3 Eld + Key = Tir%NL%} // Eld Rune
-ItemDisplay[r02s]: %NAME%{%TAN%3 Eld + Key = Tir%NL%%NL%%WHITE%Shields: +7% Block%NL%Armor/Helms: -15% Stam Drain%NL%Weapons: +75% Dmg & +50 Attack Rating vs Undead%NL%} // Stacked Eld Rune
-ItemDisplay[r03]: %NAME%{%TAN%3 Tir + Key = Nef%NL%} // Tir Rune
-ItemDisplay[r03s]: %NAME%{%TAN%3 Tir + Key = Nef%NL%%NL%%WHITE%Shields: +2 Mana Per Kill%NL%Armor/Helms: +2 Mana Per Kill%NL%Weapons: +2 Mana Per Kill%NL%} // Stacked Tir Rune
-ItemDisplay[r04]: %NAME%{%TAN%3 Nef + Key = Eth%NL%} // Nef Rune
-ItemDisplay[r04s]: %NAME%{%TAN%3 Nef + Key = Eth%NL%%NL%%WHITE%Shields: +30 Defense vs Missile%NL%Armor/Helms: +30 Defense vs Missile%NL%Weapons: Knockback%NL%} // Stacked Nef Rune
-ItemDisplay[r05]: %NAME%{%TAN%3 Eth + Key = Ith%NL%} // Eth Rune
-ItemDisplay[r05s]: %NAME%{%TAN%3 Eth + Key = Ith%NL%%NL%%WHITE%Shields: Regen Mana 15%%NL%Armor/Helms: Regen Mana 15%%NL%Weapons: -25% Target Defense%NL%} // Stacked Eth Rune
-ItemDisplay[r06]: %NAME%{%TAN%3 Ith + Key = Tal%NL%} // Ith Rune
-ItemDisplay[r06s]: %NAME%{%TAN%3 Ith + Key = Tal%NL%%NL%%WHITE%Shields: 15% Dmg Taken Gained as Mana%NL%Armor/Helms: 15% Dmg Taken Gained as Mana%NL%Weapons: +9 Max Dmg%NL%} // Stacked Ith Rune
-ItemDisplay[r07]: %NAME%{%TAN%3 Tal + Key = Ral%NL%} // Tal Rune
-ItemDisplay[r07s]: %NAME%{%TAN%3 Tal + Key = Ral%NL%%NL%%WHITE%Shields: Poison Resist +35%%NL%Armor/Helms: Poison Resist +30%%NL%Weapons: +75 poison damage over 5 seconds%NL%} // Stacked Tal Rune
-ItemDisplay[r08]: %NAME%{%TAN%3 Ral + Key = Ort%NL%} // Ral Rune
-ItemDisplay[r08s]: %NAME%{%TAN%3 Ral + Key = Ort%NL%%NL%%WHITE%Shields: Fire Resist +35%%NL%Armor/Helms: Fire Resist +30%%NL%Weapons: Adds 5-30 fire damage%NL%} // Stacked Ral Rune
-ItemDisplay[r09]: %NAME%{%TAN%3 Ort + Key = Thul%NL%} // Ort Rune
-ItemDisplay[r09s]: %NAME%{%TAN%3 Ort + Key = Thul%NL%%NL%%WHITE%Shields: Lightning Resist +35%%NL%Armor/Helms: Lightning Resist +30%%NL%Weapons: Adds 1-50 lightning dmg%NL%} // Stacked Ort Rune
-ItemDisplay[r10]: %NAME%{%TAN%3 Thul + Key = Amn%NL%} // Thul Rune
-ItemDisplay[r10s]: %NAME%{%TAN%3 Thul + Key = Amn%NL%%NL%%WHITE%Shields: Cold Resist +35%%NL%Armor/Helms: Cold Resist +30%%NL%Weapons: Adds 3-14 cold damage%NL%} // Stacked Thul Rune
+ItemDisplay[r01]: El%CONTINUE%{%TAN%3 El + Key = Eld%NL%} // El Rune
+ItemDisplay[r01s]: El%CONTINUE%{%TAN%3 El + Key = Eld%NL%%NL%%WHITE%All: +1 Light Radius%NL%Shields: +15 Defense%NL%Armor/Helms: +15 Defense%NL%Weapons: +50 Attack Rating%NL%} // Stacked El Rune
+ItemDisplay[r02]: Eld%CONTINUE%{%TAN%3 Eld + Key = Tir%NL%} // Eld Rune
+ItemDisplay[r02s]: Eld%CONTINUE%{%TAN%3 Eld + Key = Tir%NL%%NL%%WHITE%Shields: +7% Block%NL%Armor/Helms: -15% Stam Drain%NL%Weapons: +75% Dmg & +50 Attack Rating vs Undead%NL%} // Stacked Eld Rune
+ItemDisplay[r03]: Tir%CONTINUE%{%TAN%3 Tir + Key = Nef%NL%} // Tir Rune
+ItemDisplay[r03s]: Tir%CONTINUE%{%TAN%3 Tir + Key = Nef%NL%%NL%%WHITE%Shields: +2 Mana Per Kill%NL%Armor/Helms: +2 Mana Per Kill%NL%Weapons: +2 Mana Per Kill%NL%} // Stacked Tir Rune
+ItemDisplay[r04]: Nef%CONTINUE%{%TAN%3 Nef + Key = Eth%NL%} // Nef Rune
+ItemDisplay[r04s]: Nef%CONTINUE%{%TAN%3 Nef + Key = Eth%NL%%NL%%WHITE%Shields: +30 Defense vs Missile%NL%Armor/Helms: +30 Defense vs Missile%NL%Weapons: Knockback%NL%} // Stacked Nef Rune
+ItemDisplay[r05]: Eth%CONTINUE%{%TAN%3 Eth + Key = Ith%NL%} // Eth Rune
+ItemDisplay[r05s]: Eth%CONTINUE%{%TAN%3 Eth + Key = Ith%NL%%NL%%WHITE%Shields: Regen Mana 15%%NL%Armor/Helms: Regen Mana 15%%NL%Weapons: -25% Target Defense%NL%} // Stacked Eth Rune
+ItemDisplay[r06]: Ith%CONTINUE%{%TAN%3 Ith + Key = Tal%NL%} // Ith Rune
+ItemDisplay[r06s]: Ith%CONTINUE%{%TAN%3 Ith + Key = Tal%NL%%NL%%WHITE%Shields: 15% Dmg Taken Gained as Mana%NL%Armor/Helms: 15% Dmg Taken Gained as Mana%NL%Weapons: +9 Max Dmg%NL%} // Stacked Ith Rune
+ItemDisplay[r07]: Tal%CONTINUE%{%TAN%3 Tal + Key = Ral%NL%} // Tal Rune
+ItemDisplay[r07s]: Tal%CONTINUE%{%TAN%3 Tal + Key = Ral%NL%%NL%%WHITE%Shields: Poison Resist +35%%NL%Armor/Helms: Poison Resist +30%%NL%Weapons: +75 poison damage over 5 seconds%NL%} // Stacked Tal Rune
+ItemDisplay[r08]: Ral%CONTINUE%{%TAN%3 Ral + Key = Ort%NL%} // Ral Rune
+ItemDisplay[r08s]: Ral%CONTINUE%{%TAN%3 Ral + Key = Ort%NL%%NL%%WHITE%Shields: Fire Resist +35%%NL%Armor/Helms: Fire Resist +30%%NL%Weapons: Adds 5-30 fire damage%NL%} // Stacked Ral Rune
+ItemDisplay[r09]: Ort%CONTINUE%{%TAN%3 Ort + Key = Thul%NL%} // Ort Rune
+ItemDisplay[r09s]: Ort%CONTINUE%{%TAN%3 Ort + Key = Thul%NL%%NL%%WHITE%Shields: Lightning Resist +35%%NL%Armor/Helms: Lightning Resist +30%%NL%Weapons: Adds 1-50 lightning dmg%NL%} // Stacked Ort Rune
+ItemDisplay[r10]: Thul%CONTINUE%{%TAN%3 Thul + Key = Amn%NL%} // Thul Rune
+ItemDisplay[r10s]: Thul%CONTINUE%{%TAN%3 Thul + Key = Amn%NL%%NL%%WHITE%Shields: Cold Resist +35%%NL%Armor/Helms: Cold Resist +30%%NL%Weapons: Adds 3-14 cold damage%NL%} // Stacked Thul Rune
 
 // ------------------------------------------------------------------------------
 //    [RUMI] Mid Runes
 // ------------------------------------------------------------------------------
-ItemDisplay[r11]: %NAME%{%TAN%3 Amn + Key = Sol%NL%} // Amn Rune
-ItemDisplay[r11s]: %NAME%{%TAN%3 Amn + Key = Sol%NL%%NL%%WHITE%Shields: Attacker Takes Damage of 14%NL%Armor/Helms: Attacker Takes Damage of 14%NL%Weapons: 7% Life steal%NL%} // Stacked Amn Rune
-ItemDisplay[r12]: %NAME%{%TAN%3 Sol + Key = Shael%NL%} // Sol Rune
-ItemDisplay[r12s]: %NAME%{%TAN%3 Sol + Key = Shael%NL%%NL%%WHITE%Shields: Damage Reduced by 7%NL%Armor/Helms: Damage Reduced by 7%NL%Weapons: +9 to Minimum Damage%NL%} // Stacked Sol Rune
-ItemDisplay[r13]: %NAME%{%TAN%3 Shael + Key = Dol%NL%} // Shael Rune
-ItemDisplay[r13s]: %NAME%{%TAN%3 Shael + Key = Dol%NL%%NL%%WHITE%Shields: 20% Faster Block Rate%NL%Armor/Helms: 20% Faster Hit Recovery%NL%Weapons: +20% Attack Speed%NL%} // Stacked Shael Rune
-ItemDisplay[r14]: %NAME%{%TAN%3 Dol + Key = Hel%NL%} // Dol Rune
-ItemDisplay[r14s]: %NAME%{%TAN%3 Dol + Key = Hel%NL%%NL%%WHITE%Shields: Replenish Life +10%NL%Armor/Helms: Replenish Life +10%NL%Weapons: +25% Enhanced Damage%NL%} // Stacked Dol Rune
-ItemDisplay[r15]: %NAME%{%TAN%3 Hel + Key = Io%NL%} // Hel Rune
-ItemDisplay[r15s]: %NAME%{%TAN%3 Hel + Key = Io%NL%%NL%%WHITE%Shields: Requirements -15%%NL%Armor/Helms: Requirements -15%%NL%Weapons: Requirements -20%%NL%} // Stacked Hel Rune
-ItemDisplay[r16]: %NAME%{%TAN%3 Io + Key = Lum%NL%} // Io Rune
-ItemDisplay[r16s]: %NAME%{%TAN%3 Io + Key = Lum%NL%%NL%%WHITE%Shields: +10 Vitality%NL%Armor/Helms: +10 Vitality%NL%Weapons: +10 Vitality%NL%} // Stacked Io Rune
-ItemDisplay[r17]: %NAME%{%TAN%3 Lum + Key = Ko%NL%} // Lum Rune
-ItemDisplay[r17s]: %NAME%{%TAN%3 Lum + Key = Ko%NL%%NL%%WHITE%Shields: +10 Energy%NL%Armor/Helms: +10 Energy%NL%Weapons: +10 Energy%NL%} // Stacked Lum Rune
-ItemDisplay[r18]: %NAME%{%TAN%3 Ko + Key = Fal%NL%} // Ko Rune
-ItemDisplay[r18s]: %NAME%{%TAN%3 Ko + Key = Fal%NL%%NL%%WHITE%Shields: +10 Dexterity%NL%Armor/Helms: +10 Dexterity%NL%Weapons: +10 Dexterity%NL%} // Stacked Ko Rune
-ItemDisplay[r19]: %NAME%{%TAN%3 Fal + Key = Lem%NL%} // Fal Rune
-ItemDisplay[r19s]: %NAME%{%TAN%3 Fal + Key = Lem%NL%%NL%%WHITE%Shields: +10 Strength%NL%Armor/Helms: +10 Strength%NL%Weapons: +10 Strength%NL%} // Stacked Fal Rune
-ItemDisplay[r20]: %NAME%{%TAN%3 Lem + Key = Pul%NL%} // Lem Rune
-ItemDisplay[r20s]: %NAME%{%TAN%3 Lem + Key = Pul%NL%%NL%%WHITE%Shields: 50% Extra Gold%NL%Armor/Helms: 50% Extra Gold%NL%Weapons: 75% Extra Gold%NL%} // Stacked Lem Rune
-ItemDisplay[r21]: %NAME%{%TAN%2 Pul + Key = Um%NL%} // Pul Rune
-ItemDisplay[r21s]: %NAME%{%TAN%2 Pul + Key = Um%NL%%NL%%WHITE%Shield: +30% Enhanced Def%NL%Armor/Helm: +30% Enhanced Def%NL%Weapon: +75% Dmg & +100 Attack Rating vs Demon%NL%} // Stacked Pul Rune
-ItemDisplay[r22]: %NAME%{%TAN%2 Um + Key = Mal%NL%} // Um Rune
-ItemDisplay[r22s]: %NAME%{%TAN%2 Um + Key = Mal%NL%%NL%%WHITE%Shields: All Resistances +22%NL%Armor/Helms: All Resistances +15%NL%Weapons: 25% Chance of Open Wounds%NL%} // Stacked Um Rune
-ItemDisplay[r23]: %NAME%{%TAN%2 Mal + Key = Ist%NL%} // Mal Rune
-ItemDisplay[r23s]: %NAME%{%TAN%2 Mal + Key = Ist%NL%%NL%%WHITE%Shield: Magic Damage Reduced by 7%NL%Armor/Helm: Magic Damage Reduced by 7%NL%Weapon: Prevent Monster Heal%NL%} // Stacked Mal Rune
+ItemDisplay[r11]: Amn%CONTINUE%{%TAN%3 Amn + Key = Sol%NL%} // Amn Rune
+ItemDisplay[r11s]: Amn%CONTINUE%{%TAN%3 Amn + Key = Sol%NL%%NL%%WHITE%Shields: Attacker Takes Damage of 14%NL%Armor/Helms: Attacker Takes Damage of 14%NL%Weapons: 7% Life steal%NL%} // Stacked Amn Rune
+ItemDisplay[r12]: Sol%CONTINUE%{%TAN%3 Sol + Key = Shael%NL%} // Sol Rune
+ItemDisplay[r12s]: Sol%CONTINUE%{%TAN%3 Sol + Key = Shael%NL%%NL%%WHITE%Shields: Damage Reduced by 7%NL%Armor/Helms: Damage Reduced by 7%NL%Weapons: +9 to Minimum Damage%NL%} // Stacked Sol Rune
+ItemDisplay[r13]: Shael%CONTINUE%{%TAN%3 Shael + Key = Dol%NL%} // Shael Rune
+ItemDisplay[r13s]: Shael%CONTINUE%{%TAN%3 Shael + Key = Dol%NL%%NL%%WHITE%Shields: 20% Faster Block Rate%NL%Armor/Helms: 20% Faster Hit Recovery%NL%Weapons: +20% Attack Speed%NL%} // Stacked Shael Rune
+ItemDisplay[r14]: Dol%CONTINUE%{%TAN%3 Dol + Key = Hel%NL%} // Dol Rune
+ItemDisplay[r14s]: Dol%CONTINUE%{%TAN%3 Dol + Key = Hel%NL%%NL%%WHITE%Shields: Replenish Life +10%NL%Armor/Helms: Replenish Life +10%NL%Weapons: +25% Enhanced Damage%NL%} // Stacked Dol Rune
+ItemDisplay[r15]: Hel%CONTINUE%{%TAN%3 Hel + Key = Io%NL%} // Hel Rune
+ItemDisplay[r15s]: Hel%CONTINUE%{%TAN%3 Hel + Key = Io%NL%%NL%%WHITE%Shields: Requirements -15%%NL%Armor/Helms: Requirements -15%%NL%Weapons: Requirements -20%%NL%} // Stacked Hel Rune
+ItemDisplay[r16]: Io%CONTINUE%{%TAN%3 Io + Key = Lum%NL%} // Io Rune
+ItemDisplay[r16s]: Io%CONTINUE%{%TAN%3 Io + Key = Lum%NL%%NL%%WHITE%Shields: +10 Vitality%NL%Armor/Helms: +10 Vitality%NL%Weapons: +10 Vitality%NL%} // Stacked Io Rune
+ItemDisplay[r17]: Lum%CONTINUE%{%TAN%3 Lum + Key = Ko%NL%} // Lum Rune
+ItemDisplay[r17s]: Lum%CONTINUE%{%TAN%3 Lum + Key = Ko%NL%%NL%%WHITE%Shields: +10 Energy%NL%Armor/Helms: +10 Energy%NL%Weapons: +10 Energy%NL%} // Stacked Lum Rune
+ItemDisplay[r18]: Ko%CONTINUE%{%TAN%3 Ko + Key = Fal%NL%} // Ko Rune
+ItemDisplay[r18s]: Ko%CONTINUE%{%TAN%3 Ko + Key = Fal%NL%%NL%%WHITE%Shields: +10 Dexterity%NL%Armor/Helms: +10 Dexterity%NL%Weapons: +10 Dexterity%NL%} // Stacked Ko Rune
+ItemDisplay[r19]: Fal%CONTINUE%{%TAN%3 Fal + Key = Lem%NL%} // Fal Rune
+ItemDisplay[r19s]: Fal%CONTINUE%{%TAN%3 Fal + Key = Lem%NL%%NL%%WHITE%Shields: +10 Strength%NL%Armor/Helms: +10 Strength%NL%Weapons: +10 Strength%NL%} // Stacked Fal Rune
+ItemDisplay[r20]: Lem%CONTINUE%{%TAN%3 Lem + Key = Pul%NL%} // Lem Rune
+ItemDisplay[r20s]: Lem%CONTINUE%{%TAN%3 Lem + Key = Pul%NL%%NL%%WHITE%Shields: 50% Extra Gold%NL%Armor/Helms: 50% Extra Gold%NL%Weapons: 75% Extra Gold%NL%} // Stacked Lem Rune
+ItemDisplay[r21]: Pul%CONTINUE%{%TAN%2 Pul + Key = Um%NL%} // Pul Rune
+ItemDisplay[r21s]: Pul%CONTINUE%{%TAN%2 Pul + Key = Um%NL%%NL%%WHITE%Shield: +30% Enhanced Def%NL%Armor/Helm: +30% Enhanced Def%NL%Weapon: +75% Dmg & +100 Attack Rating vs Demon%NL%} // Stacked Pul Rune
+ItemDisplay[r22]: Um%CONTINUE%{%TAN%2 Um + Key = Mal%NL%} // Um Rune
+ItemDisplay[r22s]: Um%CONTINUE%{%TAN%2 Um + Key = Mal%NL%%NL%%WHITE%Shields: All Resistances +22%NL%Armor/Helms: All Resistances +15%NL%Weapons: 25% Chance of Open Wounds%NL%} // Stacked Um Rune
+ItemDisplay[r23]: Mal%CONTINUE%{%TAN%2 Mal + Key = Ist%NL%} // Mal Rune
+ItemDisplay[r23s]: Mal%CONTINUE%{%TAN%2 Mal + Key = Ist%NL%%NL%%WHITE%Shield: Magic Damage Reduced by 7%NL%Armor/Helm: Magic Damage Reduced by 7%NL%Weapon: Prevent Monster Heal%NL%} // Stacked Mal Rune
 
 // ------------------------------------------------------------------------------
 //    [RUHI] High Runes
 // ------------------------------------------------------------------------------
-ItemDisplay[r24]: %NAME%{%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
-ItemDisplay[r24s]: %NAME%{%TAN%2 Ist + Key = Gul%NL%%NL%%WHITE%Shields: +25% Magic Find%NL%Armor/Helms: +25% Magic Find%NL%Weapons: +30% Magic Find%NL%} // Stacked Ist Rune
-ItemDisplay[r25]: %NAME%{%TAN%2 Gul + Key = Vex%NL%} // Gul Rune
-ItemDisplay[r25s]: %NAME%{%TAN%2 Gul + Key = Vex%NL%%NL%%WHITE%Shields: +4% Maximum Poison Res%NL%Armor/Helms: +4% Maximum Poison Res%NL%Weapons: +20% Attack Rating%NL%} // Stacked Gul Rune
-ItemDisplay[r26]: %NAME%{%TAN%2 Vex + Key = Ohm%NL%} // Vex Rune
-ItemDisplay[r26s]: %NAME%{%TAN%2 Vex + Key = Ohm%NL%%NL%%WHITE%Shields: +4% Maximum Fire Resist%NL%Armor/Helms: +4% Maximum Fire Resist%NL%Weapons: 7% Mana Steal%NL%} // Stacked Vex Rune
-ItemDisplay[r27]: %NAME%{%TAN%2 Ohm + Key = Lo%NL%} // Ohm Rune
-ItemDisplay[r27s]: %NAME%{%TAN%2 Ohm + Key = Lo%NL%%NL%%WHITE%Shields: +4% Maximum Cold Resist%NL%Armor/Helms: +4% Maximum Cold Resist%NL%Weapons: +50% Enhanced Damage%NL%} // Stacked Ohm Rune
-ItemDisplay[r28]: %NAME%{%TAN%2 Lo + Key = Sur%NL%} // Lo Rune
-ItemDisplay[r28s]: %NAME%{%TAN%2 Lo + Key = Sur%NL%%NL%%WHITE%Shields: +4% Maximum Light Resist%NL%Armor/Helms: +4% Maximum Light Resist%NL%Weapons: 20% Deadly Strike%NL%} // Stacked Lo Rune
-ItemDisplay[r29]: %NAME%{%TAN%2 Sur + Key = Ber%NL%} // Sur Rune
-ItemDisplay[r29s]: %NAME%{%TAN%2 Sur + Key = Ber%NL%%NL%%WHITE%Shields: +50 Mana%NL%Armor/Helms: Maximum Mana 5%%NL%Weapons: +4 Life After Each Kill%NL%} // Stacked Sur Rune
-ItemDisplay[r30]: %NAME%{%TAN%2 Ber + Key = Jah%NL%} // Ber Rune
-ItemDisplay[r30s]: %NAME%{%TAN%2 Ber + Key = Jah%NL%%NL%%WHITE%Shields: Damage Reduced by 4%%NL%Armor/Helms: Damage Reduced by 4%%NL%Weapons: 20% Chance of Crushing Blow%NL%} // Stacked Ber Rune
-ItemDisplay[r31]: %NAME%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
-ItemDisplay[r31s]: %NAME%{%TAN%2 Jah + Key = Cham%NL%%NL%%WHITE%Shields: +50 Life%NL%Armor/Helms: Increase Maximum Life 5%%NL%Weapons: Ignore Targets Defense%NL%} // Stacked Jah Rune
-ItemDisplay[r32]: %NAME%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
-ItemDisplay[r32s]: %NAME%{%TAN%2 Cham + Key = Zod%NL%%NL%%WHITE%Shields: Cannot be Frozen%NL%Armor/Helms: Cannot be Frozen%NL%Weapons: Freezes Target +3%NL%} // Stacked Cham Rune
-ItemDisplay[r33]: %NAME%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and} // Zod Rune
-ItemDisplay[r33s]: %NAME%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and%NL%%NL%%WHITE%All Sockets: Indestructible%NL%} // Stacked Zod Rune
+ItemDisplay[r24]: Ist%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
+ItemDisplay[r24s]: Ist%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%%NL%%WHITE%Shields: +25% Magic Find%NL%Armor/Helms: +25% Magic Find%NL%Weapons: +30% Magic Find%NL%} // Stacked Ist Rune
+ItemDisplay[r25]: Gul%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%} // Gul Rune
+ItemDisplay[r25s]: Gul%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%%NL%%WHITE%Shields: +4% Maximum Poison Res%NL%Armor/Helms: +4% Maximum Poison Res%NL%Weapons: +20% Attack Rating%NL%} // Stacked Gul Rune
+ItemDisplay[r26]: Vex%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%} // Vex Rune
+ItemDisplay[r26s]: Vex%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%%NL%%WHITE%Shields: +4% Maximum Fire Resist%NL%Armor/Helms: +4% Maximum Fire Resist%NL%Weapons: 7% Mana Steal%NL%} // Stacked Vex Rune
+ItemDisplay[r27]: Ohm%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%} // Ohm Rune
+ItemDisplay[r27s]: Ohm%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%%NL%%WHITE%Shields: +4% Maximum Cold Resist%NL%Armor/Helms: +4% Maximum Cold Resist%NL%Weapons: +50% Enhanced Damage%NL%} // Stacked Ohm Rune
+ItemDisplay[r28]: Lo%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%} // Lo Rune
+ItemDisplay[r28s]: Lo%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%%NL%%WHITE%Shields: +4% Maximum Light Resist%NL%Armor/Helms: +4% Maximum Light Resist%NL%Weapons: 20% Deadly Strike%NL%} // Stacked Lo Rune
+ItemDisplay[r29]: Sur%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%} // Sur Rune
+ItemDisplay[r29s]: Sur%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%%NL%%WHITE%Shields: +50 Mana%NL%Armor/Helms: Maximum Mana 5%%NL%Weapons: +4 Life After Each Kill%NL%} // Stacked Sur Rune
+ItemDisplay[r30]: Ber%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%} // Ber Rune
+ItemDisplay[r30s]: Ber%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%%NL%%WHITE%Shields: Damage Reduced by 4%%NL%Armor/Helms: Damage Reduced by 4%%NL%Weapons: 20% Chance of Crushing Blow%NL%} // Stacked Ber Rune
+ItemDisplay[r31]: Jah%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
+ItemDisplay[r31s]: Jah%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%%NL%%WHITE%Shields: +50 Life%NL%Armor/Helms: Increase Maximum Life 5%%NL%Weapons: Ignore Targets Defense%NL%} // Stacked Jah Rune
+ItemDisplay[r32]: Cham%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
+ItemDisplay[r32s]: Cham%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%%NL%%WHITE%Shields: Cannot be Frozen%NL%Armor/Helms: Cannot be Frozen%NL%Weapons: Freezes Target +3%NL%} // Stacked Cham Rune
+ItemDisplay[r33]: Zod%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and} // Zod Rune
+ItemDisplay[r33s]: Zod%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and%NL%%NL%%WHITE%All Sockets: Indestructible%NL%} // Stacked Zod Rune
+
+// ------------------------------------------------------------------------------
+// [RUMA] Rune map icons
+// ------------------------------------------------------------------------------
+ItemDisplay[RUNE<10 QTY<1]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%} // El-Ort
+ItemDisplay[RUNE>9 RUNE<24 QTY<1]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%} // Thul-Mal
+ItemDisplay[RUNE>23 QTY<1]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%} // Ist-Zod
+ItemDisplay[RUNE<10 QTY>0]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%}%CONTINUE% // El-Ort
+ItemDisplay[RUNE>9 RUNE<24 QTY>0]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%}%CONTINUE% // Thul-Mal
+ItemDisplay[RUNE>23 QTY>0]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%}%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE>0 QTY>0]: %NAME%%WHITE% x%QTY%{%NAME%} // Shows the quantity of runes for stacking purposes
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -2840,32 +2842,32 @@ ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire
 // ------------------------------------------------------------------------------
 //    [CMJF] Jewel Fragments
 // ------------------------------------------------------------------------------
-ItemDisplay[jewf]: %NAME% x%QTY%{%TAN%in crafting recipes%NL%Use in place of a Jewel}
+ItemDisplay[jewf]: %GOLD%%NAME%%WHITE% x%QTY%%GOLD%{%TAN%in crafting recipes%NL%Use in place of a Jewel}
 
 // PLEASE NOTE: None of these crafting bases have a notification on them. If you wish to be notified please add "%MAP-97%" (without quotes) after "%BLUE%"
 // For example if you wanted an Amulet to notify you would change "%ORANGE%[C]%BLUE%{" to "%ORANGE%[C]%BLUE%%MAP-97%{"
 // ------------------------------------------------------------------------------
 //    [CMAM] Amulets
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG amu ILVL<82 CLVL<75]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:} // Display recipe on all amulets until level 75
-ItemDisplay[MAG amu ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
-ItemDisplay[MAG amu ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
-ItemDisplay[MAG amu ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
-ItemDisplay[MAG amu ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
-ItemDisplay[MAG amu ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
-ItemDisplay[MAG amu ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
-ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
-ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
-ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
-ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
-ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
-ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
-ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
-ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
-ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
-ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
-ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
-ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG amu ILVL<82 CLVL<75]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Display recipe on all amulets until level 75
+ItemDisplay[MAG amu ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG amu ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG amu ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG amu ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG amu ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG amu ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG amu ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG amu ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG amu ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG amu ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG amu ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG amu ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG amu ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG amu ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG amu ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG amu ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG amu ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 82+}
 
 // ------------------------------------------------------------------------------
 //    [CMCH] Charms
@@ -2875,43 +2877,43 @@ ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Sk
 // ------------------------------------------------------------------------------
 //    [CMRI] Rings
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG rin ILVL<64 CLVL<75]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:} // Display recipe on all rings until level 75
-ItemDisplay[MAG rin ILVL=64]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
-ItemDisplay[MAG rin ILVL=65]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 98+}
-ItemDisplay[MAG rin ILVL=66]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
-ItemDisplay[MAG rin ILVL=67]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 96+}
-ItemDisplay[MAG rin ILVL=68]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
-ItemDisplay[MAG rin ILVL=69]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 94+}
-ItemDisplay[MAG rin ILVL=70]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
-ItemDisplay[MAG rin ILVL=71]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 92+}
-ItemDisplay[MAG rin ILVL=72]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
-ItemDisplay[MAG rin ILVL=73]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 90+}
-ItemDisplay[MAG rin ILVL=74]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
-ItemDisplay[MAG rin ILVL=75]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 88+}
-ItemDisplay[MAG rin ILVL=76]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
-ItemDisplay[MAG rin ILVL=77]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 86+}
-ItemDisplay[MAG rin ILVL=78]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
-ItemDisplay[MAG rin ILVL=79]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 84+}
-ItemDisplay[MAG rin ILVL=80]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
-ItemDisplay[MAG rin ILVL=81]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 82+}
-ItemDisplay[MAG rin ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 80+}
-ItemDisplay[MAG rin ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 80+}
-ItemDisplay[MAG rin ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 78+}
-ItemDisplay[MAG rin ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 78+}
-ItemDisplay[MAG rin ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 76+}
-ItemDisplay[MAG rin ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 76+}
-ItemDisplay[MAG rin ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 74+}
-ItemDisplay[MAG rin ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 74+}
-ItemDisplay[MAG rin ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 72+}
-ItemDisplay[MAG rin ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 72+}
-ItemDisplay[MAG rin ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 70+}
-ItemDisplay[MAG rin ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 70+}
-ItemDisplay[MAG rin ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 68+}
-ItemDisplay[MAG rin ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 68+}
-ItemDisplay[MAG rin ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 66+}
-ItemDisplay[MAG rin ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 66+}
-ItemDisplay[MAG rin ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 64+}
-ItemDisplay[MAG rin ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel:%NL%%TAN%Craft at clvl 64+}
+ItemDisplay[MAG rin ILVL<64 CLVL<75]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Display recipe on all rings until level 75
+ItemDisplay[MAG rin ILVL=64]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG rin ILVL=65]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 98+}
+ItemDisplay[MAG rin ILVL=66]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG rin ILVL=67]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 96+}
+ItemDisplay[MAG rin ILVL=68]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG rin ILVL=69]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 94+}
+ItemDisplay[MAG rin ILVL=70]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG rin ILVL=71]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 92+}
+ItemDisplay[MAG rin ILVL=72]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG rin ILVL=73]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 90+}
+ItemDisplay[MAG rin ILVL=74]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG rin ILVL=75]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 88+}
+ItemDisplay[MAG rin ILVL=76]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG rin ILVL=77]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 86+}
+ItemDisplay[MAG rin ILVL=78]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG rin ILVL=79]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 84+}
+ItemDisplay[MAG rin ILVL=80]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG rin ILVL=81]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 82+}
+ItemDisplay[MAG rin ILVL=82]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 80+}
+ItemDisplay[MAG rin ILVL=83]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 80+}
+ItemDisplay[MAG rin ILVL=84]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 78+}
+ItemDisplay[MAG rin ILVL=85]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 78+}
+ItemDisplay[MAG rin ILVL=86]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 76+}
+ItemDisplay[MAG rin ILVL=87]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 76+}
+ItemDisplay[MAG rin ILVL=88]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 74+}
+ItemDisplay[MAG rin ILVL=89]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 74+}
+ItemDisplay[MAG rin ILVL=90]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 72+}
+ItemDisplay[MAG rin ILVL=91]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 72+}
+ItemDisplay[MAG rin ILVL=92]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 70+}
+ItemDisplay[MAG rin ILVL=93]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 70+}
+ItemDisplay[MAG rin ILVL=94]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 68+}
+ItemDisplay[MAG rin ILVL=95]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 68+}
+ItemDisplay[MAG rin ILVL=96]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 66+}
+ItemDisplay[MAG rin ILVL=97]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 66+}
+ItemDisplay[MAG rin ILVL=98]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 64+}
+ItemDisplay[MAG rin ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 64+}
 
 // ------------------------------------------------------------------------------
 // [CIOT] Crafted Items Other
@@ -2919,170 +2921,170 @@ ItemDisplay[MAG rin ILVL=99]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Sk
 // ------------------------------------------------------------------------------
 //    [COBA] Barbarian Helm
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 BAR]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Barbarian Helm
-ItemDisplay[MAG ILVL>71 BAR]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Barbarian Helm
+ItemDisplay[MAG ILVL<72 CLVL<75 BAR]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Barbarian Helm
+ItemDisplay[MAG ILVL>71 BAR]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Barbarian Helm
 
 // ------------------------------------------------------------------------------
 //    [CODR] Druid Helm
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 DRU]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Druid Helm
-ItemDisplay[MAG ILVL>71 DRU]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Druid Helm
+ItemDisplay[MAG ILVL<72 CLVL<75 DRU]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Druid Helm
+ItemDisplay[MAG ILVL>71 DRU]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Druid Helm
 
 // ------------------------------------------------------------------------------
 //    [CONE] Necromancer Heads
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 NEC]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Necromancer Head
-ItemDisplay[MAG ILVL>71 NEC]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Necromancer Head
+ItemDisplay[MAG ILVL<72 CLVL<75 NEC]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Necromancer Head
+ItemDisplay[MAG ILVL>71 NEC]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Necromancer Head
 
 // ------------------------------------------------------------------------------
 //    [COPA] Paladin Shields
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 DIN]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Paladin Shield
-ItemDisplay[MAG ILVL>71 DIN]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Paladin Shield
+ItemDisplay[MAG ILVL<72 CLVL<75 DIN]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Paladin Shield
+ItemDisplay[MAG ILVL>71 DIN]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Paladin Shield
 
 // ------------------------------------------------------------------------------
 //    [COAR] Armor
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 CHEST]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Armor
-ItemDisplay[MAG ILVL>71 CHEST (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Armor
+ItemDisplay[MAG ILVL<72 CLVL<75 CHEST]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%BLUE%Hit Power:%TAN% P Saph + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%RED%Blood:%TAN% P Ruby + Thul%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Armor
+ItemDisplay[MAG ILVL>71 CHEST (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%BLUE%Hit Power:%TAN% P Saph + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%RED%Blood:%TAN% P Ruby + Thul%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Exceptional or Elite tier Armor
 
 // ------------------------------------------------------------------------------
 //    [COBE] Belt
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 BELT]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Eld%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%YELLOW%Bountiful:%TAN% P Top + El%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Belt
-ItemDisplay[MAG ILVL>71 BELT (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Eld%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%YELLOW%Bountiful:%TAN% P Top + El%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Belt
+ItemDisplay[MAG ILVL<72 CLVL<75 BELT]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Eld%NL%%BLUE%Hit Power:%TAN% P Saph + Tal%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%YELLOW%Bountiful:%TAN% P Top + El%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Belt
+ItemDisplay[MAG ILVL>71 BELT (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Eld%NL%%BLUE%Hit Power:%TAN% P Saph + Tal%NL%%PURPLE%Caster:%TAN% P Ame + Ith%NL%%YELLOW%Bountiful:%TAN% P Top + El%NL%%RED%Blood:%TAN% P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Exceptional or Elite tier Belt
 
 // ------------------------------------------------------------------------------
 //    [COBO] Boots
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL<72 CLVL<75 BOOTS]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + El%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%YELLOW%Bountiful:%TAN% P Top + Io%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Boots
-//ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + El%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%YELLOW%Bountiful:%TAN% P Top + Io%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel:} // Any Boots
+ItemDisplay[MAG ILVL<72 CLVL<75 BOOTS]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + El%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%YELLOW%Bountiful:%TAN% P Top + Io%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Boots
+ItemDisplay[MAG ILVL>71 BOOTS]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + El%NL%%BLUE%Hit Power:%TAN% P Saph + Ral%NL%%PURPLE%Caster:%TAN% P Ame + Thul%NL%%YELLOW%Bountiful:%TAN% P Top + Io%NL%%RED%Blood:%TAN% P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Boots
 
 // ------------------------------------------------------------------------------
 //    [COGL] Gloves
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 GLOVES]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Io%NL%%BLUE%Hit Power:%TAN% P Saph + Ort%NL%%PURPLE%Caster:%TAN% P Ame + Ort%NL%%YELLOW%Bountiful:%TAN% P Top + Hel%NL%%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
-ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Io%NL%%BLUE%Hit Power:%TAN% P Saph + Ort%NL%%PURPLE%Caster:%TAN% P Ame + Ort%NL%%YELLOW%Bountiful:%TAN% P Top + Hel%NL%%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel:} // Any Gloves
+ItemDisplay[MAG ILVL<72 CLVL<75 GLOVES]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Io%NL%%BLUE%Hit Power:%TAN% P Saph + Ort%NL%%PURPLE%Caster:%TAN% P Ame + Ort%NL%%YELLOW%Bountiful:%TAN% P Top + Hel%NL%%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Gloves
+ItemDisplay[MAG ILVL>71 GLOVES]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Io%NL%%BLUE%Hit Power:%TAN% P Saph + Ort%NL%%PURPLE%Caster:%TAN% P Ame + Ort%NL%%YELLOW%Bountiful:%TAN% P Top + Hel%NL%%RED%Blood:%TAN% P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Gloves
 
 // ------------------------------------------------------------------------------
 //    [COHE] Helm
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 HELM !BAR !DRU]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Helm
-ItemDisplay[MAG ILVL>71 HELM !BAR !DRU (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Helm
+ItemDisplay[MAG ILVL<72 CLVL<75 HELM !BAR !DRU]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Helm
+ItemDisplay[MAG ILVL>71 HELM !BAR !DRU (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Exceptional or Elite tier Helm
 
 // ------------------------------------------------------------------------------
 //    [COSH] Shield
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 SHIELD !DIN !NEC]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Shield
-ItemDisplay[MAG ILVL>71 SHIELD !DIN !NEC (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Shield
+ItemDisplay[MAG ILVL<72 CLVL<75 SHIELD !DIN !NEC]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Shield
+ItemDisplay[MAG ILVL>71 SHIELD !DIN !NEC (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Exceptional or Elite tier Shield
 
 // ------------------------------------------------------------------------------
 //    [COWE] Weapon
 // ------------------------------------------------------------------------------
-//ItemDisplay[MAG ILVL<72 CLVL<75 WEAPON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Weapon
-//ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Weapon
+//ItemDisplay[MAG ILVL<72 CLVL<75 WEAPON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Weapon
+//ItemDisplay[MAG ILVL>71 WEAPON]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Weapon
 
 // ------------------------------------------------------------------------------
 //       [CWAM] Amazon
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 SPEAR !THROWING ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
-ItemDisplay[MAG ILVL<72 CLVL<75 SPEAR THROWING ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
-ItemDisplay[MAG ILVL<72 CLVL<75 ZON BOW]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Amazon Bow
-ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Spears
-ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Amazon Javelins
-ItemDisplay[MAG ILVL>71 ZON BOW]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Amazon Bow
+ItemDisplay[MAG ILVL<72 CLVL<75 SPEAR !THROWING ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Amazon Spears
+ItemDisplay[MAG ILVL<72 CLVL<75 SPEAR THROWING ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Amazon Javelins
+ItemDisplay[MAG ILVL<72 CLVL<75 ZON BOW]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Amazon Bow
+ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Amazon Spears
+ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Amazon Javelins
+ItemDisplay[MAG ILVL>71 ZON BOW]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Amazon Bow
 
 // ------------------------------------------------------------------------------
 //       [CWAS] Assassin
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 SIN]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
-ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Assassin Katars
+ItemDisplay[MAG ILVL<72 CLVL<75 SIN]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Assassin Katars
+ItemDisplay[MAG ILVL>71 (7ar OR 7wb OR 7xf OR 9cs OR 7cs OR 9lw OR 7lw OR 9tw OR 7tw OR 9qr OR 7qr)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Assassin Katars
 
 // ------------------------------------------------------------------------------
 //       [CWSO] Sorceress
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 SOR]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
-ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Sorceress Orbs
+ItemDisplay[MAG ILVL<72 CLVL<75 SOR]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Sorceress Orbs
+ItemDisplay[MAG ILVL>71 (ob1 OR ob6 OR obb OR ob2 OR ob7 OR obc OR ob3 OR ob8 OR obd OR ob4 OR ob9 OR obe OR ob5 OR oba OR obf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Sorceress Orbs
 
 // ------------------------------------------------------------------------------
 //       [CWAX] Axes
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH AXE]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
-ItemDisplay[MAG ILVL>71 ETH (9wa OR 7wa OR 9bt OR 7bt OR 9ga OR 7ga OR 9gi OR 7gi)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Axes
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH AXE]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Axes
+ItemDisplay[MAG ILVL>71 ETH (9wa OR 7wa OR 9bt OR 7bt OR 9ga OR 7ga OR 9gi OR 7gi)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Axes
 
 // ------------------------------------------------------------------------------
 //       [CWBO] Bows
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 BOW]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Bows
-ItemDisplay[MAG ILVL>71 (8hb OR 6hb OR 8cb OR 6cb OR 8sw OR 6sw OR 8lw OR 6lw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Bows
+ItemDisplay[MAG ILVL<72 CLVL<75 BOW]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Bows
+ItemDisplay[MAG ILVL>71 (8hb OR 6hb OR 8cb OR 6cb OR 8sw OR 6sw OR 8lw OR 6lw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Bows
 
 // ------------------------------------------------------------------------------
 //       [CWCR] Crossbows
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 XBOW]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Crossbow
-ItemDisplay[MAG ILVL>71 XBOW (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Exceptional or Elite tier Crossbow
+ItemDisplay[MAG ILVL<72 CLVL<75 XBOW]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Exceptional or Elite tier Crossbow
+ItemDisplay[MAG ILVL>71 XBOW (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Exceptional or Elite tier Crossbow
 
 // ------------------------------------------------------------------------------
 //       [CWDA] Daggers
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH DAGGER]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Exceptional or Elite tier Dagger
-ItemDisplay[MAG ILVL>71 ETH DAGGER (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Exceptional or Elite tier Dagger
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH DAGGER]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Eth Exceptional or Elite tier Dagger
+ItemDisplay[MAG ILVL>71 ETH DAGGER (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Eth Exceptional or Elite tier Dagger
 
 // ------------------------------------------------------------------------------
 //       [CWJA] Javelins
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH SPEAR THROWING !ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
-ItemDisplay[MAG ILVL>71 ETH (9gl OR 7gl OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Javelins
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH SPEAR THROWING !ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Javelins
+ItemDisplay[MAG ILVL>71 ETH (9gl OR 7gl OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Javelins
 
 // ------------------------------------------------------------------------------
 //       [CWMA] Maces
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 MACE]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // All Clubs
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH MACE]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Maces
-ItemDisplay[MAG ILVL>71 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // All Clubs
-ItemDisplay[MAG ILVL>71 ETH (9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Maces
+ItemDisplay[MAG ILVL<72 CLVL<75 MACE]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // All Clubs
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH MACE]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Maces
+ItemDisplay[MAG ILVL>71 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // All Clubs
+ItemDisplay[MAG ILVL>71 ETH (9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Maces
 
 // ------------------------------------------------------------------------------
 //       [CWPO] Polearms
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH POLEARM]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
-ItemDisplay[MAG ILVL>71 ETH (9vo OR 7vo OR 9s8 OR 7s8 OR 9pa OR 7pa OR 9h9 OR 7h7 OR 9wc OR 7wc)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Polearms
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH POLEARM]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Polearms
+ItemDisplay[MAG ILVL>71 ETH (9vo OR 7vo OR 9s8 OR 7s8 OR 9pa OR 7pa OR 9h9 OR 7h7 OR 9wc OR 7wc)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Polearms
 
 // ------------------------------------------------------------------------------
 //       [CWSC] Scepters
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 SCEPTER]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Scepters
-ItemDisplay[MAG ILVL>71 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Scepters
+ItemDisplay[MAG ILVL<72 CLVL<75 SCEPTER]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Scepters
+ItemDisplay[MAG ILVL>71 (wsp OR 9ws OR 7ws)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Scepters
 
 // ------------------------------------------------------------------------------
 //       [CWSP] Spears
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH SPEAR]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
-ItemDisplay[MAG ILVL>71 ETH (9br OR 7br OR 9st OR 7st OR 9p9 OR 7p7)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Spears
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH SPEAR]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Spears
+ItemDisplay[MAG ILVL>71 ETH (9br OR 7br OR 9st OR 7st OR 9p9 OR 7p7)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Spears
 
 // ------------------------------------------------------------------------------
 //       [CWST] Staves
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 STAFF]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Staves
-ItemDisplay[MAG ILVL>71 (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Staves
+ItemDisplay[MAG ILVL<72 CLVL<75 STAFF]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Staves
+ItemDisplay[MAG ILVL>71 (lst OR 8ls OR 6ls OR cst OR 8cs OR 6cs OR bst OR 8bs OR 6bs OR wst OR 8ws OR 6ws)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Staves
 
 // ------------------------------------------------------------------------------
 //       [CWSW] Swords
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH SWORD]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
-ItemDisplay[MAG ILVL>71 ETH (crs OR 9cr OR 7cr OR 9ls OR 7ls OR 9gs OR 7gs OR 9fb OR 7fb OR 9gd OR 7gd)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Good Eth Swords
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH SWORD]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Swords
+ItemDisplay[MAG ILVL>71 ETH (crs OR 9cr OR 7cr OR 9ls OR 7ls OR 9gs OR 7gs OR 9fb OR 7fb OR 9gd OR 7gd)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Swords
 
 // ------------------------------------------------------------------------------
 //       [CWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH !SPEAR THROWING !ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Exceptional or Elite tier Throwing Weapon
-ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON) (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel:} // Any Eth Exceptional or Elite tier Throwing Weapon
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH !SPEAR THROWING !ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Eth Exceptional or Elite tier Throwing Weapon
+ItemDisplay[MAG ILVL>71 ETH (!SPEAR THROWING !ZON) (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Eth Exceptional or Elite tier Throwing Weapon
 
 // ------------------------------------------------------------------------------
 //       [CWWA] Wands
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 WAND]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
-ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel:} // Good Wands
+ItemDisplay[MAG ILVL<72 CLVL<75 WAND]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Wands
+ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR 7bw OR gwn OR 9gw OR 7gw)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Wands
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
