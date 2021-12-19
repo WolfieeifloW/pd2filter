@@ -2908,7 +2908,11 @@ ItemDisplay[NMAG !INF !RW SOCK=3 DAGGER !THROWING]: %NAME%{%ORANGE%Plague, Venom
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 DAGGER !THROWING]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Daggers until character level 30
 
-// Fanged Knife
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 9dg]: %NAME%%DOT-20%%PX-00%{%NAME%} // Poignard, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 9di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Rondel, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 7dg]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Knife, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 2os, Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Superior, Non-Eth
 

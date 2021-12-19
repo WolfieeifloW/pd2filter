@@ -10550,7 +10550,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=2 7dg]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 2os, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 0os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=2 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 2os, Eth
 
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 0os, Superior, Eth

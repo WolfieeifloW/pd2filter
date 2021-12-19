@@ -2353,10 +2353,11 @@ ItemDisplay[NMAG !INF !RW SOCK=2 DAGGER !THROWING]: %NAME%{%ORANGE%Strength, Win
 ItemDisplay[NMAG !INF !RW SOCK=3 DAGGER !THROWING]: %NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Daggers, 3os
 ItemDisplay[NMAG ID CLVL>20 dgr]: // This will completely hide all white Daggers past character level 20
 ItemDisplay[NMAG ID CLVL>20 dir]: // This will completely hide all white Dirks past character level 20
-ItemDisplay[NMAG ID CLVL>20 9dg]: // This will completely hide all white Poignards past character level 20
-ItemDisplay[NMAG ID CLVL>20 9di]: // This will completely hide all white Rondels past character level 20
-ItemDisplay[NMAG ID CLVL>20 7dg]: // This will completely hide all white Bone Knifes past character level 20
-ItemDisplay[NMAG ID CLVL>20 7di]: // This will completely hide all white Mithril Points past character level 20
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 9dg]: %NAME%%DOT-20%%PX-00%{%NAME%} // Poignard, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 9di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Rondel, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 7dg]: %NAME%%DOT-20%%PX-00%{%NAME%} // Bone Knife, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=2 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 2os, Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Superior, Non-Eth
 ItemDisplay[NMAG ID CLVL>20 SPEAR THROWING !ZON]: // This will completely hide all white javelins past character level 20
