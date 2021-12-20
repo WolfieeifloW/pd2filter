@@ -93,6 +93,7 @@ ItemDisplay[dcbl]: %RED%%NAME%%MAP-62% // Pure Demonic Essence
 ItemDisplay[dcma]: %RED%%NAME%%MAP-62% // Vision of Terror
 
 // Rathma Items
+ItemDisplay[rtmf]: %RED%%NAME%%MAP-62% // Ancient Bone Fragment (Rathma ingredient)
 ItemDisplay[rtmo]: %RED%%NAME%%MAP-62% // Trang-Oul's Jawbone (Rathma ingredient)
 ItemDisplay[rtmv]: %RED%%NAME%%MAP-62% // Something for Rathma...
 ItemDisplay[rtma]: %RED%%NAME%%MAP-62% // Voidstone (accesses Rathma)
