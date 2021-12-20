@@ -1845,7 +1845,7 @@ ItemDisplay[RARE !ID CIRC]: %NAME%%MAP-A8% // All unidentified Circlets
 // ------------------------------------------------------------------------------
 // Reminder that jewels are needed for crafting - you can turn off notifications (comment out MAP portion) but I would leave these shown, at least
 ItemDisplay[RARE !ID jew]: %NAME%%MAP-A8% // All unidentified jewels
-ItemDisplay[RARE ID jew]: %NAME%%MAP-A8%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
+ItemDisplay[RARE ID jew]: %NAME%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
 
 // LLD Jewels - all jewels must be level required 1-30
 ItemDisplay[RARE LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage
@@ -3135,7 +3135,7 @@ ItemDisplay[MAG !ID CIRC]: %NAME%%MAP-97% // All unidentified Circlets
 // ------------------------------------------------------------------------------
 // Reminder that jewels are needed for crafting - you can turn off notifications (comment out MAP portion) but I would leave these shown, at least
 ItemDisplay[MAG !ID jew]: %NAME%%DOT-97% // All unidentified jewels
-ItemDisplay[MAG ID jew]: %NAME%%DOT-97%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
+ItemDisplay[MAG ID jew]: %NAME%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
 
 // LLD Jewels - all jewels must be level required 1-30
 ItemDisplay[MAG LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage

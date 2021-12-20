@@ -395,7 +395,7 @@ ItemDisplay[UNI !ID jew]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Rain
 
 //    Rings
 ItemDisplay[UNI !ID rin]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // All unique rings
-ItemDisplay[UNI ID rin ALLSK>0 (STAT50>0 OR STAT51>0) STAT9>0 STAT77>0]: %NAME%%MAP-A5%{%ORANGE%You can let me out of the basement.%NL%Maybe now that you're so rich,%NL%Much to everyones amazement;%NL%Find an SoJ on Day 1 of reset,%NL%%TAN%An ode to BTN:} // Stone of Jordan Ring
+ItemDisplay[UNI ID rin ALLSK>0 (STAT50>0 OR STAT51>0) STAT9>0 STAT77>0]: %NAME%{%ORANGE%I can be let out of the basement.%NL%Maybe now that you're rich,%NL%To everyones amazement;%NL%Finding an SoJ on Day 1,%NL%%TAN%An ode to BTN:} // Stone of Jordan Ring
 
 //    Amazon
 ItemDisplay[UNI !ID am5]: %YELLOW%>>%GOLD%%NAME%%YELLOW%<<%GOLD%%MAP-A5% // True Silver Maiden Javelin
@@ -450,7 +450,7 @@ ItemDisplay[UNI !ID xth]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Atma's Wai
 ItemDisplay[UNI !ID uui]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Ormus' Robes Dusk Shroud
 ItemDisplay[UNI !ID utu]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // The Gladiator's Bane Wire Fleece
 ItemDisplay[UNI !ID uhn]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Cage of the Unsullied Boneweave
-ItemDisplay[UNI ID uhn ED>0 RES>0 SOCK=6]: %NAME%%MAP-A5%{%TAN%You will be missed.%NL%to the Diablo II community.%NL%Thank you for your contributions%NL%%ORANGE%Rest In Peace Sulli}
+ItemDisplay[UNI ID uhn ED>0 RES>0 SOCK=6]: %NAME%{%TAN%You will be missed.%NL%to the Diablo II community.%NL%Thank you for your contributions%NL%%ORANGE%Rest In Peace Sulli}
 ItemDisplay[UNI !ID upl]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Arkaine's Valor Balrog Skin
 ItemDisplay[UNI !ID uld]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Leviathan Kraken Shell
 ItemDisplay[UNI !ID uth]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Dark Abyss Lacquered Plate
@@ -531,7 +531,7 @@ ItemDisplay[UNI !ID 6lw]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOL
 //    Crossbows
 ItemDisplay[UNI !ID 8mx]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Pus Spitter Siege Crossbow
 ItemDisplay[UNI !ID 8hx]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Buriza-Do Kyanon Ballista
-ItemDisplay[UNI ID 8hx]: %NAME%%MAP-A5%{%ORANGE%Its worse than Windforce%NL%But little does he know,%NL%He has no remorse;%NL%He thinks its great,%NL%%TAN%An ode to MacroBioBoi:} // Buriza-Do Kyanon Ballista
+ItemDisplay[UNI ID 8hx]: %NAME%{%ORANGE%Its worse than Windforce%NL%But little does he know,%NL%He has no remorse;%NL%He thinks its great,%NL%%TAN%An ode to MacroBioBoi:} // Buriza-Do Kyanon Ballista
 
 //    Daggers
 ItemDisplay[UNI !ID dgr]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Gull Dagger
@@ -570,7 +570,7 @@ ItemDisplay[UNI !ID 7p7]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOL
 ItemDisplay[UNI !ID 8ls]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Ribcracker Quarterstaff
 ItemDisplay[UNI !ID 6cs]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Ondal's Wisdom Elder Staff
 ItemDisplay[UNI !ID 6ws]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Mang Song's Lesson Archon Staff
-ItemDisplay[UNI ID 6ws]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5%{%ORANGE%MrLlamaSCs nipple%NL%Never thought Id see,%NL%Time for a tipple;%NL%Finally found it,%NL%%TAN%An ode to MrLlamaSC:} // Mang Song's Lesson Archon Staff
+ItemDisplay[UNI ID 6ws]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%{%ORANGE%MrLlamaSCs nipple%NL%Never thought Id see,%NL%Time for a tipple;%NL%Finally found it,%NL%%TAN%An ode to MrLlamaSC:} // Mang Song's Lesson Archon Staff
 
 //    Swords
 ItemDisplay[UNI !ID 9fc]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Blade of Ali Baba Tulwar
@@ -690,7 +690,7 @@ ItemDisplay[RARE !ID ETH WEAPON]: %NAME%%MAP-A8%{%NAME%} // Rare Eth melee weapo
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All Rare amulets
 ItemDisplay[RARE !ID CIRC]: %NAME%%MAP-A8% // All Rare Circlets
 ItemDisplay[RARE !ID jew]: %YELLOW%o %NAME% o%WHITE%%MAP-A8% // All Rare Jewels
-ItemDisplay[RARE ID jew]: %NAME%%MAP-A8%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
+ItemDisplay[RARE ID jew]: %NAME%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All Rare rings
 
 //      Rare Class Specific
@@ -851,7 +851,7 @@ ItemDisplay[MAG !ID cm3]: %RED%o %BLUE%%NAME% %RED%o%BLUE%%MAP-97% // Magic Gran
 
 //      Magic Jewels
 ItemDisplay[MAG !ID jew]: %RED%o %BLUE%%NAME% %RED%o%BLUE%%DOT-97% // All Magic Jewels
-ItemDisplay[MAG ID jew]: %NAME%%DOT-97%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
+ItemDisplay[MAG ID jew]: %NAME%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
 
 //      Magic Class Specific
 ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME% // Magic Amazon Javelins (6/40 etc)

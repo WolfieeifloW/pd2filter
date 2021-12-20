@@ -878,7 +878,7 @@ ItemDisplay[RARE !ID ETH WEAPON]: %NAME%%MAP-A8%{%NAME%} // Rare Eth melee weapo
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
 ItemDisplay[RARE !ID CIRC]: %NAME%%MAP-A8% // All unidentified Circlets
 ItemDisplay[RARE !ID jew]: %NAME%%MAP-A8% // All unidentified jewels
-ItemDisplay[RARE ID jew]: %NAME%%MAP-A8%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
+ItemDisplay[RARE ID jew]: %NAME%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
 ItemDisplay[RARE LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage
 ItemDisplay[RARE LVLREQ<31 ED>14 (MAXDMG>12 OR STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15%+ Enhanced Damage, and 13+ Maximum Damage, 5+ Strength, or 6+ Dexterity
 ItemDisplay[RARE LVLREQ<31 MAXDMG>8 (STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 9+ Maximum Damage, and 5+ Strength or 6+ Dexterity
@@ -1073,7 +1073,7 @@ ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97% // Large Charms
 ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Grand Charms
 ItemDisplay[MAG !ID CIRC]: %NAME%%MAP-97% // All unidentified Circlets
 ItemDisplay[MAG !ID jew]: %NAME%%DOT-97% // All unidentified jewels
-ItemDisplay[MAG ID jew]: %NAME%%DOT-97%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
+ItemDisplay[MAG ID jew]: %NAME%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
 ItemDisplay[MAG LVLREQ<31 ED>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20% Enhanced Damage
 ItemDisplay[MAG LVLREQ<31 ED>14 MAXDMG>12 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15%+ Enhanced Damage and 13+ Maximum Damage
 ItemDisplay[MAG LVLREQ<31 MAXDMG>19 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 20+ Maximum Damage
