@@ -839,8 +839,10 @@ ItemDisplay[MAG ILVL>71 (wnd OR 9wn OR 7wn OR ywn OR 9yw OR 7yw OR bwn OR 9bw OR
 
 // Magic Items ------------------------------------------------------------------
 //      Magic Arrows & Quivers
-ItemDisplay[MAG !ID aqv]: %PURPLE%PICK%RED% ME%ORANGE% UP%BLUE% Arrows%PURPLE% PICK%RED% ME%ORANGE% UP // Shows Magic Arrow quivers
-ItemDisplay[MAG !ID cqv]: %PURPLE%PICK%RED% ME%ORANGE% UP%BLUE% Bolts%PURPLE% PICK%RED% ME%ORANGE% UP // Shows Magic Bolt quivers
+ItemDisplay[MAG !ID aqv CLVL<85]: %NAME% // Shows Magic Arrow quivers
+ItemDisplay[MAG !ID aqv]: // Hides Magic Arrow quivers at level 85+
+ItemDisplay[MAG !ID cqv CLVL<85]: %NAME% // Shows Magic Bolt quivers
+ItemDisplay[MAG !ID cqv]: // Hides Magic Bolt quivers at level 85+
 
 //      Magic Charms
 ItemDisplay[MAG !ID cm1]: %RED%o %BLUE%%NAME% %RED%o%BLUE%%MAP-97% // Magic Small Charms
