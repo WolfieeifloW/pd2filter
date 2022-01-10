@@ -119,10 +119,6 @@
 // ------------------------------------------------------------------------------
 ItemDisplay[bks]: %NAME%%MAP-58%{%TAN%in Act 1%NL%Talk to Akara%NL%} // Scroll of Inifuss
 ItemDisplay[bkd]: %NAME%%MAP-58%{%TAN%Go to Act 1: Stony Field%NL%} // Scroll of Inifuss, deciphered
-ItemDisplay[leg (DIFF=2 ILVL>60)]: %GOLD%%NAME%%MAP-58%{%TAN%Act 1 to open Cow Level%NL%Cube w/ Tome of Town Portal in} // Wirt's Leg
-ItemDisplay[leg (DIFF=2 ILVL<61)]: %RED%Broken Wirt's Leg%MAP-58%{%RED%difficulty and will not work%NL%This leg is from a lower} // Wirt's Leg
-ItemDisplay[leg (DIFF=1 ILVL>30)]: %GOLD%%NAME%%MAP-58%{%TAN%Act 1 to open Cow Level%NL%Cube w/ Tome of Town Portal in} // Wirt's Leg
-ItemDisplay[leg (DIFF=1 ILVL<31)]: %RED%Broken Wirt's Leg%MAP-58%{%RED%difficulty and will not work%NL%This leg is from a lower} // Wirt's Leg
 ItemDisplay[leg]: %GOLD%%NAME%%MAP-58%{%TAN%Act 1 to open Cow Level%NL%Cube w/ Tome of Town Portal in} // Wirt's Leg
 ItemDisplay[hdm]: %NAME%%MAP-58%{%TAN%Give to Charsi in Act 1} // Horadric Malus
 
