@@ -561,7 +561,7 @@ ItemDisplay[UNI ID EXC ARMOR]: %NAME%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko
 ItemDisplay[UNI ID NORM WEAPON]: %NAME%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[UNI ID EXC WEAPON]: %NAME%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 
-ItemDisplay[UNI ID uhn ED>0 RES>0 SOCK=6]: %NAME%{%TAN%You will be missed.%NL%to the Diablo II community.%NL%Thank you for your contributions%NL%%ORANGE%Rest In Peace Sulli}
+ItemDisplay[UNI ID uhn RES>0 SOCK=6]: %NAME%%MAP-A5%{%TAN%You will be missed.%NL%to the Diablo II community.%NL%Thank you for your contributions%NL%%ORANGE%Rest In Peace Sulli}
 
 ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Shows and notifies all Unique items
 
