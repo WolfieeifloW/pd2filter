@@ -371,6 +371,7 @@ ItemDisplay[UNI ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%N
 ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Leave this uncommented to show and notify for ALL unique items
 ItemDisplay[UNI !ID amu]: %NAME%%MAP-A5% // All unique amulets
+ItemDisplay[UNI !ID ram]: %NAME%%MAP-A5% // The Third Eye Amulet
 ItemDisplay[UNI !ID cm1]: %NAME%%MAP-A5% // Annihilus Small Charm
 ItemDisplay[UNI !ID cm2]: %NAME%%MAP-A5% // Hellfire Torch Large Charm
 ItemDisplay[UNI !ID cm3]: %NAME%%MAP-A5% // Gheed's Fortune Grand Charm
@@ -465,7 +466,7 @@ ItemDisplay[UNI !ID zhb]: %NAME%%MAP-A5% // Thundergod's Vigor War Belt
 ItemDisplay[UNI !ID ulc]: %NAME%%MAP-A5% // Arachnid Mesh Spiderweb Sash
 ItemDisplay[UNI !ID uvc]: %NAME%%MAP-A5% // Nosferatu's Coil Vampirefang Belt
 ItemDisplay[UNI !ID umc]: %NAME%%MAP-A5% // Verdungo's Hearty Cord Mithril Coil
-ItemDisplay[UNI !ID utc]: %NAME%%MAP-A5% // Band of Skulls Troll Belt
+ItemDisplay[UNI !ID (utc OR rbe)]: %NAME%%MAP-A5% // Band of Skulls Troll Belt
 ItemDisplay[UNI !ID lbt]: %NAME%%MAP-A5% // Hotspur Boots
 ItemDisplay[UNI !ID vbt]: %NAME%%MAP-A5% // Gorefoot Heavy Boots
 ItemDisplay[UNI !ID mbt]: %NAME%%MAP-A5% // Treads of Cthon Chain Boots

@@ -676,6 +676,7 @@ ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 //      [UMAM] Amulets
 // ------------------------------------------------------------------------------
 ItemDisplay[UNI !ID amu]: %NAME%%MAP-A5% // All unique amulets
+ItemDisplay[UNI !ID ram]: %NAME%%MAP-A5% // The Third Eye Amulet
 
 // ------------------------------------------------------------------------------
 //      [UMCH] Charms
@@ -973,7 +974,7 @@ ItemDisplay[UNI !ID zhb]: %NAME% [Thundergods Vigor]%MAP-A5% // Thundergod's Vig
 ItemDisplay[UNI !ID ulc]: %NAME% [Arachnid Mesh]%MAP-A5% // Arachnid Mesh Spiderweb Sash
 ItemDisplay[UNI !ID uvc]: %NAME% [Nosferatus Coil]%MAP-A5% // Nosferatu's Coil Vampirefang Belt
 ItemDisplay[UNI !ID umc]: %NAME% [Verdungos Hearty Cord]%MAP-A5% // Verdungo's Hearty Cord Mithril Coil
-ItemDisplay[UNI !ID utc]: %NAME%%MAP-A5% // Band of Skulls Troll Belt
+ItemDisplay[UNI !ID (utc OR rbe)]: %NAME%%MAP-A5% // Band of Skulls Troll Belt
 //ItemDisplay[UNI !ID uhc]: %NAME%%MAP-A5% // Colossus Girdle (No Unique for this base)
 
 // ------------------------------------------------------------------------------

@@ -376,6 +376,7 @@ ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 
 //    Amulets
 ItemDisplay[UNI !ID amu]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // All unique amulets
+ItemDisplay[UNI !ID ram]: %NAME%%MAP-A5% // The Third Eye Amulet
 
 //    Charms
 ItemDisplay[UNI !ID cm1]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Annihilus Small Charm
@@ -463,7 +464,7 @@ ItemDisplay[UNI !ID zhb]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Thun
 ItemDisplay[UNI !ID ulc]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Arachnid Mesh Spiderweb Sash
 ItemDisplay[UNI !ID uvc]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Nosferatu's Coil Vampirefang Belt
 ItemDisplay[UNI !ID umc]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Verdungo's Hearty Cord Mithril Coil
-ItemDisplay[UNI !ID utc]: %ORANGE%>%PURPLE%>>%GOLD%%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Band of Skulls Troll Belt
+ItemDisplay[UNI !ID (utc OR rbe)]: %ORANGE%>%PURPLE%>>%GOLD%%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Band of Skulls Troll Belt
 
 //    Boots
 ItemDisplay[UNI !ID hbt]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Tearhaunch Greaves
