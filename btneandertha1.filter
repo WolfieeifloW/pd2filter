@@ -445,8 +445,8 @@ ItemDisplay[UNI !ID xlt]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Guardian A
 ItemDisplay[UNI !ID xth]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Atma's Wail Embossed Plate
 ItemDisplay[UNI !ID uui]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Ormus' Robes Dusk Shroud
 ItemDisplay[UNI !ID utu]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // The Gladiator's Bane Wire Fleece
-ItemDisplay[UNI !ID uhn]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Cage of the Unsullied Boneweave
-ItemDisplay[UNI ID uhn RES>0 SOCK=6]: %NAME%%MAP-A5%{%TAN%You will be missed.%NL%to the Diablo II community.%NL%Thank you for your contributions%NL%%ORANGE%Rest In Peace Sulli}
+ItemDisplay[UNI !ID (uhn OR rar)]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Cage of the Unsullied Boneweave
+ItemDisplay[UNI ID (uhn OR rar) RES>0 SOCK=6]: %NAME%%MAP-A5%{%TAN%You will be missed.%NL%to the Diablo II community.%NL%Thank you for your contributions%NL%%ORANGE%Rest In Peace Sulli}
 ItemDisplay[UNI !ID upl]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Arkaine's Valor Balrog Skin
 ItemDisplay[UNI !ID uld]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Leviathan Kraken Shell
 ItemDisplay[UNI !ID uth]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Dark Abyss Lacquered Plate
