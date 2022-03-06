@@ -205,8 +205,8 @@ ItemDisplay[skf]: %WHITE%Flawed %GRAY%Skull%WHITE%{%TAN%3 Flawed Skull = Skull} 
 ItemDisplay[sku]: %GRAY%Skull%WHITE%{%TAN%3 Skull = Flawless Skull} // Skull ("Normal")
 ItemDisplay[skl]: %WHITE%+ %GRAY%Skull%WHITE% +%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull} // Flawless Skull
 ItemDisplay[skls]: %WHITE%+ %GRAY%Skull%WHITE% x%QTY% +%DOT-20%{%TAN%3 Flawless Skull + Key = Perfect Skull%NL%%NL%%WHITE%Shield: ATDO 16%NL%Armor/Helm: Mana Reg 12%, Rep Life +4%NL%Wep: 3% Life & Mana steal%NL%} // Stacked Flawless Skull 2x+
-ItemDisplay[skz]: %WHITE%++ %GRAY%Skull %WHITE%++%DOT-20% // Perfect Skull
-ItemDisplay[skzs]: %WHITE%++ %GRAY%Skull%WHITE% x%QTY% ++%DOT-20%{%WHITE%Shields: Attacker Takes Damage of 20%NL%Armor/Helms: Regen Mana 19%, Rep Life +5%NL%Weapons: 4% Life & 3% Mana steal%NL%} // Stacked Perfect Skull
+ItemDisplay[skz]: %WHITE%++ %GRAY%Skull %WHITE%++%DOT-20%{%TAN%Used in Vampiric crafting} // Perfect Skull
+ItemDisplay[skzs]: %WHITE%++ %GRAY%Skull%WHITE% x%QTY% ++%DOT-20%{%TAN%Used in Vampiric crafting%NL%%NL%%WHITE%Shields: Attacker Takes Damage of 20%NL%Armor/Helms: Regen Mana 19%, Rep Life +5%NL%Weapons: 4% Life & 3% Mana steal%NL%} // Stacked Perfect Skull
 
 //      Topaz
 ItemDisplay[gcy]: %WHITE%Chipped %YELLOW%Topaz%WHITE%{%TAN%3 Chipped Topaz = Flawed Topaz} // Chipped Topaz
@@ -214,8 +214,8 @@ ItemDisplay[gfy]: %WHITE%Flawed %YELLOW%Topaz%WHITE%{%TAN%3 Flawed Topaz = Topaz
 ItemDisplay[gsy]: %YELLOW%Topaz%WHITE%{%TAN%3 Topaz = Flawless Topaz} // Topaz ("Normal")
 ItemDisplay[gly]: %WHITE%+ %YELLOW%Topaz%WHITE% +%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz} // Flawless Topaz
 ItemDisplay[glys]: %WHITE%+ %YELLOW%Topaz%WHITE% x%QTY% +%DOT-20%{%TAN%3 Flawless Topaz + Key = Perfect Topaz%NL%%NL%%WHITE%Shields: Light Res +28%%NL%Armor/Helms: 20% Magic Find%NL%Weps: Add 1-30 lightning dmg%NL%} // Stacked Flawless Topaz 2x+
-ItemDisplay[gpy]: %WHITE%++ %YELLOW%Topaz %WHITE%++%DOT-20% // Perfect Topaz
-ItemDisplay[gpys]: %WHITE%++ %YELLOW%Topaz%WHITE% x%QTY% ++%DOT-20%{%WHITE%Shields: Lightning Resist +40%%NL%Armor/Helms: 24% Better Chance of Getting Magic Items%NL%Weapons: Adds 1-40 lightning damage%NL%} // Stacked Perfect Topaz
+ItemDisplay[gpy]: %WHITE%++ %YELLOW%Topaz %WHITE%++%DOT-20%{%TAN%Used in Bountiful crafting} // Perfect Topaz
+ItemDisplay[gpys]: %WHITE%++ %YELLOW%Topaz%WHITE% x%QTY% ++%DOT-20%{%TAN%Used in Bountiful crafting%NL%%NL%%WHITE%Shields: Lightning Resist +40%%NL%Armor/Helms: 24% Better Chance of Getting Magic Items%NL%Weapons: Adds 1-40 lightning damage%NL%} // Stacked Perfect Topaz
 
 // Runes ------------------------------------------------------------------------
 ItemDisplay[RUNE<10]: %DARK_GREEN%%RUNENAME% %DARK_GREEN%(%RUNENUM%)%DOT-76%%CONTINUE% // El-Thul
