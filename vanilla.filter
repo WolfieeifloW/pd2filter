@@ -129,7 +129,7 @@ ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR
 // Tier 1 Maps
 ItemDisplay[t10]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
 ItemDisplay[t11]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Light, Cold, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun
-ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Light, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazon's Memory
+ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazon's Memory
 ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Bastion Keep
 ItemDisplay[t14]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
 ItemDisplay[t15]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
@@ -142,7 +142,7 @@ ItemDisplay[t19]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%R
 ItemDisplay[t20]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
 ItemDisplay[t21]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon
 ItemDisplay[t22]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Light, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Torajan Jungle
-ItemDisplay[t23]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Light, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Arreat Battlefield
+ItemDisplay[t23]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Arreat Battlefield
 ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Light, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Tomb of Zoltun Kulle
 ItemDisplay[t25]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath
 ItemDisplay[t26]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
