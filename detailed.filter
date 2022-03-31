@@ -527,117 +527,117 @@ ItemDisplay[NMAG !RW ETH SOCK>0]: %GRAY%%NAME%[%SOCKETS%]%CONTINUE% // No space 
 // [IBVE] Vendor Items
 // ------------------------------------------------------------------------------
 // Amulets
-ItemDisplay[MAG SHOP (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR=10 amu]: %ORANGE%2/10 Amulet%BLUE% // 2 class skills, 10 FCR amulet
-ItemDisplay[MAG SHOP (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR=20 amu]: %ORANGE%2/20 Amulet%BLUE% // 2 class skills, 20 FCR amulet
-ItemDisplay[MAG SHOP (TABSK1>2 OR TABSK8>2 OR TABSK9>2 OR TABSK10>2 OR TABSK16>2 OR TABSK17>2 OR TABSK18>2 OR TABSK24>2 OR TABSK25>2 OR TABSK26>2 OR TABSK32>2 OR TABSK34>2 OR TABSK40>2 OR TABSK41>2 OR TABSK42>2 OR TABSK48>2 OR TABSK49>2 OR TABSK50>2) FCR>9 amu]: %ORANGE%3/10 Amulet%BLUE% // 3 tab skills, 10 FCR amulet
-ItemDisplay[MAG SHOP (TABSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR TABSK16>1 OR TABSK17>1 OR TABSK18>1 OR TABSK24>1 OR TABSK25>1 OR TABSK26>1 OR TABSK32>1 OR TABSK34>1 OR TABSK40>1 OR TABSK41>1 OR TABSK42>1 OR TABSK48>1 OR TABSK49>1 OR TABSK50>1) FCR>9 amu]: %ORANGE%2/10 Amulet%BLUE% // 2 tab skills, 10 FCR amulet
+ItemDisplay[MAG SHOP (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR=10 amu]: %ORANGE%2/10 Amulet // 2 class skills, 10 FCR amulet
+ItemDisplay[MAG SHOP (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR=20 amu]: %ORANGE%2/20 Amulet // 2 class skills, 20 FCR amulet
+ItemDisplay[MAG SHOP (TABSK1>2 OR TABSK8>2 OR TABSK9>2 OR TABSK10>2 OR TABSK16>2 OR TABSK17>2 OR TABSK18>2 OR TABSK24>2 OR TABSK25>2 OR TABSK26>2 OR TABSK32>2 OR TABSK34>2 OR TABSK40>2 OR TABSK41>2 OR TABSK42>2 OR TABSK48>2 OR TABSK49>2 OR TABSK50>2) FCR>9 amu]: %ORANGE%3/10 Amulet // 3 tab skills, 10 FCR amulet
+ItemDisplay[MAG SHOP (TABSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR TABSK16>1 OR TABSK17>1 OR TABSK18>1 OR TABSK24>1 OR TABSK25>1 OR TABSK26>1 OR TABSK32>1 OR TABSK34>1 OR TABSK40>1 OR TABSK41>1 OR TABSK42>1 OR TABSK48>1 OR TABSK49>1 OR TABSK50>1) FCR>9 amu]: %ORANGE%2/10 Amulet // 2 tab skills, 10 FCR amulet
 
 // Circlets
-ItemDisplay[MAG SHOP (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR>19 CIRC]: %ORANGE%2/20 Amulet%BLUE% // +2 class skills, +20 FCR circlet
+ItemDisplay[MAG SHOP (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR>19 CIRC]: %ORANGE%2/20 Amulet // +2 class skills, +20 FCR circlet
 
 // Amazon Javelins
-ItemDisplay[MAG SHOP (CLSK0>1 AND TABSK2>2) ZON]: %ORANGE%+5 Javelin%BLUE% // +2 Amazon, +3 Javelin Skills Javelin
-ItemDisplay[MAG SHOP TABSK2>5 ZON]: %ORANGE%+6 Javelin%BLUE% // +6 Javelin Skills Javelin
+ItemDisplay[MAG SHOP (CLSK0>1 AND TABSK2>2) ZON]: %ORANGE%+5 Javelin // +2 Amazon, +3 Javelin Skills Javelin
+ItemDisplay[MAG SHOP TABSK2>5 ZON]: %ORANGE%+6 Javelin // +6 Javelin Skills Javelin
 
 // Assassin Katars
 //  +3 tab
-ItemDisplay[MAG SHOP TABSK50>2 SIN]: %ORANGE%+3 Martial Arts)%BLUE%
-ItemDisplay[MAG SHOP TABSK49>2 SIN]: %ORANGE%+3 Shadow Disciplines)%BLUE%
-ItemDisplay[MAG SHOP TABSK48>2 SIN]: %ORANGE%+3 Traps)%BLUE%
+ItemDisplay[MAG SHOP TABSK50>2 SIN]: %ORANGE%+3 Martial Arts
+ItemDisplay[MAG SHOP TABSK49>2 SIN]: %ORANGE%+3 Shadow Disciplines
+ItemDisplay[MAG SHOP TABSK48>2 SIN]: %ORANGE%+3 Traps
 
 //  +2 Sin / +3 skill
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK254>2) SIN]: %ORANGE%+5 Tiger Strike%BLUE% // +2 Assassin, +3 Tiger Strike katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK265>2) SIN]: %ORANGE%+5 Cobra Strike%BLUE% // +2 Assassin, +3 Cobra Strike katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK269>2) SIN]: %ORANGE%+5 Claws of Thunder%BLUE% // +2 Assassin, +3 Claws of Thunder katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK275>2) SIN]: %ORANGE%+5 Dragon Flight%BLUE% // +2 Assassin, +3 Dragon Flight katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK280>2) SIN]: %ORANGE%+5 Phoenix Strike%BLUE% // +2 Assassin, +3 Phoenix Strike katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK252>2) SIN]: %ORANGE%+5 Dagger & Claw Mastery%BLUE% // +2 Assassin, +3 Dagger & Claw Mastery katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK253>2) SIN]: %ORANGE%+5 Psychic Hammer%BLUE% // +2 Assassin, +3 Psychic Hammer katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK273>2) SIN]: %ORANGE%+5 Mind Blast%BLUE% // +2 Assassin, +3 Mind Blast katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK278>2) SIN]: %ORANGE%+5 Venom%BLUE% // +2 Assassin, +3 Venom katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK262>2) SIN]: %ORANGE%+5 Wake of Fire%BLUE% // +2 Assassin, +3 Wake of Fire katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK276>2) SIN]: %ORANGE%+5 Death Sentry%BLUE% // +2 Assassin, +3 Death Sentry katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK271>2) SIN]: %ORANGE%+5 Chain Lightning Sentry%BLUE% // +2 Assassin, +3 Chain Lightning Sentry katar
-ItemDisplay[MAG SHOP (CLSK6>1 AND SK366>2) SIN]: %ORANGE%+5 Lightning Sentry%BLUE% // +2 Assassin, +3 Lightning Sentry katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK254>2) SIN]: %ORANGE%+5 Tiger Strike // +2 Assassin, +3 Tiger Strike katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK265>2) SIN]: %ORANGE%+5 Cobra Strike // +2 Assassin, +3 Cobra Strike katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK269>2) SIN]: %ORANGE%+5 Claws of Thunder // +2 Assassin, +3 Claws of Thunder katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK275>2) SIN]: %ORANGE%+5 Dragon Flight // +2 Assassin, +3 Dragon Flight katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK280>2) SIN]: %ORANGE%+5 Phoenix Strike // +2 Assassin, +3 Phoenix Strike katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK252>2) SIN]: %ORANGE%+5 Dagger & Claw Mastery // +2 Assassin, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK253>2) SIN]: %ORANGE%+5 Psychic Hammer // +2 Assassin, +3 Psychic Hammer katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK273>2) SIN]: %ORANGE%+5 Mind Blast // +2 Assassin, +3 Mind Blast katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK278>2) SIN]: %ORANGE%+5 Venom // +2 Assassin, +3 Venom katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK262>2) SIN]: %ORANGE%+5 Wake of Fire // +2 Assassin, +3 Wake of Fire katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK276>2) SIN]: %ORANGE%+5 Death Sentry // +2 Assassin, +3 Death Sentry katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK271>2) SIN]: %ORANGE%+5 Chain Lightning Sentry // +2 Assassin, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK366>2) SIN]: %ORANGE%+5 Lightning Sentry // +2 Assassin, +3 Lightning Sentry katar
 
 //  +2 tab / +3 skill
-ItemDisplay[MAG SHOP (TABSK50=2 AND SK254=3) SIN]: %ORANGE%+5 Tiger Strike%BLUE% // +2 Martial Arts, +3 Tiger Strike katar
-ItemDisplay[MAG SHOP (TABSK50=2 AND SK265=3) SIN]: %ORANGE%+5 Cobra Strike%BLUE% // +2 Martial Arts, +3 Cobra Strike katar
-ItemDisplay[MAG SHOP (TABSK50=2 AND SK269=3) SIN]: %ORANGE%+5 Claws of Thunder%BLUE% // +2 Martial Arts, +3 Claws of Thunder katar
-ItemDisplay[MAG SHOP (TABSK50=2 AND SK275=3) SIN]: %ORANGE%+5 Dragon Flight%BLUE% // +2 Martial Arts, +3 Dragon Flight katar
-ItemDisplay[MAG SHOP (TABSK50=2 AND SK280=3) SIN]: %ORANGE%+5 Phoenix Strike%BLUE% // +2 Martial Arts, +3 Phoenix Strike katar
-ItemDisplay[MAG SHOP (TABSK49=2 AND SK252=3) SIN]: %ORANGE%+5 Dagger & Claw Mastery%BLUE% // +2 Shadow Disciplines, +3 Dagger & Claw Mastery katar
-ItemDisplay[MAG SHOP (TABSK49=2 AND SK253=3) SIN]: %ORANGE%+5 Psychic Hammer%BLUE% // +2 Shadow Disciplines, +3 Psychic Hammer katar
-ItemDisplay[MAG SHOP (TABSK49=2 AND SK273=3) SIN]: %ORANGE%+5 Mind Blast%BLUE% // +2 Shadow Disciplines, +3 Mind Blast katar
-ItemDisplay[MAG SHOP (TABSK49=2 AND SK278=3) SIN]: %ORANGE%+5 Venom%BLUE% // +2 Shadow Disciplines, +3 Venom katar
-ItemDisplay[MAG SHOP (TABSK48=2 AND SK262=3) SIN]: %ORANGE%+5 Wake of Fire%BLUE% // +2 Trap, +3 Wake of Fire katar
-ItemDisplay[MAG SHOP (TABSK48=2 AND SK276=3) SIN]: %ORANGE%+5 Death Sentry%BLUE% // +2 Trap, +3 Death Sentry katar
-ItemDisplay[MAG SHOP (TABSK48=2 AND SK271=3) SIN]: %ORANGE%+5 Chain Lightning Sentry%BLUE% // +2 Trap, +3 Chain Lightning Sentry katar
-ItemDisplay[MAG SHOP (TABSK48=2 AND SK366=3) SIN]: %ORANGE%+5 Lightning Sentry%BLUE% // +2 Trap, +3 Lightning Sentry katar
+ItemDisplay[MAG SHOP (TABSK50=2 AND SK254=3) SIN]: %ORANGE%+5 Tiger Strike // +2 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG SHOP (TABSK50=2 AND SK265=3) SIN]: %ORANGE%+5 Cobra Strike // +2 Martial Arts, +3 Cobra Strike katar
+ItemDisplay[MAG SHOP (TABSK50=2 AND SK269=3) SIN]: %ORANGE%+5 Claws of Thunder // +2 Martial Arts, +3 Claws of Thunder katar
+ItemDisplay[MAG SHOP (TABSK50=2 AND SK275=3) SIN]: %ORANGE%+5 Dragon Flight // +2 Martial Arts, +3 Dragon Flight katar
+ItemDisplay[MAG SHOP (TABSK50=2 AND SK280=3) SIN]: %ORANGE%+5 Phoenix Strike // +2 Martial Arts, +3 Phoenix Strike katar
+ItemDisplay[MAG SHOP (TABSK49=2 AND SK252=3) SIN]: %ORANGE%+5 Dagger & Claw Mastery // +2 Shadow Disciplines, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG SHOP (TABSK49=2 AND SK253=3) SIN]: %ORANGE%+5 Psychic Hammer // +2 Shadow Disciplines, +3 Psychic Hammer katar
+ItemDisplay[MAG SHOP (TABSK49=2 AND SK273=3) SIN]: %ORANGE%+5 Mind Blast // +2 Shadow Disciplines, +3 Mind Blast katar
+ItemDisplay[MAG SHOP (TABSK49=2 AND SK278=3) SIN]: %ORANGE%+5 Venom // +2 Shadow Disciplines, +3 Venom katar
+ItemDisplay[MAG SHOP (TABSK48=2 AND SK262=3) SIN]: %ORANGE%+5 Wake of Fire // +2 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG SHOP (TABSK48=2 AND SK276=3) SIN]: %ORANGE%+5 Death Sentry // +2 Trap, +3 Death Sentry katar
+ItemDisplay[MAG SHOP (TABSK48=2 AND SK271=3) SIN]: %ORANGE%+5 Chain Lightning Sentry // +2 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG SHOP (TABSK48=2 AND SK366=3) SIN]: %ORANGE%+5 Lightning Sentry // +2 Trap, +3 Lightning Sentry katar
 
 //  +3 tab / +2 skill
-ItemDisplay[MAG SHOP (TABSK50=3 AND SK254=2) SIN]: %ORANGE%+5 Tiger Strike%BLUE% // +3 Martial Arts, +2 Tiger Strike katar
-ItemDisplay[MAG SHOP (TABSK50=3 AND SK265=2) SIN]: %ORANGE%+5 Cobra Strike%BLUE% // +3 Martial Arts, +2 Cobra Strike katar
-ItemDisplay[MAG SHOP (TABSK50=3 AND SK269=2) SIN]: %ORANGE%+5 Claws of Thunder%BLUE% // +3 Martial Arts, +2 Claws of Thunder katar
-ItemDisplay[MAG SHOP (TABSK50=3 AND SK275=2) SIN]: %ORANGE%+5 Dragon Flight%BLUE% // +3 Martial Arts, +2 Dragon Flight katar
-ItemDisplay[MAG SHOP (TABSK50=3 AND SK280=2) SIN]: %ORANGE%+5 Phoenix Strike%BLUE% // +3 Martial Arts, +2 Phoenix Strike katar
-ItemDisplay[MAG SHOP (TABSK49=3 AND SK252=2) SIN]: %ORANGE%+5 Dagger & Claw Mastery%BLUE% // +3 Shadow Disciplines, +2 Dagger & Claw Mastery katar
-ItemDisplay[MAG SHOP (TABSK49=3 AND SK253=2) SIN]: %ORANGE%+5 Psychic Hammer%BLUE% // +3 Shadow Disciplines, +2 Psychic Hammer katar
-ItemDisplay[MAG SHOP (TABSK49=3 AND SK273=2) SIN]: %ORANGE%+5 Mind Blast%BLUE% // +3 Shadow Disciplines, +2 Mind Blast katar
-ItemDisplay[MAG SHOP (TABSK49=3 AND SK278=2) SIN]: %ORANGE%+5 Venom%BLUE% // +3 Shadow Disciplines, +2 Venom katar
-ItemDisplay[MAG SHOP (TABSK48=3 AND SK262=2) SIN]: %ORANGE%+5 Wake of Fire%BLUE% // +3 Trap, +2 Wake of Fire katar
-ItemDisplay[MAG SHOP (TABSK48=3 AND SK276=2) SIN]: %ORANGE%+5 Death Sentry%BLUE% // +3 Trap, +2 Death Sentry katar
-ItemDisplay[MAG SHOP (TABSK48=3 AND SK271=2) SIN]: %ORANGE%+5 Chain Lightning Sentry%BLUE% // +3 Trap, +2 Chain Lightning Sentry katar
-ItemDisplay[MAG SHOP (TABSK48=3 AND SK366=2) SIN]: %ORANGE%+5 Lightning Sentry%BLUE% // +3 Trap, +2 Lightning Sentry katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK254=2) SIN]: %ORANGE%+5 Tiger Strike // +3 Martial Arts, +2 Tiger Strike katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK265=2) SIN]: %ORANGE%+5 Cobra Strike // +3 Martial Arts, +2 Cobra Strike katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK269=2) SIN]: %ORANGE%+5 Claws of Thunder // +3 Martial Arts, +2 Claws of Thunder katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK275=2) SIN]: %ORANGE%+5 Dragon Flight // +3 Martial Arts, +2 Dragon Flight katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK280=2) SIN]: %ORANGE%+5 Phoenix Strike // +3 Martial Arts, +2 Phoenix Strike katar
+ItemDisplay[MAG SHOP (TABSK49=3 AND SK252=2) SIN]: %ORANGE%+5 Dagger & Claw Mastery // +3 Shadow Disciplines, +2 Dagger & Claw Mastery katar
+ItemDisplay[MAG SHOP (TABSK49=3 AND SK253=2) SIN]: %ORANGE%+5 Psychic Hammer // +3 Shadow Disciplines, +2 Psychic Hammer katar
+ItemDisplay[MAG SHOP (TABSK49=3 AND SK273=2) SIN]: %ORANGE%+5 Mind Blast // +3 Shadow Disciplines, +2 Mind Blast katar
+ItemDisplay[MAG SHOP (TABSK49=3 AND SK278=2) SIN]: %ORANGE%+5 Venom // +3 Shadow Disciplines, +2 Venom katar
+ItemDisplay[MAG SHOP (TABSK48=3 AND SK262=2) SIN]: %ORANGE%+5 Wake of Fire // +3 Trap, +2 Wake of Fire katar
+ItemDisplay[MAG SHOP (TABSK48=3 AND SK276=2) SIN]: %ORANGE%+5 Death Sentry // +3 Trap, +2 Death Sentry katar
+ItemDisplay[MAG SHOP (TABSK48=3 AND SK271=2) SIN]: %ORANGE%+5 Chain Lightning Sentry // +3 Trap, +2 Chain Lightning Sentry katar
+ItemDisplay[MAG SHOP (TABSK48=3 AND SK366=2) SIN]: %ORANGE%+5 Lightning Sentry // +3 Trap, +2 Lightning Sentry katar
 
 //  +3 tab / +3 skill
-ItemDisplay[MAG SHOP (TABSK50=3 AND SK254=3) SIN]: %ORANGE%+5 Tiger Strike%BLUE% // +3 Martial Arts, +3 Tiger Strike katar
-ItemDisplay[MAG SHOP (TABSK50=3 AND SK265=3) SIN]: %ORANGE%+5 Cobra Strike%BLUE% // +3 Martial Arts, +3 Cobra Strike katar
-ItemDisplay[MAG SHOP (TABSK50=3 AND SK269=3) SIN]: %ORANGE%+5 Claws of Thunder%BLUE% // +3 Martial Arts, +3 Claws of Thunder katar
-ItemDisplay[MAG SHOP (TABSK50=3 AND SK275=3) SIN]: %ORANGE%+5 Dragon Flight%BLUE% // +3 Martial Arts, +3 Dragon Flight katar
-ItemDisplay[MAG SHOP (TABSK50=3 AND SK280=3) SIN]: %ORANGE%+5 Phoenix Strike%BLUE% // +3 Martial Arts, +3 Phoenix Strike katar
-ItemDisplay[MAG SHOP (TABSK49=3 AND SK252=3) SIN]: %ORANGE%+5 Dagger & Claw Mastery%BLUE% // +3 Shadow Disciplines, +3 Dagger & Claw Mastery katar
-ItemDisplay[MAG SHOP (TABSK49=3 AND SK253=3) SIN]: %ORANGE%+6 Psychic Hammer%BLUE% // +3 Shadow Disciplines, +3 Psychic Hammer katar
-ItemDisplay[MAG SHOP (TABSK49=3 AND SK273=3) SIN]: %ORANGE%+6 Mind Blast%BLUE% // +3 Shadow Disciplines, +3 Mind Blast katar
-ItemDisplay[MAG SHOP (TABSK49=3 AND SK278=3) SIN]: %ORANGE%+6 Venom%BLUE% // +3 Shadow Disciplines, +3 Venom katar
-ItemDisplay[MAG SHOP (TABSK48=3 AND SK262=3) SIN]: %ORANGE%+6 Wake of Fire%BLUE% // +3 Trap, +3 Wake of Fire katar
-ItemDisplay[MAG SHOP (TABSK48=3 AND SK276=3) SIN]: %ORANGE%+6 Death Sentry%BLUE% // +3 Trap, +3 Death Sentry katar
-ItemDisplay[MAG SHOP (TABSK48=3 AND SK271=3) SIN]: %ORANGE%+6 Chain Lightning Sentry%BLUE% // +3 Trap, +3 Chain Lightning Sentry katar
-ItemDisplay[MAG SHOP (TABSK48=3 AND SK366=3) SIN]: %ORANGE%+6 Lightning Sentry%BLUE% // +3 Trap, +3 Lightning Sentry katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK254=3) SIN]: %ORANGE%+5 Tiger Strike // +3 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK265=3) SIN]: %ORANGE%+5 Cobra Strike // +3 Martial Arts, +3 Cobra Strike katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK269=3) SIN]: %ORANGE%+5 Claws of Thunder // +3 Martial Arts, +3 Claws of Thunder katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK275=3) SIN]: %ORANGE%+5 Dragon Flight // +3 Martial Arts, +3 Dragon Flight katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK280=3) SIN]: %ORANGE%+5 Phoenix Strike // +3 Martial Arts, +3 Phoenix Strike katar
+ItemDisplay[MAG SHOP (TABSK49=3 AND SK252=3) SIN]: %ORANGE%+5 Dagger & Claw Mastery // +3 Shadow Disciplines, +3 Dagger & Claw Mastery katar
+ItemDisplay[MAG SHOP (TABSK49=3 AND SK253=3) SIN]: %ORANGE%+6 Psychic Hammer // +3 Shadow Disciplines, +3 Psychic Hammer katar
+ItemDisplay[MAG SHOP (TABSK49=3 AND SK273=3) SIN]: %ORANGE%+6 Mind Blast // +3 Shadow Disciplines, +3 Mind Blast katar
+ItemDisplay[MAG SHOP (TABSK49=3 AND SK278=3) SIN]: %ORANGE%+6 Venom // +3 Shadow Disciplines, +3 Venom katar
+ItemDisplay[MAG SHOP (TABSK48=3 AND SK262=3) SIN]: %ORANGE%+6 Wake of Fire // +3 Trap, +3 Wake of Fire katar
+ItemDisplay[MAG SHOP (TABSK48=3 AND SK276=3) SIN]: %ORANGE%+6 Death Sentry // +3 Trap, +3 Death Sentry katar
+ItemDisplay[MAG SHOP (TABSK48=3 AND SK271=3) SIN]: %ORANGE%+6 Chain Lightning Sentry // +3 Trap, +3 Chain Lightning Sentry katar
+ItemDisplay[MAG SHOP (TABSK48=3 AND SK366=3) SIN]: %ORANGE%+6 Lightning Sentry // +3 Trap, +3 Lightning Sentry katar
 
 // Barbarian helms
-ItemDisplay[MAG SHOP (CLSK4>1 AND SK149>2) BAR]: %ORANGE%+2/3 Battle Orders Helm%BLUE% // +2 Barbarian, +3 Battle Orders Barb helm
-ItemDisplay[MAG SHOP (CLSK4>1 AND SK154>2) BAR]: %ORANGE%+2/3 Warcry Helm%BLUE% // +2 Barbarian, +3 Warcry Barb helm
+ItemDisplay[MAG SHOP (CLSK4>1 AND SK149>2) BAR]: %ORANGE%+2/3 Battle Orders Helm // +2 Barbarian, +3 Battle Orders Barb helm
+ItemDisplay[MAG SHOP (CLSK4>1 AND SK154>2) BAR]: %ORANGE%+2/3 Warcry Helm // +2 Barbarian, +3 Warcry Barb helm
 
 // Druid Pelts
-ItemDisplay[MAG SHOP ((CLSK5>1 OR TABSK42>1) AND SK245>2) DRU]: %ORANGE%2/3 Tornado Pelt%BLUE% // +2 Druid/Tornado, +3 Tornado Druid Pelt
-ItemDisplay[MAG SHOP ((CLSK5>1 OR TABSK42>1) AND SK234>2) DRU]: %ORANGE%2/3 Fissure Pelt%BLUE% // +2 Druid/Fissure, +3 Fissure Druid Pelt
-ItemDisplay[MAG SHOP ((CLSK5>1 OR TABSK42>1) AND SK229>2) DRU]: %ORANGE%2/3 Molten Pelt%BLUE% // +2 Druid/Molten Boulder, +3 Molten Boulder Druid Pelt
-ItemDisplay[MAG SHOP ((CLSK5>1 OR TABSK42>1) AND SK237>2) DRU]: %ORANGE%2/3 Dire Wolf Pelt%BLUE% // +2 Druid/Dire Wolf, +3 Dire Wolf Druid Pelt
-ItemDisplay[MAG SHOP ((CLSK5>1 OR TABSK42>1) AND SK247>2) DRU]: %ORANGE%2/3 Grizzly Pelt%BLUE% // +2 Druid/Grizzly, +3 Grizzly Druid Pelt
+ItemDisplay[MAG SHOP ((CLSK5>1 OR TABSK42>1) AND SK245>2) DRU]: %ORANGE%2/3 Tornado Pelt // +2 Druid/Tornado, +3 Tornado Druid Pelt
+ItemDisplay[MAG SHOP ((CLSK5>1 OR TABSK42>1) AND SK234>2) DRU]: %ORANGE%2/3 Fissure Pelt // +2 Druid/Fissure, +3 Fissure Druid Pelt
+ItemDisplay[MAG SHOP ((CLSK5>1 OR TABSK42>1) AND SK229>2) DRU]: %ORANGE%2/3 Molten Pelt // +2 Druid/Molten Boulder, +3 Molten Boulder Druid Pelt
+ItemDisplay[MAG SHOP ((CLSK5>1 OR TABSK42>1) AND SK237>2) DRU]: %ORANGE%2/3 Dire Wolf Pelt // +2 Druid/Dire Wolf, +3 Dire Wolf Druid Pelt
+ItemDisplay[MAG SHOP ((CLSK5>1 OR TABSK42>1) AND SK247>2) DRU]: %ORANGE%2/3 Grizzly Pelt // +2 Druid/Grizzly, +3 Grizzly Druid Pelt
 
 // Armors
-ItemDisplay[MAG SHOP (SOCK>3 AND LIFE>89) CHEST]: %ORANGE%Whale Armor%BLUE% // 4 sockets, 90+ Health Armor
+ItemDisplay[MAG SHOP (SOCK>3 AND LIFE>89) CHEST]: %ORANGE%Whale Armor // 4 sockets, 90+ Health Armor
 
 // Gloves
-ItemDisplay[MAG SHOP (TABSK2>2 AND IAS>19) GLOVES]: %ORANGE%3/20 Gloves%BLUE% // +3 Javelin Skills, 20 IAS Gloves
-ItemDisplay[MAG SHOP (TABSK0=2 OR TABSK1=2 OR TABSK2=2 OR TABSK50=2) IAS>19 GLOVES]: %ORANGE%2/20 Gloves%BLUE% // +2 tab skills, 20 IAS Gloves
-ItemDisplay[MAG SHOP (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK50=3) IAS>19 GLOVES]: %ORANGE%3/20 Gloves%BLUE% // +3 tab skills, 20 IAS Gloves
+ItemDisplay[MAG SHOP (TABSK2>2 AND IAS>19) GLOVES]: %ORANGE%3/20 Gloves // +3 Javelin Skills, 20 IAS Gloves
+ItemDisplay[MAG SHOP (TABSK0=2 OR TABSK1=2 OR TABSK2=2 OR TABSK50=2) IAS>19 GLOVES]: %ORANGE%2/20 Gloves // +2 tab skills, 20 IAS Gloves
+ItemDisplay[MAG SHOP (TABSK0=3 OR TABSK1=3 OR TABSK2=3 OR TABSK50=3) IAS>19 GLOVES]: %ORANGE%3/20 Gloves // +3 tab skills, 20 IAS Gloves
 
 // Shields
-ItemDisplay[MAG SHOP (SOCK>3 AND FBR>1) uit]: %ORANGE%%NAME%%BLUE% // JMoD Monarch
+ItemDisplay[MAG SHOP (SOCK>3 AND FBR>1) uit]: %ORANGE%%NAME% // JMoD Monarch
 
 // Weapons
-ItemDisplay[MAG SHOP ED>299 WEAPON]: %ORANGE%300%+ ED Weapon%BLUE% // 300%+ ED Weapons
-ItemDisplay[MAG SHOP TABSK34>2 WEAPON]: %ORANGE%+3 Warcries Weapon%BLUE% // +3 Warcries weapon
+ItemDisplay[MAG SHOP ED>299 WEAPON]: %ORANGE%300%+ ED Weapon // 300%+ ED Weapons
+ItemDisplay[MAG SHOP TABSK34>2 WEAPON]: %ORANGE%+3 Warcries Weapon // +3 Warcries weapon
 
 // Staves with charges
-ItemDisplay[MAG SHOP (SUFFIX=532 OR SUFFIX=533) STAFF]: %ORANGE%Teleport Charges Staff%BLUE% // Teleport charges
-ItemDisplay[MAG SHOP CHSK357>0 STAFF]: %NAME% %ORANGE%(Blink)%BLUE% // Blink charges
+ItemDisplay[MAG SHOP (SUFFIX=532 OR SUFFIX=533) STAFF]: %ORANGE%Teleport Charges Staff // Teleport charges
+ItemDisplay[MAG SHOP CHSK357>0 STAFF]: %NAME% %ORANGE%(Blink) // Blink charges
 
 // Wands with charges
-ItemDisplay[MAG SHOP (SUFFIX=578 OR SUFFIX=579) WAND]: %ORANGE%Life Tap Charges Wand%BLUE% // Life tap charges
-ItemDisplay[MAG SHOP (SUFFIX=594 OR SUFFIX=595) WAND]: %ORANGE%Lower Res Charges Wand%BLUE% // Lower Resist charges
+ItemDisplay[MAG SHOP (SUFFIX=578 OR SUFFIX=579) WAND]: %ORANGE%Life Tap Charges Wand // Life tap charges
+ItemDisplay[MAG SHOP (SUFFIX=594 OR SUFFIX=595) WAND]: %ORANGE%Lower Res Charges Wand // Lower Resist charges
 
 // ------------------------------------------------------------------------------
 // [IBOT] Other Items
