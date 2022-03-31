@@ -45,7 +45,7 @@ ItemDisplay[ceh]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from N
 ItemDisplay[bet]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from NM & Hell Diablo%NL%Cube w/ Hatred, Destruction, & Suffering essences%NL%} // Burning Essence of Terror
 ItemDisplay[fed]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from NM & Hell Baal%NL%Cube w/ Terror, Hatred, & Suffering essences%NL%} // Festering Essence of Destruction
 
-ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
+ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%ORANGE%Sold by Akara for race%NL%%NL%%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
 
 ItemDisplay[pk1]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from Countess & Blood Raven%NL%Cube w/ Destruction & Hate keys in Act 5%NL%} // Key of Terror
 ItemDisplay[pk2]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from Summoner & Bloodwitch the Wild%NL%Cube w/ Destruction & Terror keys in Act 5%NL%} // Key of Hate
@@ -58,7 +58,7 @@ ItemDisplay[ubtm]: %ORANGE%%NAME%%MAP-68%{%TAN%to enter Uber Tristram%NL%near th
 ItemDisplay[std]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-68%{%TAN%+20% Magic/Gold Find%NL%+20% Monster Density%NL%+10% Experience%NL%%ORANGE%Cube w/ a map to gain%DARK_GREEN% Heroic%ORANGE% bonus:} // Standard of Heroes
 
 ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%Unsock Item: 50% Mod, 25% Brick, 25% Sockets%NL%Sock Item: 75% Mod, 25% Brick%NL%Maps: 100% chance for Mod%NL%%ORANGE%Cube w/ item to corrupt:} // Worldstone Shard
-ItemDisplay[lbox]: %PURPLE%+ %RED%Larzuks Puzzlebox%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Do not use on Throwing weapons!%NL%%NL%%TAN%Armors: 1-2%NL%2H Weapons: 1-4%NL%1H Weapons: 1-2%NL%%ORANGE%Cube w/ unsocketed item to roll sockets} // Larzuk's Puzzlebox
+ItemDisplay[lbox]: %PURPLE%+ %RED%Larzuks Puzzlebox%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Sold by Akara for race%NL%%NL%%RED%Do not use on Throwing weapons!%NL%%NL%%TAN%Armors: 1-2%NL%2H Weapons: 1-4%NL%1H Weapons: 1-2%NL%%ORANGE%Cube w/ unsocketed item to roll sockets} // Larzuk's Puzzlebox
 
 ItemDisplay[rera]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Rune or Greater, & Rare Map%NL%Cube w/ Perfect Gem, Thul%NL%%ORANGE%Reroll Rare Map%NL%} // Reroll Rare Map (Horadrim Orb)
 ItemDisplay[imra]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, Thul Rune%NL%%ORANGE%Imbue Rare Map%NL%} // Imbue Rare Map (Zakarum Orb)
@@ -396,7 +396,7 @@ ItemDisplay[RARE LVLREQ<31 MAXDMG>14 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LL
 ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 5+ Minimum Damage and 10+ Maximum Damage
 ItemDisplay[RARE LVLREQ<31 STAT91=-15 (RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // -Requirements, and 8%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, or 6+ Dexterity
 
-ItemDisplay[RARE]: %NAME%{%NAME%} // Showing all Rares for race
+ItemDisplay[RARE]: %NAME%{%ORANGE%Rares can also be used to craft on in this race%NL%%NAME%} // Showing all Rares for race
 
 ItemDisplay[CRAFT ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[CRAFT ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
