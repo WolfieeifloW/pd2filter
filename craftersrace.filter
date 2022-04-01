@@ -195,72 +195,72 @@ ItemDisplay[glys]: %YELLOW%+%WHITE%Flawless %YELLOW%Topaz%WHITE% x%QTY%%DOT-20%{
 ItemDisplay[gpy]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz%WHITE%%DOT-20%{%TAN%Used in Bountiful crafting} // Perfect Topaz
 ItemDisplay[gpys]: %YELLOW%+%WHITE%Perfect %YELLOW%Topaz%WHITE% x%QTY%%DOT-20%{%TAN%Used in Bountiful crafting%NL%%NL%%WHITE%Shields: Lightning Resist +40%%NL%Armor/Helms: 24% Better Chance of Getting Magic Items%NL%Weapons: Adds 1-40 lightning damage%NL%} // Stacked Perfect Topaz
 
-ItemDisplay[r01]: El%CONTINUE%{%TAN%3 El + Key = Eld%NL%} // El Rune
-ItemDisplay[r01s]: El%CONTINUE%{%TAN%3 El + Key = Eld%NL%%NL%%WHITE%All: +1 Light Radius%NL%Shields: +15 Defense%NL%Armor/Helms: +15 Defense%NL%Weapons: +50 Attack Rating%NL%} // Stacked El Rune
-ItemDisplay[r02]: Eld%CONTINUE%{%TAN%3 Eld + Key = Tir%NL%} // Eld Rune
-ItemDisplay[r02s]: Eld%CONTINUE%{%TAN%3 Eld + Key = Tir%NL%%NL%%WHITE%Shields: +7% Block%NL%Armor/Helms: -15% Stam Drain%NL%Weapons: +75% Dmg & +50 Attack Rating vs Undead%NL%} // Stacked Eld Rune
-ItemDisplay[r03]: Tir%CONTINUE%{%TAN%3 Tir + Key = Nef%NL%} // Tir Rune
-ItemDisplay[r03s]: Tir%CONTINUE%{%TAN%3 Tir + Key = Nef%NL%%NL%%WHITE%Shields: +2 Mana Per Kill%NL%Armor/Helms: +2 Mana Per Kill%NL%Weapons: +2 Mana Per Kill%NL%} // Stacked Tir Rune
-ItemDisplay[r04]: Nef%CONTINUE%{%TAN%3 Nef + Key = Eth%NL%} // Nef Rune
-ItemDisplay[r04s]: Nef%CONTINUE%{%TAN%3 Nef + Key = Eth%NL%%NL%%WHITE%Shields: +30 Defense vs Missile%NL%Armor/Helms: +30 Defense vs Missile%NL%Weapons: Knockback%NL%} // Stacked Nef Rune
-ItemDisplay[r05]: Eth%CONTINUE%{%TAN%3 Eth + Key = Ith%NL%} // Eth Rune
-ItemDisplay[r05s]: Eth%CONTINUE%{%TAN%3 Eth + Key = Ith%NL%%NL%%WHITE%Shields: Regen Mana 15%%NL%Armor/Helms: Regen Mana 15%%NL%Weapons: -25% Target Defense%NL%} // Stacked Eth Rune
-ItemDisplay[r06]: Ith%CONTINUE%{%TAN%3 Ith + Key = Tal%NL%} // Ith Rune
-ItemDisplay[r06s]: Ith%CONTINUE%{%TAN%3 Ith + Key = Tal%NL%%NL%%WHITE%Shields: 15% Dmg Taken Gained as Mana%NL%Armor/Helms: 15% Dmg Taken Gained as Mana%NL%Weapons: +9 Max Dmg%NL%} // Stacked Ith Rune
-ItemDisplay[r07]: Tal%CONTINUE%{%TAN%3 Tal + Key = Ral%NL%} // Tal Rune
-ItemDisplay[r07s]: Tal%CONTINUE%{%TAN%3 Tal + Key = Ral%NL%%NL%%WHITE%Shields: Poison Resist +35%%NL%Armor/Helms: Poison Resist +30%%NL%Weapons: +75 poison damage over 5 seconds%NL%} // Stacked Tal Rune
-ItemDisplay[r08]: Ral%CONTINUE%{%TAN%3 Ral + Key = Ort%NL%} // Ral Rune
-ItemDisplay[r08s]: Ral%CONTINUE%{%TAN%3 Ral + Key = Ort%NL%%NL%%WHITE%Shields: Fire Resist +35%%NL%Armor/Helms: Fire Resist +30%%NL%Weapons: Adds 5-30 fire damage%NL%} // Stacked Ral Rune
-ItemDisplay[r09]: Ort%CONTINUE%{%TAN%3 Ort + Key = Thul%NL%} // Ort Rune
-ItemDisplay[r09s]: Ort%CONTINUE%{%TAN%3 Ort + Key = Thul%NL%%NL%%WHITE%Shields: Lightning Resist +35%%NL%Armor/Helms: Lightning Resist +30%%NL%Weapons: Adds 1-50 lightning dmg%NL%} // Stacked Ort Rune
-ItemDisplay[r10]: Thul%CONTINUE%{%TAN%3 Thul + Key = Amn%NL%} // Thul Rune
-ItemDisplay[r10s]: Thul%CONTINUE%{%TAN%3 Thul + Key = Amn%NL%%NL%%WHITE%Shields: Cold Resist +35%%NL%Armor/Helms: Cold Resist +30%%NL%Weapons: Adds 3-14 cold damage%NL%} // Stacked Thul Rune
-ItemDisplay[r11]: Amn%CONTINUE%{%TAN%3 Amn + Key = Sol%NL%} // Amn Rune
-ItemDisplay[r11s]: Amn%CONTINUE%{%TAN%3 Amn + Key = Sol%NL%%NL%%WHITE%Shields: Attacker Takes Damage of 14%NL%Armor/Helms: Attacker Takes Damage of 14%NL%Weapons: 7% Life steal%NL%} // Stacked Amn Rune
-ItemDisplay[r12]: Sol%CONTINUE%{%TAN%3 Sol + Key = Shael%NL%} // Sol Rune
-ItemDisplay[r12s]: Sol%CONTINUE%{%TAN%3 Sol + Key = Shael%NL%%NL%%WHITE%Shields: Damage Reduced by 7%NL%Armor/Helms: Damage Reduced by 7%NL%Weapons: +9 to Minimum Damage%NL%} // Stacked Sol Rune
-ItemDisplay[r13]: Shael%CONTINUE%{%TAN%3 Shael + Key = Dol%NL%} // Shael Rune
-ItemDisplay[r13s]: Shael%CONTINUE%{%TAN%3 Shael + Key = Dol%NL%%NL%%WHITE%Shields: 20% Faster Block Rate%NL%Armor/Helms: 20% Faster Hit Recovery%NL%Weapons: +20% Attack Speed%NL%} // Stacked Shael Rune
-ItemDisplay[r14]: Dol%CONTINUE%{%TAN%3 Dol + Key = Hel%NL%} // Dol Rune
-ItemDisplay[r14s]: Dol%CONTINUE%{%TAN%3 Dol + Key = Hel%NL%%NL%%WHITE%Shields: Replenish Life +10%NL%Armor/Helms: Replenish Life +10%NL%Weapons: +25% Enhanced Damage%NL%} // Stacked Dol Rune
-ItemDisplay[r15]: Hel%CONTINUE%{%TAN%3 Hel + Key = Io%NL%} // Hel Rune
-ItemDisplay[r15s]: Hel%CONTINUE%{%TAN%3 Hel + Key = Io%NL%%NL%%WHITE%Shields: Requirements -15%%NL%Armor/Helms: Requirements -15%%NL%Weapons: Requirements -20%%NL%} // Stacked Hel Rune
-ItemDisplay[r16]: Io%CONTINUE%{%TAN%3 Io + Key = Lum%NL%} // Io Rune
-ItemDisplay[r16s]: Io%CONTINUE%{%TAN%3 Io + Key = Lum%NL%%NL%%WHITE%Shields: +10 Vitality%NL%Armor/Helms: +10 Vitality%NL%Weapons: +10 Vitality%NL%} // Stacked Io Rune
-ItemDisplay[r17]: Lum%CONTINUE%{%TAN%3 Lum + Key = Ko%NL%} // Lum Rune
-ItemDisplay[r17s]: Lum%CONTINUE%{%TAN%3 Lum + Key = Ko%NL%%NL%%WHITE%Shields: +10 Energy%NL%Armor/Helms: +10 Energy%NL%Weapons: +10 Energy%NL%} // Stacked Lum Rune
-ItemDisplay[r18]: Ko%CONTINUE%{%TAN%3 Ko + Key = Fal%NL%} // Ko Rune
-ItemDisplay[r18s]: Ko%CONTINUE%{%TAN%3 Ko + Key = Fal%NL%%NL%%WHITE%Shields: +10 Dexterity%NL%Armor/Helms: +10 Dexterity%NL%Weapons: +10 Dexterity%NL%} // Stacked Ko Rune
-ItemDisplay[r19]: Fal%CONTINUE%{%TAN%3 Fal + Key = Lem%NL%} // Fal Rune
-ItemDisplay[r19s]: Fal%CONTINUE%{%TAN%3 Fal + Key = Lem%NL%%NL%%WHITE%Shields: +10 Strength%NL%Armor/Helms: +10 Strength%NL%Weapons: +10 Strength%NL%} // Stacked Fal Rune
-ItemDisplay[r20]: Lem%CONTINUE%{%TAN%3 Lem + Key = Pul%NL%} // Lem Rune
-ItemDisplay[r20s]: Lem%CONTINUE%{%TAN%3 Lem + Key = Pul%NL%%NL%%WHITE%Shields: 50% Extra Gold%NL%Armor/Helms: 50% Extra Gold%NL%Weapons: 75% Extra Gold%NL%} // Stacked Lem Rune
-ItemDisplay[r21]: Pul%CONTINUE%{%TAN%2 Pul + Key = Um%NL%} // Pul Rune
-ItemDisplay[r21s]: Pul%CONTINUE%{%TAN%2 Pul + Key = Um%NL%%NL%%WHITE%Shield: +30% Enhanced Def%NL%Armor/Helm: +30% Enhanced Def%NL%Weapon: +75% Dmg & +100 Attack Rating vs Demon%NL%} // Stacked Pul Rune
-ItemDisplay[r22]: Um%CONTINUE%{%TAN%2 Um + Key = Mal%NL%} // Um Rune
-ItemDisplay[r22s]: Um%CONTINUE%{%TAN%2 Um + Key = Mal%NL%%NL%%WHITE%Shields: All Resistances +22%NL%Armor/Helms: All Resistances +15%NL%Weapons: 25% Chance of Open Wounds%NL%} // Stacked Um Rune
-ItemDisplay[r23]: Mal%CONTINUE%{%TAN%2 Mal + Key = Ist%NL%} // Mal Rune
-ItemDisplay[r23s]: Mal%CONTINUE%{%TAN%2 Mal + Key = Ist%NL%%NL%%WHITE%Shield: Magic Damage Reduced by 7%NL%Armor/Helm: Magic Damage Reduced by 7%NL%Weapon: Prevent Monster Heal%NL%} // Stacked Mal Rune
-ItemDisplay[r24]: Ist%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
-ItemDisplay[r24s]: Ist%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%%NL%%WHITE%Shields: +25% Magic Find%NL%Armor/Helms: +25% Magic Find%NL%Weapons: +30% Magic Find%NL%} // Stacked Ist Rune
-ItemDisplay[r25]: Gul%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%} // Gul Rune
-ItemDisplay[r25s]: Gul%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%%NL%%WHITE%Shields: +4% Maximum Poison Res%NL%Armor/Helms: +4% Maximum Poison Res%NL%Weapons: +20% Attack Rating%NL%} // Stacked Gul Rune
-ItemDisplay[r26]: Vex%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%} // Vex Rune
-ItemDisplay[r26s]: Vex%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%%NL%%WHITE%Shields: +4% Maximum Fire Resist%NL%Armor/Helms: +4% Maximum Fire Resist%NL%Weapons: 7% Mana Steal%NL%} // Stacked Vex Rune
-ItemDisplay[r27]: Ohm%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%} // Ohm Rune
-ItemDisplay[r27s]: Ohm%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%%NL%%WHITE%Shields: +4% Maximum Cold Resist%NL%Armor/Helms: +4% Maximum Cold Resist%NL%Weapons: +50% Enhanced Damage%NL%} // Stacked Ohm Rune
-ItemDisplay[r28]: Lo%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%} // Lo Rune
-ItemDisplay[r28s]: Lo%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%%NL%%WHITE%Shields: +4% Maximum Light Resist%NL%Armor/Helms: +4% Maximum Light Resist%NL%Weapons: 20% Deadly Strike%NL%} // Stacked Lo Rune
-ItemDisplay[r29]: Sur%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%} // Sur Rune
-ItemDisplay[r29s]: Sur%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%%NL%%WHITE%Shields: +50 Mana%NL%Armor/Helms: Maximum Mana 5%%NL%Weapons: +4 Life After Each Kill%NL%} // Stacked Sur Rune
-ItemDisplay[r30]: Ber%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%} // Ber Rune
-ItemDisplay[r30s]: Ber%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%%NL%%WHITE%Shields: Damage Reduced by 4%%NL%Armor/Helms: Damage Reduced by 4%%NL%Weapons: 20% Chance of Crushing Blow%NL%} // Stacked Ber Rune
-ItemDisplay[r31]: Jah%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
-ItemDisplay[r31s]: Jah%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%%NL%%WHITE%Shields: +50 Life%NL%Armor/Helms: Increase Maximum Life 5%%NL%Weapons: Ignore Targets Defense%NL%} // Stacked Jah Rune
-ItemDisplay[r32]: Cham%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
-ItemDisplay[r32s]: Cham%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%%NL%%WHITE%Shields: Cannot be Frozen%NL%Armor/Helms: Cannot be Frozen%NL%Weapons: Freezes Target +3%NL%} // Stacked Cham Rune
-ItemDisplay[r33]: Zod%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and} // Zod Rune
-ItemDisplay[r33s]: Zod%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and%NL%%NL%%WHITE%All Sockets: Indestructible%NL%} // Stacked Zod Rune
+ItemDisplay[r01]: lE%CONTINUE%{%TAN%3 El + Key = Eld%NL%} // El Rune
+ItemDisplay[r01s]: lE%CONTINUE%{%TAN%3 El + Key = Eld%NL%%NL%%WHITE%All: +1 Light Radius%NL%Shields: +15 Defense%NL%Armor/Helms: +15 Defense%NL%Weapons: +50 Attack Rating%NL%} // Stacked El Rune
+ItemDisplay[r02]: dlE%CONTINUE%{%TAN%3 Eld + Key = Tir%NL%} // Eld Rune
+ItemDisplay[r02s]: dlE%CONTINUE%{%TAN%3 Eld + Key = Tir%NL%%NL%%WHITE%Shields: +7% Block%NL%Armor/Helms: -15% Stam Drain%NL%Weapons: +75% Dmg & +50 Attack Rating vs Undead%NL%} // Stacked Eld Rune
+ItemDisplay[r03]: riT%CONTINUE%{%TAN%3 Tir + Key = Nef%NL%} // Tir Rune
+ItemDisplay[r03s]: riT%CONTINUE%{%TAN%3 Tir + Key = Nef%NL%%NL%%WHITE%Shields: +2 Mana Per Kill%NL%Armor/Helms: +2 Mana Per Kill%NL%Weapons: +2 Mana Per Kill%NL%} // Stacked Tir Rune
+ItemDisplay[r04]: feN%CONTINUE%{%TAN%3 Nef + Key = Eth%NL%} // Nef Rune
+ItemDisplay[r04s]: feN%CONTINUE%{%TAN%3 Nef + Key = Eth%NL%%NL%%WHITE%Shields: +30 Defense vs Missile%NL%Armor/Helms: +30 Defense vs Missile%NL%Weapons: Knockback%NL%} // Stacked Nef Rune
+ItemDisplay[r05]: htE%CONTINUE%{%TAN%3 Eth + Key = Ith%NL%} // Eth Rune
+ItemDisplay[r05s]: htE%CONTINUE%{%TAN%3 Eth + Key = Ith%NL%%NL%%WHITE%Shields: Regen Mana 15%%NL%Armor/Helms: Regen Mana 15%%NL%Weapons: -25% Target Defense%NL%} // Stacked Eth Rune
+ItemDisplay[r06]: htI%CONTINUE%{%TAN%3 Ith + Key = Tal%NL%} // Ith Rune
+ItemDisplay[r06s]: htI%CONTINUE%{%TAN%3 Ith + Key = Tal%NL%%NL%%WHITE%Shields: 15% Dmg Taken Gained as Mana%NL%Armor/Helms: 15% Dmg Taken Gained as Mana%NL%Weapons: +9 Max Dmg%NL%} // Stacked Ith Rune
+ItemDisplay[r07]: laT%CONTINUE%{%TAN%3 Tal + Key = Ral%NL%} // Tal Rune
+ItemDisplay[r07s]: laT%CONTINUE%{%TAN%3 Tal + Key = Ral%NL%%NL%%WHITE%Shields: Poison Resist +35%%NL%Armor/Helms: Poison Resist +30%%NL%Weapons: +75 poison damage over 5 seconds%NL%} // Stacked Tal Rune
+ItemDisplay[r08]: laR%CONTINUE%{%TAN%3 Ral + Key = Ort%NL%} // Ral Rune
+ItemDisplay[r08s]: laR%CONTINUE%{%TAN%3 Ral + Key = Ort%NL%%NL%%WHITE%Shields: Fire Resist +35%%NL%Armor/Helms: Fire Resist +30%%NL%Weapons: Adds 5-30 fire damage%NL%} // Stacked Ral Rune
+ItemDisplay[r09]: trO%CONTINUE%{%TAN%3 Ort + Key = Thul%NL%} // Ort Rune
+ItemDisplay[r09s]: trO%CONTINUE%{%TAN%3 Ort + Key = Thul%NL%%NL%%WHITE%Shields: Lightning Resist +35%%NL%Armor/Helms: Lightning Resist +30%%NL%Weapons: Adds 1-50 lightning dmg%NL%} // Stacked Ort Rune
+ItemDisplay[r10]: luhT%CONTINUE%{%TAN%3 Thul + Key = Amn%NL%} // Thul Rune
+ItemDisplay[r10s]: luhT%CONTINUE%{%TAN%3 Thul + Key = Amn%NL%%NL%%WHITE%Shields: Cold Resist +35%%NL%Armor/Helms: Cold Resist +30%%NL%Weapons: Adds 3-14 cold damage%NL%} // Stacked Thul Rune
+ItemDisplay[r11]: nmA%CONTINUE%{%TAN%3 Amn + Key = Sol%NL%} // Amn Rune
+ItemDisplay[r11s]: nmA%CONTINUE%{%TAN%3 Amn + Key = Sol%NL%%NL%%WHITE%Shields: Attacker Takes Damage of 14%NL%Armor/Helms: Attacker Takes Damage of 14%NL%Weapons: 7% Life steal%NL%} // Stacked Amn Rune
+ItemDisplay[r12]: loS%CONTINUE%{%TAN%3 Sol + Key = Shael%NL%} // Sol Rune
+ItemDisplay[r12s]: loS%CONTINUE%{%TAN%3 Sol + Key = Shael%NL%%NL%%WHITE%Shields: Damage Reduced by 7%NL%Armor/Helms: Damage Reduced by 7%NL%Weapons: +9 to Minimum Damage%NL%} // Stacked Sol Rune
+ItemDisplay[r13]: leahS%CONTINUE%{%TAN%3 Shael + Key = Dol%NL%} // Shael Rune
+ItemDisplay[r13s]: leahS%CONTINUE%{%TAN%3 Shael + Key = Dol%NL%%NL%%WHITE%Shields: 20% Faster Block Rate%NL%Armor/Helms: 20% Faster Hit Recovery%NL%Weapons: +20% Attack Speed%NL%} // Stacked Shael Rune
+ItemDisplay[r14]: loD%CONTINUE%{%TAN%3 Dol + Key = Hel%NL%} // Dol Rune
+ItemDisplay[r14s]: loD%CONTINUE%{%TAN%3 Dol + Key = Hel%NL%%NL%%WHITE%Shields: Replenish Life +10%NL%Armor/Helms: Replenish Life +10%NL%Weapons: +25% Enhanced Damage%NL%} // Stacked Dol Rune
+ItemDisplay[r15]: leH%CONTINUE%{%TAN%3 Hel + Key = Io%NL%} // Hel Rune
+ItemDisplay[r15s]: leH%CONTINUE%{%TAN%3 Hel + Key = Io%NL%%NL%%WHITE%Shields: Requirements -15%%NL%Armor/Helms: Requirements -15%%NL%Weapons: Requirements -20%%NL%} // Stacked Hel Rune
+ItemDisplay[r16]: oI%CONTINUE%{%TAN%3 Io + Key = Lum%NL%} // Io Rune
+ItemDisplay[r16s]: oI%CONTINUE%{%TAN%3 Io + Key = Lum%NL%%NL%%WHITE%Shields: +10 Vitality%NL%Armor/Helms: +10 Vitality%NL%Weapons: +10 Vitality%NL%} // Stacked Io Rune
+ItemDisplay[r17]: muL%CONTINUE%{%TAN%3 Lum + Key = Ko%NL%} // Lum Rune
+ItemDisplay[r17s]: muL%CONTINUE%{%TAN%3 Lum + Key = Ko%NL%%NL%%WHITE%Shields: +10 Energy%NL%Armor/Helms: +10 Energy%NL%Weapons: +10 Energy%NL%} // Stacked Lum Rune
+ItemDisplay[r18]: oK%CONTINUE%{%TAN%3 Ko + Key = Fal%NL%} // Ko Rune
+ItemDisplay[r18s]: oK%CONTINUE%{%TAN%3 Ko + Key = Fal%NL%%NL%%WHITE%Shields: +10 Dexterity%NL%Armor/Helms: +10 Dexterity%NL%Weapons: +10 Dexterity%NL%} // Stacked Ko Rune
+ItemDisplay[r19]: laF%CONTINUE%{%TAN%3 Fal + Key = Lem%NL%} // Fal Rune
+ItemDisplay[r19s]: laF%CONTINUE%{%TAN%3 Fal + Key = Lem%NL%%NL%%WHITE%Shields: +10 Strength%NL%Armor/Helms: +10 Strength%NL%Weapons: +10 Strength%NL%} // Stacked Fal Rune
+ItemDisplay[r20]: meL%CONTINUE%{%TAN%3 Lem + Key = Pul%NL%} // Lem Rune
+ItemDisplay[r20s]: meL%CONTINUE%{%TAN%3 Lem + Key = Pul%NL%%NL%%WHITE%Shields: 50% Extra Gold%NL%Armor/Helms: 50% Extra Gold%NL%Weapons: 75% Extra Gold%NL%} // Stacked Lem Rune
+ItemDisplay[r21]: luP%CONTINUE%{%TAN%2 Pul + Key = Um%NL%} // Pul Rune
+ItemDisplay[r21s]: luP%CONTINUE%{%TAN%2 Pul + Key = Um%NL%%NL%%WHITE%Shield: +30% Enhanced Def%NL%Armor/Helm: +30% Enhanced Def%NL%Weapon: +75% Dmg & +100 Attack Rating vs Demon%NL%} // Stacked Pul Rune
+ItemDisplay[r22]: mU%CONTINUE%{%TAN%2 Um + Key = Mal%NL%} // Um Rune
+ItemDisplay[r22s]: mU%CONTINUE%{%TAN%2 Um + Key = Mal%NL%%NL%%WHITE%Shields: All Resistances +22%NL%Armor/Helms: All Resistances +15%NL%Weapons: 25% Chance of Open Wounds%NL%} // Stacked Um Rune
+ItemDisplay[r23]: laM%CONTINUE%{%TAN%2 Mal + Key = Ist%NL%} // Mal Rune
+ItemDisplay[r23s]: laM%CONTINUE%{%TAN%2 Mal + Key = Ist%NL%%NL%%WHITE%Shield: Magic Damage Reduced by 7%NL%Armor/Helm: Magic Damage Reduced by 7%NL%Weapon: Prevent Monster Heal%NL%} // Stacked Mal Rune
+ItemDisplay[r24]: tsI%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
+ItemDisplay[r24s]: tsI%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%%NL%%WHITE%Shields: +25% Magic Find%NL%Armor/Helms: +25% Magic Find%NL%Weapons: +30% Magic Find%NL%} // Stacked Ist Rune
+ItemDisplay[r25]: luG%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%} // Gul Rune
+ItemDisplay[r25s]: luG%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%%NL%%WHITE%Shields: +4% Maximum Poison Res%NL%Armor/Helms: +4% Maximum Poison Res%NL%Weapons: +20% Attack Rating%NL%} // Stacked Gul Rune
+ItemDisplay[r26]: xeV%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%} // Vex Rune
+ItemDisplay[r26s]: xeV%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%%NL%%WHITE%Shields: +4% Maximum Fire Resist%NL%Armor/Helms: +4% Maximum Fire Resist%NL%Weapons: 7% Mana Steal%NL%} // Stacked Vex Rune
+ItemDisplay[r27]: mhO%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%} // Ohm Rune
+ItemDisplay[r27s]: mhO%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%%NL%%WHITE%Shields: +4% Maximum Cold Resist%NL%Armor/Helms: +4% Maximum Cold Resist%NL%Weapons: +50% Enhanced Damage%NL%} // Stacked Ohm Rune
+ItemDisplay[r28]: oL%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%} // Lo Rune
+ItemDisplay[r28s]: oL%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%%NL%%WHITE%Shields: +4% Maximum Light Resist%NL%Armor/Helms: +4% Maximum Light Resist%NL%Weapons: 20% Deadly Strike%NL%} // Stacked Lo Rune
+ItemDisplay[r29]: ruS%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%} // Sur Rune
+ItemDisplay[r29s]: ruS%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%%NL%%WHITE%Shields: +50 Mana%NL%Armor/Helms: Maximum Mana 5%%NL%Weapons: +4 Life After Each Kill%NL%} // Stacked Sur Rune
+ItemDisplay[r30]: reB%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%} // Ber Rune
+ItemDisplay[r30s]: reB%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%%NL%%WHITE%Shields: Damage Reduced by 4%%NL%Armor/Helms: Damage Reduced by 4%%NL%Weapons: 20% Chance of Crushing Blow%NL%} // Stacked Ber Rune
+ItemDisplay[r31]: haJ%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
+ItemDisplay[r31s]: haJ%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%%NL%%WHITE%Shields: +50 Life%NL%Armor/Helms: Increase Maximum Life 5%%NL%Weapons: Ignore Targets Defense%NL%} // Stacked Jah Rune
+ItemDisplay[r32]: mahC%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
+ItemDisplay[r32s]: mahC%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%%NL%%WHITE%Shields: Cannot be Frozen%NL%Armor/Helms: Cannot be Frozen%NL%Weapons: Freezes Target +3%NL%} // Stacked Cham Rune
+ItemDisplay[r33]: doZ%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and} // Zod Rune
+ItemDisplay[r33s]: doZ%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and%NL%%NL%%WHITE%All Sockets: Indestructible%NL%} // Stacked Zod Rune
 
 ItemDisplay[RUNE<10 QTY<1]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%} // El-Ort
 ItemDisplay[RUNE>9 RUNE<24 QTY<1]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%} // Thul-Mal
@@ -270,9 +270,9 @@ ItemDisplay[RUNE>9 RUNE<24 QTY>0]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%}%CO
 ItemDisplay[RUNE>23 QTY>0]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%}%CONTINUE% // Ist-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME%%WHITE% x%QTY%{%NAME%} // Shows the quantity of runes for stacking purposes
 
-ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
-ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) !RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
-ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) !RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
+ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) ETH]: %NAME% %GRAY%[Ghostly]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
+ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) !RW !ETH SOCK>0]: %NAME% [%SOCKETS% Holes]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
+ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) !RW ETH SOCK>0]: %NAME%[%SOCKETS% Holes]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
 
 ItemDisplay[MAG SHOP (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR=10 amu]: %ORANGE%2/10 Amulet // 2 class skills, 10 FCR amulet
 ItemDisplay[MAG SHOP (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR=20 amu]: %ORANGE%2/20 Amulet // 2 class skills, 20 FCR amulet
@@ -380,10 +380,11 @@ ItemDisplay[UNI (ARMOR OR WEAPON OR amu OR rin)]: %RED%Disabled{%RED%Disabled fo
 
 ItemDisplay[SET (ARMOR OR WEAPON OR amu OR rin)]: %RED%Disabled{%RED%Disabled for race.}
 
-ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used to craft on in this race%NL%%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used to craft on in this race%NL%%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used to craft on in this race%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used to craft on in this race%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ELT]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used to craft on in this race}
 
 ItemDisplay[RARE !ID jew]: %NAME%%MAP-A8% // All unidentified jewels
 ItemDisplay[RARE ID jew]: %NAME%{%RED%This will destroy the Jewel%NL%%TAN%down into a Jewel Fragment%NL%Cube with a Key to break} // All identified jewels
@@ -395,6 +396,48 @@ ItemDisplay[RARE LVLREQ<31 STR>4 DEX>5 jew]: %NAME%{%ORANGE%Note:%TAN% Good for 
 ItemDisplay[RARE LVLREQ<31 MAXDMG>14 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 15+ Maximum Damage
 ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 5+ Minimum Damage and 10+ Maximum Damage
 ItemDisplay[RARE LVLREQ<31 STAT91=-15 (RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // -Requirements, and 8%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, or 6+ Dexterity
+
+ItemDisplay[RARE EXC !ID]: %NAME%%MAP-A5%
+ItemDisplay[RARE EXC BELT ID]: %NAME%{%BLUE%+20 to Find Potion%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC BOOTS ID]: %NAME%{%BLUE%+666 to Blaze%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC CHEST ID]: %NAME%{%BLUE%+5 to Teleport%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC (CIRC OR HELM) ID]: %NAME%{%BLUE%+1 to Energy Shield%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC GLOVES ID]: %NAME%{%BLUE%+15 to Bash%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC SHIELD ID]: %NAME%{%BLUE%+35 to Smite%RED%*%NL%Corrupted%NL%%NAME%}
+
+ItemDisplay[RARE EXC AXE !THROWING ID]: %NAME%{%BLUE%+420 to Double Throw%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC (BOW OR XBOW) ID]: %NAME%{%BLUE%+13 to Magic Arrow%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC DAGGER !THROWING ID]: %NAME%{%BLUE%+69 to Poison Dagger%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC SPEAR THROWING !ZON ID]: %NAME%{%BLUE%+1.5 to Fend%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC MACE ID]: %NAME%{%BLUE%+4 to Cranium Basher%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC POLEARM ID]: %NAME%{%BLUE%+7 to Halt, You May Not Pass%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC SCEPTER ID]: %NAME%{%BLUE%+0 to Fist of the Heavens%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC SPEAR !THROWING !ZON ID]: %NAME%{%BLUE%+50 to Jab%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC STAFF ID]: %NAME%{%BLUE%+7 to Mang Song's Lesson%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC SWORD ID]: %NAME%{%BLUE%+? to Sword Mastery%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC !SPEAR THROWING !ZON ID]: %NAME%{%BLUE%+1 to Throwing Mastery%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE EXC WAND ID]: %NAME%{%BLUE%+5 to Raise Wand%RED%*%NL%Corrupted%NL%%NAME%}
+
+ItemDisplay[RARE ELT !ID]: %RED%*%ORANGE% *%YELLOW% *%GREEN% *%BLUE% *%PURPLE% *%YELLOW% %NAME% %PURPLE% *%BLUE% *%GREEN% *%YELLOW% *%ORANGE% *%RED% *%MAP-A5%
+ItemDisplay[RARE ELT BELT ID]: %NAME%{%BLUE%+20 to Find Potion%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT BOOTS ID]: %NAME%{%BLUE%+7 to Blaze%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT CHEST ID]: %NAME%{%BLUE%+5 to Teleport%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT (CIRC OR HELM) ID]: %NAME%{%BLUE%+1 to Energy Shield%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT GLOVES ID]: %NAME%{%BLUE%+15 to Bash%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT SHIELD ID]: %NAME%{%BLUE%+35 to Smite%RED%*%NL%Corrupted%NL%%NAME%}
+
+ItemDisplay[RARE ELT AXE !THROWING ID]: %NAME%{%BLUE%+420 to Double Throw%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT (BOW OR XBOW) ID]: %NAME%{%BLUE%+13 to Magic Arrow%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT DAGGER !THROWING ID]: %NAME%{%BLUE%+69 to Poison Dagger%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT SPEAR THROWING !ZON ID]: %NAME%{%BLUE%+1.5 to Fend%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT MACE ID]: %NAME%{%BLUE%+4 to Cranium Basher%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT POLEARM ID]: %NAME%{%BLUE%+7 to Halt, You May Not Pass%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT SCEPTER ID]: %NAME%{%BLUE%+0 to Fist of the Heavens%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT SPEAR !THROWING !ZON ID]: %NAME%{%BLUE%+50 to Jab%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT STAFF ID]: %NAME%{%BLUE%+7 to Mang Song's Lesson%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT SWORD ID]: %NAME%{%BLUE%+? to Sword Mastery%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT !SPEAR THROWING !ZON ID]: %NAME%{%BLUE%+1 to Throwing Mastery%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT WAND ID]: %NAME%{%BLUE%+5 to Raise Wand%RED%*%NL%Corrupted%NL%%NAME%}
 
 ItemDisplay[RARE]: %NAME%{%ORANGE%Rares can also be used to craft on in this race%NL%%NAME%} // Showing all Rares for race
 
