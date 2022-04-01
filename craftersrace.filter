@@ -420,7 +420,7 @@ ItemDisplay[RARE EXC WAND ID]: %NAME%{%BLUE%+5 to Raise Wand%RED%*%NL%Corrupted%
 
 ItemDisplay[RARE ELT !ID]: %RED%*%ORANGE% *%YELLOW% *%GREEN% *%BLUE% *%PURPLE% *%YELLOW% %NAME% %PURPLE% *%BLUE% *%GREEN% *%YELLOW% *%ORANGE% *%RED% *%MAP-A5%
 ItemDisplay[RARE ELT BELT ID]: %NAME%{%BLUE%+20 to Find Potion%RED%*%NL%Corrupted%NL%%NAME%}
-ItemDisplay[RARE ELT BOOTS ID]: %NAME%{%BLUE%+7 to Blaze%RED%*%NL%Corrupted%NL%%NAME%}
+ItemDisplay[RARE ELT BOOTS ID]: %NAME%{%BLUE%+666 to Blaze%RED%*%NL%Corrupted%NL%%NAME%}
 ItemDisplay[RARE ELT CHEST ID]: %NAME%{%BLUE%+5 to Teleport%RED%*%NL%Corrupted%NL%%NAME%}
 ItemDisplay[RARE ELT (CIRC OR HELM) ID]: %NAME%{%BLUE%+1 to Energy Shield%RED%*%NL%Corrupted%NL%%NAME%}
 ItemDisplay[RARE ELT GLOVES ID]: %NAME%{%BLUE%+15 to Bash%RED%*%NL%Corrupted%NL%%NAME%}
@@ -659,4 +659,7 @@ ItemDisplay[ibk]: %RED%!%WHITE%ID%RED%!%WHITE% // Tome of Identify
 ItemDisplay[tbk QTY<5]: %BLUE%!%WHITE%TP%RED% REFILL ME%BLUE%!%WHITE% // Tome of Town Portal
 ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 
-ItemDisplay[NMAG CLVL>10]: // Hidden for race
+ItemDisplay[NMAG (SOCK>0 OR ETH) CLVL<50]: %NAME%
+ItemDisplay[NMAG (STAFF OR MACE OR SORC OR NEC OR BAR OR DRU OR ZON OR SIN OR DIN) CLVL<50]: %NAME%
+ItemDisplay[NMAG RES>20]: %NAME%
+ItemDisplay[NMAG CLVL>49]: // Hidden for race
