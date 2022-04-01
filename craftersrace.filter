@@ -281,12 +281,8 @@ ItemDisplay[MAG SHOP (TABSK1>1 OR TABSK8>1 OR TABSK9>1 OR TABSK10>1 OR TABSK16>1
 
 ItemDisplay[MAG SHOP (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLSK5>1 OR CLSK6>1) FCR>19 CIRC]: %ORANGE%2/20 Amulet // +2 class skills, +20 FCR circlet
 
-ItemDisplay[MAG SHOP (CLSK0>1 AND TABSK2>2) ZON]: %ORANGE%+5 Javelin // +2 Amazon, +3 Javelin Skills Javelin
 ItemDisplay[MAG SHOP TABSK2>5 ZON]: %ORANGE%+6 Javelin // +6 Javelin Skills Javelin
-
-ItemDisplay[MAG SHOP TABSK50>2 SIN]: %ORANGE%+3 Martial Arts
-ItemDisplay[MAG SHOP TABSK49>2 SIN]: %ORANGE%+3 Shadow Disciplines
-ItemDisplay[MAG SHOP TABSK48>2 SIN]: %ORANGE%+3 Traps
+ItemDisplay[MAG SHOP (CLSK0>1 AND TABSK2>2) ZON]: %ORANGE%+5 Javelin // +2 Amazon, +3 Javelin Skills Javelin
 
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK254>2) SIN]: %ORANGE%+5 Tiger Strike // +2 Assassin, +3 Tiger Strike katar
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK265>2) SIN]: %ORANGE%+5 Cobra Strike // +2 Assassin, +3 Cobra Strike katar
@@ -343,6 +339,10 @@ ItemDisplay[MAG SHOP (TABSK48=3 AND SK262=3) SIN]: %ORANGE%+6 Wake of Fire // +3
 ItemDisplay[MAG SHOP (TABSK48=3 AND SK276=3) SIN]: %ORANGE%+6 Death Sentry // +3 Trap, +3 Death Sentry katar
 ItemDisplay[MAG SHOP (TABSK48=3 AND SK271=3) SIN]: %ORANGE%+6 Chain Lightning Sentry // +3 Trap, +3 Chain Lightning Sentry katar
 ItemDisplay[MAG SHOP (TABSK48=3 AND SK366=3) SIN]: %ORANGE%+6 Lightning Sentry // +3 Trap, +3 Lightning Sentry katar
+
+ItemDisplay[MAG SHOP TABSK50>2 SIN]: %ORANGE%+3 Martial Arts
+ItemDisplay[MAG SHOP TABSK49>2 SIN]: %ORANGE%+3 Shadow Disciplines
+ItemDisplay[MAG SHOP TABSK48>2 SIN]: %ORANGE%+3 Traps
 
 ItemDisplay[MAG SHOP (CLSK4>1 AND SK149>2) BAR]: %ORANGE%+2/3 Battle Orders Helm // +2 Barbarian, +3 Battle Orders Barb helm
 ItemDisplay[MAG SHOP (CLSK4>1 AND SK154>2) BAR]: %ORANGE%+2/3 Warcry Helm // +2 Barbarian, +3 Warcry Barb helm
