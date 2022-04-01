@@ -376,6 +376,10 @@ ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character l
 ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
 ItemDisplay[NMAG (ARMOR OR WEAPON) CLVL>10]: // Hides all NMAG items past level 10
 
+ItemDisplay[UNI !ID cm1]: %NAME%%MAP-A5% // Annihilus Small Charm
+ItemDisplay[UNI !ID cm2]: %NAME%%MAP-A5% // Hellfire Torch Large Charm
+ItemDisplay[UNI !ID cm3]: %NAME%%MAP-A5% // Gheed's Fortune Grand Charm
+
 ItemDisplay[UNI (ARMOR OR WEAPON OR amu OR rin)]: %RED%Disabled{%RED%Disabled for race.}
 
 ItemDisplay[SET (ARMOR OR WEAPON OR amu OR rin)]: %RED%Disabled{%RED%Disabled for race.}
