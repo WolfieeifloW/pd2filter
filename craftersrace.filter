@@ -439,8 +439,6 @@ ItemDisplay[RARE ELT SWORD ID]: %NAME%{%BLUE%+? to Sword Mastery%RED%*%NL%Corrup
 ItemDisplay[RARE ELT !SPEAR THROWING !ZON ID]: %NAME%{%BLUE%+1 to Throwing Mastery%RED%*%NL%Corrupted%NL%%NAME%}
 ItemDisplay[RARE ELT WAND ID]: %NAME%{%BLUE%+5 to Raise Wand%RED%*%NL%Corrupted%NL%%NAME%}
 
-ItemDisplay[RARE]: %NAME%{%ORANGE%Rares can also be used to craft on in this race%NL%%NAME%} // Showing all Rares for race
-
 ItemDisplay[CRAFT ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[CRAFT ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[CRAFT ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
@@ -660,6 +658,6 @@ ItemDisplay[tbk QTY<5]: %BLUE%!%WHITE%TP%RED% REFILL ME%BLUE%!%WHITE% // Tome of
 ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 
 ItemDisplay[NMAG (SOCK>0 OR ETH) CLVL<50]: %NAME%
-ItemDisplay[NMAG (STAFF OR MACE OR SORC OR NEC OR BAR OR DRU OR ZON OR SIN OR DIN) CLVL<50]: %NAME%
+ItemDisplay[NMAG (STAFF OR MACE OR SOR OR NEC OR BAR OR DRU OR ZON OR SIN OR DIN) CLVL<50]: %NAME%
 ItemDisplay[NMAG RES>20]: %NAME%
 ItemDisplay[NMAG CLVL>49]: // Hidden for race
