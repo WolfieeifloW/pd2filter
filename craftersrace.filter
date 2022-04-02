@@ -467,9 +467,9 @@ ItemDisplay[MAG rin ILVL=97]: %NAME% %ORANGE%[C]%BLUE%%DOT-97%{%GRAY%Vampiric:%T
 ItemDisplay[MAG rin ILVL=98]: %NAME% %ORANGE%[C]%BLUE%%DOT-97%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 64+}
 ItemDisplay[MAG rin ILVL=99]: %NAME% %ORANGE%[C]%BLUE%%DOT-97%{%GRAY%Vampiric:%TAN% P Skull + Hel%NL%%BLUE%Hit Power:%TAN% P Saph + Amn%NL%%PURPLE%Caster:%TAN% P Ame + Amn%NL%%YELLOW%Bountiful:%TAN% P Top + Lum%NL%%RED%Blood:%TAN% P Ruby + Sol%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 64+}
 
-ItemDisplay[MAG cm1]: %NAME%%DOT-97%
-ItemDisplay[MAG cm2]: %NAME%%DOT-97%
-ItemDisplay[MAG cm3]: %NAME%%DOT-97%
+ItemDisplay[MAG !ID cm1]: %NAME%%DOT-97%
+ItemDisplay[MAG !ID cm2]: %NAME%%DOT-97%
+ItemDisplay[MAG !ID cm3]: %NAME%%DOT-97%
 
 ItemDisplay[MAG ILVL<72 CLVL<75 BAR]: %NAME%%DOT-97%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Barbarian Helm
 ItemDisplay[MAG ILVL>71 BAR]: %NAME% %ORANGE%[C]%BLUE%%DOT-97%{%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Barbarian Helm
