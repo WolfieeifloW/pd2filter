@@ -272,6 +272,8 @@ ItemDisplay[RUNE>0 QTY>0]: %NAME%%WHITE% x%QTY%{%NAME%}%CONTINUE% // Shows the q
 ItemDisplay[r03 OR r03s]: %PURPLE%>> %NAME% %PURPLE%<<{%NAME%}
 ItemDisplay[(RUNE<3 OR RUNE>3)]: %NAME%
 
+ItemDisplay[jewf]: %GOLD%%NAME%%WHITE% x%QTY%%GOLD%{%TAN%in crafting recipes%NL%Use in place of a Jewel}
+
 ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) ETH]: %NAME% %GRAY%[Eth]%CONTINUE% // Add "[Eth]" to ethereal item's names (eg "Quilted Armor [Eth]")
 ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) !RW !ETH SOCK>0]: %NAME% [%SOCKETS%]%CONTINUE% // Add number of sockets to the end of socketed items' names (eg "Quilted Armor [2]")
 ItemDisplay[(MAG OR UNI OR SET OR RARE OR CRAFT) !RW ETH SOCK>0]: %NAME%[%SOCKETS%]%CONTINUE% // No space between eth and socket display if item is eth (eg "Quilted Armor [Eth][2]")
@@ -409,8 +411,6 @@ ItemDisplay[CRAFT ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst
 ItemDisplay[CRAFT ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[CRAFT ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
-
-ItemDisplay[jewf]: %GOLD%%NAME%%WHITE% x%QTY%%GOLD%{%TAN%in crafting recipes%NL%Use in place of a Jewel}
 
 ItemDisplay[MAG amu ILVL<82 CLVL<75]: %NAME%%DOT-97%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Display recipe on all amulets until level 75
 ItemDisplay[MAG amu ILVL=82]: %NAME% %ORANGE%[C]%BLUE%%DOT-97%{%GRAY%Vampiric:%TAN% P Skull + Dol%NL%%BLUE%Hit Power:%TAN% P Saph + Thul%NL%%PURPLE%Caster:%TAN% P Ame + Ral%NL%%YELLOW%Bountiful:%TAN% P Top + Ko%NL%%RED%Blood:%TAN% P Ruby + Amn%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%TAN%Craft at clvl 98+}
