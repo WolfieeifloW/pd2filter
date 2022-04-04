@@ -592,7 +592,7 @@ ItemDisplay[mp4]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
 ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35% // Rejuv Potion
-ItemDisplay[rvl]: %RED%Disabled{%RED%Disabled for race.} // Full Rejuv Potion
+ItemDisplay[rvl]: %PURPLE%+%WHITE%%NAME%%PURPLE%+%WHITE%{%TAN%2 Rejuvenation Potions%NL%Cube to break into} // Full Rejuv Potion
 
 ItemDisplay[vps DIFF<2]: %WHITE%+%WHITE%Stam // Stamina Potion
 ItemDisplay[vps DIFF>1]: // Hides Stamina Potion after Nightmare difficulty
