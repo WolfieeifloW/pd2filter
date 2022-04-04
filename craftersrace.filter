@@ -629,6 +629,8 @@ ItemDisplay[NMAG (STAFF OR MACE OR SOR OR NEC OR BAR OR DRU OR ZON OR SIN OR DIN
 ItemDisplay[NMAG ci3]: %NAME%{%TAN%Useful to imbue at Charsi}
 ItemDisplay[NMAG RES>20]: %NAME%
 
+ItemDisplay[NMAG PRICE>34999]: %NAME%%DARK_GREEN% $
+
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
