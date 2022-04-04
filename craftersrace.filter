@@ -374,12 +374,6 @@ ItemDisplay[MAG SHOP CHSK357>0 STAFF]: %NAME% %ORANGE%(Blink) // Blink charges
 ItemDisplay[MAG SHOP (SUFFIX=578 OR SUFFIX=579) WAND]: %ORANGE%Life Tap Charges Wand // Life tap charges
 ItemDisplay[MAG SHOP (SUFFIX=594 OR SUFFIX=595) WAND]: %ORANGE%Lower Res Charges Wand // Lower Resist charges
 
-ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
-ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
-ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
-ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
-ItemDisplay[NMAG (ARMOR OR WEAPON) CLVL>10]: // Hides all NMAG items past level 10
-
 ItemDisplay[UNI !ID cm1]: %NAME%%MAP-A5% // Annihilus Small Charm
 ItemDisplay[UNI !ID cm2]: %NAME%%MAP-A5% // Hellfire Torch Large Charm
 ItemDisplay[UNI !ID cm3]: %NAME%%MAP-A5% // Gheed's Fortune Grand Charm
@@ -632,5 +626,13 @@ ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 
 ItemDisplay[NMAG (SOCK>0 OR ETH) CLVL<50]: %NAME%
 ItemDisplay[NMAG (STAFF OR MACE OR SOR OR NEC OR BAR OR DRU OR ZON OR SIN OR DIN) CLVL<50]: %NAME%
+ItemDisplay[NMAG ci3]: %NAME%{%TAN%Useful to imbue at Charsi}
 ItemDisplay[NMAG RES>20]: %NAME%
+
+ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
+ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
+ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
+ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
+ItemDisplay[NMAG (ARMOR OR WEAPON) CLVL>10]: // Hides all NMAG items past level 10
+
 ItemDisplay[NMAG CLVL>49]: // Hidden for race
