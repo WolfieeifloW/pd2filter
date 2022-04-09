@@ -270,7 +270,7 @@ ItemDisplay[RUNE>9 RUNE<24 QTY>0]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%}%CO
 ItemDisplay[RUNE>23 QTY>0]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%}%CONTINUE% // Ist-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME%%WHITE% x%QTY%{%NAME%}%CONTINUE% // Shows the quantity of runes for stacking purposes
 ItemDisplay[r03 OR r03s]: %PURPLE%>> %NAME% %PURPLE%<<{%NAME%}
-ItemDisplay[(RUNE<3 OR RUNE>3)]: %NAME%
+ItemDisplay[(RUNE<3 OR RUNE>3)]: %NAME%{%NAME%}
 
 ItemDisplay[jewf]: %GOLD%%NAME%%WHITE% x%QTY%%GOLD%{%TAN%in crafting recipes%NL%Use in place of a Jewel}
 
