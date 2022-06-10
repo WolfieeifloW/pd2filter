@@ -69,6 +69,10 @@ ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68% // Baal's Eye
 ItemDisplay[ubtm]: %ORANGE%%NAME%%MAP-68%{%TAN%to enter Uber Tristram%NL%near the Blood Fountain%NL%Right-click in Act 5} // The Pandemonium Talisman
 ItemDisplay[std]: %NAME%%MAP-68% // Standard of Heroes
 
+// Special Crafting Items
+ItemDisplay[lsvl]: %PURPLE%+ %NAME% +%MAP-62%{%TAN%Indestructible, Set items%NL%Bows, Crossbows,%NL%%RED%Does NOT work with:%NL%%NL%%TAN%Cube w/ any item to turn it Ethereal} // Vial of Lightsong
+ItemDisplay[llmr]: %PURPLE%+ %NAME% +%MAP-62%{%RED%be used in any cube recipes%NL%The mirrored copy cannot%NL%%NL%%TAN%create a copy of it%NL%Cube w/ any item to} // Lilith's Mirror
+
 // Corruption Items
 ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard %PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
 ItemDisplay[lbox]: %PURPLE%+ %RED%Larzuks Puzzlebox %PURPLE%+%WHITE%%MAP-62% // Larzuk's Puzzlebox
@@ -95,11 +99,17 @@ ItemDisplay[dcma]: %RED%%NAME%%MAP-62% // Vision of Terror
 // Rathma Items
 ItemDisplay[rtmf]: %RED%%NAME%%MAP-62% // Ancient Bone Fragment (Rathma ingredient)
 ItemDisplay[rtmo]: %RED%%NAME%%MAP-62% // Trang-Oul's Jawbone (Rathma ingredient)
-ItemDisplay[rtmv]: %RED%%NAME%%MAP-62% // Something for Rathma...
+ItemDisplay[rtmv]: %RED%%NAME%%MAP-62% // Splinter of the Void (Rathma ingredient)
 ItemDisplay[rtma]: %RED%%NAME%%MAP-62% // Voidstone (accesses Rathma)
 ItemDisplay[cwss]: %RED%%NAME%%MAP-62% // Tainted Worldstone Shard
-ItemDisplay[rid]: %RED%%NAME%%MAP-62% // Unlimited ID Tome
-ItemDisplay[rtp]: %RED%%NAME%%MAP-62% // Unlimited TP Tome
+ItemDisplay[rid]: %RED%%NAME%%%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
+ItemDisplay[rtp]: %BLUE%%NAME%%%MAP-62% // Horadric Navigator (Unlimited TP Tome)
+
+// Uber Ancients Items
+ItemDisplay[ubaa]: %NAME%{%ORANGE%Drops from Tier 1 maps%NL%%NL%%TAN%and Sigil of Korlic%NL%Cube w/ Sigil of Talic} // Sigil of Madawc
+ItemDisplay[ubab]: %NAME%{%ORANGE%Drops from Tier 2 maps%NL%%NL%%TAN%and Sigil of Korlic%NL%Cube w/ Sigil of Madawc} // Sigil of Talic
+ItemDisplay[ubac]: %NAME%{%ORANGE%Drops from Tier 3 maps%NL%%NL%%TAN%and Sigil of Talic%NL%Cube w/ Sigil of Madawc} // Sigil of Korlic
+ItemDisplay[uba]: %NAME%{%TAN%Item used for Uber Ancients..} // Relic of the Ancients (accesses Uber Ancients)
 
 // Gems
 ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
@@ -191,10 +201,11 @@ ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 
 // Rare Items
-ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used in crafting recipes%NL%%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used in crafting recipes%NL%%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used in crafting recipes%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used in crafting recipes%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ELT]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used in crafting recipes}
 
 ItemDisplay[RARE !ID aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
 ItemDisplay[RARE !ID cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
@@ -251,8 +262,16 @@ ItemDisplay[MAG !ID jew]: %NAME%%DOT-97% // All unidentified jewels
 
 // Base Items
 // Gold
-ItemDisplay[GOLD>10000]: %NAME% // Showing very high piles of gold so they don't get missed
-ItemDisplay[GOLD>0]: // Hides all Gold as it is now auto-pickup (still picks up gold hidden by filter)
+ItemDisplay[GOLD<25]: // Always hide gold in piles of less than 25
+ItemDisplay[GOLD<50 CLVL>9]: // Hide 50 gold and less if level 10+
+ItemDisplay[GOLD<100 CLVL>19]: // Hide 100 gold and less if level 20+
+ItemDisplay[GOLD<200 CLVL>29]: // Hide 200 gold and less if level 30+
+ItemDisplay[GOLD<300 CLVL>39]: // Hide 300 gold and less if level 40+
+ItemDisplay[GOLD<500 CLVL>49]: // Hide 500 gold and less if level 50+
+ItemDisplay[GOLD<1000 CLVL>59]: // Hide 1000 gold and less if level 60+
+ItemDisplay[GOLD<3000 CLVL>69]: // Hide 3000 gold and less if level 70+
+ItemDisplay[GOLD<5000 CLVL>79]: // Hide 5000 gold and less if level 80+
+ItemDisplay[GOLD>0]: %NAME%
 
 // Keys
 //ItemDisplay[key]: %NAME% // Consider uncommenting for Lower Kurast Runs
