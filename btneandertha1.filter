@@ -60,7 +60,7 @@ ItemDisplay[std]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-68%{%TAN%+20% Magic/Gold Find%N
 
 // Special Crafting Items -------------------------------------------------------
 ItemDisplay[lsvl]: %PURPLE%+ %NAME% +%MAP-62%{%TAN%Indestructible, Set items%NL%Bows, Crossbows,%NL%%RED%Does NOT work with:%NL%%NL%%TAN%Cube w/ any item to turn it Ethereal} // Vial of Lightsong
-ItemDisplay[llmr]: %PURPLE%+ %NAME% +%MAP-62%{%RED%be used in any cube recipes%NL%The mirrored copy cannot%NL%%NL%%TAN%create a copy of it%NL%Cube w/ any item to} // Lilith's Mirror
+ItemDisplay[llmr]: %PURPLE%+ %NAME% +%MAP-62%{%RED%longer be used in any cube recipes%NL%After mirroring both items can no%NL%%NL%%TAN%create a copy of it%NL%Cube w/ any item to} // Lilith's Mirror
 
 // Corruption Items -------------------------------------------------------------
 ItemDisplay[wss]: %PURPLE%+ %ORANGE%Worldstone Shard%WHITE% x%QTY%%PURPLE% +%ORANGE%%MAP-62%{%TAN%Unsock Item: 50% Mod, 25% Brick, 25% Sockets%NL%Sock Item: 75% Mod, 25% Brick%NL%Maps: 100% chance for Mod%NL%%ORANGE%Cube w/ item to corrupt:} // Worldstone Shard

@@ -214,7 +214,7 @@ ItemDisplay[std]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-68%{%TAN%+20% Magic/Gold Find%N
 // [PDSC] Special Crafting
 // ------------------------------------------------------------------------------
 ItemDisplay[lsvl]: %PURPLE%+ %NAME% +%MAP-62%{%TAN%Indestructible, Set items%NL%Bows, Crossbows,%NL%%RED%Does NOT work with:%NL%%NL%%TAN%Cube w/ any item to turn it Ethereal} // Vial of Lightsong
-ItemDisplay[llmr]: %PURPLE%+ %NAME% +%MAP-62%{%RED%be used in any cube recipes%NL%The mirrored copy cannot%NL%%NL%%TAN%create a copy of it%NL%Cube w/ any item to} // Lilith's Mirror
+ItemDisplay[llmr]: %PURPLE%+ %NAME% +%MAP-62%{%RED%longer be used in any cube recipes%NL%After mirroring both items can no%NL%%NL%%TAN%create a copy of it%NL%Cube w/ any item to} // Lilith's Mirror
 
 // ------------------------------------------------------------------------------
 // [CORR] Corruption Items
