@@ -66,12 +66,12 @@ ItemDisplay[pk3]: %ORANGE%%NAME%%MAP-68% // Key of Destruction
 ItemDisplay[mbr]: %ORANGE%%NAME%%MAP-68% // Mephisto's Brain
 ItemDisplay[dhn]: %ORANGE%%NAME%%MAP-68% // Diablo's Horn
 ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68% // Baal's Eye
-ItemDisplay[ubtm]: %ORANGE%%NAME%%MAP-68%{%TAN%to enter Uber Tristram%NL%near the Blood Fountain%NL%Right-click in Act 5} // The Pandemonium Talisman
+ItemDisplay[ubtm]: %ORANGE%%NAME%%MAP-68% // The Pandemonium Talisman
 ItemDisplay[std]: %NAME%%MAP-68% // Standard of Heroes
 
 // Special Crafting Items
-ItemDisplay[lsvl]: %PURPLE%+ %NAME% +%MAP-62%{%TAN%Indestructible, Set items%NL%Bows, Crossbows,%NL%%RED%Does NOT work with:%NL%%NL%%TAN%Cube w/ any item to turn it Ethereal} // Vial of Lightsong
-ItemDisplay[llmr]: %PURPLE%+ %NAME% +%MAP-62%{%RED%longer be used in any cube recipes%NL%After mirroring both items can no%NL%%NL%%TAN%create a copy of it%NL%Cube w/ any item to} // Lilith's Mirror
+ItemDisplay[lsvl]: %NAME%%MAP-62% // Vial of Lightsong
+ItemDisplay[llmr]: %NAME%%MAP-62% // Lilith's Mirror
 
 // Corruption Items
 ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard %PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
@@ -102,14 +102,14 @@ ItemDisplay[rtmo]: %RED%%NAME%%MAP-62% // Trang-Oul's Jawbone (Rathma ingredient
 ItemDisplay[rtmv]: %RED%%NAME%%MAP-62% // Splinter of the Void (Rathma ingredient)
 ItemDisplay[rtma]: %RED%%NAME%%MAP-62% // Voidstone (accesses Rathma)
 ItemDisplay[cwss]: %RED%%NAME%%MAP-62% // Tainted Worldstone Shard
-ItemDisplay[rid]: %RED%%NAME%%%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
-ItemDisplay[rtp]: %BLUE%%NAME%%%MAP-62% // Horadric Navigator (Unlimited TP Tome)
+ItemDisplay[rid]: %NAME%%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
+ItemDisplay[rtp]: %NAME%%MAP-62%{%TAN%recipe without being consumed%NL%Can be used in Cow level} // Horadric Navigator (Unlimited TP Tome)
 
 // Uber Ancients Items
-ItemDisplay[ubaa]: %NAME%{%ORANGE%Drops from Tier 1 maps%NL%%NL%%TAN%and Sigil of Korlic%NL%Cube w/ Sigil of Talic} // Sigil of Madawc
-ItemDisplay[ubab]: %NAME%{%ORANGE%Drops from Tier 2 maps%NL%%NL%%TAN%and Sigil of Korlic%NL%Cube w/ Sigil of Madawc} // Sigil of Talic
-ItemDisplay[ubac]: %NAME%{%ORANGE%Drops from Tier 3 maps%NL%%NL%%TAN%and Sigil of Talic%NL%Cube w/ Sigil of Madawc} // Sigil of Korlic
-ItemDisplay[uba]: %NAME%{%TAN%Item used for Uber Ancients..} // Relic of the Ancients (accesses Uber Ancients)
+ItemDisplay[ubaa]: %NAME% // Sigil of Madawc
+ItemDisplay[ubab]: %NAME% // Sigil of Talic
+ItemDisplay[ubac]: %NAME% // Sigil of Korlic
+ItemDisplay[uba]: %NAME% // Relic of the Ancients (accesses Uber Ancients)
 
 // Gems
 ItemDisplay[GEM=1 DIFF>0]: // Hide all Chipped gems past Normal difficulty
@@ -201,11 +201,13 @@ ItemDisplay[SET ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notify for ALL set items
 
 // Rare Items
-ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used in crafting recipes%NL%%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used in crafting recipes%NL%%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used in crafting recipes%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used in crafting recipes%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ELT]: %NAME%%CONTINUE%{%ORANGE%Rares can also be used in crafting recipes}
+ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID NORM ARMOR !(CIRC OR aqv OR cqv)]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%NAME%}
+ItemDisplay[RARE ID EXC ARMOR !(CIRC OR aqv OR cqv)]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%NAME%}
+ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
+ItemDisplay[RARE ELT !(CIRC OR aqv OR cqv)]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
 
 ItemDisplay[RARE !ID aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
 ItemDisplay[RARE !ID cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
