@@ -2494,7 +2494,7 @@ ItemDisplay[NMAG CLVL<30 TABSK2<3 (am5 OR ama OR amf)]: %NAME% // Show +0-2 Amaz
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SIN]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Assassin Katars, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 SIN]: %NAME%{%NAME%}%CONTINUE% // All Assassin Katars, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 SIN]: %NAME%{%ORANGE%Strength, Wind%NL%Neophyte, Steel,%NL%%TAN%Possible RWs:}%CONTINUE% // All Assassin Katars, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 SIN]: %NAME%{%ORANGE%Pattern, Plague, Venom%NL%Kings Grace, Lawbringer, Malice,Black, Chaos, Crescent Moon, Fury,%NL%%NL%%TAN%Possible RWs:}%CONTINUE% // All Assassin Katars, 3os
+ItemDisplay[NMAG !INF !RW SOCK=3 SIN]: %NAME%{%ORANGE%Pattern, Plague, Venom%NL%Kings Grace, Lawbringer, Malice,%NL%Black, Chaos, Crescent Moon, Fury,%NL%%TAN%Possible RWs:}%CONTINUE% // All Assassin Katars, 3os
 
 ItemDisplay[NMAG !INF !RW CLVL<30 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Assassin Katars until character level 30
 
