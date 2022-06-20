@@ -15,7 +15,6 @@ Please also look at the instructions under the "Base Items" header.
 1. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
    * [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
    * [Revealed](https://github.com/WolfieeifloW/pd2filter#revealed)
-   * [Compact](https://github.com/WolfieeifloW/pd2filter#compact)
    * [Vanilla](https://github.com/WolfieeifloW/pd2filter#vanilla)
    * [Wolfie](https://github.com/WolfieeifloW/pd2filter#wolfie)
    * [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
@@ -57,10 +56,6 @@ CTRL+click the above link for the raw code.
 ### [Revealed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/revealed.filter)  
 CTRL+click the above link for the raw code.  
 **Select this version if you want to know what Set and Unique item you've dropped without ID'ing it.** This version is based off of Detailed but will show you the name of Set and Unique items when they drop before you've ID'd them. For example if a Unique Shako drops it will say "Shako [Harlequin Crest]". Being based off of Detailed means it still has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking.
-
-### [Compact](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/compact.filter)  
-CTRL+click the above link for the raw code.  
-**Select this version if you are comfortable with writing your own filter lines.** This version will contain only the lines that are already uncommented in the Detailed version. This version will still show and notify a lot of items that you can slowly start to comment out but you have to have knowledge of filters to add your own lines for items that are not already in the filter.
 
 ### [Vanilla](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/vanilla.filter)  
 CTRL+click the above link for the raw code.  
@@ -142,7 +137,7 @@ These are the common problems that people seem to run into. Please check each of
 1. **Are your filters updated for the newest Season?**
    * Yes, all versions of my filters are updated and ready-to-go for the newest Season!
 1. **What is the difference between your filters?**
-   * Vanilla is zero strictness, Detailed/Revealed/Compact are less strict, Wolfie is stricter, and BT is strictest
+   * Vanilla is zero strictness, Detailed/Revealed are less strict, Wolfie is stricter, and BT is strictest
 
 # Extras  
 ### [PlugY.ini](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/PlugY.ini)  
