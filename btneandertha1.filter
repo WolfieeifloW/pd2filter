@@ -58,6 +58,9 @@ ItemDisplay[ubtm]: %PURPLE%+ %RED%The Pandemonium Talisman%PURPLE% +%RED%%MAP-62
 
 ItemDisplay[std]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-68%{%TAN%+20% Magic/Gold Find%NL%+20% Monster Density%NL%+10% Experience%NL%%ORANGE%Cube w/ a map to gain%DARK_GREEN% Heroic%ORANGE% bonus:} // Standard of Heroes
 
+// PD2 New Items ----------------------------------------------------------------
+ItemDisplay[rkey]: %NAME%%MAP-62%{Unlimited Key} // Skeleton Key
+
 // Special Crafting Items -------------------------------------------------------
 ItemDisplay[lsvl]: %PURPLE%+ %RED%Vial of Lightsong%PURPLE% +%RED%%MAP-62%{%TAN%Indestructible, Set items%NL%Bows, Crossbows,%NL%%RED%Does NOT work with:} // Vial of Lightsong
 ItemDisplay[llmr]: %PURPLE%+ %RED%Lilith's Mirror%PURPLE% +%RED%%MAP-62%{%RED%longer be used in any cube recipes!%NL%After mirroring, both items can no%NL%%NL%%TAN%Cube w/ any item to create a copy of it} // Lilith's Mirror
@@ -83,52 +86,52 @@ ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR 
 ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
 
 // Tier 1 Maps
-ItemDisplay[t10]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t11]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* 3/4 broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ruins of Viz-jun
-ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Horazon's Memory
-ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Bastion Keep
-ItemDisplay[t14]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // (Name undecided yet - need to fill in immunities still too)
-ItemDisplay[t15]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // (Tentatively Royal Crypts - need to fill in immunities still too)
-ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t17]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t18]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t19]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
+ItemDisplay[t10]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t11]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* 3/4 broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruins of Viz-jun
+ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Horazon's Memory
+ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Bastion Keep
+ItemDisplay[t14]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sanatorium (need to fill in immunities still)
+ItemDisplay[t15]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Royal Crypts (need to fill in immunities still)
+ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t17]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t18]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t19]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 
 // Tier 2 Maps
-ItemDisplay[t20]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t21]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%RED%(* 1/2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Phlegethon
-ItemDisplay[t22]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Torajan Jungle
-ItemDisplay[t23]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Arreat Battlefield
-ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* 1/2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Tomb of Zoltun Kulle
-ItemDisplay[t25]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Sewers of Harrogath
-ItemDisplay[t26]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // (Tentatively Shadows of Westmarch - need to fill in immunities still too)
-ItemDisplay[t27]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t28]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t29]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
+ItemDisplay[t20]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t21]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%RED%(* 1/2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Phlegethon
+ItemDisplay[t22]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Torajan Jungle
+ItemDisplay[t23]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Arreat Battlefield
+ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* 1/2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Tomb of Zoltun Kulle
+ItemDisplay[t25]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sewers of Harrogath
+ItemDisplay[t26]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Shadows of Westmarch (need to fill in immunities still)
+ItemDisplay[t27]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t28]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t29]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 
 // Tier 3 Maps
-ItemDisplay[t30]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t31]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1/2 broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // River of Blood
-ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%RED%(* 1/2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Light, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Throne of Insanity
-ItemDisplay[t33]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%BLUE%(* broken w/ Infinity)%NL%%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold%BLUE%*%TAN%, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Lost Temple
-ItemDisplay[t34]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1/2 broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Ancestral Trial
-ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Blood Moon
-ItemDisplay[t36]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1/2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Fall of Caldeum
-ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Pandemonium Citadel
-ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1/2 broken w/ Infinity)%NL%%RED%(* broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Light%YELLOW%*%TAN%, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Canyon of Sescheron
-ItemDisplay[t39]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Kehjistan Marketplace
+ItemDisplay[t30]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t31]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1/2 broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // River of Blood
+ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%RED%(* 1/2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Light, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Throne of Insanity
+ItemDisplay[t33]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%BLUE%(* broken w/ Infinity)%NL%%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold%BLUE%*%TAN%, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Lost Temple
+ItemDisplay[t34]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1/2 broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ancestral Trial
+ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Blood Moon
+ItemDisplay[t36]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1/2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Fall of Caldeum
+ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Pandemonium Citadel
+ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1/2 broken w/ Infinity)%NL%%RED%(* broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Light%YELLOW%*%TAN%, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Canyon of Sescheron
+ItemDisplay[t39]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Kehjistan Marketplace
 
 // Tier 4 Maps
-ItemDisplay[t40]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%YELLOW%(1/4 broken w/ Infinity)%NL%%RED%(1/4 broken w/ Infinity)%NL%%TAN%All types%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Cathedral of Light
-ItemDisplay[t42]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Plains of Torment
-ItemDisplay[t43]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // (Tentatively Sanctuary of Sin - need to fill in immunities still too)
-ItemDisplay[t44]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t45]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t46]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t47]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t48]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
-ItemDisplay[t49]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 75} // Not actually a map (yet); just being safe
+ItemDisplay[t40]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%YELLOW%(1/4 broken w/ Infinity)%NL%%RED%(1/4 broken w/ Infinity)%NL%%TAN%All types%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Cathedral of Light
+ItemDisplay[t42]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Plains of Torment
+ItemDisplay[t43]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sanctuary of Sin (need to fill in immunities still)
+ItemDisplay[t44]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t45]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t46]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t47]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t48]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t49]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 
 // Coloring maps names
 ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
@@ -142,7 +145,7 @@ ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]:
 ItemDisplay[dcho]: %RED%Black Soulstone%WHITE% x%QTY%%RED%%MAP-62%{%ORANGE%Drops from Uber Trist bosses%NL%%NL%%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
 ItemDisplay[dcso]: %RED%Prime Evil Soul%WHITE% x%QTY%%RED%%MAP-62%{%TAN%Torch to create a Voidstone%NL%Splinter of the Void, and Hellfire%NL%Cube w/ Trang-Oul's Jawbone,%NL%%NL%to create a Pandemonium Talisman%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone%NL%%ORANGE%Drops from Hell Diablo & Baal} // Prime Evil Soul
 ItemDisplay[dcbl]: %RED%Pure Demonic Essence%WHITE% x%QTY%%RED%%MAP-62%{%ORANGE%Drops from map bosses%NL%%NL%%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
-ItemDisplay[dcma]: %RED%Vision of Terror%MAP-62%{%TAN%to fight Uber Diablo!%NL%Right-click in Act 5 town%NL%%NL%Requires level 75} // Vision of Terror
+ItemDisplay[dcma]: %RED%Vision of Terror%MAP-62%{%RED%Beware of Uber Diablo..%NL%%NL%%TAN%Requires level 75} // Vision of Terror
 
 // Rathma Items -----------------------------------------------------------------
 ItemDisplay[rtmf]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%to create a Trang-Oul's Jawbone%NL%Cube 2 of these w/ Hellfire Torch} // Ancient Bone Fragment
@@ -151,7 +154,7 @@ ItemDisplay[rtmv]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%T
 ItemDisplay[rtma]: %PURPLE%+ %RED%%NAME% %PURPLE%+%MAP-62%{%TAN%Item used for Rathma..} // Voidstone (accesses Rathma)
 ItemDisplay[cwss]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%25% chance Extra XP%NL%25% chance Extra Res%NL%25% chance Extra Vit/Ene%NL%25% chance +1 Skill%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
 ItemDisplay[rid]: %PURPLE%+ %RED%Horadric Alamanac%PURPLE% +%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
-ItemDisplay[rtp]: %PURPLE%+ %BLUE%Horadric Navigator%PURPLE% +%MAP-62%{%TAN%recipe without being consumed%NL%Can be used in Cow level} // Horadric Navigator (Unlimited TP Tome)
+ItemDisplay[rtp]: %PURPLE%+ %BLUE%Horadric Navigator%PURPLE% +%MAP-62%{%TAN%recipe without being consumed%NL%Can be used in cube recipes} // Horadric Navigator (Unlimited TP Tome)
 
 // Uber Ancients Items ----------------------------------------------------------
 ItemDisplay[ubaa]: %PURPLE%+ %RED%Sigil of Madawc%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Tier 1 maps%NL%%NL%%TAN%and Sigil of Korlic%NL%Cube w/ Sigil of Talic} // Sigil of Madawc
@@ -2352,77 +2355,77 @@ ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK69>2 WAND !(wnd OR ywn OR 9wn)]: %N
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK69>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SM%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK69>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SM%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK69>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SM%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK69>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SM%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK69>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SM%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK70 Raise Skeleton
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK70>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 RS%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK70>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 RS%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK70>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 RS%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK70>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 RS%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK70>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 RS%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK70>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 RS%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK75 Clay Golem
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK75>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CG%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK75>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CG%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK75>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CG%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK75>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CG%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK75>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CG%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK75>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CG%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK79 Golem Mastery
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK79>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 GM%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK79>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 GM%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK79>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 GM%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK79>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 GM%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK79>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 GM%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK79>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 GM%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK80 Skeletal Mage
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK80>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Mage%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK80>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Mage%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK80>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Mage%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK80>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Mage%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK80>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Mage%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK80>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Mage%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK85 Blood Golem
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK85>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BG%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK85>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BG%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK85>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BG%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK85>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BG%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK85>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BG%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK85>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BG%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK89 Raise Skeleton Archer
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK89>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SA%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK89>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SA%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK89>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SA%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK89>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SA%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK89>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SA%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK89>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 SA%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK90 Iron Golem
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK90>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IG%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK90>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IG%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK90>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IG%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK90>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IG%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK90>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IG%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK90>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IG%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK94 Fire Golem
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK94>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 FG%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK94>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 FG%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK94>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 FG%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK94>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 FG%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK94>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 FG%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK94>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 FG%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK95 Revive
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK95>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Rev%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK95>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Rev%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK95>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Rev%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK95>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Rev%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK95>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Rev%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK95>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Rev%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK367 Blood Warp
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK367>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Warp%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK367>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Warp%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK367>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Warp%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK367>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Warp%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK367>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Warp%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK367>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Warp%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //          Poison and Bone
 //              SK67 Teeth
@@ -2430,70 +2433,70 @@ ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK67>2 WAND !(wnd OR ywn OR 9wn)]: %N
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK67>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Teeth%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK67>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Teeth%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK67>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Teeth%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK67>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Teeth%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK67>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Teeth%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK68 Bone Armor
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK68>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK68>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK68>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK68>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK68>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK68>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BA%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK73 Poison Dagger
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK73>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PD%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK73>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PD%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK73>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PD%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK73>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PD%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK73>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PD%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK73>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PD%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK74 Corpse Explosion
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK74>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CE%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK74>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CE%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK74>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CE%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK74>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CE%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK74>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CE%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK74>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CE%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK78 Bone Wall
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK78>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BW%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK78>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BW%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK78>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BW%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK78>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BW%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK78>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BW%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK78>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BW%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK83 Desecrate
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK83>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Desc%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK83>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Desc%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK83>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Desc%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK83>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Desc%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK83>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Desc%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK83>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Desc%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK84 Bone Spear
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK84>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Spear%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK84>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Spear%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK84>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Spear%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK84>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Spear%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK84>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Spear%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK84>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Spear%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK88 Bone Prison
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK88>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BP%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK88>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BP%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK88>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BP%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK88>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BP%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK88>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BP%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK88>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BP%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK92 Poison Nova
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK92>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PN%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK92>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PN%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK92>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PN%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK92>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PN%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK92>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PN%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK92>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 PN%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK93 Bone Spirit
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK93>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BS%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK93>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BS%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK93>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BS%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK93>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BS%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK93>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BS%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK93>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 BS%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //          Curses
 //              SK66 Amplify Damage
@@ -2501,84 +2504,84 @@ ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK66>2 WAND !(wnd OR ywn OR 9wn)]: %N
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK66>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 AD%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK66>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 AD%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK66>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 AD%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK66>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 AD%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK66>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 AD%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK71 Dim Vision
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK71>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DV%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK71>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DV%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK71>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DV%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK71>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DV%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK71>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DV%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK71>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DV%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK72 Weaken
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK72>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Weak%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK72>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Weak%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK72>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Weak%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK72>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Weak%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK72>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Weak%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK72>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Weak%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK76 Iron Maiden
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK76>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IM%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK76>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IM%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK76>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IM%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK76>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IM%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK76>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IM%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK76>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 IM%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK77 Terror
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK77>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Terr%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK77>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Terr%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK77>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Terr%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK77>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Terr%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK77>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Terr%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK77>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Terr%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK81 Confuse
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK81>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Conf%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK81>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Conf%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK81>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Conf%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK81>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Conf%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK81>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Conf%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK81>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Conf%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK82 Life Tap
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK82>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LT%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK82>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LT%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK82>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LT%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK82>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LT%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK82>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LT%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK82>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LT%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK86 Attract
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK86>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Att%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK86>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Att%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK86>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Att%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK86>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Att%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK86>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Att%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK86>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Att%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK87 Decrepify
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK87>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Dec%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK87>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Dec%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK87>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Dec%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK87>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Dec%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK87>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Dec%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK87>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 Dec%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK91 Lower Resist
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK91>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LR%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK91>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LR%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK91>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LR%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK91>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LR%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK91>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LR%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK91>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 LR%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK374 Curse Mastery
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK374>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CM%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK374>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CM%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK374>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CM%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK374>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CM%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK374>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CM%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK374>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 CM%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //              SK381 Dark Pact
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Unending Will, White%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 SK381>2 WAND !(wnd OR ywn OR 9wn)]: %NAME% %GRAY%[%BLUE%+3 DP%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Strength, Dominion, White%NL%%TAN%Possible RWs:} // All tiers, 2os
 
 //      Items to Vendor
 ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF<3 (NORM OR EXC OR ELT)]: %DARK_GREEN%$ %WHITE%%NAME% // For non-eth, no sockets items, all difficulties

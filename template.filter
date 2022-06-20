@@ -69,6 +69,9 @@ ItemDisplay[bey]: %ORANGE%%NAME%%MAP-68% // Baal's Eye
 ItemDisplay[ubtm]: %ORANGE%%NAME%%MAP-68% // The Pandemonium Talisman
 ItemDisplay[std]: %NAME%%MAP-68% // Standard of Heroes
 
+// PD2 New Items
+ItemDisplay[rkey]: %NAME%%MAP-62% // Skeleton Key
+
 // Special Crafting Items
 ItemDisplay[lsvl]: %NAME%%MAP-62% // Vial of Lightsong
 ItemDisplay[llmr]: %NAME%%MAP-62% // Lilith's Mirror
@@ -103,7 +106,7 @@ ItemDisplay[rtmv]: %RED%%NAME%%MAP-62% // Splinter of the Void (Rathma ingredien
 ItemDisplay[rtma]: %RED%%NAME%%MAP-62% // Voidstone (accesses Rathma)
 ItemDisplay[cwss]: %RED%%NAME%%MAP-62% // Tainted Worldstone Shard
 ItemDisplay[rid]: %NAME%%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
-ItemDisplay[rtp]: %NAME%%MAP-62%{%TAN%recipe without being consumed%NL%Can be used in Cow level} // Horadric Navigator (Unlimited TP Tome)
+ItemDisplay[rtp]: %NAME%%MAP-62%{%TAN%recipe without being consumed%NL%Can be used in cube recipes} // Horadric Navigator (Unlimited TP Tome)
 
 // Uber Ancients Items
 ItemDisplay[ubaa]: %NAME% // Sigil of Madawc
