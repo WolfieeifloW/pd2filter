@@ -321,6 +321,7 @@ ItemDisplay[MAG SHOP (CLSK0>1 OR CLSK1>1 OR CLSK2>1 OR CLSK3>1 OR CLSK4>1 OR CLS
 ItemDisplay[MAG SHOP TABSK2>5 ZON]: %ORANGE%+6 Javelin // +6 Javelin Skills Javelin
 ItemDisplay[MAG SHOP (CLSK0>1 AND TABSK2>2) ZON]: %ORANGE%+5 Javelin // +2 Amazon, +3 Javelin Skills Javelin
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK254>2) SIN]: %ORANGE%+5 Tiger Strike // +2 Assassin, +3 Tiger Strike katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK259>2) SIN]: %ORANGE%+5 Fists of FIre // +2 Assassin, +3 Fists of Fire katar
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK265>2) SIN]: %ORANGE%+5 Cobra Strike // +2 Assassin, +3 Cobra Strike katar
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK269>2) SIN]: %ORANGE%+5 Claws of Thunder // +2 Assassin, +3 Claws of Thunder katar
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK275>2) SIN]: %ORANGE%+5 Dragon Flight // +2 Assassin, +3 Dragon Flight katar
@@ -334,6 +335,7 @@ ItemDisplay[MAG SHOP (CLSK6>1 AND SK276>2) SIN]: %ORANGE%+5 Death Sentry // +2 A
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK271>2) SIN]: %ORANGE%+5 Chain Lightning Sentry // +2 Assassin, +3 Chain Lightning Sentry katar
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK366>2) SIN]: %ORANGE%+5 Lightning Sentry // +2 Assassin, +3 Lightning Sentry katar
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK254=3) SIN]: %ORANGE%+5 Tiger Strike // +2 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG SHOP (TABSK50=2 AND SK259=3) SIN]: %ORANGE%+5 Fists of FIre // +2 Martial Arts, +3 Fists of Fire katar
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK265=3) SIN]: %ORANGE%+5 Cobra Strike // +2 Martial Arts, +3 Cobra Strike katar
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK269=3) SIN]: %ORANGE%+5 Claws of Thunder // +2 Martial Arts, +3 Claws of Thunder katar
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK275=3) SIN]: %ORANGE%+5 Dragon Flight // +2 Martial Arts, +3 Dragon Flight katar
@@ -347,6 +349,7 @@ ItemDisplay[MAG SHOP (TABSK48=2 AND SK276=3) SIN]: %ORANGE%+5 Death Sentry // +2
 ItemDisplay[MAG SHOP (TABSK48=2 AND SK271=3) SIN]: %ORANGE%+5 Chain Lightning Sentry // +2 Trap, +3 Chain Lightning Sentry katar
 ItemDisplay[MAG SHOP (TABSK48=2 AND SK366=3) SIN]: %ORANGE%+5 Lightning Sentry // +2 Trap, +3 Lightning Sentry katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK254=2) SIN]: %ORANGE%+5 Tiger Strike // +3 Martial Arts, +2 Tiger Strike katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK259=2) SIN]: %ORANGE%+5 Fists of FIre // +3 Martial Arts, +2 Fists of Fire katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK265=2) SIN]: %ORANGE%+5 Cobra Strike // +3 Martial Arts, +2 Cobra Strike katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK269=2) SIN]: %ORANGE%+5 Claws of Thunder // +3 Martial Arts, +2 Claws of Thunder katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK275=2) SIN]: %ORANGE%+5 Dragon Flight // +3 Martial Arts, +2 Dragon Flight katar
@@ -360,6 +363,7 @@ ItemDisplay[MAG SHOP (TABSK48=3 AND SK276=2) SIN]: %ORANGE%+5 Death Sentry // +3
 ItemDisplay[MAG SHOP (TABSK48=3 AND SK271=2) SIN]: %ORANGE%+5 Chain Lightning Sentry // +3 Trap, +2 Chain Lightning Sentry katar
 ItemDisplay[MAG SHOP (TABSK48=3 AND SK366=2) SIN]: %ORANGE%+5 Lightning Sentry // +3 Trap, +2 Lightning Sentry katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK254=3) SIN]: %ORANGE%+5 Tiger Strike // +3 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK259=3) SIN]: %ORANGE%+5 Fists of FIre // +3 Martial Arts, +3 Fists of Fire katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK265=3) SIN]: %ORANGE%+5 Cobra Strike // +3 Martial Arts, +3 Cobra Strike katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK269=3) SIN]: %ORANGE%+5 Claws of Thunder // +3 Martial Arts, +3 Claws of Thunder katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK275=3) SIN]: %ORANGE%+5 Dragon Flight // +3 Martial Arts, +3 Dragon Flight katar

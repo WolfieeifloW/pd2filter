@@ -530,6 +530,7 @@ ItemDisplay[MAG SHOP (CLSK0>1 AND TABSK2>2) ZON]: %ORANGE%+5 Javelin // +2 Amazo
 // Assassin Katars
 //  +2 Sin / +3 skill
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK254>2) SIN]: %ORANGE%+5 Tiger Strike // +2 Assassin, +3 Tiger Strike katar
+ItemDisplay[MAG SHOP (CLSK6>1 AND SK259>2) SIN]: %ORANGE%+5 Fists of Fire // +2 Assassin, +3 Fists of Fire katar
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK265>2) SIN]: %ORANGE%+5 Cobra Strike // +2 Assassin, +3 Cobra Strike katar
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK269>2) SIN]: %ORANGE%+5 Claws of Thunder // +2 Assassin, +3 Claws of Thunder katar
 ItemDisplay[MAG SHOP (CLSK6>1 AND SK275>2) SIN]: %ORANGE%+5 Dragon Flight // +2 Assassin, +3 Dragon Flight katar
@@ -545,6 +546,7 @@ ItemDisplay[MAG SHOP (CLSK6>1 AND SK366>2) SIN]: %ORANGE%+5 Lightning Sentry // 
 
 //  +2 tab / +3 skill
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK254=3) SIN]: %ORANGE%+5 Tiger Strike // +2 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG SHOP (TABSK50=2 AND SK259=3) SIN]: %ORANGE%+5 Fists of Fire // +2 Martial Arts, +3 Fists of Fire katar
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK265=3) SIN]: %ORANGE%+5 Cobra Strike // +2 Martial Arts, +3 Cobra Strike katar
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK269=3) SIN]: %ORANGE%+5 Claws of Thunder // +2 Martial Arts, +3 Claws of Thunder katar
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK275=3) SIN]: %ORANGE%+5 Dragon Flight // +2 Martial Arts, +3 Dragon Flight katar
@@ -560,6 +562,7 @@ ItemDisplay[MAG SHOP (TABSK48=2 AND SK366=3) SIN]: %ORANGE%+5 Lightning Sentry /
 
 //  +3 tab / +2 skill
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK254=2) SIN]: %ORANGE%+5 Tiger Strike // +3 Martial Arts, +2 Tiger Strike katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK259=2) SIN]: %ORANGE%+5 Fists of Fire // +3 Martial Arts, +2 Fists of Fire katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK265=2) SIN]: %ORANGE%+5 Cobra Strike // +3 Martial Arts, +2 Cobra Strike katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK269=2) SIN]: %ORANGE%+5 Claws of Thunder // +3 Martial Arts, +2 Claws of Thunder katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK275=2) SIN]: %ORANGE%+5 Dragon Flight // +3 Martial Arts, +2 Dragon Flight katar
@@ -575,6 +578,7 @@ ItemDisplay[MAG SHOP (TABSK48=3 AND SK366=2) SIN]: %ORANGE%+5 Lightning Sentry /
 
 //  +3 tab / +3 skill
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK254=3) SIN]: %ORANGE%+5 Tiger Strike // +3 Martial Arts, +3 Tiger Strike katar
+ItemDisplay[MAG SHOP (TABSK50=3 AND SK259=3) SIN]: %ORANGE%+5 Fists of Fire // +3 Martial Arts, +3 Fists of Fire katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK265=3) SIN]: %ORANGE%+5 Cobra Strike // +3 Martial Arts, +3 Cobra Strike katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK269=3) SIN]: %ORANGE%+5 Claws of Thunder // +3 Martial Arts, +3 Claws of Thunder katar
 ItemDisplay[MAG SHOP (TABSK50=3 AND SK275=3) SIN]: %ORANGE%+5 Dragon Flight // +3 Martial Arts, +3 Dragon Flight katar
@@ -1232,6 +1236,7 @@ ItemDisplay[MAG !ID SIN]: %NAME% // All Assassin Katars
 // Martial Arts
 ItemDisplay[MAG TABSK50>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // +3 Martial Arts
 ItemDisplay[MAG SK254>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Tiger Strike
+ItemDisplay[MAG SK259>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fists of Fire
 ItemDisplay[MAG SK265>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Cobra Strike
 ItemDisplay[MAG SK269>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Claws of Thunder
 ItemDisplay[MAG SK275>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Dragon Flight
@@ -2502,6 +2507,7 @@ ItemDisplay[NMAG !INF !RW CLVL<30 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show an
 
 // Martial Arts
 ItemDisplay[NMAG !INF !RW SK254>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Tiger Strike
+ItemDisplay[NMAG !INF !RW SK259>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fists of Fire
 ItemDisplay[NMAG !INF !RW SK265>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cobra Strike
 ItemDisplay[NMAG !INF !RW SK269>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Claws of Thunder
 ItemDisplay[NMAG !INF !RW SK275>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Dragon Flight
