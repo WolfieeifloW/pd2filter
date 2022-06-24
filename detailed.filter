@@ -3402,7 +3402,7 @@ ItemDisplay[MAG SK248>2 DRU]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fur
 
 // Summoning
 ItemDisplay[MAG SK221>2 DRU]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Raven
-//ItemDisplay[MAG SK222>2 DRU]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Poison Creeper
+ItemDisplay[MAG SK222>2 DRU]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Poison Creeper
 ItemDisplay[MAG SK226>2 DRU]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Oak Sage
 ItemDisplay[MAG SK227>2 DRU]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Summon Spirit Wolf
 //ItemDisplay[MAG SK231>2 DRU]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Carrion Vine
@@ -4119,17 +4119,17 @@ ItemDisplay[MAG !ETH SK99>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97
 //ItemDisplay[MAG !ETH SK103>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Thorns
 //ItemDisplay[MAG !ETH SK108>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blessed Aim
 //ItemDisplay[MAG !ETH SK113>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Concentration
-//ItemDisplay[MAG !ETH SK114>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Holy Freeze
+ItemDisplay[MAG !ETH SK114>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Holy Freeze
 //ItemDisplay[MAG !ETH SK118>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Holy Shock
-//ItemDisplay[MAG !ETH SK119>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Sanctuary
+ItemDisplay[MAG !ETH SK119>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Sanctuary
 //ItemDisplay[MAG !ETH SK122>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fanaticism
 ItemDisplay[MAG !ETH SK123>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Conviction
 
 // Combat Skills
 ItemDisplay[MAG !ETH SK101>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Holy Bolt
-//ItemDisplay[MAG !ETH SK106>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Zeal
+ItemDisplay[MAG !ETH SK106>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Zeal
 //ItemDisplay[MAG !ETH SK107>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Charge
-//ItemDisplay[MAG !ETH SK111>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Vengeance
+ItemDisplay[MAG !ETH SK111>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Vengeance
 ItemDisplay[MAG !ETH SK112>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blessed Hammer
 //ItemDisplay[MAG !ETH SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Conversion
 //ItemDisplay[MAG !ETH SK117>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Holy Shield
@@ -12450,7 +12450,7 @@ ItemDisplay[NMAG !INF !RW SK103>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Tho
 ItemDisplay[NMAG !INF !RW SK113>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Concentration
 ItemDisplay[NMAG !INF !RW SK114>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Freeze
 ItemDisplay[NMAG !INF !RW SK118>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Shock
-//ItemDisplay[NMAG !INF !RW SK119>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Sanctuary
+ItemDisplay[NMAG !INF !RW SK119>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Sanctuary
 ItemDisplay[NMAG !INF !RW SK122>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanaticism
 ItemDisplay[NMAG !INF !RW SK123>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Conviction
 
