@@ -1008,6 +1008,13 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=2 ci3]: %NAME%%DOT-1E%{%ORANGE%Lore, Nadir%N
 ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ci3]: %NAME%%DOT-1E%{%ORANGE%Delirium, Dream, Ferocity, Radiance%NL%%TAN%Possible RWs:} // All tiers, 3os, Non-Eth
 
 //      Base Amazon Bows
+ItemDisplay[NMAG !INF !RW !SUP SOCK=0 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Normal & Exceptional tiers, 0os, Non-Superior, Non-Eth, below char level 91
+ItemDisplay[NMAG !INF !RW SUP SOCK=0 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // Normal & Exceptional tiers, 0os, Superior, Non-Eth, below char level 91
+ItemDisplay[NMAG !INF !RW CLVL<75 SOCK=2 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 2os until level character level 75, below char level 91
+ItemDisplay[NMAG !INF !RW SOCK=3 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 3os, below char level 91
+ItemDisplay[NMAG !INF !RW SOCK=4 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 4os, below char level 91
+ItemDisplay[NMAG !INF !RW SOCK=5 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 5os, below char level 91
+
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW CLVL<75 SOCK=2 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Elite tiers, 2os until level character level 75
