@@ -115,7 +115,7 @@ These are the common problems that people seem to run into. Please check each of
 1. **What is the (best / recommended / good for X / leveling) filter?**
    * "Best" / "recommended" is subjective. The best/recommended filter is the filter that suits your needs! Try a few out, it's easier than ever now to try different ones as it's only a few clicks in the launcher. [List of Public Filters](https://projectdiablo2.miraheze.org/wiki/Item_Filtering#List_of_Public_Filters) has a short description for each filter
 1. **How do I turn off the filter / go back to original?**
-   * Turn off `Advanced Item Display` in the in-game settings then close your game and launcher. Delete the `filters` folder, and delete `default.filter` and `loot.filter` in the ProjectD2 folder, and then reload the game
+   * Turn off `Enable Loot Filter` in the in-game settings then close your game and launcher. Delete the `filters` folder, and delete `default.filter` and `loot.filter` in the ProjectD2 folder, and then reload the game
 1. **My launcher still says "Coming soon!" for item filters?**
    * First back-up your ddraw.ini and ProjectDiablo.cfg files (these will be overwritten). Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install the new launcher version
 1. **How do I use a filter with PlugY?**
