@@ -618,6 +618,7 @@ ItemDisplay[UNI !ID 6ws]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOL
 ItemDisplay[UNI ID 6ws]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%{%ORANGE%MrLlamaSCs nipple%NL%Never thought Id see,%NL%Time for a tipple;%NL%Finally found it,%NL%%TAN%An ode to MrLlamaSC:} // Mang Song's Lesson Archon Staff
 
 //    Swords
+ItemDisplay[UNI !ID gsd]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // The Patriarch Great Sword
 ItemDisplay[UNI !ID 9fc]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Blade of Ali Baba Tulwar
 ItemDisplay[UNI !ID 7cr]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Lightsabre or Azurewrath Phase Blade
 ItemDisplay[UNI !ID 7bs]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Hadriel's Hand Conquest Sword
