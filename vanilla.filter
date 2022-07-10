@@ -402,13 +402,13 @@ ItemDisplay[r33s]: Zod%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfe
 // ------------------------------------------------------------------------------
 // [RUMA] Rune map icons
 // ------------------------------------------------------------------------------
-ItemDisplay[RUNE<10 QTY<1]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%} // El-Ort
-ItemDisplay[RUNE>9 RUNE<24 QTY<1]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%} // Thul-Mal
-ItemDisplay[RUNE>23 QTY<1]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%} // Ist-Zod
-ItemDisplay[RUNE<10 QTY>0]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%}%CONTINUE% // El-Ort
-ItemDisplay[RUNE>9 RUNE<24 QTY>0]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%}%CONTINUE% // Thul-Mal
-ItemDisplay[RUNE>23 QTY>0]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%}%CONTINUE% // Ist-Zod
-ItemDisplay[RUNE>0 QTY>0]: %NAME%%WHITE% x%QTY%{%NAME%} // Shows the quantity of runes for stacking purposes
+// ------------------------------------------------------------------------------
+// [IBOT] Other Items
+// ------------------------------------------------------------------------------
+ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
+ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
+ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
+ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -574,9 +574,8 @@ ItemDisplay[UNI ID EXC ARMOR]: %NAME%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Ko
 ItemDisplay[UNI ID NORM WEAPON]: %NAME%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Ral Rune, Sol%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[UNI ID EXC WEAPON]: %NAME%{%TAN%Rune, & Perfect Emerald%NL%Cube w/ Lum Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
 
-ItemDisplay[UNI ID (uhn OR rar) RES>0 SOCK=6]: %NAME%%MAP-A5%{%TAN%You will be missed.%NL%to the Diablo II community.%NL%Thank you for your contributions%NL%%ORANGE%Rest In Peace Sulli}
-
 ItemDisplay[UNI !ID]: %NAME%%MAP-A5% // Shows and notifies all Unique items
+ItemDisplay[UNI ID (uhn OR rar) RES>0 SOCK=6]: %NAME%%MAP-A5%{%TAN%You will be missed.%NL%to the Diablo II community.%NL%Thank you for your contributions%NL%%ORANGE%Rest In Peace Sulli}
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -622,7 +621,7 @@ ItemDisplay[RARE LVLREQ<31 MAXDMG>14 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LL
 ItemDisplay[RARE LVLREQ<31 MINDMG>4 MAXDMG>9 jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // 5+ Minimum Damage and 10+ Maximum Damage
 ItemDisplay[RARE LVLREQ<31 STAT91=-15 (RES>7 OR ED>14 OR MAXDMG>7 OR MINDMG>6 OR STR>4 OR DEX>5) jew]: %NAME%{%ORANGE%Note:%TAN% Good for LLD} // -Requirements, and 8%+ All Resist, 15%+ Enhanced Damage, 8+ Maximum Damage, 7+ Minimum Damage, 5+ Strength, or 6+ Dexterity
 
-ItemDisplay[RARE !ID]: %NAME% // Shows all Rare items
+ItemDisplay[RARE !ID]: %NAME%{%NAME%} // Shows all Rare items
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |

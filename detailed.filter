@@ -513,9 +513,9 @@ ItemDisplay[r33s]: Zod%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfe
 ItemDisplay[RUNE<10 QTY<1]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%} // El-Ort
 ItemDisplay[RUNE>9 RUNE<24 QTY<1]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%} // Thul-Mal
 ItemDisplay[RUNE>23 QTY<1]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%} // Ist-Zod
-ItemDisplay[RUNE<10 QTY>0]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%}%CONTINUE% // El-Ort
-ItemDisplay[RUNE>9 RUNE<24 QTY>0]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%}%CONTINUE% // Thul-Mal
-ItemDisplay[RUNE>23 QTY>0]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%}%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE<10 QTY>0]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%}%CONTINUE% // Stacked El-Ort
+ItemDisplay[RUNE>9 RUNE<24 QTY>0]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%}%CONTINUE% // Stacked Thul-Mal
+ItemDisplay[RUNE>23 QTY>0]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%}%CONTINUE% // Stacked Ist-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME%%WHITE% x%QTY%{%NAME%} // Shows the quantity of runes for stacking purposes
 
 // +----------------------------------------------------------------------------+

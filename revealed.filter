@@ -514,9 +514,9 @@ ItemDisplay[r33s]: Zod%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfe
 ItemDisplay[RUNE<10 QTY<1]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%} // El-Ort
 ItemDisplay[RUNE>9 RUNE<24 QTY<1]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%} // Thul-Mal
 ItemDisplay[RUNE>23 QTY<1]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%} // Ist-Zod
-ItemDisplay[RUNE<10 QTY>0]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%}%CONTINUE% // El-Ort
-ItemDisplay[RUNE>9 RUNE<24 QTY>0]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%}%CONTINUE% // Thul-Mal
-ItemDisplay[RUNE>23 QTY>0]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%}%CONTINUE% // Ist-Zod
+ItemDisplay[RUNE<10 QTY>0]: %DARK_GREEN%%NAME% (%RUNENUM%)%DOT-76%{%NAME%}%CONTINUE% // Stacked El-Ort
+ItemDisplay[RUNE>9 RUNE<24 QTY>0]: %ORANGE%%NAME% (%RUNENUM%)%MAP-0B%{%NAME%}%CONTINUE% // Stacked Thul-Mal
+ItemDisplay[RUNE>23 QTY>0]: %RED%%NAME% (%RUNENUM%)%BORDER-50%{%NAME%}%CONTINUE% // Stacked Ist-Zod
 ItemDisplay[RUNE>0 QTY>0]: %NAME%%WHITE% x%QTY%{%NAME%} // Shows the quantity of runes for stacking purposes
 
 // +----------------------------------------------------------------------------+
@@ -689,7 +689,7 @@ ItemDisplay[UNI ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Emerald%NL
 //      [UMAM] Amulets
 // ------------------------------------------------------------------------------
 ItemDisplay[UNI !ID amu]: %NAME%%MAP-A5% // All unique amulets
-ItemDisplay[UNI !ID ram]: %NAME%%MAP-A5% // The Third Eye Amulet
+ItemDisplay[UNI !ID ram]: %NAME% [The Third Eye]%MAP-A5% // The Third Eye Amulet
 
 // ------------------------------------------------------------------------------
 //      [UMCH] Charms
@@ -737,7 +737,7 @@ ItemDisplay[UNI !ID amb]: %NAME% [Bloodravens Charge]%MAP-A5% // Bloodraven's Ch
 
 // Amazon Javelins
 //      Normal tier Amazon Javelins
-ItemDisplay[UNI !ID am5]: %NAME%%MAP-A5% [True Silver] // True Silver Maiden Javelin
+ItemDisplay[UNI !ID am5]: %NAME% [True Silver]%MAP-A5% // True Silver Maiden Javelin
 
 //      Exceptional tier Amazon Javelins
 ItemDisplay[UNI !ID ama]: %NAME% [Titans Revenge]%MAP-A5% // Titan's Revenge Ceremonial Javelin
@@ -771,7 +771,7 @@ ItemDisplay[UNI !ID ame]: %NAME% [Zaraes Resolve]%MAP-A5% // Zerae's Resolve Mat
 //ItemDisplay[UNI !ID skr]: %NAME%%MAP-A5% // Scissors Katar (No Unique for this base)
 
 // Exceptional tier Katars
-ItemDisplay[UNI !ID 9ar]: %NAME%%MAP-A5% // Mage Slayer Quhab
+ItemDisplay[UNI !ID 9ar]: %NAME% [Mage Slayer]%MAP-A5% // Mage Slayer Quhab
 //ItemDisplay[UNI !ID 9wb]: %NAME%%MAP-A5% // Wrist Spike (No Unique for this base)
 //ItemDisplay[UNI !ID 9xf]: %NAME%%MAP-A5% // Fascia (No Unique for this base)
 //ItemDisplay[UNI !ID 9cs]: %NAME%%MAP-A5% // Hand Scythe (No Unique for this base)
@@ -799,7 +799,7 @@ ItemDisplay[UNI !ID 7qr]: %NAME% [Aidans Scar]%MAP-A5% // Aidan's Scar Scissors 
 //ItemDisplay[UNI !ID ba5]: %NAME%%MAP-A5% // Avenger Guard (No Unique for this base)
 
 // Exceptional tier Barbarian Helms
-ItemDisplay[UNI !ID ba6]: %NAME%%MAP-A5% // Cyclopean Roar Jawbone Visor
+ItemDisplay[UNI !ID ba6]: %NAME% [Cyclopean Roar]%MAP-A5% // Cyclopean Roar Jawbone Visor
 //ItemDisplay[UNI !ID ba7]: %NAME%%MAP-A5% // Lion Helm (No Unique for this base)
 //ItemDisplay[UNI !ID ba8]: %NAME%%MAP-A5% // Rage Mask (No Unique for this base)
 //ItemDisplay[UNI !ID ba9]: %NAME%%MAP-A5% // Savage Helmet (No Unique for this base)
@@ -817,7 +817,7 @@ ItemDisplay[UNI !ID baf]: %NAME% [Raekors Virtue]%MAP-A5% // Raekor's Virtue Gua
 // ------------------------------------------------------------------------------
 // Normal tier Pelts
 //ItemDisplay[UNI !ID dr1]: %NAME%%MAP-A5% // Wolf Head (No Unique for this base)
-ItemDisplay[UNI !ID dr2]: %NAME%%MAP-A5% // Quetzalcoatl Hawk Helm
+ItemDisplay[UNI !ID dr2]: %NAME% [Quetzalcoatl]%MAP-A5% // Quetzalcoatl Hawk Helm
 //ItemDisplay[UNI !ID dr3]: %NAME%%MAP-A5% // Antlers (No Unique for this base)
 //ItemDisplay[UNI !ID dr4]: %NAME%%MAP-A5% // Falcon Mask (No Unique for this base)
 //ItemDisplay[UNI !ID dr5]: %NAME%%MAP-A5% // Spirit Mask (No Unique for this base)
@@ -847,7 +847,7 @@ ItemDisplay[UNI !ID drf]: %NAME% [Ursas Nightmare]%MAP-A5% // Ursa's Nightmare D
 //ItemDisplay[UNI !ID ne5]: %NAME%%MAP-A5% // Demon Head (No Unique for this base)
 
 // Exceptional tier Heads
-ItemDisplay[UNI !ID ne6]: %NAME%%MAP-A5% // Kalan's Legacy Mummified Trophy
+ItemDisplay[UNI !ID ne6]: %NAME% [Kalan's Legacy]%MAP-A5% // Kalan's Legacy Mummified Trophy
 //ItemDisplay[UNI !ID ne7]: %NAME%%MAP-A5% // Fetish Trophy (No Unique for this base)
 //ItemDisplay[UNI !ID ne8]: %NAME%%MAP-A5% // Sexton Trophy (No Unique for this base)
 //ItemDisplay[UNI !ID ne9]: %NAME%%MAP-A5% // Cantor Trophy (No Unique for this base)
@@ -866,7 +866,7 @@ ItemDisplay[UNI !ID nef]: %NAME% [Darkforce Spawn]%MAP-A5% // Darkforce Spawn Bl
 // Normal tier Paladin Shields
 //ItemDisplay[UNI !ID pa1]: %NAME%%MAP-A5% // Targe (No Unique for this base)
 //ItemDisplay[UNI !ID pa2]: %NAME%%MAP-A5% // Rondache (No Unique for this base)
-ItemDisplay[UNI !ID pa3]: %NAME%%MAP-A5% // Sankekur's Fall Heraldic Shield
+ItemDisplay[UNI !ID pa3]: %NAME% [Sankekur's Fall]%MAP-A5% // Sankekur's Fall Heraldic Shield
 //ItemDisplay[UNI !ID pa4]: %NAME%%MAP-A5% // Aerin Shield (No Unique for this base)
 //ItemDisplay[UNI !ID pa5]: %NAME%%MAP-A5% // Crown Shield (No Unique for this base)
 
@@ -895,7 +895,7 @@ ItemDisplay[UNI !ID pae]: %NAME% [Dragonscale]%MAP-A5% // Dragonscale Zakarum Sh
 //ItemDisplay[UNI !ID ob5]: %NAME%%MAP-A5% // Jared's Stone (No Unique for this base)
 
 // Exceptional tier Orbs
-ItemDisplay[UNI !ID ob6]: %NAME%%MAP-A5% // Tempest Glowing Orb
+ItemDisplay[UNI !ID ob6]: %NAME% [Tempest]%MAP-A5% // Tempest Glowing Orb
 //ItemDisplay[UNI !ID ob7]: %NAME%%MAP-A5% // Crystalline Globe (No Unique for this base)
 //ItemDisplay[UNI !ID ob8]: %NAME%%MAP-A5% // Cloudy Sphere (No Unique for this base)
 //ItemDisplay[UNI !ID ob9]: %NAME%%MAP-A5% // Sparkling Ball (No Unique for this base)
@@ -956,7 +956,7 @@ ItemDisplay[UNI !ID utu]: %NAME% [The Gladiators Bane]%MAP-A5% // The Gladiator'
 //ItemDisplay[UNI !ID ung]: %NAME%%MAP-A5% // Diamond Mail (No Unique for this base)
 //ItemDisplay[UNI !ID ucl]: %NAME%%MAP-A5% // Loricated Mail (No Unique for this base)
 //ItemDisplay[UNI !ID urs]: %NAME%%MAP-A5% // Great Hauberk (No Unique for this base)
-ItemDisplay[UNI !ID (uhn OR rar)]: %NAME%%MAP-A5% // Cage of the Unsullied Boneweave
+ItemDisplay[UNI !ID (uhn OR rar)]: %NAME% [Cage of the Unsullied]%MAP-A5% // Cage of the Unsullied Boneweave
 ItemDisplay[UNI ID (uhn OR rar) RES>0 SOCK=6]: %NAME% [Cage of the Unsullied]%MAP-A5%{%TAN%You will be missed.%NL%to the Diablo II community.%NL%Thank you for your contributions%NL%%ORANGE%Rest In Peace Sulli}
 ItemDisplay[UNI !ID upl]: %NAME% [Arkaines Valor]%MAP-A5% // Arkaine's Valor Balrog Skin
 ItemDisplay[UNI !ID utp]: %NAME% [Purgatory]%MAP-A5% // Purgatory Archon Plate
@@ -987,7 +987,7 @@ ItemDisplay[UNI !ID zhb]: %NAME% [Thundergods Vigor]%MAP-A5% // Thundergod's Vig
 ItemDisplay[UNI !ID ulc]: %NAME% [Arachnid Mesh]%MAP-A5% // Arachnid Mesh Spiderweb Sash
 ItemDisplay[UNI !ID uvc]: %NAME% [Nosferatus Coil]%MAP-A5% // Nosferatu's Coil Vampirefang Belt
 ItemDisplay[UNI !ID umc]: %NAME% [Verdungos Hearty Cord]%MAP-A5% // Verdungo's Hearty Cord Mithril Coil
-ItemDisplay[UNI !ID (utc OR rbe)]: %NAME%%MAP-A5% // Band of Skulls Troll Belt
+ItemDisplay[UNI !ID (utc OR rbe)]: %NAME% [Band of Skulls]%MAP-A5% // Band of Skulls Troll Belt
 //ItemDisplay[UNI !ID uhc]: %NAME%%MAP-A5% // Colossus Girdle (No Unique for this base)
 
 // ------------------------------------------------------------------------------
