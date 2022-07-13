@@ -564,6 +564,7 @@ ItemDisplay[MAG SHOP (SUFFIX=594 OR SUFFIX=595) WAND]: %ORANGE%Lower Res Charges
 // [IBOT] Other Items
 // ------------------------------------------------------------------------------
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
+ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
 ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
@@ -923,6 +924,7 @@ ItemDisplay[GOLD<3000 CLVL>69]: // Hide 3000 gold and less if level 70+
 ItemDisplay[GOLD<5000 CLVL>79]: // Hide 5000 gold and less if level 80+
 ItemDisplay[GOLD>0]: %NAME%
 
+ItemDisplay[key DIFF>0 MAPID=79]: %NAME% // Show Keys in Lower Kurast
 ItemDisplay[key DIFF>0]: //%NAME% // Remove // before %NAME% to show keys again - useful for Lower Kurast Runs
 
 // Health Potions

@@ -402,6 +402,7 @@ ItemDisplay[MAG SHOP (SUFFIX=594 OR SUFFIX=595) WAND]: %ORANGE%Lower Res Charges
 ItemDisplay[ear]: %NAME% // Show player ears, add "//" before "%NAME%" to hide all ears
 ItemDisplay[!RW INF ID ((CHEST (EXC OR ELT)) OR uit) CLVL<75]: %NAME% // Shows Exceptional and Elite Body Armor & Monarchs until level 75
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL<30]: %NAME% // Show all Low Quality, Cracked, Crude, & Damaged items until character level 30
+ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>29 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>29]: // Hide all Low Quality, Cracked, Crude, & Damaged items at character level 30+
 ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
 ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
@@ -779,6 +780,7 @@ ItemDisplay[RARE !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %YELLOW%%NAME% // Normal
 
 //      Hide all other rares
 ItemDisplay[RARE !ID CLVL<75]: %NAME% // Show all other Rare items until level 75
+ItemDisplay[RARE !ID CLVL>74 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[RARE !ID CLVL>74]: // Hide all other Rare items at level 75+
 
 // Crafted Items ----------------------------------------------------------------
@@ -921,6 +923,7 @@ ItemDisplay[MAG !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %BLUE%%NAME% // Normal di
 
 //      Hide all other magics
 ItemDisplay[MAG !ID CLVL<75]: %NAME% // Show all other Magic items until level 75
+ItemDisplay[MAG !ID CLVL>74 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[MAG !ID CLVL>74]: // Hide all other Magic items at level 75+
 
 // Base Items -------------------------------------------------------------------
@@ -991,6 +994,7 @@ ItemDisplay[tbk QTY<5]: %BLUE%!%WHITE%TP%RED% REFILL ME%BLUE%!%WHITE% // Tome of
 ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 
 //      Base Items Misc
+ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>65 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>65]: // Hides all 1 socket base items after level 65
 
 //      Showing ED on Armors/Weapons (eg "Sacred Armor [13%]")
@@ -1038,6 +1042,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME% %
 
 //      Base Amazon Javelins
 ItemDisplay[NMAG TABSK2>2 CLVL<75 ELT (am5 OR ama OR amf)]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%WHITE%%DOT-1E% // Show +3 Elite tier Amazon Javelins until character level 75
+ItemDisplay[NMAG ID TABSK2<3 CLVL>65 (am5 OR ama OR amf) (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID TABSK2<3 CLVL>65 (am5 OR ama OR amf)]: // This will completely hide all white Amazon Javelins that are +0-2 Jav skills at character level 66+
 
 //      Base Assassin Katars
@@ -2606,4 +2611,5 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>9999 DIFF<1 (NORM OR EXC OR ELT)]: %D
 //      Hide all other bases not specified above
 ItemDisplay[NMAG !INF !RW SUP ETH ELT !(!SPEAR THROWING !ZON)]: %NAME%{%NAME%} // Shows all Superior Ethereal Elite tier base items (these are very rare so it's not spammy at all)
 ItemDisplay[NMAG !RW ID (NORM OR EXC OR ELT) CLVL<65]: %NAME% // Show all other Base items until level 65
+ItemDisplay[NMAG !RW ID (NORM OR EXC OR ELT) CLVL>64 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG !RW ID (NORM OR EXC OR ELT) CLVL>64]: // Hide all other Base items at level 65+

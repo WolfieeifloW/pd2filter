@@ -665,6 +665,7 @@ ItemDisplay[MAG SHOP (SUFFIX=594 OR SUFFIX=595) WAND]: %ORANGE%Lower Res Charges
 // [IBOT] Other Items
 // ------------------------------------------------------------------------------
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
+ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
 ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
@@ -2837,6 +2838,7 @@ ItemDisplay[RARE !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} /
 // ------------------------------------------------------------------------------
 ItemDisplay[RARE !ID CLVL<40]: %NAME%%MAP-A8% // Show and notify for all rares until level 39
 ItemDisplay[RARE !ID CLVL<75 (EXC OR ELT)]: %NAME%%MAP-A8% // Show and notify for all Exceptional and Elite tier rares until level 75
+ItemDisplay[RARE !ID CLVL>39 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[RARE !ID CLVL>39]: //%NAME% // At level 40+, stop showing and notifying for all rares, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show unwanted rares at level 40+
 
 // +----------------------------------------------------------------------------+
@@ -4402,6 +4404,7 @@ ItemDisplay[MAG !RW PRICE>10000 DIFF<1]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // N
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG !ID CLVL<30]: %NAME% // Show all magics until level 29
 ItemDisplay[MAG !ID CLVL<75 (EXC OR ELT)]: %NAME% // Show all Exceptional and Elite tier magics until level 60
+ItemDisplay[MAG !ID CLVL>29 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[MAG !ID CLVL>29]: //%NAME% // At level 30+, stop showing and notifying for all magics, and only show/notify for the ones uncommented above. Uncomment %NAME% in this line to show unwanted magics at level 30+
 
 // +----------------------------------------------------------------------------+
@@ -4440,6 +4443,7 @@ ItemDisplay[GOLD>0]: %NAME%
 // ------------------------------------------------------------------------------
 //    [BCKE] Keys
 // ------------------------------------------------------------------------------
+ItemDisplay[key DIFF>0 MAPID=79]: %NAME% // Show Keys in Lower Kurast
 ItemDisplay[key DIFF>0]: //%NAME% // Remove // before %NAME% to show keys again - useful for Lower Kurast Runs
 
 // ------------------------------------------------------------------------------
@@ -5296,6 +5300,7 @@ ItemDisplay[NMAG !INF !RW SOCK=0 7yw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%C
 ItemDisplay[NMAG !INF !RW SOCK=0 7bw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Lich Wand, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 7gw]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Unearthed Wand, 0os
 
+ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>30 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>30]: // Hides all 1 socket base items after level 30
 
 // ------------------------------------------------------------------------------
@@ -7368,18 +7373,21 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=4 uar]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Sacr
 //    [BABE] Belts
 // ------------------------------------------------------------------------------
 // No need for white belts currently.
+ItemDisplay[NMAG ID BELT CLVL>10 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID BELT CLVL>10]: // This will completely hide all white belts past character level 10
 
 // ------------------------------------------------------------------------------
 //    [BABO] Boots
 // ------------------------------------------------------------------------------
 // No need for white boots currently.
+ItemDisplay[NMAG ID BOOTS CLVL>10 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID BOOTS CLVL>10]: // This will completely hide all white boots past character level 10
 
 // ------------------------------------------------------------------------------
 //    [BAGL] Gloves
 // ------------------------------------------------------------------------------
 // No need for white gloves currently.
+ItemDisplay[NMAG ID GLOVES CLVL>10 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID GLOVES CLVL>10]: // This will completely hide all white gloves past character level 10
 
 // ------------------------------------------------------------------------------
@@ -8027,6 +8035,7 @@ ItemDisplay[NMAG !INF !RW SOCK=4 SHIELD !DIN !NEC]: %NAME%%DOT-20%%PX-00%{%NAME%
 // --- Normal tier Shields
 // ------ Buckler
 // Bucker can only have 1 socket
+ItemDisplay[NMAG ID CLVL>10 buc (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID CLVL>10 buc]: // This will completely hide all white Bucklers past character level 10
 
 // ------ Small Shield
@@ -8164,6 +8173,7 @@ ItemDisplay[NMAG ID CLVL>10 buc]: // This will completely hide all white Buckler
 // --- Exceptional tier Shields
 // ------ Defender
 // Defender can only have 1 socket
+ItemDisplay[NMAG ID CLVL>10 xuc (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID CLVL>10 xuc]: // This will completely hide all white Defenders past character level 10
 
 // ------ Round Shield
@@ -10435,10 +10445,12 @@ ItemDisplay[NMAG !INF !RW SOCK=3 DAGGER !THROWING]: %NAME%{%ORANGE%Plague, Venom
 // --- Normal tier Daggers
 // ------ Dagger
 // Dagger can only have 1 socket
+ItemDisplay[NMAG ID CLVL>20 dgr (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID CLVL>20 dgr]: // This will completely hide all white Daggers past character level 20
 
 // ------ Dirk
 // Dirk can only have 1 socket
+ItemDisplay[NMAG ID CLVL>20 dir (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID CLVL>20 dir]: // This will completely hide all white Dirks past character level 20
 
 // ------ Kris
@@ -10621,6 +10633,7 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} //
 // ------------------------------------------------------------------------------
 //    [BWJA] Javelins
 // ------------------------------------------------------------------------------
+ItemDisplay[NMAG ID CLVL>20 SPEAR THROWING !ZON (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID CLVL>20 SPEAR THROWING !ZON]: // This will completely hide all white javelins past character level 20
 
 // ------------------------------------------------------------------------------
@@ -15020,6 +15033,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colo
 //    [BWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
 // This character level is high as throw barbs can use white throwing weapons for a while while leveling
+ItemDisplay[NMAG ID CLVL>50 !SPEAR THROWING !ZON (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG ID CLVL>50 !SPEAR THROWING !ZON]: // This will completely hide all white throwing weapons past character level 50
 ItemDisplay[NMAG SUP !ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Superior throwing weapons until character level 50
 ItemDisplay[NMAG !SUP ETH CLVL<51 !SPEAR THROWING !ZON]: %NAME%%DOT-20%%PX-00% // Showing Ethereal throwing weapons until character level 50

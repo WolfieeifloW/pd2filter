@@ -179,6 +179,7 @@ ItemDisplay[NMAG !RW ETH SOCK>0]: %GRAY%%NAME%[%SOCKETS%]%CONTINUE% // No space 
 
 // Other Items
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
+ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
 ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
 ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
@@ -279,6 +280,7 @@ ItemDisplay[GOLD<5000 CLVL>79]: // Hide 5000 gold and less if level 80+
 ItemDisplay[GOLD>0]: %NAME%
 
 // Keys
+ItemDisplay[key DIFF>0 MAPID=79]: %NAME% // Show Keys in Lower Kurast
 //ItemDisplay[key]: %NAME% // Consider uncommenting for Lower Kurast Runs
 
 // Potions
