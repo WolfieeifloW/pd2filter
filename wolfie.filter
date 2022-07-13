@@ -3389,6 +3389,7 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>9999 DIFF<1 (NORM OR EXC OR ELT)]: %D
 ItemDisplay[NMAG !RW ID (ARMOR OR WEAPON) CLVL<30]: %NAME%{%NAME%} // Until level 30 notify and show all base items
 ItemDisplay[NMAG !RW ID (ARMOR OR WEAPON) (EXC OR ELT) CLVL<75]: %NAME%{%NAME%} // Until level 75 notify and show all Exceptional and Elite tier base items
 ItemDisplay[NMAG !INF !RW SUP ETH ELT]: %NAME%{%NAME%} // Shows all Superior Ethereal Elite tier base items (these are very rare so it's not spammy at all)
+ItemDisplay[NMAG !RW ID (ARMOR OR WEAPON) CLVL>29 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[NMAG !RW ID (ARMOR OR WEAPON) CLVL>29]: {%NAME%} // At level 30+, stop notifying for all base items, and only notify for the ones uncommented above
 
 // +----------------------------------------------------------------------------+
