@@ -2612,4 +2612,4 @@ ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>9999 DIFF<1 (NORM OR EXC OR ELT)]: %D
 ItemDisplay[NMAG !INF !RW SUP ETH ELT !(!SPEAR THROWING !ZON)]: %NAME%{%NAME%} // Shows all Superior Ethereal Elite tier base items (these are very rare so it's not spammy at all)
 ItemDisplay[NMAG !RW ID (NORM OR EXC OR ELT) CLVL<65]: %NAME% // Show all other Base items until level 65
 ItemDisplay[NMAG !RW ID (NORM OR EXC OR ELT) CLVL>64 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
-ItemDisplay[NMAG !RW ID (NORM OR EXC OR ELT) CLVL>64]: // Hide all other Base items at level 65+
+ItemDisplay[NMAG !RW ID (NORM OR EXC OR ELT) CLVL>64 !(DIFF=0 (DRU OR BAR))]: // Hide all other Base items at level 65+
