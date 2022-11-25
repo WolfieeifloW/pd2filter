@@ -198,7 +198,8 @@ ItemDisplay[rkey]: %NAME%%MAP-62%{Unlimited Key} // Skeleton Key
 // [PDSC] Special Crafting
 // ------------------------------------------------------------------------------
 ItemDisplay[lsvl]: %PURPLE%+ %RED%Vial of Lightsong%PURPLE% +%RED%%MAP-62%{%TAN%Indestructible, Set items%NL%Bows, Crossbows,%NL%%RED%Does NOT work with:} // Vial of Lightsong
-ItemDisplay[llmr]: %PURPLE%+ %RED%Lilith's Mirror%PURPLE% +%RED%%MAP-62%{%RED%longer be used in any cube recipes!%NL%After mirroring, both items can no%NL%%NL%%TAN%Cube w/ any item to create a copy of it} // Lilith's Mirror
+ItemDisplay[llmr]: %PURPLE%+ %RED%Lilith's Mirror%PURPLE% +%RED%%MAP-62%{%RED%longer be used in any cube recipes!%NL%After mirroring, both items can no%NL%%NL%%TAN%jewelry, or jewel to create a copy of it%NL%Cube w/ any magic or rare weapon, armor,} // Lilith's Mirror
+ItemDisplay[lmal]: %NAME%{%TAN%regardless of item rarity%NL%Adds 1 socket to an item,} // Larzuks Malus
 
 // ------------------------------------------------------------------------------
 // [CORR] Corruption Items
@@ -216,6 +217,7 @@ ItemDisplay[upma]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Rune or Greater, & Magic Map%
 ItemDisplay[imma]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map%NL%} // Imbue Magic Map (Arcane Orb)
 ItemDisplay[scou]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Cube w/ Magic or Rare Map%NL%%ORANGE%Purge Map%NL%} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps%NL%} // Cartographer's Orb
+ItemDisplay[fort]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%damage, & twice as much loot%NL%2x Experience, 20% additional%NL%but gives monsters 2x Health,%NL%Reduces base density by half,} // Orb of Fortification
 ItemDisplay[scrb]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon%NL%} // Horadrim Scarab
 
 // ------------------------------------------------------------------------------
@@ -228,39 +230,40 @@ ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR
 
 // Tier 1 Maps
 ItemDisplay[t10]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t11]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* 3 out of 4 broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruins of Viz-jun
-ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Horazon's Memory
-ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Bastion Keep
-ItemDisplay[t14]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sanatorium
-ItemDisplay[t15]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison, Phys, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Royal Crypts
-ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t21]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%RED%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Phlegethon
+ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Horazon's Memory
+ItemDisplay[t22]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Torajan Jungle
+ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Bastion Keep
+ItemDisplay[t23]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Arreat Battlefield
+ItemDisplay[t33]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%BLUE%(* broken w/ Infinity)%NL%%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold%BLUE%*%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Lost Temple
+ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruined Cistern
 ItemDisplay[t17]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 ItemDisplay[t18]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 ItemDisplay[t19]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 
 // Tier 2 Maps
 ItemDisplay[t20]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t21]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%RED%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Phlegethon
-ItemDisplay[t22]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Torajan Jungle
-ItemDisplay[t23]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Arreat Battlefield
-ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Tomb of Zoltun Kulle
-ItemDisplay[t25]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Light, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sewers of Harrogath
-ItemDisplay[t26]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%RED%(* broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Cold, Phys, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Shadows of Westmarch
+ItemDisplay[t11]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* 3 out of 4 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruins of Viz-jun
+ItemDisplay[t14]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sanatorium
+ItemDisplay[t34]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ancestral Trial
+ItemDisplay[t15]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Royal Crypts
+ItemDisplay[t26]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%RED%(* broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Cold, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Shadows of Westmarch
+ItemDisplay[t36]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Fall of Caldeum
 ItemDisplay[t27]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 ItemDisplay[t28]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 ItemDisplay[t29]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 
 // Tier 3 Maps
 ItemDisplay[t30]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t31]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // River of Blood
-ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%RED%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Light, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Throne of Insanity
-ItemDisplay[t33]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%BLUE%(* broken w/ Infinity)%NL%%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold%BLUE%*%TAN%, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Lost Temple
-ItemDisplay[t34]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ancestral Trial
+ItemDisplay[t31]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Cold, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // River of Blood
+ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%RED%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Throne of Insanity
+ItemDisplay[t24]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Tomb of Zoltun Kulle
+ItemDisplay[t25]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sewers of Harrogath
 ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Blood Moon
-ItemDisplay[t36]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Fall of Caldeum
-ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Pandemonium Citadel
-ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1 out of 2 broken w/ Infinity)%NL%%RED%(* broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Light%YELLOW%*%TAN%, Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Canyon of Sescheron
-ItemDisplay[t39]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Kehjistan Marketplace
+ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Cold, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Pandemonium Citadel
+ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Canyon of Sescheron
+ItemDisplay[t39]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Kehjistan Marketplace
+ItemDisplay[t3a]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ashen Plains
 
 // Tier 4 Maps
 ItemDisplay[t40]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
@@ -441,7 +444,7 @@ ItemDisplay[r12s]: Sol%CONTINUE%{%TAN%3 Sol + Key = Shael%NL%%NL%%WHITE%Shields:
 ItemDisplay[r13]: Shael%CONTINUE%{%TAN%3 Shael + Key = Dol%NL%} // Shael Rune
 ItemDisplay[r13s]: Shael%CONTINUE%{%TAN%3 Shael + Key = Dol%NL%%NL%%WHITE%Shields: +20% Faster Block Rate%NL%Helms: +20% Faster Hit Recovery%NL%Armor: +20% Faster Hit Recovery%NL%Weapons: +20% Increased Attack Speed%NL%} // Stacked Shael Rune
 ItemDisplay[r14]: Dol%CONTINUE%{%TAN%3 Dol + Key = Hel%NL%} // Dol Rune
-ItemDisplay[r14s]: Dol%CONTINUE%{%TAN%3 Dol + Key = Hel%NL%%NL%%WHITE%Shields: Replenish Life +10%NL%Helms: Replenish Life +10%NL%Armor: Replenish Life +10%NL%Weapons: +25% Enhanced Damage%NL%} // Stacked Dol Rune
+ItemDisplay[r14s]: Dol%CONTINUE%{%TAN%3 Dol + Key = Hel%NL%%NL%%WHITE%Shields: Replenish Life +10%NL%Helms: Replenish Life +10%NL%Armor: Replenish Life +10%NL%Weapons: +20% Enhanced Damage%NL%} // Stacked Dol Rune
 ItemDisplay[r15]: Hel%CONTINUE%{%TAN%3 Hel + Key = Io%NL%} // Hel Rune
 ItemDisplay[r15s]: Hel%CONTINUE%{%TAN%3 Hel + Key = Io%NL%%NL%%WHITE%Shields: Requirements -15%%NL%Helms: Requirements -15%%NL%Armor: Requirements -15%%NL%Weapons: Requirements -20%%NL%} // Stacked Hel Rune
 ItemDisplay[r16]: Io%CONTINUE%{%TAN%3 Io + Key = Lum%NL%} // Io Rune
@@ -465,21 +468,21 @@ ItemDisplay[r23s]: Mal%CONTINUE%{%TAN%2 Mal + Key = Ist%NL%%NL%%WHITE%Shields: M
 //    [RUHI] High Runes
 // ------------------------------------------------------------------------------
 ItemDisplay[r24]: Ist%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
-ItemDisplay[r24s]: Ist%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%%NL%%WHITE%Shields: 25% Better Chance of Getting Magic Items%NL%Helms: 25% Better Chance of Getting Magic Items%NL%Armor: 25% Better Chance of Getting Magic Items%NL%Weapons: 30% Better Chance of Getting Magic Items%NL%} // Stacked Ist Rune
+ItemDisplay[r24s]: Ist%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%%NL%%WHITE%Shields: 25% Better Chance of Getting Magic Items%NL%Helms: 30% Better Chance of Getting Magic Items%NL%Armor: 30% Better Chance of Getting Magic Items%NL%Weapons: 30% Better Chance of Getting Magic Items%NL%} // Stacked Ist Rune
 ItemDisplay[r25]: Gul%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%} // Gul Rune
 ItemDisplay[r25s]: Gul%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%%NL%%WHITE%Shields: +4% to Maximum Poison Resist%NL%Helms: +4% to Maximum Poison Resist%NL%Armor: +4% to Maximum Poison Resist%NL%Weapons: 20% Bonus to Attack Rating%NL%} // Stacked Gul Rune
 ItemDisplay[r26]: Vex%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%} // Vex Rune
 ItemDisplay[r26s]: Vex%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%%NL%%WHITE%Shields: +4% to Maximum Fire Resist%NL%Helms: +4% to Maximum Fire Resist%NL%Armor: +4% to Maximum Fire Resist%NL%Weapons: 7% Mana stolen per hit%NL%} // Stacked Vex Rune
 ItemDisplay[r27]: Ohm%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%} // Ohm Rune
-ItemDisplay[r27s]: Ohm%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%%NL%%WHITE%Shields: +4% to Maximum Cold Resist%NL%Helms: +4% to Maximum Cold Resist%NL%Armor: +4% to Maximum Cold Resist%NL%Weapons: +50% Enhanced Damage%NL%} // Stacked Ohm Rune
+ItemDisplay[r27s]: Ohm%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%%NL%%WHITE%Shields: +4% to Maximum Cold Resist%NL%Helms: +4% to Maximum Cold Resist%NL%Armor: +4% to Maximum Cold Resist%NL%Weapons: +40% Enhanced Damage%NL%} // Stacked Ohm Rune
 ItemDisplay[r28]: Lo%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%} // Lo Rune
 ItemDisplay[r28s]: Lo%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%%NL%%WHITE%Shields: +4% to Maximum Light Resist%NL%Helms: +4% to Maximum Light Resist%NL%Armor: +4% to Maximum Light Resist%NL%Weapons: 20% Deadly Strike%NL%} // Stacked Lo Rune
 ItemDisplay[r29]: Sur%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%} // Sur Rune
 ItemDisplay[r29s]: Sur%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%%NL%%WHITE%Shields: +50 to Mana%NL%Helms: Increase Maximum Mana 5%%NL%Armor: Increase Maximum Mana 5%%NL%Weapons: +4 Life after each Kill%NL%} // Stacked Sur Rune
 ItemDisplay[r30]: Ber%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%} // Ber Rune
-ItemDisplay[r30s]: Ber%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%%NL%%WHITE%Shields: Physical Damage Taken Reduced by 4%%NL%Helms: Physical Damage Taken Reduced by 4%%NL%Armor: Physical Damage Taken Reduced by 4%%NL%Weapons: 20% Chance of Crushing Blow%NL%} // Stacked Ber Rune
+ItemDisplay[r30s]: Ber%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%%NL%%WHITE%Shields: Physical Damage Taken Reduced by 4%%NL%Helms: Physical Damage Taken Reduced by 5%%NL%Armor: Physical Damage Taken Reduced by 5%%NL%Weapons: 20% Chance of Crushing Blow%NL%} // Stacked Ber Rune
 ItemDisplay[r31]: Jah%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
-ItemDisplay[r31s]: Jah%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%%NL%%WHITE%Shields: +50 to Life%NL%Helms: Increase Maximum Life 5%%NL%Armor: Increase Maximum Life 5%%NL%Weapons: Ignore Target's Defense%NL%} // Stacked Jah Rune
+ItemDisplay[r31s]: Jah%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%%NL%%WHITE%Shields: +75 to Life%NL%Helms: Increase Maximum Life 5%%NL%Armor: Increase Maximum Life 5%%NL%Weapons: Ignore Target's Defense%NL%} // Stacked Jah Rune
 ItemDisplay[r32]: Cham%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
 ItemDisplay[r32s]: Cham%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%%NL%%WHITE%Shields: Cannot be Frozen%NL%Helms: Cannot be Frozen%NL%Armor: Cannot be Frozen%NL%Weapons: Freezes Target +3%NL%} // Stacked Cham Rune
 ItemDisplay[r33]: Zod%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and} // Zod Rune
@@ -2643,7 +2646,7 @@ ItemDisplay[NMAG !INF !RW !SUP SOCK=0 DIN]: %NAME%{%NAME%%NL%& Perfect Ruby for 
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 DIN]: %NAME%{%NAME%}%CONTINUE% // All Paladin shields, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 DIN]: %NAME%{%ORANGE%Rhyme, Splendor%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 DIN]: %NAME%{%ORANGE%Dream, Sanctuary%NL%Ancients Pledge, Dragon,%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 DIN]: %NAME%{%ORANGE%Exile, Phoenix, Spirit%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 4os
+ItemDisplay[NMAG !INF !RW SOCK=4 DIN]: %NAME%{%ORANGE%Shattered Wall, Spirit%NL%Exile, Phoenix%NL%%TAN%Possible RWs:}%CONTINUE% // All Paladin shields, 4os
 
 ItemDisplay[NMAG !INF !RW CLVL<30 DIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Paladin shields until character level 30
 
@@ -2908,7 +2911,7 @@ ItemDisplay[NMAG !INF !RW SOCK=2 BOW !ZON]: %NAME%{%ORANGE%Zephyr%NL%%TAN%Possib
 ItemDisplay[NMAG !INF !RW SOCK=3 BOW !ZON]: %NAME%{%ORANGE%Plague, Venom%NL%Edge, Melody,%NL%%TAN%Possible RWs:}%CONTINUE% // All Bows, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 BOW !ZON]: %NAME%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:}%CONTINUE% // All Bows, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 BOW !ZON]: %NAME%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:}%CONTINUE% // All Bows, 5os
-ItemDisplay[NMAG !INF !RW SOCK=6 BOW !ZON]: %NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Bows, 6os
+ItemDisplay[NMAG !INF !RW SOCK=6 BOW !ZON]: %NAME%{%ORANGE%Asylum, Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Bows, 6os
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 BOW !ZON]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Bows until character level 30
 
@@ -3021,7 +3024,7 @@ ItemDisplay[NMAG !INF !RW SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma 
 ItemDisplay[NMAG !INF !RW SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Black, Fury, Lawbringer,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Passion, Phoenix%NL%Hand of Justice,%NL%Famine, Fortitude,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Eternity, Honor, Obedience%NL%Beast, Call to Arms, Doom,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 5os
-ItemDisplay[NMAG !INF !RW SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Last Wish, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 6os
+ItemDisplay[NMAG !INF !RW SOCK=6 (mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%{%ORANGE%Last Wish, Silence%NL%Asylum, Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Hammers, 6os
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm)]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Hammers until character level 30
 
@@ -3069,7 +3072,7 @@ ItemDisplay[NMAG !INF !RW SOCK=2 POLEARM]: %NAME%{%ORANGE%Strength, Wind%NL%%TAN
 ItemDisplay[NMAG !INF !RW SOCK=3 POLEARM]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 POLEARM]: %NAME%{%ORANGE%Phoenix, Pride, Rampage, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 POLEARM]: %NAME%{%ORANGE%Obedience, Zenith%NL%Doom, Eternity, Honor,%NL%Call to Arms, Destruction,%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 5os
-ItemDisplay[NMAG !INF !RW SOCK=6 POLEARM]: %NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 6os
+ItemDisplay[NMAG !INF !RW SOCK=6 POLEARM]: %NAME%{%ORANGE%Asylum, Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Polearms, 6os
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 POLEARM]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Polearms until character level 30
 
@@ -3124,7 +3127,7 @@ ItemDisplay[NMAG !INF !RW SUP SOCK=0 SCEPTER]: %NAME%{%NAME%}%CONTINUE% // All S
 ItemDisplay[NMAG !INF !RW SOCK=2 SCEPTER]: %NAME%{%ORANGE%Neophyte, Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 SCEPTER]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SCEPTER]: %NAME%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice, Insight%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 4os
-ItemDisplay[NMAG !INF !RW SOCK=5 SCEPTER]: %NAME%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 5os
+ItemDisplay[NMAG !INF !RW SOCK=5 SCEPTER]: %NAME%{%ORANGE%Doom, Eternity, Honor%NL%Beast, Call to Arms%NL%%TAN%Possible RWs:}%CONTINUE% // All Scepters, 5os
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Scepters until character level 30
 
@@ -3165,7 +3168,7 @@ ItemDisplay[NMAG !INF !RW SOCK=2 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Strength,
 ItemDisplay[NMAG !INF !RW SOCK=3 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Phoenix, Pride, Rampage, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Obedience, Zenith%NL%Doom, Eternity, Honor,%NL%Call to Arms, Destruction,%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 5os
-ItemDisplay[NMAG !INF !RW SOCK=6 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 6os
+ItemDisplay[NMAG !INF !RW SOCK=6 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Asylum, Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 6os
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Spears until character level 30
 
@@ -3210,7 +3213,7 @@ ItemDisplay[NMAG !INF !RW SOCK=2 STAFF]: %NAME%{%ORANGE%Strength, Wind%NL%Leaf, 
 ItemDisplay[NMAG !INF !RW SOCK=3 STAFF]: %NAME%{%ORANGE%Plague, Venom%NL%Fury, Malice%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 STAFF]: %NAME%{%ORANGE%Phoenix, Rampage, Spirit%NL%Insight, Memory, Passion,%NL%Heart of the Oak, Infinity,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 STAFF]: %NAME%{%ORANGE%Call to Arms, Doom, Eternity, Honor%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 5os
-ItemDisplay[NMAG !INF !RW SOCK=6 STAFF]: %NAME%{%ORANGE%Obsession, Silence%NL%Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 6os
+ItemDisplay[NMAG !INF !RW SOCK=6 STAFF]: %NAME%{%ORANGE%Obsession, Silence%NL%Asylum, Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Staves, 6os
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 STAFF]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Staves until character level 30
 
@@ -3271,7 +3274,7 @@ ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SWORD]: %NAME%{%NAME%%NL%& Perfect Amethys
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 SWORD]: %NAME%{%NAME%}%CONTINUE% // All Swords, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 SWORD]: %NAME%{%ORANGE%Steel, Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 SWORD]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Kings Grace, Lawbringer,%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 SWORD]: %NAME%{%ORANGE%Phoenix, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 4os
+ItemDisplay[NMAG !INF !RW SOCK=4 SWORD]: %NAME%{%ORANGE%Phoenix, Rift, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SWORD]: %NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 SWORD]: %NAME%{%ORANGE%Unbending Will%NL%Last Wish, Silence,%NL%Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 6os
 
