@@ -89,12 +89,12 @@ ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR
 
 // Tier 1 Maps
 ItemDisplay[t10]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t21]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%RED%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Phlegethon
-ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Horazon's Memory
-ItemDisplay[t22]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Torajan Jungle
-ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Bastion Keep
-ItemDisplay[t23]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Arreat Battlefield
-ItemDisplay[t33]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%BLUE%(* broken w/ Infinity)%NL%%YELLOW%(* broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold%BLUE%*%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Lost Temple
+ItemDisplay[t21]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%RED%(*1 of 2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Phlegethon
+ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Fire, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Horazon's Memory
+ItemDisplay[t22]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Torajan Jungle
+ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Bastion Keep
+ItemDisplay[t23]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Arreat Battlefield
+ItemDisplay[t33]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%BLUE%(*broken w/ Infinity)%NL%%YELLOW%(*broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%TAN%, Cold%BLUE%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Lost Temple
 ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruined Cistern
 ItemDisplay[t17]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 ItemDisplay[t18]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
@@ -102,39 +102,39 @@ ItemDisplay[t19]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%R
 
 // Tier 2 Maps
 ItemDisplay[t20]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t11]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* 3 out of 4 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruins of Viz-jun
-ItemDisplay[t14]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sanatorium
-ItemDisplay[t34]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ancestral Trial
-ItemDisplay[t15]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Royal Crypts
-ItemDisplay[t26]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%RED%(* broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Cold, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Shadows of Westmarch
-ItemDisplay[t36]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(* broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Fall of Caldeum
+ItemDisplay[t11]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(*3 of 4 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruins of Viz-jun
+ItemDisplay[t14]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sanatorium
+ItemDisplay[t34]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Fire, Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ancestral Trial
+ItemDisplay[t15]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Royal Crypts
+ItemDisplay[t26]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%RED%(*broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Cold, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Shadows of Westmarch
+ItemDisplay[t36]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Fall of Caldeum
 ItemDisplay[t27]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 ItemDisplay[t28]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 ItemDisplay[t29]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 
 // Tier 3 Maps
 ItemDisplay[t30]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t31]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Cold, Magic%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // River of Blood
-ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%RED%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Throne of Insanity
-ItemDisplay[t24]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Tomb of Zoltun Kulle
-ItemDisplay[t25]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sewers of Harrogath
-ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Blood Moon
-ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Cold, Phys%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Pandemonium Citadel
-ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(* 1 out of 2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Canyon of Sescheron
-ItemDisplay[t39]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Cold, Poison%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Kehjistan Marketplace
+ItemDisplay[t31]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Cold, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // River of Blood
+ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%RED%(*1 of 2 broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Throne of Insanity
+ItemDisplay[t24]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(*1 of 2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Tomb of Zoltun Kulle
+ItemDisplay[t25]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sewers of Harrogath
+ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Blood Moon
+ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Cold, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Pandemonium Citadel
+ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%YELLOW%(*1 of 2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Canyon of Sescheron
+ItemDisplay[t39]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Cold, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Kehjistan Marketplace
 ItemDisplay[t3a]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ashen Plains
 
 // Tier 4 Maps
-ItemDisplay[t40]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%YELLOW%(1 out of 4 broken w/ Infinity)%NL%%RED%(1/4 broken w/ Infinity)%NL%%TAN%All types%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Cathedral of Light
-ItemDisplay[t42]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Plains of Torment
-ItemDisplay[t43]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types%NL%%RED%Immunities:%NL%%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sanctuary of Sin
-ItemDisplay[t44]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t45]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t46]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t47]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t48]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
-ItemDisplay[t49]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
+ItemDisplay[t40]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%N/A%NL%%RED%Immunities:%NL%} // Not actually a map (yet); just being safe
+ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%YELLOW%(1 of 4 broken w/ Infinity)%NL%%RED%(1 of 4 broken w/ Infinity)%NL%%TAN%All types%NL%%RED%Immunities:} // Cathedral of Light
+ItemDisplay[t42]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types%NL%%RED%Immunities:%NL%} // Plains of Torment
+ItemDisplay[t43]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types%NL%%RED%Immunities:%NL%} // Sanctuary of Sin
+ItemDisplay[t44]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t45]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t46]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t47]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t48]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t49]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actually a map (yet); just being safe
 
 // Coloring maps names
 ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
