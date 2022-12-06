@@ -92,7 +92,7 @@ ItemDisplay[fort]: %NAME% // Orb of Fortification (Half density but monsters 2x 
 ItemDisplay[scrb]: %NAME%%MAP-62% // Create Group Dungeon (Cube with Tier 3 map) (Horadrim Scarab)
 
 // Maps & Arenas
-ItemDisplay[t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49]: %NAME% // Maps
+ItemDisplay[t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a]: %NAME% // Maps
 ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME% // Items for PvP arenas
 
 // Diablo Clone Items
