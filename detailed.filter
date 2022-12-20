@@ -284,7 +284,7 @@ ItemDisplay[t3a]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Light, Poison, 
 
 // Tier 4 Maps
 ItemDisplay[t40]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%N/A%NL%%RED%Immunities:%NL%} // Not actually a map (yet); just being safe
-ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%YELLOW%(1 of 4 broken w/ Infinity)%NL%%RED%(1 of 4 broken w/ Infinity)%NL%%TAN%All types%NL%%RED%Immunities:} // Cathedral of Light
+ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types (%YELLOW%*%RED%*%TAN%)%NL%%RED%Immunities:} // Cathedral of Light
 ItemDisplay[t42]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types%NL%%RED%Immunities:%NL%} // Plains of Torment
 ItemDisplay[t43]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types%NL%%RED%Immunities:%NL%} // Sanctuary of Sin
 ItemDisplay[t44]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actually a map (yet); just being safe
