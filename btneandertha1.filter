@@ -80,12 +80,13 @@ ItemDisplay[scou]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Cube w/ Magic or Rare Map%NL%
 ItemDisplay[upmp]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps%NL%} // Cartographer's Orb
 ItemDisplay[fort]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%damage, & twice as much loot%NL%2x Experience, 20% additional%NL%but gives monsters 2x Health,%NL%Reduces base density by half,} // Orb of Fortification
 ItemDisplay[scrb]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon%NL%} // Horadrim Scarab
+ItemDisplay[iwss]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%Cube w/ a map to add a random event} // Catalyst Shard
 
 // Maps & Arenas -------------------------------------------------------------------------
 // Coloring maps names
-ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
-ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
-ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
+ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
+ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
+ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
 
 // Tier 1 Maps
 ItemDisplay[t10]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
@@ -136,10 +137,22 @@ ItemDisplay[t47]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actua
 ItemDisplay[t48]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actually a map (yet); just being safe
 ItemDisplay[t49]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actually a map (yet); just being safe
 
+// Unique Maps
+ItemDisplay[t50]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t51]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Zhar's Sanctum
+ItemDisplay[t52]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Stygian Caverns
+ItemDisplay[t53]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t54]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t55]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t56]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t57]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t58]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t59]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
+
 // Coloring maps names
-ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
-ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a)]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
-ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
+ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
+ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
+ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
 
 // Arenas
 ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME%{%TAN%to open the PvP Arena%NL%Right-click in Act 5 town} // Items for PvP arenas
@@ -151,9 +164,11 @@ ItemDisplay[dcbl]: %RED%Pure Demonic Essence%WHITE% x%QTY%%RED%%MAP-62%{%ORANGE%
 ItemDisplay[dcma]: %RED%Vision of Terror%MAP-62%{%RED%Beware of Uber Diablo..%NL%%NL%%TAN%Requires level 75} // Vision of Terror
 
 // Rathma Items -----------------------------------------------------------------
-ItemDisplay[rtmf]: %PURPLE%+ %RED%Ancient Bone Fragment%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%to create a Trang-Oul's Jawbone%NL%Cube 2 of these w/ Hellfire Torch} // Ancient Bone Fragment
-ItemDisplay[rtmo]: %PURPLE%+ %RED%Trang-Oul's Jawbone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%to create a Voidstone%NL%and Hellfire Torch%NL%Cube w/ Splinter of the Void,} // Trang-Oul's Jawbone
-ItemDisplay[rtmv]: %PURPLE%+ %RED%Splinter of the Void%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%to create a Voidstone%NL%and Hellfire Torch%NL%Cube w/ Trang-Oul's Jawbone} // Splinter of the Void
+//ItemDisplay[rtmf]: %PURPLE%+ %RED%Ancient Bone Fragment%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Undead enemies%NL%%NL%%TAN%to create a Trang-Oul's Jawbone%NL%Cube 2 of these w/ Hellfire Torch or Hellfire Ashes} // Ancient Bone Fragment (removed in S7)
+ItemDisplay[rtmo]: %PURPLE%+ %RED%Trang-Oul's Jawbone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Undead enemies%NL%%NL%%TAN%to create a Voidstone%NL%and Hellfire Torch or Hellfire Ashes%NL%Cube w/ Splinter of the Void,} // Trang-Oul's Jawbone
+ItemDisplay[rtmv]: %PURPLE%+ %RED%Splinter of the Void%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Shadow of Mendeln map event%NL%%NL%%TAN%to create a Voidstone%NL%Hellfire Torch or Hellfire Ashes%NL%Cube w/ Trang-Oul's Jawbone, and} // Splinter of the Void
+ItemDisplay[cm2f]: %PURPLE%+ %RED%Hellfire Ashes%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Obtained by cubing a Hellfire Torch w/ a Key%NL%%NL%%%TAN%to create a Voidstone%NL%and Trang-Oul's Jawbone%NL%Cube w/ Splinter of the Void} // Hellfire Ashes
+
 ItemDisplay[rtma]: %PURPLE%+ %RED%Voidstone%PURPLE% +%RED%%MAP-62%{%TAN%Item used for Rathma..} // Voidstone (accesses Rathma)
 ItemDisplay[cwss]: %PURPLE%+ %RED%Tainted Worldstone Shard%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%25% chance Extra XP%NL%25% chance Extra Res%NL%25% chance Extra Vit/Ene%NL%25% chance +1 Skill%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
 ItemDisplay[rid]: %PURPLE%+ %RED%Horadric Alamanac%PURPLE% +%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
@@ -283,7 +298,7 @@ ItemDisplay[r20s]: %NAME%{%TAN%3 Lem + Key = Pul%NL%%NL%%WHITE%Shields: 50% Extr
 ItemDisplay[r21]: %NAME%{%TAN%2 Pul + Key = Um%NL%} // Pul Rune
 ItemDisplay[r21s]: %NAME%{%TAN%2 Pul + Key = Um%NL%%NL%%WHITE%Shields: +30% Enhanced Defense%NL%Helms: +30% Enhanced Defense%NL%Armor: +30% Enhanced Defense%NL%+100 to Attack Rating against Demons%NL%Weapon: +75% Damage to Demons,%NL%} // Stacked Pul Rune
 ItemDisplay[r22]: %NAME%{%TAN%2 Um + Key = Mal%NL%} // Um Rune
-ItemDisplay[r22s]: %NAME%{%TAN%2 Um + Key = Mal%NL%%NL%%WHITE%Shields: All Resistances +22%NL%Helms: All Resistances +15%NL%Armor: All Resistances +15%NL%Weapons: 25% Chance of Open Wounds%NL%} // Stacked Um Rune
+ItemDisplay[r22s]: %NAME%{%TAN%2 Um + Key = Mal%NL%%NL%%WHITE%Shields: All Resistances +22%NL%Helms: All Resistances +15%NL%Armor: All Resistances +15%NL%Weapons: 10% Chance of Open Wounds%NL%} // Stacked Um Rune
 ItemDisplay[r23]: %NAME%{%TAN%2 Mal + Key = Ist%NL%} // Mal Rune
 ItemDisplay[r23s]: %NAME%{%TAN%2 Mal + Key = Ist%NL%%NL%%WHITE%Shields: Magic Damage Taken Reduced by 7%NL%Helms: Magic Damage Taken Reduced by 7%NL%Armor: Magic Damage Taken Reduced by 7%NL%Weapon: Prevent Monster Heal%NL%} // Stacked Mal Rune
 ItemDisplay[r24]: %NAME%{%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
@@ -293,7 +308,7 @@ ItemDisplay[r25s]: %NAME%{%TAN%2 Gul + Key = Vex%NL%%NL%%WHITE%Shields: +4% to M
 ItemDisplay[r26]: %NAME%{%TAN%2 Vex + Key = Ohm%NL%} // Vex Rune
 ItemDisplay[r26s]: %NAME%{%TAN%2 Vex + Key = Ohm%NL%%NL%%WHITE%Shields: +4% to Maximum Fire Resist%NL%Helms: +4% to Maximum Fire Resist%NL%Armor: +4% to Maximum Fire Resist%NL%Weapons: 7% Mana stolen per hit%NL%} // Stacked Vex Rune
 ItemDisplay[r27]: %NAME%{%TAN%2 Ohm + Key = Lo%NL%} // Ohm Rune
-ItemDisplay[r27s]: %NAME%{%TAN%2 Ohm + Key = Lo%NL%%NL%%WHITE%Shields: +4% to Maximum Cold Resist%NL%Helms: +4% to Maximum Cold Resist%NL%Armor: +4% to Maximum Cold Resist%NL%Weapons: +40% Enhanced Damage%NL%} // Stacked Ohm Rune
+ItemDisplay[r27s]: %NAME%{%TAN%2 Ohm + Key = Lo%NL%%NL%%WHITE%Shields: +4% to Maximum Cold Resist%NL%Helms: +4% to Maximum Cold Resist%NL%Armor: +4% to Maximum Cold Resist%NL%Weapons: +45% Enhanced Damage%NL%} // Stacked Ohm Rune
 ItemDisplay[r28]: %NAME%{%TAN%2 Lo + Key = Sur%NL%} // Lo Rune
 ItemDisplay[r28s]: %NAME%{%TAN%2 Lo + Key = Sur%NL%%NL%%WHITE%Shields: +4% to Maximum Light Resist%NL%Helms: +4% to Maximum Light Resist%NL%Armor: +4% to Maximum Light Resist%NL%Weapons: 20% Deadly Strike%NL%} // Stacked Lo Rune
 ItemDisplay[r29]: %NAME%{%TAN%2 Sur + Key = Ber%NL%} // Sur Rune
@@ -423,6 +438,7 @@ ItemDisplay[UNI !ID ram]: %NAME%%MAP-A5% // The Third Eye Amulet
 //    Charms
 ItemDisplay[UNI !ID cm1]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Annihilus Small Charm
 ItemDisplay[UNI !ID cm2]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Hellfire Torch Large Charm
+ItemDisplay[UNI ID cm2]: %NAME%{%TAN%to create Hellfire Ashes%NL%Can be cubed with a Key} // Hellfire Torch Large Charm
 ItemDisplay[UNI !ID cm3]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Gheed's Fortune Grand Charm
 
 //    Circlets
@@ -965,6 +981,8 @@ ItemDisplay[mp4 CLVL<85]: %BLUE%-%WHITE%M4%BLUE%-%WHITE% // Show Greater Mana Po
 ItemDisplay[mp4 CLVL>84]: // Hide Greater Mana Potion at character level 85+
 ItemDisplay[mp5]: %BLUE%+%WHITE%M5%BLUE%+%WHITE% // Super Mana Potion
 
+ItemDisplay[pvpp]: %BLUE%+%WHITE%DMP{%RED%Only usable in PvP Arenas%NL%%NL%%TAN%PvP Mana Potion} // Dueling Mana Potion
+
 ItemDisplay[rvs]: %PURPLE%+%WHITE%35%%PURPLE%+%WHITE% // Rejuv Potion
 ItemDisplay[rvl]: %PURPLE%+++%WHITE%65%%PURPLE%+++%WHITE% // Full Rejuv Potion
 
@@ -1361,6 +1379,12 @@ ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK155>2 BAR]: %NAME% %GRAY%[%BLUE%+3 
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK155>2 BAR]: %NAME% %GRAY%[%BLUE%+3 BC%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK155>2 BAR]: %NAME% %GRAY%[%BLUE%+3 BC%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Non-Eth
 ItemDisplay[NMAG !INF !RW SOCK=3 SK155>2 BAR]: %NAME% %GRAY%[%BLUE%+3 BC%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Radiance, Wisdom%NL%Flickering Flame,%NL%Delirium, Dream, Ferocity,%NL%%TAN%Possible RWs:} // All tiers, 3os, Non-Eth
+
+//              SK368 Find Item
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK368>2 BAR]: %NAME% %GRAY%[%BLUE%+3 DW%GRAY%]%WHITE%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK368>2 BAR]: %NAME% %GRAY%[%BLUE%+3 DW%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK368>2 BAR]: %NAME% %GRAY%[%BLUE%+3 DW%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Non-Eth
+ItemDisplay[NMAG !INF !RW SOCK=3 SK368>2 BAR]: %NAME% %GRAY%[%BLUE%+3 DW%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Radiance, Wisdom%NL%Flickering Flame,%NL%Delirium, Dream, Ferocity,%NL%%TAN%Possible RWs:} // All tiers, 3os, Non-Eth
 
 //          Combat
 //              SK126 Bash
@@ -2332,14 +2356,14 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7p7]: %NAME%%DOT-20%%PX-00%{%ORANGE%Asylum,
 ItemDisplay[NMAG !INF !RW !SUP !ETH SK58>2 SOCK=0 (cst OR bst OR wst OR 8cs OR 8bs OR 8ws OR 6cs OR 6bs OR 6ws)]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os
 ItemDisplay[NMAG !INF !RW SUP !ETH SK58>2 SOCK=0 (cst OR bst OR wst OR 8cs OR 8bs OR 8ws OR 6cs OR 6bs OR 6ws)]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 STAFF]: %NAME%{%ORANGE%Neophyte%NL%%TAN%Possible RWs:} // All Staves, 2os
-ItemDisplay[NMAG !INF !RW SK58>2 SOCK=4 STAFF]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Phoenix, Rampage, Spirit%NL%Insight, Memory, Passion,%NL%Heart of the Oak, Infinity,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SK58>2 SOCK=4 STAFF]: %NAME% %GRAY%[%BLUE%+3 ES%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Pride, Rampage, Spirit%NL%Insight, Memory, Passion, Phoenix%NL%Heart of the Oak, Infinity,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
 
 //          Archon Staves
-ItemDisplay[NMAG !INF !RW !ETH SOCK=4 6ws]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Rampage, Spirit%NL%Insight, Memory, Passion,%NL%Heart of the Oak, Infinity,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Archon Staff, 4os, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=4 6ws]: %NAME%%DOT-20%%PX-00%{%ORANGE%Pride, Rampage, Spirit%NL%Insight, Memory, Passion, Phoenix%NL%Heart of the Oak, Infinity,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Archon Staff, 4os, Non-Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 6ws]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Archon Staff, 0os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=2 6ws]: %NAME%%DOT-20%%PX-00%{%ORANGE%Strength, Wind%NL%Leaf, Neophyte,%NL%%TAN%Possible RWs:} // Archon Staff, 2os, Eth
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 6ws]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Archon Staff, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW ETH SOCK=6 6ws]: %NAME%%DOT-1E%{%ORANGE%Obsession, Silence%NL%Asylum, Breath of the Dying,%NL%%TAN%Possible RWs:} // Archon Staff, 6os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 6ws]: %NAME%%DOT-1E%{%ORANGE%Last Wish, Obsession, Silence%NL%Asylum, Breath of the Dying,%NL%%TAN%Possible RWs:} // Archon Staff, 6os, Eth
 
 //      Base Swords
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 ILVL<41 (bsd OR lsd OR crs)]: %NAME% [%ORANGE%Larzuk%WHITE%]%DOT-1E%{%TAN%Larzuk for 4 sockets} // Broad Sword, Long Sword, or Crystal Sword, 0os, Superior
