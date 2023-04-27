@@ -1380,7 +1380,7 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK155>2 BAR]: %NAME% %GRAY%[%BLUE%+3 B
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK155>2 BAR]: %NAME% %GRAY%[%BLUE%+3 BC%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Non-Eth
 ItemDisplay[NMAG !INF !RW SOCK=3 SK155>2 BAR]: %NAME% %GRAY%[%BLUE%+3 BC%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Radiance, Wisdom%NL%Flickering Flame,%NL%Delirium, Dream, Ferocity,%NL%%TAN%Possible RWs:} // All tiers, 3os, Non-Eth
 
-//              SK368 Find Item
+//              SK368 Deep Wounds
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK368>2 BAR]: %NAME% %GRAY%[%BLUE%+3 DW%GRAY%]%WHITE%{%TAN%& Perfect Sapphire for sockets%NL%Larzuk or cube w/ Ral Rune, Thul Rune,} // All tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK368>2 BAR]: %NAME% %GRAY%[%BLUE%+3 DW%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW !ETH SOCK=2 SK368>2 BAR]: %NAME% %GRAY%[%BLUE%+3 DW%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Lore, Nadir%NL%%TAN%Possible RWs:} // All tiers, 2os, Non-Eth
