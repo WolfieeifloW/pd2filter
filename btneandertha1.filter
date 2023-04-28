@@ -1019,7 +1019,7 @@ ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>65 (MAPID=1 OR MAPID=40 OR MAP
 ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>65]: // Hides all 1 socket base items after level 65
 
 //      Showing ED on Armors/Weapons (eg "Sacred Armor [13%]")
-ItemDisplay[NMAG !INF !RW SUP ED>0 ED<10]: %NAME% %GRAY%[%BLUE%ED%GRAY%]%CONTINUE% // For 5-9% ED just shows "ED"
+ItemDisplay[NMAG !INF !RW SUP ED>0 ED<10]: %NAME% %GRAY%[%BLUE%%ED%%GRAY%]%CONTINUE% // For 5-9% ED just shows "ED"
 ItemDisplay[NMAG !INF !RW SUP ED=10]: %NAME% %GRAY%[%BLUE%10%%GRAY%]%CONTINUE%
 ItemDisplay[NMAG !INF !RW SUP ED=11]: %NAME% %GRAY%[%BLUE%11%%GRAY%]%CONTINUE%
 ItemDisplay[NMAG !INF !RW SUP ED=12]: %NAME% %GRAY%[%BLUE%12%%GRAY%]%CONTINUE%
