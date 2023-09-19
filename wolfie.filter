@@ -215,6 +215,10 @@ ItemDisplay[rera]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Rune or Greater, & Rare Map%N
 ItemDisplay[imra]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, Thul Rune%NL%%ORANGE%Imbue Rare Map%NL%} // Imbue Rare Map (Zakarum Orb)
 ItemDisplay[upma]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map%NL%} // Imbue Magic Map (Arcane Orb)
+ItemDisplay[rrra]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Reroll Rare Map%NL%} // Reroll Rare Map (Infused Horadrim Orb)
+ItemDisplay[irra]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Imbue Rare Map%NL%} // Imbue Rare Map (Infused Zakarum Orb)
+ItemDisplay[urma]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Infused Angelic Orb)
+ItemDisplay[irma]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Imbue Magic Map%NL%} // Imbue Magic Map (Infused Arcane Orb)
 ItemDisplay[scou]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Cube w/ Magic or Rare Map%NL%%ORANGE%Purge Map%NL%} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps%NL%} // Cartographer's Orb
 ItemDisplay[fort]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%damage, & twice as much loot%NL%2x Experience, 20% additional%NL%but gives monsters 2x Health,%NL%Reduces base density by half,} // Orb of Fortification
@@ -282,7 +286,7 @@ ItemDisplay[t49]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actua
 ItemDisplay[t50]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
 ItemDisplay[t51]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Zhar's Sanctum
 ItemDisplay[t52]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Stygian Caverns
-ItemDisplay[t53]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t53]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Fallen Gardens
 ItemDisplay[t54]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
 ItemDisplay[t55]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
 ItemDisplay[t56]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
@@ -296,7 +300,7 @@ ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR 
 ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
 
 // Arenas
-ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME%{%TAN%to open the PvP Arena%NL%Right-click in Act 5 town} // Items for PvP arenas
+ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME%{%TAN%to open the PvP Arena%NL%Right-click in Act 1 town} // Items for PvP arenas
 
 // ------------------------------------------------------------------------------
 // [DCLO] Diablo Clone Items
@@ -304,7 +308,9 @@ ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]:
 ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Uber Trist bosses%NL%%NL%%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
 ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%Torch to create a Voidstone%NL%Splinter of the Void, and Hellfire%NL%Cube w/ Trang-Oul's Jawbone,%NL%%NL%to create a Pandemonium Talisman%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone%NL%%ORANGE%Drops from Hell Diablo & Baal} // Prime Evil Soul
 ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from map bosses%NL%%NL%%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
-ItemDisplay[dcma]: %PURPLE%+ %RED%Vision of Terror %PURPLE%+%MAP-62%{%RED%Beware of Uber Diablo..%NL%%NL%%TAN%Requires level 75} // Vision of Terror
+ItemDisplay[dcma STAT185=0]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Cannot drop any Uniques except Annihilus at Difficulty 0%NL%%NL%Can drop Uniques w/ increased chance%NL%%ORANGE%Cube w/ Ber-Zod to upgrade to Difficulty Level 2:%NL%%RED%Can drop Uniques%NL%%ORANGE%Cube w/ Vex-Sur to upgrade to Difficulty Level 1:%NL%%RED%Difficulty Level: 0%NL%%TAN%Requires level 75} // Vision of Terror
+ItemDisplay[dcma STAT185=1]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Can drop Uniques at Difficulty 1%NL%%NL%Difficulty Level: 1%NL%%TAN%Requires level 75} // Vision of Terror
+ItemDisplay[dcma STAT185=2]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Can drop Uniques w/ increased chance at Difficulty 2%NL%%NL%Difficulty Level: 2%NL%%TAN%Requires level 75} // Vision of Terror
 
 // ------------------------------------------------------------------------------
 // [RTHM] Rathma Items
@@ -866,9 +872,9 @@ ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME%%MAP-A8% // All Elite tier Dag
 // ------------------------------------------------------------------------------
 //     [RWJA] Javelins
 // ------------------------------------------------------------------------------
-ItemDisplay[RARE !ID CLVL<20 SPEAR THROWING !ZON]: %NAME%%MAP-A8% // Show all Javelins before level 20
-ItemDisplay[RARE !ID EXC SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Exceptional tier Javelins
-ItemDisplay[RARE !ID ELT SPEAR THROWING !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
+ItemDisplay[RARE !ID CLVL<20 JAV !ZON]: %NAME%%MAP-A8% // Show all Javelins before level 20
+ItemDisplay[RARE !ID EXC JAV !ZON]: %NAME%%MAP-A8% // All Exceptional tier Javelins
+ItemDisplay[RARE !ID ELT JAV !ZON]: %NAME%%MAP-A8% // All Elite tier Javelins
 
 // ------------------------------------------------------------------------------
 //     [RWMA] Maces
@@ -889,7 +895,7 @@ ItemDisplay[RARE !ID SCEPTER]: %NAME%%MAP-A8% // All Scepters
 // ------------------------------------------------------------------------------
 //     [RWSP] Spears
 // ------------------------------------------------------------------------------
-ItemDisplay[RARE !ID CLVL<20 SPEAR !THROWING !ZON]: %NAME%%MAP-A8% // Show all Spears before level 20
+ItemDisplay[RARE !ID CLVL<20 SPEAR !ZON]: %NAME%%MAP-A8% // Show all Spears before level 20
 
 // ------------------------------------------------------------------------------
 //     [RWST] Staves
@@ -1139,7 +1145,7 @@ ItemDisplay[MAG ILVL>71 ETH DAGGER (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY
 // ------------------------------------------------------------------------------
 //       [CWJA] Javelins
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 ETH SPEAR THROWING !ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Javelins
+ItemDisplay[MAG ILVL<72 CLVL<75 ETH JAV !ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Javelins
 ItemDisplay[MAG ILVL>71 ETH (9gl OR 7gl OR 9ts OR 7ts)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Javelins
 
 // ------------------------------------------------------------------------------
@@ -1473,6 +1479,7 @@ ItemDisplay[MAG !ETH SK101>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-9
 ItemDisplay[MAG !ETH SK106>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Zeal
 ItemDisplay[MAG !ETH SK111>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Vengeance
 ItemDisplay[MAG !ETH SK112>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blessed Hammer
+ItemDisplay[MAG !ETH SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Holy Sword
 ItemDisplay[MAG !ETH SK121>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fist of the Heavens
 ItemDisplay[MAG !ETH SK364>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Holy Nova
 ItemDisplay[MAG !ETH SK371>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Holy Light
@@ -1650,6 +1657,18 @@ ItemDisplay[gps]: // Hide Rancid Potions
 ItemDisplay[opl]: // Hide Fulminating Potions
 ItemDisplay[opm]: // Hide Exploding Potions
 ItemDisplay[ops]: // Hide Oil Potions
+ItemDisplay[tpgs]: %GREEN%+%WHITE%Strang // Strangling Potion
+ItemDisplay[tpgm]: %GREEN%+%WHITE%Chok // Choking Potion
+ItemDisplay[tpgl]: %GREEN%+%WHITE%Ranc // Rancid Potion
+ItemDisplay[tpfs]: %ORANGE%+%WHITE%Fulm // Fulminating Potion
+ItemDisplay[tpfm]: %ORANGE%+%WHITE%Explo // Exploding Potion
+ItemDisplay[tpfl]: %ORANGE%+%WHITE%Oil // Oil Potion
+ItemDisplay[tpcs]: %BLUE%+%WHITE%Chill // Chilling Potion
+ItemDisplay[tpcm]: %BLUE%+%WHITE%Frost // Frost Potion
+ItemDisplay[tpcl]: %BLUE%+%WHITE%Freeze // Freezing Potion
+ItemDisplay[tpls]: %YELLOW%+%WHITE%Charge // Charged Potion
+ItemDisplay[tplm]: %YELLOW%+%WHITE%Static // Static Potion
+ItemDisplay[tpll]: %YELLOW%+%WHITE%Shock // Shock Potion
 
 // ------------------------------------------------------------------------------
 //    [BCTO] Scrolls & Tomes
@@ -2728,8 +2747,8 @@ ItemDisplay[NMAG !INF !RW SK376>2 SOR]: %NAME%%DOT-20%%PX-00%{%NAME%} // Combust
 ItemDisplay[NMAG !INF !RW !SUP SOCK=0 CHEST]: %NAME%{%NAME%%NL%& Perfect Topaz for sockets%NL%Cube w/ Tal Rune, Thul Rune,}%CONTINUE% // All Body Armors, 0os, Non-Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 CHEST]: %NAME%{%NAME%}%CONTINUE% // All Body Armors, 0os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=2 CHEST]: %NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:}%CONTINUE% // All Body Armors, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 CHEST]: %NAME%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:}%CONTINUE% // All Body Armors, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 CHEST]: %NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}%CONTINUE% // All Body Armors, 4os
+ItemDisplay[NMAG !INF !RW SOCK=3 CHEST]: %NAME%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom, Hustle,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:}%CONTINUE% // All Body Armors, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 CHEST]: %NAME%{%ORANGE%Fortitude, Innocence, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}%CONTINUE% // All Body Armors, 4os
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 CHEST]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all 2+ socket Armor until character level 30
 
@@ -2984,8 +3003,8 @@ ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} //
 // ------------------------------------------------------------------------------
 //    [BWJA] Javelins
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG ID CLVL<30 SPEAR THROWING !ZON (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
-ItemDisplay[NMAG ID CLVL<30 SPEAR THROWING !ZON]: // Show all white Javelins until character level 20
+ItemDisplay[NMAG ID CLVL<30 JAV !ZON (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
+ItemDisplay[NMAG ID CLVL<30 JAV !ZON]: // Show all white Javelins until character level 20
 
 // ------------------------------------------------------------------------------
 //    [BWMA] Maces
@@ -3177,6 +3196,7 @@ ItemDisplay[NMAG !INF !RW SK101>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Hol
 ItemDisplay[NMAG !INF !RW SK106>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Zeal
 ItemDisplay[NMAG !INF !RW SK111>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Vengeance
 ItemDisplay[NMAG !INF !RW SK112>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blessed Hammer
+ItemDisplay[NMAG !INF !RW SK116>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Sword
 ItemDisplay[NMAG !INF !RW SK117>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Shield
 ItemDisplay[NMAG !INF !RW SK121>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fist of the Heavens
 ItemDisplay[NMAG !INF !RW SK364>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Holy Nova
@@ -3185,15 +3205,15 @@ ItemDisplay[NMAG !INF !RW SK371>2 SCEPTER]: %NAME%%DOT-20%%PX-00%{%NAME%} // Hol
 // ------------------------------------------------------------------------------
 //    [BWSP] Spears
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SPEAR !THROWING !ZON]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Spears, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 SPEAR !THROWING !ZON]: %NAME%{%NAME%}%CONTINUE% // All Spears, 0os, Superior
-ItemDisplay[NMAG !INF !RW SOCK=2 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Phoenix, Pride, Rampage, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 4os
-ItemDisplay[NMAG !INF !RW SOCK=5 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Obedience, Zenith%NL%Doom, Eternity, Honor,%NL%Call to Arms, Destruction,%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 5os
-ItemDisplay[NMAG !INF !RW SOCK=6 SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Asylum, Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 6os
+ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SPEAR !ZON]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Spears, 0os, Non-Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=0 SPEAR !ZON]: %NAME%{%NAME%}%CONTINUE% // All Spears, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=2 SPEAR !ZON]: %NAME%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SPEAR !ZON]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SPEAR !ZON]: %NAME%{%ORANGE%Phoenix, Pride, Rampage, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SPEAR !ZON]: %NAME%{%ORANGE%Obedience, Zenith%NL%Doom, Eternity, Honor,%NL%Call to Arms, Destruction,%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 5os
+ItemDisplay[NMAG !INF !RW SOCK=6 SPEAR !ZON]: %NAME%{%ORANGE%Asylum, Breath of the Dying, Silence%NL%%TAN%Possible RWs:}%CONTINUE% // All Spears, 6os
 
-ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 SPEAR !THROWING !ZON]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Spears until character level 30
+ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 SPEAR !ZON]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Spears until character level 30
 
 // Stygian Pike
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7tr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stygian Pike, 0os, Superior, Non-Eth
@@ -3299,7 +3319,7 @@ ItemDisplay[NMAG !INF !RW SOCK=2 SWORD]: %NAME%{%ORANGE%Steel, Strength, Wind%NL
 ItemDisplay[NMAG !INF !RW SOCK=3 SWORD]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Kings Grace, Lawbringer,%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SWORD]: %NAME%{%ORANGE%Phoenix, Rift, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SWORD]: %NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 5os
-ItemDisplay[NMAG !INF !RW SOCK=6 SWORD]: %NAME%{%ORANGE%Unbending Will%NL%Last Wish, Silence,%NL%Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 6os
+ItemDisplay[NMAG !INF !RW SOCK=6 SWORD]: %NAME%{%ORANGE%Unbending Will%NL%Last Wish, Silence,%NL%Asylum, Breath of the Dying,%NL%%TAN%Possible RWs:}%CONTINUE% // All Swords, 6os
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 SWORD]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Swords until character level 30
 

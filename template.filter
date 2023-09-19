@@ -86,6 +86,10 @@ ItemDisplay[rera]: %NAME% // Reroll Rare Map (Horadrim Orb)
 ItemDisplay[imra]: %NAME% // Imbue Rare Map (Zakarum Orb)
 ItemDisplay[upma]: %NAME% // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME% // Imbue Magic Map (Arcane Orb)
+ItemDisplay[rrra]: %NAME% // Reroll Rare Map (Infused Horadrim Orb)
+ItemDisplay[irra]: %NAME% // Imbue Rare Map (Infused Zakarum Orb)
+ItemDisplay[urma]: %NAME% // Upgrade Magic Map to Rare Map (Infused Angelic Orb)
+ItemDisplay[irma]: %NAME% // Imbue Magic Map (Infused Arcane Orb)
 ItemDisplay[scou]: %NAME% // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]: %NAME% // Uptier Maps (Cube 3 maps of the same tier to get a map of the next tier) (Cartographer's Orb)
 ItemDisplay[fort]: %NAME% // Orb of Fortification (Half density but monsters 2x Health, 2x XP, 20% damage, & double loot)
@@ -334,6 +338,18 @@ ItemDisplay[opm DIFF<1]: %ORANGE%+%WHITE%Explo // Exploding Potion
 ItemDisplay[opm DIFF>0]: // Exploding Potion after Normal difficulty
 ItemDisplay[ops DIFF<1]: %ORANGE%+%WHITE%Oil // Oil Potion
 ItemDisplay[ops DIFF>0]: // Oil Potion after Normal difficulty
+ItemDisplay[tpgs]: %GREEN%+%WHITE%Strang // Strangling Potion
+ItemDisplay[tpgm]: %GREEN%+%WHITE%Chok // Choking Potion
+ItemDisplay[tpgl]: %GREEN%+%WHITE%Ranc // Rancid Potion
+ItemDisplay[tpfs]: %ORANGE%+%WHITE%Fulm // Fulminating Potion
+ItemDisplay[tpfm]: %ORANGE%+%WHITE%Explo // Exploding Potion
+ItemDisplay[tpfl]: %ORANGE%+%WHITE%Oil // Oil Potion
+ItemDisplay[tpcs]: %BLUE%+%WHITE%Chill // Chilling Potion
+ItemDisplay[tpcm]: %BLUE%+%WHITE%Frost // Frost Potion
+ItemDisplay[tpcl]: %BLUE%+%WHITE%Freeze // Freezing Potion
+ItemDisplay[tpls]: %YELLOW%+%WHITE%Charge // Charged Potion
+ItemDisplay[tplm]: %YELLOW%+%WHITE%Static // Static Potion
+ItemDisplay[tpll]: %YELLOW%+%WHITE%Shock // Shock Potion
 
 // Scrolls & Tomes
 ItemDisplay[isc DIFF<1]: ID%RED%!%WHITE% // Scroll of Identify

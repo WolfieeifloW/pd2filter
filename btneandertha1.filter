@@ -76,6 +76,10 @@ ItemDisplay[rera]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Rune or Greater, & Rare Map%N
 ItemDisplay[imra]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%or Greater, & White Map%NL%Cube w/ Jewel, Thul Rune%NL%%ORANGE%Imbue Rare Map%NL%} // Imbue Rare Map (Zakarum Orb)
 ItemDisplay[upma]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Rune or Greater, & Magic Map%NL%Cube w/ Perfect Skull, Thul%NL%%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Angelic Orb)
 ItemDisplay[imma]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%& White Map%NL%Cube w/ Jewel,%NL%%ORANGE%Imbue Magic Map%NL%} // Imbue Magic Map (Arcane Orb)
+ItemDisplay[rrra]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Reroll Rare Map%NL%} // Reroll Rare Map (Infused Horadrim Orb)
+ItemDisplay[irra]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Imbue Rare Map%NL%} // Imbue Rare Map (Infused Zakarum Orb)
+ItemDisplay[urma]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Infused Angelic Orb)
+ItemDisplay[irma]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Imbue Magic Map%NL%} // Imbue Magic Map (Infused Arcane Orb)
 ItemDisplay[scou]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%Cube w/ Magic or Rare Map%NL%%ORANGE%Purge Map%NL%} // Purge Map (Removes Mods and Reverts back to a White Map) (Orb of Destruction)
 ItemDisplay[upmp]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%to get a map of the next tier%NL%Cube 3 maps of the same tier%NL%%ORANGE%Uptier Maps%NL%} // Cartographer's Orb
 ItemDisplay[fort]: %NAME%%WHITE% x%QTY%%GOLD%{%TAN%damage, & twice as much loot%NL%2x Experience, 20% additional%NL%but gives monsters 2x Health,%NL%Reduces base density by half,} // Orb of Fortification
@@ -141,7 +145,7 @@ ItemDisplay[t49]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{} // Not actua
 ItemDisplay[t50]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
 ItemDisplay[t51]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Zhar's Sanctum
 ItemDisplay[t52]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Stygian Caverns
-ItemDisplay[t53]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
+ItemDisplay[t53]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Fallen Gardens
 ItemDisplay[t54]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
 ItemDisplay[t55]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
 ItemDisplay[t56]: %PURPLE%++ %NAME% %PURPLE%[UNI]%MAP-9D%%CONTINUE%{} // Not actually a map (yet); just being safe
@@ -155,13 +159,15 @@ ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR 
 ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
 
 // Arenas
-ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME%{%TAN%to open the PvP Arena%NL%Right-click in Act 5 town} // Items for PvP arenas
+ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME%{%TAN%to open the PvP Arena%NL%Right-click in Act 1 town} // Items for PvP arenas
 
 // Diablo Clone Items -----------------------------------------------------------
 ItemDisplay[dcho]: %RED%Black Soulstone%WHITE% x%QTY%%RED%%MAP-62%{%ORANGE%Drops from Uber Trist bosses%NL%%NL%%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
 ItemDisplay[dcso]: %RED%Prime Evil Soul%WHITE% x%QTY%%RED%%MAP-62%{%TAN%Torch to create a Voidstone%NL%Splinter of the Void, and Hellfire%NL%Cube w/ Trang-Oul's Jawbone,%NL%%NL%to create a Pandemonium Talisman%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone%NL%%ORANGE%Drops from Hell Diablo & Baal} // Prime Evil Soul
 ItemDisplay[dcbl]: %RED%Pure Demonic Essence%WHITE% x%QTY%%RED%%MAP-62%{%ORANGE%Drops from map bosses%NL%%NL%%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
-ItemDisplay[dcma]: %RED%Vision of Terror%MAP-62%{%RED%Beware of Uber Diablo..%NL%%NL%%TAN%Requires level 75} // Vision of Terror
+ItemDisplay[dcma STAT185=0]: %RED%Vision of Terror%MAP-62%{%RED%Cannot drop any Uniques except Annihilus at Difficulty 0%NL%%NL%Can drop Uniques w/ increased chance%NL%%ORANGE%Cube w/ Ber-Zod to upgrade to Difficulty Level 2:%NL%%RED%Can drop Uniques%NL%%ORANGE%Cube w/ Vex-Sur to upgrade to Difficulty Level 1:%NL%%RED%Difficulty Level: 0%NL%%TAN%Requires level 75} // Vision of Terror
+ItemDisplay[dcma STAT185=1]: %RED%Vision of Terror%MAP-62%{%RED%Can drop Uniques at Difficulty 1%NL%%NL%Difficulty Level: 1%NL%%TAN%Requires level 75} // Vision of Terror
+ItemDisplay[dcma STAT185=2]: %RED%Vision of Terror%MAP-62%{%RED%Can drop Uniques w/ increased chance at Difficulty 2%NL%%NL%Difficulty Level: 2%NL%%TAN%Requires level 75} // Vision of Terror
 
 // Rathma Items -----------------------------------------------------------------
 //ItemDisplay[rtmf]: %PURPLE%+ %RED%Ancient Bone Fragment%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Undead enemies%NL%%NL%%TAN%to create a Trang-Oul's Jawbone%NL%Cube 2 of these w/ Hellfire Torch or Hellfire Ashes} // Ancient Bone Fragment (removed in S7)
@@ -628,6 +634,7 @@ ItemDisplay[UNI !ID 7ws]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOL
 
 //    Spears
 ItemDisplay[UNI !ID 9tr]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Kelpie Snare Fuscina
+ItemDisplay[UNI !ID 7st]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Uldyssian's Awakening Ghost Spear
 ItemDisplay[UNI !ID 7p7]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Steel Pillar War Pike
 
 //    Staves
@@ -642,6 +649,7 @@ ItemDisplay[UNI !ID gsd]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // The Patria
 ItemDisplay[UNI !ID 9fc]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Blade of Ali Baba Tulwar
 ItemDisplay[UNI !ID 7cr]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Lightsabre or Azurewrath Phase Blade
 ItemDisplay[UNI !ID 7bs]: %PURPLE%>>%GOLD%%NAME%%PURPLE%<<%GOLD%%MAP-A5% // Hadriel's Hand Conquest Sword
+ItemDisplay[UNI !ID 7cm]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Leoric's Mithril Bane Highland Blade
 ItemDisplay[UNI !ID 7gs]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Flamebellow Balrog Blade
 ItemDisplay[UNI !ID 7b7]: %RED%>>%GOLD%%NAME%%RED%<<%GOLD%%MAP-A5% // Doombringer Champion Sword
 ItemDisplay[UNI !ID 7fb]: %ORANGE%>%PURPLE%>>%GOLD%%NAME%%PURPLE%<<%ORANGE%<%GOLD%%MAP-A5% // Odium Colossus Sword
@@ -780,11 +788,11 @@ ItemDisplay[RARE !ID GLOVES]: %NAME%%MAP-A8% // All Rare gloves
 ItemDisplay[RARE !ID (EXC OR ELT) AXE !THROWING]: %NAME% // All Exceptional and Elite tier Axes
 ItemDisplay[RARE !ID ELT BOW !ZON]: %NAME% // All Elite tier Bows
 ItemDisplay[RARE !ID ELT DAGGER !THROWING]: %NAME% // All Elite tier Daggers
-ItemDisplay[RARE !ID ELT SPEAR THROWING !ZON]: %NAME% // All Elite tier Javelins
+ItemDisplay[RARE !ID ELT JAV !ZON]: %NAME% // All Elite tier Javelins
 ItemDisplay[RARE !ID ELT MACE]: %NAME% // All Elite tier Maces
 ItemDisplay[RARE !ID ELT POLEARM]: %NAME% // All Elite tier Polearms
 ItemDisplay[RARE !ID SCEPTER]: %NAME% // All Exceptional & Elite tier Scepters
-ItemDisplay[RARE !ID ELT SPEAR !THROWING !ZON]: %NAME% // All Elite tier Spears
+ItemDisplay[RARE !ID ELT SPEAR !ZON]: %NAME% // All Elite tier Spears
 ItemDisplay[RARE !ID ELT STAFF]: %NAME% // All Elite tier Staves
 ItemDisplay[RARE !ID crs]: %NAME% // Rare Crystal Sword
 ItemDisplay[RARE !ID 9cr]: %NAME% // Rare Dimensional Blade
@@ -1003,6 +1011,18 @@ ItemDisplay[opm CLVL<10]: %ORANGE%+%WHITE%Explo // Show Exploding Potion until c
 ItemDisplay[opm CLVL>9]: // Hides Exploding Potion at character level 10+
 ItemDisplay[ops CLVL<10]: %ORANGE%+%WHITE%Oil // Show Oil Potion until character level 10
 ItemDisplay[ops CLVL>9]: // Hides Oil Potion at character level 10+
+ItemDisplay[tpgs]: %GREEN%+%WHITE%Strang // Strangling Potion
+ItemDisplay[tpgm]: %GREEN%+%WHITE%Chok // Choking Potion
+ItemDisplay[tpgl]: %GREEN%+%WHITE%Ranc // Rancid Potion
+ItemDisplay[tpfs]: %ORANGE%+%WHITE%Fulm // Fulminating Potion
+ItemDisplay[tpfm]: %ORANGE%+%WHITE%Explo // Exploding Potion
+ItemDisplay[tpfl]: %ORANGE%+%WHITE%Oil // Oil Potion
+ItemDisplay[tpcs]: %BLUE%+%WHITE%Chill // Chilling Potion
+ItemDisplay[tpcm]: %BLUE%+%WHITE%Frost // Frost Potion
+ItemDisplay[tpcl]: %BLUE%+%WHITE%Freeze // Freezing Potion
+ItemDisplay[tpls]: %YELLOW%+%WHITE%Charge // Charged Potion
+ItemDisplay[tplm]: %YELLOW%+%WHITE%Static // Static Potion
+ItemDisplay[tpll]: %YELLOW%+%WHITE%Shock // Shock Potion
 
 //      Scrolls & Tomes
 ItemDisplay[isc DIFF<2]: ID%RED%!%WHITE% // Show Scroll of Identify in Normal/Nightmare difficulty
@@ -1843,7 +1863,7 @@ ItemDisplay[NMAG !INF !RW SOCK=2 SOR]: %NAME%{%ORANGE%Neophyte%NL%%TAN%Possible 
 
 //      Base Body Armor
 ItemDisplay[NMAG !INF !RW !ETH (SOCK=2 OR SOCK=3) CLVL<65 CHEST]: %NAME%%DOT-1E%%CONTINUE% // Show and notify all 2 and 3 socket armors until character level 65
-ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<85 CHEST]: %NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Show all 4 socket armors until character level 85
+ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<85 CHEST]: %NAME%{%ORANGE%Fortitude, Innocence, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Show all 4 socket armors until character level 85
 
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Exceptional and Elite tiers, 0os, Non-Superior, Non-Eth
@@ -1855,23 +1875,23 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %N
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%TAN%Larzuk for sockets} // Exceptional and Elite tiers, 0os, Superior, Eth
 ItemDisplay[NMAG !INF !RW SOCK=2 CLVL<84 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers
 ItemDisplay[NMAG !INF !RW SOCK=2 CLVL<84 (xtp OR ELT) CHEST]: %NAME%{%ORANGE%Prudence, Smoke, Stealth%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers
-ItemDisplay[NMAG !INF !RW SOCK=3 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers, 3os
-ItemDisplay[NMAG !INF !RW SOCK=3 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}
-ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}
+ItemDisplay[NMAG !INF !RW SOCK=3 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom, Hustle,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=3 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom, Hustle,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Exceptional and Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 CLVL>92 (xtp OR ELT) DEF>749 CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Innocence, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}
+ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<93 (xtp OR ELT) CHEST]: %NAME%{%ORANGE%Fortitude, Innocence, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:}
 
 // Mage Plates
 ItemDisplay[NMAG !INF !RW SUP ED=15 !ETH SOCK=0 CLVL>92 xtp]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Mage Plate, 0os, Superior 15%, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP ED=15 !ETH SOCK=3 CLVL>92 xtp]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Mage Plate, 3os, Superior 15%
+ItemDisplay[NMAG !INF !RW SUP ED=15 !ETH SOCK=3 CLVL>92 xtp]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom, Hustle,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Mage Plate, 3os, Superior 15%
 
 // Elite Tier Body Armors
 ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=0 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 0os, Superior 10%+, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=3 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 3os, Superior 10%+, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=4 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 4os, Superior 10%+, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=3 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom, Hustle,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 3os, Superior 10%+, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=4 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Innocence, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 4os, Superior 10%+, Non-Eth
 ItemDisplay[NMAG !INF !RW !SUP ETH DEF>799 SOCK=0 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%& Perfect Topaz for sockets%NL%Larzuk or cube w/ Tal Rune, Thul Rune,} // Elite tier Body Armor, 0os, Non-Superior, Eth, 800+ Defense
 ItemDisplay[NMAG !INF !RW SUP ETH DEF>799 SOCK=0 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tier Body Armor, 0os, Superior, Eth, 800+ Defense
-ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=3 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 3os, Eth, 800+ Defense
-ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=4 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 4os, Eth, 800+ Defense
+ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=3 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Principle, Rain, Treach, Wealth%NL%Lionheart, Myth, Peace,%NL%Enlighten, Gloom, Hustle,%NL%Bone, Dragon, Duress, Enigma,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 3os, Eth, 800+ Defense
+ItemDisplay[NMAG !INF !RW ETH DEF>799 SOCK=4 CLVL>92 ELT CHEST]: %NAME%%DOT-1E%{%ORANGE%Fortitude, Innocence, Stone%NL%Bramble, Chains of Honor,%NL%%TAN%Possible RWs:} // Elite tier Body Armor, 4os, Eth, 800+ Defense
 
 //      Base Helms
 ItemDisplay[NMAG !INF !RW SOCK=3 CLVL<85 HELM !BAR !DRU]: %NAME% // Show all 3 socket helms until character level 85
@@ -2256,15 +2276,15 @@ ItemDisplay[NMAG !INF !RW SOCK=3 SK112>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 BH%GRA
 ItemDisplay[NMAG !INF !RW SOCK=4 SK112>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 BH%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice, Insight%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 SK112>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 BH%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
 
-//              SK116 Conversion
-ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW SOCK=2 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Neophyte, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
-ItemDisplay[NMAG !INF !RW SOCK=3 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
-ItemDisplay[NMAG !INF !RW SOCK=4 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice, Insight%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
-ItemDisplay[NMAG !INF !RW SOCK=5 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Conve%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
+//              SK116 Holy Sword
+ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HSword%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HSword%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HSword%GRAY%]%WHITE%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HSword%GRAY%]%WHITE%%DOT-1E%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW SOCK=2 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HSword%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Neophyte, Strength, Wind%NL%%TAN%Possible RWs:} // All tiers, 2os
+ItemDisplay[NMAG !INF !RW SOCK=3 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HSword%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Malice, Plague, Venom%NL%Fury, Kings Grace, Lawbringer,%NL%%TAN%Possible RWs:} // All tiers, 3os
+ItemDisplay[NMAG !INF !RW SOCK=4 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HSword%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Passion, Phoenix, Rift%NL%Hand of Justice, Insight%NL%Fortitude, Holy Thunder,%NL%%TAN%Possible RWs:} // All tiers, 4os
+ItemDisplay[NMAG !INF !RW SOCK=5 SK116>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HSword%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
 
 //              SK117 Holy Shield
 ItemDisplay[NMAG !INF !RW !SUP !ETH SOCK=0 SK117>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 HShi%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // All tiers, 0os, Non-Superior, Non-Eth
@@ -2337,13 +2357,13 @@ ItemDisplay[NMAG !INF !RW SOCK=4 SK97>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Smite%G
 ItemDisplay[NMAG !INF !RW SOCK=5 SK97>2 SCEPTER]: %NAME% %GRAY%[%BLUE%+3 Smite%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Eternity, Honor%NL%Beast, Call to Arms,%NL%%TAN%Possible RWs:} // All tiers, 5os
 
 //      Base Spears
-ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT !7sr SPEAR !THROWING !ZON]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
-ItemDisplay[NMAG !INF !RW SUP ((ED>9 AND !ETH) OR ETH) SOCK=0 ELT !7sr SPEAR !THROWING !ZON]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
-ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=2 ELT !7sr SPEAR !THROWING !ZON]: %NAME%%DOT-1E%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // Elite tiers, 2os
-ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=3 ELT !7sr SPEAR !THROWING !ZON]: %NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
-ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=4 ELT !7sr SPEAR !THROWING !ZON]: %NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rampage, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
-ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=5 ELT !7sr SPEAR !THROWING !ZON]: %NAME%%DOT-1E%{%ORANGE%Obedience, Zenith%NL%Doom, Eternity, Honor,%NL%Call to Arms, Destruction,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
-ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=6 ELT !7sr SPEAR !THROWING !ZON]: %NAME%{%ORANGE%Asylum, Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
+ItemDisplay[NMAG !INF !RW !SUP ETH SOCK=0 ELT !7sr SPEAR !ZON]: %NAME%%DOT-1E%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Eth
+ItemDisplay[NMAG !INF !RW SUP ((ED>9 AND !ETH) OR ETH) SOCK=0 ELT !7sr SPEAR !ZON]: %NAME%%DOT-1E%{%TAN%Larzuk for sockets} // Elite tiers, 0os, Superior, Eth
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=2 ELT !7sr SPEAR !ZON]: %NAME%%DOT-1E%{%ORANGE%Strength, Wind%NL%%TAN%Possible RWs:} // Elite tiers, 2os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=3 ELT !7sr SPEAR !ZON]: %NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom%NL%Crescent Moon, Fury%NL%%TAN%Possible RWs:} // Elite tiers, 3os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=4 ELT !7sr SPEAR !ZON]: %NAME%%DOT-1E%{%ORANGE%Phoenix, Pride, Rampage, Rift%NL%Infinity, Insight, Passion,%NL%Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=5 ELT !7sr SPEAR !ZON]: %NAME%%DOT-1E%{%ORANGE%Obedience, Zenith%NL%Doom, Eternity, Honor,%NL%Call to Arms, Destruction,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
+ItemDisplay[NMAG !INF !RW (ETH OR (ED>9 AND !ETH)) SOCK=6 ELT !7sr SPEAR !ZON]: %NAME%{%ORANGE%Asylum, Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Elite tiers, 6os
 
 //		Base Spears
 ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7p7]: %NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // War Pike, 0os, Eth
@@ -2375,7 +2395,7 @@ ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7cr]: %NAME%%DOT-1E%{%TAN%Larzuk for so
 ItemDisplay[NMAG !INF !RW SOCK=3 7cr]: %NAME%%DOT-1E%{%ORANGE%Malice, Plague, Venom%NL%Kings Grace, Lawbringer,%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // All tiers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 7cr]: %NAME%%DOT-1E%{%ORANGE%Phoenix, Rift, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // All tiers, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 (crs OR 7cr)]: %NAME%%DOT-1E%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // All tiers, 5os
-ItemDisplay[NMAG !INF !RW SOCK=6 7cr]: %NAME%%DOT-1E%{%ORANGE%Unbending Will%NL%Last Wish, Silence,%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
+ItemDisplay[NMAG !INF !RW SOCK=6 7cr]: %NAME%%DOT-1E%{%ORANGE%Unbending Will%NL%Last Wish, Silence,%NL%Asylum, Breath of the Dying,%NL%%TAN%Possible RWs:} // All tiers, 6os
 
 // Other Swords
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 (7bs OR 7ls)]: %NAME%{%TAN%Larzuk for sockets} // All tiers, 0os, Superior, Non-Eth
@@ -2386,11 +2406,11 @@ ItemDisplay[NMAG !INF !RW SOCK=4 (7bs OR 7ls)]: %NAME%{%ORANGE%Phoenix, Rift, Sp
 ItemDisplay[NMAG !INF !RW ETH SOCK=3 7gd]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Kings Grace, Lawbringer,%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // Colossus Blade, 3os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=4 7gd]: %NAME%{%ORANGE%Phoenix, Rift, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Colossus Blade, 4os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 7gd]: %NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // Colossus Blade, 5os, Eth
-ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd]: %NAME%{%ORANGE%Unbending Will%NL%Last Wish, Silence,%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // Colossus Blade, 6os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd]: %NAME%{%ORANGE%Unbending Will%NL%Last Wish, Silence,%NL%Asylum, Breath of the Dying,%NL%%TAN%Possible RWs:} // Colossus Blade, 6os, Eth
 ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=3 7gd]: %NAME%{%ORANGE%Malice, Plague, Venom%NL%Kings Grace, Lawbringer,%NL%Crescent Moon, Fury,%NL%%TAN%Possible RWs:} // Colossus Blade, 3os, 10%+ED, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=4 7gd]: %NAME%{%ORANGE%Phoenix, Rift, Spirit, Voice of Reason%NL%Kingslayer, Oath, Passion,%NL%Famine, Fortitude, Hand of Justice,%NL%%TAN%Possible RWs:} // Colossus Blade, 4os, 10%+ED, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=5 7gd]: %NAME%{%ORANGE%Doom, Eternity, Grief, Honor%NL%Call to Arms, Death, Destruction,%NL%%TAN%Possible RWs:} // Colossus Blade, 5os, 10%+ED, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=6 7gd]: %NAME%{%ORANGE%Unbending Will%NL%Last Wish, Silence,%NL%Breath of the Dying,%NL%%TAN%Possible RWs:} // Colossus Blade, 6os, 10%+ED, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP ED>9 !ETH SOCK=6 7gd]: %NAME%{%ORANGE%Unbending Will%NL%Last Wish, Silence,%NL%Asylum, Breath of the Dying,%NL%%TAN%Possible RWs:} // Colossus Blade, 6os, 10%+ED, Non-Eth
 
 //      Base Wands
 //          Summoning
