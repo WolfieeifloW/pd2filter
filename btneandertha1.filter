@@ -162,9 +162,9 @@ ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR
 ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME%{%TAN%to open the PvP Arena%NL%Right-click in Act 1 town} // Items for PvP arenas
 
 // Diablo Clone Items -----------------------------------------------------------
-ItemDisplay[dcho]: %RED%Black Soulstone%WHITE% x%QTY%%RED%%MAP-62%{%ORANGE%Drops from Uber Trist bosses%NL%%NL%%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
-ItemDisplay[dcso]: %RED%Prime Evil Soul%WHITE% x%QTY%%RED%%MAP-62%{%TAN%Torch to create a Voidstone%NL%Splinter of the Void, and Hellfire%NL%Cube w/ Trang-Oul's Jawbone,%NL%%NL%to create a Pandemonium Talisman%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone%NL%%ORANGE%Drops from Hell Diablo & Baal} // Prime Evil Soul
-ItemDisplay[dcbl]: %RED%Pure Demonic Essence%WHITE% x%QTY%%RED%%MAP-62%{%ORANGE%Drops from map bosses%NL%%NL%%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
+ItemDisplay[dcho]: %RED%Black Soulstone%WHITE% x%QTY%%RED%%MAP-62%{%ORANGE%Drops from Uber Trist bosses%NL%%NL%%TAN%to create a Vision of Terror%NL%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
+ItemDisplay[dcso]: %RED%Prime Evil Soul%WHITE% x%QTY%%RED%%MAP-62%{%ORANGE%Drops from Hell Diablo & Baal%NL%%NL%%TAN%to create a Vision of Terror%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
+ItemDisplay[dcbl]: %RED%Pure Demonic Essence%WHITE% x%QTY%%RED%%MAP-62%{%ORANGE%Drops from map bosses%NL%%NL%%TAN%to create a Vision of Terror%NL%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
 ItemDisplay[dcma STAT185=0]: %RED%Vision of Terror%MAP-62%{%RED%Cannot drop any Uniques except Annihilus at Difficulty 0%NL%%NL%Can drop Uniques w/ increased chance%NL%%ORANGE%Cube w/ Ber-Zod to upgrade to Difficulty Level 2:%NL%%RED%Can drop Uniques%NL%%ORANGE%Cube w/ Vex-Sur to upgrade to Difficulty Level 1:%NL%%RED%Difficulty Level: 0%NL%%TAN%Requires level 75} // Vision of Terror
 ItemDisplay[dcma STAT185=1]: %RED%Vision of Terror%MAP-62%{%RED%Can drop Uniques at Difficulty 1%NL%%NL%Difficulty Level: 1%NL%%TAN%Requires level 75} // Vision of Terror
 ItemDisplay[dcma STAT185=2]: %RED%Vision of Terror%MAP-62%{%RED%Can drop Uniques w/ increased chance at Difficulty 2%NL%%NL%Difficulty Level: 2%NL%%TAN%Requires level 75} // Vision of Terror

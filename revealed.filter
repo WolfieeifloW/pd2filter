@@ -327,9 +327,9 @@ ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]:
 // ------------------------------------------------------------------------------
 // [DCLO] Diablo Clone Items
 // ------------------------------------------------------------------------------
-ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Uber Trist bosses%NL%%NL%%TAN%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
-ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%Torch to create a Voidstone%NL%Splinter of the Void, and Hellfire%NL%Cube w/ Trang-Oul's Jawbone,%NL%%NL%to create a Pandemonium Talisman%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone%NL%%ORANGE%Drops from Hell Diablo & Baal} // Prime Evil Soul
-ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from map bosses%NL%%NL%%TAN%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
+ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Uber Trist bosses%NL%%NL%%TAN%to create a Vision of Terror%NL%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
+ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Hell Diablo & Baal%NL%%NL%%TAN%to create a Vision of Terror%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
+ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from map bosses%NL%%NL%%TAN%to create a Vision of Terror%NL%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
 ItemDisplay[dcma STAT185=0]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Cannot drop any Uniques except Annihilus at Difficulty 0%NL%%NL%Can drop Uniques w/ increased chance%NL%%ORANGE%Cube w/ Ber-Zod to upgrade to Difficulty Level 2:%NL%%RED%Can drop Uniques%NL%%ORANGE%Cube w/ Vex-Sur to upgrade to Difficulty Level 1:%NL%%RED%Difficulty Level: 0%NL%%TAN%Requires level 75} // Vision of Terror
 ItemDisplay[dcma STAT185=1]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Can drop Uniques at Difficulty 1%NL%%NL%Difficulty Level: 1%NL%%TAN%Requires level 75} // Vision of Terror
 ItemDisplay[dcma STAT185=2]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Can drop Uniques w/ increased chance at Difficulty 2%NL%%NL%Difficulty Level: 2%NL%%TAN%Requires level 75} // Vision of Terror
@@ -1888,7 +1888,7 @@ ItemDisplay[RARE SIN ((TABSK50>1 OR CLSK6>0) (SK280>1 OR SK274>1 OR SK269>1 OR S
 ItemDisplay[RARE SIN ((TABSK49>1 OR CLSK6>0) SK278>1) LVLREQ<31]: %NAME%{%TAN%Venom Claw%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE SIN ((TABSK49>1 OR CLSK6>0) SK273>1) LVLREQ<31]: %NAME%{%TAN%Mind Blast Claw%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) IAS>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill IAS Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[RARE GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[RARE GLOVES TABSK1>1 FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE SCEPTER ((TABSK24>1 SK112>1) OR (TABSK24>0 SK112>2) OR (CLSK3>0 SK112>2)) LVLREQ<31]: %NAME%{%TAN%Blessed Hammer Scepter%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE (wsp OR 9ws) ((TABSK24>1 SK97>1) OR (TABSK24>0 SK97>2) OR (CLSK3>0 SK97>2)) LVLREQ<31]: %NAME%{%TAN%Smite Scepter%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE (wsp OR 9ws) ((TABSK25>1 (SK102>1 OR SK114>1 OR SK118>1)) OR (TABSK25>0 (SK102>2 OR SK114>2 OR SK118>2)) OR (CLSK3>0 (SK102>2 OR SK114>2 OR SK118>2))) LVLREQ<31]: %NAME%{%TAN%Holy Aura Scepter%NL%%RED%Note:%ORANGE% Good for LLD:}
@@ -2995,7 +2995,7 @@ ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire
 //    [CMLL] LLD Items
 // ------------------------------------------------------------------------------
 ItemDisplay[CRAFT GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) IAS>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill IAS Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[CRAFT GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[CRAFT GLOVES TABSK1>1 FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT WAND ((TABSK16>1 SK381>1) OR ((TABSK16>0 OR ((CLSK2>0) OR (ALLSK>0))) SK381>2) OR (TABSK16>0 ALLSK>0 SK381>1) OR (CLSK2>0 ALLSK>0 SK381>1)) LVLREQ<31]: %NAME%{%TAN%Dark Pact Wand%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT NEC ((TABSK16>1 SK381>1) OR ((TABSK16>0 OR ((CLSK2>0) OR (ALLSK>0))) SK381>2) OR (TABSK16>0 ALLSK>0 SK381>1) OR (CLSK2>0 ALLSK>0 SK381>1)) LVLREQ<31]: %NAME%{%TAN%Dark Pact Shield%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT WAND ((TABSK17>1 (SK93>1 OR SK84>1 OR SK67>1)) OR ((TABSK17>0 OR ((CLSK2>0) OR (ALLSK>0))) (SK93>2 OR SK84>2 OR SK67>2)) OR (TABSK17>0 ALLSK>0 (SK84>1 OR SK67>1)) OR (CLSK2>0 ALLSK>0 (SK84>1 OR SK67>1))) LVLREQ<31]: %NAME%{%TAN%Bone Spells Wand%NL%%RED%Note:%ORANGE% Good for LLD:}
@@ -3042,7 +3042,7 @@ ItemDisplay[CRAFT SIN ((TABSK50>1 OR CLSK6>0) (SK280>1 OR SK274>1 OR SK269>1 OR 
 ItemDisplay[CRAFT SIN ((TABSK49>1 OR CLSK6>0) SK278>1) LVLREQ<31]: %NAME%{%TAN%Venom Claw%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT SIN ((TABSK49>1 OR CLSK6>0) SK273>1) LVLREQ<31]: %NAME%{%TAN%Mind Blast Claw%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) IAS>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill IAS Gloves%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[CRAFT GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[CRAFT GLOVES TABSK1>1 FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT SCEPTER ((TABSK24>1 SK112>1) OR (TABSK24>0 SK112>2) OR ((CLSK3>0 OR ALLSK>0 OR TABSK24>0) SK112>2) OR (TABSK24>0 ALLSK>0 SK112>1) OR (CLSK3>0 ALLSK>0 SK112>1)) LVLREQ<31]: %NAME%{%TAN%Blessed Hammer Scepter%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT (wsp OR 9ws) ((TABSK24>1 SK97>1) OR (TABSK24>0 SK97>2) OR ((CLSK3>0 OR ALLSK>0 OR TABSK24>0) SK97>2) OR (TABSK24>0 ALLSK>0 SK97>1) OR (CLSK3>0 ALLSK>0 SK97>1)) LVLREQ<31]: %NAME%{%TAN%Smite Scepter%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT (wsp OR 9ws) ((TABSK25>1 (SK102>2 OR SK114>2 OR SK118>2)) OR ((CLSK3>0 OR ALLSK>0 OR TABSK24>0) (SK102>2 OR SK114>2 OR SK118>2)) OR (TABSK25>0 ALLSK>0 (SK102>1 OR SK114>1 OR SK118>1) OR (CLSK3>0 ALLSK>0 (SK102>1 OR SK114>1 OR SK118>1)))) LVLREQ<31]: %NAME%{%TAN%Holy Aura Scepter%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}

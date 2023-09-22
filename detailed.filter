@@ -12,7 +12,6 @@
 // This version has way too many lines but is designed to allow for very easy editing and changing of item notifications.
 //
 // If you want a more strict filter please download the 'Wolfie' version of my filters.
-// If you want this filter but without all the bloat please download the 'Compact' version.
 //
 // **************************************************************************************************** LOOK HERE LOOK HERE
 // TOO MANY BLUE OR WHITE ITEMS? Check the "Magic Items Master" and "Base Items Master" sections.
@@ -1897,7 +1896,7 @@ ItemDisplay[RARE SIN ((TABSK50>1 OR CLSK6>0) (SK280>1 OR SK274>1 OR SK269>1 OR S
 ItemDisplay[RARE SIN ((TABSK49>1 OR CLSK6>0) SK278>1) LVLREQ<31]: %NAME%{%TAN%Venom Claw%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE SIN ((TABSK49>1 OR CLSK6>0) SK273>1) LVLREQ<31]: %NAME%{%TAN%Mind Blast Claw%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) IAS>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill IAS Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[RARE GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[RARE GLOVES TABSK1>1 FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE SCEPTER ((TABSK24>1 SK112>1) OR (TABSK24>0 SK112>2) OR (CLSK3>0 SK112>2)) LVLREQ<31]: %NAME%{%TAN%Blessed Hammer Scepter%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE (wsp OR 9ws) ((TABSK24>1 SK97>1) OR (TABSK24>0 SK97>2) OR (CLSK3>0 SK97>2)) LVLREQ<31]: %NAME%{%TAN%Smite Scepter%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE (wsp OR 9ws) ((TABSK25>1 (SK102>1 OR SK114>1 OR SK118>1)) OR (TABSK25>0 (SK102>2 OR SK114>2 OR SK118>2)) OR (CLSK3>0 (SK102>2 OR SK114>2 OR SK118>2))) LVLREQ<31]: %NAME%{%TAN%Holy Aura Scepter%NL%%RED%Note:%ORANGE% Good for LLD:}
@@ -3004,7 +3003,7 @@ ItemDisplay[CRAFT ID EXC WEAPON]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire
 //    [CMLL] LLD Items
 // ------------------------------------------------------------------------------
 ItemDisplay[CRAFT GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) IAS>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill IAS Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[CRAFT GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[CRAFT GLOVES TABSK1>1 FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT WAND ((TABSK16>1 SK381>1) OR ((TABSK16>0 OR ((CLSK2>0) OR (ALLSK>0))) SK381>2) OR (TABSK16>0 ALLSK>0 SK381>1) OR (CLSK2>0 ALLSK>0 SK381>1)) LVLREQ<31]: %NAME%{%TAN%Dark Pact Wand%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT NEC ((TABSK16>1 SK381>1) OR ((TABSK16>0 OR ((CLSK2>0) OR (ALLSK>0))) SK381>2) OR (TABSK16>0 ALLSK>0 SK381>1) OR (CLSK2>0 ALLSK>0 SK381>1)) LVLREQ<31]: %NAME%{%TAN%Dark Pact Shield%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT WAND ((TABSK17>1 (SK93>1 OR SK84>1 OR SK67>1)) OR ((TABSK17>0 OR ((CLSK2>0) OR (ALLSK>0))) (SK93>2 OR SK84>2 OR SK67>2)) OR (TABSK17>0 ALLSK>0 (SK84>1 OR SK67>1)) OR (CLSK2>0 ALLSK>0 (SK84>1 OR SK67>1))) LVLREQ<31]: %NAME%{%TAN%Bone Spells Wand%NL%%RED%Note:%ORANGE% Good for LLD:}
@@ -3051,7 +3050,7 @@ ItemDisplay[CRAFT SIN ((TABSK50>1 OR CLSK6>0) (SK280>1 OR SK274>1 OR SK269>1 OR 
 ItemDisplay[CRAFT SIN ((TABSK49>1 OR CLSK6>0) SK278>1) LVLREQ<31]: %NAME%{%TAN%Venom Claw%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT SIN ((TABSK49>1 OR CLSK6>0) SK273>1) LVLREQ<31]: %NAME%{%TAN%Mind Blast Claw%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) IAS>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill IAS Gloves%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[CRAFT GLOVES ((TABSK0>1) OR (TABSK1>1) OR (TABSK2>1) OR (TABSK50>1)) FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[CRAFT GLOVES TABSK1>1 FCR>9 LVLREQ<31]: %NAME%{%TAN%+2 Skill FCR Gloves%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT SCEPTER ((TABSK24>1 SK112>1) OR (TABSK24>0 SK112>2) OR ((CLSK3>0 OR ALLSK>0 OR TABSK24>0) SK112>2) OR (TABSK24>0 ALLSK>0 SK112>1) OR (CLSK3>0 ALLSK>0 SK112>1)) LVLREQ<31]: %NAME%{%TAN%Blessed Hammer Scepter%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT (wsp OR 9ws) ((TABSK24>1 SK97>1) OR (TABSK24>0 SK97>2) OR ((CLSK3>0 OR ALLSK>0 OR TABSK24>0) SK97>2) OR (TABSK24>0 ALLSK>0 SK97>1) OR (CLSK3>0 ALLSK>0 SK97>1)) LVLREQ<31]: %NAME%{%TAN%Smite Scepter%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[CRAFT (wsp OR 9ws) ((TABSK25>1 (SK102>2 OR SK114>2 OR SK118>2)) OR ((CLSK3>0 OR ALLSK>0 OR TABSK24>0) (SK102>2 OR SK114>2 OR SK118>2)) OR (TABSK25>0 ALLSK>0 (SK102>1 OR SK114>1 OR SK118>1) OR (CLSK3>0 ALLSK>0 (SK102>1 OR SK114>1 OR SK118>1)))) LVLREQ<31]: %NAME%{%TAN%Holy Aura Scepter%NL%%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
