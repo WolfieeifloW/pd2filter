@@ -52,7 +52,7 @@ If it worked a Minor Health Potion should now say *HP1*.
 # Loot Filters  
 ### [Combined](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/combined.filter)  
 CTRL+click the above link for the raw code.  
-**This is the only version you should use going forward.** It has all other versions in it utilizing the Filter Level option in-game. I've also added Filter Level 5: "Runewords and Recipes". This Filter Level will show the "Possible RWs" and recipes text on items, while all other Filter Levels will hide it. This allows your items to not have a bunch of bloated text on them while grinding away, but then when your big crafting session comes you can toggle to Filter Level 5 to see all the information you know and love!
+<ins>**This is the only version you should use going forward.**</ins> It has all other versions in it utilizing the Filter Level option in-game. I've also added Filter Level 5: "Runewords and Recipes". This Filter Level will show the "Possible RWs" and recipes text on items, while all other Filter Levels will hide it. This allows your items to not have a bunch of bloated text on them while grinding away, but then when your big crafting session comes you can toggle to Filter Level 5 to see all the information you know and love!
 
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)  
 CTRL+click the above link for the raw code.  
