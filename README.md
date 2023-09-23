@@ -1,6 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**Yes, my filters are updated for Season 7!**  
+**Yes, my filters are updated for Season 8!**  
 
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).  
 I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!  
@@ -13,6 +13,7 @@ Please also look at the instructions under the "Base Items" header.
 # Table of Contents
 1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
 1. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
+   * [Combined](https://github.com/WolfieeifloW/pd2filter#combined)
    * [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
    * [Revealed](https://github.com/WolfieeifloW/pd2filter#revealed)
    * [Vanilla](https://github.com/WolfieeifloW/pd2filter#vanilla)
@@ -49,6 +50,10 @@ The launcher will automatically grab the newest version of your selected filter 
 If it worked a Minor Health Potion should now say *HP1*.
 
 # Loot Filters  
+### [Combined](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/combined.filter)  
+CTRL+click the above link for the raw code.  
+**This is the only version you should use going forward.** It has all other versions in it utilizing the Filter Level option in-game. I've also added Filter Level 5: "Runewords and Recipes". This Filter Level will show the "Possible RWs" and recipes text on items, while all other Filter Levels will hide it. This allows your items to not have a bunch of bloated text on them while grinding away, but then when your big crafting session comes you can toggle to Filter Level 5 to see all the information you know and love!
+
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)  
 CTRL+click the above link for the raw code.  
 **Select this version if you are uncomfortable with needing to write your own filter lines.** This version has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking. This is for ease-of-use and very quick editing as you should ideally only ever have to comment or uncomment a line (add or remove //). This version will show and notify a lot of items by default with the idea that you can slowly start to comment out things you don't need. The flip side is that since this filter contains lines for every item you can easily just uncomment a line for things you want to show that aren't currently showing.
