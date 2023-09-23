@@ -1,7 +1,7 @@
 // +----------------------------------------------------------------------------+
 // |                                                                            |
 // |     WOLFIE'S PROJECT DIABLO 2 FILTER (REVEALED)                            |
-// |     GitHub: https://github.com/WolfieeifloW/pd2filter                      |
+// |     GitHub: https://github.com/WolfieeifloW/pd2filter/                     |
 // |     Discord: https://discord.gg/6bM8AtYGAq                                 |
 // |     Made By: @WolfieeifloW#6431                                            |
 // |                                                                            |
@@ -13,7 +13,7 @@
 // In here you will find notifications and filters for every item in the game (hopefully!).
 // This version has way too many lines but is designed to allow for very easy editing and changing of item notifications.
 //
-// If you want a more strict filter please download the 'Wolfie' version of my filters.
+// If you want a more strict filter please use the 'Wolfie' version of my filters.
 //
 // **************************************************************************************************** LOOK HERE LOOK HERE
 // TOO MANY BLUE OR WHITE ITEMS? Check the "Magic Items Master" and "Base Items Master" sections.
@@ -341,10 +341,10 @@ ItemDisplay[dcma STAT185=2]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-
 ItemDisplay[rtmo]: %PURPLE%+ %RED%Trang-Oul's Jawbone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Undead enemies%NL%%NL%%TAN%to create a Voidstone%NL%and Hellfire Torch or Hellfire Ashes%NL%Cube w/ Splinter of the Void,} // Trang-Oul's Jawbone
 ItemDisplay[rtmv]: %PURPLE%+ %RED%Splinter of the Void%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Shadow of Mendeln map event%NL%%NL%%TAN%to create a Voidstone%NL%Hellfire Torch or Hellfire Ashes%NL%Cube w/ Trang-Oul's Jawbone, and} // Splinter of the Void
 ItemDisplay[cm2f]: %PURPLE%+ %RED%Hellfire Ashes%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Obtained by cubing a Hellfire Torch w/ a Key%NL%%NL%%%TAN%to create a Voidstone%NL%and Trang-Oul's Jawbone%NL%Cube w/ Splinter of the Void} // Hellfire Ashes
-ItemDisplay[rtma]: %PURPLE%+ %RED%Voidstone%PURPLE% +%RED%%MAP-62%{%TAN%Item used for Rathma..} // Voidstone (accesses Rathma)
+ItemDisplay[rtma]: %PURPLE%+ %RED%Voidstone%PURPLE% +%RED%%MAP-62%{%RED%Beware of Rathma..%NL%%NL%%TAN%Requires level 75} // Voidstone (accesses Rathma)
 ItemDisplay[cwss]: %PURPLE%+ %RED%Tainted Worldstone Shard%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%25% chance Extra XP%NL%25% chance Extra Res%NL%25% chance Extra Vit/Ene%NL%25% chance +1 Skill%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
-ItemDisplay[rid]: %PURPLE%+ %RED%Horadric Alamanac%PURPLE% +%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
-ItemDisplay[rtp]: %PURPLE%+ %BLUE%Horadric Navigator%PURPLE% +%MAP-62%{%TAN%recipe without being consumed%NL%Can be used in cube recipes} // Horadric Navigator (Unlimited TP Tome)
+ItemDisplay[rid]: %PURPLE%+ %RED%Horadric Alamanac%PURPLE% +%RED%%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
+ItemDisplay[rtp]: %PURPLE%+ %BLUE%Horadric Navigator%PURPLE% +%BLUE%%MAP-62%{%TAN%recipe without being consumed%NL%Can be used in cube recipes} // Horadric Navigator (Unlimited TP Tome)
 
 // ------------------------------------------------------------------------------
 // [UBAN] Uber Ancients Items
@@ -743,7 +743,7 @@ ItemDisplay[UNI !ID jew]: %NAME% [Rainbow Facet]%MAP-A5% // Rainbow Facet Jewel
 // ------------------------------------------------------------------------------
 //      [UMRI] Rings
 // ------------------------------------------------------------------------------
-ItemDisplay[UNI !ID rin]: %NAME%%MAP-A5% // All unique rings // All unique rings
+ItemDisplay[UNI !ID rin]: %NAME%%MAP-A5% // All unique rings
 
 // ------------------------------------------------------------------------------
 // [UICS] Unique Class Specific
@@ -3272,8 +3272,8 @@ ItemDisplay[MAG ILVL>71 SHIELD !DIN !NEC (EXC OR ELT)]: %NAME% %ORANGE%[C]%BLUE%
 // ------------------------------------------------------------------------------
 //       [CWAM] Amazon
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG ILVL<72 CLVL<75 SPEAR !THROWING ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Amazon Spears
-ItemDisplay[MAG ILVL<72 CLVL<75 SPEAR THROWING ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Amazon Javelins
+ItemDisplay[MAG ILVL<72 CLVL<75 SPEAR ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Amazon Spears
+ItemDisplay[MAG ILVL<72 CLVL<75 JAV ZON]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Amazon Javelins
 ItemDisplay[MAG ILVL<72 CLVL<75 ZON BOW]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Any Amazon Bow
 ItemDisplay[MAG ILVL>71 ETH (am3 OR am8 OR amd OR am4 OR am9 OR ame)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Amazon Spears
 ItemDisplay[MAG ILVL>71 ETH (am5 OR ama OR amf)]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Amazon Javelins
@@ -3451,7 +3451,7 @@ ItemDisplay[MAG !ID rin]: %NAME% // All unidentified rings
 // ------------------------------------------------------------------------------
 // All Amazon weapons
 //ItemDisplay[MAG !ID ZON]: %NAME% // All Amazon weapons
-ItemDisplay[MAG !ID SPEAR THROWING ZON]: %NAME%%MAP-97% // Javelins for 6/40
+ItemDisplay[MAG !ID JAV ZON]: %NAME%%MAP-97% // Javelins for 6/40
 //ItemDisplay[MAG !ID NORM ZON]: %NAME% // All Normal tier Amazon weapons
 //ItemDisplay[MAG !ID EXC ZON]: %NAME% // All Exceptional tier Amazon weapons
 //ItemDisplay[MAG !ID ELT ZON]: %NAME% // All Elite tier Amazon weapons
@@ -7378,10 +7378,10 @@ ItemDisplay[NMAG !INF !RW SOCK=4 ula]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Scarab H
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 ula]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Scarab Husk, 4os, Superior, Eth
 
 // ------ Wire Fleece
-//ItemDisplay[NMAG !INF !RW SOCK=0 utu]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wire Fleece, 0os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=2 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 2os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 3os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=4 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 4os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=0 utu]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wire Fleece, 0os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=2 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 2os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=3 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 3os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=4 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 4os, all variants
 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 utu]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wire Fleece, 0os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 2os, Non-Eth
@@ -10776,7 +10776,7 @@ ItemDisplay[NMAG ID CLVL>20 dir]: // This will completely hide all white Dirks p
 // ------ Kris
 //ItemDisplay[NMAG !INF !RW SOCK=0 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 0os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=2 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 2os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 3os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=3 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 3os, all variants
 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 0os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 2os, Non-Eth
@@ -10846,7 +10846,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=2 9di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Rond
 // ------ Cinquedeas
 //ItemDisplay[NMAG !INF !RW SOCK=0 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 0os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=2 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 2os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 3os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=3 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 3os, all variants
 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 0os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 2os, Non-Eth
@@ -10914,17 +10914,17 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=2 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mith
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mithril Point, 2os, Superior, Eth
 
 // ------ Fanged Knife
-//ItemDisplay[NMAG !INF !RW SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, all variants
 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Non-Eth
 
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Superior, Non-Eth
+// ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Superior, Non-Eth
+// ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Superior, Non-Eth
 
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, Eth

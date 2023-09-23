@@ -11,7 +11,7 @@
 // In here you will find notifications and filters for every item in the game (hopefully!).
 // This version has way too many lines but is designed to allow for very easy editing and changing of item notifications.
 //
-// If you want a more strict filter please download the 'Wolfie' version of my filters.
+// If you want a more strict filter please use the 'Wolfie' version of my filters.
 //
 // **************************************************************************************************** LOOK HERE LOOK HERE
 // TOO MANY BLUE OR WHITE ITEMS? Check the "Magic Items Master" and "Base Items Master" sections.
@@ -601,7 +601,7 @@ ItemDisplay[MAG SHOP (CLSK6>1 AND SK366>2) SIN]: %ORANGE%+5 Lightning Sentry // 
 
 //  +2 tab / +3 skill
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK254=3) SIN]: %ORANGE%+5 Tiger Strike // +2 Martial Arts, +3 Tiger Strike katar
-ItemDisplay[MAG SHOP (TABSK50=2 AND SK259=3) SIN]: %ORANGE%+5 Fists of FIre // +2 Martial Arts, +3 Fists of Fire katar
+ItemDisplay[MAG SHOP (TABSK50=2 AND SK259=3) SIN]: %ORANGE%+5 Fists of Fire // +2 Martial Arts, +3 Fists of Fire katar
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK265=3) SIN]: %ORANGE%+5 Cobra Strike // +2 Martial Arts, +3 Cobra Strike katar
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK269=3) SIN]: %ORANGE%+5 Claws of Thunder // +2 Martial Arts, +3 Claws of Thunder katar
 ItemDisplay[MAG SHOP (TABSK50=2 AND SK275=3) SIN]: %ORANGE%+5 Dragon Flight // +2 Martial Arts, +3 Dragon Flight katar
@@ -7386,10 +7386,10 @@ ItemDisplay[NMAG !INF !RW SOCK=4 ula]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Scarab H
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=4 ula]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Scarab Husk, 4os, Superior, Eth
 
 // ------ Wire Fleece
-//ItemDisplay[NMAG !INF !RW SOCK=0 utu]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wire Fleece, 0os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=2 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 2os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 3os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=4 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 4os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=0 utu]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wire Fleece, 0os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=2 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 2os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=3 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 3os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=4 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 4os, all variants
 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 utu]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wire Fleece, 0os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 utu]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Wire Fleece, 2os, Non-Eth
@@ -10784,7 +10784,7 @@ ItemDisplay[NMAG ID CLVL>20 dir]: // This will completely hide all white Dirks p
 // ------ Kris
 //ItemDisplay[NMAG !INF !RW SOCK=0 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 0os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=2 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 2os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 3os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=3 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 3os, all variants
 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 0os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 kri]: %NAME%%DOT-20%%PX-00%{%NAME%} // Kris, 2os, Non-Eth
@@ -10854,7 +10854,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=2 9di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Rond
 // ------ Cinquedeas
 //ItemDisplay[NMAG !INF !RW SOCK=0 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 0os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=2 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 2os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 3os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=3 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 3os, all variants
 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 0os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 9kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Cinquedeas, 2os, Non-Eth
@@ -10924,15 +10924,15 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=2 7di]: %NAME%%DOT-20%%PX-00%{%NAME%} // Mith
 // ------ Fanged Knife
 //ItemDisplay[NMAG !INF !RW SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, all variants
 //ItemDisplay[NMAG !INF !RW SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, all variants
-//ItemDisplay[NMAG !INF !RW SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, all variants
 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Non-Eth
 
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Superior, Non-Eth
+// ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, Superior, Non-Eth
-ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Superior, Non-Eth
+// ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 3os, Superior, Non-Eth
 
 //ItemDisplay[NMAG !INF !RW ETH SOCK=0 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7kr]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fanged Knife, 2os, Eth
