@@ -3500,7 +3500,7 @@ ItemDisplay[MAG TABSK48>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // +
 //ItemDisplay[MAG SK251>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Fire Blast
 //ItemDisplay[MAG SK256>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Shock Web
 ItemDisplay[MAG SK257>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blade Sentinel
-//ItemDisplay[MAG SK261>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Charged Bolt Sentry
+ItemDisplay[MAG SK261>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Charged Bolt Sentry
 ItemDisplay[MAG SK262>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Wake Of Fire
 ItemDisplay[MAG SK266>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blade Fury
 //ItemDisplay[MAG SK272>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Wake Of Inferno
@@ -6076,7 +6076,7 @@ ItemDisplay[NMAG !INF !RW SK278>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Venom
 //ItemDisplay[NMAG !INF !RW SK251>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Fire Blast
 //ItemDisplay[NMAG !INF !RW SK256>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shock Web
 ItemDisplay[NMAG !INF !RW SK257>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade Sentinel
-//ItemDisplay[NMAG !INF !RW SK261>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Charged Bolt Sentry
+ItemDisplay[NMAG !INF !RW SK261>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Charged Bolt Sentry
 ItemDisplay[NMAG !INF !RW SK262>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wake Of Fire
 ItemDisplay[NMAG !INF !RW SK266>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade Fury
 //ItemDisplay[NMAG !INF !RW SK272>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wake Of Inferno

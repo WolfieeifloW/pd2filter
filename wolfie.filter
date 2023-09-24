@@ -1473,6 +1473,7 @@ ItemDisplay[MAG SK278>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Ven
 // Traps
 ItemDisplay[MAG TABSK48>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // +3 Traps
 ItemDisplay[MAG SK257>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blade Sentinel
+ItemDisplay[MAG SK261>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Charged Bolt Sentry
 ItemDisplay[MAG SK262>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Wake Of Fire
 ItemDisplay[MAG SK266>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blade Fury
 ItemDisplay[MAG SK276>2 SIN]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Death Sentry
@@ -2781,6 +2782,7 @@ ItemDisplay[NMAG !INF !RW SK278>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Venom
 
 // Traps
 ItemDisplay[NMAG !INF !RW SK257>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade Sentinel
+ItemDisplay[NMAG !INF !RW SK261>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Charged Bolt Sentry
 ItemDisplay[NMAG !INF !RW SK262>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wake Of Fire
 ItemDisplay[NMAG !INF !RW SK266>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade Fury
 ItemDisplay[NMAG !INF !RW SK276>2 SIN]: %NAME%%DOT-20%%PX-00%{%NAME%} // Death Sentry

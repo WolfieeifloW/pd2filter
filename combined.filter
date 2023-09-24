@@ -1564,8 +1564,8 @@ ItemDisplay[RARE ID NORM ARMOR !(CIRC OR aqv OR cqv) FILTLVL=5]: %NAME%%CONTINUE
 ItemDisplay[RARE ID EXC ARMOR !(CIRC OR aqv OR cqv) FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%NAME%}
 ItemDisplay[RARE ID NORM WEAPON FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC WEAPON FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID NORM WEAPON !FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%NAME%}
-ItemDisplay[RARE ID EXC WEAPON !FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%NAME%}
+ItemDisplay[RARE ID NORM WEAPON !FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
+ItemDisplay[RARE ID EXC WEAPON !FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
 ItemDisplay[RARE ID (ARMOR OR WEAPON) ELT !(CIRC OR aqv OR cqv)]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
 
 ItemDisplay[RARE !ID aqv !FILTLVL=3]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
@@ -2347,6 +2347,7 @@ ItemDisplay[MAG SK278>2 SIN !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP
 // Traps
 ItemDisplay[MAG TABSK48>2 SIN !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // +3 Traps
 ItemDisplay[MAG SK257>2 SIN !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blade Sentinel
+ItemDisplay[MAG SK261>2 SIN !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Charged Bolt Sentry
 ItemDisplay[MAG SK262>2 SIN !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Wake Of Fire
 ItemDisplay[MAG SK266>2 SIN !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blade Fury
 ItemDisplay[MAG SK276>2 SIN !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Death Sentry
@@ -3625,6 +3626,7 @@ ItemDisplay[NMAG !INF !RW SK278>2 SIN !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%}
 
 // Traps
 ItemDisplay[NMAG !INF !RW SK257>2 SIN !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade Sentinel
+ItemDisplay[NMAG !INF !RW SK261>2 SIN !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Charged Bolt Sentry
 ItemDisplay[NMAG !INF !RW SK262>2 SIN !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Wake Of Fire
 ItemDisplay[NMAG !INF !RW SK266>2 SIN !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Blade Fury
 ItemDisplay[NMAG !INF !RW SK276>2 SIN !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Death Sentry
