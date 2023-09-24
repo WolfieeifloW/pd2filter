@@ -1,6 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**Yes, my filters are updated for Season 7!**  
+**Yes, my filters are updated for Season 8!**  
 
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).  
 I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!  
@@ -13,6 +13,7 @@ Please also look at the instructions under the "Base Items" header.
 # Table of Contents
 1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
 1. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
+   * [Combined](https://github.com/WolfieeifloW/pd2filter#combined)
    * [Detailed](https://github.com/WolfieeifloW/pd2filter#detailed)
    * [Revealed](https://github.com/WolfieeifloW/pd2filter#revealed)
    * [Vanilla](https://github.com/WolfieeifloW/pd2filter#vanilla)
@@ -31,17 +32,17 @@ Please also look at the instructions under the "Base Items" header.
 # Installation
 The launcher will automatically grab the newest version of your selected filter whenever you press Play!
 1. In the Project Diablo 2 launcher click the "Item Filter Profiles" button:  
-![01](https://user-images.githubusercontent.com/40577712/110861246-e0e37480-828b-11eb-99c9-1000149c7c43.jpg)
+![03](https://github.com/WolfieeifloW/pd2filter/assets/40577712/7737f125-bb3b-4225-ac01-48b6eafcf364)
 1. On the left-side column (1) select **Wolfie**
 1. On the right-side column (2) select which version of my [Loot Filter](https://github.com/WolfieeifloW/pd2filter#loot-filters) you want to use:  
-![02](https://user-images.githubusercontent.com/40577712/110861437-20aa5c00-828c-11eb-9e8d-bd04e3e01399.png)
+![01](https://github.com/WolfieeifloW/pd2filter/assets/40577712/66e394f3-fa64-44e8-bfed-54c9730f651b)
 1. Once you select a filter from the right side you will see "Config Saved"  
-![03](https://user-images.githubusercontent.com/40577712/110861656-72eb7d00-828c-11eb-80f0-2d586bb2773c.png)
+![02](https://github.com/WolfieeifloW/pd2filter/assets/40577712/b20adb80-1105-437b-86c8-afc6e2104455)
 1. Click the **X** button in the top-right corner
 1. Select **Play** in the launcher
 1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
 1. Change your settings to match the image below:  
-![InGameSettings](https://user-images.githubusercontent.com/40577712/112235704-8f38d380-8c15-11eb-9791-fddfe493d45b.png)
+![04](https://github.com/WolfieeifloW/pd2filter/assets/40577712/e4101afd-458e-4b81-a321-f67931b23879)
 1. Close the Settings window by right-clicking in the title bar (anywhere along the bar that says "Settings")
 1. Reload your filter using **Numpad 0**
    1. If you don't have a numpad change `Reload Config:          VK_NUMPAD0` in ProjectDiablo.cfg (in your PD2 folder) to one of these [Virtual Key Codes](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
@@ -49,6 +50,10 @@ The launcher will automatically grab the newest version of your selected filter 
 If it worked a Minor Health Potion should now say *HP1*.
 
 # Loot Filters  
+### [Combined](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/combined.filter)  
+CTRL+click the above link for the raw code.  
+<ins>**This is the only version you should use going forward.**</ins> It has all other versions in it utilizing the Filter Level option in-game. I've also added Filter Level 5: "Runewords and Recipes". This Filter Level will show the "Possible RWs" and recipes text on items, while all other Filter Levels will hide it. This allows your items to not have a bunch of bloated text on them while grinding away, but then when your big crafting session comes you can toggle to Filter Level 5 to see all the information you know and love!
+
 ### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)  
 CTRL+click the above link for the raw code.  
 **Select this version if you are uncomfortable with needing to write your own filter lines.** This version has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking. This is for ease-of-use and very quick editing as you should ideally only ever have to comment or uncomment a line (add or remove //). This version will show and notify a lot of items by default with the idea that you can slowly start to comment out things you don't need. The flip side is that since this filter contains lines for every item you can easily just uncomment a line for things you want to show that aren't currently showing.
