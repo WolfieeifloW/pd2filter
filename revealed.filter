@@ -149,7 +149,7 @@ ItemDisplay[hdm]: %NAME%%MAP-58%{%TAN%Give to Charsi in Act 1} // Horadric Malus
 // ------------------------------------------------------------------------------
 ItemDisplay[ass]: %GOLD%Book of Skill%MAP-58%{%TAN%+1 Skill Point%NL%Right click for %NL%} // Book of Skill
 ItemDisplay[tr1]: //%NAME%{%TAN%Not required%NL%} // Horadric Scroll
-ItemDisplay[box]: %NAME%%MAP-58% // Horadric Cube
+ItemDisplay[box]: %NAME%%MAP-58%{%RED%using the%ORANGE% Revealed%RED% version%NL%%ORANGE% Filter Level 21%RED% to continue%NL%to%ORANGE% combined.filter%RED% and choose%NL%of my filters. Please switch%NL%will be removing this version%NL%At the end of this month I} // Horadric Cube
 ItemDisplay[hst]: %NAME%%MAP-58%{%RED%0  )  []  +  >>  /\  0)%NL%Tombs:%NL%%NL%%TAN%Act 2: Tal Rashas Tomb%NL%Place in Tomb Orifice in} // Horadric Staff
 ItemDisplay[vip]: %NAME%%MAP-58%{%TAN%Cube w/ Staff of Kings} // Amulet of the Viper
 ItemDisplay[msf]: %NAME%%MAP-58%{%TAN%Cube w/ Amulet of the Viper} // Staff of Kings

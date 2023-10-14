@@ -2691,18 +2691,30 @@ ItemDisplay[opm FILTLVL>3]: // Hide Exploding Potion
 ItemDisplay[ops DIFF<1 FILTLVL<4]: %ORANGE%+%WHITE%Oil // Oil Potion
 ItemDisplay[ops DIFF>0 FILTLVL<4]: // Oil Potion after Normal difficulty
 ItemDisplay[ops FILTLVL>3]: // Hide Oil Potion
-ItemDisplay[tpgs]: %GREEN%+%WHITE%Strang // Strangling Potion
-ItemDisplay[tpgm]: %GREEN%+%WHITE%Chok // Choking Potion
-ItemDisplay[tpgl]: %GREEN%+%WHITE%Ranc // Rancid Potion
-ItemDisplay[tpfs]: %ORANGE%+%WHITE%Fulm // Fulminating Potion
-ItemDisplay[tpfm]: %ORANGE%+%WHITE%Explo // Exploding Potion
-ItemDisplay[tpfl]: %ORANGE%+%WHITE%Oil // Oil Potion
-ItemDisplay[tpcs]: %BLUE%+%WHITE%Chill // Chilling Potion
-ItemDisplay[tpcm]: %BLUE%+%WHITE%Frost // Frost Potion
-ItemDisplay[tpcl]: %BLUE%+%WHITE%Freeze // Freezing Potion
-ItemDisplay[tpls]: %YELLOW%+%WHITE%Charge // Charged Potion
-ItemDisplay[tplm]: %YELLOW%+%WHITE%Static // Static Potion
-ItemDisplay[tpll]: %YELLOW%+%WHITE%Shock // Shock Potion
+ItemDisplay[tpgs DIFF<1]: %GREEN%+%WHITE%Strang // Strangling Potion
+ItemDisplay[tpgs DIFF>0]: // Hides Strangling Potion after Normal Difficulty
+ItemDisplay[tpgm DIFF<1]: %GREEN%+%WHITE%Chok // Choking Potion
+ItemDisplay[tpgm DIFF>0]: // Hides Choking Potion after Normal Difficulty
+ItemDisplay[tpgl DIFF<1]: %GREEN%+%WHITE%Ranc // Rancid Potion
+ItemDisplay[tpgl DIFF>0]: // Hides Rancid Potion after Normal Difficulty
+ItemDisplay[tpfs DIFF<1]: %ORANGE%+%WHITE%Fulm // Fulminating Potion
+ItemDisplay[tpfs DIFF>0]: // Hides Fulminating Potion after Normal Difficulty
+ItemDisplay[tpfm DIFF<1]: %ORANGE%+%WHITE%Explo // Exploding Potion
+ItemDisplay[tpfm DIFF>0]: // Hides Exploding Potion after Normal Difficulty
+ItemDisplay[tpfl DIFF<1]: %ORANGE%+%WHITE%Oil // Oil Potion
+ItemDisplay[tpfl DIFF>0]: // Hides Oil Potion after Normal Difficulty
+ItemDisplay[tpcs DIFF<1]: %BLUE%+%WHITE%Chill // Chilling Potion
+ItemDisplay[tpcs DIFF>0]: // Hides Chilling Potion after Normal Difficulty
+ItemDisplay[tpcm DIFF<1]: %BLUE%+%WHITE%Frost // Frost Potion
+ItemDisplay[tpcm DIFF>0]: // Hides Frost Potion after Normal Difficulty
+ItemDisplay[tpcl DIFF<1]: %BLUE%+%WHITE%Freeze // Freezing Potion
+ItemDisplay[tpcl DIFF>0]: // Hides Freezing Potion after Normal Difficulty
+ItemDisplay[tpls DIFF<1]: %YELLOW%+%WHITE%Charge // Charged Potion
+ItemDisplay[tpls DIFF>0]: // Hides Charged Potion after Normal Difficulty
+ItemDisplay[tplm DIFF<1]: %YELLOW%+%WHITE%Static // Static Potion
+ItemDisplay[tplm DIFF>0]: // Hides Static Potion after Normal Difficulty
+ItemDisplay[tpll DIFF<1]: %YELLOW%+%WHITE%Shock // Shock Potion
+ItemDisplay[tpll DIFF>0]: // Hides Shock Potion after Normal Difficulty
 
 // ------------------------------------------------------------------------------
 //    [BCTO] Scrolls & Tomes
