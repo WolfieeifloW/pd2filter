@@ -2733,7 +2733,7 @@ ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !ID SHOP amu]: %GREEN%Angelic Wings%NL%Arcanna's Sign%NL%Cathan's Sigil%NL%Civerb's Icon%NL%Iratha's Collar%NL%Tancred's Weird%NL%Vidala's Snare%NL%Telling of Beads%NL%Tal Rasha's Adjudication%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Nokozan Relic%NL%The Eye of Etlich%NL%The Mahim-Oak Curio%NL%Saracen's Chance%NL%The Cat's Eye%NL%Crescent Moon%NL%Atma's Scarab%NL%The Rising Sun%NL%Highlord's Wrath%NL%Mara's Kaleidoscope%NL%Seraph's Hymn%NL%Metalgrid%ORANGE%%NL%Possible Uniques:%WHITE%%NL%%NAME%
+ItemDisplay[NMAG !ID SHOP amu]: %GREEN%Tal Rasha's Adjudication%NL%Telling of Beads%NL%Vidala's Snare%NL%Tancred's Weird%NL%Iratha's Collar%NL%Civerb's Icon%NL%Cathan's Sigil%NL%Arcanna's Sign%NL%Angelic Wings%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%The Rising Sun%NL%The Mahim-Oak Curio%NL%The Eye of Etlich%NL%The Cat's Eye%NL%Seraph's Hymn%NL%Saracen's Chance%NL%Nokozan Relic%NL%Metalgrid%NL%Mara's Kaleidoscope%NL%Highlord's Wrath%NL%Crescent Moon%NL%Atma's Scarab%ORANGE%%NL%Possible Uniques:%WHITE%%NL%%NAME%
 ItemDisplay[NMAG !ID SHOP jew]: %GOLD%Rainbow Facet%ORANGE%%NL%Possible Uniques:%WHITE%%NL%%NAME%
 ItemDisplay[NMAG !ID SHOP ci0]: %GREEN%Naj's Circlet%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Kira's Guardian%ORANGE%%NL%Possible Uniques:%WHITE%%NL%%NAME%
 ItemDisplay[NMAG !ID SHOP ci1]: %GREEN%M'avina's True Sight%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Griffon's Eye%ORANGE%%NL%Possible Uniques:%WHITE%%NL%%NAME%
