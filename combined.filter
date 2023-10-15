@@ -40,7 +40,7 @@ ItemDisplay[hdm]: %NAME%%MAP-58%{%TAN%Give to Charsi in Act 1} // Horadric Malus
 // ------------------------------------------------------------------------------
 ItemDisplay[ass]: %GOLD%Book of Skill%MAP-58%{%TAN%+1 Skill Point%NL%Right click for %NL%} // Book of Skill
 ItemDisplay[tr1]: //%NAME%{%TAN%Not required%NL%} // Horadric Scroll
-ItemDisplay[box]: %NAME%%MAP-58% // Horadric Cube
+ItemDisplay[box]: %NAME%%MAP-58%{%TAN%Runewords & Recipes on items!%NL%Check Filter Level 5 for Possible} // Horadric Cube
 ItemDisplay[hst]: %NAME%%MAP-58%{%RED%0  )  []  +  >>  /\  0)%NL%Tombs:%NL%%NL%%TAN%Act 2: Tal Rashas Tomb%NL%Place in Tomb Orifice in} // Horadric Staff
 ItemDisplay[vip]: %NAME%%MAP-58%{%TAN%Cube w/ Staff of Kings} // Amulet of the Viper
 ItemDisplay[msf]: %NAME%%MAP-58%{%TAN%Cube w/ Amulet of the Viper} // Staff of Kings
@@ -2195,15 +2195,15 @@ ItemDisplay[MAG ILVL<72 CLVL<75 MACE FILTLVL=5]: %NAME%{%GRAY%Vampiric:%TAN% P S
 ItemDisplay[MAG ILVL<72 CLVL<75 ETH MACE FILTLVL=5]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Maces
 ItemDisplay[MAG ILVL>71 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) !FILTLVL=5]: %NAME% %ORANGE%[C]%BLUE% // All Clubs
 ItemDisplay[MAG ILVL>71 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) FILTLVL=5]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // All Clubs
-ItemDisplay[MAG ILVL>71 ETH (9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm) !FILTLVL=5]: %NAME% %ORANGE%[C]%BLUE% // Good Eth Maces
-ItemDisplay[MAG ILVL>71 ETH (9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm) FILTLVL=5]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Maces
+ItemDisplay[MAG ILVL>71 (9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm) !FILTLVL=5]: %NAME% %ORANGE%[C]%BLUE% // Good Eth Maces
+ItemDisplay[MAG ILVL>71 (9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm) FILTLVL=5]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Maces
 
 // ------------------------------------------------------------------------------
 //       [CWPO] Polearms
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG ILVL<72 CLVL<75 ETH POLEARM FILTLVL=5]: %NAME%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Polearms
-ItemDisplay[MAG ILVL>71 ETH (9vo OR 7vo OR 9s8 OR 7s8 OR 9pa OR 7pa OR 9h9 OR 7h7 OR 9wc OR 7wc) !FILTLVL=5]: %NAME% %ORANGE%[C]%BLUE% // Good Eth Polearms
-ItemDisplay[MAG ILVL>71 ETH (9vo OR 7vo OR 9s8 OR 7s8 OR 9pa OR 7pa OR 9h9 OR 7h7 OR 9wc OR 7wc) FILTLVL=5]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Eth Polearms
+ItemDisplay[MAG ILVL>71 (9b7 OR 7o7 OR 9vo OR 7vo OR 9s8 OR 7s8 OR 9pa OR 7pa OR 9h9 OR 7h7 OR 9wc OR 7wc) !FILTLVL=5]: %NAME% %ORANGE%[C]%BLUE% // Good Polearms
+ItemDisplay[MAG ILVL>71 (9b7 OR 7o7 OR 9vo OR 7vo OR 9s8 OR 7s8 OR 9pa OR 7pa OR 9h9 OR 7h7 OR 9wc OR 7wc) FILTLVL=5]: %NAME% %ORANGE%[C]%BLUE%{%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:} // Good Polearms
 
 // ------------------------------------------------------------------------------
 //       [CWSC] Scepters
