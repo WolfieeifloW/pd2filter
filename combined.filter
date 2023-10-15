@@ -4376,6 +4376,12 @@ ItemDisplay[NMAG !INF !RW SOCK=6 POLEARM FILTLVL=5]: %NAME%{%ORANGE%Asylum, Brea
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 POLEARM FILTLVL=4]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shows and notify all 2+ socket Polearms until character level 30
 
+// Ogre Axe
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7o7 !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7o7 !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 4os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7o7 !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7o7 !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 4os, Eth
+
 // Colossus Voulge
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7vo !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Voulge, 0os, Superior, Non-Eth
 ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7vo !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Colossus Voulge, 4os, Superior, Non-Eth

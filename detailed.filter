@@ -12670,15 +12670,15 @@ ItemDisplay[NMAG !INF !RW SOCK=6 POLEARM]: %NAME%{%ORANGE%Asylum, Breath of the 
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=3 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 3os, Non-Eth
 //ItemDisplay[NMAG !INF !RW !ETH SOCK=4 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 4os, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 0os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=0 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 0os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=2 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 2os, Superior, Non-Eth
 //ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=3 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 3os, Superior, Non-Eth
-//ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 4os, Superior, Non-Eth
+ItemDisplay[NMAG !INF !RW SUP !ETH SOCK=4 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 4os, Superior, Non-Eth
 
-//ItemDisplay[NMAG !INF !RW ETH SOCK=0 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 0os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=2 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 2os, Eth
 //ItemDisplay[NMAG !INF !RW ETH SOCK=3 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 3os, Eth
-//ItemDisplay[NMAG !INF !RW ETH SOCK=4 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 4os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 4os, Eth
 
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=0 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 0os, Superior, Eth
 //ItemDisplay[NMAG !INF !RW SUP ETH SOCK=2 7o7]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ogre Axe, 2os, Superior, Eth
