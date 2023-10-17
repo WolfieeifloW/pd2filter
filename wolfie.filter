@@ -1894,11 +1894,11 @@ ItemDisplay[tbk]: %BLUE%!%WHITE%TP%BLUE%!%WHITE% // Tome of Town Portal
 // ------------------------------------------------------------------------------
 // [BIMI] Base Items Miscellaneous
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !ID SHOP amu]: %NAME%%NL%%NL%%GREEN%Tal Rasha's Adjudication%NL%Telling of Beads%NL%Vidala's Snare%NL%Tancred's Weird%NL%Iratha's Collar%NL%Civerb's Icon%NL%Cathan's Sigil%NL%Arcanna's Sign%NL%Angelic Wings%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%The Rising Sun%NL%The Mahim-Oak Curio%NL%The Eye of Etlich%NL%The Cat's Eye%NL%Seraph's Hymn%NL%Saracen's Chance%NL%Nokozan Relic%NL%Metalgrid%NL%Mara's Kaleidoscope%NL%Highlord's Wrath%NL%Crescent Moon%NL%Atma's Scarab%ORANGE%%NL%Possible Uniques:%RED%%NL%Right-click only to buy to avoid crashes!%WHITE%
+ItemDisplay[NMAG !ID SHOP amu]: %NAME%%NL%%NL%%GREEN%All Set Amulets%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%All Unique Amulets%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP jew]: %NAME%%NL%%NL%%GOLD%Rainbow Facet%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP ci0]: %NAME%%NL%%NL%%GREEN%Naj's Circlet%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Kira's Guardian%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP ci1]: %NAME%%NL%%NL%%GREEN%M'avina's True Sight%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Griffon's Eye%ORANGE%%NL%Possible Uniques:%WHITE%
-ItemDisplay[NMAG !ID SHOP rin]: %NAME%%NL%%NL%%GREEN%Cathan's Seal%NL%Bul-Kathos' Death Band%NL%Angelic Halo%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Wisp Projector%NL%Stone of Jordan%NL%Raven Frost%NL%Nature's Peace%NL%Nagelring%NL%Manald Heal%NL%Dwarf Star%NL%Carrion Wind%NL%Bul-Kathos' Wedding Band%ORANGE%%NL%Possible Uniques:%RED%%NL%Right-click only to buy to avoid crashes!%WHITE%
+ItemDisplay[NMAG !ID SHOP rin]: %NAME%%NL%%NL%%GREEN%All Set Rings%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%All Unique Rings%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP am1]: %NAME%%NL%%NL%%GOLD%Blood Raven's Charge%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP am2]: %NAME%%NL%%NL%%GREEN%M'avina's Caster%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Lycander's Aim%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP am5]: %NAME%%NL%%NL%%GOLD%Thunderstroke%NL%Titan's Revenge%NL%True Silver%ORANGE%%NL%Possible Uniques:%WHITE%
