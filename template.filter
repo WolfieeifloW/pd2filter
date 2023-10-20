@@ -8,7 +8,7 @@
 // +----------------------------------------------------------------------------+
 //
 // Welcome to Wolfie's Project Diablo 2 Loot Filter, Template version.
-// This filter is a very basic tempalte which people can use to build their own filter.
+// This filter is a very basic template which people can use to build their own filter.
 //
 // No support will be given for this filter.
 // Only issues with lines already in here will be addressed in my Discord (https://discord.gg/6bM8AtYGAq) or in the #lootfilter channel on the PD2 Discord (http://discord.gg/projectdiablo2).
@@ -75,11 +75,12 @@ ItemDisplay[rkey]: %NAME%%MAP-62% // Skeleton Key
 // Special Crafting Items
 ItemDisplay[lsvl]: %NAME%%MAP-62% // Vial of Lightsong
 ItemDisplay[llmr]: %NAME%%MAP-62% // Lilith's Mirror
-ItemDisplay[lmal]: %NAME%
+ItemDisplay[lmal]: %NAME% // Larzuk's Malus
 
 // Corruption Items
 ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard %PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
 ItemDisplay[lbox]: %PURPLE%+ %RED%Larzuks Puzzlebox %PURPLE%+%WHITE%%MAP-62% // Larzuk's Puzzlebox
+ItemDisplay[lpp]: %PURPLE%+ %RED%Larzuks Puzzlepiece %PURPLE%+%WHITE%%MAP-62% // Larzuk's Puzzlepiece
 
 // Map Items
 ItemDisplay[rera]: %NAME% // Reroll Rare Map (Horadrim Orb)
@@ -114,7 +115,7 @@ ItemDisplay[cm2f]: %RED%%NAME%%MAP-62% // Hellfire Ashes (Rathma ingredient)
 ItemDisplay[rtma]: %RED%%NAME%%MAP-62% // Voidstone (accesses Rathma)
 ItemDisplay[cwss]: %RED%%NAME%%MAP-62% // Tainted Worldstone Shard
 ItemDisplay[rid]: %NAME%%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
-ItemDisplay[rtp]: %NAME%%MAP-62%{%TAN%recipe without being consumed%NL%Can be used in cube recipes} // Horadric Navigator (Unlimited TP Tome)
+ItemDisplay[rtp]: %NAME%%MAP-62%{%TAN%without being consumed%NL%Can be used in cube recipes} // Horadric Navigator (Unlimited TP Tome)
 
 // Uber Ancients Items
 ItemDisplay[ubaa]: %NAME% // Sigil of Madawc
