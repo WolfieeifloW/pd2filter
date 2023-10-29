@@ -232,7 +232,7 @@ ItemDisplay[rtmo]: %PURPLE%+ %RED%Trang-Oul's Jawbone%WHITE% x%QTY%%PURPLE% +%RE
 ItemDisplay[rtmv]: %PURPLE%+ %RED%Splinter of the Void%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Shadow of Mendeln map event%NL%%NL%%TAN%to create a Voidstone%NL%Hellfire Torch or Hellfire Ashes%NL%Cube w/ Trang-Oul's Jawbone, and} // Splinter of the Void
 ItemDisplay[cm2f]: %PURPLE%+ %RED%Hellfire Ashes%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Obtained by cubing a Hellfire Torch w/ a Key%NL%%NL%%%TAN%to create a Voidstone%NL%and Trang-Oul's Jawbone%NL%Cube w/ Splinter of the Void} // Hellfire Ashes
 ItemDisplay[rtma]: %PURPLE%+ %RED%Voidstone%PURPLE% +%RED%%MAP-62%{%RED%Beware of Rathma..%NL%%NL%%TAN%Requires level 75} // Voidstone (accesses Rathma)
-ItemDisplay[cwss]: %PURPLE%+ %RED%Tainted Worldstone Shard%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%25% chance Extra XP%NL%25% chance Extra Res%NL%25% chance Extra Vit/Ene%NL%25% chance +1 Skill%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
+ItemDisplay[cwss]: %PURPLE%+ %RED%Tainted Worldstone Shard%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%20% chance Extra XP%NL%20% chance Extra Res%NL%20% chance Extra Vit/Ene%NL%20% chance +1 Skill%NL%20% chance to turn into a Magic Small Charm%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
 ItemDisplay[rid]: %PURPLE%+ %RED%Horadric Alamanac%PURPLE% +%RED%%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
 ItemDisplay[rtp]: %PURPLE%+ %BLUE%Horadric Navigator%PURPLE% +%BLUE%%MAP-62%{%TAN%recipe without being consumed%NL%Can be used in cube recipes} // Horadric Navigator (Unlimited TP Tome)
 
