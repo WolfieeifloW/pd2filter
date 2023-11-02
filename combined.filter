@@ -2653,9 +2653,8 @@ ItemDisplay[hp2 DIFF<1]: %RED%+%WHITE%HP2 // Light Healing Potion
 ItemDisplay[hp2 DIFF>0]: // Hides Light Healing Potions after Normal difficulty
 ItemDisplay[hp3 DIFF<1]: %RED%+%WHITE%HP3 // Healing Potion
 ItemDisplay[hp3 DIFF>0]: // Hides Healing Potions after after Normal difficulty
-ItemDisplay[hp4 FILTLVL<4]: %RED%+%WHITE%HP4 // Greater Healing Potion
-ItemDisplay[hp4 (DIFF<2 CLVL<50) FILTLVL>3]: %RED%+%WHITE%HP4 // Greater Healing Potion
-ItemDisplay[hp4 (DIFF>1 OR CLVL>49) FILTLVL>3]: // Hides Greater Healing Potion after Nightmare difficulty or Character Level 50+
+ItemDisplay[hp4 (DIFF<2 CLVL<50)]: %RED%+%WHITE%HP4 // Greater Healing Potion
+ItemDisplay[hp4 (DIFF>1 OR CLVL>49)]: // Hides Greater Healing Potion after Nightmare difficulty or Character Level 50+
 ItemDisplay[hp5]: %RED%+%WHITE%HP5 // Super Healing Potion
 
 // Mana Potions
@@ -2665,15 +2664,15 @@ ItemDisplay[mp2 DIFF<1]: %BLUE%+%WHITE%MP2 // Light Mana Potion
 ItemDisplay[mp2 DIFF>0]: // Hides Light Mana Potions after Normal difficulty
 ItemDisplay[mp3 DIFF<1]: %BLUE%+%WHITE%MP3 // Mana Potion
 ItemDisplay[mp3 DIFF>0]: // Hides Mana Potions after after Normal difficulty
-ItemDisplay[mp4 FILTLVL<4]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
-ItemDisplay[mp4 (DIFF<2 CLVL<50) FILTLVL>3]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
-ItemDisplay[mp4 (DIFF>1 OR CLVL>49) FILTLVL>3]: // Hides Greater Mana Potion after Nightmare difficulty or Character Level 50+
+ItemDisplay[mp4 (DIFF<2 CLVL<50)]: %BLUE%+%WHITE%MP4 // Greater Mana Potion
+ItemDisplay[mp4 (DIFF>1 OR CLVL>49)]: // Hides Greater Mana Potion after Nightmare difficulty or Character Level 50+
 ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 
 ItemDisplay[pvpp]: %BLUE%+%WHITE%DMP{%RED%Only usable in PvP Arenas%NL%%NL%%TAN%PvP Mana Potion} // Dueling Mana Potion
 
 // Rejuv Potions
-ItemDisplay[rvs]: %PURPLE%+%WHITE%35% // Rejuv Potion
+ItemDisplay[rvs (DIFF<2 CLVL<50)]: %PURPLE%+%WHITE%35% // Rejuv Potion
+ItemDisplay[rvs (DIFF>1 OR CLVL>49)]: // Hides Rejuv Potion after Nightmare difficulty or Character Level 50+
 ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+%WHITE% // Full Rejuv Potion
 
 // Drinkable Potions - to hide add "//" after the colon  (eg ": //%...")
