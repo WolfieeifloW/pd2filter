@@ -4373,6 +4373,7 @@ ItemDisplay[NMAG !INF !RW SOCK=5 fla !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} 
 
 // Scourge
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fl !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 0os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=0 7fl !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 3os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fl !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Scourge, 4os, Eth
 
 // ------------------------------------------------------------------------------
