@@ -1,5 +1,6 @@
 //ItemDisplay[NMAG !ID SHOP amu]: %NAME%%NL%%NL%%GREEN%Tal Rasha's Adjudication%NL%Telling of Beads%NL%Vidala's Snare%NL%Tancred's Weird%NL%Iratha's Collar%NL%Civerb's Icon%NL%Cathan's Sigil%NL%Arcanna's Sign%NL%Angelic Wings%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%The Rising Sun%NL%The Mahim-Oak Curio%NL%The Eye of Etlich%NL%The Cat's Eye%NL%Seraph's Hymn%NL%Saracen's Chance%NL%Nokozan Relic%NL%Metalgrid%NL%Mara's Kaleidoscope%NL%Highlord's Wrath%NL%Crescent Moon%NL%Atma's Scarab%ORANGE%%NL%Possible Uniques:%RED%%NL%Right-click only to buy to avoid crashes!%WHITE%
 ItemDisplay[NMAG !ID SHOP amu]: %NAME%%NL%%NL%%GREEN%All Set Amulets%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%All Unique Amulets%ORANGE%%NL%Possible Uniques:%WHITE%
+ItemDisplay[NMAG !ID SHOP cm3]: %NAME%%NL%%NL%%GOLD%Gheed's Fortune%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP jew]: %NAME%%NL%%NL%%GOLD%Rainbow Facet%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP ci0]: %NAME%%NL%%NL%%GREEN%Naj's Circlet%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Kira's Guardian%ORANGE%%NL%Possible Uniques:%WHITE%
 ItemDisplay[NMAG !ID SHOP ci1]: %NAME%%NL%%NL%%GREEN%M'avina's True Sight%ORANGE%%NL%Possible Sets:%GOLD%%NL%%NL%Griffon's Eye%ORANGE%%NL%Possible Uniques:%WHITE%
