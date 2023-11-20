@@ -4,7 +4,8 @@
 
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).  
 I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!  
-Looking for a LoD filter? Check it out [HERE](https://github.com/WolfieeifloW/lodfilter)!
+Looking for my LoD filter? Check it out [HERE](https://github.com/WolfieeifloW/lodfilter)!
+Looking for my Last Epoch filter? Check them out [HERE](https://github.com/WolfieeifloW/lefilter)!
 
 **TOO MANY BLUE OR WHITE ITEMS?**  
 Check the "Magic Items Master" and "Base Items Master" sections.  
