@@ -88,11 +88,11 @@ Some things may have changed since these images were taken but these give a gene
 ![00_GroundWolfie](https://user-images.githubusercontent.com/40577712/110947471-3496a200-830e-11eb-988a-20c9d86049fb.png)
 
 # Discord
-Discord link: [WolfieeifloW's Diablo II Projects](https://discord.gg/6bM8AtYGAq)  
+Discord link: [WolfieeifloW's ARPG Projects](https://discord.gg/6bM8AtYGAq)  
 I've created a Discord for my filter so that you can get pinged when there's an update so you can know when to grab the new update in the launcher!
 
 # Donations
-Donation link: [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=9JARHKMQ9UU3S&item_name=Project+Diablo+2+Loot+Filter&currency_code=CAD)  
+Donation link: [PayPal](https://paypal.me/wolfieeiflow?country.x=CA&locale.x=en_US)  
 Donations are not required in any way but I very much appreciate all who support me in this fashion!  
 If you wish you can get the "Donator" role in my [Discord](https://github.com/WolfieeifloW/pd2filter#discord) as well!
 
