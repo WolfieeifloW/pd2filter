@@ -59,15 +59,6 @@ This is a custom-made version for [BTNeandertha1](https://www.twitch.tv/btneande
 CTRL+click the above link for the raw code.  
 **Select this version if you want a template/base to start from for creating your own filter.** This filters purpose is to help people get a start on building their own filter. No support will be given for this filter, you assume all responsibility for creating and editing it to your liking.
 
-# Pictures
-Some things may have changed since these images were taken but these give a general idea of how things look. For even more images please visit my [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/)!
-
-**Detailed:**  
-![00_GroundDetailed](https://user-images.githubusercontent.com/40577712/110947461-31031b00-830e-11eb-8ea2-bfd0bf65613f.png)
-
-**Wolfie:**  
-![00_GroundWolfie](https://user-images.githubusercontent.com/40577712/110947471-3496a200-830e-11eb-988a-20c9d86049fb.png)
-
 # Discord
 Discord link: [WolfieeifloW's ARPG Projects](https://discord.gg/6bM8AtYGAq)  
 I've created a Discord for my filter so that you can get pinged when there's an update so you can know when to grab the new update in the launcher!
