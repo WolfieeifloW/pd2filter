@@ -1,6 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**Yes, my filters are updated for Season 8!**  
+**Yes, my filters are updated for Season 9!**  
 
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).  
 I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!  
@@ -54,22 +54,6 @@ If it worked a Minor Health Potion should now say *HP1*.
 ### [Combined](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/combined.filter)  
 CTRL+click the above link for the raw code.  
 <ins>**This is the only version you should use going forward.**</ins> It has all other versions in it utilizing the Filter Level option in-game. I've also added Filter Level 5: "Runewords and Recipes". This Filter Level will show the "Possible RWs" and recipes text on items, while all other Filter Levels will hide it. This allows your items to not have a bunch of bloated text on them while grinding away, but then when your big crafting session comes you can toggle to Filter Level 5 to see all the information you know and love!
-
-### [Detailed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/detailed.filter)  
-CTRL+click the above link for the raw code.  
-**Select this version if you are uncomfortable with needing to write your own filter lines.** This version has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking. This is for ease-of-use and very quick editing as you should ideally only ever have to comment or uncomment a line (add or remove //). This version will show and notify a lot of items by default with the idea that you can slowly start to comment out things you don't need. The flip side is that since this filter contains lines for every item you can easily just uncomment a line for things you want to show that aren't currently showing.
-
-### [Revealed](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/revealed.filter)  
-CTRL+click the above link for the raw code.  
-**Select this version if you want to know what Set and Unique item you've dropped without ID'ing it.** This version is based off of Detailed but will show you the name of Set and Unique items when they drop before you've ID'd them. For example if a Unique Shako drops it will say "Shako [Harlequin Crest]". Being based off of Detailed means it still has lines for every single item in the game and is **massively** commented to make it very, very easy to edit to your liking.
-
-### [Vanilla](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/vanilla.filter)  
-CTRL+click the above link for the raw code.  
-**Select this version if you want to see almost everything but still have some QoL features.** This version will only hide *true* junk and show literally everything else. The *only* things being hidden in this version are low level gems, ears, inf items, NMAG quivers, gold, keys, low potions, and scrolls. Everything else is shown. It still keeps QoL things such as crafting recipes, shortened potion names, possible RWs, etc on items.
-
-### [Wolfie](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/wolfie.filter)  
-CTRL+click the above link for the raw code.  
-**This version is a copy of my own personal filter.** It is semi-strict while still working while leveling. No support will be given for this filter. Please only report items that are completely wrong.
 
 ### [BTNeandertha1](https://raw.githubusercontent.com/WolfieeifloW/pd2filter/main/btneandertha1.filter)  
 CTRL+click the above link for the raw code.  
