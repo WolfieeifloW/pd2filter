@@ -17,7 +17,6 @@ Please also look at the instructions under the "Base Items" header.
    * [Combined](https://github.com/WolfieeifloW/pd2filter#combined)
    * [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
    * [Template](https://github.com/WolfieeifloW/pd2filter#template)
-1. [Pictures](https://github.com/WolfieeifloW/pd2filter#pictures)
 1. [Discord](https://github.com/WolfieeifloW/pd2filter#discord)
 1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
