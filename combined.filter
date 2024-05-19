@@ -407,26 +407,26 @@ ItemDisplay[r23s]: Mal%CONTINUE%{%TAN%2 Mal + Key = Ist%NL%%NL%%WHITE%Shields: M
 // ------------------------------------------------------------------------------
 //    [RUHI] High Runes
 // ------------------------------------------------------------------------------
-ItemDisplay[r24]: %RED%>>>%ORANGE% Ist%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
-ItemDisplay[r24s]: %RED%>>>%ORANGE% Ist%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%%NL%%WHITE%Shields: 25% Better Chance of Getting Magic Items%NL%Helms: 30% Better Chance of Getting Magic Items%NL%Armor: 30% Better Chance of Getting Magic Items%NL%Weapons: 30% Better Chance of Getting Magic Items%NL%} // Stacked Ist Rune
-ItemDisplay[r25]: %RED%>>>%ORANGE% Gul%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%} // Gul Rune
-ItemDisplay[r25s]: %RED%>>>%ORANGE% Gul%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%%NL%%WHITE%Shields: +4% to Maximum Poison Resist%NL%Helms: +4% to Maximum Poison Resist%NL%Armor: +4% to Maximum Poison Resist%NL%Weapons: 20% Bonus to Attack Rating%NL%} // Stacked Gul Rune
-ItemDisplay[r26]: %RED%>>>%ORANGE% Vex%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%} // Vex Rune
-ItemDisplay[r26s]: %RED%>>>%ORANGE% Vex%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%%NL%%WHITE%Shields: +4% to Maximum Fire Resist%NL%Helms: +4% to Maximum Fire Resist%NL%Armor: +4% to Maximum Fire Resist%NL%Weapons: 7% Mana stolen per hit%NL%} // Stacked Vex Rune
-ItemDisplay[r27]: %RED%>>>%ORANGE% Ohm%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%} // Ohm Rune
-ItemDisplay[r27s]: %RED%>>>%ORANGE% Ohm%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%%NL%%WHITE%Shields: +4% to Maximum Cold Resist%NL%Helms: +4% to Maximum Cold Resist%NL%Armor: +4% to Maximum Cold Resist%NL%Weapons: +45% Enhanced Damage%NL%} // Stacked Ohm Rune
-ItemDisplay[r28]: %RED%>>>%ORANGE% Lo%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%} // Lo Rune
-ItemDisplay[r28s]: %RED%>>>%ORANGE% Lo%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%%NL%%WHITE%Shields: +4% to Maximum Light Resist%NL%Helms: +4% to Maximum Light Resist%NL%Armor: +4% to Maximum Light Resist%NL%Weapons: 20% Deadly Strike%NL%} // Stacked Lo Rune
-ItemDisplay[r29]: %RED%>>>%ORANGE% Sur%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%} // Sur Rune
-ItemDisplay[r29s]: %RED%>>>%ORANGE% Sur%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%%NL%%WHITE%Shields: +50 to Mana%NL%Helms: Increase Maximum Mana 5%%NL%Armor: Increase Maximum Mana 5%%NL%Weapons: +4 Life after each Kill%NL%} // Stacked Sur Rune
-ItemDisplay[r30]: %RED%>>>%ORANGE% Ber%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%} // Ber Rune
-ItemDisplay[r30s]: %RED%>>>%ORANGE% Ber%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%%NL%%WHITE%Shields: Physical Damage Taken Reduced by 4%%NL%Helms: Physical Damage Taken Reduced by 5%%NL%Armor: Physical Damage Taken Reduced by 5%%NL%Weapons: 20% Chance of Crushing Blow%NL%} // Stacked Ber Rune
-ItemDisplay[r31]: %RED%>>>%ORANGE% Jah%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
-ItemDisplay[r31s]: %RED%>>>%ORANGE% Jah%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%%NL%%WHITE%Shields: +75 to Life%NL%Helms: Increase Maximum Life 5%%NL%Armor: Increase Maximum Life 5%%NL%Weapons: Ignore Target's Defense%NL%} // Stacked Jah Rune
-ItemDisplay[r32]: %RED%>>>%ORANGE% Cham%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
-ItemDisplay[r32s]: %RED%>>>%ORANGE% Cham%RED% <<<%ORANGE%%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%%NL%%WHITE%Shields: Cannot be Frozen%NL%Helms: Cannot be Frozen%NL%Armor: Cannot be Frozen%NL%Weapons: Freezes Target +3%NL%} // Stacked Cham Rune
-ItemDisplay[r33]: %RED%>>>%ORANGE% Zod%RED% <<<%ORANGE%%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and} // Zod Rune
-ItemDisplay[r33s]: %RED%>>>%ORANGE% Zod%RED% <<<%ORANGE%%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and%NL%%NL%%WHITE%Shields: Indestructible%NL%Helms: Indestructible%NL%Armor: Indestructible%NL%Weapons: Indestructible%NL%} // Stacked Zod Rune
+ItemDisplay[r24]: >>> Ist <<<%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%} // Ist Rune
+ItemDisplay[r24s]: >>> Ist <<<%CONTINUE%{%TAN%2 Ist + Key = Gul%NL%%NL%%WHITE%Shields: 25% Better Chance of Getting Magic Items%NL%Helms: 30% Better Chance of Getting Magic Items%NL%Armor: 30% Better Chance of Getting Magic Items%NL%Weapons: 30% Better Chance of Getting Magic Items%NL%} // Stacked Ist Rune
+ItemDisplay[r25]: >>> Gul <<<%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%} // Gul Rune
+ItemDisplay[r25s]: >>> Gul <<<%CONTINUE%{%TAN%2 Gul + Key = Vex%NL%%NL%%WHITE%Shields: +4% to Maximum Poison Resist%NL%Helms: +4% to Maximum Poison Resist%NL%Armor: +4% to Maximum Poison Resist%NL%Weapons: 20% Bonus to Attack Rating%NL%} // Stacked Gul Rune
+ItemDisplay[r26]: >>> Vex <<<%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%} // Vex Rune
+ItemDisplay[r26s]: >>> Vex <<<%CONTINUE%{%TAN%2 Vex + Key = Ohm%NL%%NL%%WHITE%Shields: +4% to Maximum Fire Resist%NL%Helms: +4% to Maximum Fire Resist%NL%Armor: +4% to Maximum Fire Resist%NL%Weapons: 7% Mana stolen per hit%NL%} // Stacked Vex Rune
+ItemDisplay[r27]: >>> Ohm <<<%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%} // Ohm Rune
+ItemDisplay[r27s]: >>> Ohm <<<%CONTINUE%{%TAN%2 Ohm + Key = Lo%NL%%NL%%WHITE%Shields: +4% to Maximum Cold Resist%NL%Helms: +4% to Maximum Cold Resist%NL%Armor: +4% to Maximum Cold Resist%NL%Weapons: +45% Enhanced Damage%NL%} // Stacked Ohm Rune
+ItemDisplay[r28]: >>> Lo <<<%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%} // Lo Rune
+ItemDisplay[r28s]: >>> Lo <<<%CONTINUE%{%TAN%2 Lo + Key = Sur%NL%%NL%%WHITE%Shields: +4% to Maximum Light Resist%NL%Helms: +4% to Maximum Light Resist%NL%Armor: +4% to Maximum Light Resist%NL%Weapons: 20% Deadly Strike%NL%} // Stacked Lo Rune
+ItemDisplay[r29]: >>> Sur <<<%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%} // Sur Rune
+ItemDisplay[r29s]: >>> Sur <<<%CONTINUE%{%TAN%2 Sur + Key = Ber%NL%%NL%%WHITE%Shields: +50 to Mana%NL%Helms: Increase Maximum Mana 5%%NL%Armor: Increase Maximum Mana 5%%NL%Weapons: +4 Life after each Kill%NL%} // Stacked Sur Rune
+ItemDisplay[r30]: >>> Ber <<<%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%} // Ber Rune
+ItemDisplay[r30s]: >>> Ber <<<%CONTINUE%{%TAN%2 Ber + Key = Jah%NL%%NL%%WHITE%Shields: Physical Damage Taken Reduced by 4%%NL%Helms: Physical Damage Taken Reduced by 5%%NL%Armor: Physical Damage Taken Reduced by 5%%NL%Weapons: 20% Chance of Crushing Blow%NL%} // Stacked Ber Rune
+ItemDisplay[r31]: >>> Jah <<<%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%} // Jah Rune
+ItemDisplay[r31s]: >>> Jah <<<%CONTINUE%{%TAN%2 Jah + Key = Cham%NL%%NL%%WHITE%Shields: +75 to Life%NL%Helms: Increase Maximum Life 5%%NL%Armor: Increase Maximum Life 5%%NL%Weapons: Ignore Target's Defense%NL%} // Stacked Jah Rune
+ItemDisplay[r32]: >>> Cham <<<%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%} // Cham Rune
+ItemDisplay[r32s]: >>> Cham <<<%CONTINUE%{%TAN%2 Cham + Key = Zod%NL%%NL%%WHITE%Shields: Cannot be Frozen%NL%Helms: Cannot be Frozen%NL%Armor: Cannot be Frozen%NL%Weapons: Freezes Target +3%NL%} // Stacked Cham Rune
+ItemDisplay[r33]: >>> Zod <<<%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and} // Zod Rune
+ItemDisplay[r33s]: >>> Zod <<<%CONTINUE%{%TAN%item to fully repair item%NL%Cube w/ Perfect Skull and%NL%%NL%%WHITE%Shields: Indestructible%NL%Helms: Indestructible%NL%Armor: Indestructible%NL%Weapons: Indestructible%NL%} // Stacked Zod Rune
 
 // ------------------------------------------------------------------------------
 // [RUMA] Rune map icons
