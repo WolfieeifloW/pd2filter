@@ -1,6 +1,6 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**Yes, my filters are updated for Season 9!**  
+**Yes, my filters are updated for Season 10!**  
 
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).  
 I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!  
@@ -112,7 +112,7 @@ These are the common problems that people seem to run into. Please check each of
    * The easiest way to test your filter is by using [BetweenWall's FilterBird](https://betweenwalls.github.io/filterbird/?v=PD2)
 1. **Are your filters updated for the newest Season?**
    * Yes, all versions of my filters are updated and ready-to-go for the newest Season!
-1. **What is the difference between your filters?**
+1. **What is the difference between your filter levels?**
    * Vanilla is zero strictness, Detailed/Revealed are less strict, Wolfie is stricter, and BT is strictest
 
 # Extras  
