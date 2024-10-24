@@ -3589,7 +3589,7 @@ ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>40 spt FILTLVL=5]: %NAME%{%TAN%Larzuk ques
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 pik FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Pike, 0os, ilvl 1-25
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<41 ILVL>25 pik FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Pike, 0os, ilvl 26-40
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>40 pik FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 6 sockets}%CONTINUE% // All Pike, 0os, ilvl 41+
-ItemDisplay[NMAG !INF !RW SOCK=0 9sr FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All War Spear, 0os
+ItemDisplay[NMAG !INF !RW SOCK=0 9sr FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All War Spear, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 9tr FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Fuscina, 0os, ilvl 1-25
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 9tr FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Fuscina, 0os, ilvl 26+
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 9br FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All War Fork, 0os, ilvl 1-25
@@ -3601,7 +3601,7 @@ ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>40 9st FILTLVL=5]: %NAME%{%TAN%Larzuk ques
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 9p9 FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Lance, 0os, ilvl 1-25
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<41 ILVL>25 9p9 FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Lance, 0os, ilvl 26-40
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>40 9p9 FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 6 sockets}%CONTINUE% // All Lance, 0os, ilvl 41+
-ItemDisplay[NMAG !INF !RW SOCK=0 7sr FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Hyperion Spear, 0os
+ItemDisplay[NMAG !INF !RW SOCK=0 7sr FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 6 sockets}%CONTINUE% // All Hyperion Spear, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 7tr FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Stygian Pike, 0os, ilvl 1-25
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 7tr FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Stygian Pike, 0os, ilvl 26+
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 7br FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Mancatcher, 0os, ilvl 1-25
@@ -3670,7 +3670,7 @@ ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>40 9cr FILTLVL=5]: %NAME%{%TAN%Larzuk ques
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 9bs FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Battle Sword, 0os, ilvl 1-25
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 9bs FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Battle Sword, 0os, ilvl 26+
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 9ls FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Rune Sword, 0os, ilvl 1-25
-ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 9ls FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Rune Sword, 0os, ilvl 26+
+ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 9ls FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 5 sockets}%CONTINUE% // All Rune Sword, 0os, ilvl 26+
 ItemDisplay[NMAG !INF !RW SOCK=0 9wd FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Ancient Sword, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 92h FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Espandon, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 9cm FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Dacian Falx, 0os, ilvl 1-25
@@ -3695,7 +3695,7 @@ ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>40 7cr FILTLVL=5]: %NAME%{%TAN%Larzuk ques
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 7bs FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Conquest Sword, 0os, ilvl 1-25
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 7bs FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Conquest Sword, 0os, ilvl 26+
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 7ls FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Cryptic Sword, 0os, ilvl 1-25
-ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 7ls FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Cryptic Sword, 0os, ilvl 26+
+ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 7ls FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 5 sockets}%CONTINUE% // All Cryptic Sword, 0os, ilvl 26+
 ItemDisplay[NMAG !INF !RW SOCK=0 7wd FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Mythical Sword, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 72h FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Legend Sword, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 7cm FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Highland Blade, 0os, ilvl 1-25
