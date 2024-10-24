@@ -117,6 +117,10 @@ ItemDisplay[cwss]: %RED%%NAME%%MAP-62% // Tainted Worldstone Shard
 ItemDisplay[rid]: %NAME%%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
 ItemDisplay[rtp]: %NAME%%MAP-62%{%TAN%without being consumed%NL%Can be used in cube recipes} // Horadric Navigator (Unlimited TP Tome)
 
+// Uber items
+ItemDisplay[lucb OR lucc OR lucd]: %NAME%%MAP-62% // Uber boss mats
+ItemDisplay[luca]: %NAME% // Shadow of Hatred
+
 // Uber Ancients Items
 ItemDisplay[ubaa]: %NAME% // Sigil of Madawc
 ItemDisplay[ubab]: %NAME% // Sigil of Talic
@@ -271,6 +275,9 @@ ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
 ItemDisplay[MAG !ID cm1]: %NAME%%MAP-97% // Small Charms
 ItemDisplay[MAG !ID cm2]: %NAME%%MAP-97% // Large Charms
 ItemDisplay[MAG !ID cm3]: %NAME%%MAP-97% // Grand Charms
+ItemDisplay[MAG !ID cm1p]: %NAME% [PvP]%MAP-97% // PvP Small Charms
+ItemDisplay[MAG !ID cm2p]: %NAME% [PvP]%MAP-97% // PvP Large Charms
+ItemDisplay[MAG !ID cm3p]: %NAME% [PvP]%MAP-97% // PvP Grand Charms
 
 // Jewels
 ItemDisplay[MAG !ID jew]: %NAME%%DOT-97% // All unidentified jewels
