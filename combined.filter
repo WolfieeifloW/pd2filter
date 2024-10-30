@@ -2449,6 +2449,7 @@ ItemDisplay[MAG SK381>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP
 
 // Poison and Bone
 ItemDisplay[MAG SK67>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Teeth
+ItemDisplay[MAG SK68>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Bone Armor
 ItemDisplay[MAG SK74>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Corpse Explosion
 ItemDisplay[MAG SK84>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Bone Spear
 ItemDisplay[MAG SK92>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Poison Nova
@@ -2460,6 +2461,7 @@ ItemDisplay[MAG SK70>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-
 ItemDisplay[MAG SK75>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Clay Golem
 ItemDisplay[MAG SK79>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Golem Mastery
 ItemDisplay[MAG SK80>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Raise Skeletal Mage
+ItemDisplay[MAG SK367>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blood Warp
 ItemDisplay[MAG SK85>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blood Golem
 ItemDisplay[MAG SK89>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Raise Skeleton Archer
 ItemDisplay[MAG SK90>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Iron Golem
@@ -2590,6 +2592,7 @@ ItemDisplay[MAG SK381>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MA
 
 // Poison and Bone
 ItemDisplay[MAG SK67>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Teeth
+ItemDisplay[MAG SK68>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Bone Armor
 ItemDisplay[MAG SK74>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Corpse Explosion
 ItemDisplay[MAG SK84>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Bone Spear
 ItemDisplay[MAG SK92>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Poison Nova
@@ -2601,6 +2604,7 @@ ItemDisplay[MAG SK70>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP
 ItemDisplay[MAG SK75>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Clay Golem
 ItemDisplay[MAG SK79>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Golem Mastery
 ItemDisplay[MAG SK80>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Raise Skeletal Mage
+ItemDisplay[MAG SK367>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Raise Skeletal Mage
 ItemDisplay[MAG SK85>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Blood Golem
 ItemDisplay[MAG SK89>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Raise Skeleton Archer
 ItemDisplay[MAG SK90>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP-97% // Iron Golem
@@ -3940,6 +3944,7 @@ ItemDisplay[NMAG !INF !RW SK381>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]
 
 // Poison and Bone
 ItemDisplay[NMAG !INF !RW SK67>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Teeth
+ItemDisplay[NMAG !INF !RW SK68>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Bone Armor
 ItemDisplay[NMAG !INF !RW SK74>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Corpse Explosion
 ItemDisplay[NMAG !INF !RW SK84>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Bone Spear
 ItemDisplay[NMAG !INF !RW SK92>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Poison Nova
@@ -3951,6 +3956,7 @@ ItemDisplay[NMAG !INF !RW SK70>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%
 ItemDisplay[NMAG !INF !RW SK75>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Clay Golem
 ItemDisplay[NMAG !INF !RW SK79>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Golem Mastery
 ItemDisplay[NMAG !INF !RW SK80>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Raise Skeletal Mage
+ItemDisplay[NMAG !INF !RW SK367>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Blood Warp
 ItemDisplay[NMAG !INF !RW SK85>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Blood Golem
 ItemDisplay[NMAG !INF !RW SK89>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Raise Skeleton Archer
 ItemDisplay[NMAG !INF !RW SK90>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Iron Golem
@@ -4741,6 +4747,7 @@ ItemDisplay[NMAG !INF !RW SK381>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%
 
 // Poison and Bone
 ItemDisplay[NMAG !INF !RW SK67>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Teeth
+ItemDisplay[NMAG !INF !RW SK68>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Bone Armor
 ItemDisplay[NMAG !INF !RW SK74>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Corpse Explosion
 ItemDisplay[NMAG !INF !RW SK84>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Bone Spear
 ItemDisplay[NMAG !INF !RW SK92>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Poison Nova
@@ -4752,6 +4759,7 @@ ItemDisplay[NMAG !INF !RW SK70>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]
 ItemDisplay[NMAG !INF !RW SK75>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Clay Golem
 ItemDisplay[NMAG !INF !RW SK79>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Golem Mastery
 ItemDisplay[NMAG !INF !RW SK80>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Raise Skeletal Mage
+ItemDisplay[NMAG !INF !RW SK367>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Blood Warp
 ItemDisplay[NMAG !INF !RW SK85>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Blood Golem
 ItemDisplay[NMAG !INF !RW SK89>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Raise Skeleton Archer
 ItemDisplay[NMAG !INF !RW SK90>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%DOT-20%%PX-00%{%NAME%} // Iron Golem
