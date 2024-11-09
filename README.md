@@ -36,9 +36,13 @@ The launcher will automatically grab the newest version of your selected filter 
 ![02](https://github.com/WolfieeifloW/pd2filter/assets/40577712/b20adb80-1105-437b-86c8-afc6e2104455)
 1. Click the **X** button in the top-right corner
 1. Select **Play** in the launcher
-1. Once in-game CTRL+click the Settings button (bottom-left corner by default)
-1. Change your settings to match the image below:  
-![04](https://github.com/WolfieeifloW/pd2filter/assets/40577712/e4101afd-458e-4b81-a321-f67931b23879)
+1. Once in-game open your Escape menu
+1. Select **Options**
+1. Select **PD2 Options**
+1. Select **Loot Filter**
+1. Change your settings to match the below (the other options are personal preference):
+   1. **Enable Loot Filter:** Yes
+   1. **Chat Notifications:** On
 1. Close the Settings window by right-clicking in the title bar (anywhere along the bar that says "Settings")
 1. Reload your filter using **Numpad 0**
    1. If you don't have a numpad change `Reload Config:          VK_NUMPAD0` in ProjectDiablo.cfg (in your PD2 folder) to one of these [Virtual Key Codes](https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)
