@@ -629,8 +629,8 @@ ItemDisplay[UNI !ID !FILTLVL=2]: %NAME%%MAP-A5% // Shows and notifies all Unique
 // ------------------------------------------------------------------------------
 //      [UMAM] Amulets
 // ------------------------------------------------------------------------------
-ItemDisplay[UNI !ID amu FILTLVL=2]: %NAME%%MAP-A5% // Unique Amulets
 ItemDisplay[UNI !ID ram FILTLVL=2]: %NAME% [The Third Eye]%MAP-A5% // The Third Eye Amulet
+ItemDisplay[UNI !ID amu FILTLVL=2]: %NAME%%MAP-A5% // Unique Amulets
 
 // ------------------------------------------------------------------------------
 //      [UMRI] Rings
