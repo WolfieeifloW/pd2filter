@@ -1884,8 +1884,8 @@ ItemDisplay[RARE !ID WAND !FILTLVL=3]: %NAME%%MAP-A8% // All Wands
 // [RIVE] Rare Items Vendor
 // ------------------------------------------------------------------------------
 ItemDisplay[RARE !RW PRICE>34999 DIFF<3 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // All difficulties
-ItemDisplay[RARE !RW PRICE>20000 DIFF<2 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // Normal & Nightmare difficulty
-ItemDisplay[RARE !RW PRICE>10000 DIFF<1 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // Normal difficulty
+ItemDisplay[RARE !RW PRICE>19999 DIFF<2 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // Normal & Nightmare difficulty
+ItemDisplay[RARE !RW PRICE>9999 DIFF<1 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // Normal difficulty
 
 // ------------------------------------------------------------------------------
 // [RIMA] Rare Items Master
@@ -2621,8 +2621,8 @@ ItemDisplay[MAG SK95>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP
 // [MIVE] Magic Items Vendor
 // ------------------------------------------------------------------------------
 ItemDisplay[MAG !RW PRICE>34999 DIFF<3 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // All difficulties
-ItemDisplay[MAG !RW PRICE>20000 DIFF<2 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal & Nightmare difficulty
-ItemDisplay[MAG !RW PRICE>10000 DIFF<1 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal difficulty
+ItemDisplay[MAG !RW PRICE>19999 DIFF<2 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal & Nightmare difficulty
+ItemDisplay[MAG !RW PRICE>9999 DIFF<1 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal difficulty
 
 // ------------------------------------------------------------------------------
 // [MIMA] Magic Items Master
