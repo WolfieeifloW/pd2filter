@@ -12,18 +12,23 @@ Check the "Magic Items Master" and "Base Items Master" sections.
 Please also look at the instructions under the "Base Items" header.
 
 # Table of Contents
+1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
 1. [Installation](https://github.com/WolfieeifloW/pd2filter#installation)
 1. [Loot Filters](https://github.com/WolfieeifloW/pd2filter#loot-filters)
    * [Combined](https://github.com/WolfieeifloW/pd2filter#combined)
    * [BTNeandertha1](https://github.com/WolfieeifloW/pd2filter#btneandertha1)
    * [Template](https://github.com/WolfieeifloW/pd2filter#template)
 1. [Discord](https://github.com/WolfieeifloW/pd2filter#discord)
-1. [Donations](https://github.com/WolfieeifloW/pd2filter#donations)
 1. [Informative Links](https://github.com/WolfieeifloW/pd2filter#informative-links)
 1. [Common Issues](https://github.com/WolfieeifloW/pd2filter#common-issues)
 1. [FAQ](https://github.com/WolfieeifloW/pd2filter#faq)
 1. [Extras](https://github.com/WolfieeifloW/pd2filter#extras)
 1. [Disclaimer](https://github.com/WolfieeifloW/pd2filter#disclaimer)
+
+# Donations
+Donation link: [PayPal](https://paypal.me/wolfieeiflow?country.x=CA&locale.x=en_US)  
+Donations are not required in any way but I very much appreciate all who support me in this fashion!  
+If you wish you can get the "Donator" role in my [Discord](https://github.com/WolfieeifloW/pd2filter#discord) as well!
 
 # Installation
 The launcher will automatically grab the newest version of your selected filter whenever you press Play!
@@ -65,11 +70,6 @@ CTRL+click the above link for the raw code.
 # Discord
 Discord link: [WolfieeifloW's ARPG Projects](https://discord.gg/6bM8AtYGAq)  
 I've created a Discord for my filter so that you can get pinged when there's an update so you can know when to grab the new update in the launcher!
-
-# Donations
-Donation link: [PayPal](https://paypal.me/wolfieeiflow?country.x=CA&locale.x=en_US)  
-Donations are not required in any way but I very much appreciate all who support me in this fashion!  
-If you wish you can get the "Donator" role in my [Discord](https://github.com/WolfieeifloW/pd2filter#discord) as well!
 
 # Informative Links
 * **Reddit Thread:** <https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/>
