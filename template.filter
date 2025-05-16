@@ -76,6 +76,7 @@ ItemDisplay[rkey]: %NAME%%MAP-62% // Skeleton Key
 ItemDisplay[lsvl]: %NAME%%MAP-62% // Vial of Lightsong
 ItemDisplay[llmr]: %NAME%%MAP-62% // Lilith's Mirror
 ItemDisplay[lmal]: %NAME% // Larzuk's Malus
+ItemDisplay[imrn]: %NAME% // Demonic Cube
 
 // Corruption Items
 ItemDisplay[wss]: %PURPLE%+ %RED%Worldstone Shard %PURPLE%+%WHITE%%MAP-62% // Worldstone Shard
