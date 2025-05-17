@@ -180,18 +180,18 @@ ItemDisplay[t36]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%YELLO
 // Tier 2 Maps
 ItemDisplay[t11]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruins of Viz-jun
 ItemDisplay[t13]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Cold, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Bastion Keep
-ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%YELLOW%(*1 of 2 broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Tomb of Zoltun Kulle
-ItemDisplay[t27]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%(%RED%*%YELLOW%*%GREEN%*%TAN%broken w/ Infinity)%NL%Phys, Fire%RED%*%TAN%, Light%YELLOW%*%TAN%, Cold, Poison%GREEN%*%TAN%%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Demon Road
-ItemDisplay[t28]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%(%RED%*%GREEN%*%TAN%broken w/ Infinity)%NL%Fire%RED%*%TAN%, Light, Poison%GREEN%*%TAN%, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Skovos Stronghold
+ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%YELLOW%(*1 of 2 broken w/ Infinity)%NL%%GREEN%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison%GREEN%*%TAN%, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Tomb of Zoltun Kulle
+ItemDisplay[t27]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Cold, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Demon Road
+ItemDisplay[t28]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Light, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Skovos Stronghold
 ItemDisplay[t31]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Cold, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // River of Blood
 ItemDisplay[t33]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%BLUE%(*broken w/ Infinity)%NL%%TAN%Fire, Cold%BLUE%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Lost Temple
 ItemDisplay[t34]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Light, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ancestral Trial
 
 // Tier 3 Maps
 ItemDisplay[t14]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Light, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sanatorium
-ItemDisplay[t16]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%BLUE%(*broken w/ Infinity)%NL%%TAN%Fire, Cold%BLUE%*%TAN%, Magic%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruined Cistern
+ItemDisplay[t16]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%BLUE%(*broken w/ Infinity)%NL%%TAN%Light, Cold%BLUE%*%TAN%, Magic%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruined Cistern
 ItemDisplay[t21]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Phlegethon
-ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Cold, Fire%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Throne of Insanity
+ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Throne of Insanity
 ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Blood Moon
 ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Light, Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Pandemonium Citadel
 ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%GREEN%(*broken w/ Infinity)%NL%%TAN%Fire, Poison%GREEN%*%TAN%, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Canyon of Sescheron
