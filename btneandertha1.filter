@@ -195,6 +195,8 @@ ItemDisplay[uba]: %PURPLE%+ %RED%Relic of the Ancients%PURPLE% +%RED%%MAP-62%{%R
 ItemDisplay[lucb OR lucc OR lucd]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62% // Uber boss mats
 ItemDisplay[luca]: %PURPLE%+ %RED%Shadow of Hatred%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62% // Shadow of Hatred
 
+ItemDisplay[7cr2]: %NAME%%MAP-62%{???}
+
 // Gems -------------------------------------------------------------------------
 ItemDisplay[GEM=1 CLVL>29]: // Hide all Chipped gems past Normal difficulty
 ItemDisplay[GEM=2 CLVL>29]: // Hide all Flawed gems past Normal difficulty
