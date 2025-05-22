@@ -171,7 +171,7 @@ ItemDisplay[t59]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED
 // Tier 1 Maps
 ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Horazon's Memory
 ItemDisplay[t15]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%GREEN%(*broken w/ Infinity)%NL%%TAN%Cold, Poison%GREEN%*%TAN%, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Royal Crypts
-ItemDisplay[t17]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Hall of Torture
+ItemDisplay[t17]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Hall of Torture
 ItemDisplay[t22]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Torajan Jungle
 ItemDisplay[t23]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Arreat Battlefield
 ItemDisplay[t25]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Light, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sewers of Harrogath
