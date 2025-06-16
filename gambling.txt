@@ -1,4 +1,6 @@
 // Gheed's Gamble event
+ItemDisplay[NMAG !ID SHOP !(MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%NL%%NL%%RED%Set items cannot be gambled here%CONTINUE%
+
 ItemDisplay[NMAG !ID SHOP cap]: %NAME%%NL%%NL%%GOLD%Harlequin Crest%NL%%ORANGE%Elite Items:%NL%%NL%%GREEN%Cow King's Horns%NL%%GOLD%Peasant Crown%NL%%ORANGE%Exceptional Items:%NL%%NL%%GREEN%Sander's Paragon%NL%Infernal Cranium%NL%%GOLD%Biggin's Bonnet%NL%%ORANGE%Normal Items:%NL%%NL%%ORANGE%Possible Items:%WHITE%
 ItemDisplay[NMAG !ID SHOP skp]: %NAME%%NL%%NL%%GOLD%Rockstopper%NL%%ORANGE%Exceptional Items:%NL%%NL%%GREEN%Arcanna's Head%NL%%GOLD%Tarnhelm%NL%%ORANGE%Normal Items:%NL%%NL%%ORANGE%Possible Items:%WHITE%
 ItemDisplay[NMAG !ID SHOP hlm]: %NAME%%NL%%NL%%GOLD%Steel Shade%NL%%ORANGE%Elite Items:%NL%%NL%%GOLD%Stealskull%NL%%ORANGE%Exceptional Items:%NL%%NL%%GREEN%Berserker's Headgear%NL%%GOLD%Coif of Glory%NL%%ORANGE%Normal Items:%NL%%NL%%ORANGE%Possible Items:%WHITE%
