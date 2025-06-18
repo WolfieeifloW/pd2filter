@@ -137,7 +137,7 @@ ItemDisplay[irma]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Imbue Magic Map%NL%} // Im
 ItemDisplay[irra]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Imbue Rare Map%NL%} // Imbue Rare Map (Infused Zakarum Orb)
 ItemDisplay[rrra]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Reroll Rare Map%NL%} // Reroll Rare Map (Infused Horadrim Orb)
 ItemDisplay[urma]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Infused Angelic Orb)
-ItemDisplay[scrb]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon%NL%} // Horadrim Scarab
+ItemDisplay[scrb]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%} // Horadrim Scarab
 ItemDisplay[iwss]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%Cube w/ a map to add a random event} // Catalyst Shard
 
 // ------------------------------------------------------------------------------
