@@ -43,8 +43,8 @@ ItemDisplay[ass]: %GOLD%Book of Skill%MAP-58%{%TAN%+1 Skill Point%NL%Right click
 ItemDisplay[tr1]: //%NAME%{%TAN%Not required%NL%} // Horadric Scroll
 ItemDisplay[box]: %NAME%%MAP-58%{%TAN%Runewords & Recipes on items!%NL%Check Filter Level 5 for Possible} // Horadric Cube
 ItemDisplay[hst]: %NAME%%MAP-58%{%RED%0  )  []  +  >>  /\  0)%NL%Tombs:%NL%%NL%%TAN%Act 2: Tal Rashas Tomb%NL%Place in Tomb Orifice in} // Horadric Staff
-ItemDisplay[vip]: %NAME%%MAP-58%{%TAN%Cube w/ Staff of Kings} // Amulet of the Viper
-ItemDisplay[msf]: %NAME%%MAP-58%{%TAN%Cube w/ Amulet of the Viper} // Staff of Kings
+ItemDisplay[vip]: %NAME%%MAP-58%{%GOLD%Staff of Kings %TAN%(Act 2 Maggot Lair)%NL%Cube with:} // Amulet of the Viper
+ItemDisplay[msf]: %NAME%%MAP-58%{%GOLD%Amulet of the Viper %TAN%(Act 2: Claw Viper Temple)%NL%Cube with:} // Staff of Kings
 
 // ------------------------------------------------------------------------------
 // [QIA3] Act 3
@@ -53,18 +53,18 @@ ItemDisplay[j34]: %NAME%%MAP-58%{%TAN%in Act 3%NL%Give to Meshif%NL%} // A Jade 
 ItemDisplay[g34]: %NAME%%MAP-58%{%TAN%in Act 3%NL%Give to Alkor%NL%} // The Golden Bird
 ItemDisplay[xyz]: %GOLD%Potion of Life%MAP-58%{%TAN%permanent +20 to Life%NL%Right click for a%NL%} // Potion of Life
 ItemDisplay[g33]: %NAME%%MAP-58%{%TAN%Give to Ormus in Act 3} // Gidbinn
-ItemDisplay[qey]: %NAME%%MAP-58%{%TAN%Heart, & Flail%NL%Cube w/ Brain,%NL%} // Khalim's Eye
-ItemDisplay[qbr]: %NAME%%MAP-58%{%TAN%Heart, & Flail%NL%Cube w/ Eye,%NL%} // Khalim's Brain
-ItemDisplay[qhr]: %NAME%%MAP-58%{%TAN%Brain, & Flail%NL%Cube w/ Eye,%NL%} // Khalim's Heart
-ItemDisplay[qf1]: %NAME%%MAP-58%{%TAN%Cube w/ Eye, Brain, & Heart} // Khalim's Flail
-ItemDisplay[qf2]: %NAME%%MAP-58%{%TAN%Hit Compelling Orb in Act 3: Travincal} // Khalim's Will
+ItemDisplay[qey]: %NAME%%MAP-58%{%GOLD%Khalim's Flail %TAN%(Act 3: Travincal)%NL%%GOLD%Khalim's Heart %TAN%(Act 3: Kurast Sewers)%NL%%GOLD%Khalim's Brain %TAN%(Act 3: Flayer Dungeon)%NL%Cube with:%NL%%NL%Drops in Act 3: Spider Cavern} // Khalim's Eye
+ItemDisplay[qbr]: %NAME%%MAP-58%{%GOLD%Khalim's Flail %TAN%(Act 3: Travincal)%NL%%GOLD%Khalim's Heart %TAN%(Act 3: Kurast Sewers)%NL%%GOLD%Khalim's Eye %TAN%(Act 3: Spider Cavern)%NL%Cube with:%NL%%NL%Drops in Act 3: Flayer Dungeon} // Khalim's Brain
+ItemDisplay[qhr]: %NAME%%MAP-58%{%GOLD%Khalim's Flail %TAN%(Act 3: Travincal)%NL%%GOLD%Khalim's Brain %TAN%(Act 3: Flayer Dungeon)%NL%%GOLD%Khalim's Eye %TAN%(Act 3: Spider Cavern)%NL%Cube with:%NL%%NL%Drops in Act 3: Kurast Sewers} // Khalim's Heart
+ItemDisplay[qf1]: %NAME%%MAP-58%{%GOLD%Khalim's Heart %TAN%(Act 3: Kurast Sewers)%NL%%GOLD%Khalim's Brain %TAN%(Act 3: Flayer Dungeon)%NL%%GOLD%Khalim's Eye %TAN%(Act 3: Spider Cavern)%NL%Cube with:%NL%%NL%Drops in Act 3: Travincal} // Khalim's Flail
+ItemDisplay[qf2]: %NAME%%MAP-58%{%TAN%Attack Compelling Orb in Act 3: Travincal} // Khalim's Will
 ItemDisplay[bbb]: %NAME%%MAP-58%{%TAN%+5 Stat Points%NL%Give to Alkor for%NL%} // Lam Esen's Tome
 ItemDisplay[mss]: %NAME%%MAP-58%{%TAN%Act 4: River of Flame%NL%Take to the Hellforge in%NL%} // Mephisto's Soulstone
 
 // ------------------------------------------------------------------------------
 // [QIA4] Act 4
 // ------------------------------------------------------------------------------
-ItemDisplay[hfh]: %NAME%%MAP-58%{%TAN%Hit Hellforge in Act 4: River of Flame} // Hellforge Hammer
+ItemDisplay[hfh]: %NAME%%MAP-58%{%TAN%Attack Hellforge in Act 4: River of Flame} // Hellforge Hammer
 
 // ------------------------------------------------------------------------------
 // [QIA5] Act 5
@@ -75,29 +75,29 @@ ItemDisplay[tr2]: %GOLD%Scroll of Resistance%MAP-58%{%TAN%All Resistances +10%NL
 // ------------------------------------------------------------------------------
 // [QIES] Essences
 // ------------------------------------------------------------------------------
-ItemDisplay[tes]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Drops from NM & Hell Andariel & Duriel%NL%%NL%%TAN%Cube w/ Terror, Hatred, & Destruction essences} // Twisted Essence of Suffering
-ItemDisplay[ceh]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Drops from NM & Hell Mephisto%NL%%NL%%TAN%Cube w/ Terror, Destruction, & Suffering essences} // Charged Essence of Hatred
-ItemDisplay[bet]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Drops from NM & Hell Diablo%NL%%NL%%TAN%Cube w/ Hatred, Destruction, & Suffering essences} // Burning Essence of Terror
-ItemDisplay[fed]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Drops from NM & Hell Baal%NL%%NL%%TAN%Cube w/ Terror, Hatred, & Suffering essences} // Festering Essence of Destruction
+ItemDisplay[tes]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Festering Essence of Destruction %TAN%(NM & Hell Baal)%NL%%ORANGE%Burning Essence of Terror %TAN%(NM & Hell Diablo)%NL%%ORANGE%Charged Essence of Hatred %TAN%(NM & Hell Mephisto)%NL%Create a %ORANGE%Token of Absolution %TAN%by cubing with:%NL%%NL%Drops from NM & Hell Andariel & Duriel} // Twisted Essence of Suffering
+ItemDisplay[ceh]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Festering Essence of Destruction %TAN%(NM & Hell Baal)%NL%%ORANGE%Burning Essence of Terror %TAN%(NM & Hell Diablo)%NL%%ORANGE%Twisted Essence of Suffering %TAN%(NM & Hell Andariel & Duriel)%NL%Create a %ORANGE%Token of Absolution %TAN%by cubing with:%NL%%NL%Drops from NM & Hell Mephisto} // Charged Essence of Hatred
+ItemDisplay[bet]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Festering Essence of Destruction %TAN%(NM & Hell Baal)%NL%%ORANGE%Charged Essence of Hatred %TAN%(NM & Hell Mephisto)%NL%%ORANGE%Twisted Essence of Suffering %TAN%(NM & Hell Andariel & Duriel)%NL%Create a %ORANGE%Token of Absolution %TAN%by cubing with:%NL%%NL%Drops from NM & Hell Diablo} // Burning Essence of Terror
+ItemDisplay[fed]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Burning Essence of Terror %TAN%(NM & Hell Diablo)%NL%%ORANGE%Charged Essence of Hatred %TAN%(NM & Hell Mephisto)%NL%%ORANGE%Twisted Essence of Suffering %TAN%(NM & Hell Andariel & Duriel)%NL%Create a %ORANGE%Token of Absolution %TAN%by cubing with:%NL%%NL%Drops from NM & Hell Baal} // Festering Essence of Destruction
 
 // ------------------------------------------------------------------------------
 // [QITO] Tokens
 // ------------------------------------------------------------------------------
-ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%TAN%Right click to reset stats & skills%NL%} // Token of Absolution
+ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%ORANGE%Festering Essence of Destruction %TAN%(NM & Hell Baal)%NL%%ORANGE%Burning Essence of Terror %TAN%(NM & Hell Diablo)%NL%%ORANGE%Charged Essence of Hatred %TAN%(NM & Hell Mephisto)%NL%%ORANGE%Twisted Essence of Suffering %TAN%(NM & Hell Andariel & Duriel)%NL%Obtained by cubing:%NL%%NL%Right click to reset stats & skills} // Token of Absolution
 
 // ------------------------------------------------------------------------------
 // [QIKE] Pandemonium Keys
 // ------------------------------------------------------------------------------
-ItemDisplay[pk1]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from Countess & Blood Raven%NL%Cube w/ Destruction & Hate keys in Act 5%NL%} // Key of Terror
-ItemDisplay[pk2]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from Summoner & Bloodwitch the Wild%NL%Cube w/ Destruction & Terror keys in Act 5%NL%} // Key of Hate
-ItemDisplay[pk3]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%TAN%Drops from Nihlathak & Izual%NL%Cube w/ Hate & Terror keys in Act 5%NL%} // Key of Destruction
+ItemDisplay[pk1]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Key of Destruction %TAN%(Hell Nihlathak & Izual)%NL%%ORANGE%Key of Hate %TAN%(Hell Summoner & Bloodwitch)%NL%Open Mini-Uber portal by cubing in Act 5 with:%NL%%NL%Drops from Hell Countess & Blood Raven} // Key of Terror
+ItemDisplay[pk2]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Key of Destruction %TAN%(Hell Nihlathak & Izual)%NL%%ORANGE%Key of Terror %TAN%(Hell Countess & Blood Raven)%NL%Open Mini-Uber portal by cubing in Act 5 with:%NL%%NL%Drops from Hell Summoner & Bloodwitch} // Key of Hate
+ItemDisplay[pk3]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Key of Hate %TAN%(Hell Summoner & Bloodwitch)%NL%%ORANGE%Key of Terror %TAN%(Hell Countess & Blood Raven)%NL%Open Mini-Uber portal by cubing in Act 5 with:%NL%%NL%Drops from Hell Nihlathak & Izual} // Key of Destruction
 
 // ------------------------------------------------------------------------------
 // [QIOR] Pandemonium Organs
 // ------------------------------------------------------------------------------
-ItemDisplay[mbr]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Drops from Uber Izual%NL%%NL%%TAN%to create The Pandemonium Talisman%NL%Cube with Diablo's Horn & Baal's Eye} // Mephisto's Brain
-ItemDisplay[dhn]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Drops from Lilith%NL%%NL%%TAN%to create The Pandemonium Talisman%NL%Cube with Mephisto's Brain & Baal's Eye} // Diablo's Horn
-ItemDisplay[bey]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Drops from Uber Duriel%NL%%NL%%TAN%to create The Pandemonium Talisman%NL%Cube with Mephisto's Brain & Diablo's Horn} // Baal's Eye
+ItemDisplay[mbr]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Baal's Eye %TAN%(Forgotten Sands: Uber Duriel)%NL%%ORANGE%Diablo's Horn %TAN%(Matron's Den: Lilith)%NL%Create %RED%The Pandemonium Talisman %TAN%by cubing with:%NL%%NL%Drops from Furance of Pain: Uber Izual} // Mephisto's Brain
+ItemDisplay[dhn]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Baal's Eye %TAN%(Forgotten Sands: Uber Duriel)%NL%%ORANGE%Mephisto's Brain %TAN%(Furance of Pain: Uber Izual)%NL%Create %RED%The Pandemonium Talisman %TAN%by cubing with:%NL%%NL%Drops from Matron's Den: Lilith} // Diablo's Horn
+ItemDisplay[bey]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Diablo's Horn %TAN%(Matron's Den: Lilith)%NL%%ORANGE%Mephisto's Brain %TAN%(Furance of Pain: Uber Izual)%NL%Create %RED%The Pandemonium Talisman %TAN%by cubing with:%NL%%NL%Drops from Forgotten Sands: Uber Duriel} // Baal's Eye
 ItemDisplay[ubtm]: %PURPLE%+ %RED%The Pandemonium Talisman%PURPLE% +%RED%%MAP-62%{%RED%Beware of Uber Tristram..%NL%%NL%%TAN%Requires level 75} // The Pandemonium Talisman
 ItemDisplay[std]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-68%{%TAN%+20% Magic/Gold Find%NL%+20% Monster Density%NL%+10% Experience%NL%%ORANGE%Cube w/ a map to gain%DARK_GREEN% Heroic%ORANGE% bonus:} // Standard of Heroes
 
@@ -224,37 +224,46 @@ ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]:
 // ------------------------------------------------------------------------------
 // [DCLO] Diablo Clone Items
 // ------------------------------------------------------------------------------
-ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Uber Trist bosses%NL%%NL%%TAN%to create a Vision of Terror%NL%& Pure Demonic Essence%NL%Cube w/ Prime Evil Soul} // Black Soulstone
-ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Hell Diablo & Baal%NL%%NL%%TAN%to create a Vision of Terror%NL%& Pure Demonic Essence%NL%Cube w/ Black Soulstone} // Prime Evil Soul
-ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from map bosses%NL%%NL%%TAN%to create a Vision of Terror%NL%& Prime Evil Soul%NL%Cube w/ Black Soulstone} // Pure Demonic Essence
-ItemDisplay[dcma STAT185=0]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Cannot drop any Uniques except Annihilus at Difficulty 0%NL%%NL%Can drop Uniques w/ increased chance%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 2:%NL%%RED%Can drop Uniques%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 1:%NL%%RED%Difficulty Level: 0%NL%%TAN%Requires level 75} // Vision of Terror
-ItemDisplay[dcma STAT185=1]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Can drop Uniques at Difficulty 1%NL%%NL%Difficulty Level: 1%NL%%TAN%Requires level 75} // Vision of Terror
-ItemDisplay[dcma STAT185=2]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Can drop Uniques w/ increased chance at Difficulty 2%NL%%NL%Difficulty Level: 2%NL%%TAN%Requires level 75} // Vision of Terror
+ItemDisplay[dcho]: %PURPLE%+ %RED%Black Soulstone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Pure Demonic Essence %TAN%(Map bosses)%NL%%RED%Prime Evil Soul %TAN%(Hell Diablo & Baal)%NL%Create a %RED%Vision of Terror %TAN%by cubing with:%NL%%NL%Drops from Uber Tristram bosses} // Black Soulstone
+ItemDisplay[dcso]: %PURPLE%+ %RED%Prime Evil Soul%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Pure Demonic Essence %TAN%(Map bosses)%NL%%RED%Black Soulstone %TAN%(Uber Tristram bosses)%NL%Create a %RED%Vision of Terror %TAN%by cubing with:%NL%%NL%Drops from Hell Diablo & Baal} // Prime Evil Soul
+ItemDisplay[dcbl]: %PURPLE%+ %RED%Pure Demonic Essence%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Prime Evil Soul %TAN%(Hell Diablo & Baal)%NL%%RED%Black Soulstone %TAN%(Uber Tristram bosses)%NL%Create a %RED%Vision of Terror %TAN%by cubing with:%NL%%NL%Drops from Map bosses} // Pure Demonic Essence
+ItemDisplay[dcma STAT185=0]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Can drop Uniques w/ increased chance%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 2:%NL%%RED%Can drop Uniques%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 1:%NL%%NL%%RED%Can ONLY drop %GOLD%Annihilus %RED%at this difficulty%NL%Difficulty Level: 0%NL%%TAN%Requires level 75} // Vision of Terror
+ItemDisplay[dcma STAT185=1]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Can drop Uniques w/ increased chance%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 2:%NL%%NL%%RED%Can drop Uniques at this Difficulty%NL%Difficulty Level: 1%NL%%TAN%Requires level 75} // Vision of Terror
+ItemDisplay[dcma STAT185=2]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62%{%RED%Can ONLY drop %GOLD%Annihilus %RED%%NL%%ORANGE%Cube alone to reset to Difficulty Level 0:%NL%%NL%%RED%Can drop Uniques w/ increased chance at this Difficulty%NL%Difficulty Level: 2%NL%%TAN%Requires level 75} // Vision of Terror
+ItemDisplay[dcma]: %PURPLE%+ %RED%Vision of Terror%PURPLE% +%RED%%MAP-62% // Catch all for Vision of Terror
 
 // ------------------------------------------------------------------------------
 // [RTHM] Rathma Items
 // ------------------------------------------------------------------------------
-ItemDisplay[rtmo]: %PURPLE%+ %RED%Trang-Oul's Jawbone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Undead enemies%NL%%NL%%TAN%to create a Voidstone%NL%and Hellfire Torch or Hellfire Ashes%NL%Cube w/ Splinter of the Void,} // Trang-Oul's Jawbone
-ItemDisplay[rtmv]: %PURPLE%+ %RED%Splinter of the Void%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Shadow of Mendeln map event%NL%%NL%%TAN%to create a Voidstone%NL%Hellfire Torch or Hellfire Ashes%NL%Cube w/ Trang-Oul's Jawbone, and} // Splinter of the Void
-ItemDisplay[cm2f]: %PURPLE%+ %RED%Hellfire Ashes%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Obtained by cubing a Hellfire Torch w/ a Key%NL%%NL%%TAN%to create a Voidstone%NL%and Trang-Oul's Jawbone%NL%Cube w/ Splinter of the Void} // Hellfire Ashes
-ItemDisplay[rtma]: %PURPLE%+ %RED%Voidstone%PURPLE% +%RED%%MAP-62%{%RED%Beware of Rathma..%NL%%NL%%TAN%Requires level 75} // Voidstone (accesses Rathma)
-ItemDisplay[cwss]: %PURPLE%+ %RED%Tainted Worldstone Shard%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%20% chance Extra XP%NL%20% chance Extra Res%NL%20% chance Extra Vit/Ene%NL%20% chance +1 Skill%NL%20% chance to turn into a Magic Small Charm%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
+ItemDisplay[rtmo]: %PURPLE%+ %RED%Trang-Oul's Jawbone%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Hellfire Ashes %TAN%or %GOLD%Hellfire Torch %TAN%(Uber Tristram)%NL%%RED%Splinter of the Void %TAN%(Shadow of Mendeln Map event)%NL%Create a %RED%Voidstone %TAN%by cubing with:%NL%%NL%Drops from Undead enemies} // Trang-Oul's Jawbone
+ItemDisplay[rtmv]: %PURPLE%+ %RED%Splinter of the Void%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Hellfire Ashes %TAN%or %GOLD%Hellfire Torch %TAN%(Uber Tristram)%NL%%RED%Trang-Oul's Jawbone %TAN%(Undead enemies)%NL%Create a %RED%Voidstone %TAN%by cubing with:%NL%%NL%Drops from Shadow of Mendeln Map event} // Splinter of the Void
+ItemDisplay[cm2f]: %PURPLE%+ %RED%Hellfire Ashes%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Splinter of the Void %TAN%(Shadow of Mendeln Map event)%NL%%RED%Trang-Oul's Jawbone %TAN%(Undead enemies)%NL%Create a %RED%Voidstone %TAN%by cubing with:%NL%%NL%Obtained by cubing a %GOLD%Hellfire Torch %TAN%with a Key} // Hellfire Ashes
+ItemDisplay[rtma STAT185=0]: %PURPLE%+ %RED%Voidstone%PURPLE% +%RED%%MAP-62%{%RED%Can drop Uniques w/ increased chance, unlimited Tomes, & unlimited Key%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 2:%NL%%RED%Can drop Uniques, unlimited Tomes, & unlimited Key%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 1:%NL%%NL%%RED%Can ONLY drop Tainted Worldstone Shard at this difficulty%NL%Difficulty Level: 0%NL%%TAN%Requires level 75} // Voidstone (accesses Rathma)
+ItemDisplay[rtma STAT185=1]: %PURPLE%+ %RED%Voidstone%PURPLE% +%RED%%MAP-62%{%RED%Can drop Uniques w/ increased chance, unlimited Tomes, & unlimited Key%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 2:%NL%%NL%%RED%Can drop Uniques, unlimited Tomes, & unlimited Key at this Difficulty%NL%Difficulty Level: 1%NL%%TAN%Requires level 75} // Voidstone (accesses Rathma)
+ItemDisplay[rtma STAT185=2]: %PURPLE%+ %RED%Voidstone%PURPLE% +%RED%%MAP-62%{%RED%Can ONLY drop Tainted Worldstone Shard%NL%%ORANGE%Cube alone to reset to Difficulty Level 0:%NL%%NL%%RED%Tomes, & unlimited Key at this Difficulty%NL%Can drop Uniques w/ increased chance, unlimited%NL%Difficulty Level: 2%NL%%TAN%Requires level 75} // Voidstone (accesses Rathma)
+ItemDisplay[rtma]: %PURPLE%+ %RED%Voidstone%PURPLE% +%RED%%MAP-62% // Catch all for Voidstone
+ItemDisplay[cwss]: %PURPLE%+ %RED%Tainted Worldstone Shard%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%TAN%20% chance for Extra XP%%NL%20% chance for Extra Res%NL%20% for chance Extra Vit/Ene%NL%20% for chance +1 Skill%NL%20% chance to turn into a Magic Small Charm%NL%%ORANGE%Cube w/ Annihilus to corrupt:} // Tainted Worldstone Shard
 ItemDisplay[rid]: %PURPLE%+ %RED%Horadric Alamanac%PURPLE% +%RED%%MAP-62% // Horadric Alamanac (Unlimited ID Tome)
 ItemDisplay[rtp]: %PURPLE%+ %BLUE%Horadric Navigator%PURPLE% +%BLUE%%MAP-62%{%TAN%recipe without being consumed%NL%Can be used in cube recipes} // Horadric Navigator (Unlimited TP Tome)
 
 // ------------------------------------------------------------------------------
 // [UBAN] Uber Ancients Items
 // ------------------------------------------------------------------------------
-ItemDisplay[ubaa]: %PURPLE%+ %RED%Sigil of Madawc%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Tier 1 maps%NL%%NL%%TAN%and Sigil of Korlic%NL%Cube w/ Sigil of Talic} // Sigil of Madawc
-ItemDisplay[ubab]: %PURPLE%+ %RED%Sigil of Talic%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Tier 2 maps%NL%%NL%%TAN%and Sigil of Korlic%NL%Cube w/ Sigil of Madawc} // Sigil of Talic
-ItemDisplay[ubac]: %PURPLE%+ %RED%Sigil of Korlic%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%ORANGE%Drops from Tier 3 maps%NL%%NL%%TAN%and Sigil of Talic%NL%Cube w/ Sigil of Madawc} // Sigil of Korlic
+ItemDisplay[ubaa]: %PURPLE%+ %RED%Sigil of Madawc%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Sigil of Korlic %TAN%(Drops from Tier 3 maps)%NL%%RED%Sigil of Talic %TAN%(Drops from Tier 2 maps)%NL%Create %RED%Relic of the Ancients %TAN%by cubing with:%NL%%NL%Drops from Tier 1 maps} // Sigil of Madawc
+ItemDisplay[ubab]: %PURPLE%+ %RED%Sigil of Talic%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Sigil of Korlic %TAN%(Drops from Tier 3 maps)%NL%%RED%Sigil of Madawc %TAN%(Drops from Tier 1 maps)%NL%Create %RED%Relic of the Ancients %TAN%by cubing with:%NL%%NL%Drops from Tier 2 maps} // Sigil of Talic
+ItemDisplay[ubac]: %PURPLE%+ %RED%Sigil of Korlic%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Sigil of Talic %TAN%(Drops from Tier 2 maps)%NL%%RED%Sigil of Madawc %TAN%(Drops from Tier 1 maps)%NL%Create %RED%Relic of the Ancients %TAN%by cubing with:%NL%%NL%Drops from Tier 3 maps} // Sigil of Korlic
 ItemDisplay[uba]: %PURPLE%+ %RED%Relic of the Ancients%PURPLE% +%RED%%MAP-62%{%RED%Beware of Uber Ancients..%NL%%NL%%TAN%Requires level 75} // Relic of the Ancients (accesses Uber Ancients)
 
 // ------------------------------------------------------------------------------
 // [UBOS] Uber Boss Items
 // ------------------------------------------------------------------------------
-ItemDisplay[lucb OR lucc OR lucd]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62% // Uber boss mats
-ItemDisplay[luca]: %PURPLE%+ %RED%Shadow of Hatred%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62% // Shadow of Hatred
+// ItemDisplay[lucb OR lucc OR lucd]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62% // Uber boss mats
+ItemDisplay[lucb]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Talisman of Transgression %TAN%(Corrupted zones)%NL%%RED%Flesh of Malic %TAN%(Demon enemies)%NL%Create a %RED%Shadow of Hatred %TAN%by cubing with:%NL%%NL%Drops from Act 5 red portal zones} // Demonic Insignia
+ItemDisplay[lucc]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Flesh of Malic %TAN%(Demon enemies)%NL%%RED%Demonic Insignia %TAN%(Act 5 red portal zones)%NL%Create a %RED%Shadow of Hatred %TAN%by cubing with:%NL%%NL%Drops from Corrupted zones} // Talisman of Transgression
+ItemDisplay[lucd]: %PURPLE%+ %RED%%NAME%%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Talisman of Transgression %TAN%(Corrupted zones)%NL%%RED%Demonic Insignia %TAN%(Act 5 red portal zones)%NL%Create a %RED%Shadow of Hatred %TAN%by cubing with:%NL%%NL%Drops from Demon enemies} // Flesh of Malic
+ItemDisplay[luca STAT185=0]: %PURPLE%+ %RED%Shadow of Hatred%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Successful desecration chance: 60%%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 2:%NL%%RED%Successful desecration chance: 55%%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 1:%NL%%NL%%RED%Successful desecration chance: 50%%NL%Difficulty Level: 0%NL%%TAN%Requires level 75} // Shadow of Hatred
+ItemDisplay[luca STAT185=1]: %PURPLE%+ %RED%Shadow of Hatred%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Successful desecration chance: 60%%NL%%ORANGE%Cube alone to upgrade to Difficulty Level 2:%NL%%NL%%RED%Successful desecration chance: 55%%NL%Difficulty Level: 1%NL%%TAN%Requires level 75} // Shadow of Hatred
+ItemDisplay[luca STAT185=2]: %PURPLE%+ %RED%Shadow of Hatred%WHITE% x%QTY%%PURPLE% +%RED%%MAP-62%{%RED%Successful desecration chance: 50%%NL%%ORANGE%Cube alone to reset to Difficulty Level 0:%NL%%NL%%RED%Successful desecration chance: 60%%NL%Difficulty Level: 2%NL%%TAN%Requires level 75} // Shadow of Hatred
 
 ItemDisplay[7cr2]: %NAME%%MAP-62%{???}
 
