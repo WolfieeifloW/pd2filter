@@ -83,7 +83,7 @@ ItemDisplay[fed]: %ORANGE%%NAME%%WHITE% x%QTY%%ORANGE%%MAP-68%{%ORANGE%Burning E
 // ------------------------------------------------------------------------------
 // [QITO] Tokens
 // ------------------------------------------------------------------------------
-ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%ORANGE%Festering Essence of Destruction %TAN%(NM & Hell Baal)%NL%%ORANGE%Burning Essence of Terror %TAN%(NM & Hell Diablo)%NL%%ORANGE%Charged Essence of Hatred %TAN%(NM & Hell Mephisto)%NL%%ORANGE%Twisted Essence of Suffering %TAN%(NM & Hell Andariel & Duriel)%NL%Obtained by cubing:%NL%%NL%Right click to reset stats & skills} // Token of Absolution
+ItemDisplay[toa]: %ORANGE%Token of Absolution%MAP-68%{%ORANGE%Festering Essence of Destruction %TAN%(NM & Hell Baal)%NL%%ORANGE%Burning Essence of Terror %TAN%(NM & Hell Diablo)%NL%%ORANGE%Charged Essence of Hatred %TAN%(NM & Hell Mephisto)%NL%%ORANGE%Twisted Essence of Suffering %TAN%(NM & Hell Andariel & Duriel)%NL%Obtained by cubing:%NL%} // Token of Absolution
 
 // ------------------------------------------------------------------------------
 // [QIKE] Pandemonium Keys
