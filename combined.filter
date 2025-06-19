@@ -1321,6 +1321,8 @@ ItemDisplay[UNI !ID 9gw FILTLVL=2]: %NAME% [Blackhand Key]%MAP-A5% // Blackhand 
 ItemDisplay[UNI !ID 7bw FILTLVL=2]: %NAME% [Boneshade]%MAP-A5% // Boneshade Lich Wand
 ItemDisplay[UNI !ID 7gw FILTLVL=2]: %NAME% [Deaths Web]%MAP-A5% // Deaths's Web Unearthed Wand
 
+ItemDisplay[UNI !ID FILTLVL=2]: %NAME% [???]%MAP-A5% // All other Unique items
+
 // +----------------------------------------------------------------------------+
 // |                                                                            |
 // |     [SETS] Set Items                                                       |
@@ -1601,6 +1603,8 @@ ItemDisplay[SET !ID xul FILTLVL=2]: %NAME% [Trang-Ouls Scales]%MAP-84% // Trang-
 ItemDisplay[SET !ID ne9 FILTLVL=2]: %NAME% [Trang-Ouls Wing]%MAP-84% // Trang-Oul's Wing Cantor Trophy
 ItemDisplay[SET !ID utc FILTLVL=2]: %NAME% [Trang-Ouls Girth]%MAP-84% // Trang-Oul's Girth Troll Belt
 ItemDisplay[SET !ID xmg FILTLVL=2]: %NAME% [Trang-Ouls Claws]%MAP-84% // Trang-Oul's Claws Heavy Bracers
+
+ItemDisplay[SET !ID FILTLVL=2]: %NAME% [???]%MAP-84% // All other set items
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
