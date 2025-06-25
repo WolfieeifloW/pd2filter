@@ -4593,7 +4593,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=5 crs !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NA
 ItemDisplay[NMAG !INF !RW !ETH SOCK=4 bsd !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Broad Sword, 4os, Non-Eth
 
 // Phase Blade
-ItemDisplay[NMAG !INF !RW SOCK=0 7cr !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Phase Blade, 0os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=0 7cr !FILTLVL=3]: %NAME%%TAN% [Imbue]%WHITE%%DOT-20%%PX-00%{%NAME%} // Phase Blade, 0os, all variants
 ItemDisplay[NMAG !INF !RW SOCK=3 7cr !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Phase Blade, 3os, all variants
 ItemDisplay[NMAG !INF !RW SOCK=4 7cr !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Phase Blade, 4os, all variants
 ItemDisplay[NMAG !INF !RW SOCK=5 7cr !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Phase Blade, 5os, all variants
