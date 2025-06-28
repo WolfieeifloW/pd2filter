@@ -2068,56 +2068,56 @@ ItemDisplay[(MAG OR RARE) rin CRAFTALVL>80]: %NAME% %ORANGE%[C]
 // ------------------------------------------------------------------------------
 //    [COAR] Armor
 // ------------------------------------------------------------------------------
-ItemDisplay[(MAG OR RARE) CHEST CRAFTALVL>84 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%NL%%NL%%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%BLUE%Hit Power:%TAN% P Saph + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%WHITE%Brilliant:%TAN% P Dia + El%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%RED%Blood:%TAN% P Ruby + Thul%NL%%ORANGE%Craft w/ Jewel or Fragment:}
-ItemDisplay[(MAG OR RARE) CHEST FILTLVL=5]: %NAME% %ORANGE%{%NAME%%NL%%NL%%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%BLUE%Hit Power:%TAN% P Saph + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%WHITE%Brilliant:%TAN% P Dia + El%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%RED%Blood:%TAN% P Ruby + Thul%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
+ItemDisplay[(MAG OR RARE) CHEST CRAFTALVL>84 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%CL%%CL%%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%BLUE%Hit Power:%TAN% P Saph + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%WHITE%Brilliant:%TAN% P Dia + El%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%RED%Blood:%TAN% P Ruby + Thul%NL%%ORANGE%Craft w/ Jewel or Fragment:}
+ItemDisplay[(MAG OR RARE) CHEST FILTLVL=5]: %NAME% %ORANGE%{%NAME%%CL%%CL%%GRAY%Vampiric:%TAN% P Skull + Tir%NL%%GREEN%Safety:%TAN% P Eme + Eth%NL%%BLUE%Hit Power:%TAN% P Saph + Nef%NL%%PURPLE%Caster:%TAN% P Ame + Tal%NL%%WHITE%Brilliant:%TAN% P Dia + El%NL%%YELLOW%Bountiful:%TAN% P Top + Eld%NL%%RED%Blood:%TAN% P Ruby + Thul%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
 ItemDisplay[(MAG OR RARE) !ID (ETH OR CLASS) CHEST CRAFTALVL>84]: %NAME% %ORANGE%[C]
 ItemDisplay[(MAG OR RARE) ID CHEST CRAFTALVL>84]: %NAME% %ORANGE%[C]
 
 // ------------------------------------------------------------------------------
 //    [COBE] Belt
 // ------------------------------------------------------------------------------
-ItemDisplay[(MAG OR RARE) BELT CRAFTALVL>70 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%NL%%NL%%GRAY%Vampiric: %TAN%P Skull + Eld%NL%%GREEN%Safety: %TAN%P Eme + Tal%NL%%BLUE%Hit Power: %TAN%P Saph + Tal%NL%%PURPLE%Caster: %TAN%P Ame + Ith%NL%%WHITE%Brilliant: %TAN%P Dia + Io%NL%%YELLOW%Bountiful: %TAN%P Top + El%NL%%RED%Blood: %TAN%P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel or Fragment:}
-ItemDisplay[(MAG OR RARE) BELT FILTLVL=5]: %NAME% %ORANGE%{%NAME%%NL%%NL%%GRAY%Vampiric: %TAN%P Skull + Eld%NL%%GREEN%Safety: %TAN%P Eme + Tal%NL%%BLUE%Hit Power: %TAN%P Saph + Tal%NL%%PURPLE%Caster: %TAN%P Ame + Ith%NL%%WHITE%Brilliant: %TAN%P Dia + Io%NL%%YELLOW%Bountiful: %TAN%P Top + El%NL%%RED%Blood: %TAN%P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
+ItemDisplay[(MAG OR RARE) BELT CRAFTALVL>70 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%CL%%CL%%GRAY%Vampiric: %TAN%P Skull + Eld%NL%%GREEN%Safety: %TAN%P Eme + Tal%NL%%BLUE%Hit Power: %TAN%P Saph + Tal%NL%%PURPLE%Caster: %TAN%P Ame + Ith%NL%%WHITE%Brilliant: %TAN%P Dia + Io%NL%%YELLOW%Bountiful: %TAN%P Top + El%NL%%RED%Blood: %TAN%P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel or Fragment:}
+ItemDisplay[(MAG OR RARE) BELT FILTLVL=5]: %NAME% %ORANGE%{%NAME%%CL%%CL%%GRAY%Vampiric: %TAN%P Skull + Eld%NL%%GREEN%Safety: %TAN%P Eme + Tal%NL%%BLUE%Hit Power: %TAN%P Saph + Tal%NL%%PURPLE%Caster: %TAN%P Ame + Ith%NL%%WHITE%Brilliant: %TAN%P Dia + Io%NL%%YELLOW%Bountiful: %TAN%P Top + El%NL%%RED%Blood: %TAN%P Ruby + Tal%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
 ItemDisplay[(MAG OR RARE) !ID (ETH OR CLASS) BELT CRAFTALVL>70]: %NAME% %ORANGE%[C]
 ItemDisplay[(MAG OR RARE) ID BELT CRAFTALVL>70]: %NAME% %ORANGE%[C]
 
 // ------------------------------------------------------------------------------
 //    [COBO] Boots
 // ------------------------------------------------------------------------------
-ItemDisplay[(MAG OR RARE) BOOTS CRAFTALVL>69 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%NL%%NL%%GRAY%Vampiric: %TAN%P Skull + El%NL%%GREEN%Safety: %TAN%P Eme + Ort%NL%%BLUE%Hit Power: %TAN%P Saph + Ral%NL%%PURPLE%Caster: %TAN%P Ame + Thul%NL%%WHITE%Brilliant: %TAN%P Dia + Ko%NL%%YELLOW%Bountiful: %TAN%P Top + Io%NL%%RED%Blood: %TAN%P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel or Fragment:}
-ItemDisplay[(MAG OR RARE) BOOTS FILTLVL=5]: %NAME% %ORANGE%{%NAME%%NL%%NL%%GRAY%Vampiric: %TAN%P Skull + El%NL%%GREEN%Safety: %TAN%P Eme + Ort%NL%%BLUE%Hit Power: %TAN%P Saph + Ral%NL%%PURPLE%Caster: %TAN%P Ame + Thul%NL%%WHITE%Brilliant: %TAN%P Dia + Ko%NL%%YELLOW%Bountiful: %TAN%P Top + Io%NL%%RED%Blood: %TAN%P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
+ItemDisplay[(MAG OR RARE) BOOTS CRAFTALVL>69 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%CL%%CL%%GRAY%Vampiric: %TAN%P Skull + El%NL%%GREEN%Safety: %TAN%P Eme + Ort%NL%%BLUE%Hit Power: %TAN%P Saph + Ral%NL%%PURPLE%Caster: %TAN%P Ame + Thul%NL%%WHITE%Brilliant: %TAN%P Dia + Ko%NL%%YELLOW%Bountiful: %TAN%P Top + Io%NL%%RED%Blood: %TAN%P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel or Fragment:}
+ItemDisplay[(MAG OR RARE) BOOTS FILTLVL=5]: %NAME% %ORANGE%{%NAME%%CL%%CL%%GRAY%Vampiric: %TAN%P Skull + El%NL%%GREEN%Safety: %TAN%P Eme + Ort%NL%%BLUE%Hit Power: %TAN%P Saph + Ral%NL%%PURPLE%Caster: %TAN%P Ame + Thul%NL%%WHITE%Brilliant: %TAN%P Dia + Ko%NL%%YELLOW%Bountiful: %TAN%P Top + Io%NL%%RED%Blood: %TAN%P Ruby + Eth%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
 ItemDisplay[(MAG OR RARE) !ID (ETH OR CLASS) BOOTS CRAFTALVL>69]: %NAME% %ORANGE%[C]
 ItemDisplay[(MAG OR RARE) ID BOOTS CRAFTALVL>69]: %NAME% %ORANGE%[C]
 
 // ------------------------------------------------------------------------------
 //    [COGL] Gloves
 // ------------------------------------------------------------------------------
-ItemDisplay[(MAG OR RARE) GLOVES CRAFTALVL>74 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%NL%%NL%%GRAY%Vampiric: %TAN%P Skull + Io%NL%%GREEN%Safety: %TAN%P Eme + Ral%NL%%BLUE%Hit Power: %TAN%P Saph + Ort%NL%%PURPLE%Caster: %TAN%P Ame + Ort%NL%%WHITE%Brilliant: %TAN%P Dia + Shael%NL%%YELLOW%Bountiful: %TAN%P Top + Hel%NL%%RED%Blood: %TAN%P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel or Fragment:}
-ItemDisplay[(MAG OR RARE) GLOVES FILTLVL=5]: %NAME% %ORANGE%{%NAME%%NL%%NL%%GRAY%Vampiric: %TAN%P Skull + Io%NL%%GREEN%Safety: %TAN%P Eme + Ral%NL%%BLUE%Hit Power: %TAN%P Saph + Ort%NL%%PURPLE%Caster: %TAN%P Ame + Ort%NL%%WHITE%Brilliant: %TAN%P Dia + Shael%NL%%YELLOW%Bountiful: %TAN%P Top + Hel%NL%%RED%Blood: %TAN%P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
+ItemDisplay[(MAG OR RARE) GLOVES CRAFTALVL>74 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%CL%%CL%%GRAY%Vampiric: %TAN%P Skull + Io%NL%%GREEN%Safety: %TAN%P Eme + Ral%NL%%BLUE%Hit Power: %TAN%P Saph + Ort%NL%%PURPLE%Caster: %TAN%P Ame + Ort%NL%%WHITE%Brilliant: %TAN%P Dia + Shael%NL%%YELLOW%Bountiful: %TAN%P Top + Hel%NL%%RED%Blood: %TAN%P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel or Fragment:}
+ItemDisplay[(MAG OR RARE) GLOVES FILTLVL=5]: %NAME% %ORANGE%{%NAME%%CL%%CL%%GRAY%Vampiric: %TAN%P Skull + Io%NL%%GREEN%Safety: %TAN%P Eme + Ral%NL%%BLUE%Hit Power: %TAN%P Saph + Ort%NL%%PURPLE%Caster: %TAN%P Ame + Ort%NL%%WHITE%Brilliant: %TAN%P Dia + Shael%NL%%YELLOW%Bountiful: %TAN%P Top + Hel%NL%%RED%Blood: %TAN%P Ruby + Nef%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
 ItemDisplay[(MAG OR RARE) !ID (ETH OR CLASS) GLOVES CRAFTALVL>74]: %NAME% %ORANGE%[C]
 ItemDisplay[(MAG OR RARE) ID GLOVES CRAFTALVL>74]: %NAME% %ORANGE%[C]
 
 // ------------------------------------------------------------------------------
 //    [COHE] Helm
 // ------------------------------------------------------------------------------
-ItemDisplay[(MAG OR RARE) HELM !CIRC CRAFTALVL>80 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%NL%%NL%%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%WHITE%Brilliant:%TAN% P Dia + Eld%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:}
-ItemDisplay[(MAG OR RARE) HELM !CIRC FILTLVL=5]: %NAME% %ORANGE%{%NAME%%NL%%NL%%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%WHITE%Brilliant:%TAN% P Dia + Eld%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
+ItemDisplay[(MAG OR RARE) HELM !CIRC CRAFTALVL>80 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%CL%%CL%%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%WHITE%Brilliant:%TAN% P Dia + Eld%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:}
+ItemDisplay[(MAG OR RARE) HELM !CIRC FILTLVL=5]: %NAME% %ORANGE%{%NAME%%CL%%CL%%GRAY%Vampiric:%TAN% P Skull + Lum%NL%%GREEN%Safety:%TAN% P Eme + Ith%NL%%BLUE%Hit Power:%TAN% P Saph + Ith%NL%%PURPLE%Caster:%TAN% P Ame + Nef%NL%%WHITE%Brilliant:%TAN% P Dia + Eld%NL%%YELLOW%Bountiful:%TAN% P Top + Tir%NL%%RED%Blood:%TAN% P Ruby + Ral%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
 ItemDisplay[(MAG OR RARE) !ID (ETH OR CLASS) HELM !CIRC CRAFTALVL>80]: %NAME% %ORANGE%[C]
 ItemDisplay[(MAG OR RARE) ID HELM !CIRC CRAFTALVL>80]: %NAME% %ORANGE%[C]
 
 // ------------------------------------------------------------------------------
 //    [COSH] Shield
 // ------------------------------------------------------------------------------
-ItemDisplay[(MAG OR RARE) SHIELD CRAFTALVL>84 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%NL%%NL%%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%WHITE%Brilliant:%TAN% P Dia + Ort%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel or Fragment:}
-ItemDisplay[(MAG OR RARE) SHIELD FILTLVL=5]: %NAME% %ORANGE%{%NAME%%NL%%NL%%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%WHITE%Brilliant:%TAN% P Dia + Ort%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
+ItemDisplay[(MAG OR RARE) SHIELD CRAFTALVL>84 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%CL%%CL%%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%WHITE%Brilliant:%TAN% P Dia + Ort%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel or Fragment:}
+ItemDisplay[(MAG OR RARE) SHIELD FILTLVL=5]: %NAME% %ORANGE%{%NAME%%CL%%CL%%GRAY%Vampiric:%TAN% P Skull + Sol%NL%%GREEN%Safety:%TAN% P Eme + Nef%NL%%BLUE%Hit Power:%TAN% P Saph + Eth%NL%%PURPLE%Caster:%TAN% P Ame + Eth%NL%%WHITE%Brilliant:%TAN% P Dia + Ort%NL%%YELLOW%Bountiful:%TAN% P Top + Dol%NL%%RED%Blood:%TAN% P Ruby + Ith%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
 ItemDisplay[(MAG OR RARE) !ID (ETH OR CLASS) SHIELD CRAFTALVL>84]: %NAME% %ORANGE%[C]
 ItemDisplay[(MAG OR RARE) ID SHIELD CRAFTALVL>84]: %NAME% %ORANGE%[C]
 
 // ------------------------------------------------------------------------------
 //    [COWE] Weapon
 // ------------------------------------------------------------------------------
-ItemDisplay[(MAG OR RARE) WEAPON CRAFTALVL>76 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%NL%%NL%%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%WHITE%Brilliant:%TAN% P Dia + Sol%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:}
-ItemDisplay[(MAG OR RARE) WEAPON FILTLVL=5]: %NAME% %ORANGE%{%NAME%%NL%%NL%%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%WHITE%Brilliant:%TAN% P Dia + Sol%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
+ItemDisplay[(MAG OR RARE) WEAPON CRAFTALVL>76 FILTLVL=5]: %NAME% %ORANGE%[C]{%NAME%%CL%%CL%%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%WHITE%Brilliant:%TAN% P Dia + Sol%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:}
+ItemDisplay[(MAG OR RARE) WEAPON FILTLVL=5]: %NAME% %ORANGE%{%NAME%%CL%%CL%%GRAY%Vampiric:%TAN% P Skull + Shael%NL%%GREEN%Safety:%TAN% P Eme + Sol%NL%%BLUE%Hit Power:%TAN% P Saph + Tir%NL%%PURPLE%Caster:%TAN% P Ame + Tir%NL%%WHITE%Brilliant:%TAN% P Dia + Sol%NL%%YELLOW%Bountiful:%TAN% P Top + Shael%NL%%RED%Blood:%TAN% P Ruby + Ort%NL%%ORANGE%Craft w/ Jewel or Fragment:%NL%%RED%this cannot roll all affixes%NL%Crafted Affix Level is too low,}
 ItemDisplay[(MAG OR RARE) !ID (ETH OR CLASS) WEAPON CRAFTALVL>76]: %NAME% %ORANGE%[C]
 ItemDisplay[(MAG OR RARE) ID WEAPON CRAFTALVL>76]: %NAME% %ORANGE%[C]
 
