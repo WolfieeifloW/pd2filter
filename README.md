@@ -99,7 +99,7 @@ These are the common problems that people seem to run into. Please check each of
 1. **My launcher still says "Coming soon!" for item filters?**
    * First back-up your ddraw.ini and ProjectDiablo.cfg files (these will be overwritten). Visit the [Project Diablo 2](https://www.projectdiablo2.com/) site and download the launcher and install the new launcher version
 1. **How do I use a filter with PlugY?**
-   * Open the launcher, pick a filter, hit Play & let the game open. Close the game, close the launcher, and open PlugY. **NOTE:** you should open the launcher and repeat this process every few days to get game and filter updates
+   * Open the launcher, click Item Filter Profiles, pick a filter, click 'Save Filter', then close the launcher, and open PlugY. **NOTE:** you should open the launcher and repeat this process every few days to get game and filter updates
 1. **My Settings button is gone?**
    * Close the game & the launcher, delete `UI.ini`, and then relaunch the game. Note you may have to redo your settings (look at the image in [Installation](https://github.com/WolfieeifloW/pd2filter#installation))
 1. **I've customized my filter, how do I save my changes?**
