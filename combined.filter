@@ -2545,8 +2545,8 @@ ItemDisplay[mp5]: %BLUE%+%WHITE%MP5 // Super Mana Potion
 ItemDisplay[pvpp]: %BLUE%+%WHITE%DMP{%RED%Only usable in PvP Arenas%NL%%NL%%TAN%PvP Mana Potion} // Dueling Mana Potion
 
 // Rejuv Potions
-ItemDisplay[rvs (DIFF<2 CLVL<50)]: %PURPLE%+%WHITE%35% // Rejuv Potion
-ItemDisplay[rvs (DIFF>1 OR CLVL>49)]: // Hides Rejuv Potion after Nightmare difficulty or Character Level 50+
+ItemDisplay[rvs (DIFF<2 CLVL<75)]: %PURPLE%+%WHITE%35% // Rejuv Potion
+ItemDisplay[rvs (DIFF>1 OR CLVL>74)]: // Hides Rejuv Potion after Nightmare difficulty or Character Level 75+
 ItemDisplay[rvl]: %PURPLE%+%WHITE%65%%PURPLE%+%WHITE% // Full Rejuv Potion
 
 // Drinkable Potions - to hide add "//" after the colon  (eg ": //%...")
@@ -3894,7 +3894,7 @@ ItemDisplay[NMAG !INF !RW SOCK=2 DIN FILTLVL=5]: %NAME%{%ORANGE%Splendor (l37):%
 ItemDisplay[NMAG !INF !RW SOCK=3 DIN FILTLVL=5]: %NAME%{%ORANGE%Dream (l65):%RED% Io Jah Pul%NL%%ORANGE%Dragon (l61):%RED% Sur Lo Sol%NL%%ORANGE%Sanctuary (l49):%RED% Ko Ko Mal%NL%%ORANGE%Ancients Pledge (l21):%RED% Ral Ort Tal%NL%%TAN%Possible Runewords:}%CONTINUE% // All Paladin shields, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 DIN FILTLVL=5]: %NAME%{%ORANGE%Shattered Wall (l69):%RED% Zod Jah Ral Cham%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Epiphany (l59):%RED% Lo Ith Lo Ist%NL%%ORANGE%Exile (l57):%RED% Vex Ohm Ist Dol%NL%%ORANGE%Spirit (l25):%RED% Tal Thul Ort Amn%NL%%TAN%Possible Runewords:}%CONTINUE% // All Paladin shields, 4os
 
-ItemDisplay[NMAG !INF !RW CLVL<30 DIN !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Paladin shields until character level 30
+ItemDisplay[NMAG !INF !RW CLVL<50 DIN !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Paladin shields until character level 50
 
 ItemDisplay[NMAG !INF !RW SOCK=0 RES>20 DIN !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 0os, 20%+ res, all variants
 ItemDisplay[NMAG !INF !RW SOCK=4 RES>20 DIN !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // All tiers Paladin shields, 4os, 20%+ res, all variants
@@ -4052,6 +4052,10 @@ ItemDisplay[NMAG !INF !RW SOCK=2 HELM !BAR !DRU FILTLVL=5]: %NAME%{%ORANGE%Lore 
 ItemDisplay[NMAG !INF !RW SOCK=3 HELM !BAR !DRU FILTLVL=5]: %NAME%{%ORANGE%Ferocity (l69):%RED% Zod Cham Shael%NL%%ORANGE%Dream (l65):%RED% Io Jah Pul%NL%%ORANGE%Flickering Flame (l55):%RED% Nef Pul Vex%NL%%ORANGE%Delirium (l51):%RED% Lem Ist Io%NL%%ORANGE%Wisdom (l45):%RED% Pul Ith Eld%NL%%ORANGE%Radiance (l27):%RED% Nef Sol Ith%NL%%TAN%Possible Runewords:}%CONTINUE% // All Helms, 3os
 
 ItemDisplay[NMAG !INF !RW SOCK>1 CLVL<30 HELM !BAR !DRU FILTLVL=4]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all 2+ socket Helms until character level 30
+
+// Death Mask
+ItemDisplay[NMAG !INF !RW !ETH SOCK=0 xsk !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Death Mask, 0os, Non-Eth
+ItemDisplay[NMAG !INF !RW !ETH SOCK=3 xsk !FILTLVL=3]: %NAME%%DOT-1E%%PX-00%{%NAME%} // Death Mask, 3os, Non-Eth
 
 // Grand Crown
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 xrn !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Grand Crown, 0os, Non-Eth
