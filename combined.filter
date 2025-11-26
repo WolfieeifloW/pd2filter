@@ -164,7 +164,6 @@ ItemDisplay[t47]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%
 ItemDisplay[t48]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
 ItemDisplay[t49]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
 ItemDisplay[t50]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t56]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
 ItemDisplay[t57]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
 ItemDisplay[t58]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
 ItemDisplay[t59]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
@@ -211,6 +210,7 @@ ItemDisplay[t53]: %GOLD%++ %NAME% %GOLD%[U2]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED
 ItemDisplay[t52]: %GOLD%++ %NAME% %GOLD%[U3]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // The Stygian Caverns
 ItemDisplay[t54]: %GOLD%++ %NAME% %GOLD%[U3]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Imperial Palace
 ItemDisplay[t55]: %GOLD%++ %NAME% %GOLD%[U3]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Outer Void
+ItemDisplay[t56]: %GOLD%++ %NAME% %GOLD%[U3]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // City of Ureh?
 
 // Coloring maps names
 ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
@@ -620,8 +620,6 @@ ItemDisplay[MAG SHOP (TABSK17>2 SK84>2) WAND]: %ORANGE%+3 PnB +3 Bone Spear // +
 ItemDisplay[ear]: // Hide player ears
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item while in town and commenting it will be hidden outside of town
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
-ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
-ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
 
 // +----------------------------------------------------------------------------+
 // |                                                                            |
@@ -673,6 +671,22 @@ ItemDisplay[UNI !ID ci3 FILTLVL=2]: %NAME% [Griffons Eye]%MAP-A5% // Griffon's E
 //      [UMJE] Jewels
 // ------------------------------------------------------------------------------
 ItemDisplay[UNI !ID jew FILTLVL=2]: %NAME% [Rainbow Facet]%MAP-A5% // Rainbow Facet Jewel
+
+// ------------------------------------------------------------------------------
+//      [UMQU] Quivers
+// ------------------------------------------------------------------------------
+ItemDisplay[UNI !ID aqv FILTLVL=2]: %NAME% [Balefire]%MAP-A5% // Balefire Blunt Arrows
+ItemDisplay[UNI !ID aqv2 FILTLVL=2]: %NAME% [Swiftwind Needle]%MAP-A5% // Swiftwind Needle Sharp Arrows
+ItemDisplay[UNI !ID aqv2 FILTLVL=2]: %NAME% [Tombsong]%MAP-A5% // Tombsong Sharp Arrows
+ItemDisplay[UNI !ID aqv3 FILTLVL=2]: %NAME% [Aetherwing]%MAP-A5% // Aetherwing Razor Arrows
+ItemDisplay[UNI !ID aqv3 FILTLVL=2]: %NAME% [Basilisks Quill]%MAP-A5% // Basilisk's Quill Razor Arrows
+ItemDisplay[UNI !ID aqv3 FILTLVL=2]: %NAME% [Dooms Finger]%MAP-A5% // Doom's Finger Razor Arrows
+ItemDisplay[UNI !ID cqv FILTLVL=2]: %NAME% [Ramfodder]%MAP-A5% // Ramfodder Light Bolts
+ItemDisplay[UNI !ID cqv2 FILTLVL=2]: %NAME% [Anvilguard Strap]%MAP-A5% // Anvilguard Strap Heavy Bolts
+ItemDisplay[UNI !ID cqv2 FILTLVL=2]: %NAME% [Shatterhead]%MAP-A5% // Shatterhead Heavy Bolts
+ItemDisplay[UNI !ID cqv3 FILTLVL=2]: %NAME% [Abyssal Ward]%MAP-A5% // Abyssal Ward War Bolts
+ItemDisplay[UNI !ID cqv3 FILTLVL=2]: %NAME% [Bannerlords Call]%MAP-A5% // Bannerlord's Call War Bolts
+ItemDisplay[UNI !ID cqv3 FILTLVL=2]: %NAME% [Frozen Sorrow]%MAP-A5% // Frozen Sorrow War Bolts
 
 // ------------------------------------------------------------------------------
 // [UICS] Unique Class Specific
@@ -1055,6 +1069,7 @@ ItemDisplay[UNI !ID 8sw FILTLVL=2]: %NAME% [Magewrath]%MAP-A5% // Magewrath Rune
 ItemDisplay[UNI !ID 8lw FILTLVL=2]: %NAME% [Goldstrike Arch]%MAP-A5% // Goldstrike Arch Gothic Bow
 
 // Elite tier Bows
+ItemDisplay[UNI !ID 6hb FILTLVL=2]: %NAME% [Crackleshot]%MAP-A5% // Crackleshot Blade Bow
 ItemDisplay[UNI !ID 6l7 FILTLVL=2]: %NAME% [Eaglehorn]%MAP-A5% // Eaglehorn Crusader Bow
 ItemDisplay[UNI !ID 6sw FILTLVL=2]: %NAME% [Widowmaker]%MAP-A5% // Widowmaker Ward Bow
 ItemDisplay[UNI !ID 6lw FILTLVL=2]: %NAME% [Windforce]%MAP-A5% // Windforce Hydra Bow
@@ -1622,18 +1637,17 @@ ItemDisplay[SET !ID FILTLVL=2]: %NAME% [???]%MAP-84% // All other set items
 // Upgrade recipes for Rare items
 ItemDisplay[RARE ID NORM ARMOR FILTLVL=5]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC ARMOR FILTLVL=5]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID NORM ARMOR !(CIRC OR aqv OR cqv) !FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
-ItemDisplay[RARE ID EXC ARMOR !(CIRC OR aqv OR cqv) !FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
-ItemDisplay[RARE ID NORM ARMOR !(CIRC OR aqv OR cqv) FILTLVL=5]: %NAME%%CONTINUE%{%NAME%}
-ItemDisplay[RARE ID EXC ARMOR !(CIRC OR aqv OR cqv) FILTLVL=5]: %NAME%%CONTINUE%{%NAME%}
+ItemDisplay[RARE ID NORM ARMOR !CIRC !FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
+ItemDisplay[RARE ID EXC ARMOR !CIRC !FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
+ItemDisplay[RARE ID NORM ARMOR !CIRC FILTLVL=5]: %NAME%%CONTINUE%{%NAME%}
+ItemDisplay[RARE ID EXC ARMOR !CIRC FILTLVL=5]: %NAME%%CONTINUE%{%NAME%}
 ItemDisplay[RARE ID NORM WEAPON FILTLVL=5]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC WEAPON FILTLVL=5]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID NORM WEAPON !FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
 ItemDisplay[RARE ID EXC WEAPON !FILTLVL=5]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
-ItemDisplay[RARE ID (ARMOR OR WEAPON) ELT !(CIRC OR aqv OR cqv)]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
+ItemDisplay[RARE ID (ARMOR OR WEAPON) ELT !CIRC]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
 
-ItemDisplay[RARE !ID aqv !FILTLVL=3]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
-ItemDisplay[RARE !ID cqv !FILTLVL=3]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
+ItemDisplay[RARE !ID QUIVER !FILTLVL=3]: %NAME%%MAP-A8% // Shows Rare quivers
 
 // Temporary addition for S3 Start
 ItemDisplay[RARE !ID ARMOR !FILTLVL=3]: %NAME%%MAP-A8%{%NAME%} // All Rare armors
@@ -1704,12 +1718,12 @@ ItemDisplay[RARE rin STAT360=0 REPLIFE>6 STAT110>12 (STR+DEX+STAT3>11 OR LIFE>14
 ItemDisplay[RARE rin STAT360>0 REPLIFE>6 STAT110>12 (STR+DEX+STAT3>11 OR LIFE>14 OR FCR>0 OR MINDMG>3 OR AR>99 OR MANA>69 OR CHSK43>0) (STR+DEX+STAT3>19 OR LIFE>19 OR AR>119 OR FRW>0 OR STAT34>7 OR STAT35>7 OR STAT36>0) LVLREQ<31]: %NAME%{%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE rin STAT360=0 STAT1>9 MANA>69 (STR+DEX+STAT3>6 OR LIFE>9 OR FCR>0 OR CHSK43>0) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE rin STAT360>0 STAT1>7 MANA>69 (STR+DEX+STAT3>11 OR LIFE>19 OR FCR>0 OR CHSK43>0 OR FRW>0 OR STAT34>4 OR STAT35>4 OR STAT36>0) LVLREQ<31]: %NAME%{%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[RARE aqv STAT360=0 ED>39 IAS>19 (STR+DEX>11 OR AR>99 OR FRW>0 OR STAT156>0 OR MAXDMG>7 OR MINDMG>7 OR RES>9 OR TABSK0>1 OR TABSK1>0 OR LIFE>19 OR STAT110>49 OR STAT135>7 OR STAT136>7 OR STAT141>7) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[RARE aqv STAT360>0 ED>39 IAS>19 (((STR+DEX>11 OR MAXDMG>7 OR MINDMG>7 OR RES>9 OR TABSK0>1 OR TABSK1>0 OR STAT110>49 OR STAT135>7 OR STAT136>7 OR STAT141>7) (AR>49 OR FRW>0 OR STAT156>19 OR LIFE>19 OR FHR>0 OR STAT116<0)) OR FRW>19 OR ED>69) LVLREQ<31]: %NAME%{%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[RARE aqv STAT360>0 ED>39 IAS>19 (STR+DEX>11 OR MAXDMG>7 OR RES>9 OR TABSK0>1 OR TABSK1>0 OR STAT110>49 OR STAT135>7 OR STAT136>7 OR STAT141>7) (AR>49 OR FRW>0 OR STAT156>19 OR LIFE>19 OR MINDMG>7 OR FHR>0 OR STAT116<0) LVLREQ<31]: %NAME%{%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[RARE aqv STAT360>0 ED>39 IAS>19 (STR+DEX>11 OR MINDMG>7 OR RES>9 OR TABSK0>1 OR TABSK1>0 OR STAT110>49 OR STAT135>7 OR STAT136>7 OR STAT141>7) (AR>49 OR FRW>0 OR STAT156>19 OR LIFE>19 OR MAXDMG>7 OR FHR>0 OR STAT116<0) LVLREQ<31]: %NAME%{%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[RARE aqv STAT360=0 IAS>19 TABSK0>1 (ED>39 OR DEX>5 OR STR+DEX>11 OR AR>99 OR FRW>0 OR RES>9 OR LIFE>19 OR STAT110>0 OR STAT135>7 OR STAT136>7) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%RED%Note:%ORANGE% Good for LLD:}
-ItemDisplay[RARE aqv STAT360>0 IAS>19 TABSK0>1 (ED>39 OR STR+DEX>11 OR AR>99 OR FRW>0 OR RES>9 OR LIFE>19 OR STAT110>0 OR STAT135>7 OR STAT136>7 OR STAT333<0 OR STAT335<0 OR FHR>0 OR STAT116<0) LVLREQ<31]: %NAME%{%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[RARE QUIVER STAT360=0 ED>39 IAS>19 (STR+DEX>11 OR AR>99 OR FRW>0 OR STAT156>0 OR MAXDMG>7 OR MINDMG>7 OR RES>9 OR TABSK0>1 OR TABSK1>0 OR LIFE>19 OR STAT110>49 OR STAT135>7 OR STAT136>7 OR STAT141>7) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[RARE QUIVER STAT360>0 ED>39 IAS>19 (((STR+DEX>11 OR MAXDMG>7 OR MINDMG>7 OR RES>9 OR TABSK0>1 OR TABSK1>0 OR STAT110>49 OR STAT135>7 OR STAT136>7 OR STAT141>7) (AR>49 OR FRW>0 OR STAT156>19 OR LIFE>19 OR FHR>0 OR STAT116<0)) OR FRW>19 OR ED>69) LVLREQ<31]: %NAME%{%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[RARE QUIVER STAT360>0 ED>39 IAS>19 (STR+DEX>11 OR MAXDMG>7 OR RES>9 OR TABSK0>1 OR TABSK1>0 OR STAT110>49 OR STAT135>7 OR STAT136>7 OR STAT141>7) (AR>49 OR FRW>0 OR STAT156>19 OR LIFE>19 OR MINDMG>7 OR FHR>0 OR STAT116<0) LVLREQ<31]: %NAME%{%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[RARE QUIVER STAT360>0 ED>39 IAS>19 (STR+DEX>11 OR MINDMG>7 OR RES>9 OR TABSK0>1 OR TABSK1>0 OR STAT110>49 OR STAT135>7 OR STAT136>7 OR STAT141>7) (AR>49 OR FRW>0 OR STAT156>19 OR LIFE>19 OR MAXDMG>7 OR FHR>0 OR STAT116<0) LVLREQ<31]: %NAME%{%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[RARE QUIVER STAT360=0 IAS>19 TABSK0>1 (ED>39 OR DEX>5 OR STR+DEX>11 OR AR>99 OR FRW>0 OR RES>9 OR LIFE>19 OR STAT110>0 OR STAT135>7 OR STAT136>7) LVLREQ<31]: %NAME%{%TAN%Low Level Dueling Corruptible%NL%%RED%Note:%ORANGE% Good for LLD:}
+ItemDisplay[RARE QUIVER STAT360>0 IAS>19 TABSK0>1 (ED>39 OR STR+DEX>11 OR AR>99 OR FRW>0 OR RES>9 OR LIFE>19 OR STAT110>0 OR STAT135>7 OR STAT136>7 OR STAT333<0 OR STAT335<0 OR FHR>0 OR STAT116<0) LVLREQ<31]: %NAME%{%NAME%%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE LVLREQ<31 ED>14 (RES>7 OR MAXDMG>7 OR MINDMG>6 OR MANA>14 OR STR>4 OR DEX>5 OR LIFE>5 OR STAT1>4) jew]: %NAME%{%TAN%Low Level Dueling Usable%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE LVLREQ<31 MAXDMG>8 (STR>4 OR DEX>5) jew]: %NAME%{%TAN%Low Level Dueling Usable%NL%%RED%Note:%ORANGE% Good for LLD:}
 ItemDisplay[RARE LVLREQ<31 STR>4 DEX>5 jew]: %NAME%{%TAN%Low Level Dueling Usable%NL%%RED%Note:%ORANGE% Good for LLD:}
@@ -1915,9 +1929,9 @@ ItemDisplay[RARE !ID WAND !FILTLVL=3]: %NAME%%MAP-A8% // All Wands
 // ------------------------------------------------------------------------------
 // [RIVE] Rare Items Vendor
 // ------------------------------------------------------------------------------
-ItemDisplay[RARE !RW PRICE>34999 DIFF<3 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // All difficulties
-ItemDisplay[RARE !RW PRICE>19999 DIFF<2 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // Normal & Nightmare difficulty
-ItemDisplay[RARE !RW PRICE>9999 DIFF<1 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // Normal difficulty
+ItemDisplay[RARE !RW SELLPRICE>34999 DIFF<3 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // All difficulties
+ItemDisplay[RARE !RW SELLPRICE>19999 DIFF<2 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // Normal & Nightmare difficulty
+ItemDisplay[RARE !RW SELLPRICE>9999 DIFF<1 !FILTLVL=3]: %DARK_GREEN%$ %YELLOW%%NAME%{%NAME%} // Normal difficulty
 
 // ------------------------------------------------------------------------------
 // [RIMA] Rare Items Master
@@ -2129,8 +2143,7 @@ ItemDisplay[(MAG OR RARE) ID WEAPON CRAFTALVL>76]: %NAME% %ORANGE%[C]
 // ------------------------------------------------------------------------------
 // [MIMI] Magic Miscellaneous
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !ID aqv !FILTLVL=3]: %NAME% // Shows Magic Arrow quivers
-ItemDisplay[MAG !ID cqv !FILTLVL=3]: %NAME% // Shows Magic Bolt quivers
+ItemDisplay[MAG !ID QUIVER !FILTLVL=3]: %NAME% // Shows Magic quivers
 // Items used for crafting (eg amulets/charms/rings) check the "Crafted Items" section
 
 // ------------------------------------------------------------------------------
@@ -2464,9 +2477,9 @@ ItemDisplay[MAG SK95>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%BLUE%%MAP
 // ------------------------------------------------------------------------------
 // [MIVE] Magic Items Vendor
 // ------------------------------------------------------------------------------
-ItemDisplay[MAG !RW PRICE>34999 DIFF<3 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // All difficulties
-ItemDisplay[MAG !RW PRICE>19999 DIFF<2 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal & Nightmare difficulty
-ItemDisplay[MAG !RW PRICE>9999 DIFF<1 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal difficulty
+ItemDisplay[MAG !RW SELLPRICE>34999 DIFF<3 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // All difficulties
+ItemDisplay[MAG !RW SELLPRICE>19999 DIFF<2 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal & Nightmare difficulty
+ItemDisplay[MAG !RW SELLPRICE>9999 DIFF<1 !FILTLVL=3]: %DARK_GREEN%$ %BLUE%%NAME%{%NAME%} // Normal difficulty
 
 // ------------------------------------------------------------------------------
 // [MIMA] Magic Items Master
@@ -2833,6 +2846,10 @@ ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>40 ci2 FILTLVL=5]: %NAME%{%TAN%Larzuk ques
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 ci3 FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 1 socket}%CONTINUE% // All Diadem, 0os, ilvl 1-25
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<41 ILVL>25 ci3 FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Diadem, 0os, ilvl 26-40
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>40 ci3 FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Diadem, 0os, ilvl 41+
+
+// Quivers
+ItemDisplay[NMAG !INF !RW SOCK=0 NORM QUIVER FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 1 socket}%CONTINUE% // All Normal tier Quivers, 0os
+ItemDisplay[NMAG !INF !RW SOCK=0 (EXC OR ELT) QUIVER FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Exceptional & Elite tier Quivers, 0os
 
 // Amazon
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 am1 FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Stag Bow, 0os, ilvl 1-25
@@ -3655,10 +3672,10 @@ ItemDisplay[NMAG !INF !RW SOCK=0 7yw FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 2 
 ItemDisplay[NMAG !INF !RW SOCK=0 7bw FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Lich Wand, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 7gw FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 2 sockets}%CONTINUE% // All Unearthed Wand, 0os
 
-ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>30 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) FILTLVL<4]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
-ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>30 FILTLVL<4]: // Hides all 1 socket base items after level 30
-ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>15 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) FILTLVL>3]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
-ItemDisplay[NMAG ID (ARMOR OR WEAPON) SOCK=1 CLVL>15 FILTLVL>3]: // Hides all 1 socket base items after level 15
+ItemDisplay[NMAG ID (ARMOR OR WEAPON OR QUIVER) SOCK=1 CLVL>30 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) FILTLVL<4]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
+ItemDisplay[NMAG ID (ARMOR OR WEAPON OR QUIVER) SOCK=1 CLVL>30 FILTLVL<4]: // Hides all 1 socket base items after level 30
+ItemDisplay[NMAG ID (ARMOR OR WEAPON OR QUIVER) SOCK=1 CLVL>15 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) FILTLVL>3]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
+ItemDisplay[NMAG ID (ARMOR OR WEAPON OR QUIVER) SOCK=1 CLVL>15 FILTLVL>3]: // Hides all 1 socket base items after level 15
 
 // ------------------------------------------------------------------------------
 //    [BMLL] LLD Items
@@ -3678,8 +3695,7 @@ ItemDisplay[NMAG (9p9 OR 9wa) !ETH !INF !RW (SOCK=0 OR SOCK=5 OR (SOCK=4 !9wa)) 
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all circlets, leave these alone if you want to display possible runewords on base circlets
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 ILVL>25 CIRC FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All circlets, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 ILVL>25 CIRC FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All circlets, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 CIRC FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All circlets, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 CIRC FILTLVL=5]: %NAME%{%ORANGE%Lore (l27):%RED% Ort Sol%NL%%ORANGE%Nadir (l13):%RED% Nef Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All circlets, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 CIRC FILTLVL=5]: %NAME%{%ORANGE%Ferocity (l69):%RED% Zod Cham Shael%NL%%ORANGE%Dream (l65):%RED% Io Jah Pul%NL%%ORANGE%Flickering Flame (l55):%RED% Nef Pul Vex%NL%%ORANGE%Delirium (l51):%RED% Lem Ist Io%NL%%ORANGE%Wisdom (l45):%RED% Pul Ith Eld%NL%%ORANGE%Radiance (l27):%RED% Nef Sol Ith%NL%%TAN%Possible Runewords:}%CONTINUE% // All circlets, 3os
 
@@ -3689,20 +3705,24 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=3 CIRC !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%N
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 ci3 !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Diadem, 0os, Non-Eth
 
 // ------------------------------------------------------------------------------
+//    [BMQU] Quivers
+// ------------------------------------------------------------------------------
+ItemDisplay[NMAG !INF !RW SOCK=0 QUIVER FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Ruby for sockets%NL%Cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Quivers, 0os
+ItemDisplay[NMAG !INF !RW SOCK=2 QUIVER FILTLVL=5]: %NAME%{%ORANGE%Echo (l31):%RED% Sol Dol%NL%%ORANGE%Ancient's Foresight (l23):%RED% Ral Thul%NL%%ORANGE%Ancient's Scripture (l21):%RED% Tal Ort%NL%%TAN%Possible Runewords:}%CONTINUE% // All Quivers, 2os
+
+// ------------------------------------------------------------------------------
 // [BICS] Base Items Class Specific
 // ------------------------------------------------------------------------------
 // ------------------------------------------------------------------------------
 //    [BCAM] Amazon
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 ZON BOW FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Amazon Bows, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 ZON BOW FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Amazon Bows, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 ZON BOW FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Amazon Bows, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 ZON BOW FILTLVL=5]: %NAME%{%ORANGE%Zephyr (l21):%RED% Ort Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Amazon Bows, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 ZON BOW FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Loyalty (l45):%RED% Pul Tir Dol%NL%%ORANGE%Melody (l39):%RED% Shael Ko Nef%NL%%ORANGE%Purity (l25):%RED% Amn Eth Thul%NL%%ORANGE%Edge (l25):%RED% Tir Tal Amn%NL%%TAN%Possible Runewords:}%CONTINUE% // All Amazon Bows, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 ZON BOW FILTLVL=5]: %NAME%{%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Ice (l65):%RED% Amn Shael Jah Lo%NL%%ORANGE%Faith (l65):%RED% Ohm Jah Lem Eld%NL%%ORANGE%Brand (l65):%RED% Jah Lo Mal Gul%NL%%ORANGE%Wrath (l63):%RED% Pul Lum Ber Mal%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Voice of Reason (l43):%RED% Lem Ko El Eld%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%ORANGE%Harmony (l39):%RED% Tir Ith Sol Ko%NL%%TAN%Possible Runewords:}%CONTINUE% // All Amazon Bows, 4os
 ItemDisplay[NMAG !INF !RW SOCK=5 ZON BOW FILTLVL=5]: %NAME%{%ORANGE%Zenith (l69):%RED% Jah Zod Ort Thul Ral%NL%%ORANGE%Mist (l67):%RED% Cham Shael Gul Thul Ith%NL%%ORANGE%Call to Arms (l57):%RED% Amn Ral Mal Ist Ohm%NL%%TAN%Possible Runewords:}%CONTINUE% // All Amazon Bows, 5os
 
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SPEAR !THROWING ZON FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Amazon Spears, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 SPEAR !THROWING ZON FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Amazon Spears, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 SPEAR !THROWING ZON FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Amazon Spears, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 SPEAR !THROWING ZON FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All Amazon Spears, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 SPEAR !THROWING ZON FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Crescent Moon (l47):%RED% Shael Um Tir%NL%%ORANGE%Loyalty (l45):%RED% Pul Tir Dol%NL%%ORANGE%Purity (l25):%RED% Amn Eth Thul%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Amazon Spears, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SPEAR !THROWING ZON FILTLVL=5]: %NAME%{%ORANGE%Pride (l67):%RED% Cham Sur Io Lo%NL%%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Infinity (l63):%RED% Ber Mal Ber Ist%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Rift (l53):%RED% Hel Ko Lem Gul%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%ORANGE%Insight (l27):%RED% Ral Tir Tal Sol%NL%%TAN%Possible Runewords:}%CONTINUE% // All Amazon Spears, 4os
@@ -3746,8 +3766,7 @@ ItemDisplay[NMAG CLVL<30 TABSK2<3 (am5 OR ama OR amf) !FILTLVL=3]: %NAME% // Sho
 // ------------------------------------------------------------------------------
 //    [BCAS] Assassin
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SIN FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Assassin Katars, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 SIN FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Assassin Katars, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 SIN FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Assassin Katars, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 SIN FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%ORANGE%Neophyte (l23):%RED% Thul Tir%NL%%ORANGE%Steel (l13):%RED% Tir El%NL%%TAN%Possible Runewords:}%CONTINUE% // All Assassin Katars, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 SIN FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Chaos (l57):%RED% Fal Ohm Um%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Crescent Moon (l47):%RED% Shael Um Tir%NL%%ORANGE%Lawbringer (l43):%RED% Amn Lem Ko%NL%%ORANGE%Black (l35):%RED% Thul Io Nef%NL%%ORANGE%Kings Grace (l25):%RED% Amn Ral Thul%NL%%ORANGE%Pattern (l21):%RED% Tal Ort Tir%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Assassin Katars, 3os
 
@@ -3787,8 +3806,7 @@ ItemDisplay[NMAG !INF !RW ETH (SOCK=0 OR SOCK=2 OR SOCK=3) ELT SIN !FILTLVL=3]: 
 // ------------------------------------------------------------------------------
 //    [BCBA] Barbarian
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 BAR FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All Barbarian helms, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 BAR FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Barbarian helms, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 BAR FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All Barbarian helms, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 BAR FILTLVL=5]: %NAME%{%ORANGE%Lore (l27):%RED% Ort Sol%NL%%ORANGE%Nadir (l13):%RED% Nef Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All circlets, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 BAR FILTLVL=5]: %NAME%{%ORANGE%Ferocity (l69):%RED% Zod Cham Shael%NL%%ORANGE%Dream (l65):%RED% Io Jah Pul%NL%%ORANGE%Flickering Flame (l55):%RED% Nef Pul Vex%NL%%ORANGE%Delirium (l51):%RED% Lem Ist Io%NL%%ORANGE%Wisdom (l45):%RED% Pul Ith Eld%NL%%ORANGE%Radiance (l27):%RED% Nef Sol Ith%NL%%TAN%Possible Runewords:}%CONTINUE% // All Barbarian helms, 3os
 
@@ -3813,8 +3831,7 @@ ItemDisplay[NMAG !INF !RW SK152>2 BAR !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]
 // ------------------------------------------------------------------------------
 //    [BCDR] Druid
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 DRU FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All Druid Pelts, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 DRU FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Druid Pelts, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 DRU FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All Druid Pelts, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 DRU FILTLVL=5]: %NAME%{%ORANGE%Lore (l27):%RED% Ort Sol%NL%%ORANGE%Nadir (l13):%RED% Nef Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All circlets, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 DRU FILTLVL=5]: %NAME%{%ORANGE%Ferocity (l69):%RED% Zod Cham Shael%NL%%ORANGE%Dream (l65):%RED% Io Jah Pul%NL%%ORANGE%Flickering Flame (l55):%RED% Nef Pul Vex%NL%%ORANGE%Delirium (l51):%RED% Lem Ist Io%NL%%ORANGE%Wisdom (l45):%RED% Pul Ith Eld%NL%%ORANGE%Radiance (l27):%RED% Nef Sol Ith%NL%%TAN%Possible Runewords:}%CONTINUE% // All Druid Pelts, 3os
 
@@ -3848,8 +3865,7 @@ ItemDisplay[NMAG !INF !RW SK247>2 DRU !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]
 // ------------------------------------------------------------------------------
 //    [BCNE] Necromancer
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 NEC FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Ruby for sockets%NL%Cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Necromancer Heads, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 NEC FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Necromancer Heads, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 NEC FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Ruby for sockets%NL%Cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Necromancer Heads, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 NEC FILTLVL=5]: %NAME%{%ORANGE%Splendor (l37):%RED% Eth Lum%NL%%ORANGE%Rhyme (l29):%RED% Shael Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Necromancer Heads, 2os
 
 ItemDisplay[NMAG !INF !RW CLVL<30 NEC !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Necromancer heads until character level 30
@@ -3888,8 +3904,7 @@ ItemDisplay[NMAG !INF !RW SK95>2 NEC !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]%
 // ------------------------------------------------------------------------------
 //    [BCPA] Paladin
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 DIN FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Ruby for sockets%NL%Cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Paladin shields, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 DIN FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Paladin shields, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 DIN FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Ruby for sockets%NL%Cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Paladin shields, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 DIN FILTLVL=5]: %NAME%{%ORANGE%Splendor (l37):%RED% Eth Lum%NL%%ORANGE%Rhyme (l29):%RED% Shael Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Paladin shields, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 DIN FILTLVL=5]: %NAME%{%ORANGE%Dream (l65):%RED% Io Jah Pul%NL%%ORANGE%Dragon (l61):%RED% Sur Lo Sol%NL%%ORANGE%Sanctuary (l49):%RED% Ko Ko Mal%NL%%ORANGE%Ancients Pledge (l21):%RED% Ral Ort Tal%NL%%TAN%Possible Runewords:}%CONTINUE% // All Paladin shields, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 DIN FILTLVL=5]: %NAME%{%ORANGE%Shattered Wall (l69):%RED% Zod Jah Ral Cham%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Epiphany (l59):%RED% Lo Ith Lo Ist%NL%%ORANGE%Exile (l57):%RED% Vex Ohm Ist Dol%NL%%ORANGE%Spirit (l25):%RED% Tal Thul Ort Amn%NL%%TAN%Possible Runewords:}%CONTINUE% // All Paladin shields, 4os
@@ -3909,8 +3924,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=3 AR>80 DIN !FILTLVL=3]: %NAME%%DOT-20%%PX-0
 // ------------------------------------------------------------------------------
 //    [BCSO] Sorceress
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 (ob5 OR oba OR obf) SOR FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Sorceress Orbs, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 (ob5 OR oba OR obf) SOR FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Sorceress Orbs, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 (ob5 OR oba OR obf) SOR FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Sorceress Orbs, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 SOR FILTLVL=5]: %NAME%{%ORANGE%Neophyte (l23):%RED% Thul Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All Sorceress Orbs, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 SOR FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%TAN%Possible Runewords:}%CONTINUE% // All Sorceress Orbs, 3os
 
@@ -3948,8 +3962,7 @@ ItemDisplay[NMAG !INF !RW SK376>2 SOR !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]
 // ------------------------------------------------------------------------------
 //    [BAAR] Armor
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 CHEST FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Topaz for sockets%NL%Cube w/ Tal Rune, Thul Rune,}%CONTINUE% // All Body Armors, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 CHEST FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Body Armors, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 CHEST FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Topaz for sockets%NL%Cube w/ Tal Rune, Thul Rune,}%CONTINUE% // All Body Armors, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 CHEST FILTLVL=5]: %NAME%{%ORANGE%Prudence (l49):%RED% Mal Tir%NL%%ORANGE%Smoke (l37):%RED% Nef Lum%NL%%ORANGE%Stealth (l17):%RED% Tal Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Body Armors, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 CHEST FILTLVL=5]: %NAME%{%ORANGE%Enigma (l65):%RED% Jah Ith Ber%NL%%ORANGE%Dragon (l61):%RED% Sur Lo Sol%NL%%ORANGE%Principle (l53):%RED% Ral Gul Eld%NL%%ORANGE%Rain (l49):%RED% Ort Mal Ith%NL%%ORANGE%Gloom (l47):%RED% Fal Um Pul%NL%%ORANGE%Duress (l47):%RED% Shael Um Thul%NL%%ORANGE%Bone (l47):%RED% Sol Um Um%NL%}%CONTINUE% // All Body Armors, 3os (split into two lines to avoid regex error)
 ItemDisplay[NMAG !INF !RW SOCK=3 CHEST FILTLVL=5]: %NAME%{%NAME%%ORANGE%Enlightenment (l45):%RED% Pul Ral Sol%NL%%ORANGE%Wealth (l43):%RED% Lem Ko Tir%NL%%ORANGE%Treachery (l43):%RED% Shael Thul Lem%NL%%ORANGE%Lionheart (l41):%RED% Hel Lum Fal%NL%%ORANGE%Hustle (l39):%RED% Shael Ko Eld%NL%%ORANGE%Peace (l29):%RED% Shael Thul Amn%NL%%ORANGE%Myth (l25):%RED% Hel Amn Nef%NL%%TAN%Possible Runewords:}%CONTINUE% // All Body Armors, 3os (split into two lines to avoid regex error)
@@ -4046,8 +4059,7 @@ ItemDisplay[NMAG ID GLOVES CLVL>10 !FILTLVL=3]: // This will completely hide all
 // ------------------------------------------------------------------------------
 //    [BAHE] Helms
 // ------------------------------------------------------------------------------
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 HELM !BAR !DRU FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All Helms, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 HELM !BAR !DRU FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Helms, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 HELM !BAR !DRU FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Sapphire for sockets%NL%Cube w/ Ral Rune, Thul Rune,}%CONTINUE% // All Helms, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 HELM !BAR !DRU FILTLVL=5]: %NAME%{%ORANGE%Lore (l27):%RED% Ort Sol%NL%%ORANGE%Nadir (l13):%RED% Nef Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All circlets, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 HELM !BAR !DRU FILTLVL=5]: %NAME%{%ORANGE%Ferocity (l69):%RED% Zod Cham Shael%NL%%ORANGE%Dream (l65):%RED% Io Jah Pul%NL%%ORANGE%Flickering Flame (l55):%RED% Nef Pul Vex%NL%%ORANGE%Delirium (l51):%RED% Lem Ist Io%NL%%ORANGE%Wisdom (l45):%RED% Pul Ith Eld%NL%%ORANGE%Radiance (l27):%RED% Nef Sol Ith%NL%%TAN%Possible Runewords:}%CONTINUE% // All Helms, 3os
 
@@ -4074,8 +4086,7 @@ ItemDisplay[NMAG !INF !RW SOCK=3 uh9 !FILTLVL=3]: %NAME%%DOT-1E%%PX-00%{%NAME%} 
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Shields, leave these alone if you want to display possible runewords on base Shields
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SHIELD !DIN !NEC FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Ruby for sockets%NL%Cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Shields, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 SHIELD !DIN !NEC FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Shields, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 SHIELD !DIN !NEC FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Ruby for sockets%NL%Cube w/ Tal Rune, Amn Rune,}%CONTINUE% // All Shields, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 SHIELD !DIN !NEC FILTLVL=5]: %NAME%{%ORANGE%Splendor (l37):%RED% Eth Lum%NL%%ORANGE%Rhyme (l29):%RED% Shael Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Shields, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 SHIELD !DIN !NEC FILTLVL=5]: %NAME%{%ORANGE%Dream (l65):%RED% Io Jah Pul%NL%%ORANGE%Dragon (l61):%RED% Sur Lo Sol%NL%%ORANGE%Sanctuary (l49):%RED% Ko Ko Mal%NL%%ORANGE%Ancients Pledge (l21):%RED% Ral Ort Tal%NL%%TAN%Possible Runewords:}%CONTINUE% // All Shields, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SHIELD !DIN !NEC FILTLVL=5]: %NAME%{%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Epiphany (l59):%RED% Lo Ith Lo Ist%NL%%ORANGE%Exile (l57):%RED% Vex Ohm Ist Dol%NL%%ORANGE%Spirit (l25):%RED% Tal Thul Ort Amn%NL%%TAN%Possible Runewords:}%CONTINUE% // All Shields, 4os
@@ -4114,8 +4125,7 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=3 ush !FILTLVL=3]: %NAME%%DOT-1E%%PX-00%{%NA
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Axes, leave these alone if you want to display possible runewords on base Axes
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 AXE !THROWING FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Axes, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 AXE !THROWING FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Axes, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 AXE !THROWING FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Axes, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 AXE !THROWING FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%ORANGE%Steel (l13):%RED% Tir El%NL%%TAN%Possible Runewords:}%CONTINUE% // All Axes, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 AXE !THROWING FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Crescent Moon (l47):%RED% Shael Um Tir%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Axes, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 AXE !THROWING FILTLVL=5]: %NAME%{%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Famine (l65):%RED% Fal Ohm Ort Jah%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Kingslayer (l53):%RED% Mal Um Gul Fal%NL%%ORANGE%Oath (l49):%RED% Shael Pul Mal Lum%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%TAN%Possible Runewords:}%CONTINUE% // All Axes, 4os
@@ -4172,8 +4182,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gi !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAM
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Bows, leave these alone if you want to display possible runewords on base Bows
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 BOW !ZON FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Bows, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 BOW !ZON FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Bows, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 BOW !ZON FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Bows, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 BOW !ZON FILTLVL=5]: %NAME%{%ORANGE%Zephyr (l21):%RED% Ort Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Bows, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 BOW !ZON FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Loyalty (l45):%RED% Pul Tir Dol%NL%%ORANGE%Melody (l39):%RED% Shael Ko Nef%NL%%ORANGE%Purity (l25):%RED% Amn Eth Thul%NL%%ORANGE%Edge (l25):%RED% Tir Tal Amn%NL%%TAN%Possible Runewords:}%CONTINUE% // All Bows, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 BOW !ZON FILTLVL=5]: %NAME%{%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Ice (l65):%RED% Amn Shael Jah Lo%NL%%ORANGE%Faith (l65):%RED% Ohm Jah Lem Eld%NL%%ORANGE%Brand (l65):%RED% Jah Lo Mal Gul%NL%%ORANGE%Wrath (l63):%RED% Pul Lum Ber Mal%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Voice of Reason (l43):%RED% Lem Ko El Eld%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%ORANGE%Harmony (l39):%RED% Tir Ith Sol Ko%NL%%TAN%Possible Runewords:}%CONTINUE% // All Bows, 4os
@@ -4190,8 +4199,7 @@ ItemDisplay[NMAG !INF !RW SUP SOCK=4 ELT BOW !ZON !FILTLVL=3]: %NAME%%DOT-20%%PX
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Crossbows, leave these alone if you want to display possible runewords on base Crossbows
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 XBOW FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Crossbows, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 XBOW FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Crossbows, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 XBOW FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Crossbows, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 XBOW FILTLVL=5]: %NAME%{%ORANGE%Zephyr (l21):%RED% Ort Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Crossbows, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 XBOW FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Loyalty (l45):%RED% Pul Tir Dol%NL%%ORANGE%Melody (l39):%RED% Shael Ko Nef%NL%%ORANGE%Purity (l25):%RED% Amn Eth Thul%NL%%ORANGE%Edge (l25):%RED% Tir Tal Amn%NL%%TAN%Possible Runewords:}%CONTINUE% // All Crossbows, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 XBOW FILTLVL=5]: %NAME%{%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Ice (l65):%RED% Amn Shael Jah Lo%NL%%ORANGE%Faith (l65):%RED% Ohm Jah Lem Eld%NL%%ORANGE%Brand (l65):%RED% Jah Lo Mal Gul%NL%%ORANGE%Wrath (l63):%RED% Pul Lum Ber Mal%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Voice of Reason (l43):%RED% Lem Ko El Eld%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%ORANGE%Harmony (l39):%RED% Tir Ith Sol Ko%NL%%TAN%Possible Runewords:}%CONTINUE% // All Crossbows, 4os
@@ -4218,8 +4226,7 @@ ItemDisplay[NMAG !INF !RW SOCK=4 6rx !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} 
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Daggers, leave these alone if you want to display possible runewords on base Daggers
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 DAGGER !THROWING FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Daggers, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 DAGGER !THROWING FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Daggers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 DAGGER !THROWING FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Daggers, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 DAGGER !THROWING FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All Daggers, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 DAGGER !THROWING FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Daggers, 3os
 
@@ -4268,8 +4275,7 @@ ItemDisplay[NMAG ID CLVL<30 JAV !ZON !FILTLVL=3]: // Show all white Javelins unt
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Clubs, leave these alone if you want to display possible runewords on base Clubs
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Clubs, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Clubs, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Clubs, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 (clb OR 9cl OR 7cl OR spc OR 9sp OR 7sp) FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%ORANGE%Neophyte (l23):%RED% Thul Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All Clubs, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 (9sp OR 7sp) FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Black (l35):%RED% Thul Io Nef%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Clubs, 3os
 
@@ -4306,8 +4312,7 @@ ItemDisplay[NMAG !INF !RW SK247>2 (clb OR spc OR 9cl OR 9sp OR 7cl OR 7sp) !FILT
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Hammers, leave these alone if you want to display possible runewords on base Hammers
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Hammers, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Hammers, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Hammers, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All Hammers, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Lawbringer (l43):%RED% Amn Lem Ko%NL%%ORANGE%Black (l35):%RED% Thul Io Nef%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Hammers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 (whm OR 9wh OR 7wh OR mau OR 9m9 OR 7m7 OR gma OR 9gm OR 7gm) FILTLVL=5]: %NAME%{%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Famine (l65):%RED% Fal Ohm Ort Jah%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%TAN%Possible Runewords:}%CONTINUE% // All Hammers, 4os
@@ -4336,8 +4341,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gm !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAM
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Maces, leave these alone if you want to display possible runewords on base Maces
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Maces, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Maces, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Maces, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 (mac OR 9ma OR 7ma OR mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%ORANGE%Steel (l13):%RED% Tir El%NL%%TAN%Possible Runewords:}%CONTINUE% // All Maces, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 (mst OR 9mt OR 7mt OR fla OR 9fl OR 7fl) FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Black (l35):%RED% Thul Io Nef%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Maces, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 (fla OR 9fl OR 7fl) FILTLVL=5]: %NAME%{%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Heart of the Oak (l55):%RED% Ko Vex Pul Thul%NL%%ORANGE%Oath (l49)%RED% Shael Pul Mal Lum%NL%%ORANGE%Voice of Reason (l43):%RED% Lem Ko El Eld%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%TAN%Possible Runewords:}%CONTINUE% // All Maces, 4os
@@ -4359,8 +4363,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=4 7fl !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAM
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Polearms, leave these alone if you want to display possible runewords on base Polearms
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 POLEARM FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Polearms, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 POLEARM FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Polearms, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 POLEARM FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Polearms, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 POLEARM FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All Polearms, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 POLEARM FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Crescent Moon (l47):%RED% Shael Um Tir%NL%%ORANGE%Purity (l25):%RED% Amn Eth Thul%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Polearms, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 POLEARM FILTLVL=5]: %NAME%{%ORANGE%Pride (l67):%RED% Cham Sur Io Lo%NL%%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Infinity (l63):%RED% Ber Mal Ber Ist%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Rift (l53):%RED% Hel Ko Lem Gul%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%ORANGE%Rampage (l29):%RED% Shael El Ith Eth%NL%%ORANGE%Insight (l27):%RED% Ral Tir Tal Sol%NL%%TAN%Possible Runewords:}%CONTINUE% // All Polearms, 4os
@@ -4423,8 +4426,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7wc !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAM
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Scepters, leave these alone if you want to display possible runewords on base Scepters
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SCEPTER FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Scepters, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 SCEPTER FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Scepters, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 SCEPTER FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Scepters, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 SCEPTER FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%ORANGE%Neophyte (l23):%RED% Thul Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All Scepters, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 SCEPTER FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Crescent Moon (l47):%RED% Shael Um Tir%NL%%ORANGE%Lawbringer (l43):%RED% Amn Lem Ko%NL%%ORANGE%Kings Grace (l25):%RED% Amn Ral Thul%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Scepters, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SCEPTER FILTLVL=5]: %NAME%{%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Rift (l53):%RED% Hel Ko Lem Gul%NL%%ORANGE%Voice of Reason (l43):%RED% Lem Ko El Eld%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%ORANGE%Holy Thunder (l21):%RED% Eth Ral Ort Tal%NL%%TAN%Possible Runewords:}%CONTINUE% // All Scepters, 4os
@@ -4466,8 +4468,7 @@ ItemDisplay[NMAG !INF !RW SK371>2 SCEPTER !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GR
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Spears, leave these alone if you want to display possible runewords on base Spears
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SPEAR !ZON FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Spears, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 SPEAR !ZON FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Spears, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 SPEAR !ZON FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Spears, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 SPEAR !ZON FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All Spears, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 SPEAR !ZON FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Crescent Moon (l47):%RED% Shael Um Tir%NL%%ORANGE%Loyalty (l45):%RED% Pul Tir Dol%NL%%ORANGE%Purity (l25):%RED% Amn Eth Thul%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Spears, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SPEAR !ZON FILTLVL=5]: %NAME%{%ORANGE%Pride (l67):%RED% Cham Sur Io Lo%NL%%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Infinity (l63):%RED% Ber Mal Ber Ist%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Rift (l53):%RED% Hel Ko Lem Gul%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%ORANGE%Rampage (l29):%RED% Shael El Ith Eth%NL%%ORANGE%Insight (l27):%RED% Ral Tir Tal Sol%NL%%TAN%Possible Runewords:}%CONTINUE% // All Spears, 4os
@@ -4513,8 +4514,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7p7 !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAM
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Staves, leave these alone if you want to display possible runewords on base Staves
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 STAFF FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Staves, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 STAFF FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Staves, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 STAFF FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Staves, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 STAFF FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%ORANGE%Neophyte (l23):%RED% Thul Tir%NL%%ORANGE%Leaf (l19):%RED% Tir Ral%NL%%TAN%Possible Runewords:}%CONTINUE% // All Staves, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 STAFF FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Purity (l25):%RED% Amn Eth Thul%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Staves, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 STAFF FILTLVL=5]: %NAME%{%ORANGE%Pride (l67):%RED% Cham Sur Io Lo%NL%%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Infinity (l63):%RED% Ber Mal Ber Ist%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Heart of the Oak (l55):%RED%}%CONTINUE%
@@ -4579,8 +4579,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 6ws !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAM
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Swords, leave these alone if you want to display possible runewords on base Swords
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 SWORD FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Swords, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 SWORD FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Swords, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 SWORD FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Swords, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 SWORD FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%ORANGE%Steel (l13):%RED% Tir El%NL%%TAN%Possible Runewords:}%CONTINUE% // All Swords, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 SWORD FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Crescent Moon (l47):%RED% Shael Um Tir%NL%%ORANGE%Lawbringer (l43):%RED% Amn Lem Ko%NL%%ORANGE%Kings Grace (l25):%RED% Amn Ral Thul%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Swords, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 SWORD FILTLVL=5]: %NAME%{%ORANGE%Hand of Justice (l67):%RED% Sur Cham Amn Lo%NL%%ORANGE%Phoenix (l65):%RED% Vex Vex Lo Jah%NL%%ORANGE%Famine (l65):%RED% Fal Ohm Ort Jah%NL%%ORANGE%Fortitude (l59):%RED% El Sol Dol Lo%NL%%ORANGE%Rift (l53):%RED% Hel Ko Lem Gul%NL%%ORANGE%Kingslayer (l53):%RED% Mal Um Gul Fal%NL%%ORANGE%Oath (l49):%RED% Shael Pul Mal Lum%NL%%ORANGE%Voice of Reason (l43):%RED% Lem Ko El Eld%NL%%ORANGE%Passion (l43):%RED% Dol Ort Eld Lem%NL%%ORANGE%Spirit (l25):%RED% Tal Thul Ort Amn%NL%%TAN%Possible Runewords:}%CONTINUE% // All Swords, 4os
@@ -4647,7 +4646,7 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7gd !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAM
 //    [BWTH] Throwing Weapons
 // ------------------------------------------------------------------------------
 // This character level is high as throw barbs can use white throwing weapons for a while while leveling
-ItemDisplay[NMAG !INF !RW SOCK=2 THROWING FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%ORANGE%Zephyr (l21):%RED% Ort Eth%NL%%ORANGE%Steel (l13):%RED% Tir El%NL%%TAN%Possible Runewords:}%CONTINUE% // All Throwing Weapons, 2os
+ItemDisplay[NMAG !INF !RW SOCK=2 THROWING FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Echo (l31):%RED% Sol Dol%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%ORANGE%Zephyr (l21):%RED% Ort Eth%NL%%ORANGE%Steel (l13):%RED% Tir El%NL%%TAN%Possible Runewords:}%CONTINUE% // All Throwing Weapons, 2os
 ItemDisplay[NMAG !INF !RW SOCK=3 THROWING FILTLVL=5]: %NAME%{%ORANGE%Plague (l67):%RED% Cham Fal Um%NL%%ORANGE%Fury (l65):%RED% Jah Gul Eth%NL%%ORANGE%Venom (l49):%RED% Tal Dol Mal%NL%%ORANGE%Crescent Moon (l47):%RED% Shael Um Tir%NL%%ORANGE%Lawbringer (l43):%RED% Amn Lem Ko%NL%%ORANGE%Kings Grace (l25):%RED% Amn Ral Thul%NL%%ORANGE%Malice (l15):%RED% Ith El Eth%NL%%TAN%Possible Runewords:}%CONTINUE% // All Throwing Weapons, 3os
 
 ItemDisplay[NMAG ID CLVL>50 !SPEAR THROWING !ZON (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109) (!FILTLVL=3 !FILTLVL=4)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
@@ -4663,8 +4662,7 @@ ItemDisplay[NMAG CLVL<40 !SPEAR THROWING !ZON FILTLVL=4]: %NAME% // Showing Thro
 // ------------------------------------------------------------------------------
 // These lines add descriptions to all Wands, leave these alone if you want to display possible runewords on base Wands
 // Please note you still have to uncomment specific base items lines to get a drop notification
-ItemDisplay[NMAG !INF !RW !SUP SOCK=0 WAND !(wnd OR ywn OR 9wn) FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Wands, 0os, Non-Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=0 WAND !(wnd OR ywn OR 9wn) FILTLVL=5]: %NAME%{%NAME%}%CONTINUE% // All Wands, 0os, Superior
+ItemDisplay[NMAG !INF !RW SOCK=0 WAND !(wnd OR ywn OR 9wn) FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Wands, 0os
 ItemDisplay[NMAG !INF !RW SOCK=2 WAND !(wnd OR ywn OR 9wn) FILTLVL=5]: %NAME%{%ORANGE%Dominion (l67):%RED% Cham Ohm%NL%%ORANGE%White (l35):%RED% Dol Io%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%TAN%Possible Runewords:}%CONTINUE% // All Wands, 2os
 
 ItemDisplay[NMAG !INF !RW CLVL<30 WAND !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Wands until character level 30
@@ -4704,12 +4702,12 @@ ItemDisplay[NMAG !INF !RW SK95>2 WAND !FILTLVL=3]: %NAME% %GRAY%[%BLUE%+3%GRAY%]
 // [BIVE] Base Items Vendor
 // ------------------------------------------------------------------------------
 // These lines add a "$" to the start of an item name if it's worth a lot of gold
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>34999 DIFF<3 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %WHITE%%NAME%{%NAME%} // For non-eth, no sockets items, all difficulties
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>34999 DIFF<3 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items, all difficulties
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>19999 DIFF<2 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %WHITE%%NAME%{%NAME%} // For non-eth, no sockets items, Normal & Nightmare difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>19999 DIFF<2 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items, Normal & Nightmare difficulty
-ItemDisplay[NMAG !RW !ETH SOCK=0 PRICE>9999 DIFF<1 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %WHITE%%NAME%{%NAME%} // For non-eth, no sockets items, Normal difficulty
-ItemDisplay[NMAG !RW (ETH OR SOCK>0) PRICE>9999 DIFF<1 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items, Normal difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 SELLPRICE>34999 DIFF<3 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %WHITE%%NAME%{%NAME%} // For non-eth, no sockets items, all difficulties
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) SELLPRICE>34999 DIFF<3 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items, all difficulties
+ItemDisplay[NMAG !RW !ETH SOCK=0 SELLPRICE>19999 DIFF<2 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %WHITE%%NAME%{%NAME%} // For non-eth, no sockets items, Normal & Nightmare difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) SELLPRICE>19999 DIFF<2 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items, Normal & Nightmare difficulty
+ItemDisplay[NMAG !RW !ETH SOCK=0 SELLPRICE>9999 DIFF<1 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %WHITE%%NAME%{%NAME%} // For non-eth, no sockets items, Normal difficulty
+ItemDisplay[NMAG !RW (ETH OR SOCK>0) SELLPRICE>9999 DIFF<1 (NORM OR EXC OR ELT) !FILTLVL=3]: %DARK_GREEN%$ %GRAY%%NAME%{%NAME%} // For eth or socketed items, Normal difficulty
 
 // ------------------------------------------------------------------------------
 // [BIMA] Base Items Master
