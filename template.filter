@@ -195,12 +195,10 @@ ItemDisplay[NMAG !RW ETH SOCK>0]: %GRAY%%NAME%[%SOCKETS%]%CONTINUE% // No space 
 ItemDisplay[ear]: //%NAME% // Hide player ears, remove "//" before "%NAME%" to show all ears
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>10]: // Hide all Low Quality, Cracked, Crude, & Damaged items past character level 10
-ItemDisplay[NMAG aqv CLVL>10]: // Hides Non-Magic Arrow quivers past character level 10
-ItemDisplay[NMAG cqv CLVL>10]: // Hides Non-Magic Bolt quivers past character level 10
 
 // Adding a failsafe to catch all non-equipment things
 // This should prevent missing of any new item codes that we don't know of
-ItemDisplay[!(ARMOR OR WEAPON OR aqv OR cqv OR (MAG (cm1 OR cm2 OR cm3 OR jew)) OR (RARE (jew)) OR gpl OR gpm OR gps OR opl OR opm OR ops OR rin OR amu OR GOLD>0 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR rvs OR rvl OR vps OR yps OR wms OR isc OR tsc OR ibk OR tbk)]: %NAME% // Showing all non-equipment items
+ItemDisplay[!(ARMOR OR WEAPON OR QUIVER OR (MAG (cm1 OR cm2 OR cm3 OR jew)) OR (RARE (jew)) OR gpl OR gpm OR gps OR opl OR opm OR ops OR rin OR amu OR GOLD>0 OR key OR hp1 OR hp2 OR hp3 OR hp4 OR hp5 OR mp1 OR mp2 OR mp3 OR mp4 OR mp5 OR rvs OR rvl OR vps OR yps OR wms OR isc OR tsc OR ibk OR tbk)]: %NAME% // Showing all non-equipment items
 
 // Unique Items
 ItemDisplay[UNI ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
@@ -221,14 +219,13 @@ ItemDisplay[SET !ID]: %NAME%%MAP-84% // Leave this uncommented to show and notif
 // Rare Items
 ItemDisplay[RARE ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ral Rune, Thul%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Amethyst%NL%Cube w/ Ko Rune, Pul%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ID NORM ARMOR !(CIRC OR aqv OR cqv)]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%NAME%}
-ItemDisplay[RARE ID EXC ARMOR !(CIRC OR aqv OR cqv)]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%NAME%}
+ItemDisplay[RARE ID NORM ARMOR !CIRC]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%NAME%}
+ItemDisplay[RARE ID EXC ARMOR !CIRC]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%NAME%}
 ItemDisplay[RARE ID NORM WEAPON]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Ort Rune, Amn%NL%%ORANGE%Upgrade Recipe:}
 ItemDisplay[RARE ID EXC WEAPON]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting%NL%%TAN%Rune, & Perfect Sapphire%NL%Cube w/ Fal Rune, Um%NL%%ORANGE%Upgrade Recipe:}
-ItemDisplay[RARE ELT !(CIRC OR aqv OR cqv)]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
+ItemDisplay[RARE ELT !CIRC]: %NAME%%CONTINUE%{%ORANGE%Rares can be used in crafting}
 
-ItemDisplay[RARE !ID aqv]: %NAME%%MAP-A8% // Shows Rare Arrow quivers
-ItemDisplay[RARE !ID cqv]: %NAME%%MAP-A8% // Shows Rare Bolt quivers
+ItemDisplay[RARE !ID QUIVER]: %NAME%%MAP-A8% // Shows Rare quivers
 
 ItemDisplay[RARE !ID amu]: %NAME%%MAP-A8% // All unidentified amulets
 ItemDisplay[RARE !ID rin]: %NAME%%MAP-A8% // All unidentified rings
@@ -266,8 +263,7 @@ ItemDisplay[MAG amu ILVL=99]: %NAME% %ORANGE%[C]{%TAN%Craft at character level 8
 
 // Magic Items
 // Arrows & Quivers
-ItemDisplay[MAG !ID aqv]: %NAME% // Shows Magic Arrow quivers
-ItemDisplay[MAG !ID cqv]: %NAME% // Shows Magic Bolt quivers
+ItemDisplay[MAG !ID QUIVER]: %NAME% // Shows Magic quivers
 
 // Amulets
 ItemDisplay[MAG !ID amu]: %NAME% // All unidentified amulets
