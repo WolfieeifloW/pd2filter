@@ -439,6 +439,7 @@ ItemDisplay[!RW INF ID ((CHEST (EXC OR ELT)) OR uit) CLVL<75]: %NAME% // Shows E
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL<30]: %NAME% // Show all Low Quality, Cracked, Crude, & Damaged items until character level 30
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>29 (MAPID=1 OR MAPID=40 OR MAPID=75 OR MAPID=103 OR MAPID=109)]: %NAME%%ORANGE% Hidden{%RED%while outside town%NL%This item is hidden%NL%%NAME%} // Showing hidden item in town and commenting it will be hidden outside of town
 ItemDisplay[!RW INF ID (ARMOR OR WEAPON) CLVL>29]: // Hide all Low Quality, Cracked, Crude, & Damaged items at character level 30+
+ItemDisplay[NMAG NORM QUIVER CLVL>10]: // Hides Non-Magic quivers past character level 10
 
 // Unique Items -----------------------------------------------------------------
 ItemDisplay[UNI ID NORM ARMOR]: %NAME%%CONTINUE%{%TAN%Rune, & Perfect Diamond%NL%Cube w/ Tal Rune, Shael%NL%%ORANGE%Upgrade Recipe:}
