@@ -1,8 +1,8 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**Yes, my filters are updated for Season 11!**  
+**Yes, my filters are updated for Season 12!**  
 
-To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/).  
+To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/) (fairly outdated).  
 I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!  
 Looking for my LoD filter? Check it out [HERE](https://github.com/WolfieeifloW/lodfilter)!
 Looking for my Last Epoch filter? Check them out [HERE](https://github.com/WolfieeifloW/lefilter)!
