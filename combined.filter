@@ -3534,7 +3534,7 @@ ItemDisplay[NMAG !INF !RW SOCK=0 8bs FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 8ws FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 5 sockets}%CONTINUE% // All Rune Staff, 0os, ilvl 1-25
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL>25 8ws FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 6 sockets}%CONTINUE% // All Rune Staff, 0os, ilvl 26+
 ItemDisplay[NMAG !INF !RW SOCK=0 6ss FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Walking Stick, 0os
-ItemDisplay[NMAG !INF !RW SOCK=0 6ls FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 3 sockets}%CONTINUE% // All Stalagmite, 0os
+ItemDisplay[NMAG !INF !RW SOCK=0 6ls FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Stalagmite, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 6cs FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Elder Staff, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 6bs FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 4 sockets}%CONTINUE% // All Shillelagh, 0os
 ItemDisplay[NMAG !INF !RW SOCK=0 ILVL<26 6ws FILTLVL=5]: %NAME%{%TAN%Larzuk quest for 5 sockets}%CONTINUE% // All Archon Staff, 0os, ilvl 1-25
@@ -4564,6 +4564,8 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=4 ELT STAFF !FILTLVL=3]: %NAME%%DOT-20%%PX-0
 // Other Staves
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 6ls !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 0os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=2 6ls !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 2os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=3 6ls !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 3os, Eth
+ItemDisplay[NMAG !INF !RW ETH SOCK=4 6ls !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Stalagmite, 4os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 6cs !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 0os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=2 6cs !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Elder Staff, 2os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 6bs !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Shillelagh, 0os, Eth
