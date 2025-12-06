@@ -113,8 +113,8 @@ ItemDisplay[rkey]: %NAME%%MAP-62%{Unlimited Key} // Skeleton Key
 // ------------------------------------------------------------------------------
 ItemDisplay[lsvl]: %PURPLE%+ %RED%Vial of Lightsong%PURPLE% +%RED%%MAP-62%{%TAN%Indestructible, Set items%NL%Bows, Crossbows,%NL%%RED%Does NOT work with:} // Vial of Lightsong
 ItemDisplay[llmr]: %PURPLE%+ %RED%Lilith's Mirror%PURPLE% +%RED%%MAP-62%{%RED%longer be used in any cube recipes!%NL%After mirroring, both items can no%NL%%NL%%TAN%quiver, armor, or jewelry to create a copy of it%NL%Cube w/ any magic rare, or crafted weapon,} // Lilith's Mirror
-ItemDisplay[lmal]: %NAME%{%TAN%regardless of item rarity%NL%Adds 1 socket to an item,} // Larzuks Malus
-ItemDisplay[imrn]: %NAME%{%TAN%what was socketed within them%NL%unique/set item as well as%NL%Maintains the sockets of a%NL%%NL%unique to reroll the stats%NL%Can be cubed with a set or} // Demonic Cube
+ItemDisplay[lmal]: %NAME%%MAP-68%{%TAN%regardless of item rarity%NL%Adds 1 socket to an item,} // Larzuks Malus
+ItemDisplay[imrn]: %NAME%%MAP-68%{%RED%IT WILL GET RID OF ANNIVERSARY SKIN%NL%DO NOT USE Demonic Cube ON THE ANNIVERSARY ITEMS%NL%%NL%%TAN%what was socketed within them%NL%unique/set item as well as%NL%Maintains the sockets of a%NL%%NL%unique to reroll the stats%NL%Can be cubed with a set or} // Demonic Cube
 
 // ------------------------------------------------------------------------------
 // [CORR] Corruption Items
