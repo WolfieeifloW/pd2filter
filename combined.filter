@@ -3730,6 +3730,9 @@ ItemDisplay[NMAG !INF !RW SOCK=4 SPEAR !THROWING ZON FILTLVL=5]: %NAME%{%ORANGE%
 ItemDisplay[NMAG !INF !RW SOCK=5 SPEAR !THROWING ZON FILTLVL=5]: %NAME%{%ORANGE%Zenith (l69):%RED% Jah Zod Ort Thul Ral%NL%%ORANGE%Doom (l67):%RED% Hel Ohm Um Lo Cham%NL%%ORANGE%Destruction (l65):%RED% Vex Lo Ber Jah Ko%NL%%ORANGE%Eternity (l63):%RED% Amn Ber Ist Sol Sur%NL%%ORANGE%Call to Arms (l57):%RED% Amn Ral Mal Ist Ohm%NL%%ORANGE%Obedience (l41):%RED% Hel Ko Thul Eth Fal%NL%%ORANGE%Honor (l27):%RED% Amn El Ith Tir Sol%NL%%TAN%Possible Runewords:}%CONTINUE% // All Amazon Spears, 5os
 ItemDisplay[NMAG !INF !RW SOCK=6 SPEAR !THROWING ZON FILTLVL=5]: %NAME%{%ORANGE%Breath of the Dying (l69):%RED% Vex Hel El Eld Zod Eth%NL%%ORANGE%Silence (l55):%RED% Dol Eld Hel Ist Tir Vex%NL%%TAN%Possible Runewords:}%CONTINUE% // All Amazon Spears, 6os
 
+ItemDisplay[NMAG !INF !RW SOCK=0 THROWING ZON FILTLVL=5]: %NAME%{%NAME%%NL%& Perfect Amethyst for sockets%NL%Cube w/ Ral Rune, Amn Rune,}%CONTINUE% // All Amazon Javelins, 0os
+ItemDisplay[NMAG !INF !RW SOCK=2 THROWING ZON FILTLVL=5]: %NAME%{%ORANGE%Wind (l61):%RED% Sur El%NL%%ORANGE%Echo (l31):%RED% Sol Dol%NL%%ORANGE%Strength (l25):%RED% Amn Tir%NL%%ORANGE%Zephyr (l21):%RED% Ort Eth%NL%%ORANGE%Steel (l13):%RED% Tir El%NL%%TAN%Possible Runewords:}%CONTINUE% // All Amazon Javelins, 2os
+
 ItemDisplay[NMAG !INF !RW CLVL<30 ZON !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Show and notify all Amazon weapons until character level 30
 
 // Amazon Bows
