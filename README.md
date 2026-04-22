@@ -1,6 +1,7 @@
 # Wolfie's Project Diablo 2 Loot Filters
 
-**Yes, my filters are updated for Season 12!**  
+**Yes, my filters are updated for Season 13!**  
+Season 13 update adds new unique items (Ephemeral, Embersworn, Skyfall, Giant Maimer, Nethercrux, Sage's Defiance), relabels Overlord's Helm from Giant Conch (`uhl`) to Giant Skull/Bone Visage (`uh9`), adds new maps (Kyovoshad, Djinn's Domain, Na-Krul's Abyss), adds the new map-orb "ears" (commented pending patch), and bumps the Perfect-Superior ED highlight from 15% to 20% (BTNeandertha1).  
 
 To see images of my filters in action please visit the [Reddit thread](https://www.reddit.com/r/ProjectDiablo2/comments/kokwu0/wolfieeiflows_pd2_filters/) (fairly outdated).  
 I have created a Discord so that you can be notified when I update my filter. Take a look [HERE](https://github.com/WolfieeifloW/pd2filter#discord) for more info!  
