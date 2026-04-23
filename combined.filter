@@ -139,15 +139,17 @@ ItemDisplay[rrra]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Reroll Rare Map%NL%} // Re
 ItemDisplay[urma]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Infused Angelic Orb)
 ItemDisplay[scrb]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%} // Horadrim Scarab
 ItemDisplay[iwss]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%Cube w/ a map to add a random event} // Catalyst Shard
+// S13 Map Orb "ears" (commented out pending S13 patch deployment; uncomment when live)
+// ItemDisplay[ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62% // S13 Map orb ears
 
 // ------------------------------------------------------------------------------
 // [MAPS] Maps & Arenas
 // ------------------------------------------------------------------------------
 // Coloring maps names
-ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
-ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
-ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
-ItemDisplay[UNI (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %GOLD%%NAME%%CONTINUE% // Coloring unique maps
+ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
+ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
+ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
+ItemDisplay[UNI (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %GOLD%%NAME%%CONTINUE% // Coloring unique maps
 
 // Not maps yet
 ItemDisplay[t10]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
@@ -164,8 +166,6 @@ ItemDisplay[t47]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%
 ItemDisplay[t48]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
 ItemDisplay[t49]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
 ItemDisplay[t50]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t57]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t58]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
 ItemDisplay[t59]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
 
 // Tier 1 Maps
@@ -198,6 +198,7 @@ ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Light, Poison, 
 ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%GREEN%(*broken w/ Infinity)%NL%%TAN%Fire, Poison%GREEN%*%TAN%, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Canyon of Sescheron
 ItemDisplay[t39]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%GREEN%(*1 of 2 broken w/ Infinity)%NL%%TAN%Fire, Cold, Poison%GREEN%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Kehjistan Marketplace
 ItemDisplay[t3a]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Cold, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Ashen Plains
+ItemDisplay[t3b]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Kyovoshad
 
 // Tier 4 Maps
 ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types (%GREEN%*%TAN%)%NL%%RED%Immunities:%NL%} // Cathedral of Light
@@ -205,18 +206,20 @@ ItemDisplay[t42]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types
 ItemDisplay[t43]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types (%GREEN%*%TAN%)%NL%%RED%Immunities:%NL%} // Sanctuary of Sin
 
 // Unique Maps
-ItemDisplay[t51]: %GOLD%++ %NAME% %GOLD%[U3]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Zhar's Sanctum
-ItemDisplay[t53]: %GOLD%++ %NAME% %GOLD%[U2]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Fallen Gardens
-ItemDisplay[t52]: %GOLD%++ %NAME% %GOLD%[U3]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // The Stygian Caverns
-ItemDisplay[t54]: %GOLD%++ %NAME% %GOLD%[U3]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Imperial Palace
-ItemDisplay[t55]: %GOLD%++ %NAME% %GOLD%[U3]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Outer Void
-ItemDisplay[t56]: %GOLD%++ %NAME% %GOLD%[U3]%MAP-53%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // City of Ureh
+ItemDisplay[t51]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Zhar's Sanctum
+ItemDisplay[t53]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Fallen Gardens
+ItemDisplay[t52]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // The Stygian Caverns
+ItemDisplay[t54]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Imperial Palace
+ItemDisplay[t55]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Outer Void
+ItemDisplay[t56]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // City of Ureh
+ItemDisplay[t57]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Djinn's Domain
+ItemDisplay[t58]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Na-Krul's Abyss
 
 // Coloring maps names
-ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
-ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
-ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
-ItemDisplay[UNI (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%GOLD%{%NAME%} // Coloring unique maps
+ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
+ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
+ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
+ItemDisplay[UNI (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%GOLD%{%NAME%} // Coloring unique maps
 
 // Arenas
 ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME%{%TAN%to open the PvP Arena%NL%Right-click in Act 1 town} // Items for PvP arenas
@@ -795,6 +798,7 @@ ItemDisplay[UNI !ID pa9 FILTLVL=2]: %NAME% [Herald of Zakarum]%MAP-A5% // Herald
 ItemDisplay[UNI !ID pac FILTLVL=2]: %NAME% [Alma Negra]%MAP-A5% // Alma Negra Sacred Rondache
 ItemDisplay[UNI !ID pae FILTLVL=2]: %NAME% [Dragonscale]%MAP-A5% // Dragonscale Zakarum Shield
 ItemDisplay[UNI !ID paf FILTLVL=2]: %NAME% [Skywarden]%MAP-A5% // Skywarden Vortex Shield
+ItemDisplay[UNI !ID pab FILTLVL=2]: %NAME% [Ephemeral]%MAP-A5% // Ephemeral Sacred Targe
 
 // ------------------------------------------------------------------------------
 //      [UCSO] Sorceress
@@ -807,6 +811,8 @@ ItemDisplay[UNI !ID oba FILTLVL=2]: %NAME% [The Oculus]%MAP-A5% // The Oculus Sw
 // Elite tier Orbs
 ItemDisplay[UNI !ID obc FILTLVL=2]: %NAME% [Eschutas Temper]%MAP-A5% // Eschuta's Temper Eldritch Orb
 ItemDisplay[UNI !ID obf FILTLVL=2]: %NAME% [Deaths Fathom]%MAP-A5% // Death's Fathom Dimensional Shard
+ItemDisplay[UNI !ID obd FILTLVL=2]: %NAME% [Embersworn]%MAP-A5% // Embersworn Demon Heart
+ItemDisplay[UNI !ID obe FILTLVL=2]: %NAME% [Skyfall]%MAP-A5% // Skyfall Vortex Orb
 
 // ------------------------------------------------------------------------------
 // [UIUA] Unique Armor
@@ -959,11 +965,11 @@ ItemDisplay[UNI !ID xh9 FILTLVL=2]: %NAME% [Vampire Gaze]%MAP-A5% // Vampire Gaz
 // Elite tier Helms
 ItemDisplay[UNI !ID uap FILTLVL=2]: %NAME% [Harlequin Crest]%MAP-A5% // Harlequin Crest Shako
 ItemDisplay[UNI !ID ulm FILTLVL=2]: %NAME% [Steel Shade]%MAP-A5% // Steel Shade Armet
-ItemDisplay[UNI !ID uhl FILTLVL=2]: %NAME% [Overlords Helm]%MAP-A5% // Overlord's Helm Giant Conch
+ItemDisplay[UNI !ID uhl FILTLVL=2]: %NAME% [Sages Defiance]%MAP-A5% // Sage's Defiance Giant Conch
 ItemDisplay[UNI !ID uhm FILTLVL=2]: %NAME% [Veil of Steel or Nightwings Veil]%MAP-A5% // Veil of Steel or Nightwing's Veil Spired Helm
 ItemDisplay[UNI !ID usk FILTLVL=2]: %NAME% [Andariels Visage]%MAP-A5% // Andariel's Visage Demonhead
 ItemDisplay[UNI !ID urn FILTLVL=2]: %NAME% [Crown of Ages]%MAP-A5% // Crown of Ages Corona
-ItemDisplay[UNI !ID uh9 FILTLVL=2]: %NAME% [Giant Skull]%MAP-A5% // Giant Skull Bone Visage
+ItemDisplay[UNI !ID uh9 FILTLVL=2]: %NAME% [Giant Skull or Overlords Helm]%MAP-A5% // Giant Skull or Overlord's Helm Bone Visage
 
 // ------------------------------------------------------------------------------
 //      [UASH] Shields
@@ -1188,6 +1194,7 @@ ItemDisplay[UNI !ID 7o7 FILTLVL=2]: %NAME% [Bonehew]%MAP-A5% // Bonehew Ogre Axe
 ItemDisplay[UNI !ID 7s8 FILTLVL=2]: %NAME% [The Reapers Toll]%MAP-A5% // The Reaper's Toll Thresher
 ItemDisplay[UNI !ID 7pa FILTLVL=2]: %NAME% [Tomb Reaver]%MAP-A5% // Tomb Reaver Cryptic Axe
 ItemDisplay[UNI !ID 7wc FILTLVL=2]: %NAME% [Stormspire]%MAP-A5% // Stormspire Giant Thresher
+ItemDisplay[UNI !ID 7vo FILTLVL=2]: %NAME% [Giant Maimer]%MAP-A5% // Giant Maimer Colossus Voulge
 
 // ------------------------------------------------------------------------------
 //      [UWSC] Scepters
@@ -1336,6 +1343,7 @@ ItemDisplay[UNI !ID 9gw FILTLVL=2]: %NAME% [Blackhand Key]%MAP-A5% // Blackhand 
 // Elite tier Wands
 ItemDisplay[UNI !ID 7bw FILTLVL=2]: %NAME% [Boneshade]%MAP-A5% // Boneshade Lich Wand
 ItemDisplay[UNI !ID 7gw FILTLVL=2]: %NAME% [Deaths Web]%MAP-A5% // Deaths's Web Unearthed Wand
+ItemDisplay[UNI !ID 7yw FILTLVL=2]: %NAME% [Nethercrux]%MAP-A5% // Nethercrux Ghost Wand
 
 ItemDisplay[UNI !ID FILTLVL=2]: %NAME% [???]%MAP-A5% // All other Unique items
 
