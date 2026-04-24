@@ -1286,13 +1286,13 @@ ItemDisplay[NMAG !INF !RW SOCK=0 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME%
 ItemDisplay[NMAG !INF !RW CLVL<75 SOCK=2 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 2os until level character level 75, below char level 91
 ItemDisplay[NMAG !INF !RW SOCK=3 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Plague, Purity, Venom%NL%Edge, Loyalty, Melody,%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 3os, below char level 91
 ItemDisplay[NMAG !INF !RW SOCK=4 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 4os, below char level 91
-ItemDisplay[NMAG !INF !RW SOCK=5 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 5os, below char level 91
+ItemDisplay[NMAG !INF !RW SOCK=5 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Mist, Zenith%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 5os, below char level 91
 
 ItemDisplay[NMAG !INF !RW SOCK=0 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Eth
 ItemDisplay[NMAG !INF !RW CLVL<75 SOCK=2 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Elite tiers, 2os until level character level 75
 ItemDisplay[NMAG !INF !RW SOCK=3 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Plague, Purity, Venom%NL%Edge, Loyalty, Melody,%NL%%TAN%Possible RWs:} // Elite tiers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
-ItemDisplay[NMAG !INF !RW SOCK=5 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
+ItemDisplay[NMAG !INF !RW SOCK=5 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Mist, Zenith%NL%%TAN%Possible RWs:} // Elite tiers, 5os
 
 //      Base Amazon Spears
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
@@ -1998,19 +1998,19 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7ga]: %NAME%%DOT-1E%{%ORANGE%Last Wish, Sil
 ItemDisplay[NMAG !INF !RW SUP ED=20 SOCK=4 ELT BOW !ZON]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // 4os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<93 BOW !ZON]: %NAME%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // 4os for Harmony
 ItemDisplay[NMAG !INF !RW SUP SOCK=4 CLVL<93 ELT BOW !ZON]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=5 CLVL<93 ELT BOW !ZON]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=5 CLVL<93 ELT BOW !ZON]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%%TAN%Possible RWs:} // 5os, Superior
 
 //      Base Crossbows
 //          Colossus Crossbow
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 6hx]: %NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // Colossus Crossbow, 0os, Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=4 6hx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Colossus Crossbow, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=5 6hx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // Colossus Crossbow, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=5 6hx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%%TAN%Possible RWs:} // Colossus Crossbow, 5os, Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=6 6hx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Colossus Crossbow, 6os, Superior
 
 //          Demon Crossbow
 ItemDisplay[NMAG !INF !RW SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Demon Crossbow, 0os, all variants
 ItemDisplay[NMAG !INF !RW SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Demon Crossbow, 4os, all variants
-ItemDisplay[NMAG !INF !RW SOCK=5 6rx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // Demon Crossbow, 5os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=5 6rx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%%TAN%Possible RWs:} // Demon Crossbow, 5os, all variants
 
 //      Base Daggers
 //          Fanged Knife
