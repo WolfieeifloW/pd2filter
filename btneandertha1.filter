@@ -86,8 +86,7 @@ ItemDisplay[rrra]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Reroll Rare Map%NL%} // Re
 ItemDisplay[urma]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Infused Angelic Orb)
 ItemDisplay[scrb]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon%NL%} // Horadrim Scarab
 ItemDisplay[iwss]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%Cube w/ a map to add a random event} // Catalyst Shard
-// S13 Map Orb "ears" (commented out pending S13 patch deployment; uncomment when live)
-// ItemDisplay[ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62% // S13 Map orb ears
+ItemDisplay[ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62% // S13 Map orb ears
 
 // Maps & Arenas -------------------------------------------------------------------------
 // Coloring maps names
@@ -114,35 +113,35 @@ ItemDisplay[t50]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED
 ItemDisplay[t59]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Not actually a map (yet); just being safe
 
 // Tier 1 Maps
-ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Horazon's Memory
-ItemDisplay[t15]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%GREEN%(*broken w/ Infinity)%NL%%TAN%Cold, Poison%GREEN%*%TAN%, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Royal Crypts
-ItemDisplay[t17]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Hall of Torture
-ItemDisplay[t22]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Torajan Jungle
-ItemDisplay[t23]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Fire, Light%YELLOW%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Arreat Battlefield
-ItemDisplay[t25]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Light, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sewers of Harrogath
-ItemDisplay[t26]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Shadows of Westmarch
-ItemDisplay[t36]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Fall of Caldeum
+ItemDisplay[t11]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Cold, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruins of Viz-jun
+ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Light, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Horazon's Memory
+ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Cold, Magic, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Bastion Keep
+ItemDisplay[t14]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Light, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sanatorium
+ItemDisplay[t15]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Royal Crypts
+ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruined Cistern
+ItemDisplay[t17]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Cold, Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Hall of Torture
 
 // Tier 2 Maps
-ItemDisplay[t11]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruins of Viz-jun
-ItemDisplay[t13]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Cold, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Bastion Keep
-ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%YELLOW%(*1 of 2 broken w/ Infinity)%NL%%GREEN%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%TAN%, Poison%GREEN%*%TAN%, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Tomb of Zoltun Kulle
-ItemDisplay[t27]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Cold, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Demon Road
-ItemDisplay[t28]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Light, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Skovos Stronghold
-ItemDisplay[t31]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Cold, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // River of Blood
-ItemDisplay[t33]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%BLUE%(*broken w/ Infinity)%NL%%TAN%Fire, Cold%BLUE%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Lost Temple
-ItemDisplay[t34]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Light, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ancestral Trial
+ItemDisplay[t21]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Phlegethon
+ItemDisplay[t22]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Cold, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Torajan Jungle
+ItemDisplay[t23]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Light, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Arreat Battlefield
+ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Tomb of Zoltun Kulle
+ItemDisplay[t25]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sewers of Harrogath
+ItemDisplay[t26]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Shadows of Westmarch
+ItemDisplay[t27]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Light, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Demon Road
+ItemDisplay[t28]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Cold, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Skovos Stronghold
 
 // Tier 3 Maps
-ItemDisplay[t14]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Light, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Sanatorium
-ItemDisplay[t16]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%BLUE%(*broken w/ Infinity)%NL%%TAN%Light, Cold%BLUE%*%TAN%, Magic%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ruined Cistern
-ItemDisplay[t21]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Phlegethon
-ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Throne of Insanity
+ItemDisplay[t31]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Light, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // River of Blood
+ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Throne of Insanity
+ItemDisplay[t33]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Cold, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Lost Temple
+ItemDisplay[t34]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ancestral Trial
 ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Blood Moon
-ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Light, Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Pandemonium Citadel
-ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%GREEN%(*broken w/ Infinity)%NL%%TAN%Fire, Poison%GREEN%*%TAN%, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Canyon of Sescheron
-ItemDisplay[t39]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%GREEN%(*1 of 2 broken w/ Infinity)%NL%%TAN%Fire, Cold, Poison%GREEN%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Kehjistan Marketplace
-ItemDisplay[t3a]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Cold, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ashen Plains
+ItemDisplay[t36]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Light, Magic, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Fall of Caldeum
+ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Cold, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Pandemonium Citadel
+ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Canyon of Sescheron
+ItemDisplay[t39]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Kehjistan Marketplace
+ItemDisplay[t3a]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Ashen Plains
 ItemDisplay[t3b]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Kyovoshad
 
 // Tier 4 Maps
@@ -156,8 +155,8 @@ ItemDisplay[t53]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED
 ItemDisplay[t52]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // The Stygian Caverns
 ItemDisplay[t54]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Imperial Palace
 ItemDisplay[t55]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Outer Void
-ItemDisplay[t56]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // City of Ureh
-ItemDisplay[t57]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Djinn's Domain
+ItemDisplay[t56]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // City of Ureh
+ItemDisplay[t57]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%Fire, Light, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Djinn's Domain
 ItemDisplay[t58]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open%NL%Requires level 80} // Na-Krul's Abyss
 
 // Coloring maps names
@@ -1287,13 +1286,13 @@ ItemDisplay[NMAG !INF !RW SOCK=0 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME%
 ItemDisplay[NMAG !INF !RW CLVL<75 SOCK=2 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 2os until level character level 75, below char level 91
 ItemDisplay[NMAG !INF !RW SOCK=3 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Plague, Purity, Venom%NL%Edge, Loyalty, Melody,%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 3os, below char level 91
 ItemDisplay[NMAG !INF !RW SOCK=4 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 4os, below char level 91
-ItemDisplay[NMAG !INF !RW SOCK=5 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 5os, below char level 91
+ItemDisplay[NMAG !INF !RW SOCK=5 TABSK0>2 CLVL<91 (NORM OR EXC) ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Mist, Zenith%NL%%TAN%Possible RWs:} // Normal & Exceptional tiers, 5os, below char level 91
 
 ItemDisplay[NMAG !INF !RW SOCK=0 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Eth
 ItemDisplay[NMAG !INF !RW CLVL<75 SOCK=2 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Zephyr%NL%%TAN%Possible RWs:} // Elite tiers, 2os until level character level 75
 ItemDisplay[NMAG !INF !RW SOCK=3 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Plague, Purity, Venom%NL%Edge, Loyalty, Melody,%NL%%TAN%Possible RWs:} // Elite tiers, 3os
 ItemDisplay[NMAG !INF !RW SOCK=4 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Elite tiers, 4os
-ItemDisplay[NMAG !INF !RW SOCK=5 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // Elite tiers, 5os
+ItemDisplay[NMAG !INF !RW SOCK=5 TABSK0>2 ELT ZON BOW]: %NAME% %GRAY%[%BLUE%+3 Bow%GRAY%]%WHITE%%DOT-1E%{%ORANGE%Mist, Zenith%NL%%TAN%Possible RWs:} // Elite tiers, 5os
 
 //      Base Amazon Spears
 ItemDisplay[NMAG !INF !RW !ETH SOCK=0 TABSK2>2 ELT SPEAR !THROWING ZON]: %NAME% %GRAY%[%BLUE%+3 Jav%GRAY%]%WHITE%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Elite tiers, 0os, Non-Superior, Non-Eth
@@ -1999,19 +1998,19 @@ ItemDisplay[NMAG !INF !RW ETH SOCK=6 7ga]: %NAME%%DOT-1E%{%ORANGE%Last Wish, Sil
 ItemDisplay[NMAG !INF !RW SUP ED=20 SOCK=4 ELT BOW !ZON]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // 4os, Superior
 ItemDisplay[NMAG !INF !RW SOCK=4 CLVL<93 BOW !ZON]: %NAME%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // 4os for Harmony
 ItemDisplay[NMAG !INF !RW SUP SOCK=4 CLVL<93 ELT BOW !ZON]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=5 CLVL<93 ELT BOW !ZON]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=5 CLVL<93 ELT BOW !ZON]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%%TAN%Possible RWs:} // 5os, Superior
 
 //      Base Crossbows
 //          Colossus Crossbow
 ItemDisplay[NMAG !INF !RW SUP SOCK=0 6hx]: %NAME%%DOT-20%%PX-00%{%TAN%Larzuk for sockets} // Colossus Crossbow, 0os, Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=4 6hx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Colossus Crossbow, 4os, Superior
-ItemDisplay[NMAG !INF !RW SUP SOCK=5 6hx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // Colossus Crossbow, 5os, Superior
+ItemDisplay[NMAG !INF !RW SUP SOCK=5 6hx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%%TAN%Possible RWs:} // Colossus Crossbow, 5os, Superior
 ItemDisplay[NMAG !INF !RW SUP SOCK=6 6hx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Breath of the Dying, Silence%NL%%TAN%Possible RWs:} // Colossus Crossbow, 6os, Superior
 
 //          Demon Crossbow
 ItemDisplay[NMAG !INF !RW SOCK=0 6rx]: %NAME%%DOT-20%%PX-00%{%TAN%& Perfect Amethyst for sockets%NL%Larzuk or cube w/ Ral Rune, Amn Rune,} // Demon Crossbow, 0os, all variants
 ItemDisplay[NMAG !INF !RW SOCK=4 6rx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Phoenix, Voice of Reason, Wrath%NL%Hand of Justice, Ice, Passion,%NL%Brand, Faith, Fortitude, Harmony,%NL%%TAN%Possible RWs:} // Demon Crossbow, 4os, all variants
-ItemDisplay[NMAG !INF !RW SOCK=5 6rx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%Call to Arms,%NL%%TAN%Possible RWs:} // Demon Crossbow, 5os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=5 6rx]: %NAME%%DOT-20%%PX-00%{%ORANGE%Mist, Zenith%NL%%TAN%Possible RWs:} // Demon Crossbow, 5os, all variants
 
 //      Base Daggers
 //          Fanged Knife
