@@ -86,8 +86,7 @@ ItemDisplay[rrra]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Reroll Rare Map%NL%} // Re
 ItemDisplay[urma]: %NAME%%WHITE% x%QTY%%GOLD%{%ORANGE%Upgrade Magic to Rare%NL%} // Upgrade Magic Map to Rare Map (Infused Angelic Orb)
 ItemDisplay[scrb]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%these are intended for groups!%NL%%RED%WARNING:%NL%%NL%%TAN%create a group dungeon%NL%Cube w/ a Tier 3 map to%NL%%ORANGE%Create Group Dungeon%NL%} // Horadrim Scarab
 ItemDisplay[iwss]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62%{%TAN%Cube w/ a map to add a random event} // Catalyst Shard
-// S13 Map Orb "ears" (commented out pending S13 patch deployment; uncomment when live)
-// ItemDisplay[ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62% // S13 Map orb ears
+ItemDisplay[ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives]: %NAME%%WHITE% x%QTY%%GOLD%%MAP-62% // S13 Map orb ears
 
 // Maps & Arenas -------------------------------------------------------------------------
 // Coloring maps names
