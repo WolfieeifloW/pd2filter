@@ -145,83 +145,84 @@ ItemDisplay[ivea OR ivez OR iveb OR ived OR iven OR ivep OR ives]: %NAME%%WHITE%
 // [MAPS] Maps & Arenas
 // ------------------------------------------------------------------------------
 // Coloring maps names
-ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
-ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
-ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
-ItemDisplay[UNI (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %GOLD%%NAME%%CONTINUE% // Coloring unique maps
+ItemDisplay[NMAG MAPTIER>0]: %WHITE%%NAME%%CONTINUE% // Coloring white maps
+ItemDisplay[MAG MAPTIER>0]: %BLUE%%NAME%%CONTINUE% // Coloring magic maps
+ItemDisplay[RARE MAPTIER>0]: %YELLOW%%NAME%%CONTINUE% // Coloring rare maps
+ItemDisplay[UNI MAPTIER>0]: %GOLD%%NAME%%CONTINUE% // Coloring unique maps
+
+// Displaying the Tier of the map in it's name
+ItemDisplay[MAPTIER=0]: + %NAME% [PvP]%MAP-20%%CONTINUE%
+ItemDisplay[MAPTIER=1]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%
+ItemDisplay[MAPTIER=2]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%
+ItemDisplay[MAPTIER=3]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%
+ItemDisplay[MAPTIER=4]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%
+ItemDisplay[MAPTIER=5]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%
+ItemDisplay[MAPTIER>0]: %NAME%%CONTINUE%{%TAN%Right-click in Act 5 town to open}
 
 // Not maps yet
-ItemDisplay[t10]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t18]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t19]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-80%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t20]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t29]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-A8%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t30]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t40]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t44]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t45]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t46]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t47]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t48]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t49]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t50]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t59]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-
-// Tier 1 Maps
-ItemDisplay[t11]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Cold, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Ruins of Viz-jun
-ItemDisplay[t12]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Light, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Horazon's Memory
-ItemDisplay[t13]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Cold, Magic, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Bastion Keep
-ItemDisplay[t14]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Light, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Sanatorium
-ItemDisplay[t15]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // The Royal Crypts
-ItemDisplay[t16]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Ruined Cistern
-ItemDisplay[t17]: %DARK_GREEN%+ %NAME% %DARK_GREEN%[T1]%MAP-77%%CONTINUE%{%TAN%Cold, Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Hall of Torture
-
-// Tier 2 Maps
-ItemDisplay[t21]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Phlegethon
-ItemDisplay[t22]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Cold, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Torajan Jungle
-ItemDisplay[t23]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Light, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Arreat Battlefield
-ItemDisplay[t24]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Tomb of Zoltun Kulle
-ItemDisplay[t25]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Sewers of Harrogath
-ItemDisplay[t26]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Shadows of Westmarch
-ItemDisplay[t27]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Fire, Light, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Demon Road
-ItemDisplay[t28]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%{%TAN%Cold, Poison%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Skovos Stronghold
-
-// Tier 3 Maps
-ItemDisplay[t31]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Light, Poison, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // River of Blood
-ItemDisplay[t32]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Throne of Insanity
-ItemDisplay[t33]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Cold, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Lost Temple
-ItemDisplay[t34]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Light%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Ancestral Trial
-ItemDisplay[t35]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Blood Moon
-ItemDisplay[t36]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Light, Magic, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Fall of Caldeum
-ItemDisplay[t37]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Cold, Magic%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Pandemonium Citadel
-ItemDisplay[t38]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Canyon of Sescheron
-ItemDisplay[t39]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Kehjistan Marketplace
-ItemDisplay[t3a]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%Fire, Cold%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Ashen Plains
-ItemDisplay[t3b]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Kyovoshad
-
-// Tier 4 Maps
-ItemDisplay[t41]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types (%GREEN%*%TAN%)%NL%%RED%Immunities:%NL%} // Cathedral of Light
-ItemDisplay[t42]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types (%GREEN%*%TAN%)%NL%%RED%Immunities:%NL%} // Plains of Torment
-ItemDisplay[t43]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%{%TAN%All types (%GREEN%*%TAN%)%NL%%RED%Immunities:%NL%} // Sanctuary of Sin
-
-// Unique Maps
-ItemDisplay[t51]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Zhar's Sanctum
-ItemDisplay[t53]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Fallen Gardens
-ItemDisplay[t52]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // The Stygian Caverns
-ItemDisplay[t54]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Imperial Palace
-ItemDisplay[t55]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Outer Void
-ItemDisplay[t56]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // City of Ureh
-ItemDisplay[t57]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%RED%(*broken w/ Infinity)%NL%%TAN%Fire%RED%*%TAN%, Light, Cold, Poison, Phys%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Djinn's Domain
-ItemDisplay[t58]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Na-Krul's Abyss
-
-// Coloring maps names
-ItemDisplay[NMAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%WHITE%{%NAME%} // Coloring white maps
-ItemDisplay[MAG (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
-ItemDisplay[RARE (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
-ItemDisplay[UNI (t10 OR t11 OR t12 OR t13 OR t14 OR t15 OR t16 OR t17 OR t18 OR t19 OR t20 OR t21 OR t22 OR t23 OR t24 OR t25 OR t26 OR t27 OR t28 OR t29 OR t30 OR t31 OR t32 OR t33 OR t34 OR t35 OR t36 OR t37 OR t38 OR t39 OR t40 OR t41 OR t42 OR t43 OR t44 OR t45 OR t46 OR t47 OR t48 OR t49 OR t3a OR t3b OR t50 OR t51 OR t52 OR t52 OR t53 OR t54 OR t55 OR t56 OR t57 OR t58 OR t59)]: %NAME%%GOLD%{%NAME%} // Coloring unique maps
+ItemDisplay[t10]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t18]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t19]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t20]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t29]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t30]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t40]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t44]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t45]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t46]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t47]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t48]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t49]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t50]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t59]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
 
 // Arenas
-ItemDisplay[t60 OR t61 OR t62 OR t63 OR t64 OR t65 OR t66 OR t67 OR t68 OR t69]: %NAME%{%TAN%to open the PvP Arena%NL%Right-click in Act 1 town} // Items for PvP arenas
+ItemDisplay[MAPTIER=0]: %NAME%{%NAME%%NL%%TAN%to open the PvP Arena} // Items for PvP arenas
+
+// Map monster resistances
+ItemDisplay[t11]: %NAME%%CONTINUE%{%BLUE%Cold %TAN%(%BLUE%120%TAN%), Phys (115)%NL%%RED%Immunities:%NL%%NAME%} // Ruins of Viz-jun
+ItemDisplay[t12]: %NAME%%CONTINUE%{%YELLOW%Light %TAN%(%YELLOW%120%TAN%), Phys (115)%NL%%RED%Immunities:%NL%%NAME%} // Horazon's Memory
+ItemDisplay[t13]: %NAME%%CONTINUE%{%BLUE%Cold %TAN%(%BLUE%120%TAN%), Phys (115), %ORANGE%Magic %TAN%(%ORANGE%105%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Bastion Keep
+ItemDisplay[t14]: %NAME%%CONTINUE%{%YELLOW%Light %TAN%(%YELLOW%120%TAN%), %ORANGE%Magic %TAN%(%ORANGE%105%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Sanatorium
+ItemDisplay[t15]: %NAME%%CONTINUE%{%RED%Fire %TAN%(%RED%120%TAN%), %BLUE%Cold %TAN%(%BLUE%120%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // The Royal Crypts
+ItemDisplay[t16]: %NAME%%CONTINUE%{%GREEN%Poison %TAN%(%GREEN%120%TAN%), %ORANGE%Magic %TAN%(%ORANGE%105%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Ruined Cistern
+ItemDisplay[t17]: %NAME%%CONTINUE%{%BLUE%Cold %TAN%(%BLUE%120%TAN%), %YELLOW%Light %TAN%(%YELLOW%120%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Hall of Torture
+ItemDisplay[t21]: %NAME%%CONTINUE%{%RED%Fire %TAN%(%RED%120%TAN%), %GREEN%Poison %TAN%(%GREEN%120%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Phlegethon
+ItemDisplay[t22]: %NAME%%CONTINUE%{%BLUE%Cold %TAN%(%BLUE%120%TAN%), %GREEN%Poison %TAN%(%GREEN%120%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Torajan Jungle
+ItemDisplay[t23]: %NAME%%CONTINUE%{%YELLOW%Light %TAN%(%YELLOW%120%TAN%), %GREEN%Poison %TAN%(%GREEN%120%TAN%), %ORANGE%Magic %TAN%(%ORANGE%105%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Arreat Battlefield
+ItemDisplay[t24]: %NAME%%CONTINUE%{%GREEN%Poison %TAN%(%GREEN%120%TAN%), Phys (115)%NL%%RED%Immunities:%NL%%NAME%} // Tomb of Zoltun Kulle
+ItemDisplay[t25]: %NAME%%CONTINUE%{%RED%Fire %TAN%(%RED%120%TAN%), %GREEN%Poison %TAN%(%GREEN%120%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Sewers of Harrogath
+ItemDisplay[t26]: %NAME%%CONTINUE%{%RED%Fire %TAN%(%RED%120%TAN%), %ORANGE%Magic %TAN%(%ORANGE%105%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Shadows of Westmarch
+ItemDisplay[t27]: %NAME%%CONTINUE%{%RED%Fire %TAN%(%RED%120%TAN%), %YELLOW%Light %TAN%(%YELLOW%120%TAN%), Phys (115)%NL%%RED%Immunities:%NL%%NAME%} // Demon Road
+ItemDisplay[t28]: %NAME%%CONTINUE%{%BLUE%Cold %TAN%(%BLUE%120%TAN%), %GREEN%Poison %TAN%(%GREEN%120%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Skovos Stronghold
+ItemDisplay[t31]: %NAME%%CONTINUE%{%YELLOW%Light %TAN%(%YELLOW%120%TAN%), %GREEN%Poison %TAN%(%GREEN%120%TAN%), %ORANGE%Magic %TAN%(%ORANGE%105%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // River of Blood
+ItemDisplay[t32]: %NAME%%CONTINUE%{%GREEN%Poison %TAN%(%GREEN%120%TAN%), Phys (115)%NL%%RED%Immunities:%NL%%NAME%} // Throne of Insanity
+ItemDisplay[t33]: %NAME%%CONTINUE%{%BLUE%Cold %TAN%(%BLUE%120%TAN%), %ORANGE%Magic %TAN%(%ORANGE%105%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Lost Temple
+ItemDisplay[t34]: %NAME%%CONTINUE%{%RED%Fire %TAN%(%RED%120%TAN%), %YELLOW%Light %TAN%(%YELLOW%120%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Ancestral Trial
+ItemDisplay[t35]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NAME%} // Blood Moon
+ItemDisplay[t36]: %NAME%%CONTINUE%{%YELLOW%Light %TAN%(%YELLOW%120%TAN%), Phys (115), %ORANGE%Magic %TAN%(%ORANGE%105%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Fall of Caldeum
+ItemDisplay[t37]: %NAME%%CONTINUE%{%BLUE%Cold %TAN%(%BLUE%120%TAN%), %ORANGE%Magic %TAN%(%ORANGE%105%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Pandemonium Citadel
+ItemDisplay[t38]: %NAME%%CONTINUE%{%RED%Fire %TAN%(%RED%120%TAN%), Phys (115)%NL%%RED%Immunities:%NL%%NAME%} // Canyon of Sescheron
+ItemDisplay[t39]: %NAME%%CONTINUE%{%RED%Fire %TAN%(%RED%120%TAN%), Phys (115)%NL%%RED%Immunities:%NL%%NAME%} // Kehjistan Marketplace
+ItemDisplay[t3a]: %NAME%%CONTINUE%{%RED%Fire %TAN%(%RED%120%TAN%), %BLUE%Cold %TAN%(%BLUE%120%TAN%)%NL%%RED%Immunities:%NL%%NAME%} // Ashen Plains
+ItemDisplay[t3b]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NAME%} // Kyovoshad
+ItemDisplay[t41]: %NAME%%CONTINUE%{%TAN%All types (145) except Phys (120)%NL%%RED%Immunities:%NL%%NAME%} // Cathedral of Light
+ItemDisplay[t42]: %NAME%%CONTINUE%{%TAN%All types (145) except Phys (120)%NL%%RED%Immunities:%NL%%NAME%} // Plains of Torment
+ItemDisplay[t43]: %NAME%%CONTINUE%{%TAN%All types (145) except Phys (120)%NL%%RED%Immunities:%NL%%NAME%} // Sanctuary of Sin
+ItemDisplay[t51]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NAME%} // Zhar's Sanctum
+ItemDisplay[t52]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NAME%} // Warlord of Blood
+ItemDisplay[t53]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NAME%} // Fallen Gardens
+ItemDisplay[t54]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NAME%} // Imperial Palace
+ItemDisplay[t55]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NAME%} // Outer Void
+ItemDisplay[t56]: %NAME%%CONTINUE%{%YELLOW%(*broken w/ Infinity)%NL%%TAN%Light%YELLOW%*%NL%%RED%Immunities:%NL%%NAME%} // City of Ureh
+ItemDisplay[t57]: %NAME%%CONTINUE%{%RED%(*broken w/ Infinity)%NL%%RED%Fire %TAN%(%RED%110*%TAN%), %BLUE%Cold %TAN%(%BLUE%145%TAN%), %YELLOW%Light %TAN%(%YELLOW%120%TAN%), %GREEN%Poison %TAN%(%GREEN%110%TAN%), Phys (100)%NL%%RED%Immunities:%NL%%NAME%} // Djinn's Domain
+ItemDisplay[t58]: %NAME%%CONTINUE%{%TAN%None%NL%%RED%Immunities:%NL%%NAME%} // Na-Krul's Abyss
+
+// Coloring maps names
+ItemDisplay[NMAG MAPTIER>0]: %NAME%%WHITE%{%NAME%} // Coloring white maps
+ItemDisplay[MAG MAPTIER>0]: %NAME%%BLUE%{%NAME%} // Coloring magic maps
+ItemDisplay[RARE MAPTIER>0]: %NAME%%YELLOW%{%NAME%} // Coloring rare maps
+ItemDisplay[UNI MAPTIER>0]: %NAME%%GOLD%{%NAME%} // Coloring unique maps
 
 // ------------------------------------------------------------------------------
 // [DCLO] Diablo Clone Items
