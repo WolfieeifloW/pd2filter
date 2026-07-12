@@ -302,13 +302,13 @@ ItemDisplay[gpvs]: %PURPLE%+%WHITE%Perfect %PURPLE%Amethyst%WHITE% x%QTY%%DOT-20
 // ------------------------------------------------------------------------------
 // [GEDI] Diamond
 // ------------------------------------------------------------------------------
-ItemDisplay[gcw]: %WHITE%+%WHITE%Chipped %WHITE%Diamond%WHITE%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
-ItemDisplay[gfw]: %WHITE%+%WHITE%Flawed %WHITE%Diamond%WHITE%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
-ItemDisplay[gsw]: %WHITE%+%WHITE%Diamond%WHITE%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
-ItemDisplay[glw]: %WHITE%+%WHITE%Flawless %WHITE%Diamond%WHITE%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
-ItemDisplay[glws]: %WHITE%+%WHITE%Flawless %WHITE%Diamond%WHITE% x%QTY%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond%NL%} // Stacked Flawless Diamond
-ItemDisplay[gpw]: %WHITE%+%WHITE%Perfect %WHITE%Diamond%WHITE%%DOT-20%{%TAN%Used in Brilliant crafting} // Perfect Diamond
-ItemDisplay[gpws]: %WHITE%+%WHITE%Perfect %WHITE%Diamond%WHITE% x%QTY%%DOT-20%{%TAN%Used in Brilliant crafting%NL%} // Stacked Perfect Diamond
+ItemDisplay[gcw]: %ORANGE%+%WHITE%Chipped %WHITE%Diamond%WHITE%{%TAN%3 Chipped Diamond = Flawed Diamond} // Chipped Diamond
+ItemDisplay[gfw]: %ORANGE%+%WHITE%Flawed %WHITE%Diamond%WHITE%{%TAN%3 Flawed Diamond = Diamond} // Flawed Diamond
+ItemDisplay[gsw]: %ORANGE%+%WHITE%Diamond%WHITE%{%TAN%3 Diamond = Flawless Diamond} // Diamond ("Normal")
+ItemDisplay[glw]: %ORANGE%+%WHITE%Flawless %WHITE%Diamond%WHITE%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond} // Flawless Diamond
+ItemDisplay[glws]: %ORANGE%+%WHITE%Flawless %WHITE%Diamond%WHITE% x%QTY%%DOT-20%{%TAN%3 Flawless Diamond + Key = Perfect Diamond%NL%} // Stacked Flawless Diamond
+ItemDisplay[gpw]: %ORANGE%+%WHITE%Perfect %WHITE%Diamond%WHITE%%DOT-20%{%TAN%Used in Brilliant crafting} // Perfect Diamond
+ItemDisplay[gpws]: %ORANGE%+%WHITE%Perfect %WHITE%Diamond%WHITE% x%QTY%%DOT-20%{%TAN%Used in Brilliant crafting%NL%} // Stacked Perfect Diamond
 
 // ------------------------------------------------------------------------------
 // [GEEM] Emerald
@@ -4153,6 +4153,13 @@ ItemDisplay[NMAG !INF !RW !ETH SOCK=5 2ax !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NA
 ItemDisplay[NMAG !INF !RW ETH SOCK=0 72a !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 0os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=3 72a !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 3os, Eth
 ItemDisplay[NMAG !INF !RW ETH SOCK=5 72a !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Ettin Axe, 5os, Eth
+
+// War Spike
+ItemDisplay[NMAG !INF !RW SOCK=0 7mp !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Spike, 0os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=3 7mp !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Spike, 3os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=4 7mp !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Spike, 4os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=5 7mp !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Spike, 5os, all variants
+ItemDisplay[NMAG !INF !RW SOCK=6 7mp !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // War Spike, 6os, all variants
 
 // Berserker Axe
 ItemDisplay[NMAG !INF !RW SOCK=0 7wa !FILTLVL=3]: %NAME%%DOT-20%%PX-00%{%NAME%} // Berserker Axe, 0os, all variants
