@@ -157,25 +157,25 @@ ItemDisplay[MAPTIER=2]: %YELLOW%+ %NAME% %YELLOW%[T2]%MAP-6D%%CONTINUE%
 ItemDisplay[MAPTIER=3]: %RED%+ %NAME% %RED%[T3]%MAP-62%%CONTINUE%
 ItemDisplay[MAPTIER=4]: %PURPLE%+ %NAME% %PURPLE%[T4]%MAP-9B%%CONTINUE%
 ItemDisplay[MAPTIER=5]: %GOLD%++ %NAME% %GOLD%[TU]%MAP-53%%CONTINUE%
-ItemDisplay[MAPTIER>0]: %NAME%%CONTINUE%{%TAN%Right-click in Act 5 town to open}
+ItemDisplay[MAPTIER>-1]: %NAME%%CONTINUE%{%TAN%Right-click in Act 5 town to open}
 
 // Not maps yet
-ItemDisplay[t10]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t19]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t20]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t30]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t40]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t44]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t45]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t46]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t47]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t48]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t49]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t50]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
-ItemDisplay[t59]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%TAN%Right-click in Act 5 town to open} // Not actually a map (yet); just being safe
+ItemDisplay[t10]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t19]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t20]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t30]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t40]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t44]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t45]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t46]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t47]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t48]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t49]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t50]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
+ItemDisplay[t59]: %NAME%%CONTINUE%{%TAN%???%NL%%RED%Immunities:%NL%%NAME%} // Not actually a map (yet); just being safe
 
 // Arenas
-ItemDisplay[MAPTIER=0]: %NAME%{%NAME%%NL%%TAN%to open the PvP Arena} // Items for PvP arenas
+ItemDisplay[MAPTIER=0]: %NAME%{%TAN%to open the PvP Arena%NL%%NAME%} // Items for PvP arenas
 
 // Map monster resistances
 ItemDisplay[t11]: %NAME%%CONTINUE%{%BLUE%Cold %TAN%(%BLUE%120%TAN%), Phys (115)%NL%%RED%Immunities:%NL%%NAME%} // Ruins of Viz-jun
